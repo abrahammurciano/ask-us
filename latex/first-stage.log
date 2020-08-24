@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.7.6)  24 AUG 2020 23:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.7.6)  24 AUG 2020 23:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -88,21 +88,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <../ERD/erd.png, id=1, 793.96625pt x 675.52374pt>
 File: ../ERD/erd.png Graphic file (type png)
 <use ../ERD/erd.png>
-Package pdftex.def Info: ../ERD/erd.png  used on input line 5.
+Package pdftex.def Info: ../ERD/erd.png  used on input line 9.
 (pdftex.def)             Requested size: 345.0pt x 293.54123pt.
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 </home/abraham/Documents/silver-potato/latex/../ERD/erd.png>] (/home/abraham/Documents/silver-potato/latex/first-stage.aux) ) 
 Here is how much of TeX's memory you used:
- 1172 strings out of 480478
- 17510 string characters out of 5905960
+ 1173 strings out of 480478
+ 17525 string characters out of 5905960
  251990 words of memory out of 5000000
- 17227 multiletter control sequences out of 15000+600000
- 535978 words of font info for 36 fonts, out of 8000000 for 9000
+ 17228 multiletter control sequences out of 15000+600000
+ 536285 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,6n,25p,371b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,6n,25p,371b,215s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on /home/abraham/Documents/silver-potato/latex/first-stage.pdf (2 pages, 104961 bytes).
+Output written on /home/abraham/Documents/silver-potato/latex/first-stage.pdf (2 pages, 105292 bytes).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream

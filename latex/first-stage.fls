@@ -47,6 +47,7 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/abraham/Documents/silver-potato/latex/erd.tex
 INPUT /home/abraham/Documents/silver-potato/latex/erd.tex
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/abraham/Documents/silver-potato/latex/../ERD/erd.png
 INPUT /home/abraham/Documents/silver-potato/latex/../ERD/erd.png
 OUTPUT /home/abraham/Documents/silver-potato/latex/first-stage.pdf
