@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1598296354 "/home/abraham/Documents/silver-potato/latex/first-stage.tex" "/home/abraham/Documents/silver-potato/latex/first-stage.pdf" "first-stage" 1598296354
-  "/home/abraham/Documents/silver-potato/latex/first-stage.aux" 1598296354 215 58a3e209e5ff4100f5c0d5cfb9135df0 ""
+["pdflatex"] 1598298232 "/home/abraham/Documents/silver-potato/latex/first-stage.tex" "/home/abraham/Documents/silver-potato/latex/first-stage.pdf" "first-stage" 1598298232
+  "/home/abraham/Documents/silver-potato/latex/first-stage.aux" 1598298232 215 58a3e209e5ff4100f5c0d5cfb9135df0 ""
   "/home/abraham/Documents/silver-potato/latex/first-stage.tex" 1598295656 397 4e408394175d1bdca9b35c38157796f3 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1591545468 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1591545468 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -25,12 +25,12 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1593984742 334180 163417853e75f7c89e92e140d6d6e976 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1593984740 2514044 8beee2a44414d1d28c29479ac62a1a6e ""
   "erd.tex" 1598295712 38 ecd77c64906b6b528e2039eb61521bee ""
-  "first-stage.aux" 1598296354 215 58a3e209e5ff4100f5c0d5cfb9135df0 "pdflatex"
+  "first-stage.aux" 1598298232 215 58a3e209e5ff4100f5c0d5cfb9135df0 "pdflatex"
   "first-stage.tex" 1598295656 397 4e408394175d1bdca9b35c38157796f3 ""
-  "proposal.tex" 1598296353 308 ba14914609b5ae5aa9f50bebe8a72a97 ""
+  "proposal.tex" 1598298231 834 5786fb2f7b265e1c348861b76b060579 ""
   (generated)
-  "/home/abraham/Documents/silver-potato/latex/first-stage.pdf"
-  "first-stage.pdf"
-  "first-stage.log"
-  "/home/abraham/Documents/silver-potato/latex/first-stage.log"
   "first-stage.aux"
+  "/home/abraham/Documents/silver-potato/latex/first-stage.log"
+  "/home/abraham/Documents/silver-potato/latex/first-stage.pdf"
+  "first-stage.log"
+  "first-stage.pdf"
