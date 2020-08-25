@@ -46,12 +46,15 @@ INPUT c:\Users\Lenovo1\Documents\School\Third Yr\Elul\Database Project\silver-po
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 OUTPUT c:\Users\Lenovo1\Documents\School\Third Yr\Elul\Database Project\silver-potato\latex\first-stage.pdf
 INPUT C:\Users\Lenovo1\AppData\Local\MiKTeX\pdftex\config\pdftex.map
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT ..\ERD\erd.png
 INPUT ..\ERD\erd.png
 INPUT ..\ERD\erd.png
 INPUT ..\ERD\erd.png
 INPUT ..\ERD\erd.png
 INPUT c:\Users\Lenovo1\Documents\School\Third Yr\Elul\Database Project\silver-potato\latex\first-stage.aux
+INPUT C:\Users\Lenovo1\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\Lenovo1\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
