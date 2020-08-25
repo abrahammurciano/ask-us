@@ -13,7 +13,6 @@ See the entity tables below. An underlined value indicates a primary key. An \em
     \item[] \textsc{Topic} (\key{ID}, Name, Description)
     \item[] \textsc{Post} (\key{ID}, DateTime, Body, Points, \fkey{Author User ID})
     \item[] \textsc{Comment} (\key{\fkey{Post ID}}, \fkey{Parent Post ID})
-    \item[] \textsc{Q\&A Post} (\key{\fkey{Post ID}})
     \item[] \textsc{Question} (\key{\fkey{Post ID}}, Title)
     \item[] \textsc{Answer} (\key{\fkey{Post ID}}, Accepted, \fkey{Question ID})
     \item[] \textsc{Follows} (\key{User ID}, \key{Topic ID})
