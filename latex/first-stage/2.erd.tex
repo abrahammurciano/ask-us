@@ -17,14 +17,19 @@ A comment is a type of post, and is typically a short piece of text that a user 
 A topic is a way for users to categorize their questions, thus getting better targeted responses. A user can also follow a topic of interest. The topic entity will have three attributes: ID, name, and description. ID will once again be the primary key.
 
 \subsection{Relations}
-The user entity has a relation with the topic enitity, called follows. In the follows relation, there can be many topics a user can follow but it is not mandatory for a user to follow any topic. In the same light, there can be topics followed by no one or by one or many users.
+A user can `follow' a topic. In this relation, there can be many topics a user can follow but it is not mandatory for a user to follow any topic. In the same light, there can be topics followed by any number of users.
 
-The user entity also has a relation with the post enitity, called wrote. In the wrote relation, the user can write anywhere from many to no posts. A post can only be written by exactly one user.
+A user is related to the posts that they write. In this relation, the user can write anywhere from many to no posts. However, a post must be written by exactly one user.
 
-The comment enitity has two relations with the post enitity. One relation is called belongs to. In the belongs to relation, a post can have no or one or many comments. In this relation, a comment can only be a comment on exactly one post. The other relation is called is a. In the is a relation, a particular comment is related to exactly one post. In this relation, a post does not neccessarily have to be related to a comment, but if it is, it is related to exactly one comment.
+The comment entity has two relations with the post entity. One relation is called belongs to. This relation represents the fact that a specific comment has a parent post (which may also be a comment). A post can optionally have many comments, but a comment must be a child of exactly one post.
 
-The post enitity also has a relation with the Q\&A post enitity, called is a. In this relation, a particular Q\&A post  is related to exactly one post. A post doe not neccessarily have to have a relation with a Q\$A post, but if it does, it is related to exactly one Q\&A post.
+The other relation is an inheritance relation. It is an identifying relation, and is labelled `is a' in figure \ref{erd}. In this relation, a particular comment is related to exactly one post, meaning that this comment entity `extends' that post, because they are in fact the same post. In this relation, a post does not necessarily have to be related to a comment, since not all posts are comments, but if it is, it must be related to exactly one comment.
 
+Since a Q\&A post is also a type of post, it also has an inheritance relation between itself and post. This relation is identical to the inheritance relation between comment and post. Similarly, both question and answer have an identical relation between themselves and Q\&A post.
+
+Answers must also be related to the questions which they answer. A question can have zero to infinitely many answers, yet an answer must be related to exactly one question.
+
+Lastly, questions are related to topics. A question must have at least one topic, and a topic can have zero or more questions related to it.
 
 \subsection{Diagram}
 
