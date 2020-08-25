@@ -17,6 +17,13 @@ A question is what a user would post if he wanted to receive a solution to his i
 An answer is what a user would post if he wanted to give a solution to a inquiry. The answer entity has one attribute called accepted.
 
 \subsection{Relations}
+The user entity has a relation with the topic enitity, called follows. In the follows relation, there can be many topics a user can follow but it is not mandatory for a user to follow any topic. In the same light, there can be topics followed by no one or by one or many users.
+
+The user entity also has a relation with the post enitity, called wrote. In the wrote relation, the user can write anywhere from many to no posts. A post can only be written by exactly one user.
+
+The comment enitity has two relations with the post enitity. One relation is called belongs to. In the belongs to relation, a post can have no or one or many comments. In this relation, a comment can only be a comment on exactly one post. The other relation is called is a. In the is a relation, a particular comment is related to exactly one post. In this relation, a post does not neccessarily have to be related to a comment, but if it is, it is related to exactly one comment.
+
+
 
 \subsection{Diagram}
 
