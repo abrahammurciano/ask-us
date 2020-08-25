@@ -1,0 +1,38 @@
+\section{Entity Relationship Diagram}
+\subsection{Entities}
+We will have seven entities: user, post, Q\&A post, question, answer, comment, and topic.
+
+A user is any individual writing a post on Ask Us. The user entity will have five attributes: ID, name, email, password, and points. A user's points are the sum of all the points of all their posts. ID will be the primary key.
+
+A post is anything a user writes. This can either be a question, answer, or comment. The post entity wil have four attributes: ID, body, date-time, and points. Here, points is the number of points that have been awarded to any specific post. ID is the primary key.
+
+A Q\&A post is either a question or an answer that a user posts. The Q\&A post entity has no attributes of its own, since it is a weak entity. Its primary key is the post's ID.
+
+A question is what a user would post if he wanted to receive a solution to his inquiry. The question entity has one attribute called title, as well as the attributes it `inherits' from post. Since it is a weak entity, its primary key is the post's ID.
+
+An answer is what a user would post if he wanted to give a solution to a question. The answer entity has a boolean attribute called accepted. Other than that, all the rest of the attributes are `inherited' from post.
+
+A comment is a type of post, and is typically a short piece of text that a user writes beneath any other post. A comment itself has no attributes. Since it is a weak entity, its primary key is the post's ID.
+
+A topic is a way for users to categorize their questions, thus getting better targeted responses. A user can also follow a topic of interest. The topic entity will have three attributes: ID, name, and description. ID will once again be the primary key.
+
+\subsection{Relations}
+The user entity has a relation with the topic enitity, called follows. In the follows relation, there can be many topics a user can follow but it is not mandatory for a user to follow any topic. In the same light, there can be topics followed by no one or by one or many users.
+
+The user entity also has a relation with the post enitity, called wrote. In the wrote relation, the user can write anywhere from many to no posts. A post can only be written by exactly one user.
+
+The comment enitity has two relations with the post enitity. One relation is called belongs to. In the belongs to relation, a post can have no or one or many comments. In this relation, a comment can only be a comment on exactly one post. The other relation is called is a. In the is a relation, a particular comment is related to exactly one post. In this relation, a post does not neccessarily have to be related to a comment, but if it is, it is related to exactly one comment.
+
+The post enitity also has a relation with the Q\&A post enitity, called is a. In this relation, a particular Q\&A post  is related to exactly one post. A post doe not neccessarily have to have a relation with a Q\$A post, but if it does, it is related to exactly one Q\&A post.
+
+
+\subsection{Diagram}
+
+Figure \ref{erd} shows the entity relationship diagram for the database we are to make for Ask Us.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=\linewidth]{../../ERD/erd.png}
+	\caption{An ERD for the database for Ask Us}
+	\label{erd}
+\end{figure}
