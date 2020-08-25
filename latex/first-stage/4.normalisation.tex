@@ -1,0 +1,19 @@
+\section{Normalization}
+\subsection{Functional Dependencies}
+These are the functional dependencies for the user table.
+\[\text{ID} \to \text{(Name, Email, Password, Points)}\]
+These are the functional dependencies for the topic table.
+\[\text{ID} \to \text{(Name, Description)}\]
+These are the functional dependencies for the post table.
+\[\text{ID} \to \text{(DateTime, Body, Points, Author User ID)}\]
+These are the functional dependencies for the comment table.
+\[\text{Post ID} \to \text{(Parent Post ID)}\]
+These are the functional dependencies for the Question table.
+\[\text{Post ID} \to \text{(Title)}\]
+These are the functional dependencies for the Answer table.
+\[\text{Post ID} \to \text{(Accepted, Question ID)}\]
+The tables for Follows and Relates to have no functional dependencies.
+
+
+
+\subsection{Third Normal Form}
