@@ -9,13 +9,12 @@ We are to convert the ERD in the previous section into a logical schema. First w
 See the entity tables below. An underlined value indicates a primary key. An \emph{Italicized} value indicates a foreign key.
 
 \begin{itemize}
-    \item[] \textsc{User} (\key{ID}, Name, Email, Password, Points)
-    \item[] \textsc{Topic} (\key{ID}, Name, Description)
-    \item[] \textsc{Post} (\key{ID}, DateTime, Body, Points, \fkey{Author User ID})
-    \item[] \textsc{Comment} (\key{\fkey{Post ID}}, \fkey{Parent Post ID})
-    \item[] \textsc{Q\&A Post} (\key{\fkey{Post ID}})
-    \item[] \textsc{Question} (\key{\fkey{Post ID}}, Title)
-    \item[] \textsc{Answer} (\key{\fkey{Post ID}}, Accepted, \fkey{Question ID})
-    \item[] \textsc{Follows} (\key{User ID}, \key{Topic ID})
-    \item[] \textsc{Relates to} (\key{Topic ID}, \key{Post ID})
+	\item[] \textsc{User} (\key{ID}, Name, Email, Password, Points)
+	\item[] \textsc{Topic} (\key{ID}, Name, Description)
+	\item[] \textsc{Post} (\key{ID}, DateTime, Body, Points, \fkey{Author User ID})
+	\item[] \textsc{Comment} (\key{\fkey{Post ID}}, \fkey{Parent Post ID})
+	\item[] \textsc{Question} (\key{\fkey{Post ID}}, Title)
+	\item[] \textsc{Answer} (\key{\fkey{Post ID}}, Accepted, \fkey{Question ID})
+	\item[] \textsc{Follows} (\key{User ID}, \key{Topic ID})
+	\item[] \textsc{Relates to} (\key{Topic ID}, \key{Post ID})
 \end{itemize}

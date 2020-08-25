@@ -1,12 +1,10 @@
 \section{Entity Relationship Diagram}
 \subsection{Entities}
-We will have seven entities: user, post, Q\&A post, question, answer, comment, and topic.
+We will have six entities: user, post, question, answer, comment, and topic.
 
 A user is any individual writing a post on Ask Us. The user entity will have five attributes: ID, name, email, password, and points. A user's points are the sum of all the points of all their posts. ID will be the primary key.
 
 A post is anything a user writes. This can either be a question, answer, or comment. The post entity wil have four attributes: ID, body, date-time, and points. Here, points is the number of points that have been awarded to any specific post. ID is the primary key.
-
-A Q\&A post is either a question or an answer that a user posts. The Q\&A post entity has no attributes of its own, since it is a weak entity. Its primary key is the post's ID.
 
 A question is what a user would post if he wanted to receive a solution to his inquiry. The question entity has one attribute called title, as well as the attributes it `inherits' from post. Since it is a weak entity, its primary key is the post's ID.
 
@@ -25,7 +23,7 @@ The comment entity has two relations with the post entity. One relation is calle
 
 The other relation is an inheritance relation. It is an identifying relation, and is labelled `is a' in figure \ref{erd}. In this relation, a particular comment is related to exactly one post, meaning that this comment entity `extends' that post, because they are in fact the same post. In this relation, a post does not necessarily have to be related to a comment, since not all posts are comments, but if it is, it must be related to exactly one comment.
 
-Since a Q\&A post is also a type of post, it also has an inheritance relation between itself and post. This relation is identical to the inheritance relation between comment and post. Similarly, both question and answer have an identical relation between themselves and Q\&A post.
+Since a questions and answers are also types of post, they also have an inheritance relation between themselves and post. This relation is identical to the inheritance relation between comment and post.
 
 Answers must also be related to the questions which they answer. A question can have zero to infinitely many answers, yet an answer must be related to exactly one question.
 
