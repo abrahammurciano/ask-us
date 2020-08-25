@@ -11,21 +11,11 @@ See the entity tables below. An underlined value indicates a primary key. An \em
 \begin{itemize}
     \item[] \textsc{User} (\key{ID}, Name, Email, Password, Points)
     \item[] \textsc{Topic} (\key{ID}, Name, Description)
-    \item[] \textsc{Post} (\key{ID}, DateTime, Body, Points)
-    \item[] \textsc{Comment} (\key{\fkey{Post ID}})
+    \item[] \textsc{Post} (\key{ID}, DateTime, Body, Points, \fkey{Author User ID})
+    \item[] \textsc{Comment} (\key{\fkey{Post ID}}, \fkey{Parent Post ID})
     \item[] \textsc{Q\&A Post} (\key{\fkey{Post ID}})
     \item[] \textsc{Question} (\key{\fkey{Post ID}}, Title)
-    \item[] \textsc{Answer} (\key{\fkey{Post ID}}, Accepted)
-    \item[] \textsc{User} (\key{ID}, Name, Email, Password, \fkey{TeamID})
-    \item[] \textsc{Game} (\key{Timestamp}, \key{\fkey{Winning team ID}}, \key{\fkey{Losing team ID}})
-\end{itemize}
-
-See the relationship tables below.
-
-\begin{itemize}
-    \item[] \textsc{Wrote} ()
-    \item[] \textsc{Follows} ()
-    \item[] \textsc{Belongs to} ()
-    \item[] \textsc{Relates to} ()
-    \item[] \textsc{Answered} ()
+    \item[] \textsc{Answer} (\key{\fkey{Post ID}}, Accepted, \fkey{Question ID})
+    \item[] \textsc{Follows} (\key{User ID}, \key{Topic ID})
+    \item[] \textsc{Relates to} (\key{Topic ID}, \key{Post ID})
 \end{itemize}
