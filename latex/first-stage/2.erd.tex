@@ -12,7 +12,7 @@ A question is what a user would post if he wanted to receive a solution to his i
 
 An answer is what a user would post if he wanted to give a solution to a question. The answer entity has a boolean attribute called accepted, apart from the attributes listed above. Since it is a weak entity, its primary key is the post's ID.
 
-A comment is a type of post, and is typically a short piece of text that a user writes beneath any other post. A comment itself has no attributes. Since it is a weak entity, its primary key is the post's ID.
+A comment is a type of post, and is typically a short piece of text that a user writes beneath any other post. A comment itself has no other attributes, other than the ones above. Since it is a weak entity, its primary key is the post's ID.
 
 A topic is a way for users to categorize their questions, thus getting better targeted responses. A user can also follow a topic of interest. The topic entity will have three attributes: ID, name, and description. ID will once again be the primary key.
 
