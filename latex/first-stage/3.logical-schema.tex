@@ -11,10 +11,11 @@ See the entity tables below. An underlined value indicates a primary key. An \em
 \begin{itemize}
 	\item[] \textsc{User} (\key{ID}, Name, Email, Password, Points)
 	\item[] \textsc{Topic} (\key{ID}, Name, Description)
-	\item[] \textsc{Post} (\key{ID}, DateTime, Body, Points, \fkey{Author User ID})
-	\item[] \textsc{Comment} (\key{\fkey{Post ID}}, \fkey{Parent Post ID})
-	\item[] \textsc{Question} (\key{\fkey{Post ID}}, Title)
-	\item[] \textsc{Answer} (\key{\fkey{Post ID}}, Accepted, \fkey{Question ID})
+	\item[] \textsc{Post} (\key{ID})
+	\item[] \textsc{Comment} (\key{\fkey{Post ID}}, \fkey{Parent Post ID}, Body, Points, TimeStamp)
+	\item[] \textsc{Question} (\key{\fkey{Post ID}}, Title, Body, Points, TimeStamp)
+	\item[] \textsc{Answer} (\key{\fkey{Post ID}}, Accepted, \fkey{Question ID}, Body, Points, TimeStamp)
 	\item[] \textsc{Follows} (\key{User ID}, \key{Topic ID})
 	\item[] \textsc{Relates to} (\key{Topic ID}, \key{Post ID})
+	\item[] \textsc{Vote} (\key{User ID}, \key{Post ID})
 \end{itemize}
