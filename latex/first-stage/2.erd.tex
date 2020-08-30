@@ -21,6 +21,8 @@ A user can `follow' a topic. In this relation, there can be many topics a user c
 
 A user is related to the posts that they write, by writing either a question, an answer or a comment. In this relation, the user can write anywhere from many to no posts. However, a post must be written by exactly one user.
 
+A user is also related to a post by voting on it. The vote relation is a many to many relation, in that a user can vote on many to no posts and a post can be voted on by many to no users.
+
 The comment entity has two relations with the post entity. One relation is called belongs to. This relation represents the fact that a specific comment has a parent post (which may also be a comment). A post can optionally have many comments, but a comment must be a child of exactly one post.
 
 The other relation is an inheritance relation. It is an identifying relation, and is labelled `is a' in figure \ref{erd}. In this relation, a particular comment is related to exactly one post, meaning that this comment entity `extends' that post, because they are in fact the same post. In this relation, a post does not necessarily have to be related to a comment, since not all posts are comments, but if it is, it must be related to exactly one comment.
