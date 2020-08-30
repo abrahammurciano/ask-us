@@ -4,7 +4,9 @@ We will have six entities: user, post, question, answer, comment, and topic.
 
 A user is any individual writing a post on Ask Us. The user entity will have five attributes: ID, name, email, password, and points. A user's points are the sum of all the points of all their posts. ID will be the primary key.
 
-A post is anything a user writes. This can either be a question, answer, or comment. The post entity wil have four attributes: ID, body, date-time, and points. Here, points is the number of points that have been awarded to any specific post. ID is the primary key.
+A post is anything a user writes. This can either be a question, answer, or comment. The post entity will only have an ID, which is the primary key.
+
+Questions, answers, and comments will all have the following attributes, aside from the ones we will specify below. They will have a body, which is the main text that makes up that post, they must have a count of the points that they have been awarded by users
 
 A question is what a user would post if he wanted to receive a solution to his inquiry. The question entity has one attribute called title, as well as the attributes it `inherits' from post. Since it is a weak entity, its primary key is the post's ID.
 
@@ -33,7 +35,7 @@ Lastly, questions are related to topics. A question must have at least one topic
 
 Figure \ref{erd} shows the entity relationship diagram for the database we are to make for Ask Us.
 
-\begin{figure}[htb]
+\begin{figure}[p]
 	\centering
 	\includegraphics[width=\linewidth]{../../ERD/erd.png}
 	\caption{An ERD for the database for Ask Us}
