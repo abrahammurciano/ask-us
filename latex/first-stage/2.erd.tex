@@ -10,7 +10,7 @@ Questions, answers, and comments will all have the following attributes, aside f
 
 A question is what a user would post if he wanted to receive a solution to his inquiry. The question entity has other attribute called title, apart from the attributes listed above. Since it is a weak entity, its primary key is the post's ID.
 
-An answer is what a user would post if he wanted to give a solution to a question. The answer entity has a boolean attribute called accepted. Other than that, all the rest of the attributes are `inherited' from post.
+An answer is what a user would post if he wanted to give a solution to a question. The answer entity has a boolean attribute called accepted, apart from the attributes listed above. Since it is a weak entity, its primary key is the post's ID.
 
 A comment is a type of post, and is typically a short piece of text that a user writes beneath any other post. A comment itself has no attributes. Since it is a weak entity, its primary key is the post's ID.
 
