@@ -19,7 +19,7 @@ A topic is a way for users to categorize their questions, thus getting better ta
 \subsection{Relations}
 A user can `follow' a topic. In this relation, there can be many topics a user can follow, but it is not mandatory for a user to follow any topic. In the same light, there can be topics followed by any number of users.
 
-A user is related to the posts that they write. In this relation, the user can write anywhere from many to no posts. However, a post must be written by exactly one user.
+A user is related to the posts that they write, by writing either a question, an answer or a comment. In this relation, the user can write anywhere from many to no posts. However, a post must be written by exactly one user.
 
 The comment entity has two relations with the post entity. One relation is called belongs to. This relation represents the fact that a specific comment has a parent post (which may also be a comment). A post can optionally have many comments, but a comment must be a child of exactly one post.
 
