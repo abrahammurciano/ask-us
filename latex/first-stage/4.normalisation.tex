@@ -1,7 +1,10 @@
 \section{Normalization}
 \subsection{Functional Dependencies}
 These are the functional dependencies for the \textsc{User} table.
-\[\text{ID} \to \text{(Name, Email, Password, Points)}\]
+\begin{gather*}
+	\text{ID} \to \text{(Name, Email, Password, Points)} \\
+	\text{Email} \to \text{(ID, Name, Password, Points)}
+\end{gather*}
 These are the functional dependencies for the \textsc{Topic} table.
 \[\text{ID} \to \text{(Name, Description)}\]
 These are the functional dependencies for the \textsc{Comment} table.

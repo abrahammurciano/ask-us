@@ -2,7 +2,7 @@
 \subsection{Entities}
 We will have six entities: user, post, question, answer, comment, and topic.
 
-A user is an individual writing a post on Ask Us. The user entity will have five attributes: ID, name, email, password, and points. A user's points are the sum of all the points of all their posts. ID will be the primary key.
+A user is an individual writing a post on Ask Us. The user entity will have five attributes: ID, username, email, password, and points. A user's points are the sum of all the points of all their posts. ID will be the primary key.
 
 A post is anything a user writes. This can either be a question, answer, or comment. The post entity will only have an ID, which is the primary key. The purpose of this entity is mainly so that comments can have their parent post be of any type. (We can comment on questions, answers, and even other comments.)
 
@@ -14,7 +14,7 @@ The answer entity has a boolean attribute called accepted, apart from the attrib
 
 A comment is typically a short piece of text that a user writes beneath any kind of post. A comment itself has no other attributes, other than the ones above. Once again, since it is a weak entity, its primary key is its post's ID.
 
-A topic is a way for users to categorize their questions, thus getting better targeted responses. A user can also follow a topic of interest. The topic entity will have three attributes: ID, name, and description. ID will once again be the primary key.
+A topic is a way for users to categorize their questions, thus getting better targeted responses. A user can also follow a topic of interest. The topic entity will have three attributes: ID, username, and description. ID will once again be the primary key.
 
 \subsection{Relations}
 A user can `follow' a topic. In this relation, there can be many topics a user can follow, but it is not mandatory for a user to follow any topic. In the same light, topics can be followed by any number of users.
@@ -37,7 +37,7 @@ Lastly, questions are related to topics. A question must have at least one topic
 
 There are a few possible ways we can design an entity relationship diagram to suit our needs. One option is what is shown in figure \ref{erd1}. The main aspect to note is that the \textsc{Post} entity has the attributes `body', `timestamp', and `points', which all the three post types don't need to have, since they `inherit' those attributes from \textsc{Post}.
 
-\begin{figure}[htbp]
+\begin{figure}[p]
 	\centering
 	\includegraphics[width=\linewidth]{images/erd1.png}
 	\caption{The first design of the ERD}
@@ -62,7 +62,7 @@ Therefore we can conclude that the optimal approach would be to maintain the des
 
 Figure \ref{erd2} shows the final design of the entity relationship diagram for the database we are to make for Ask Us. Although the ERD is more complex, it provides the facility to use simpler and more efficient queries to retrieve the data that our system is interested in.
 
-\begin{figure}[htbp]
+\begin{figure}[p]
 	\centering
 	\includegraphics[width=\linewidth]{../../ERD/erd.png}
 	\caption{The final ERD for the database for Ask Us}
