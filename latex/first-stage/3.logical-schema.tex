@@ -15,7 +15,7 @@ See the entity tables below. An underlined value indicates a primary key. An \em
 	\item[] \textsc{Comment} (\key{\fkey{Post ID}}, \fkey{Parent Post ID}, Body, Points, TimeStamp)
 	\item[] \textsc{Question} (\key{\fkey{Post ID}}, Title, Body, Points, TimeStamp)
 	\item[] \textsc{Answer} (\key{\fkey{Post ID}}, Accepted, \fkey{Question ID}, Body, Points, TimeStamp)
-	\item[] \textsc{Follows} (\key{User ID}, \key{Topic ID})
-	\item[] \textsc{Relates to} (\key{Topic ID}, \key{Post ID})
-	\item[] \textsc{Vote} (\key{User ID}, \key{Post ID})
+	\item[] \textsc{Follows} (\key{\fkey{User ID}}, \key{\fkey{Topic ID}})
+	\item[] \textsc{Relates to} (\key{\fkey{Topic ID}}, \key{\fkey{Post ID}})
+	\item[] \textsc{Vote} (\key{\fkey{User ID}}, \key{\fkey{Post ID}})
 \end{itemize}
