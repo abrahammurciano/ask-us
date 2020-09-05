@@ -28,6 +28,18 @@ In this table, we have introduced for the first time the \verb`timestamp` field 
 
 \subsection{Answers Table}
 
-Now we come to the SQL statement for the \verb`answers` table. It is mostly identical to the \verb`questions` table, with the exception of the field \verb`accepted` which is a boolean. Since Oracle does not have a built in boolean data type, we use the number data type and limit it to one digit, and we decide that 0 means false and anything else means true.
+Now we come to the SQL statement for the \verb`answers` table. It is mostly identical to the \verb`questions` table, with the exceptions of the field \verb`accepted` which is a boolean, and the field \verb`question_id` which is the question that this answer is responding. Since Oracle does not have a built in boolean data type, we use the number data type and limit it to one digit, and we decide that 0 means false and anything else means true.
 
 \VerbatimInput[label=\fbox{\color{Black}create\_answers.sql}]{../../sql/create-table/answers.sql}
+
+\subsection{Comments Table}
+
+This table is similar to the two previous tables. The only new column is the \verb`parent_post_id` column. This column is a foreign key to the comment's direct parent.
+
+\VerbatimInput[label=\fbox{\color{Black}create\_comments.sql}]{../../sql/create-table/comments.sql}
+
+\section{Topics Table}
+
+The \verb`topics` table contains an \verb`id` column like most of the previous tables, as well as a label and a description. The label must be unique and is limited to twenty characters.
+
+\VerbatimInput[label=\fbox{\color{Black}create\_topics.sql}]{../../sql/create-table/topics.sql}
