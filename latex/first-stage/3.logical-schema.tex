@@ -1,12 +1,12 @@
 % for text un key attributes
-\newcommand{\key}[1]{\underline{#1}}
+\newcommand{\key}[1]{\underline{\smash{#1}}}
 \newcommand{\fkey}[1]{\textit{#1}}
 
 \section{Logical Schema}
 
 We are to convert the ERD in the previous section into a logical schema. First we will convert the entities into tables, and then we will add tables for some of the relations where required.
 
-See the entity tables below. An underlined value indicates a primary key. An \emph{Italicized} value indicates a foreign key.
+See the entity tables below. An \key{underlined} value indicates a primary key. An \fkey{italicized} value indicates a foreign key.
 
 \begin{itemize}
 	\item[] \textsc{User} (\key{ID}, Name, Email, Password, Points)
@@ -16,6 +16,6 @@ See the entity tables below. An underlined value indicates a primary key. An \em
 	\item[] \textsc{Question} (\key{\fkey{Post ID}}, Title, Body, Points, TimeStamp)
 	\item[] \textsc{Answer} (\key{\fkey{Post ID}}, Accepted, \fkey{Question ID}, Body, Points, TimeStamp)
 	\item[] \textsc{Follows} (\key{\fkey{User ID}}, \key{\fkey{Topic ID}})
-	\item[] \textsc{Relates to} (\key{\fkey{Topic ID}}, \key{\fkey{Post ID}})
+	\item[] \textsc{Relates to} (\key{\fkey{Post ID}}, \key{\fkey{Topic ID}})
 	\item[] \textsc{Vote} (\key{\fkey{User ID}}, \key{\fkey{Post ID}})
 \end{itemize}
