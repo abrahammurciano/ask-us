@@ -5,3 +5,6 @@ __latexindent_temp.tex
 *.fls
 *.synctex.gz
 *.pdf
+*.toc
+*.out
+!**/images/*.pdf
