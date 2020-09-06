@@ -1,1547 +1,7735 @@
-insert into topics (label, description) values ('Jobs and Careers in Politics', 'Ut sit adipisci voluptatem quisquam eius quaerat non. Sed. Consectetur consectetur consectetur quaerat quisquam neque. Dolorem tempora consectetur non. Neque dolor sit quaerat neque sit adipisci etincidunt velit. Neque etincidunt aliquam.');
-insert into topics (label, description) values ('Politics in Specific Locations', 'Dolore neque labore. Adipisci numquam amet sit numquam sed dolore aliquam ipsum. Quaerat tempora. Quiquia consectetur aliquam quisquam adipisci eius. Velit numquam velit quiquia sit sit consectetur.');
-insert into topics (label, description) values ('Political Groups, Organizations, Consultants, and Lobbyists', 'Labore voluptatem numquam magnam ut labore adipisci voluptatem velit. Ipsum porro quisquam ut. Est voluptatem tempora dolorem velit. Dolorem etincidunt dolor magnam sed adipisci sit. Etincidunt numquam eius.');
-insert into topics (label, description) values ('Political News, Entertainment, and Commentary', 'Aliquam sit modi magnam tempora quisquam. Velit velit sit. Sit aliquam aliquam tempora dolor adipisci quiquia modi. Dolor. Adipisci eius magnam sed consectetur non sed numquam. Sed amet eius modi quiquia non.');
-insert into topics (label, description) values ('Major Concepts in Politics', 'Est consectetur labore dolor. Dolore. Velit porro porro neque consectetur modi consectetur etincidunt est tempora. Amet sit quiquia adipisci sed est numquam ipsum labore sit. Eius amet non modi labore tempora ipsum quaerat etincidunt velit.');
-insert into topics (label, description) values ('Politics Interdisciplinary Topics', 'Amet velit quiquia sed etincidunt quisquam modi. Dolore dolor voluptatem aliquam dolor neque sed. Neque quiquia non. Velit numquam aliquam eius. Quisquam numquam neque labore porro.');
-insert into topics (label, description) values ('Political Science', 'Dolorem numquam labore magnam. Sed modi neque quisquam numquam aliquam adipisci non dolor. Quaerat est magnam ut porro sed etincidunt. Neque ipsum. Tempora modi. Modi velit adipisci consectetur.');
-insert into topics (label, description) values ('History of Politics', 'Velit modi aliquam modi ipsum porro dolore ipsum consectetur. Aliquam velit non sit porro dolore. Est sed labore neque modi quaerat dolore. Sit. Numquam. Etincidunt voluptatem. Ut est tempora consectetur magnam dolor numquam.');
-insert into topics (label, description) values ('Specific Types of Politics', 'Ut dolorem consectetur labore non dolor quiquia tempora etincidunt. Aliquam eius. Voluptatem adipisci velit est labore non etincidunt non dolor non. Ut. Labore tempora amet neque porro tempora quiquia.');
-insert into topics (label, description) values ('Politics and Foreign Policy', 'Ipsum sed quiquia. Porro dolor modi aliquam sit non eius eius. Eius quaerat ut aliquam tempora ipsum velit. Modi magnam tempora non ut magnam. Ut dolorem dolore dolore. Neque sit quiquia quisquam quaerat aliquam.');
-insert into topics (label, description) values ('Politics in Everyday Life', 'Amet non non dolor velit est dolorem. Tempora ipsum labore. Eius eius sit adipisci consectetur voluptatem quiquia modi ipsum. Aliquam dolore amet amet ut. Dolore quaerat labore dolorem labore dolore non quisquam velit.');
-insert into topics (label, description) values ('Political Systems', 'Quaerat dolorem labore eius dolor modi. Sed consectetur ipsum porro voluptatem velit amet quiquia quaerat ipsum. Voluptatem. Quiquia dolorem amet. Quaerat.');
-insert into topics (label, description) values ('Political Philosophy', 'Adipisci sed quiquia. Amet. Quiquia. Adipisci consectetur. Dolorem ut consectetur quisquam labore dolore. Ut voluptatem dolore dolor. Amet quaerat. Sit sed sed dolor quiquia etincidunt neque. Magnam sit sed quisquam etincidunt.');
-insert into topics (label, description) values ('Social Media and Politics', 'Modi quaerat voluptatem modi voluptatem amet neque magnam sed sed. Velit. Sit tempora sit numquam. Dolor voluptatem sit. Quaerat dolore consectetur non quaerat ut ut quisquam magnam. Dolorem dolor sit. Modi est non tempora ut sed dolore. Aliquam.');
-insert into topics (label, description) values ('Political Behavior', 'Voluptatem dolore velit magnam quiquia labore voluptatem. Amet consectetur. Sit sed dolor non magnam labore. Tempora dolore eius dolor quisquam ut. Dolor ut numquam porro consectetur labore.');
-insert into topics (label, description) values ('Political Culture', 'Neque quisquam sed quiquia dolor amet ipsum. Voluptatem porro eius porro eius. Sit. Magnam. Modi adipisci numquam ipsum dolore ipsum quiquia. Neque aliquam modi voluptatem voluptatem consectetur. Quisquam velit ipsum modi. Voluptatem.');
-insert into topics (label, description) values ('Forms of Government', 'Consectetur ut est aliquam consectetur dolore. Est sed voluptatem sed. Numquam labore sit dolor. Labore ipsum dolor labore labore. Consectetur magnam. Dolor quisquam ut ipsum neque tempora.');
-insert into topics (label, description) values ('Governments of Specific Countries', 'Quisquam non est consectetur non quisquam. Sit eius quaerat neque. Aliquam etincidunt. Dolor aliquam ipsum ut est dolore adipisci consectetur est. Modi ipsum dolorem. Etincidunt sed velit eius dolorem consectetur adipisci dolorem.');
-insert into topics (label, description) values ('Major Concepts in Government', 'Porro quisquam ut ipsum quaerat dolor. Porro etincidunt ipsum non amet aliquam quisquam. Etincidunt voluptatem ut neque dolore neque modi tempora velit. Ut dolore. Dolor est sit dolore tempora eius.');
-insert into topics (label, description) values ('Branches of Government', 'Dolore. Sed sed. Amet est sit eius non etincidunt eius tempora. Est numquam amet velit magnam magnam velit dolore tempora. Non quisquam eius ut dolorem quaerat.');
-insert into topics (label, description) values ('Governmental Programs', 'Sit ut aliquam tempora eius labore eius quaerat. Modi sed quisquam labore aliquam voluptatem adipisci dolorem eius ipsum. Quisquam modi tempora. Labore eius eius eius neque voluptatem velit dolore ipsum. Sit dolor sed consectetur.');
-insert into topics (label, description) values ('National Economies', 'Voluptatem ipsum. Voluptatem. Sit quisquam. Etincidunt. Ipsum modi dolorem ut neque velit labore. Quaerat aliquam amet labore porro.');
-insert into topics (label, description) values ('Public Goods', 'Etincidunt velit. Sit voluptatem sed magnam dolore. Sit quaerat numquam voluptatem tempora est neque. Labore labore aliquam etincidunt velit porro magnam quisquam aliquam eius. Sed adipisci dolore labore etincidunt.');
-insert into topics (label, description) values ('Government Typefaces', 'Tempora. Labore consectetur sit quisquam. Numquam. Sit non sit porro eius. Ut ut neque adipisci sit.');
-insert into topics (label, description) values ('Policies', 'Sed dolor eius voluptatem ut porro consectetur quaerat. Modi modi modi sit dolorem. Quaerat quiquia sit tempora quisquam etincidunt quisquam quisquam. Eius amet magnam adipisci consectetur non tempora dolore sed est. Eius modi ipsum ipsum consectetur.');
-insert into topics (label, description) values ('Sports Governance', 'Voluptatem porro quisquam sit dolorem. Numquam porro modi consectetur consectetur ut velit numquam. Numquam aliquam dolore numquam tempora quisquam quiquia dolorem sed. Ipsum amet sit ipsum modi dolore numquam amet. Quisquam sed ut. Quiquia.');
-insert into topics (label, description) values ('Political Governance', 'Velit quaerat non quaerat. Quisquam ut. Neque quaerat aliquam dolore quiquia dolorem magnam dolor. Dolore magnam sed quisquam aliquam. Porro ut quisquam labore ut non. Magnam labore eius porro quisquam voluptatem sit etincidunt numquam.');
-insert into topics (label, description) values ('Government in Specific Locations', 'Labore porro amet voluptatem est consectetur consectetur est. Sit non numquam velit. Ut aliquam. Velit quiquia consectetur dolore dolorem aliquam numquam est ut. Dolor ipsum. Ipsum.');
-insert into topics (label, description) values ('Careers In Government', 'Magnam. Dolorem dolorem modi adipisci consectetur. Consectetur sit amet ut adipisci velit non. Quiquia magnam porro adipisci voluptatem quisquam. Etincidunt labore sed quisquam modi ipsum modi porro adipisci.');
-insert into topics (label, description) values ('Civilian Governments', 'Ipsum quisquam ut. Consectetur quisquam non numquam modi magnam. Dolore neque sit labore amet consectetur. Voluptatem modi numquam dolor magnam velit eius. Aliquam dolor consectetur.');
-insert into topics (label, description) values ('Government Departments', 'Tempora consectetur adipisci ut ipsum numquam quaerat dolor ut. Amet dolor voluptatem. Non neque. Amet eius neque non. Aliquam. Consectetur. Dolor velit modi dolor.');
-insert into topics (label, description) values ('Government Plans', 'Consectetur est quisquam ipsum. Tempora neque quaerat ipsum tempora. Eius labore modi ut. Sit neque voluptatem. Amet non dolor porro.');
-insert into topics (label, description) values ('Major Concepts in Law', 'Quisquam voluptatem porro ipsum. Sit est est eius consectetur. Est adipisci dolorem eius ut consectetur. Amet consectetur magnam dolore etincidunt quiquia est. Quaerat dolorem ipsum est quaerat eius eius sit.');
-insert into topics (label, description) values ('Legal Issues and Law in Everyday Life', 'Non quiquia dolor. Quiquia quaerat magnam dolorem dolor sit. Adipisci ut porro velit ipsum labore tempora. Velit velit sed. Tempora quaerat amet modi. Ut ut amet non sed aliquam dolor tempora neque. Etincidunt velit etincidunt dolore.');
-insert into topics (label, description) values ('Law in Specific Countries', 'Modi labore. Tempora tempora velit numquam sit magnam sed est. Tempora consectetur aliquam modi. Velit dolor dolor. Consectetur etincidunt dolor numquam eius sit quaerat.');
-insert into topics (label, description) values ('Interdisciplinary Law', 'Etincidunt dolorem velit dolore. Neque magnam porro quaerat adipisci. Modi. Labore tempora dolore. Sit.');
-insert into topics (label, description) values ('Legal Studies', 'Dolor numquam dolor porro. Est non dolorem porro sit voluptatem est modi. Ut dolor neque ut adipisci aliquam aliquam quaerat aliquam. Modi voluptatem magnam. Porro etincidunt. Quisquam modi dolore numquam magnam velit dolor velit velit quisquam.');
-insert into topics (label, description) values ('Law in Specific Subjects or Fields', 'Non modi aliquam sit est amet sed consectetur. Est quaerat amet sed ut porro etincidunt. Velit ipsum sed sit. Amet dolor amet sit aliquam eius quaerat labore. Quaerat amet ut dolore.');
-insert into topics (label, description) values ('Police and Law Enforcement', 'Voluptatem quiquia consectetur porro magnam. Magnam labore adipisci. Quaerat velit dolorem etincidunt modi neque quiquia labore. Etincidunt velit sed magnam porro sit adipisci dolor. Non aliquam neque modi porro etincidunt quiquia quiquia eius.');
-insert into topics (label, description) values ('Legal Claims', 'Dolore modi quisquam. Modi ipsum neque aliquam dolor eius amet eius ut. Quisquam est non voluptatem numquam. Adipisci quiquia sed dolorem consectetur non etincidunt etincidunt. Ipsum dolore etincidunt ut est consectetur dolore ipsum etincidunt labore.');
-insert into topics (label, description) values ('Jobs and Careers in Law', 'Quaerat eius amet neque non magnam. Velit. Non numquam amet numquam quaerat porro aliquam magnam magnam. Est aliquam consectetur quiquia. Quiquia amet amet etincidunt.');
-insert into topics (label, description) values ('Personal Legal Question', 'Aliquam labore quiquia ut. Est porro velit sed ut non dolor modi sit aliquam. Amet. Amet ipsum adipisci. Quiquia eius etincidunt aliquam. Magnam quiquia numquam etincidunt tempora aliquam quisquam. Est modi quisquam.');
-insert into topics (label, description) values ('Legal History', 'Adipisci consectetur sit sit quaerat eius. Dolor neque eius numquam. Sed porro etincidunt. Consectetur voluptatem aliquam dolore quiquia etincidunt. Quisquam magnam velit. Non labore.');
-insert into topics (label, description) values ('Legal Education', 'Amet. Eius tempora etincidunt dolore magnam. Modi eius dolore adipisci amet quaerat dolore quiquia ut. Numquam eius numquam. Dolor neque modi velit aliquam voluptatem modi.');
-insert into topics (label, description) values ('Law Firms', 'Voluptatem voluptatem quaerat. Velit adipisci amet consectetur quiquia. Adipisci ut quiquia porro voluptatem est dolore adipisci. Neque est etincidunt aliquam porro ut. Labore modi dolor. Labore magnam dolor adipisci est velit etincidunt.');
-insert into topics (label, description) values ('Legal Professionals', 'Amet ipsum est. Amet aliquam quisquam numquam consectetur amet aliquam magnam dolorem. Neque ipsum aliquam adipisci eius dolore adipisci. Est sed neque sit velit. Numquam modi amet voluptatem ipsum sed magnam non.');
-insert into topics (label, description) values ('Legal Internships', 'Amet quaerat numquam. Adipisci sed dolor. Numquam est sit voluptatem sed numquam. Quiquia magnam modi non dolore. Est voluptatem ipsum numquam quaerat dolorem dolor velit velit quisquam.');
-insert into topics (label, description) values ('Law in Specific Locations', 'Dolore modi velit amet neque. Est voluptatem amet labore adipisci ipsum adipisci amet numquam quisquam. Magnam. Tempora amet. Etincidunt sed numquam eius.');
-insert into topics (label, description) values ('Ex Post Facto Laws', 'Quisquam ut consectetur sed sed neque quiquia non. Neque velit non non dolore quaerat consectetur. Quiquia non adipisci dolor sit eius numquam etincidunt. Quisquam eius magnam modi tempora ipsum porro. Magnam sed eius quaerat consectetur.');
-insert into topics (label, description) values ('Crime', 'Porro magnam eius numquam sit labore tempora. Dolore non porro velit. Magnam. Adipisci consectetur est aliquam ut modi consectetur quiquia. Numquam dolorem neque sit dolor sed neque. Dolorem etincidunt voluptatem.');
-insert into topics (label, description) values ('Judiciaries', 'Labore quaerat neque amet voluptatem est. Etincidunt sed non ipsum ipsum neque est dolorem. Ipsum amet labore quiquia etincidunt neque numquam ipsum. Quiquia amet dolore tempora dolor velit quisquam non. Est quisquam numquam magnam est velit quisquam.');
-insert into topics (label, description) values ('Punishment', 'Etincidunt amet voluptatem sed amet. Ipsum porro consectetur sit. Consectetur quisquam. Non modi. Velit neque dolor velit. Modi quisquam quiquia neque ut. Ipsum eius magnam dolore porro dolor aliquam ut.');
-insert into topics (label, description) values ('Specific Types of Justice', 'Eius aliquam dolore dolor est dolore. Tempora numquam adipisci sit magnam. Dolor tempora est porro. Est. Sed sed quaerat adipisci. Quisquam neque. Tempora neque adipisci sed neque. Quisquam voluptatem tempora tempora labore sit porro. Neque.');
-insert into topics (label, description) values ('Injustice', 'Consectetur adipisci quisquam. Dolor quiquia quisquam quisquam porro neque. Numquam. Amet magnam amet velit adipisci amet eius. Consectetur dolor tempora.');
-insert into topics (label, description) values ('Transitional Justice', 'Velit quaerat quisquam neque neque. Numquam velit magnam porro quisquam. Non sed porro. Ipsum labore tempora. Est magnam amet aliquam velit etincidunt eius porro tempora. Voluptatem quiquia non. Quisquam quaerat. Tempora tempora.');
-insert into topics (label, description) values ('Justice in Specific Locations', 'Numquam tempora dolor est amet dolor etincidunt. Dolorem adipisci ipsum amet quaerat modi. Sit. Quaerat labore dolorem sit. Voluptatem ipsum quaerat modi aliquam neque. Eius sed dolore est consectetur. Etincidunt ipsum.');
-insert into topics (label, description) values ('Social Justice', 'Consectetur. Etincidunt eius dolore. Voluptatem adipisci neque sed ipsum tempora quiquia voluptatem. Dolore porro. Est dolorem sit quisquam consectetur adipisci ipsum tempora sed modi. Dolor sed.');
-insert into topics (label, description) values ('International Relations', 'Aliquam dolor porro dolore est etincidunt. Dolore magnam consectetur. Quaerat voluptatem. Ipsum porro. Sit tempora eius. Quisquam dolor aliquam neque velit eius aliquam labore.');
-insert into topics (label, description) values ('International Organizations and Government', 'Dolore quaerat quisquam eius eius dolore dolorem numquam voluptatem magnam. Labore porro quaerat modi. Eius aliquam. Ut numquam non eius. Aliquam dolorem. Etincidunt etincidunt non porro est.');
-insert into topics (label, description) values ('Major Concepts in International Relations', 'Ipsum. Consectetur velit eius. Labore. Neque est ut. Neque ut quiquia dolore dolore est. Dolore dolor. Neque dolore sed est quaerat dolore sit amet eius neque. Adipisci quaerat labore etincidunt voluptatem. Quiquia numquam sit.');
-insert into topics (label, description) values ('Journals and Magazines in International Relations', 'Dolorem. Adipisci dolor. Sit adipisci consectetur neque amet sit sit sed consectetur porro. Tempora aliquam labore. Numquam aliquam quaerat porro est est dolore non. Quisquam est eius non etincidunt ipsum etincidunt. Quiquia. Porro etincidunt est eius.');
-insert into topics (label, description) values ('Current Events in World Politics', 'Consectetur modi etincidunt. Non neque non dolore quiquia quisquam velit adipisci dolore ut. Est sit magnam est velit non. Tempora ut ipsum magnam. Aliquam sed. Ut etincidunt ut voluptatem quisquam sed. Sit sit velit quisquam magnam porro ipsum aliquam.');
-insert into topics (label, description) values ('International Conflicts', 'Dolore quaerat. Voluptatem ipsum non numquam eius sit quaerat. Dolorem voluptatem non numquam labore voluptatem. Dolorem quisquam est amet velit. Labore modi est magnam magnam aliquam sit.');
-insert into topics (label, description) values ('Learning About International Relations', 'Quisquam. Ut neque quiquia. Neque sit dolorem adipisci neque labore sit. Numquam dolorem tempora etincidunt quaerat dolorem sed aliquam quaerat neque. Voluptatem velit voluptatem tempora non labore est. Porro.');
-insert into topics (label, description) values ('Jobs and Careers in International Relations', 'Amet. Neque est. Neque velit etincidunt. Sed. Voluptatem modi aliquam adipisci modi consectetur etincidunt aliquam. Neque dolore dolorem quiquia quiquia ipsum labore quiquia voluptatem quaerat.');
-insert into topics (label, description) values ('International Terrorist Organizations', 'Dolore non modi. Modi ipsum eius magnam. Numquam non tempora dolorem aliquam. Consectetur velit. Etincidunt neque voluptatem adipisci dolor quisquam sit. Etincidunt dolore sed magnam sed dolorem ipsum velit labore. Ut dolore tempora quisquam.');
-insert into topics (label, description) values ('Bilateral Relations', 'Dolor eius velit tempora aliquam quaerat velit numquam velit non. Dolorem quisquam dolorem. Aliquam ut consectetur. Quisquam dolore magnam neque tempora aliquam numquam porro eius. Tempora non.');
-insert into topics (label, description) values ('International Relations in Specific Locations', 'Quisquam quiquia. Quiquia eius quiquia consectetur neque adipisci dolor non. Neque. Non sit eius neque est ipsum numquam voluptatem. Etincidunt eius dolore. Etincidunt eius magnam amet eius sit tempora neque numquam velit.');
-insert into topics (label, description) values ('Historical International Relations', 'Dolore. Neque neque tempora sed. Modi consectetur tempora labore adipisci sed consectetur magnam velit numquam. Est modi quaerat aliquam non consectetur labore ut. Non labore neque adipisci eius neque dolore dolor ipsum.');
-insert into topics (label, description) values ('Suzerainty', 'Labore velit dolore modi non voluptatem aliquam. Dolore aliquam quaerat. Ut numquam non consectetur sed quisquam. Modi magnam modi modi ut velit. Non. Dolore tempora aliquam.');
-insert into topics (label, description) values ('International Sanctions', 'Voluptatem quiquia amet numquam. Labore magnam consectetur non velit non ipsum aliquam quisquam. Consectetur ipsum voluptatem aliquam dolorem non numquam tempora quisquam. Sit dolorem adipisci tempora neque. Labore.');
-insert into topics (label, description) values ('Brinksmanship', 'Quiquia amet quiquia. Magnam velit. Dolor dolor neque quisquam voluptatem est quisquam aliquam tempora ipsum. Quiquia amet. Est sed tempora amet est sed est sit.');
-insert into topics (label, description) values ('Public Policy', 'Quaerat dolor adipisci quisquam est dolor etincidunt velit neque ut. Sit non. Velit quiquia aliquam eius magnam ut est quaerat adipisci. Est ut. Dolor quiquia modi adipisci.');
-insert into topics (label, description) values ('Specific Types of Public Policy', 'Quaerat labore etincidunt dolore adipisci quaerat neque tempora magnam sed. Dolor quisquam dolor tempora est porro velit. Eius amet velit voluptatem velit ipsum labore adipisci amet. Porro est eius. Sed quaerat adipisci neque non dolore neque etincidunt.');
-insert into topics (label, description) values ('Public Policy Education, Careers, Organizations and History', 'Ipsum neque non numquam dolore dolore dolorem velit. Dolorem velit adipisci labore non. Dolore amet sit est numquam voluptatem dolor modi neque labore. Etincidunt modi adipisci quiquia tempora numquam dolore eius eius. Adipisci est voluptatem adipisci.');
-insert into topics (label, description) values ('Public Choice Theory', 'Est magnam numquam dolor quisquam ut amet. Dolor. Modi consectetur sit quisquam velit modi labore velit. Ut quisquam aliquam consectetur aliquam quaerat sit sed etincidunt aliquam. Magnam.');
-insert into topics (label, description) values ('Learning About Public Policy', 'Dolorem. Porro dolore labore sit non aliquam. Magnam. Sed ipsum quiquia magnam aliquam adipisci ut magnam ut. Voluptatem est modi. Consectetur ipsum non etincidunt non magnam ipsum. Eius dolor labore sit neque ut etincidunt eius non ut. Porro labore sit.');
-insert into topics (label, description) values ('Jobs and Careers in Public Policy', 'Quisquam consectetur. Quisquam sit. Amet consectetur amet non adipisci. Non ipsum dolor tempora. Labore dolorem labore numquam quiquia est quaerat. Neque porro aliquam. Sed adipisci ipsum velit.');
-insert into topics (label, description) values ('Global Issues', 'Numquam consectetur eius consectetur consectetur quiquia amet labore eius labore. Dolor. Non modi sed consectetur labore tempora etincidunt. Sit ut sed dolorem quisquam velit est dolor magnam dolor. Ut sit ipsum magnam modi magnam dolore tempora.');
-insert into topics (label, description) values ('Military', 'Consectetur porro non etincidunt aliquam non. Dolor dolore quisquam. Etincidunt tempora. Eius quaerat est quaerat. Eius. Aliquam numquam numquam ut dolore etincidunt. Adipisci quisquam numquam. Amet adipisci ut quaerat. Neque amet. Sed.');
-insert into topics (label, description) values ('Warfare', 'Quaerat dolore eius aliquam adipisci ipsum dolore. Modi dolorem modi modi magnam eius ipsum non sed amet. Est aliquam dolorem voluptatem quaerat. Dolorem dolore. Dolore modi.');
-insert into topics (label, description) values ('Military Equipment', 'Dolore quaerat ut magnam dolor quaerat sit aliquam dolore. Aliquam eius consectetur quisquam dolorem. Non quaerat est modi sit dolor. Tempora. Eius aliquam sed. Voluptatem voluptatem quisquam magnam. Aliquam dolor quisquam. Ipsum quaerat adipisci ipsum.');
-insert into topics (label, description) values ('Military Interdisciplinary Topics', 'Numquam. Adipisci. Eius numquam. Sed. Aliquam. Quiquia amet consectetur ut. Non voluptatem sit dolore quisquam est ut dolorem neque. Velit quaerat quiquia quiquia ut adipisci. Ut est voluptatem sed adipisci neque modi tempora.');
-insert into topics (label, description) values ('Espionage and Spying', 'Quiquia adipisci magnam magnam etincidunt dolore sit consectetur. Tempora quisquam. Magnam quaerat. Quaerat aliquam dolor ut dolor etincidunt velit voluptatem. Quisquam magnam sit dolorem dolorem non eius quaerat aliquam amet. Quiquia quisquam dolore.');
-insert into topics (label, description) values ('Military Defense', 'Adipisci non ut quisquam. Sed dolorem magnam aliquam. Dolor. Tempora est sit numquam sed ipsum labore tempora labore tempora. Aliquam consectetur est est. Quisquam quiquia.');
-insert into topics (label, description) values ('Military Education and Training', 'Tempora quiquia velit porro velit. Ut eius tempora dolor dolor. Ut ipsum quisquam porro. Eius dolore etincidunt sit. Quaerat est etincidunt. Non non sed quaerat quaerat.');
-insert into topics (label, description) values ('Modern Military', 'Sit dolore. Adipisci ut ipsum etincidunt. Modi quaerat consectetur ipsum est sit dolor non est sit. Quisquam porro magnam consectetur est. Sed.');
-insert into topics (label, description) values ('Military Power', 'Voluptatem quisquam. Velit modi tempora. Sed. Sit quisquam quaerat consectetur amet consectetur sit. Porro consectetur dolore adipisci numquam dolore dolore etincidunt ut modi. Labore etincidunt.');
-insert into topics (label, description) values ('Military Personnel', 'Labore modi dolore quaerat dolore est non. Sit numquam. Quaerat modi dolor. Adipisci est voluptatem dolor ipsum numquam. Dolorem neque.');
-insert into topics (label, description) values ('Defense Spending', 'Adipisci neque. Modi non consectetur quaerat. Etincidunt quaerat non etincidunt quaerat. Ipsum. Est porro porro neque non quiquia.');
-insert into topics (label, description) values ('Military Assessment', 'Labore voluptatem magnam aliquam. Modi numquam dolore dolor quisquam est. Labore tempora dolorem voluptatem ut magnam etincidunt. Consectetur. Dolorem labore eius dolor porro tempora.');
-insert into topics (label, description) values ('Military Logistics', 'Eius sit est velit ipsum. Sed velit adipisci quiquia sed quaerat dolorem. Ipsum. Velit non velit ut. Dolorem est non sit consectetur etincidunt porro ipsum.');
-insert into topics (label, description) values ('Military Animals', 'Labore quiquia. Quisquam adipisci velit ut sed labore. Sed labore non dolor modi consectetur tempora voluptatem. Modi aliquam neque sed dolorem consectetur sit. Est quisquam velit quisquam. Ipsum magnam neque.');
-insert into topics (label, description) values ('Military News', 'Non quaerat. Quiquia. Numquam dolor quaerat velit. Labore amet dolorem voluptatem labore porro. Amet. Ipsum quaerat quiquia. Amet neque.');
-insert into topics (label, description) values ('Counter-Terrorism and Counter-Insurgency', 'Quisquam sit quiquia. Velit. Neque modi voluptatem quiquia tempora velit. Etincidunt. Dolore amet quisquam numquam est etincidunt est dolore adipisci. Est sed sed magnam porro non. Quiquia dolore. Labore aliquam velit sit ipsum quaerat.');
-insert into topics (label, description) values ('Militias', 'Velit quiquia. Quaerat. Eius dolor labore. Amet dolor porro dolore ut ut ut aliquam. Velit neque numquam. Modi est ut labore. Voluptatem sed porro ipsum non tempora modi ipsum.');
-insert into topics (label, description) values ('Military Insignia and Symbols', 'Etincidunt adipisci labore amet eius sed. Adipisci modi est velit quaerat. Labore consectetur modi numquam ut. Amet etincidunt dolorem voluptatem consectetur sit ipsum dolorem quiquia numquam. Porro modi. Dolore etincidunt velit consectetur sit.');
-insert into topics (label, description) values ('Military in Specific Locations', 'Ut. Voluptatem labore aliquam quaerat quaerat amet dolore ut. Modi. Quiquia voluptatem dolorem eius etincidunt dolorem amet. Adipisci sit ut est labore neque.');
-insert into topics (label, description) values ('Armed Forces', 'Velit eius eius quiquia quaerat ut. Quaerat. Dolore voluptatem. Consectetur labore numquam neque. Consectetur aliquam. Amet sit tempora aliquam amet neque voluptatem labore neque. Est dolor voluptatem modi neque.');
-insert into topics (label, description) values ('Military Preparedness', 'Adipisci non consectetur sed dolorem sed quaerat ipsum quaerat quaerat. Ut sed adipisci aliquam tempora dolor modi. Adipisci eius porro ut. Sit. Dolorem quisquam. Tempora labore aliquam dolore neque velit sit aliquam ipsum quiquia. Modi.');
-insert into topics (label, description) values ('Military History and Wars', 'Ipsum ipsum aliquam non velit non. Quisquam. Quaerat amet etincidunt amet quiquia labore dolorem velit neque quisquam. Sit quisquam voluptatem eius. Neque dolor. Dolor ut.');
-insert into topics (label, description) values ('Law and Politics', 'Consectetur consectetur dolor non. Velit dolor magnam. Neque. Velit aliquam amet ipsum aliquam ipsum quiquia dolore numquam sit. Numquam aliquam tempora dolorem. Non labore neque quaerat dolor magnam. Eius est sed sit.');
-insert into topics (label, description) values ('Piracy (general)', 'Tempora. Tempora velit consectetur ut sit. Eius porro non porro velit non velit. Ut dolorem. Quaerat. Dolor tempora non est quisquam.');
-insert into topics (label, description) values ('Intellectual Property Piracy', 'Est ut dolorem voluptatem modi magnam consectetur. Voluptatem dolorem non non quisquam quisquam eius. Sed dolorem porro velit. Sit adipisci non ut ipsum dolorem. Eius quaerat neque voluptatem eius non. Numquam sed neque. Porro non dolor dolorem.');
-insert into topics (label, description) values ('Maritime Piracy', 'Dolorem neque ipsum labore aliquam aliquam. Amet dolor consectetur sit eius porro aliquam. Modi magnam quiquia dolore. Consectetur consectetur dolore numquam. Adipisci quisquam. Quaerat adipisci. Ipsum adipisci labore sed aliquam. Eius. Dolor.');
-insert into topics (label, description) values ('Humanities', 'Numquam porro. Modi eius dolore amet quaerat. Sed ut labore adipisci quiquia porro quiquia dolor aliquam quaerat. Quaerat. Quiquia neque quiquia neque amet dolorem est.');
-insert into topics (label, description) values ('History', 'Eius labore velit quaerat. Ipsum sit dolorem aliquam porro porro. Quisquam labore dolorem voluptatem magnam. Quisquam non non eius quisquam dolor aliquam amet eius. Quisquam etincidunt. Magnam quiquia labore ipsum sit sit amet non adipisci.');
-insert into topics (label, description) values ('World History', 'Sed aliquam est dolore dolore amet. Magnam aliquam neque quisquam numquam. Adipisci consectetur sed etincidunt non. Est quisquam magnam voluptatem adipisci. Sit voluptatem voluptatem velit modi magnam non sed.');
-insert into topics (label, description) values ('History of Specific Countries', 'Magnam sed labore. Sit dolor sed est sed aliquam adipisci neque labore sit. Magnam non voluptatem ut quiquia numquam. Porro quisquam dolor dolor magnam sed adipisci. Sit dolor neque.');
-insert into topics (label, description) values ('History of Specific Fields', 'Ipsum ut. Etincidunt neque. Quisquam dolorem modi neque labore voluptatem magnam etincidunt. Magnam neque. Non. Sit labore porro aliquam. Sed labore dolore sed quisquam dolor dolore quaerat. Dolor modi dolorem. Consectetur quisquam ipsum.');
-insert into topics (label, description) values ('History of Specific Time Periods', 'Ut. Quiquia est consectetur sed porro quiquia quiquia porro. Voluptatem adipisci numquam magnam numquam etincidunt magnam consectetur. Est ut labore amet tempora labore modi. Quiquia eius consectetur.');
-insert into topics (label, description) values ('Concepts in History', 'Quisquam. Tempora adipisci velit quisquam sit adipisci tempora eius. Sit amet sit eius. Aliquam sed eius velit numquam amet modi dolor quiquia eius. Modi labore neque. Modi non labore adipisci quiquia consectetur ut porro quaerat.');
-insert into topics (label, description) values ('History Education, Careers, Organizations, and Historians', 'Est. Sit dolore consectetur labore non neque numquam. Dolor quaerat tempora adipisci dolore. Modi etincidunt sed numquam sit modi est. Modi adipisci ut. Neque labore magnam tempora non modi.');
-insert into topics (label, description) values ('Major Concepts in History', 'Sed porro dolore adipisci eius labore voluptatem. Neque modi quisquam. Sed. Labore quisquam quiquia ut ut numquam sit magnam labore voluptatem. Dolor ipsum labore numquam sit sed dolore.');
-insert into topics (label, description) values ('Specific Areas of History', 'Velit. Quaerat dolorem etincidunt magnam est. Quaerat est eius quisquam tempora. Consectetur etincidunt. Tempora. Quaerat eius ipsum consectetur. Quisquam. Labore quiquia eius est numquam velit consectetur adipisci.');
-insert into topics (label, description) values ('Jobs and Careers in History', 'Sed porro consectetur amet. Voluptatem magnam modi. Porro quaerat dolore dolor est. Dolorem non aliquam voluptatem. Quaerat. Magnam porro adipisci tempora labore.');
-insert into topics (label, description) values ('Historical Fiction', 'Dolore modi amet amet adipisci. Adipisci. Ipsum ipsum velit. Modi dolore non etincidunt. Tempora eius modi est dolore. Quisquam dolor quiquia quisquam sed amet velit. Est quaerat quiquia adipisci quaerat voluptatem dolorem modi quaerat.');
-insert into topics (label, description) values ('Chronology', 'Non modi. Dolor neque numquam voluptatem non. Adipisci adipisci adipisci amet non. Dolore amet ut sit non magnam. Sit quaerat.');
-insert into topics (label, description) values ('Liberal Arts', 'Ipsum modi tempora dolorem eius aliquam est amet. Velit non sed quiquia porro quisquam non etincidunt. Quiquia amet non. Labore voluptatem dolor non porro velit neque. Dolore sed ipsum neque neque amet dolorem sit porro non.');
-insert into topics (label, description) values ('Learning About Liberal Arts', 'Numquam aliquam. Adipisci magnam amet. Eius quaerat. Est quisquam est sed ut sed etincidunt. Eius eius quisquam amet tempora eius. Amet etincidunt aliquam eius quaerat.');
-insert into topics (label, description) values ('Jobs and Careers in Liberal Arts', 'Aliquam eius numquam sed quisquam labore etincidunt velit quiquia. Sit quisquam porro. Etincidunt quaerat amet neque velit voluptatem. Eius sed etincidunt. Adipisci eius aliquam quiquia ipsum neque. Ut numquam etincidunt dolor. Non tempora.');
-insert into topics (label, description) values ('Liberal Arts Education', 'Sed dolore quaerat est dolorem quisquam consectetur. Quaerat. Dolor numquam adipisci non adipisci quaerat modi quaerat ipsum. Modi modi aliquam dolor. Numquam tempora consectetur consectetur sed. Ut dolorem aliquam neque dolor est etincidunt.');
-insert into topics (label, description) values ('Language', 'Est sed consectetur est. Porro velit etincidunt modi non etincidunt. Tempora consectetur. Amet magnam quaerat quaerat magnam eius etincidunt ut dolore ipsum. Velit porro magnam quiquia. Quaerat labore ipsum amet labore.');
-insert into topics (label, description) values ('Grammar', 'Labore non voluptatem non quiquia eius dolorem. Quaerat quaerat tempora. Sit labore est velit sed. Dolorem porro sed quaerat non modi. Magnam sed velit dolore ut neque consectetur consectetur porro quaerat. Voluptatem labore est dolore sed tempora.');
-insert into topics (label, description) values ('Specific Parts of Written Language', 'Dolore adipisci non. Etincidunt etincidunt neque porro. Sit magnam quaerat est numquam labore labore magnam consectetur. Adipisci modi adipisci sed. Est quiquia est modi quaerat numquam. Labore sed neque ut amet consectetur. Sed.');
-insert into topics (label, description) values ('Pronunciation', 'Ipsum velit dolorem tempora eius magnam modi dolore non. Labore labore voluptatem tempora magnam. Dolore. Quaerat voluptatem etincidunt voluptatem magnam. Sed. Adipisci.');
-insert into topics (label, description) values ('Major Concepts in Language', 'Ut. Porro quiquia aliquam dolore quiquia quaerat neque. Amet sed voluptatem velit quaerat adipisci. Tempora velit est. Ipsum amet. Neque labore.');
-insert into topics (label, description) values ('Specific Languages', 'Etincidunt sed tempora quisquam dolor est. Non quaerat numquam voluptatem ut. Etincidunt amet dolorem. Voluptatem dolore voluptatem tempora tempora adipisci consectetur adipisci quiquia est. Ipsum adipisci numquam neque numquam sit dolore.');
-insert into topics (label, description) values ('Learning Languages', 'Labore modi sit. Numquam velit aliquam. Amet ut adipisci tempora labore eius modi. Est eius dolorem consectetur ut neque sed quisquam sit neque. Eius ut sed. Velit quiquia labore quaerat magnam tempora eius est. Modi dolor.');
-insert into topics (label, description) values ('Language Translation', 'Quiquia aliquam eius dolore quaerat magnam. Adipisci dolore est. Amet. Neque. Neque modi velit. Sit amet dolor eius dolorem quiquia etincidunt.');
-insert into topics (label, description) values ('Language Differences', 'Sed modi amet modi. Ut dolor sit magnam ipsum. Ut modi amet velit etincidunt non. Voluptatem dolore tempora. Voluptatem. Modi porro. Est consectetur neque. Tempora sit amet porro porro. Dolor.');
-insert into topics (label, description) values ('Language and Mysticism', 'Sit. Porro velit aliquam non numquam. Dolore amet amet dolorem aliquam modi dolor aliquam eius. Etincidunt. Velit sit modi ipsum quaerat dolore consectetur eius. Magnam numquam sed velit magnam sed neque.');
-insert into topics (label, description) values ('Language Identification', 'Quaerat quaerat aliquam etincidunt dolorem dolorem eius. Dolor quisquam consectetur. Numquam etincidunt. Quisquam est consectetur. Neque sit porro. Sed amet labore sit dolor ipsum. Dolor eius dolorem dolore voluptatem magnam.');
-insert into topics (label, description) values ('Childhood Language', 'Labore est velit. Neque porro dolorem modi modi est quisquam velit tempora est. Quiquia quiquia est labore quaerat porro quiquia ut. Eius etincidunt quiquia quaerat non. Sed quiquia aliquam.');
-insert into topics (label, description) values ('Translation and Translations', 'Ut dolore eius adipisci sit. Voluptatem. Magnam amet labore. Consectetur dolore modi magnam quaerat dolorem dolor labore. Porro voluptatem quisquam labore ipsum dolor. Eius porro porro eius numquam neque. Neque.');
-insert into topics (label, description) values ('Language in Specific Locations', 'Ut magnam. Sit. Neque neque est amet amet porro dolor dolorem. Amet velit. Voluptatem sed sed dolore modi adipisci eius. Sit modi consectetur adipisci aliquam ut.');
-insert into topics (label, description) values ('Language Proficiency', 'Amet modi dolorem numquam adipisci eius. Modi neque voluptatem. Sit sed velit neque dolor ut labore aliquam. Dolore. Aliquam labore sed eius voluptatem eius neque. Eius quiquia tempora. Neque quiquia tempora ipsum amet numquam quiquia. Magnam.');
-insert into topics (label, description) values ('Natural Language', 'Tempora consectetur eius velit. Quiquia quiquia sit consectetur. Voluptatem porro. Quisquam labore quisquam dolorem velit quaerat magnam. Est magnam. Neque sed tempora adipisci est porro quiquia.');
-insert into topics (label, description) values ('Language Development', 'Amet. Dolor. Consectetur adipisci ipsum. Labore quisquam dolorem dolor velit aliquam. Tempora tempora non.');
-insert into topics (label, description) values ('Jobs and Careers in Languages', 'Voluptatem dolorem amet amet dolorem sit. Consectetur porro. Adipisci ut dolor consectetur numquam. Porro dolore quisquam quisquam amet quisquam. Velit aliquam dolore. Modi adipisci aliquam. Neque ut.');
-insert into topics (label, description) values ('Acronyms', 'Dolorem porro labore sed dolore ipsum consectetur voluptatem modi amet. Ipsum ut etincidunt numquam numquam voluptatem. Non voluptatem amet amet. Tempora adipisci. Non quaerat labore.');
-insert into topics (label, description) values ('The Arts', 'Sit etincidunt velit est eius amet numquam eius. Dolorem aliquam consectetur neque sit. Est non consectetur velit. Voluptatem sit velit eius non ut tempora. Sit amet. Porro quiquia sed labore amet quaerat porro voluptatem.');
-insert into topics (label, description) values ('Crafts (art)', 'Sit porro etincidunt porro amet. Dolorem. Consectetur dolor labore dolore labore quaerat eius. Labore. Etincidunt.');
-insert into topics (label, description) values ('Artists and Creative Professions', 'Velit. Dolor magnam quisquam. Tempora dolore quiquia amet dolor neque. Neque quisquam ut consectetur neque amet ut. Aliquam amet quaerat porro non. Modi modi consectetur. Quaerat etincidunt porro dolor eius.');
-insert into topics (label, description) values ('Performing Arts', 'Neque numquam. Dolorem dolor modi porro eius quisquam ipsum modi. Voluptatem sit. Sed dolor labore dolor non etincidunt amet porro porro. Consectetur.');
-insert into topics (label, description) values ('Visual Arts', 'Quiquia quiquia quiquia sit quiquia. Consectetur. Numquam velit ut ut neque tempora numquam modi modi neque. Velit ut. Quisquam magnam etincidunt. Etincidunt.');
-insert into topics (label, description) values ('Concepts in Art', 'Aliquam non porro tempora quisquam velit modi. Tempora labore magnam. Consectetur aliquam. Sed sed quisquam. Quiquia dolore ut magnam voluptatem quiquia porro adipisci voluptatem.');
-insert into topics (label, description) values ('Major Concepts in the Arts', 'Magnam sit amet dolor tempora etincidunt. Amet velit porro sed quaerat. Neque ipsum dolor. Dolorem. Dolore porro. Amet ipsum numquam magnam ut. Sit tempora adipisci. Neque numquam modi sed. Quaerat non.');
-insert into topics (label, description) values ('Jobs and Careers in the Arts', 'Ipsum neque ipsum porro sed numquam est non ipsum. Numquam ut porro ut consectetur. Voluptatem magnam dolor quiquia est aliquam quaerat quaerat. Modi amet amet magnam velit quiquia voluptatem. Aliquam neque consectetur velit.');
-insert into topics (label, description) values ('Jobs and Careers in Culture and the Arts', 'Etincidunt amet amet dolorem dolor ipsum. Voluptatem tempora quaerat dolore quaerat adipisci neque voluptatem numquam consectetur. Eius ipsum numquam. Quaerat numquam neque quaerat magnam. Ut non dolor consectetur dolorem modi ut porro voluptatem non.');
-insert into topics (label, description) values ('Art Business', 'Dolorem voluptatem quisquam est. Neque magnam quaerat consectetur sit velit eius. Sed aliquam ipsum est porro dolorem. Ut sed dolore. Numquam est aliquam eius labore labore voluptatem sit etincidunt.');
-insert into topics (label, description) values ('Anthropology', 'Magnam. Numquam dolorem etincidunt quiquia quaerat sit dolor quisquam adipisci ipsum. Numquam labore quaerat labore consectetur ipsum ipsum. Quaerat non aliquam velit dolore quisquam quiquia etincidunt ut. Numquam quiquia quisquam. Dolore.');
-insert into topics (label, description) values ('Anthropology of Everyday Life', 'Sit modi porro consectetur non porro quaerat eius non ut. Consectetur magnam aliquam ut labore neque dolorem ut sit. Non voluptatem. Quiquia quisquam non. Sit aliquam numquam numquam eius dolor. Ipsum ut non non neque.');
-insert into topics (label, description) values ('History of Anthropology', 'Labore sed etincidunt sit magnam consectetur adipisci neque. Magnam velit quaerat dolore quaerat. Numquam numquam est quisquam quiquia voluptatem voluptatem consectetur dolorem. Dolorem non. Est. Etincidunt velit quisquam quiquia.');
-insert into topics (label, description) values ('Learning About Anthropology', 'Aliquam dolore tempora neque eius magnam non. Sed ipsum neque tempora neque voluptatem adipisci consectetur. Est dolorem porro porro. Eius amet non ipsum aliquam dolore aliquam. Sit dolorem. Non aliquam dolore tempora labore magnam eius.');
-insert into topics (label, description) values ('Jobs and Careers in Anthropology', 'Modi magnam porro aliquam consectetur etincidunt ut. Tempora non. Sed dolore labore non. Numquam. Tempora quiquia consectetur dolore tempora porro modi sed. Consectetur labore magnam neque ut quaerat aliquam voluptatem.');
-insert into topics (label, description) values ('Specific Types of Anthropology', 'Quisquam labore velit. Neque modi. Consectetur amet neque numquam labore quaerat. Labore numquam ut labore. Aliquam ut quaerat labore aliquam dolore. Adipisci voluptatem non. Consectetur. Ut amet. Sed dolor labore dolorem magnam adipisci.');
-insert into topics (label, description) values ('Structuralism', 'Est amet est neque modi tempora. Dolore sed non voluptatem modi. Dolorem neque voluptatem. Quisquam dolore quisquam etincidunt ut sit etincidunt quaerat ipsum. Est quaerat est.');
-insert into topics (label, description) values ('Anthropology Literature', 'Quiquia aliquam porro dolorem quisquam. Dolor eius labore tempora aliquam. Tempora sed. Labore consectetur etincidunt consectetur voluptatem aliquam neque porro. Labore consectetur sit dolor numquam etincidunt tempora voluptatem.');
-insert into topics (label, description) values ('Cultural History', 'Modi numquam eius quiquia. Neque eius adipisci ut modi aliquam ut amet eius quaerat. Modi est non. Dolorem consectetur modi modi tempora. Porro magnam non non neque.');
-insert into topics (label, description) values ('Musicology', 'Velit adipisci ut labore neque quisquam. Labore ipsum numquam non. Porro magnam adipisci sed est ut quisquam sed. Non. Amet. Dolor labore aliquam aliquam. Sit aliquam velit voluptatem numquam amet. Dolore sed ipsum. Adipisci etincidunt.');
-insert into topics (label, description) values ('Music Theory', 'Quiquia est aliquam labore adipisci eius aliquam sed neque. Labore ipsum neque consectetur etincidunt sed quaerat quaerat. Numquam ut sed voluptatem modi. Dolore aliquam sed dolorem non quaerat eius est. Ut ut.');
-insert into topics (label, description) values ('Music History', 'Magnam dolore tempora. Velit etincidunt magnam ut magnam modi non neque quaerat labore. Dolore labore. Est ut. Dolore. Voluptatem est aliquam non eius. Modi adipisci magnam quaerat velit.');
-insert into topics (label, description) values ('Ethnomusicology', 'Quiquia ipsum. Eius etincidunt. Voluptatem dolorem velit ut. Aliquam magnam adipisci. Aliquam etincidunt est neque neque consectetur numquam. Modi dolorem quiquia ipsum quisquam quiquia aliquam numquam numquam tempora.');
-insert into topics (label, description) values ('Popular Music Studies', 'Non non. Quaerat consectetur ut consectetur. Modi numquam sit neque quaerat non ipsum quiquia voluptatem quaerat. Dolor magnam voluptatem etincidunt etincidunt dolore quisquam labore quisquam quaerat. Quaerat adipisci.');
-insert into topics (label, description) values ('Psychology of Music', 'Quisquam dolore. Sed. Magnam amet dolor neque dolorem amet magnam amet labore. Dolor quaerat modi. Adipisci non sit dolore porro. Dolore. Non quiquia velit ipsum amet tempora sed non ipsum neque. Est sit etincidunt adipisci etincidunt.');
-insert into topics (label, description) values ('Musicology Research', 'Etincidunt. Aliquam ipsum amet sit modi porro. Ut ut. Non non. Quaerat non. Adipisci modi eius tempora non velit quaerat.');
-insert into topics (label, description) values ('Religious Studies', 'Numquam adipisci adipisci non non modi sed numquam numquam eius. Aliquam sit quisquam ut. Non tempora. Eius consectetur adipisci. Aliquam quisquam velit voluptatem dolorem dolore dolore aliquam neque porro. Etincidunt.');
-insert into topics (label, description) values ('Anthropology of Religion', 'Aliquam tempora numquam ipsum. Non dolore consectetur. Numquam. Etincidunt amet sed modi porro. Neque. Adipisci dolorem sit dolore quiquia modi. Tempora adipisci sit dolor. Dolorem velit quiquia dolore velit non. Amet consectetur. Dolorem tempora.');
-insert into topics (label, description) values ('Learning About Religious Studies', 'Sit porro porro sit dolore neque. Sed neque non. Labore eius numquam. Ut dolore ut. Adipisci aliquam non est labore ipsum etincidunt consectetur tempora. Est voluptatem voluptatem modi eius velit dolorem amet dolorem adipisci.');
-insert into topics (label, description) values ('Jobs and Careers in Religious Studies', 'Modi amet labore amet quiquia. Etincidunt dolore tempora dolorem. Sit. Magnam dolor est ut labore sed velit quiquia aliquam modi. Modi eius magnam quiquia dolorem sed sed. Ut est voluptatem dolorem porro quaerat dolorem etincidunt.');
-insert into topics (label, description) values ('Religious Education', 'Ipsum velit dolore quaerat neque neque sit numquam neque labore. Sit. Voluptatem magnam quaerat sit neque. Magnam numquam quiquia amet tempora ipsum dolorem quisquam. Consectetur quiquia non dolore modi aliquam.');
-insert into topics (label, description) values ('Criticism of Religion', 'Adipisci neque quisquam. Aliquam consectetur. Consectetur eius adipisci dolore. Non ipsum etincidunt tempora porro tempora. Quisquam numquam quisquam sed labore. Eius. Sit amet dolorem dolor ipsum numquam tempora.');
-insert into topics (label, description) values ('Sociology of Religion', 'Velit. Sit quaerat. Tempora ipsum modi quiquia aliquam non. Velit est dolor labore numquam amet tempora. Porro velit.');
-insert into topics (label, description) values ('Religious Content on Quora', 'Est consectetur consectetur magnam porro aliquam. Tempora est sit. Quiquia. Dolor adipisci sit porro dolor adipisci tempora quiquia dolor labore. Amet etincidunt dolorem magnam. Ipsum aliquam. Tempora ipsum adipisci ipsum sit.');
-insert into topics (label, description) values ('Catholic Studies', 'Labore velit numquam magnam dolorem amet consectetur dolor. Etincidunt. Est sit magnam ut. Quiquia dolore consectetur. Velit dolorem. Eius sit. Ut modi tempora dolor dolorem dolor sed quiquia.');
-insert into topics (label, description) values ('Rhetoric', 'Dolore velit dolore eius magnam ut tempora est dolore labore. Dolorem porro. Velit labore amet amet porro modi voluptatem. Magnam porro voluptatem consectetur. Ut modi. Ipsum.');
-insert into topics (label, description) values ('Ad Hominem', 'Etincidunt quisquam modi sit eius voluptatem dolore quiquia dolorem adipisci. Est sed tempora. Ipsum modi dolore aliquam est quiquia ipsum etincidunt. Velit consectetur labore. Quiquia adipisci adipisci. Non sit neque.');
-insert into topics (label, description) values ('Guilt by Association', 'Consectetur dolor est. Porro numquam amet aliquam est quiquia. Sit eius tempora non adipisci dolore aliquam. Neque eius voluptatem dolorem etincidunt neque ipsum eius etincidunt. Dolore neque amet eius numquam amet dolorem ut.');
-insert into topics (label, description) values ('Appeal to Authority', 'Magnam neque aliquam neque dolor adipisci tempora. Quaerat. Amet amet labore velit magnam etincidunt. Dolor quisquam voluptatem non sit adipisci sed quisquam porro porro. Non amet non dolore porro labore. Neque neque numquam sit dolor dolor.');
-insert into topics (label, description) values ('Strawman Argument', 'Adipisci dolor dolorem numquam. Etincidunt. Labore voluptatem modi dolorem modi tempora. Amet neque ipsum adipisci aliquam est adipisci voluptatem. Dolore sit amet dolore velit. Voluptatem modi dolor ut ut adipisci non.');
-insert into topics (label, description) values ('Hyperbole', 'Etincidunt ipsum quiquia est quaerat ipsum. Non porro. Adipisci dolore consectetur eius consectetur non. Modi numquam numquam consectetur. Numquam consectetur eius numquam labore adipisci sed labore labore tempora.');
-insert into topics (label, description) values ('False Dichotomy', 'Adipisci. Magnam ipsum sed eius est non adipisci. Est velit velit. Quisquam sed sed. Aliquam porro sed modi.');
-insert into topics (label, description) values ('Special Pleading', 'Non etincidunt dolore sed magnam dolor dolorem ipsum. Dolor. Neque dolore ipsum dolor porro quaerat modi amet dolore magnam. Sed quisquam labore tempora non quaerat numquam. Est eius labore numquam. Sed etincidunt ut dolore neque.');
-insert into topics (label, description) values ('Litotes', 'Numquam est dolore sed quaerat ut modi amet sed. Neque sed aliquam amet. Labore eius voluptatem non tempora non ut quaerat sed. Consectetur. Labore non numquam quiquia. Quaerat non tempora dolor sed numquam. Magnam numquam non. Sit. Magnam ipsum.');
-insert into topics (label, description) values ('Reductio ad Absurdum', 'Voluptatem. Dolorem neque magnam neque porro. Ut dolor magnam quiquia velit adipisci porro ut ipsum tempora. Est tempora sit velit sed quisquam. Sit non modi numquam porro aliquam.');
-insert into topics (label, description) values ('Derailing Tactics', 'Ut modi. Consectetur labore neque velit. Aliquam non ut neque adipisci ut quiquia consectetur quiquia. Etincidunt modi aliquam ipsum sed neque aliquam adipisci. Non eius etincidunt tempora numquam porro. Modi non.');
-insert into topics (label, description) values ('Political Rhetoric', 'Dolore eius dolore dolorem consectetur dolor. Dolore velit etincidunt tempora etincidunt sed. Neque adipisci. Dolor etincidunt sed. Adipisci dolorem tempora quaerat numquam consectetur eius eius. Quaerat.');
-insert into topics (label, description) values ('Slippery Slope', 'Est ipsum. Non modi sit sed dolore. Non eius etincidunt magnam dolore dolor ipsum. Quaerat. Quaerat etincidunt quisquam sed quisquam etincidunt labore voluptatem. Numquam porro sit quisquam quaerat neque. Etincidunt numquam eius.');
-insert into topics (label, description) values ('Debates', 'Magnam non sed. Quiquia. Labore. Aliquam neque adipisci. Porro dolorem. Eius. Dolor eius. Ut magnam etincidunt numquam consectetur.');
-insert into topics (label, description) values ('Appeals to Emotion', 'Amet labore dolore. Non aliquam amet velit eius sit sed. Ipsum voluptatem adipisci ut tempora eius amet. Sed neque. Quisquam labore neque est adipisci. Voluptatem neque quisquam numquam etincidunt. Modi modi dolore.');
-insert into topics (label, description) values ('Learning About Legal Studies', 'Neque quiquia quiquia labore dolore numquam aliquam. Dolor neque dolor numquam eius est dolorem quiquia magnam. Est numquam non. Consectetur dolore consectetur aliquam voluptatem quisquam labore. Aliquam. Ut magnam porro quaerat est aliquam ut modi modi.');
-insert into topics (label, description) values ('Jobs and Careers in Legal Studies', 'Non adipisci ut etincidunt. Amet. Porro voluptatem amet. Non quisquam quiquia est numquam numquam. Quisquam quiquia est. Modi tempora velit tempora aliquam neque eius tempora. Etincidunt.');
-insert into topics (label, description) values ('Practice of Law', 'Tempora amet dolor. Dolor dolorem. Sit. Quisquam quisquam neque sed neque numquam. Eius. Dolore. Aliquam dolore sed quisquam magnam voluptatem quaerat sit.');
-insert into topics (label, description) values ('Cultural Studies', 'Etincidunt sed dolor dolor eius sit magnam dolorem non. Sed tempora tempora numquam labore dolorem etincidunt porro consectetur. Tempora velit neque neque labore. Modi quisquam dolore ut. Porro sed.');
-insert into topics (label, description) values ('Study of Open Culture', 'Eius ut. Labore. Magnam numquam tempora sed eius consectetur non numquam. Magnam non. Quiquia tempora quisquam magnam amet quiquia adipisci. Consectetur voluptatem dolore tempora dolore modi. Tempora.');
-insert into topics (label, description) values ('Cultural Turn', 'Velit sit quiquia. Magnam ut non consectetur sed velit labore. Labore est numquam quisquam ipsum ut dolorem non. Non eius. Est magnam quiquia sed tempora sed dolorem.');
-insert into topics (label, description) values ('Reappropriation (cultural studies)', 'Quaerat neque non ipsum velit eius numquam sit. Quisquam sit non labore neque neque. Numquam labore quisquam eius dolore. Etincidunt est porro eius sed aliquam quiquia eius sed. Tempora velit sed velit. Quiquia porro voluptatem sed dolor.');
-insert into topics (label, description) values ('Center for Contemporary Cultural Studies', 'Aliquam. Etincidunt sit magnam magnam sed dolor sit magnam non. Eius sed modi porro magnam dolore non. Labore. Etincidunt sed non quiquia magnam quaerat non ipsum. Non voluptatem dolorem eius porro voluptatem ipsum.');
-insert into topics (label, description) values ('Material Culture Theory', 'Labore consectetur tempora voluptatem dolor quaerat non. Quiquia. Numquam est dolore est non dolore est. Ut dolorem porro modi ut. Eius eius velit magnam dolor labore.');
-insert into topics (label, description) values ('Classics', 'Est. Non voluptatem sit dolore labore tempora ut quaerat sed. Quiquia quiquia eius dolor. Porro eius. Dolor. Eius neque magnam neque. Etincidunt modi dolore. Consectetur velit.');
-insert into topics (label, description) values ('Roman Literature', 'Aliquam aliquam dolore est etincidunt dolor aliquam dolor. Neque sed dolore. Voluptatem amet. Neque labore. Ipsum sed modi labore. Amet sit dolorem dolor dolorem tempora sit. Labore non non neque est. Non eius amet.');
-insert into topics (label, description) values ('Greek Mythology', 'Consectetur dolore porro labore amet. Numquam ipsum labore ut. Labore. Etincidunt. Eius labore velit. Ut quaerat dolore tempora non etincidunt modi etincidunt dolorem eius.');
-insert into topics (label, description) values ('Greek Literature', 'Dolor aliquam dolorem consectetur. Dolore voluptatem est non est dolor porro porro. Etincidunt neque magnam aliquam. Labore sed labore tempora porro sed non sed neque tempora. Est ipsum sed velit sed. Aliquam.');
-insert into topics (label, description) values ('Humanities Education', 'Quaerat. Sit. Sit dolore sed tempora amet. Quaerat. Labore dolore. Consectetur porro est ut ipsum aliquam. Etincidunt numquam quiquia. Sit consectetur numquam dolor dolore amet sed modi est neque. Voluptatem dolore aliquam etincidunt ut velit.');
-insert into topics (label, description) values ('Philosophy Education', 'Quaerat dolore modi ipsum sit. Adipisci voluptatem est quiquia est dolorem quaerat sed. Consectetur sit quiquia porro quiquia. Tempora consectetur ipsum consectetur ipsum voluptatem velit etincidunt dolorem. Quaerat amet eius ut.');
-insert into topics (label, description) values ('Teaching History and History Education', 'Numquam tempora sed est porro. Dolor voluptatem est quisquam dolor sed neque tempora aliquam ipsum. Tempora neque est magnam sit quaerat sed. Dolor quiquia magnam dolore consectetur voluptatem aliquam velit sed. Numquam sed eius. Sed numquam sed.');
-insert into topics (label, description) values ('Music Education', 'Dolorem etincidunt adipisci tempora etincidunt porro dolor labore voluptatem porro. Sit est. Etincidunt velit ipsum velit numquam neque eius quiquia neque. Dolore. Ipsum tempora neque adipisci.');
-insert into topics (label, description) values ('Schools of Religious Studies', 'Quiquia sed quiquia aliquam porro. Ipsum etincidunt amet quaerat sit. Dolorem dolorem ipsum numquam quiquia consectetur magnam. Non. Quisquam tempora amet ut non velit dolorem voluptatem est eius. Ut ipsum dolorem tempora quiquia sit quisquam amet.');
-insert into topics (label, description) values ('Classical Education', 'Labore dolor modi labore quaerat non non adipisci etincidunt non. Tempora amet quaerat quiquia etincidunt sit tempora dolorem quisquam. Voluptatem amet. Magnam quisquam sit labore tempora. Quaerat amet quaerat. Sit quaerat dolor. Quaerat.');
-insert into topics (label, description) values ('Art Education', 'Voluptatem ipsum consectetur adipisci adipisci tempora etincidunt. Adipisci dolorem non dolore est. Eius. Non quaerat etincidunt ut dolor magnam. Adipisci consectetur quiquia sed numquam consectetur eius quiquia modi.');
-insert into topics (label, description) values ('Humanities Awards', 'Quiquia dolore consectetur adipisci voluptatem sit numquam labore etincidunt. Velit quiquia non magnam. Quaerat eius ut sed quaerat ut. Magnam dolorem sit modi quisquam. Magnam.');
-insert into topics (label, description) values ('Awards for Contributions to Society and Culture', 'Dolor ipsum porro. Consectetur. Amet velit dolorem non. Labore. Numquam modi labore amet adipisci non dolore aliquam. Dolore.');
-insert into topics (label, description) values ('Humanities Journals', 'Numquam voluptatem. Numquam consectetur eius numquam quisquam. Adipisci velit ut voluptatem numquam modi. Tempora consectetur quiquia dolorem numquam sed labore aliquam eius modi. Porro consectetur porro dolore labore labore modi sed quiquia numquam.');
-insert into topics (label, description) values ('Cultural Journalism', 'Consectetur neque tempora. Quisquam. Magnam consectetur sed porro numquam consectetur aliquam dolorem eius. Non est amet ipsum aliquam. Modi quaerat ut adipisci. Ipsum consectetur dolore quiquia dolore ipsum sit.');
-insert into topics (label, description) values ('Philosophy', 'Est velit eius velit numquam. Dolore sit labore ut neque voluptatem. Velit. Non velit adipisci porro sed velit dolorem est sed ipsum. Porro consectetur consectetur sed eius amet voluptatem amet sit.');
-insert into topics (label, description) values ('Philosophical Traditions and Schools', 'Quisquam. Velit. Tempora dolorem quisquam. Quisquam porro quisquam. Dolor eius amet ut est eius porro quaerat dolor. Tempora aliquam ut aliquam eius est.');
-insert into topics (label, description) values ('Philosophers', 'Quaerat voluptatem. Aliquam. Velit. Amet eius ipsum consectetur velit. Dolorem non est non sit aliquam quiquia velit labore.');
-insert into topics (label, description) values ('Major Questions in Philosophy', 'Dolore dolore neque porro etincidunt quiquia. Consectetur adipisci ipsum etincidunt consectetur. Quaerat sed ipsum sed aliquam quaerat. Velit voluptatem dolor tempora dolor quaerat. Dolorem.');
-insert into topics (label, description) values ('Philosophy of Specific Subjects', 'Ut dolorem sit. Sit consectetur quiquia est. Voluptatem. Consectetur. Tempora dolorem magnam labore. Dolor eius est adipisci. Etincidunt numquam consectetur consectetur aliquam velit dolor non.');
-insert into topics (label, description) values ('Philosophy of Everyday Life', 'Amet aliquam eius est porro. Est voluptatem. Ut tempora sed sed est voluptatem ut. Quisquam. Aliquam modi labore non consectetur consectetur ipsum consectetur.');
-insert into topics (label, description) values ('Major Concepts in Philosophy', 'Modi etincidunt sit. Magnam modi magnam dolore non quiquia numquam adipisci dolore sit. Amet numquam neque non amet dolorem numquam amet dolore. Labore non velit non. Sed dolore.');
-insert into topics (label, description) values ('Philosophy Education, Careers, Organizations, and History', 'Quisquam. Modi etincidunt non sit dolor magnam labore quaerat. Aliquam sit quisquam etincidunt. Est numquam amet tempora consectetur. Quiquia neque porro sed tempora quiquia etincidunt quaerat.');
-insert into topics (label, description) values ('Learning About Philosophy', 'Non numquam dolorem eius consectetur. Sed amet quiquia numquam sed. Non est dolor. Dolore neque etincidunt amet quaerat adipisci neque eius. Amet non ut etincidunt.');
-insert into topics (label, description) values ('Women in Philosophy', 'Quisquam. Est magnam modi quaerat adipisci velit sed consectetur adipisci. Sed magnam non numquam velit numquam ipsum. Sit non tempora adipisci numquam quaerat. Porro ipsum velit quaerat. Sed non labore eius sit.');
-insert into topics (label, description) values ('Philosophy in Specific Times', 'Neque labore modi velit voluptatem etincidunt. Labore. Labore dolore sit numquam dolor quisquam est. Est est velit quaerat dolorem dolore dolor. Numquam est magnam.');
-insert into topics (label, description) values ('Renaissance Philosophy', 'Dolore dolor eius est dolore sit etincidunt etincidunt sed dolorem. Eius dolorem ipsum. Porro tempora. Consectetur modi sit dolore consectetur ut numquam porro eius. Dolore porro aliquam dolorem aliquam adipisci.');
-insert into topics (label, description) values ('Religion', 'Magnam ipsum porro sit ut. Dolor consectetur neque tempora eius. Neque amet aliquam voluptatem tempora. Dolore. Ipsum amet etincidunt dolore ipsum sed numquam quiquia. Amet consectetur porro etincidunt etincidunt dolore ipsum neque.');
-insert into topics (label, description) values ('Denominations and Organized Religion', 'Non dolore etincidunt est modi voluptatem eius dolorem tempora. Voluptatem aliquam porro non est. Ut ipsum ipsum ipsum voluptatem dolorem adipisci. Est eius numquam sit sit neque. Quiquia modi dolorem dolor sed est modi.');
-insert into topics (label, description) values ('Religion Interdisciplinary Topics', 'Velit. Aliquam ut ipsum ut quiquia quiquia magnam amet aliquam. Numquam eius. Modi ut ipsum eius porro aliquam aliquam amet. Porro quaerat neque neque amet dolor aliquam. Neque. Tempora.');
-insert into topics (label, description) values ('Religious Education, Careers, Organizations and History', 'Porro labore sit numquam ipsum aliquam ut. Quaerat. Amet neque. Velit quaerat magnam sit dolor voluptatem velit etincidunt. Neque dolor est aliquam dolore dolore velit dolore dolore consectetur.');
-insert into topics (label, description) values ('Major Concepts in Religion', 'Eius neque sed est. Sit. Sit labore aliquam magnam quisquam neque non sed numquam est. Ut magnam amet sit sed quiquia. Non dolor adipisci aliquam sit aliquam porro dolorem est quisquam.');
-insert into topics (label, description) values ('Comparative Religion', 'Consectetur non tempora voluptatem quisquam eius. Eius neque labore sed non. Magnam. Dolor modi neque aliquam eius neque. Etincidunt amet. Sit sit sed dolore aliquam magnam quaerat dolore neque. Ipsum voluptatem eius voluptatem etincidunt.');
-insert into topics (label, description) values ('Anti-Religion Beliefs', 'Dolor sit neque modi eius. Amet adipisci quaerat ut. Quisquam ut sed velit voluptatem eius consectetur aliquam est neque. Dolor quiquia amet eius velit. Neque modi. Quisquam adipisci velit. Non dolorem voluptatem quaerat adipisci. Tempora modi.');
-insert into topics (label, description) values ('Religion in Specific Locations', 'Labore. Ut. Quiquia voluptatem sed quiquia eius aliquam est velit modi est. Ipsum ut quisquam sit ipsum labore ut adipisci. Porro sed.');
-insert into topics (label, description) values ('Women in Specific Religions', 'Velit. Numquam quisquam. Etincidunt dolore etincidunt numquam. Magnam numquam sit modi labore amet dolore sit sit. Tempora non sit voluptatem modi porro voluptatem.');
-insert into topics (label, description) values ('Religious Practices', 'Est sed ut amet quaerat. Ipsum ut etincidunt etincidunt est porro. Velit est. Quaerat ut porro quisquam etincidunt est est tempora etincidunt. Ipsum ipsum dolorem sit tempora. Non.');
-insert into topics (label, description) values ('Trends in Religion', 'Dolor aliquam. Dolorem sit. Est neque dolorem etincidunt porro labore. Velit neque ut tempora numquam quaerat. Est dolore. Dolor consectetur magnam est tempora amet ipsum.');
-insert into topics (label, description) values ('Understanding Religious Concepts', 'Sit modi quisquam dolore sit voluptatem quiquia dolore. Ipsum aliquam sit adipisci etincidunt. Ipsum etincidunt velit ipsum. Etincidunt non neque non. Velit ut voluptatem labore dolorem ipsum. Sit quiquia.');
-insert into topics (label, description) values ('Religious Advice', 'Dolorem ut aliquam magnam. Modi. Labore eius dolore dolorem quaerat ut non quisquam. Amet voluptatem quaerat dolore sit est aliquam dolor dolore quiquia. Dolorem. Porro dolor numquam. Voluptatem ut non velit.');
-insert into topics (label, description) values ('Superlatives in Religion', 'Adipisci. Consectetur. Non dolore eius labore etincidunt porro. Sit. Etincidunt amet. Etincidunt eius ipsum aliquam magnam dolorem adipisci voluptatem etincidunt. Labore etincidunt non est. Non sit. Eius velit consectetur porro ut ipsum amet velit non.');
-insert into topics (label, description) values ('Psychology of Religion', 'Modi etincidunt ipsum dolore. Modi aliquam. Amet. Modi magnam. Non. Adipisci ipsum voluptatem quisquam numquam est etincidunt aliquam. Dolore modi labore quiquia.');
-insert into topics (label, description) values ('Life, Relationships, and Self', 'Dolore aliquam porro amet ut etincidunt magnam amet. Consectetur. Non aliquam voluptatem quiquia dolorem numquam est. Modi sed quaerat sit numquam. Eius ipsum neque adipisci dolor aliquam etincidunt ipsum.');
-insert into topics (label, description) values ('Life and Living', 'Tempora eius eius ipsum quisquam etincidunt eius. Etincidunt non tempora tempora eius tempora. Porro adipisci dolor ut numquam sed voluptatem sit magnam aliquam. Ipsum. Neque aliquam neque eius dolor non aliquam. Neque numquam. Est modi.');
-insert into topics (label, description) values ('Important Life Lessons', 'Labore est quiquia magnam sed modi. Dolore aliquam tempora labore labore. Quiquia adipisci quiquia dolor ipsum aliquam. Eius ipsum. Labore. Tempora voluptatem aliquam. Eius dolor dolore.');
-insert into topics (label, description) values ('Tips and Hacks for Everyday Life', 'Aliquam dolor magnam etincidunt labore porro. Consectetur magnam sit dolorem dolorem voluptatem. Dolore amet modi etincidunt numquam neque dolore numquam est quaerat. Etincidunt numquam labore quaerat sed dolor ut modi. Sed.');
-insert into topics (label, description) values ('Life Advice', 'Sit ipsum labore. Modi quaerat amet ut quiquia etincidunt quiquia magnam. Aliquam etincidunt est. Etincidunt eius voluptatem velit velit neque eius consectetur dolor tempora. Modi sit eius.');
-insert into topics (label, description) values ('Work-Life Balance', 'Amet consectetur numquam. Consectetur consectetur. Dolorem consectetur consectetur labore velit consectetur est porro tempora. Adipisci dolorem. Porro etincidunt magnam sed voluptatem. Modi adipisci aliquam. Non amet quisquam ipsum neque.');
-insert into topics (label, description) values ('Lifestyle', 'Sit porro sed eius quaerat. Modi porro amet tempora ipsum labore amet consectetur voluptatem amet. Dolor voluptatem eius magnam tempora consectetur ut non numquam quiquia. Velit velit numquam voluptatem adipisci quisquam. Dolorem non. Velit sed ut.');
-insert into topics (label, description) values ('Experiences in Life', 'Etincidunt dolore sit quaerat consectetur. Est labore amet eius tempora sit dolor magnam magnam sed. Quaerat non sit modi. Adipisci dolor sit neque. Est consectetur quisquam porro. Etincidunt eius dolorem quaerat sed ipsum. Neque magnam sit aliquam.');
-insert into topics (label, description) values ('Major Events in Life', 'Consectetur quaerat quisquam sit. Ut est labore est velit. Dolorem eius eius quisquam quaerat dolore etincidunt. Est consectetur dolorem. Modi amet dolor magnam.');
-insert into topics (label, description) values ('Major Concepts Related to Life', 'Numquam non. Magnam. Non non sit ut voluptatem modi non. Voluptatem ut dolore neque modi. Ut modi ut sed. Est numquam quaerat neque ut etincidunt est.');
-insert into topics (label, description) values ('Social Life', 'Modi ipsum quaerat. Numquam quiquia numquam ipsum modi neque sed quaerat quiquia adipisci. Consectetur numquam. Tempora consectetur ipsum aliquam. Ipsum eius numquam ipsum labore dolor amet eius porro amet.');
-insert into topics (label, description) values ('Everyday Life', 'Adipisci quisquam sit quaerat. Adipisci numquam. Eius magnam dolore velit voluptatem quisquam sit quisquam non. Adipisci dolore adipisci consectetur. Porro adipisci velit adipisci quaerat non non amet sit.');
-insert into topics (label, description) values ('Rural Living', 'Labore aliquam. Voluptatem quaerat ipsum quisquam. Numquam. Magnam neque sit magnam adipisci velit. Neque eius.');
-insert into topics (label, description) values ('Intellectual Stimulation', 'Consectetur neque numquam numquam. Ipsum consectetur aliquam sed porro. Amet. Ipsum tempora tempora. Sit porro neque aliquam est. Modi numquam est amet non labore est.');
-insert into topics (label, description) values ('Livability', 'Quaerat. Sit aliquam numquam tempora sed quiquia. Consectetur quisquam sed ipsum voluptatem quaerat amet tempora. Est ut quiquia aliquam consectetur quiquia. Non amet modi eius dolore voluptatem adipisci numquam etincidunt.');
-insert into topics (label, description) values ('Daily Life', 'Porro magnam quisquam est quiquia. Aliquam voluptatem modi est neque quisquam ut. Sed sit etincidunt eius est magnam. Dolor tempora quiquia aliquam tempora. Adipisci ipsum dolor dolor est.');
-insert into topics (label, description) values ('Personal Life Issues', 'Magnam eius amet quiquia ut tempora tempora. Neque. Porro adipisci neque sed modi quaerat aliquam dolore quisquam non. Etincidunt ut non ipsum amet dolore velit modi non dolore. Sit ut etincidunt aliquam dolore.');
-insert into topics (label, description) values ('Issues', 'Quisquam. Consectetur est est eius aliquam. Sed ipsum. Dolorem. Magnam sed voluptatem dolorem magnam adipisci neque sed dolorem non.');
-insert into topics (label, description) values ('Experience', 'Dolorem porro ut dolore dolor tempora ipsum. Aliquam sed adipisci eius velit modi labore. Porro ut adipisci magnam. Quisquam neque etincidunt dolorem etincidunt ipsum. Neque ipsum velit adipisci numquam.');
-insert into topics (label, description) values ('Activities', 'Quiquia ut modi adipisci modi magnam quisquam. Aliquam adipisci voluptatem dolore neque etincidunt. Dolorem ut non aliquam adipisci adipisci. Dolor est quiquia voluptatem. Dolorem quisquam dolore dolor dolor dolorem amet neque numquam. Eius non dolor.');
-insert into topics (label, description) values ('Truths of Life', 'Tempora non dolor eius. Consectetur adipisci modi dolor sit. Ipsum dolore aliquam dolorem labore velit consectetur. Dolorem etincidunt est quiquia ut porro dolorem tempora quisquam amet. Voluptatem labore sit ipsum velit. Dolore modi dolorem.');
-insert into topics (label, description) values ('Enjoying Life', 'Dolor. Tempora non ipsum neque dolorem adipisci dolorem dolorem ut dolore. Modi numquam adipisci porro est eius sed est quisquam dolor. Porro. Etincidunt. Quaerat dolore dolorem sit porro est. Est aliquam est magnam.');
-insert into topics (label, description) values ('Life and Living in Specific Locations', 'Est sed aliquam velit quiquia tempora eius non quisquam labore. Modi. Amet magnam adipisci numquam velit porro sed dolor est. Non est adipisci velit. Magnam neque. Voluptatem numquam.');
-insert into topics (label, description) values ('Life Priorities', 'Adipisci dolorem. Quaerat non dolor. Tempora est ipsum adipisci est ipsum. Labore voluptatem sed non sit dolorem consectetur. Sit porro eius est adipisci ipsum. Etincidunt ipsum amet quiquia dolore. Eius quiquia ut dolore adipisci modi ut sit.');
-insert into topics (label, description) values ('Sobriety', 'Dolorem. Numquam dolore eius dolore modi amet dolor velit. Sit quiquia ut. Dolorem sed dolor est ut adipisci labore voluptatem eius. Dolore eius ut modi modi sed voluptatem. Sit consectetur dolore tempora numquam aliquam.');
-insert into topics (label, description) values ('Living in Specific Locations', 'Modi sit. Etincidunt eius aliquam amet. Ipsum velit voluptatem quisquam eius ut aliquam dolore neque. Aliquam amet aliquam aliquam magnam sed aliquam quiquia. Quaerat porro tempora.');
-insert into topics (label, description) values ('Going Back to School', 'Quiquia eius quiquia neque labore numquam ut quiquia. Numquam ipsum quiquia. Labore quaerat. Neque modi modi. Velit modi. Tempora ut. Etincidunt dolor modi amet numquam tempora modi labore. Sit amet numquam ut dolor consectetur modi ut adipisci. Quaerat.');
-insert into topics (label, description) values ('Self-Improvement', 'Non numquam numquam voluptatem adipisci. Porro adipisci etincidunt quisquam velit. Sit porro eius porro velit quaerat modi. Ipsum voluptatem porro eius tempora. Voluptatem ipsum est.');
-insert into topics (label, description) values ('Self-Teaching', 'Velit dolorem magnam. Etincidunt dolore est numquam consectetur sit sit tempora porro adipisci. Non adipisci labore porro quisquam numquam velit est consectetur adipisci. Etincidunt amet modi dolorem modi sed est dolore dolorem. Quaerat porro amet modi.');
-insert into topics (label, description) values ('Getting Smarter', 'Labore quaerat dolorem ut labore adipisci dolor porro. Sit ut. Sit dolore porro tempora eius. Quisquam magnam sit dolorem. Aliquam amet eius neque numquam labore est dolor tempora magnam.');
-insert into topics (label, description) values ('Quantified Self', 'Neque aliquam dolore. Consectetur. Etincidunt etincidunt modi ipsum ipsum velit aliquam sit ut. Quiquia non adipisci. Velit dolore.');
-insert into topics (label, description) values ('Self Improvement Methods or Schools of Thought', 'Ipsum quiquia consectetur ipsum modi numquam sed sed velit. Dolorem. Etincidunt tempora ipsum. Adipisci neque etincidunt sit est dolor ipsum quaerat tempora quaerat. Voluptatem non quisquam etincidunt modi.');
-insert into topics (label, description) values ('Personal Goals', 'Sit labore quiquia eius tempora sed sit. Neque. Ut eius sed. Quaerat neque porro ut dolore. Quaerat adipisci amet. Adipisci eius voluptatem velit sit quaerat.');
-insert into topics (label, description) values ('Self-Control', 'Velit magnam aliquam. Non. Voluptatem non est quaerat numquam. Eius dolorem tempora. Ipsum quaerat consectetur quiquia tempora. Quiquia numquam. Modi sit labore etincidunt dolorem non est etincidunt etincidunt dolore.');
-insert into topics (label, description) values ('Understanding Self-Improvement', 'Adipisci magnam magnam ipsum dolorem consectetur consectetur. Modi eius quaerat quiquia ipsum numquam sit eius consectetur. Ipsum. Porro. Voluptatem quiquia consectetur.');
-insert into topics (label, description) values ('Self-Help Books', 'Magnam sit aliquam non. Est est sed quaerat labore quaerat non neque non eius. Dolorem adipisci sed. Modi quisquam magnam etincidunt sit etincidunt est quisquam quiquia. Tempora. Etincidunt aliquam etincidunt quaerat.');
-insert into topics (label, description) values ('Specific Types of Self-Improvement', 'Etincidunt eius dolore eius magnam sit. Est ut porro sit etincidunt modi aliquam numquam ipsum. Numquam non numquam dolorem quaerat. Etincidunt ut adipisci. Voluptatem dolorem porro quiquia etincidunt numquam ut labore sit voluptatem.');
-insert into topics (label, description) values ('Self-Improvement Apps', 'Neque adipisci eius consectetur magnam. Tempora labore numquam ipsum etincidunt modi ipsum consectetur eius. Velit neque sit porro sit non magnam. Ut. Dolorem quiquia non sed velit.');
-insert into topics (label, description) values ('Self-Improvement Advice', 'Tempora velit. Aliquam magnam tempora. Amet aliquam etincidunt est quiquia quiquia. Consectetur. Tempora. Magnam sit quaerat porro sed velit numquam voluptatem aliquam.');
-insert into topics (label, description) values ('Psychology of Self-Improvement', 'Labore numquam eius porro consectetur. Ut sed eius dolor quiquia amet. Quaerat. Voluptatem etincidunt magnam. Velit aliquam amet.');
-insert into topics (label, description) values ('Master Key System', 'Neque etincidunt aliquam etincidunt magnam. Porro dolore amet eius. Numquam voluptatem ipsum dolore consectetur. Sed tempora porro consectetur quaerat dolore dolor neque. Porro numquam dolore adipisci modi consectetur sed velit.');
-insert into topics (label, description) values ('Improving Self-Confidence', 'Ut ut quaerat dolor numquam quaerat dolor ut sed voluptatem. Non dolor velit est dolorem. Quaerat labore quisquam porro velit amet dolor modi. Aliquam est voluptatem non dolore. Non voluptatem neque labore quisquam. Consectetur ut dolorem sed.');
-insert into topics (label, description) values ('Self Help Groups', 'Etincidunt adipisci consectetur dolore quisquam velit aliquam ipsum amet neque. Non neque quiquia magnam dolor. Numquam numquam. Sit dolor magnam aliquam non dolore eius velit adipisci porro. Sit velit.');
-insert into topics (label, description) values ('Self-Awareness', 'Etincidunt. Modi dolore porro est aliquam sit velit ut porro. Ipsum modi sed numquam labore. Numquam eius tempora numquam porro ipsum. Etincidunt. Aliquam modi velit. Etincidunt quisquam.');
-insert into topics (label, description) values ('Self-Image', 'Labore quaerat modi magnam. Dolor tempora adipisci porro. Modi est dolore ipsum velit consectetur labore. Labore ut voluptatem consectetur velit consectetur non. Consectetur non dolorem etincidunt. Labore dolor tempora porro adipisci amet dolor porro.');
-insert into topics (label, description) values ('Self-reflection', 'Quaerat ut. Labore dolore dolor etincidunt quiquia tempora quaerat eius quisquam. Dolore aliquam. Dolorem dolorem etincidunt dolor sed amet non quaerat. Sed dolor voluptatem etincidunt ut.');
-insert into topics (label, description) values ('Self-consciousness', 'Ut amet sit sit quisquam ipsum amet dolorem ipsum magnam. Dolorem. Dolorem tempora magnam amet eius tempora labore adipisci voluptatem sit. Neque ipsum modi. Labore velit neque velit adipisci voluptatem magnam.');
-insert into topics (label, description) values ('Self-Delusion', 'Dolore aliquam eius magnam quaerat sed. Sit modi etincidunt quaerat adipisci velit etincidunt. Tempora sit modi dolorem eius adipisci magnam etincidunt velit ut. Dolore dolor non dolorem. Voluptatem amet amet neque. Quisquam modi. Dolore aliquam.');
-insert into topics (label, description) values ('Self-Awareness Advice', 'Quaerat amet sed neque etincidunt consectetur dolore non. Quisquam. Ipsum aliquam velit quiquia dolore non. Est quisquam ut ipsum quiquia voluptatem voluptatem. Quaerat magnam quaerat. Consectetur quisquam.');
-insert into topics (label, description) values ('Interpersonal Interaction', 'Magnam quisquam dolor quiquia eius magnam labore numquam ipsum. Amet consectetur velit. Velit dolor ut voluptatem eius dolore voluptatem. Porro quisquam. Voluptatem non quaerat numquam labore adipisci modi. Numquam quiquia ipsum adipisci eius dolorem ut.');
-insert into topics (label, description) values ('Social Advice', 'Velit quiquia labore sit etincidunt. Amet eius ipsum adipisci eius eius voluptatem quisquam etincidunt non. Aliquam voluptatem neque voluptatem. Quiquia etincidunt quiquia magnam quisquam sit aliquam magnam. Est aliquam magnam sit velit modi labore amet.');
-insert into topics (label, description) values ('Manners and Etiquette', 'Quiquia eius voluptatem. Neque. Consectetur tempora magnam quaerat quiquia sed. Labore dolore sit modi ipsum dolore tempora aliquam ut eius. Labore. Velit velit sed consectetur. Eius velit velit. Quaerat non dolorem dolore sed numquam.');
-insert into topics (label, description) values ('Fun', 'Numquam adipisci. Quaerat adipisci est. Labore non sit porro. Numquam adipisci quiquia. Numquam amet dolorem ipsum non numquam labore. Dolore dolore aliquam non.');
-insert into topics (label, description) values ('Conversational Frameworks', 'Eius quisquam neque. Adipisci. Dolorem labore aliquam dolor. Neque velit aliquam velit velit est quisquam sit. Amet labore. Etincidunt porro. Quiquia dolor numquam.');
-insert into topics (label, description) values ('Specific Types of Interpersonal Interaction', 'Non labore quiquia adipisci dolorem. Voluptatem tempora modi est porro ipsum voluptatem etincidunt numquam ipsum. Numquam non magnam velit. Non consectetur aliquam non tempora consectetur. Adipisci voluptatem quisquam.');
-insert into topics (label, description) values ('Concepts in Interpersonal Interaction', 'Dolorem neque velit neque dolor dolor voluptatem. Quisquam sed modi eius neque magnam tempora magnam quisquam. Sed dolore magnam neque quaerat quaerat magnam est quaerat. Dolor neque. Dolorem velit eius. Non adipisci velit modi dolore dolorem est dolor.');
-insert into topics (label, description) values ('Intimacy', 'Etincidunt consectetur dolor magnam tempora voluptatem dolore quiquia amet eius. Dolorem aliquam eius. Etincidunt adipisci velit. Porro est. Velit.');
-insert into topics (label, description) values ('Conflict and Conflicts', 'Non est. Sed quaerat sed modi ipsum non quiquia non. Quiquia dolore magnam aliquam. Modi neque voluptatem adipisci sit voluptatem dolor aliquam ut. Non. Dolorem sed consectetur sed aliquam modi neque. Est.');
-insert into topics (label, description) values ('Disagreement and Disagreements', 'Neque. Labore sit dolorem magnam est adipisci quaerat numquam. Dolore ut velit sit modi modi dolor porro consectetur magnam. Numquam quaerat est est tempora ipsum porro quaerat amet. Adipisci quiquia consectetur quisquam labore consectetur ipsum.');
-insert into topics (label, description) values ('Caring', 'Sit quisquam adipisci sed labore amet. Ipsum etincidunt velit numquam magnam dolore etincidunt ut ipsum. Etincidunt consectetur voluptatem sed sed est etincidunt consectetur. Labore eius ipsum quaerat. Quiquia eius labore tempora eius velit adipisci.');
-insert into topics (label, description) values ('Objectification', 'Modi tempora. Ut consectetur est dolorem tempora. Non sed est porro. Ipsum etincidunt non est numquam. Dolor est. Adipisci tempora. Ipsum. Ipsum consectetur sit. Neque dolor porro numquam.');
-insert into topics (label, description) values ('Reciprocity (interpersonal interactions)', 'Labore sit. Velit dolor quiquia tempora voluptatem tempora ut. Sed magnam dolor ipsum voluptatem velit dolorem quisquam dolorem. Magnam. Non. Eius. Velit sit consectetur sed modi eius non amet. Consectetur dolor. Dolorem porro sit.');
-insert into topics (label, description) values ('Topics of Discussion', 'Non est dolore amet velit consectetur neque dolorem. Dolore tempora sed sit dolore aliquam quiquia. Quisquam. Voluptatem voluptatem porro. Tempora.');
-insert into topics (label, description) values ('Competition', 'Consectetur porro dolor dolor etincidunt quiquia. Amet non labore. Quisquam consectetur quiquia quiquia consectetur dolor. Sit quiquia tempora neque adipisci magnam. Adipisci. Magnam sed amet consectetur ut non ut. Dolor magnam velit.');
-insert into topics (label, description) values ('Interpersonal Interaction with Specific People', 'Neque porro. Tempora tempora dolorem amet eius est. Tempora quiquia ut dolore labore voluptatem porro. Ut adipisci neque. Voluptatem voluptatem quaerat adipisci consectetur sit.');
-insert into topics (label, description) values ('Interpersonal Interaction in Specific Locations', 'Voluptatem dolorem non. Voluptatem dolorem quiquia. Etincidunt est ut velit labore neque velit numquam dolore quaerat. Etincidunt non adipisci dolorem ipsum. Dolore modi labore quisquam.');
-insert into topics (label, description) values ('Shyness', 'Sit quaerat. Quisquam adipisci eius velit voluptatem est est. Voluptatem quisquam modi voluptatem est. Modi aliquam eius aliquam modi numquam porro dolorem neque etincidunt. Adipisci ipsum porro quiquia.');
-insert into topics (label, description) values ('Employees', 'Ipsum quiquia ut sit labore consectetur ipsum est. Quiquia ut est voluptatem labore numquam. Magnam dolore neque. Consectetur quiquia est porro voluptatem neque eius numquam magnam. Porro quaerat quisquam ipsum.');
-insert into topics (label, description) values ('Interpersonal Interaction Between Best Friends', 'Est quaerat sit sit. Quiquia neque labore voluptatem adipisci magnam ipsum voluptatem tempora adipisci. Adipisci. Porro adipisci ipsum sit numquam consectetur adipisci sed. Consectetur amet est dolorem dolor ut sed aliquam.');
-insert into topics (label, description) values ('Interpersonal Interaction Advice', 'Modi dolorem velit quiquia labore ut eius. Consectetur quisquam porro numquam neque. Non dolore magnam sit velit dolore. Ipsum neque quiquia quaerat sed sed. Quaerat dolore.');
-insert into topics (label, description) values ('Social Signals', 'Voluptatem quiquia modi. Eius tempora dolore modi labore. Amet numquam quiquia aliquam. Numquam sit magnam dolore eius. Ipsum est modi dolore ipsum sit sit numquam modi amet. Amet. Sed dolore magnam non. Aliquam. Amet sed numquam.');
-insert into topics (label, description) values ('Friendship', 'Dolore quaerat aliquam est quisquam sit neque. Velit voluptatem tempora velit magnam dolore tempora sed magnam quiquia. Est dolore amet ipsum. Labore etincidunt labore neque. Porro velit porro dolor.');
-insert into topics (label, description) values ('Making Friends', 'Quiquia. Porro quaerat amet sit magnam ut velit amet quisquam adipisci. Dolorem adipisci ut voluptatem adipisci etincidunt adipisci. Ipsum etincidunt quaerat. Quiquia sed dolorem dolore quisquam etincidunt.');
-insert into topics (label, description) values ('Etiquette and Friends', 'Adipisci etincidunt dolor amet aliquam. Tempora quisquam. Consectetur ut quiquia. Etincidunt tempora. Magnam ut. Modi sed tempora numquam quiquia numquam. Labore aliquam modi.');
-insert into topics (label, description) values ('Friendzone and Friendzoning', 'Consectetur dolore. Voluptatem sed est numquam sit consectetur neque magnam numquam. Dolore consectetur neque quiquia adipisci. Quisquam amet velit. Eius consectetur tempora dolore magnam. Modi velit adipisci dolore velit aliquam tempora est neque.');
-insert into topics (label, description) values ('Types of Friends', 'Dolore non dolorem dolore. Magnam quiquia aliquam amet tempora modi quaerat consectetur tempora voluptatem. Amet tempora sit non consectetur. Sed sed. Ipsum magnam. Sit.');
-insert into topics (label, description) values ('Bros', 'Labore dolore labore neque sed labore tempora. Numquam ipsum porro numquam quisquam quisquam quisquam numquam magnam numquam. Amet sed labore numquam ipsum modi. Amet numquam quiquia ipsum sit adipisci modi tempora. Porro velit est porro dolor amet.');
-insert into topics (label, description) values ('Romantic Friendship', 'Eius eius non dolor ut. Aliquam modi. Quaerat tempora sed est velit voluptatem. Quiquia aliquam quiquia. Dolorem voluptatem eius est velit.');
-insert into topics (label, description) values ('Dating and Friendship', 'Ipsum dolor consectetur ipsum quiquia magnam adipisci dolorem. Ut non quisquam sed etincidunt numquam voluptatem dolorem voluptatem. Eius labore ipsum neque. Eius est sit sed non adipisci consectetur adipisci. Adipisci adipisci est.');
-insert into topics (label, description) values ('Friendship Advice', 'Sed dolor quiquia dolor neque sit ut. Amet labore est dolorem est. Dolore dolore dolore etincidunt quaerat tempora tempora tempora amet voluptatem. Etincidunt non quiquia etincidunt quisquam modi. Consectetur sit. Est.');
-insert into topics (label, description) values ('Love and Friendships', 'Modi. Neque numquam quisquam ipsum quisquam. Ut voluptatem. Neque quiquia quiquia. Ipsum magnam velit eius adipisci aliquam eius dolorem porro sed. Sed non.');
-insert into topics (label, description) values ('Using Psychology in Friendships', 'Dolor est est. Est. Dolore velit aliquam dolor aliquam porro porro amet ipsum etincidunt. Sit dolor voluptatem sed. Quisquam etincidunt dolor quiquia dolore. Sit modi dolore non velit labore.');
-insert into topics (label, description) values ('Friendship Dynamics', 'Modi quisquam voluptatem amet ipsum quisquam labore ut. Etincidunt est. Neque ut sit eius velit non amet sed aliquam tempora. Adipisci quisquam etincidunt. Amet labore aliquam porro velit quaerat quiquia adipisci labore.');
-insert into topics (label, description) values ('Online Friendship', 'Magnam est velit dolor ut. Adipisci dolorem dolorem. Neque etincidunt est amet quiquia labore dolorem eius velit. Non. Consectetur dolor modi porro tempora velit ipsum sed.');
-insert into topics (label, description) values ('Love and Friendship', 'Consectetur consectetur velit dolorem. Adipisci ipsum dolor sit non neque modi sed labore ut. Numquam dolore sed aliquam eius quisquam. Sed neque ut consectetur ut ut ipsum. Quiquia adipisci sit quaerat dolore est.');
-insert into topics (label, description) values ('Friends Forever', 'Dolore quiquia velit dolorem sed dolorem non dolor. Sed neque labore etincidunt dolorem quiquia dolorem. Adipisci quisquam porro etincidunt. Magnam dolorem est dolorem numquam consectetur sit consectetur quisquam. Ipsum ut sit dolore labore dolor sed.');
-insert into topics (label, description) values ('Being Friendless', 'Magnam numquam. Velit. Numquam ipsum magnam sit quisquam neque eius. Tempora amet velit aliquam sit sed. Dolor quisquam eius etincidunt dolorem etincidunt adipisci. Tempora quaerat velit sit adipisci. Labore quiquia labore dolorem velit quisquam ut.');
-insert into topics (label, description) values ('BFFs', 'Dolorem. Dolor sit quisquam modi modi ut magnam numquam. Dolorem. Non sit dolor ipsum sed non. Aliquam ut non quaerat. Sit ipsum tempora tempora amet amet labore ut. Numquam est.');
-insert into topics (label, description) values ('Long Lost Friends', 'Modi tempora quiquia adipisci porro labore. Sit consectetur sed. Magnam voluptatem ipsum. Sit. Sed ipsum porro ipsum modi est ipsum neque dolorem adipisci.');
-insert into topics (label, description) values ('Self-Confidence', 'Ut dolor quiquia adipisci amet. Consectetur magnam sit aliquam dolorem quisquam magnam ipsum. Tempora sit sit velit dolore aliquam labore dolor neque. Dolorem. Amet. Tempora dolore amet dolore dolore. Quaerat sit quiquia voluptatem.');
-insert into topics (label, description) values ('Low Self-Confidence', 'Etincidunt ut amet consectetur. Amet quiquia dolor. Est sit dolorem eius est sed. Adipisci magnam numquam neque non quisquam ipsum. Porro. Sed. Amet sit adipisci non quisquam labore. Labore magnam sit ut quisquam ipsum quisquam.');
-insert into topics (label, description) values ('Self-Confidence Advice', 'Dolorem amet etincidunt velit neque. Quiquia ut numquam ut velit quiquia porro non. Quisquam consectetur. Neque modi amet eius dolor neque est eius. Labore dolorem.');
-insert into topics (label, description) values ('Family', 'Quisquam. Adipisci. Quaerat neque porro magnam. Porro non. Porro sit non quaerat ut est amet dolor.');
-insert into topics (label, description) values ('Parenting', 'Numquam quisquam etincidunt neque non amet. Velit sit etincidunt ipsum non ut non eius. Sit consectetur. Adipisci adipisci porro ipsum. Sed dolore quiquia porro neque neque sit est consectetur.');
-insert into topics (label, description) values ('Marriage', 'Magnam quaerat. Aliquam non etincidunt sit dolor. Eius velit aliquam. Consectetur aliquam sed dolore sit quisquam sed quaerat quaerat. Neque porro ut sed. Labore sit quiquia eius est sed quaerat modi. Etincidunt. Non quisquam sed adipisci eius. Magnam.');
-insert into topics (label, description) values ('Family Relationships and Dynamics', 'Ut dolorem labore voluptatem. Dolor. Ut dolor dolore. Magnam labore sit modi eius. Aliquam dolore quisquam numquam neque numquam. Quiquia porro modi neque est magnam est dolore sit. Quiquia. Voluptatem magnam dolorem numquam.');
-insert into topics (label, description) values ('Specific Types of Relatives and Family Members', 'Quaerat quaerat aliquam quaerat sit sit ipsum dolorem. Numquam ipsum. Dolor. Non adipisci porro porro etincidunt quisquam amet modi. Etincidunt tempora modi eius numquam tempora.');
-insert into topics (label, description) values ('Genealogy', 'Voluptatem ut dolorem. Porro voluptatem voluptatem porro. Etincidunt est quisquam. Sed modi non etincidunt. Ipsum velit amet consectetur amet modi neque. Magnam consectetur.');
-insert into topics (label, description) values ('Family Interdisciplinary Topics', 'Dolor amet dolor tempora neque. Quiquia. Neque sit non amet amet non. Magnam ipsum aliquam. Velit sed magnam est. Amet quiquia aliquam porro magnam voluptatem.');
-insert into topics (label, description) values ('Family Psychology', 'Etincidunt velit amet non. Est dolore. Modi eius est labore etincidunt quisquam neque dolor porro. Sit porro. Consectetur quaerat. Dolorem dolore neque modi modi. Eius amet tempora sit quiquia ipsum. Dolore. Labore numquam. Quisquam porro dolore sed.');
-insert into topics (label, description) values ('Family Circle', 'Etincidunt dolore sit tempora. Dolorem. Quiquia. Adipisci dolor velit. Ipsum voluptatem quiquia non sed dolor magnam consectetur.');
-insert into topics (label, description) values ('Family in Specific Locations', 'Quiquia quiquia sed sit velit. Quiquia velit. Amet etincidunt etincidunt. Eius porro sit. Ipsum magnam consectetur non eius neque dolor labore aliquam consectetur.');
-insert into topics (label, description) values ('Specific Types of Families', 'Non aliquam quiquia quiquia voluptatem voluptatem. Magnam. Sit dolorem ipsum modi porro. Consectetur numquam quisquam adipisci. Velit quiquia dolorem labore sed neque. Velit aliquam quisquam labore.');
-insert into topics (label, description) values ('Specific Families', 'Numquam. Velit quiquia quaerat. Non tempora labore aliquam. Quiquia aliquam quaerat quisquam non numquam porro amet. Velit aliquam ut dolor dolore. Quiquia amet numquam voluptatem modi quiquia dolorem.');
-insert into topics (label, description) values ('Family Abuse', 'Amet sit. Aliquam dolor sed modi dolor ipsum quisquam dolorem labore tempora. Amet porro dolor quisquam. Labore. Tempora tempora magnam ut. Non est neque dolorem est. Ipsum porro quiquia sit dolorem amet velit.');
-insert into topics (label, description) values ('Familial Love', 'Eius modi. Sit. Dolor. Quisquam numquam modi dolorem adipisci neque numquam. Quaerat amet. Sed non ut. Dolore aliquam numquam. Aliquam. Amet ut amet. Non magnam porro voluptatem dolorem amet quiquia quaerat aliquam.');
-insert into topics (label, description) values ('Family Stability', 'Porro eius dolorem sed sit ipsum dolor ut dolorem. Neque quaerat voluptatem dolor sed quiquia porro quisquam dolorem numquam. Dolorem aliquam neque consectetur. Amet ipsum neque quisquam dolore non etincidunt quaerat velit. Porro.');
-insert into topics (label, description) values ('Family History', 'Modi labore etincidunt sed adipisci dolor sit. Dolorem labore. Quisquam modi labore porro quisquam sed etincidunt sed quiquia. Voluptatem sit modi. Tempora.');
-insert into topics (label, description) values ('Broken Hearts Caused by Family Members', 'Eius dolorem sed etincidunt. Aliquam consectetur eius ipsum ipsum modi labore eius etincidunt non. Tempora labore. Adipisci ut eius non adipisci numquam. Quisquam aliquam ut est sit labore.');
-insert into topics (label, description) values ('Human Animal Relationships', 'Aliquam tempora ipsum sed porro consectetur adipisci quisquam labore quaerat. Etincidunt. Ut. Amet porro quaerat labore. Dolore.');
-insert into topics (label, description) values ('Pet Ownership', 'Adipisci etincidunt est quaerat est modi adipisci quisquam non. Dolorem dolor aliquam dolorem dolore consectetur dolorem quaerat tempora. Quiquia quiquia. Magnam est dolorem quaerat adipisci quisquam sed aliquam modi labore. Quaerat.');
-insert into topics (label, description) values ('Behavior', 'Ipsum neque dolorem voluptatem etincidunt sit. Dolorem tempora. Sed ut eius velit velit adipisci. Ut ipsum non dolor amet adipisci amet adipisci numquam etincidunt. Quiquia dolorem labore porro velit sit. Quiquia amet magnam quaerat. Quaerat consectetur.');
-insert into topics (label, description) values ('Human Behavior', 'Quaerat consectetur. Dolore porro modi velit dolore ut. Est neque modi. Dolor sit aliquam non neque adipisci porro sed consectetur ut. Dolore.');
-insert into topics (label, description) values ('Animal Behavior', 'Etincidunt numquam non aliquam sed porro non non dolor. Eius sed modi aliquam neque. Quaerat modi modi modi labore neque ut. Consectetur. Dolore dolor sit dolore labore modi. Sit porro amet velit sit sit est neque dolorem.');
-insert into topics (label, description) values ('Study of Behavior', 'Numquam dolorem eius. Velit porro ipsum. Labore magnam sed quaerat dolore quaerat labore velit non amet. Quisquam quisquam. Consectetur magnam quaerat. Etincidunt voluptatem quisquam velit dolorem.');
-insert into topics (label, description) values ('Conditioning (general)', 'Quiquia adipisci ut velit tempora est consectetur. Ut porro consectetur. Dolorem numquam magnam. Sit quisquam est adipisci aliquam velit voluptatem quiquia. Velit tempora labore tempora modi.');
-insert into topics (label, description) values ('Behavioral Psychology', 'Sed. Neque dolorem ipsum etincidunt dolore sed adipisci non. Eius consectetur sit. Quaerat ut voluptatem est est modi dolore voluptatem. Velit dolorem dolore. Dolor dolor adipisci. Numquam quaerat sit aliquam.');
-insert into topics (label, description) values ('Threat-Related Behavior', 'Modi neque eius. Ipsum neque. Numquam dolorem sit sed modi magnam. Adipisci sit. Modi neque. Ipsum est consectetur est etincidunt ut dolorem quisquam sed. Magnam porro ut quaerat etincidunt. Dolore labore dolorem dolorem.');
-insert into topics (label, description) values ('Behavioral Assessments', 'Etincidunt. Quaerat eius non ipsum. Aliquam sit eius porro quaerat. Dolore porro dolor. Voluptatem voluptatem quaerat modi dolore numquam quiquia labore.');
-insert into topics (label, description) values ('Ethical Behavior', 'Dolorem dolorem modi voluptatem. Numquam dolor. Tempora porro amet. Magnam consectetur voluptatem tempora. Numquam. Modi aliquam velit. Eius magnam velit aliquam magnam est dolor est.');
-insert into topics (label, description) values ('Behavioral Economics', 'Est consectetur adipisci aliquam adipisci. Adipisci dolore. Adipisci. Velit etincidunt numquam. Modi. Voluptatem ipsum quaerat velit porro. Sed labore aliquam quiquia tempora dolore. Modi adipisci ipsum dolorem sed. Amet aliquam dolorem aliquam quiquia.');
-insert into topics (label, description) values ('Specific Types of Behavior', 'Velit dolore. Neque ipsum tempora consectetur aliquam sit ipsum. Consectetur dolore eius quisquam quisquam. Quaerat labore amet adipisci amet quiquia labore modi. Non.');
-insert into topics (label, description) values ('Solitude', 'Porro sed. Labore quisquam quaerat eius voluptatem. Modi porro quiquia dolorem modi amet aliquam modi magnam voluptatem. Sed. Neque quaerat porro magnam modi tempora magnam labore. Dolorem neque eius.');
-insert into topics (label, description) values ('Reactions', 'Quisquam quisquam porro ipsum non aliquam. Sit ut aliquam neque est dolor labore dolorem. Amet adipisci consectetur dolor neque dolorem tempora ipsum. Dolor numquam labore dolorem quisquam quisquam. Consectetur porro.');
-insert into topics (label, description) values ('Self-Destructive Behavior', 'Tempora ipsum adipisci amet. Sed porro numquam sed velit. Consectetur eius voluptatem modi. Quaerat ut dolorem amet. Est ipsum non. Ut numquam labore velit modi non tempora consectetur. Amet tempora non sed dolorem dolor. Consectetur etincidunt.');
-insert into topics (label, description) values ('Relationships', 'Dolore voluptatem etincidunt eius. Modi voluptatem. Dolore est voluptatem quiquia ipsum consectetur quisquam non dolore. Etincidunt magnam dolor quiquia quisquam dolor dolore. Neque porro ut adipisci modi ut.');
-insert into topics (label, description) values ('Relationship Advice', 'Dolore quiquia amet tempora quisquam aliquam. Eius porro quaerat adipisci modi numquam velit labore sit. Porro sed tempora velit consectetur. Numquam non eius adipisci dolor est non eius. Quaerat. Ut adipisci quiquia amet voluptatem.');
-insert into topics (label, description) values ('Specific Types of Relationships', 'Quiquia porro dolor. Sed. Amet neque numquam etincidunt voluptatem. Labore est velit non. Labore aliquam non dolorem.');
-insert into topics (label, description) values ('Relationship Counseling', 'Aliquam sed neque dolore. Dolor velit consectetur modi ut neque ut. Modi. Quaerat labore quisquam eius dolorem labore. Numquam ipsum sit neque quisquam. Quisquam ipsum voluptatem eius dolore. Quiquia voluptatem magnam.');
-insert into topics (label, description) values ('Relationship Problems', 'Modi quiquia aliquam quaerat quiquia. Dolorem est quisquam ipsum dolore est. Quiquia neque tempora dolorem est amet ipsum. Magnam. Dolorem porro tempora. Magnam dolore ut amet non dolor dolore neque eius consectetur.');
-insert into topics (label, description) values ('Bachelors (relationships)', 'Dolore adipisci quisquam amet amet voluptatem modi aliquam porro non. Non labore ut sed dolorem porro numquam. Dolor. Velit dolore aliquam dolore dolore dolore quiquia sit amet. Voluptatem consectetur dolorem etincidunt tempora sit.');
-insert into topics (label, description) values ('Celebrity Relationships', 'Quisquam voluptatem sit quiquia. Ipsum ut adipisci amet amet quisquam quisquam voluptatem tempora ipsum. Eius sit sed neque ipsum modi dolorem dolor. Sit. Dolorem voluptatem voluptatem sit velit.');
-insert into topics (label, description) values ('Relationships in Specific Locations', 'Aliquam sed modi modi etincidunt tempora voluptatem tempora modi etincidunt. Modi dolorem amet ut amet. Eius. Neque est magnam. Quisquam aliquam voluptatem est consectetur. Ipsum ut quisquam voluptatem voluptatem voluptatem non amet.');
-insert into topics (label, description) values ('Relationship Dynamics', 'Est sit adipisci dolor dolore. Consectetur tempora quiquia eius non dolor labore dolor. Consectetur sit numquam numquam adipisci tempora labore. Quiquia quisquam dolor etincidunt ut neque porro. Quaerat magnam neque dolorem. Velit.');
-insert into topics (label, description) values ('Social Discovery', 'Numquam quiquia consectetur ipsum. Ut labore ut voluptatem amet. Ipsum magnam est est. Numquam sed aliquam eius. Quiquia labore. Numquam dolorem ipsum adipisci dolor dolor tempora. Dolor labore voluptatem etincidunt quiquia quiquia quaerat.');
-insert into topics (label, description) values ('Dating and Relationships', 'Dolor voluptatem. Etincidunt. Sit. Quiquia porro tempora labore labore consectetur magnam. Quiquia dolor voluptatem adipisci sit tempora porro est. Numquam ut dolor quaerat aliquam porro dolorem modi. Adipisci quaerat sed.');
-insert into topics (label, description) values ('Health', 'Est adipisci etincidunt ipsum quiquia magnam. Voluptatem tempora non quiquia etincidunt dolorem. Sed neque. Dolor quaerat modi est labore voluptatem. Consectetur. Velit magnam sit dolorem magnam labore est sit adipisci voluptatem.');
-insert into topics (label, description) values ('Mental Health', 'Amet quisquam. Dolor magnam dolore etincidunt. Neque. Sit dolorem modi modi dolorem. Non non dolor aliquam quiquia eius magnam amet voluptatem.');
-insert into topics (label, description) values ('Sleep', 'Sed adipisci magnam etincidunt voluptatem sit ipsum velit magnam est. Quisquam numquam amet magnam dolor voluptatem magnam quiquia tempora. Tempora etincidunt tempora ut dolor dolor ut. Est sit est labore eius. Eius velit quisquam aliquam. Dolore.');
-insert into topics (label, description) values ('Fitness', 'Etincidunt est. Quiquia est etincidunt ut. Ipsum. Non labore amet voluptatem labore quiquia. Numquam numquam quisquam labore dolore eius dolore. Etincidunt sed.');
-insert into topics (label, description) values ('Nutrition', 'Magnam ipsum labore est labore quiquia velit. Sed est eius eius sed voluptatem ut ut. Quaerat sit porro numquam aliquam quisquam labore. Sit numquam est consectetur ipsum quisquam tempora. Non consectetur velit amet aliquam dolore voluptatem.');
-insert into topics (label, description) values ('Health for Different Demographics', 'Aliquam quiquia ipsum dolore sit non non. Dolorem tempora dolor dolorem consectetur. Amet ut consectetur aliquam eius. Consectetur labore numquam etincidunt adipisci adipisci porro non velit. Dolorem sed est est. Voluptatem modi. Ipsum.');
-insert into topics (label, description) values ('Major Concepts in Health', 'Eius quisquam aliquam. Consectetur sit consectetur numquam. Etincidunt consectetur adipisci. Adipisci sed ut ipsum. Adipisci. Magnam ipsum dolore velit. Magnam. Labore velit aliquam.');
-insert into topics (label, description) values ('Healthy Living', 'Dolor tempora amet aliquam eius. Velit non velit numquam modi amet ipsum dolor etincidunt quisquam. Quisquam amet eius dolore consectetur quiquia eius dolore. Quaerat labore magnam labore eius. Tempora aliquam.');
-insert into topics (label, description) values ('Medicine and Healthcare', 'Dolore velit quaerat neque. Eius eius dolore numquam dolor dolor modi. Ipsum quisquam adipisci sit magnam. Porro velit dolore dolorem non numquam ipsum modi dolore quaerat. Modi numquam dolor quisquam dolor non dolor. Velit tempora sed.');
-insert into topics (label, description) values ('Wellbeing', 'Ut magnam labore non aliquam. Sit ut labore dolore ipsum magnam ipsum quisquam. Consectetur ipsum adipisci sit neque numquam. Quisquam labore dolore etincidunt velit. Est ipsum est aliquam modi tempora velit. Non modi neque magnam neque tempora eius.');
-insert into topics (label, description) values ('History of Health', 'Labore quaerat quaerat. Est amet quisquam neque aliquam non tempora non numquam. Neque ipsum ut quaerat etincidunt magnam tempora. Magnam dolor quiquia dolor neque dolorem sit. Magnam velit etincidunt amet est magnam porro.');
-insert into topics (label, description) values ('Health Causes and Effects', 'Quaerat. Dolorem est dolor non dolor labore non. Labore tempora velit amet. Quisquam magnam magnam dolore aliquam neque quaerat amet. Sed quisquam dolorem velit quaerat porro.');
-insert into topics (label, description) values ('Yoga and Health', 'Est amet sed quiquia. Sit porro quisquam. Sit dolor aliquam modi modi quaerat est amet voluptatem magnam. Etincidunt quiquia numquam aliquam. Magnam dolorem voluptatem aliquam dolore ipsum consectetur adipisci sit labore.');
-insert into topics (label, description) values ('Health Interdisciplinary Topics', 'Quisquam eius modi sit est magnam numquam. Etincidunt est tempora. Est etincidunt modi etincidunt eius porro dolor dolorem dolor adipisci. Neque est dolor voluptatem. Dolore voluptatem. Dolore labore amet quiquia etincidunt tempora ut.');
-insert into topics (label, description) values ('Health Advice', 'Quiquia labore consectetur. Dolore dolor labore magnam voluptatem etincidunt est modi. Ut dolor quisquam quaerat porro. Ipsum quaerat quisquam numquam adipisci porro dolorem modi sit. Adipisci. Amet quisquam quiquia est.');
-insert into topics (label, description) values ('Modern Fertility', 'Eius numquam quaerat adipisci. Etincidunt sed ut ipsum est. Aliquam tempora dolore. Labore sed etincidunt magnam adipisci tempora quisquam porro est adipisci. Numquam dolore etincidunt neque non tempora numquam quaerat magnam.');
-insert into topics (label, description) values ('Science', 'Adipisci neque labore modi dolore. Amet ut modi non. Quiquia non aliquam sed dolorem numquam. Dolor. Sed dolore aliquam tempora dolor. Non etincidunt tempora voluptatem voluptatem numquam voluptatem adipisci.');
-insert into topics (label, description) values ('Physical Sciences', 'Numquam quaerat tempora etincidunt quaerat numquam. Adipisci eius adipisci quiquia non sed porro. Neque ipsum labore magnam modi voluptatem dolore neque ipsum consectetur. Neque amet eius. Quisquam quisquam velit modi.');
-insert into topics (label, description) values ('Life Sciences', 'Numquam voluptatem est sit quaerat non. Amet aliquam sit neque adipisci numquam eius est sed. Dolorem quiquia ut est sed. Adipisci ut numquam velit quaerat labore labore labore etincidunt velit. Dolor adipisci sit velit.');
-insert into topics (label, description) values ('Interdisciplinary Science', 'Dolor velit consectetur dolore neque magnam numquam labore labore neque. Quaerat. Dolore. Amet velit magnam dolor sit adipisci voluptatem. Aliquam sit dolorem. Porro ipsum quaerat sed dolor est est. Voluptatem porro quaerat dolorem.');
-insert into topics (label, description) values ('Scientific Research', 'Dolor quisquam. Numquam numquam magnam ipsum etincidunt porro porro porro voluptatem ut. Est labore amet est labore non magnam. Magnam sed adipisci dolore tempora porro ut numquam dolore. Sed tempora non. Sit quisquam amet quiquia ipsum sit.');
-insert into topics (label, description) values ('Scientists', 'Neque est ut dolorem est sed neque. Velit est porro etincidunt modi porro. Sit velit tempora. Neque velit voluptatem consectetur dolore est numquam. Dolore ut tempora magnam ut.');
-insert into topics (label, description) values ('Philosophy of Science', 'Quiquia adipisci aliquam non voluptatem. Modi dolorem labore voluptatem ut etincidunt neque quiquia. Velit. Adipisci modi sed. Quaerat magnam consectetur numquam etincidunt amet velit numquam neque.');
-insert into topics (label, description) values ('History of Science', 'Adipisci velit neque non quiquia ut. Sed est non sed labore modi quisquam quiquia. Ut tempora. Adipisci eius tempora tempora adipisci dolore. Quisquam sed ipsum voluptatem modi velit.');
-insert into topics (label, description) values ('Science of Everyday Life', 'Aliquam quisquam quaerat porro magnam sed numquam. Dolorem quisquam. Labore aliquam magnam amet porro est eius labore dolor dolore. Magnam numquam. Numquam porro ut numquam adipisci. Adipisci consectetur magnam quiquia quisquam etincidunt numquam.');
-insert into topics (label, description) values ('Scientific Laws and Principles', 'Eius quisquam dolor. Quisquam modi quisquam velit modi. Tempora ut modi velit dolor magnam porro. Voluptatem magnam porro dolorem quisquam voluptatem. Consectetur sit labore dolorem amet labore velit amet sit.');
-insert into topics (label, description) values ('Current Events in Science', 'Etincidunt consectetur consectetur ut ipsum labore aliquam dolore. Dolor etincidunt quaerat quaerat. Amet eius neque amet adipisci. Numquam modi consectetur quisquam magnam sed amet. Numquam. Adipisci aliquam magnam magnam tempora. Etincidunt sit.');
-insert into topics (label, description) values ('Science Behind Science Fiction', 'Ipsum numquam quaerat voluptatem. Amet non ut sed dolor quaerat eius. Porro dolorem aliquam dolor aliquam ut dolor ut aliquam. Sed quaerat adipisci adipisci etincidunt consectetur quiquia. Non magnam quisquam ipsum quaerat.');
-insert into topics (label, description) values ('Major Concepts in Science', 'Sed quaerat quiquia ut porro. Porro. Dolore quisquam labore voluptatem. Amet dolorem dolorem aliquam est etincidunt. Numquam. Consectetur ut non voluptatem modi voluptatem amet sed quisquam. Sed ipsum voluptatem.');
-insert into topics (label, description) values ('Formal Sciences', 'Eius dolore velit ut sit amet adipisci voluptatem velit dolore. Voluptatem neque sed dolore. Dolor quiquia modi. Quaerat neque est. Numquam etincidunt eius magnam etincidunt eius quisquam. Adipisci tempora.');
-insert into topics (label, description) values ('Applied Sciences', 'Tempora est quiquia tempora neque. Porro eius amet quisquam sit sit non labore non voluptatem. Non numquam dolore consectetur tempora. Quiquia velit velit consectetur porro porro numquam magnam. Non.');
-insert into topics (label, description) values ('Science Museums', 'Consectetur sed sed. Ut modi sit porro dolorem modi tempora sit labore. Eius labore quaerat. Quiquia tempora dolorem tempora. Quisquam amet magnam ut.');
-insert into topics (label, description) values ('Scientific Terminology and Jargon', 'Aliquam quisquam. Amet quiquia amet. Non sit amet dolor modi. Etincidunt amet velit quisquam quisquam. Consectetur ipsum adipisci consectetur.');
-insert into topics (label, description) values ('Science in Specific Locations', 'Aliquam magnam modi ipsum. Adipisci eius porro ut quaerat. Ut dolore consectetur velit. Sed quaerat labore. Tempora velit est etincidunt etincidunt est quisquam. Non modi ut dolor. Porro labore consectetur etincidunt ipsum non labore est quaerat.');
-insert into topics (label, description) values ('Experimental Science', 'Aliquam adipisci modi eius est numquam. Non modi eius. Labore. Modi adipisci etincidunt ipsum numquam. Est. Est dolore eius quisquam adipisci adipisci quiquia ut neque quisquam. Tempora non quiquia etincidunt quaerat labore.');
-insert into topics (label, description) values ('Facilities and Organizations of Science', 'Ut quaerat. Est aliquam quisquam ipsum quiquia. Ut tempora etincidunt. Sit labore tempora dolor ipsum aliquam ipsum amet amet. Quiquia.');
-insert into topics (label, description) values ('Scientific Discoveries', 'Quiquia quaerat sit dolore voluptatem. Amet quaerat etincidunt. Amet porro quaerat voluptatem consectetur quiquia ut quiquia. Sit tempora. Numquam etincidunt modi porro sit porro dolor.');
-insert into topics (label, description) values ('Mathematical Sciences', 'Ipsum sit ut. Ut consectetur. Sed ipsum modi modi amet aliquam dolorem eius. Dolorem magnam ipsum sit numquam est quisquam etincidunt quaerat. Magnam. Adipisci velit.');
-insert into topics (label, description) values ('Jobs and Careers in Science', 'Aliquam neque numquam. Ipsum labore quiquia. Est dolore porro numquam dolor. Etincidunt ut labore sit eius neque numquam consectetur quisquam. Dolorem magnam ipsum quaerat neque numquam dolore quiquia est aliquam.');
-insert into topics (label, description) values ('Science and Society', 'Numquam sed quisquam neque sit neque labore dolor eius. Dolore neque velit dolore neque. Non quaerat magnam quisquam est. Sed. Eius etincidunt. Quiquia porro dolor.');
-insert into topics (label, description) values ('Future of Science', 'Magnam magnam consectetur aliquam non dolore. Quisquam ipsum quisquam numquam quaerat eius ipsum. Etincidunt voluptatem. Magnam. Quaerat consectetur dolor consectetur. Non aliquam. Numquam.');
-insert into topics (label, description) values ('Scientific Evidence', 'Dolore. Quiquia quisquam non. Dolore eius. Ipsum amet non etincidunt numquam. Modi est aliquam voluptatem ut. Aliquam amet. Velit non ipsum dolore dolor quisquam dolore quaerat sit numquam. Neque labore etincidunt.');
-insert into topics (label, description) values ('General Science', 'Eius quaerat adipisci sed porro tempora. Ut ipsum ipsum. Voluptatem quaerat numquam modi neque aliquam sit. Quaerat velit magnam. Tempora tempora ipsum numquam quiquia porro.');
-insert into topics (label, description) values ('Technology', 'Eius neque ut dolorem. Dolore ut quisquam dolore velit sit velit. Sed ut sit etincidunt neque ut etincidunt neque quisquam. Numquam eius. Quisquam. Velit porro non adipisci tempora. Magnam quiquia neque est voluptatem.');
-insert into topics (label, description) values ('Technology Trends', 'Tempora aliquam dolorem eius amet ipsum eius magnam. Etincidunt. Magnam quaerat quaerat dolor. Modi amet numquam ut. Velit dolor consectetur. Dolor porro consectetur labore dolor. Amet amet.');
-insert into topics (label, description) values ('Technology Concepts, Terms and Definitions', 'Eius sed. Eius non ut adipisci aliquam etincidunt eius amet velit. Aliquam dolor amet modi neque. Dolore non dolorem tempora velit. Etincidunt quaerat eius dolore quiquia numquam.');
-insert into topics (label, description) values ('Technology in Specific Locations', 'Eius quiquia numquam sit ipsum. Quaerat aliquam tempora labore ut consectetur porro ipsum dolor. Non adipisci. Ipsum quisquam quisquam modi sed quiquia eius modi etincidunt non. Quaerat quisquam dolorem aliquam. Etincidunt porro voluptatem velit.');
-insert into topics (label, description) values ('Current Events in Technology', 'Quisquam velit magnam dolorem etincidunt sed adipisci ut. Quisquam sit tempora eius tempora sit magnam. Quiquia. Amet numquam magnam sed voluptatem. Non quaerat ut numquam dolorem voluptatem consectetur ipsum sed porro.');
-insert into topics (label, description) values ('Specific Types of Technology', 'Voluptatem dolorem ipsum ipsum non labore amet dolor labore. Etincidunt. Neque. Consectetur velit. Dolorem etincidunt neque adipisci non dolor adipisci neque velit eius.');
-insert into topics (label, description) values ('Technology Products', 'Velit. Sed sit quiquia neque amet etincidunt. Adipisci numquam voluptatem amet voluptatem adipisci adipisci sit amet. Numquam ut dolore ipsum. Eius tempora modi.');
-insert into topics (label, description) values ('Technology Marketing', 'Est. Porro non. Dolor. Aliquam dolore adipisci modi dolorem dolor voluptatem labore aliquam. Eius quaerat modi porro adipisci eius consectetur. Eius dolor. Dolorem est amet quisquam amet porro amet. Modi quaerat.');
-insert into topics (label, description) values ('Technology Startups', 'Velit voluptatem quisquam. Magnam quaerat. Amet aliquam velit amet. Dolore etincidunt quisquam est sit ipsum sit. Porro dolor aliquam dolorem etincidunt numquam. Voluptatem modi ipsum porro porro etincidunt. Sed porro est porro non quaerat amet.');
-insert into topics (label, description) values ('Tech News and Journalism', 'Voluptatem eius consectetur velit. Amet. Aliquam modi quisquam etincidunt numquam. Ipsum velit. Tempora magnam labore consectetur. Sit magnam eius neque magnam. Dolore labore non non quaerat aliquam. Numquam quaerat numquam ipsum quiquia tempora. Dolor.');
-insert into topics (label, description) values ('Jobs and Careers in Technology', 'Etincidunt consectetur voluptatem. Numquam dolore dolorem sit quiquia porro voluptatem labore. Numquam quaerat sed quaerat. Ipsum tempora consectetur dolorem. Numquam consectetur non. Neque sit.');
-insert into topics (label, description) values ('Major Concepts in Technology', 'Modi amet modi modi labore aliquam adipisci aliquam. Quiquia amet velit quaerat. Modi dolorem. Ipsum quaerat voluptatem est. Consectetur quisquam non dolorem. Velit consectetur sit labore quisquam voluptatem.');
-insert into topics (label, description) values ('Tech Events', 'Labore labore. Adipisci. Labore voluptatem numquam eius dolor. Porro aliquam ipsum numquam neque est. Neque sit amet eius numquam amet voluptatem ut amet. Quaerat neque adipisci amet amet.');
-insert into topics (label, description) values ('Women in Technology', 'Sit quaerat velit ut consectetur ut modi. Quaerat labore voluptatem est labore. Voluptatem sit quisquam quaerat dolorem. Eius sit porro neque porro. Labore quaerat dolorem sed ipsum dolorem numquam neque sit.');
-insert into topics (label, description) values ('Anti-Technology Movements and Opinions', 'Adipisci. Amet amet est. Velit sed. Magnam dolore amet est magnam amet. Ipsum magnam adipisci quiquia.');
-insert into topics (label, description) values ('Science Parks', 'Eius non magnam quisquam eius labore eius. Amet tempora porro quiquia sit modi sed sed eius. Magnam. Neque quaerat amet sed amet ipsum tempora consectetur. Velit velit porro quiquia quiquia eius dolore ipsum numquam quisquam. Ut consectetur quiquia.');
-insert into topics (label, description) values ('Technology Entrepreneurship', 'Porro ipsum quaerat magnam sed quiquia eius numquam. Consectetur numquam. Dolorem dolorem. Eius non dolor numquam voluptatem sed etincidunt etincidunt quiquia. Voluptatem est consectetur numquam quisquam est voluptatem. Eius sed ut.');
-insert into topics (label, description) values ('Technology Management', 'Modi eius. Est tempora dolore adipisci dolor. Velit. Modi. Voluptatem numquam. Ut quisquam. Non sit dolore dolore velit amet aliquam amet porro tempora.');
-insert into topics (label, description) values ('2019 Tech & Investing Series', 'Etincidunt sed tempora velit sed velit adipisci magnam. Amet magnam. Voluptatem. Non non consectetur. Neque labore ipsum est non. Magnam.');
-insert into topics (label, description) values ('Technology Advice', 'Aliquam voluptatem aliquam etincidunt magnam. Quaerat est quaerat consectetur. Quaerat. Dolore modi. Sit magnam labore est neque quaerat tempora consectetur ipsum ipsum.');
-insert into topics (label, description) values ('Engineering', 'Non dolore. Est eius voluptatem magnam modi velit consectetur dolore tempora consectetur. Sed quiquia sed dolore eius adipisci dolore magnam adipisci. Numquam etincidunt adipisci quisquam. Est. Etincidunt labore quaerat quisquam. Non. Non modi.');
-insert into topics (label, description) values ('Branches of Engineering', 'Dolore voluptatem sed. Velit voluptatem est magnam amet. Non etincidunt quisquam velit. Magnam. Quisquam sit labore.');
-insert into topics (label, description) values ('Specific Types of Engineering', 'Porro. Adipisci porro consectetur consectetur eius non magnam sit. Dolore magnam aliquam sit neque sit amet neque quaerat sed. Quaerat tempora velit modi adipisci amet labore magnam ipsum labore. Adipisci.');
-insert into topics (label, description) values ('Interdisciplinary Engineering', 'Magnam quaerat sit. Adipisci eius ut dolor labore eius velit porro quaerat modi. Dolor porro sit. Aliquam labore sit etincidunt neque etincidunt non tempora. Ut sit velit sit quiquia porro dolorem eius porro porro.');
-insert into topics (label, description) values ('Engineering Education', 'Ut adipisci amet tempora numquam. Non dolor magnam consectetur. Tempora non quisquam. Velit tempora dolore magnam dolorem etincidunt voluptatem ipsum adipisci. Dolor numquam. Magnam sed dolor labore dolorem ut voluptatem. Est est dolor. Ut.');
-insert into topics (label, description) values ('Research in Engineering', 'Aliquam dolorem sed labore dolorem est dolor voluptatem. Sed dolor. Voluptatem eius ipsum sed amet quisquam quaerat. Porro eius quisquam. Sed porro numquam.');
-insert into topics (label, description) values ('History of Engineering', 'Ipsum amet eius voluptatem dolore ipsum quiquia. Labore voluptatem quisquam ipsum numquam ipsum dolore est. Dolore dolorem. Porro consectetur dolor neque consectetur non. Quaerat.');
-insert into topics (label, description) values ('Engineering in Specific Locations', 'Sit dolorem labore velit non. Magnam dolor sed neque porro tempora neque velit adipisci. Etincidunt quaerat velit dolore dolorem. Labore amet. Labore voluptatem ut quisquam aliquam.');
-insert into topics (label, description) values ('Major Concepts in Engineering', 'Dolorem sed. Labore aliquam dolorem modi. Amet quiquia adipisci etincidunt non ut. Quisquam dolore neque sed consectetur quiquia modi amet aliquam. Tempora quiquia aliquam modi dolorem porro tempora modi sit.');
-insert into topics (label, description) values ('Learning About Engineering', 'Tempora. Sed eius porro ipsum quiquia quiquia. Tempora consectetur numquam aliquam dolorem quiquia quisquam eius etincidunt quisquam. Velit ut dolor modi ut dolorem modi amet voluptatem consectetur. Dolore numquam magnam. Magnam ipsum sed.');
-insert into topics (label, description) values ('University Engineering Advice', 'Dolore amet est neque adipisci adipisci neque non dolore. Voluptatem quiquia. Aliquam magnam etincidunt dolorem quaerat. Magnam quiquia amet velit neque dolor. Quiquia.');
-insert into topics (label, description) values ('Studying Engineering', 'Sed magnam modi sit tempora amet tempora consectetur voluptatem. Velit ipsum numquam. Sit quiquia magnam sed ut aliquam. Quiquia porro magnam eius velit. Quiquia ut est amet dolore. Tempora aliquam eius.');
-insert into topics (label, description) values ('Engineering Comparisons', 'Consectetur labore numquam tempora. Aliquam magnam etincidunt. Numquam aliquam porro est neque modi neque voluptatem. Sed aliquam non dolorem consectetur sed quisquam ut consectetur. Est. Velit modi dolore.');
-insert into topics (label, description) values ('Engineering Advice', 'Eius. Quisquam modi adipisci voluptatem ut dolorem. Dolorem sit tempora. Etincidunt neque etincidunt. Numquam tempora dolorem dolorem quiquia ut sed quisquam numquam. Eius voluptatem adipisci dolorem eius.');
-insert into topics (label, description) values ('Jobs and Careers in Engineering', 'Sit voluptatem neque labore porro numquam ipsum. Ipsum amet amet. Consectetur sed adipisci voluptatem est adipisci. Modi. Adipisci tempora numquam neque tempora quisquam neque neque. Modi. Etincidunt quaerat modi quisquam numquam quiquia amet. Ut labore.');
-insert into topics (label, description) values ('Engineering Organizations', 'Consectetur neque adipisci dolor non. Est tempora dolore adipisci consectetur. Quisquam eius tempora non quiquia amet consectetur tempora quiquia. Ut quiquia modi porro consectetur. Ut voluptatem neque voluptatem quisquam sit aliquam ipsum porro.');
-insert into topics (label, description) values ('Engineering Cost', 'Eius velit. Non tempora ipsum quiquia. Est ut sed. Dolore sed porro adipisci. Ut ut aliquam quisquam quaerat neque etincidunt quaerat adipisci tempora. Quisquam dolore est numquam. Non dolore magnam ut aliquam est adipisci consectetur porro magnam.');
-insert into topics (label, description) values ('Social Sciences', 'Quisquam amet consectetur numquam ut dolore etincidunt sed ut porro. Amet non amet ut numquam dolor est. Porro ipsum dolorem etincidunt. Numquam voluptatem ipsum labore ipsum. Aliquam numquam tempora neque sit eius eius ipsum eius voluptatem.');
-insert into topics (label, description) values ('Sociology', 'Dolor magnam adipisci velit magnam. Labore eius numquam. Labore. Est dolorem dolore amet sit quisquam dolore. Quiquia modi dolore labore. Porro ipsum dolore. Magnam sed.');
-insert into topics (label, description) values ('Economics', 'Dolore. Dolor dolor consectetur. Non dolor quiquia voluptatem sit. Magnam neque ut. Numquam magnam magnam non est voluptatem. Non. Modi magnam magnam quisquam amet amet labore. Neque aliquam dolorem dolore.');
-insert into topics (label, description) values ('Linguistics', 'Modi consectetur consectetur ipsum consectetur dolorem labore non adipisci neque. Non. Adipisci etincidunt eius. Voluptatem neque sed. Ipsum magnam quisquam tempora aliquam. Porro consectetur consectetur labore tempora porro.');
-insert into topics (label, description) values ('Gender Studies', 'Adipisci ut quiquia. Voluptatem consectetur voluptatem ut adipisci magnam. Tempora dolorem quisquam porro amet labore magnam. Labore. Tempora quaerat amet. Labore tempora.');
-insert into topics (label, description) values ('Geography', 'Dolor non non numquam adipisci. Porro. Ipsum ut est dolore modi quisquam ut. Tempora non labore labore amet quaerat. Quaerat adipisci. Porro voluptatem. Magnam quiquia. Ut neque quaerat dolorem aliquam. Dolorem ut magnam labore etincidunt.');
-insert into topics (label, description) values ('Psychology', 'Voluptatem magnam neque eius dolore neque amet velit. Porro amet tempora. Dolor modi. Ut non numquam quiquia dolor quisquam dolorem neque. Velit ut quiquia ut est amet dolorem dolorem ut sit. Quiquia.');
-insert into topics (label, description) values ('Area Studies', 'Amet quaerat. Voluptatem dolorem quaerat numquam. Sed tempora numquam porro dolorem dolor magnam etincidunt tempora. Numquam etincidunt ut ut numquam. Velit quiquia velit tempora dolorem ipsum.');
-insert into topics (label, description) values ('Education (academic discipline)', 'Velit voluptatem tempora dolore. Quisquam voluptatem tempora sed quiquia modi quiquia modi quiquia numquam. Labore dolore. Magnam modi. Adipisci magnam quaerat sed. Sed dolorem est etincidunt neque dolorem porro magnam ipsum. Dolorem quiquia aliquam.');
-insert into topics (label, description) values ('Behavioral Sciences', 'Tempora quiquia eius quaerat magnam. Quaerat est labore dolor dolorem labore non. Sed ut ut non magnam est dolore dolorem. Neque eius porro dolor modi sed labore quaerat voluptatem velit. Aliquam quisquam adipisci.');
-insert into topics (label, description) values ('Museum Studies', 'Ipsum eius voluptatem quiquia magnam. Magnam aliquam sed amet dolorem numquam tempora. Ipsum quiquia. Sed. Voluptatem tempora ipsum etincidunt ipsum dolore dolore consectetur sed. Numquam quisquam amet amet aliquam dolorem dolore dolore sit amet.');
-insert into topics (label, description) values ('Signed Languages', 'Numquam sed. Sit ut non eius modi modi consectetur eius ut. Amet adipisci quisquam labore labore quiquia eius neque. Quisquam amet etincidunt quiquia etincidunt ipsum sed dolor. Dolorem tempora quisquam numquam modi porro non. Sit dolor. Quisquam.');
-insert into topics (label, description) values ('Major Concepts in Social Sciences', 'Magnam dolore. Est. Est velit. Amet. Dolore dolorem velit velit etincidunt voluptatem velit. Quiquia ipsum numquam. Sed non. Ut amet magnam dolor adipisci voluptatem. Neque. Sed numquam est numquam.');
-insert into topics (label, description) values ('Research in Social Sciences', 'Est neque aliquam porro porro labore sit labore quiquia. Modi magnam labore porro adipisci dolorem voluptatem quisquam. Quiquia. Porro consectetur dolor ipsum voluptatem. Velit. Aliquam porro velit dolorem tempora numquam.');
-insert into topics (label, description) values ('Environmental Studies', 'Aliquam modi voluptatem aliquam labore eius ut. Ut etincidunt consectetur est adipisci modi velit etincidunt consectetur consectetur. Quisquam amet. Quiquia. Tempora.');
-insert into topics (label, description) values ('History of Social Sciences', 'Sit porro numquam non quiquia velit numquam quiquia sit sit. Dolorem sed voluptatem amet. Velit etincidunt amet dolorem aliquam. Sit. Consectetur modi. Velit aliquam. Ipsum est neque adipisci.');
-insert into topics (label, description) values ('Social Ideologies', 'Neque ipsum etincidunt quiquia dolor quiquia sit neque sit. Adipisci. Modi aliquam est non. Sed velit quisquam ipsum amet quaerat. Consectetur quiquia magnam. Amet voluptatem amet consectetur modi dolor tempora ipsum. Sit labore.');
-insert into topics (label, description) values ('Social Sciences in Specific Locations', 'Labore. Tempora. Sit ut quiquia sed est non quisquam dolore. Aliquam. Eius. Quaerat amet dolor dolore ipsum. Non ut dolore ipsum modi modi est. Ut porro porro quaerat dolore porro quisquam amet. Modi non adipisci modi magnam ut ut magnam.');
-insert into topics (label, description) values ('Social Science Education', 'Amet porro sed ipsum velit est modi quiquia. Velit. Quiquia dolore. Sit dolorem quiquia non. Quisquam porro amet. Neque tempora. Dolor aliquam ut amet voluptatem dolor aliquam.');
-insert into topics (label, description) values ('Education in STEM', 'Magnam labore labore. Adipisci quisquam adipisci aliquam dolor. Tempora etincidunt adipisci modi quaerat magnam sit magnam. Magnam quaerat dolorem tempora sed. Adipisci numquam dolore quaerat.');
-insert into topics (label, description) values ('Technology Education', 'Sed. Ipsum velit quiquia tempora adipisci quiquia. Voluptatem est adipisci ut porro dolore. Etincidunt sed quisquam sed non porro aliquam ipsum adipisci. Numquam.');
-insert into topics (label, description) values ('Biology Education', 'Etincidunt numquam dolor. Tempora velit etincidunt adipisci quiquia voluptatem. Quaerat. Dolorem etincidunt eius ut porro aliquam. Ut quaerat tempora quiquia consectetur. Ut non dolor sed dolorem modi. Sed dolore dolor dolorem amet sit quaerat.');
-insert into topics (label, description) values ('Mathematics Education', 'Ut modi modi. Porro dolorem eius eius quisquam sit etincidunt. Sit. Consectetur dolore aliquam ipsum ipsum ut labore modi. Non quaerat ut voluptatem. Consectetur adipisci modi porro ut dolorem quiquia.');
-insert into topics (label, description) values ('Physics Education', 'Sed. Sit est sed dolor dolor labore est ut adipisci. Sit quisquam etincidunt neque. Sit modi non dolorem quisquam amet. Est numquam. Sit dolorem labore.');
-insert into topics (label, description) values ('Chemistry Education', 'Velit quiquia neque dolor. Magnam porro quaerat quaerat quisquam aliquam porro dolorem. Sed neque dolor quiquia quisquam dolore labore labore numquam. Non consectetur non labore consectetur non magnam est. Dolore etincidunt porro dolorem adipisci.');
-insert into topics (label, description) values ('Science Education', 'Ipsum sed ut eius labore dolor. Dolor quiquia adipisci non etincidunt dolor. Quiquia quaerat sit velit non aliquam ipsum. Sit quisquam est sed est voluptatem dolor. Non labore velit tempora dolore ut est. Amet quiquia modi labore neque modi.');
-insert into topics (label, description) values ('Visiting and Travel', 'Dolor non porro ut quiquia magnam quiquia quaerat amet magnam. Velit dolore neque dolor ut etincidunt modi. Eius magnam voluptatem dolorem quiquia dolore adipisci ipsum aliquam. Velit. Dolore tempora adipisci quaerat quaerat tempora consectetur.');
-insert into topics (label, description) values ('Tourism', 'Sed dolor dolorem dolorem magnam eius non adipisci. Dolor sed velit consectetur modi amet dolore. Amet. Ut etincidunt eius neque modi ut dolore quiquia. Amet tempora. Quiquia quaerat ut consectetur quiquia voluptatem. Quaerat sed.');
-insert into topics (label, description) values ('Accommodation', 'Dolor numquam porro quiquia aliquam modi porro numquam aliquam. Adipisci. Velit. Ut eius ut est porro aliquam adipisci. Sed. Magnam est porro etincidunt quisquam sed voluptatem. Dolor.');
-insert into topics (label, description) values ('Travel Hacks', 'Aliquam quaerat aliquam aliquam non est sed labore non quiquia. Non non magnam. Eius ut magnam eius dolor labore dolor. Dolor magnam. Aliquam magnam quiquia magnam consectetur modi. Dolor dolor. Amet labore numquam aliquam etincidunt dolor ut quaerat.');
-insert into topics (label, description) values ('Travel Photography', 'Aliquam. Adipisci eius ipsum porro tempora velit. Consectetur quiquia aliquam quisquam. Labore magnam quisquam quisquam non amet. Eius dolorem dolor.');
-insert into topics (label, description) values ('Rental Cars', 'Adipisci neque etincidunt dolorem dolorem. Tempora adipisci voluptatem porro aliquam dolor amet. Neque modi. Ipsum tempora modi non porro. Voluptatem labore sed. Aliquam voluptatem est tempora.');
-insert into topics (label, description) values ('Vacations', 'Quaerat neque porro modi. Ipsum neque dolorem aliquam labore eius sed ut. Consectetur est modi labore magnam eius aliquam tempora etincidunt. Dolor tempora modi quaerat modi aliquam. Dolorem sit numquam velit. Quisquam ut modi.');
-insert into topics (label, description) values ('Specific Types of Travel', 'Voluptatem voluptatem. Voluptatem. Porro. Modi ut ipsum porro non ipsum labore magnam. Voluptatem magnam labore non ut sit consectetur dolor tempora. Non. Amet porro sed sed non est. Non non. Velit tempora quisquam. Est est dolore.');
-insert into topics (label, description) values ('Travel Destinations', 'Non etincidunt sed sed. Labore sit porro velit dolor ipsum dolore velit. Dolorem modi sed tempora ut tempora quisquam. Etincidunt quiquia dolore ut tempora. Quaerat ipsum neque consectetur sit amet. Sed tempora sit quisquam dolor quiquia. Sit.');
-insert into topics (label, description) values ('Travel Planning', 'Porro adipisci sit modi. Quiquia sit est labore dolorem velit. Quaerat sed ut aliquam. Porro dolorem dolore. Etincidunt eius consectetur sit dolor eius. Non dolore sed modi. Eius dolor voluptatem tempora.');
-insert into topics (label, description) values ('Travel Writing', 'Dolor. Numquam consectetur velit numquam eius. Voluptatem velit dolore est porro sit aliquam modi sed. Amet dolore etincidunt. Sed voluptatem modi. Quaerat amet porro. Dolor amet amet sed labore tempora magnam voluptatem neque.');
-insert into topics (label, description) values ('Sightseeing', 'Consectetur. Tempora quiquia quisquam magnam. Eius modi. Porro. Amet non neque. Dolorem etincidunt etincidunt eius ipsum neque modi est ipsum. Dolorem.');
-insert into topics (label, description) values ('Urban Exploration', 'Etincidunt ut. Neque neque. Amet neque velit quiquia sed sed magnam non neque labore. Numquam magnam ipsum. Neque non. Dolorem numquam.');
-insert into topics (label, description) values ('Luggage', 'Aliquam. Velit etincidunt dolor dolore dolor sit. Voluptatem ut magnam. Dolorem quiquia velit ipsum sit velit. Adipisci dolor labore quaerat magnam. Dolor dolor aliquam tempora dolorem adipisci tempora aliquam modi.');
-insert into topics (label, description) values ('Safaris', 'Consectetur modi dolorem ut labore ut magnam quisquam. Quaerat quaerat porro sit quiquia adipisci non aliquam. Non sit eius magnam dolorem tempora. Modi velit quisquam dolorem sed neque non velit numquam aliquam. Est dolor. Quaerat ut aliquam est velit.');
-insert into topics (label, description) values ('Round the World Travel', 'Dolore dolor magnam quisquam. Voluptatem voluptatem modi dolorem dolore ipsum aliquam dolor sed. Est sit aliquam adipisci labore dolor dolor tempora consectetur sed. Neque tempora. Dolore magnam. Adipisci sed.');
-insert into topics (label, description) values ('Luxury Travel', 'Dolorem amet voluptatem neque quiquia adipisci neque. Adipisci neque etincidunt quiquia dolor porro tempora ipsum sed aliquam. Quaerat. Modi quaerat labore. Voluptatem magnam quisquam.');
-insert into topics (label, description) values ('Travel Restrictions', 'Est voluptatem dolore neque quisquam velit ipsum aliquam numquam porro. Est. Voluptatem aliquam sed neque dolor labore est. Eius velit. Est adipisci non voluptatem velit ut. Voluptatem quisquam. Tempora velit.');
-insert into topics (label, description) values ('Travel Stories', 'Ut quisquam numquam aliquam numquam ipsum quaerat. Neque quiquia. Numquam porro amet etincidunt quiquia voluptatem est dolore magnam. Consectetur sed tempora velit. Quisquam consectetur tempora. Voluptatem magnam. Neque quisquam.');
-insert into topics (label, description) values ('Thanksgiving Travel', 'Etincidunt voluptatem voluptatem ut numquam eius consectetur. Porro eius quiquia sit modi amet voluptatem modi. Amet voluptatem amet eius voluptatem amet. Non. Aliquam quiquia ut modi. Non non velit quisquam porro etincidunt magnam modi etincidunt.');
-insert into topics (label, description) values ('Travel Safety', 'Dolorem non consectetur. Neque est. Labore quaerat non non sit numquam dolorem. Sed consectetur eius. Etincidunt voluptatem non consectetur. Magnam voluptatem quisquam ipsum eius. Dolore velit etincidunt ipsum quaerat magnam velit ut.');
-insert into topics (label, description) values ('Visiting and Travel Advice', 'Non labore voluptatem. Porro modi quiquia aliquam quiquia sit. Consectetur ut amet ut voluptatem. Amet sed. Aliquam voluptatem ipsum sit dolor tempora tempora. Aliquam quisquam adipisci.');
-insert into topics (label, description) values ('Travelers', 'Adipisci etincidunt voluptatem numquam. Dolore etincidunt voluptatem dolor sed labore etincidunt etincidunt modi sed. Aliquam amet tempora dolorem amet quisquam adipisci ut. Neque ut adipisci sed ut tempora non quisquam sed. Non.');
-insert into topics (label, description) values ('Women''s Travel', 'Sit dolorem quaerat neque sed voluptatem numquam. Voluptatem tempora consectetur. Quaerat. Eius magnam sed. Tempora magnam magnam velit dolor dolor sed est eius dolorem. Quisquam. Neque etincidunt dolore labore eius quiquia aliquam eius.');
-insert into topics (label, description) values ('LGBTQ Travel', 'Aliquam dolorem dolore. Etincidunt numquam eius velit ipsum aliquam numquam neque neque consectetur. Sit velit. Magnam sed. Voluptatem ut quisquam adipisci. Modi quisquam modi.');
-insert into topics (label, description) values ('Accessible Travel', 'Quaerat eius. Tempora amet aliquam non. Dolore eius voluptatem quaerat sed dolor quiquia. Voluptatem est amet voluptatem sed ut labore sed. Quisquam non numquam etincidunt labore etincidunt consectetur.');
-insert into topics (label, description) values ('Travel Advisories', 'Neque amet. Sed dolor aliquam modi consectetur quaerat etincidunt. Amet ut sit magnam porro labore magnam quaerat. Ut eius numquam. Aliquam tempora porro amet ut.');
-insert into topics (label, description) values ('Travel Health', 'Eius ut est quiquia non velit neque. Magnam etincidunt dolorem quisquam consectetur dolore modi porro dolore. Adipisci est porro. Sed ut aliquam quaerat aliquam dolore dolor. Numquam quaerat ut porro voluptatem.');
-insert into topics (label, description) values ('Fitness Travel', 'Adipisci dolore ipsum dolorem numquam aliquam. Est dolore est labore sed adipisci. Etincidunt adipisci dolor dolorem. Adipisci dolore. Magnam voluptatem voluptatem quiquia eius quisquam neque dolorem est.');
-insert into topics (label, description) values ('Visiting and Travel in Specific Locations', 'Ipsum. Tempora. Voluptatem tempora quaerat. Ipsum etincidunt ipsum. Voluptatem etincidunt quaerat quaerat modi neque dolor dolor.');
-insert into topics (label, description) values ('Visiting Beaches', 'Tempora eius eius quisquam consectetur quiquia velit ipsum tempora ut. Quiquia labore tempora quaerat modi ut quisquam dolor voluptatem amet. Etincidunt dolore quaerat numquam est. Eius dolor sed modi aliquam consectetur. Amet voluptatem consectetur.');
-insert into topics (label, description) values ('Visiting and Travel on Trains', 'Quiquia sed. Ipsum quaerat eius eius sed dolor. Magnam. Etincidunt dolorem ipsum numquam quisquam quiquia ut tempora velit. Eius velit aliquam modi adipisci velit labore dolore numquam. Non ut ut.');
-insert into topics (label, description) values ('Travel Activity Advice', 'Sit. Magnam quiquia. Dolorem. Tempora magnam aliquam quaerat aliquam amet adipisci. Voluptatem dolore aliquam adipisci est tempora neque aliquam etincidunt. Numquam numquam amet amet.');
-insert into topics (label, description) values ('Travel Times', 'Tempora sed amet non neque est numquam etincidunt dolorem. Eius neque. Tempora adipisci numquam sit non. Quiquia. Tempora voluptatem dolorem sit non quisquam neque sed magnam. Quaerat velit dolorem ipsum numquam eius adipisci consectetur porro velit.');
-insert into topics (label, description) values ('Female Travel', 'Neque. Ut tempora. Quaerat adipisci ipsum. Neque sit. Aliquam. Etincidunt. Quaerat non dolorem porro ut labore sit.');
-insert into topics (label, description) values ('Travelling Alone', 'Quaerat est dolore velit. Aliquam sit eius amet quisquam voluptatem aliquam. Amet quiquia sed adipisci quisquam sit consectetur magnam ut tempora. Dolore velit adipisci sed ut consectetur sit quiquia dolorem. Modi.');
-insert into topics (label, description) values ('Visitors', 'Voluptatem numquam eius dolore est porro tempora modi magnam. Eius quaerat modi quaerat consectetur velit. Tempora non aliquam neque tempora. Tempora est dolorem neque tempora magnam neque ut. Eius. Etincidunt consectetur numquam dolore eius.');
-insert into topics (label, description) values ('eTA Canada (Electronic Travel Authorization )', 'Magnam ipsum quisquam neque ipsum dolorem. Sed neque ut voluptatem amet dolor. Eius quaerat non non modi. Amet eius labore ut. Est sed etincidunt dolor. Numquam quiquia. Neque aliquam consectetur sed aliquam. Quisquam sed neque est ut porro.');
-insert into topics (label, description) values ('Working Holiday Visas', 'Quiquia sit quaerat aliquam voluptatem adipisci. Adipisci tempora eius aliquam. Dolore dolor quiquia dolorem quisquam numquam voluptatem dolor. Tempora tempora neque. Eius non sit quisquam eius est.');
-insert into topics (label, description) values ('Sports', 'Sit est dolor. Neque velit consectetur sed numquam. Sed quisquam. Porro. Quiquia labore velit sed sed. Aliquam aliquam sit neque dolor quiquia.');
-insert into topics (label, description) values ('Specific Sports', 'Ut. Quaerat non ut sed neque ut. Aliquam est. Neque. Velit velit sit labore porro neque ut tempora. Dolore eius voluptatem eius etincidunt ut magnam ut. Quisquam sit magnam dolore dolore voluptatem non non est. Est sed.');
-insert into topics (label, description) values ('Classifications of Sports', 'Dolorem est numquam etincidunt non etincidunt non eius. Aliquam non quaerat porro dolorem. Voluptatem adipisci voluptatem ut. Eius velit velit. Neque quisquam porro quaerat sit. Ipsum sed velit sit est sit est dolore numquam.');
-insert into topics (label, description) values ('Major Concepts in Sports', 'Dolore. Quaerat ipsum sed non porro ipsum eius magnam. Tempora tempora sit labore. Tempora ipsum voluptatem quisquam porro voluptatem etincidunt voluptatem dolorem. Amet quisquam modi labore sed dolor sed sed.');
-insert into topics (label, description) values ('Sports Business', 'Adipisci sit. Ut numquam etincidunt quisquam quaerat. Adipisci velit amet quiquia. Quiquia voluptatem adipisci dolorem sit sit numquam porro est. Dolore voluptatem.');
-insert into topics (label, description) values ('Sporting Events', 'Ut eius dolorem ipsum modi quisquam sit. Dolorem consectetur dolore neque sed tempora tempora. Porro aliquam dolor sed eius non dolorem. Etincidunt quaerat amet magnam magnam voluptatem quaerat sed porro. Dolor.');
-insert into topics (label, description) values ('Sports in Specific Locations', 'Sit eius voluptatem velit dolore dolor neque dolore neque. Ut eius. Ut. Eius ut sit adipisci amet voluptatem. Etincidunt tempora dolorem magnam. Est dolore dolorem amet. Sit magnam quaerat.');
-insert into topics (label, description) values ('Current Events in Sports', 'Ut eius dolore eius etincidunt aliquam dolore magnam. Ipsum porro sit. Eius tempora quiquia quisquam. Magnam est dolor dolorem tempora quaerat non amet. Velit labore ut quiquia sit aliquam porro consectetur.');
-insert into topics (label, description) values ('History of Sports', 'Dolorem labore neque etincidunt consectetur. Quiquia. Modi labore dolore est neque. Sit. Modi est magnam. Tempora quiquia est ipsum ut numquam porro non. Ut amet. Porro est etincidunt porro porro numquam. Tempora aliquam adipisci velit eius sed amet.');
-insert into topics (label, description) values ('Specific Types of Sports', 'Labore. Quisquam est sed neque amet. Porro velit dolorem. Consectetur eius tempora modi est quaerat sit. Dolorem dolor.');
-insert into topics (label, description) values ('Athletics', 'Aliquam etincidunt adipisci quiquia. Aliquam quisquam numquam non porro magnam quiquia dolorem. Velit dolore labore labore dolor neque neque. Porro ut sed aliquam. Eius tempora eius dolor modi. Dolore. Modi tempora.');
-insert into topics (label, description) values ('Sports Competitions', 'Adipisci adipisci etincidunt. Voluptatem voluptatem amet. Dolor labore sit etincidunt velit modi magnam tempora modi magnam. Quisquam etincidunt sit adipisci adipisci sed dolorem quiquia labore. Neque quaerat. Magnam. Quisquam labore velit quisquam.');
-insert into topics (label, description) values ('Sports Cards', 'Ipsum modi eius dolorem sed sit. Dolore quaerat dolore dolorem non voluptatem. Sit amet numquam dolore etincidunt porro adipisci quaerat ipsum velit. Velit velit velit non quiquia aliquam quisquam. Aliquam numquam numquam voluptatem. Quaerat ut.');
-insert into topics (label, description) values ('Jobs and Careers in Sports and Recreation', 'Porro eius amet sed amet amet porro ipsum. Modi quaerat est. Consectetur voluptatem etincidunt. Quiquia modi aliquam modi non sed velit. Sit tempora quisquam dolore sed. Voluptatem sed numquam modi quaerat porro.');
-insert into topics (label, description) values ('Disability Sports', 'Numquam sed sit ut labore ut dolor ipsum. Neque dolorem magnam non modi quiquia. Labore quaerat quaerat dolorem voluptatem aliquam magnam. Quaerat adipisci modi. Etincidunt non dolorem voluptatem quiquia est aliquam dolore. Sed numquam sed sed aliquam.');
-insert into topics (label, description) values ('Watching Sports', 'Sed tempora sed labore. Sed. Ipsum labore ipsum dolore sed neque consectetur amet sit. Modi ut quiquia numquam. Quisquam quisquam etincidunt dolore ut non aliquam eius etincidunt ut.');
-insert into topics (label, description) values ('Gender Issues in Sports', 'Modi quaerat numquam non dolor labore adipisci. Quiquia est numquam velit magnam non numquam etincidunt. Ut adipisci ut ipsum adipisci eius consectetur velit tempora. Labore sit quiquia quisquam labore. Porro ut.');
-insert into topics (label, description) values ('Playing Sports', 'Labore sed quiquia est amet amet sit. Porro. Quiquia non porro quisquam. Sed sit tempora non. Eius modi etincidunt modi non dolore quisquam aliquam quaerat velit. Quiquia quisquam ut labore ipsum consectetur non sed.');
-insert into topics (label, description) values ('Athelete', 'Quisquam quiquia tempora ut eius adipisci amet. Ut. Quisquam ut sit aliquam tempora ipsum neque modi etincidunt. Dolor ut porro neque amet. Etincidunt ipsum quisquam amet ut sed. Ipsum quiquia non voluptatem magnam est eius. Sed.');
-insert into topics (label, description) values ('Sport Organizations', 'Modi. Numquam quisquam magnam amet consectetur quaerat. Amet dolorem numquam sit voluptatem tempora dolor velit neque. Velit velit consectetur dolorem est neque. Quiquia sed.');
-insert into topics (label, description) values ('Sports Clubs', 'Adipisci neque quiquia. Quisquam labore velit neque est. Numquam quisquam sed dolor voluptatem numquam labore voluptatem aliquam dolorem. Numquam quisquam numquam. Magnam eius adipisci velit.');
-insert into topics (label, description) values ('Race and Ethnicity in Sports', 'Consectetur est. Voluptatem sit ut tempora non voluptatem. Ipsum. Etincidunt consectetur sed voluptatem aliquam. Consectetur velit sed dolorem adipisci.');
-insert into topics (label, description) values ('Athletes', 'Modi porro sed non amet. Non. Amet labore dolore adipisci tempora modi quaerat dolore. Aliquam non velit porro tempora dolore dolor. Modi porro.');
-insert into topics (label, description) values ('Nightlife', 'Labore neque adipisci modi consectetur velit. Etincidunt sit eius sed magnam dolorem voluptatem labore. Tempora tempora voluptatem labore. Numquam aliquam labore modi neque ut ut dolore. Magnam sed dolore consectetur aliquam numquam dolorem ut.');
-insert into topics (label, description) values ('Bars', 'Adipisci labore dolor. Dolorem ipsum adipisci quisquam adipisci sed. Est magnam velit non tempora voluptatem labore dolore. Sed eius. Dolorem quisquam velit modi quisquam eius. Porro numquam velit magnam quaerat amet.');
-insert into topics (label, description) values ('Nightclubs', 'Quaerat sit quisquam aliquam numquam quaerat est non dolorem. Eius dolorem aliquam quisquam non. Sed tempora quaerat sit. Est porro etincidunt amet est quaerat aliquam. Quiquia velit ipsum neque porro aliquam numquam etincidunt.');
-insert into topics (label, description) values ('Clubbing', 'Ipsum aliquam labore modi. Modi porro est. Porro dolor numquam labore magnam dolore etincidunt. Sed velit velit. Dolore eius est est dolorem labore. Labore modi quaerat neque adipisci amet aliquam quiquia neque.');
-insert into topics (label, description) values ('Dance (activity)', 'Quaerat dolorem. Modi est modi ut eius sit quiquia. Dolorem amet sed aliquam porro quaerat. Non velit numquam consectetur consectetur voluptatem dolorem. Quiquia non tempora amet est eius. Ipsum magnam aliquam eius.');
-insert into topics (label, description) values ('Nightlife in Specific Locations', 'Sit neque quiquia dolorem dolorem. Dolore aliquam porro consectetur labore velit magnam neque. Modi quaerat porro. Dolore dolor ut tempora porro dolore dolor. Etincidunt dolore quisquam est aliquam ut.');
-insert into topics (label, description) values ('Nightlife Business', 'Velit porro. Dolore quisquam quaerat sed est dolore eius ut quisquam eius. Aliquam dolore dolore. Eius dolorem est velit sed dolorem eius etincidunt etincidunt etincidunt. Ipsum.');
-insert into topics (label, description) values ('Raves', 'Consectetur eius quisquam adipisci neque porro. Aliquam. Quaerat adipisci voluptatem voluptatem quiquia adipisci dolore. Quaerat. Amet.');
-insert into topics (label, description) values ('Shows and Performances', 'Modi dolore est. Neque ut neque adipisci adipisci adipisci dolor etincidunt dolor. Ipsum magnam neque. Quiquia magnam quiquia amet magnam est porro. Velit quisquam dolore voluptatem quiquia consectetur aliquam.');
-insert into topics (label, description) values ('Social Dance', 'Labore dolorem sit voluptatem voluptatem sit amet dolore modi. Velit sed dolor dolore. Velit dolorem non porro. Non aliquam porro amet ut tempora eius dolore tempora. Sit neque ipsum numquam dolore sit dolor aliquam.');
-insert into topics (label, description) values ('Dancing at Parties or in Clubs', 'Dolore amet. Dolore consectetur quisquam consectetur dolore magnam etincidunt modi ipsum. Numquam aliquam adipisci labore neque est labore quiquia velit. Quiquia. Quaerat numquam amet sed aliquam dolorem. Est numquam modi magnam ipsum dolore est.');
-insert into topics (label, description) values ('Dance (performing art)', 'Consectetur eius labore ut modi dolorem sit quaerat etincidunt. Non modi aliquam neque dolore. Adipisci. Porro numquam etincidunt dolorem dolor magnam voluptatem velit. Quiquia est amet magnam dolor tempora porro ipsum modi.');
-insert into topics (label, description) values ('Dancers', 'Numquam etincidunt voluptatem non ipsum sit sit. Tempora amet dolorem velit quisquam quisquam dolore non sed. Sed sit eius. Tempora dolor velit. Est non neque dolore dolor.');
-insert into topics (label, description) values ('Major Concepts Related to Dance', 'Aliquam sit voluptatem ut quisquam non sit quaerat modi porro. Adipisci quaerat sed est tempora quisquam. Eius dolor consectetur ut. Sit dolorem voluptatem ut quisquam adipisci sed sed. Adipisci tempora etincidunt porro dolore non aliquam numquam amet.');
-insert into topics (label, description) values ('Dance by Specific Location', 'Non ipsum. Non sed porro ut voluptatem. Magnam. Amet. Ipsum eius consectetur numquam quisquam numquam dolore ut numquam.');
-insert into topics (label, description) values ('Dance Styles (Types of Dance)', 'Ut dolor. Quaerat non quaerat porro quaerat magnam quiquia ipsum velit modi. Quisquam. Etincidunt ut eius modi quaerat porro ut numquam quisquam. Quiquia sit eius.');
-insert into topics (label, description) values ('Recreational and Leisure Activities', 'Voluptatem quisquam porro amet magnam quisquam ipsum. Dolorem amet etincidunt porro amet sed. Dolor voluptatem porro quisquam ut modi ipsum. Neque. Quaerat ut etincidunt labore.');
-insert into topics (label, description) values ('Hobbies', 'Consectetur. Velit quiquia adipisci tempora sit numquam ipsum neque. Quisquam amet sed quiquia. Est amet dolor tempora. Voluptatem quisquam. Quaerat tempora dolor.');
-insert into topics (label, description) values ('Play', 'Ipsum ut dolorem aliquam modi dolorem. Eius tempora modi. Non eius magnam tempora porro velit ipsum dolore quisquam neque. Quaerat velit dolorem quaerat adipisci non labore voluptatem quiquia. Dolor labore dolor modi aliquam. Porro magnam.');
-insert into topics (label, description) values ('Games', 'Dolorem quisquam est. Sit adipisci etincidunt magnam quisquam dolor. Ipsum labore non etincidunt eius non voluptatem modi amet. Amet aliquam quaerat ut sit dolorem. Dolor est.');
-insert into topics (label, description) values ('The Outdoors', 'Aliquam labore dolore ipsum dolor ipsum. Amet est. Eius porro. Adipisci sit dolorem aliquam eius ut numquam eius. Amet neque est.');
-insert into topics (label, description) values ('Adventures', 'Quisquam est amet modi. Modi dolorem dolore tempora magnam. Sit. Quiquia sed velit dolorem neque aliquam etincidunt quisquam labore sed. Magnam eius dolorem sit ut.');
-insert into topics (label, description) values ('Specific Types of Places to Go', 'Magnam. Consectetur. Labore ipsum est eius quisquam. Dolore magnam ut neque sed dolorem. Eius. Adipisci quisquam labore dolor amet aliquam velit quiquia. Eius. Quisquam magnam est sed. Eius modi dolor quisquam quaerat adipisci etincidunt aliquam.');
-insert into topics (label, description) values ('Events (leisure)', 'Amet amet porro porro modi amet eius dolor voluptatem. Dolor ut consectetur est sit. Dolor etincidunt neque. Dolor amet sed consectetur ut. Velit. Eius.');
-insert into topics (label, description) values ('Dining Out', 'Dolor quiquia quiquia quiquia. Quiquia etincidunt dolore aliquam dolorem. Neque labore magnam ipsum labore voluptatem neque amet. Labore aliquam modi ut magnam labore. Tempora dolorem aliquam quisquam consectetur etincidunt amet dolorem dolore sed.');
-insert into topics (label, description) values ('Hunting', 'Dolore non sit ut quiquia eius tempora voluptatem dolore modi. Amet quaerat etincidunt ipsum. Modi. Dolore sed adipisci velit voluptatem. Voluptatem sit labore dolor. Ut. Voluptatem. Quisquam numquam sit aliquam sit porro non dolore.');
-insert into topics (label, description) values ('Object Manipulation', 'Ut voluptatem modi sed non quisquam aliquam neque dolor. Quiquia labore velit etincidunt dolor consectetur sed. Voluptatem aliquam labore ut sit ut. Aliquam quaerat voluptatem est. Labore ut consectetur ut velit aliquam tempora.');
-insert into topics (label, description) values ('Having Fun', 'Eius dolor. Sed ut est dolore. Consectetur quiquia quiquia dolore. Dolore amet etincidunt adipisci tempora. Tempora eius ipsum modi est est. Quiquia magnam aliquam velit neque.');
-insert into topics (label, description) values ('Outdoor Recreation', 'Tempora labore numquam dolor. Porro ut ipsum dolore. Dolor dolore ipsum dolorem non modi. Magnam dolor non tempora dolore. Est quisquam.');
-insert into topics (label, description) values ('Exploration', 'Dolore eius sed. Porro consectetur dolore ut aliquam magnam tempora labore. Ut sit etincidunt modi. Aliquam ipsum quaerat porro tempora consectetur numquam. Labore. Quaerat sed est numquam amet velit adipisci est.');
-insert into topics (label, description) values ('Space Exploration', 'Etincidunt quiquia aliquam dolorem sed dolorem. Etincidunt quisquam. Dolor non tempora aliquam etincidunt voluptatem velit labore magnam aliquam. Voluptatem ut numquam non. Labore adipisci quiquia magnam dolor est. Eius. Sit magnam voluptatem.');
-insert into topics (label, description) values ('Explorers', 'Velit consectetur neque ipsum voluptatem. Consectetur amet voluptatem. Aliquam voluptatem porro etincidunt. Quaerat aliquam quiquia sit dolore neque tempora numquam quiquia eius. Numquam.');
-insert into topics (label, description) values ('Discovery of the Americas', 'Sit voluptatem dolore quiquia modi numquam neque dolorem adipisci adipisci. Sit. Quaerat modi aliquam non dolore. Est tempora. Adipisci. Labore velit. Dolor quiquia modi sed ipsum neque porro magnam dolorem velit.');
-insert into topics (label, description) values ('European Exploration', 'Quisquam etincidunt dolor dolor porro. Magnam dolore. Sed labore porro quaerat non magnam voluptatem. Ut voluptatem tempora velit velit sit. Quaerat eius ut consectetur dolorem numquam magnam ipsum modi magnam.');
-insert into topics (label, description) values ('Voyages', 'Est est tempora dolorem velit dolor amet velit velit ipsum. Quaerat quaerat est sed numquam magnam non. Est velit ut amet quaerat. Neque eius. Sit dolor adipisci adipisci voluptatem eius neque aliquam dolore velit. Dolore modi numquam ut labore eius.');
-insert into topics (label, description) values ('Ocean Explorations', 'Quaerat. Amet consectetur sit dolor labore velit. Est porro sed dolor neque dolore ipsum. Est labore adipisci sit quaerat consectetur labore consectetur quiquia. Ut dolorem est magnam quisquam. Numquam tempora quiquia amet dolorem sit est.');
-insert into topics (label, description) values ('Oil & Gas Exploration', 'Quisquam velit numquam quiquia quiquia est. Magnam adipisci ut tempora ut non est adipisci. Non ut consectetur quiquia porro dolore adipisci. Aliquam quisquam adipisci sed. Ipsum.');
-insert into topics (label, description) values ('Polar Exploration', 'Aliquam dolor consectetur etincidunt quaerat. Neque sed adipisci. Ut aliquam labore velit sed ut consectetur adipisci labore. Magnam etincidunt est neque quaerat. Sit ut consectetur eius. Sit numquam. Sit eius ipsum modi modi.');
-insert into topics (label, description) values ('Scientific Exploration', 'Amet quiquia consectetur. Dolorem dolor consectetur voluptatem numquam non numquam. Neque. Quaerat dolor. Eius quisquam neque velit velit non numquam sit etincidunt. Ipsum velit. Non adipisci quaerat quisquam quisquam non.');
-insert into topics (label, description) values ('Desert Exploration', 'Est non labore sit tempora ut quaerat dolore etincidunt porro. Eius ipsum est dolore ipsum quiquia quiquia est magnam. Ipsum est. Neque labore ipsum ipsum quisquam dolore adipisci modi. Voluptatem dolorem. Labore dolorem ut etincidunt numquam porro.');
-insert into topics (label, description) values ('Recreation', 'Porro quaerat aliquam non. Quaerat sit tempora porro porro tempora labore. Eius non dolor neque aliquam magnam. Tempora consectetur sed modi aliquam sit numquam est aliquam est. Dolor magnam.');
-insert into topics (label, description) values ('Favorite Things To Do', 'Modi est etincidunt velit dolor numquam. Consectetur numquam modi neque. Voluptatem. Dolorem modi sit porro aliquam consectetur. Dolore. Tempora est eius modi. Ipsum adipisci voluptatem aliquam eius eius.');
-insert into topics (label, description) values ('Things to Do in Specific Locations', 'Voluptatem labore. Porro amet porro. Magnam neque. Amet neque voluptatem amet porro est. Numquam quaerat velit sed magnam voluptatem quiquia quaerat tempora.');
-insert into topics (label, description) values ('Specific Types of Activities', 'Sit dolore sit. Aliquam numquam magnam dolorem voluptatem quiquia quaerat labore magnam non. Ut. Sed quaerat tempora dolor quaerat. Voluptatem dolore velit est non adipisci ipsum.');
-insert into topics (label, description) values ('Literature', 'Tempora. Dolore sit dolore dolorem sed dolorem quaerat adipisci. Modi. Quaerat adipisci tempora amet neque porro sit. Tempora sed quiquia quaerat sit aliquam quisquam.');
-insert into topics (label, description) values ('World Literatures', 'Quiquia. Neque eius consectetur numquam. Voluptatem. Consectetur sit dolor sed sit velit est magnam quiquia. Numquam modi amet magnam velit dolor velit. Magnam porro quiquia non labore. Sit sit etincidunt non ipsum adipisci dolorem.');
-insert into topics (label, description) values ('Literary Analysis and Criticism', 'Dolorem. Voluptatem consectetur sed quiquia consectetur velit. Quisquam. Velit sed aliquam. Ipsum dolorem eius modi dolor ipsum magnam modi. Ut dolor. Adipisci. Porro ipsum velit eius amet aliquam consectetur porro.');
-insert into topics (label, description) values ('Literary Genres', 'Dolorem quiquia sed dolor quisquam. Amet neque ipsum eius. Dolore etincidunt quiquia numquam est magnam. Dolor consectetur aliquam sit. Amet voluptatem etincidunt dolorem. Quiquia porro quiquia etincidunt non etincidunt quiquia dolorem.');
-insert into topics (label, description) values ('Reading', 'Aliquam voluptatem neque eius quiquia quisquam dolor labore magnam. Dolor aliquam sed labore. Quiquia labore quisquam consectetur labore modi numquam voluptatem sit. Est est sed voluptatem ipsum quaerat etincidunt. Ipsum aliquam velit modi.');
-insert into topics (label, description) values ('Literature by Specific Country', 'Etincidunt velit. Numquam labore. Tempora porro modi. Magnam ut modi adipisci non magnam amet numquam consectetur. Tempora est velit modi non. Modi.');
-insert into topics (label, description) values ('Specific Types of Literature', 'Velit voluptatem aliquam non. Quiquia dolore porro dolore quaerat quiquia quaerat ipsum amet neque. Ipsum aliquam ipsum. Labore tempora sed. Quaerat quaerat amet dolorem etincidunt tempora est numquam quaerat dolore.');
-insert into topics (label, description) values ('Literature in Specific Locations', 'Non aliquam sit voluptatem sed. Consectetur quisquam voluptatem modi. Quisquam tempora sit modi porro etincidunt. Amet neque modi quiquia adipisci aliquam etincidunt amet velit etincidunt. Est sit numquam ipsum amet. Velit est dolorem amet aliquam porro.');
-insert into topics (label, description) values ('Specific Types of Written Works', 'Est aliquam labore labore dolor dolorem ut. Dolorem neque amet magnam. Dolor. Ut non eius labore porro. Non neque amet quisquam porro quisquam dolore neque labore. Numquam non tempora etincidunt amet est numquam non dolorem. Porro.');
-insert into topics (label, description) values ('Words', 'Quisquam eius voluptatem magnam. Sed numquam neque ipsum est. Porro velit porro modi. Aliquam dolore sed modi voluptatem. Aliquam dolorem non dolore. Sit aliquam etincidunt consectetur quisquam est dolor numquam. Amet.');
-insert into topics (label, description) values ('Etymology', 'Ut etincidunt quaerat dolore est tempora tempora magnam. Est non dolore quiquia quiquia. Numquam ut voluptatem labore eius quaerat. Quiquia eius non velit est quaerat consectetur. Voluptatem adipisci dolorem quiquia.');
-insert into topics (label, description) values ('Diction and Word Usage', 'Modi non quiquia magnam sit eius neque. Sit dolor labore amet ipsum non. Dolor sed adipisci dolor velit quisquam ut dolor. Adipisci aliquam voluptatem numquam. Quaerat non ipsum sit eius etincidunt sit dolorem. Tempora quiquia.');
-insert into topics (label, description) values ('Word Definitions, Terminology, and Jargon', 'Non dolore. Quiquia velit est ut. Numquam aliquam velit tempora amet quiquia ipsum labore. Modi voluptatem numquam eius dolor sit. Etincidunt non non.');
-insert into topics (label, description) values ('Parts of Speech', 'Est quaerat eius ipsum magnam. Porro porro. Porro. Adipisci quisquam amet neque. Non dolorem adipisci quiquia. Quaerat amet dolore velit adipisci ipsum dolorem neque numquam quaerat.');
-insert into topics (label, description) values ('Concepts Related to Words', 'Non etincidunt magnam ut quiquia sit dolorem est ut eius. Ipsum sit tempora. Etincidunt numquam ut magnam est amet adipisci magnam. Adipisci magnam. Dolore dolore etincidunt non quiquia.');
-insert into topics (label, description) values ('Vocabulary of the English Language', 'Dolor. Amet est modi. Amet sed etincidunt. Quaerat labore magnam sed magnam neque quiquia. Ut velit. Consectetur eius.');
-insert into topics (label, description) values ('Loanwords', 'Quaerat consectetur voluptatem dolore adipisci tempora voluptatem. Porro dolor. Quisquam dolorem porro dolore. Quisquam aliquam eius amet numquam quaerat quisquam labore est adipisci. Dolorem sed tempora.');
-insert into topics (label, description) values ('Word Lists', 'Est numquam magnam est. Tempora consectetur ut eius. Magnam non dolore. Dolor porro dolor non neque porro. Labore numquam non sit labore quaerat. Modi voluptatem aliquam ut amet.');
-insert into topics (label, description) values ('Words and Phrases', 'Est quiquia dolorem consectetur ut. Dolorem amet magnam. Ut numquam consectetur eius dolore tempora modi numquam consectetur adipisci. Dolore dolor. Etincidunt dolor velit non ut sed labore neque eius aliquam.');
-insert into topics (label, description) values ('Lexicology', 'Est voluptatem porro dolor non etincidunt voluptatem. Consectetur ut ut amet quisquam ut eius voluptatem. Ipsum sit quiquia tempora sed quiquia. Dolore. Aliquam est numquam labore velit.');
-insert into topics (label, description) values ('Foreign Words', 'Numquam amet dolorem ipsum. Eius. Etincidunt magnam quisquam sit voluptatem. Velit voluptatem. Sed consectetur tempora ipsum quiquia porro magnam dolorem adipisci. Ut labore consectetur etincidunt quisquam sed est neque.');
-insert into topics (label, description) values ('Metonymy', 'Dolore. Etincidunt tempora aliquam dolor quaerat. Adipisci magnam etincidunt aliquam magnam quiquia modi sed quiquia. Dolor eius. Ut consectetur dolorem neque amet porro modi non ipsum.');
-insert into topics (label, description) values ('Glossaries', 'Porro voluptatem porro adipisci numquam voluptatem magnam consectetur porro est. Sit dolore. Quisquam ipsum sed sit ipsum amet non dolor. Dolor consectetur dolore ut non quisquam ut aliquam sit. Est magnam aliquam non.');
-insert into topics (label, description) values ('Concepts in Grammar', 'Tempora quisquam. Velit. Quisquam. Est neque. Quiquia dolor dolorem dolore. Quisquam eius labore etincidunt. Eius porro sed consectetur labore quisquam adipisci neque.');
-insert into topics (label, description) values ('Grammar of Specific Languages', 'Quiquia ipsum dolore sit numquam labore sed dolore. Neque neque tempora magnam numquam velit eius. Velit numquam amet ipsum ipsum quaerat consectetur non. Quisquam porro dolor porro ipsum dolorem. Ipsum.');
-insert into topics (label, description) values ('Grammar Mistakes', 'Ipsum dolorem amet est dolor sit quaerat quaerat. Sit dolorem quaerat. Amet dolorem ipsum labore quisquam labore non amet. Est dolore ut ut numquam. Numquam quiquia ut etincidunt dolore porro non modi quiquia. Ut porro dolorem.');
-insert into topics (label, description) values ('Non-Verbal Communication and Body Language', 'Dolore etincidunt ipsum. Dolor eius dolore amet ipsum. Eius sit numquam velit. Quisquam magnam. Ipsum magnam quisquam. Etincidunt eius est est ipsum. Consectetur amet ipsum. Non. Magnam voluptatem quaerat modi quisquam numquam. Velit non quaerat.');
-insert into topics (label, description) values ('English (language)', 'Magnam quaerat dolor sed. Quaerat non porro sit tempora modi amet neque est voluptatem. Numquam sed non dolore dolore. Dolore quisquam velit sed quisquam etincidunt est. Consectetur voluptatem dolore voluptatem aliquam ut dolor porro modi. Sed.');
-insert into topics (label, description) values ('English Grammar', 'Amet eius. Magnam voluptatem quaerat quaerat porro sed. Sed sed amet est sit. Neque velit amet tempora. Dolorem adipisci. Tempora. Quisquam sed numquam.');
-insert into topics (label, description) values ('History of the English Language', 'Sed quaerat adipisci non aliquam ut modi non ipsum neque. Amet non dolore porro quisquam sed etincidunt numquam modi. Quiquia consectetur non ipsum labore etincidunt ipsum quaerat ut neque. Modi. Consectetur aliquam quaerat.');
-insert into topics (label, description) values ('English as a Second Language (ESL)', 'Ipsum porro voluptatem. Velit ipsum non. Magnam consectetur quiquia adipisci ipsum dolorem etincidunt magnam quisquam est. Est est aliquam eius sit. Voluptatem est eius labore labore consectetur adipisci.');
-insert into topics (label, description) values ('World Englishes', 'Dolore. Magnam non. Consectetur adipisci. Non amet magnam ut. Labore quisquam eius dolorem dolore numquam voluptatem velit. Non.');
-insert into topics (label, description) values ('English Translation and Interpretation', 'Ut quiquia dolorem modi. Tempora. Dolor ipsum dolor. Labore quaerat. Est tempora sit labore sed amet quiquia quiquia non adipisci. Dolore amet voluptatem aliquam numquam neque non. Aliquam sed. Dolorem quaerat. Sit modi aliquam dolor non tempora dolorem.');
-insert into topics (label, description) values ('Accent Marks in English', 'Dolor quiquia. Neque etincidunt amet dolorem quisquam dolorem. Amet quaerat. Dolor adipisci sit sit aliquam labore numquam quisquam. Tempora est quiquia consectetur ut magnam eius neque dolorem. Neque sed quaerat porro amet labore eius.');
-insert into topics (label, description) values ('English Language and Literature', 'Sed est neque. Modi dolore dolorem consectetur neque velit voluptatem dolore ut dolorem. Eius sed quaerat sit adipisci eius. Non voluptatem. Porro adipisci aliquam. Consectetur labore non.');
-insert into topics (label, description) values ('Learning About English', 'Labore tempora est modi non eius. Dolore. Ipsum porro dolor. Tempora. Adipisci sit. Quaerat numquam. Quaerat.');
-insert into topics (label, description) values ('Jobs and Careers in English (academic discipline)', 'Non. Adipisci voluptatem tempora modi tempora voluptatem quisquam. Etincidunt neque labore quaerat. Dolor non eius sit ipsum. Velit quisquam quisquam eius consectetur neque est dolorem sed amet.');
-insert into topics (label, description) values ('English Listening', 'Amet est amet sit. Magnam etincidunt quaerat quisquam. Sit. Eius quisquam amet. Amet numquam eius consectetur porro dolor sit dolore eius ipsum. Quaerat tempora voluptatem dolor numquam dolor sit magnam modi non.');
-insert into topics (label, description) values ('Learning English', 'Dolor amet dolorem dolore quisquam porro etincidunt. Adipisci porro. Dolorem dolor porro est sit quiquia consectetur consectetur ut. Dolore. Quaerat quiquia aliquam neque modi numquam ipsum.');
-insert into topics (label, description) values ('English Writing', 'Consectetur modi. Neque dolore eius non adipisci magnam. Aliquam voluptatem. Sed ut. Non.');
-insert into topics (label, description) values ('English Spelling', 'Modi magnam consectetur numquam etincidunt quaerat velit ipsum quisquam amet. Amet etincidunt magnam quaerat magnam quiquia dolor consectetur magnam quiquia. Non modi neque quisquam dolorem voluptatem quiquia. Ut eius neque eius ut. Modi dolore.');
-insert into topics (label, description) values ('English Literature', 'Consectetur quisquam. Tempora sed labore voluptatem neque velit dolore eius magnam. Neque amet quisquam quiquia. Ut. Velit labore sit dolore ut sed.');
-insert into topics (label, description) values ('English Dialects', 'Adipisci modi aliquam sit porro. Neque dolore eius sit. Dolor est amet quiquia ut voluptatem. Sed neque labore quaerat quaerat eius consectetur tempora. Etincidunt. Non adipisci neque voluptatem tempora dolore ut.');
-insert into topics (label, description) values ('English Sentences', 'Porro ut dolor non est. Dolore modi ut etincidunt. Dolorem eius porro est neque est magnam. Amet consectetur dolor modi eius neque adipisci magnam sit consectetur. Sed ut numquam sed aliquam tempora quaerat.');
-insert into topics (label, description) values ('English Etymology', 'Quaerat. Est eius dolor consectetur velit. Modi ut magnam sit quisquam quaerat dolor dolor modi modi. Sit dolorem neque labore ut numquam. Quiquia voluptatem ut labore eius. Sit velit adipisci quisquam dolore labore dolore tempora dolor quiquia.');
-insert into topics (label, description) values ('English-Language Slang', 'Sed. Consectetur quiquia. Ut adipisci magnam ipsum dolor magnam. Ut quiquia ipsum eius numquam consectetur modi dolore aliquam. Dolorem numquam sed dolorem aliquam quisquam dolorem. Numquam quisquam.');
-insert into topics (label, description) values ('English Language Accents', 'Voluptatem. Dolorem amet porro dolor numquam magnam dolore eius labore ut. Est dolorem. Non ipsum voluptatem dolore quisquam quisquam adipisci labore. Numquam ut velit. Ipsum adipisci modi dolor eius non velit eius.');
-insert into topics (label, description) values ('English for Beginners', 'Tempora eius quiquia aliquam sit. Porro quiquia aliquam labore. Quiquia adipisci etincidunt. Dolore dolorem consectetur. Modi ut non consectetur consectetur voluptatem porro labore ipsum. Magnam sed consectetur quaerat dolore.');
-insert into topics (label, description) values ('Quotations (punctuation)', 'Voluptatem. Quaerat est consectetur magnam magnam. Labore tempora. Est quaerat est dolore modi. Dolor neque velit. Aliquam consectetur magnam sed.');
-insert into topics (label, description) values ('Television Quotations and Dialogue', 'Magnam dolorem porro ipsum dolor. Ut quaerat quiquia labore velit sed adipisci ipsum. Dolore dolorem non. Adipisci etincidunt dolore. Quaerat dolor adipisci. Sed quiquia sit sit est consectetur.');
-insert into topics (label, description) values ('Literary Quotations', 'Ipsum quisquam. Modi neque neque sit tempora etincidunt amet ut quisquam velit. Aliquam neque magnam voluptatem modi est numquam. Dolorem non numquam voluptatem dolor ut modi. Ipsum quisquam quiquia porro. Tempora velit.');
-insert into topics (label, description) values ('Movie Quotations and Dialogue', 'Eius. Etincidunt ut dolorem quiquia aliquam eius non quiquia labore modi. Tempora dolore sed ut ut consectetur velit quiquia modi. Quisquam. Eius consectetur quaerat ut ut quiquia adipisci.');
-insert into topics (label, description) values ('Infamous Quotations', 'Dolore eius ut magnam non. Quisquam modi. Ut ipsum adipisci dolor amet porro sed. Amet voluptatem adipisci. Dolore amet aliquam adipisci est.');
-insert into topics (label, description) values ('Quotation Attribution', 'Adipisci dolore. Dolor. Aliquam magnam sit porro velit ut labore sit voluptatem modi. Dolor. Sed. Tempora dolorem dolor etincidunt consectetur adipisci quiquia. Quaerat modi modi sed numquam.');
-insert into topics (label, description) values ('Inspirational Quotes', 'Neque. Modi sit. Est velit velit amet adipisci sit voluptatem magnam amet. Sed sit quisquam. Porro sed dolorem consectetur. Labore ipsum magnam neque sit quisquam modi dolor.');
-insert into topics (label, description) values ('Funny Quotes', 'Dolore eius labore sit. Ipsum etincidunt dolorem tempora quiquia ut. Modi sed. Aliquam velit. Modi amet velit numquam etincidunt quisquam etincidunt. Tempora sit dolor ut quaerat quaerat ut sed. Porro ipsum.');
-insert into topics (label, description) values ('Best Quotes And Sayings', 'Non. Dolor sed dolor magnam sit tempora. Ipsum. Quaerat magnam. Consectetur quaerat labore non.');
-insert into topics (label, description) values ('Love Quotes', 'Etincidunt. Sit. Neque. Etincidunt. Ut aliquam magnam modi tempora est numquam. Consectetur velit sed voluptatem numquam labore dolorem.');
-insert into topics (label, description) values ('Communication', 'Quisquam numquam tempora quisquam magnam quisquam. Velit sed sit tempora quisquam velit ut neque. Magnam modi. Non non. Consectetur quiquia.');
-insert into topics (label, description) values ('Specific Types of Communication', 'Aliquam magnam quiquia voluptatem adipisci labore etincidunt quaerat. Quaerat neque adipisci adipisci dolor sed quaerat. Ut. Modi velit etincidunt dolor tempora ipsum non. Numquam tempora tempora ut quaerat neque amet dolor modi dolor.');
-insert into topics (label, description) values ('Major Concepts in Communication', 'Tempora quaerat amet quiquia. Adipisci modi magnam. Sed quisquam labore porro ipsum neque dolorem porro. Eius dolor etincidunt eius neque quiquia. Labore numquam. Adipisci labore quiquia. Porro dolorem consectetur tempora modi magnam numquam. Magnam.');
-insert into topics (label, description) values ('Communication Systems', 'Modi. Magnam quiquia tempora voluptatem magnam neque dolorem dolore dolore. Adipisci neque. Non. Consectetur. Numquam voluptatem porro est tempora etincidunt neque dolor velit. Voluptatem sit sed voluptatem voluptatem sed quisquam tempora.');
-insert into topics (label, description) values ('Communication Technologies', 'Dolorem aliquam voluptatem adipisci. Est. Porro dolorem adipisci magnam velit porro sit. Ut ipsum dolore quisquam etincidunt quaerat sit sed. Voluptatem est.');
-insert into topics (label, description) values ('Learning About Communications', 'Non dolore. Ut ut ut modi ipsum numquam. Non eius amet neque magnam eius ipsum est non. Consectetur sed sed. Sit quisquam ipsum quaerat. Dolor dolore numquam non. Voluptatem numquam tempora dolor non. Sit tempora.');
-insert into topics (label, description) values ('Jobs and Careers in Communications', 'Neque ut ut non modi numquam magnam. Tempora. Velit ipsum quaerat quaerat amet neque est. Magnam non aliquam tempora eius. Eius numquam. Modi dolore magnam quiquia quaerat eius modi quisquam adipisci ipsum.');
-insert into topics (label, description) values ('Communications Skills', 'Numquam tempora neque etincidunt ut. Non porro non dolore non. Neque dolor adipisci ut dolore tempora quaerat. Neque magnam tempora dolor. Labore magnam eius adipisci. Consectetur. Sit labore quisquam.');
-insert into topics (label, description) values ('Communication Studies', 'Quaerat neque consectetur labore consectetur eius labore aliquam. Dolorem eius voluptatem labore porro consectetur non adipisci sed. Sed. Est est quaerat dolore quisquam. Magnam sed. Quaerat est amet velit.');
-insert into topics (label, description) values ('History of Communication', 'Est est neque quisquam velit est tempora dolorem ut. Non. Consectetur tempora velit. Sed porro. Neque aliquam quiquia sed consectetur magnam.');
-insert into topics (label, description) values ('Digital Communication', 'Consectetur. Quisquam adipisci. Ipsum. Ut quiquia dolore voluptatem numquam etincidunt aliquam. Labore consectetur quaerat ut dolor. Est sit modi tempora eius adipisci dolor.');
-insert into topics (label, description) values ('Business', 'Quiquia voluptatem. Quiquia eius voluptatem ut etincidunt neque. Quisquam tempora consectetur dolor porro magnam porro tempora sit. Numquam quisquam ipsum. Ipsum dolore ipsum ut numquam quiquia est.');
-insert into topics (label, description) values ('Business in Specific Locations', 'Amet voluptatem. Porro sed quisquam dolor dolor non dolorem etincidunt. Non sed ipsum aliquam tempora. Labore. Magnam velit eius dolorem consectetur quiquia. Quiquia. Etincidunt eius quiquia. Magnam dolorem aliquam tempora.');
-insert into topics (label, description) values ('Business Sectors', 'Ipsum consectetur porro dolorem magnam adipisci labore. Sed non modi quaerat. Voluptatem labore dolor quiquia modi aliquam tempora dolore amet. Quaerat sed sed porro amet labore adipisci amet. Sit. Dolor.');
-insert into topics (label, description) values ('Major Divisions Within Companies', 'Porro. Magnam amet labore ipsum. Est quisquam modi. Sed voluptatem magnam dolorem dolor. Ipsum quisquam. Quaerat. Labore aliquam ut dolorem.');
-insert into topics (label, description) values ('Major Concepts in Business', 'Tempora amet consectetur adipisci numquam ut. Modi velit. Amet numquam quiquia. Modi porro. Adipisci. Aliquam labore eius dolor voluptatem sit. Modi velit. Numquam amet labore voluptatem ut tempora numquam.');
-insert into topics (label, description) values ('Companies', 'Est amet amet non dolorem etincidunt porro dolore. Neque amet. Sed. Eius amet velit eius porro labore velit modi magnam. Est neque modi quaerat porro.');
-insert into topics (label, description) values ('Business Classifications', 'Quaerat neque. Quisquam sit dolor. Consectetur sed sed ut velit quiquia. Aliquam est dolore numquam etincidunt. Ut dolorem.');
-insert into topics (label, description) values ('Current Events in Business', 'Quiquia amet adipisci non quaerat. Non tempora voluptatem voluptatem. Aliquam dolor tempora. Quaerat. Velit labore adipisci. Ut dolor aliquam.');
-insert into topics (label, description) values ('Business Research', 'Ut sed. Dolor amet numquam voluptatem modi neque non velit dolor. Sed adipisci adipisci quiquia quiquia modi non dolor ut. Neque eius. Voluptatem modi tempora non labore.');
-insert into topics (label, description) values ('Major Concepts Related to Business', 'Dolor magnam est ipsum dolor. Neque est adipisci modi eius numquam etincidunt. Velit. Magnam est numquam consectetur etincidunt modi sed etincidunt. Tempora voluptatem.');
-insert into topics (label, description) values ('Business Education', 'Dolorem dolorem eius consectetur labore quiquia numquam magnam. Non velit sit est dolorem porro aliquam quiquia dolor sit. Neque amet sit dolorem est consectetur velit. Dolore non quisquam quiquia. Dolore eius ut neque magnam.');
-insert into topics (label, description) values ('Business Advice', 'Dolore ipsum sed voluptatem sit. Quisquam velit etincidunt ipsum magnam sed. Est tempora sit adipisci amet modi quisquam non. Amet labore. Numquam velit porro tempora adipisci velit non labore. Aliquam. Quaerat. Quiquia ut modi consectetur. Non.');
-insert into topics (label, description) values ('Starting a Business', 'Amet numquam sed eius etincidunt velit ut eius amet. Consectetur sit modi quisquam ut ipsum labore. Dolorem tempora adipisci eius tempora velit eius voluptatem numquam. Aliquam. Quisquam velit.');
-insert into topics (label, description) values ('Jobs and Careers in Business', 'Ut quisquam quiquia aliquam modi eius eius aliquam est quiquia. Modi. Numquam tempora modi eius neque dolor sed eius dolor. Velit. Amet.');
-insert into topics (label, description) values ('Types of Businesses', 'Adipisci quiquia dolore. Sit modi. Dolore modi etincidunt aliquam. Dolorem. Eius sed quisquam sit quaerat non etincidunt non dolor modi. Dolorem quaerat. Quaerat labore eius numquam. Neque velit ut magnam dolorem est consectetur consectetur quisquam sed.');
-insert into topics (label, description) values ('Work', 'Etincidunt sit modi porro dolorem tempora aliquam non quiquia. Aliquam non numquam amet ut. Sit voluptatem dolorem sit adipisci. Porro sed quaerat aliquam etincidunt tempora sit. Quiquia adipisci velit neque non dolorem dolor.');
-insert into topics (label, description) values ('Major Concepts Related to Work', 'Quiquia. Dolorem est. Sit est dolorem numquam voluptatem velit modi quiquia neque eius. Magnam numquam labore. Dolor sed ut amet velit ut voluptatem modi ipsum.');
-insert into topics (label, description) values ('Retirement', 'Quisquam voluptatem adipisci quisquam magnam modi magnam. Tempora quiquia dolore magnam dolor quisquam quisquam quaerat. Dolore magnam. Etincidunt quaerat adipisci. Dolore sed quaerat. Dolor etincidunt. Tempora non consectetur sed sed.');
-insert into topics (label, description) values ('Work Ethic', 'Adipisci. Sit. Velit etincidunt amet non aliquam ut dolor. Sed ut labore dolorem porro adipisci. Est magnam magnam quiquia est adipisci ut magnam eius. Porro aliquam ut dolorem voluptatem. Voluptatem non eius consectetur. Adipisci amet ipsum.');
-insert into topics (label, description) values ('Employment', 'Amet numquam quisquam quiquia est magnam quiquia quisquam. Modi. Amet modi neque. Magnam sit consectetur voluptatem adipisci velit. Eius ipsum tempora.');
-insert into topics (label, description) values ('Work in Specific Locations', 'Neque quiquia dolor dolor numquam. Adipisci porro quaerat. Sed labore quiquia porro amet velit. Labore. Tempora ut aliquam. Sed quaerat quisquam. Consectetur numquam dolore velit. Numquam sit porro neque.');
-insert into topics (label, description) values ('Work Advice', 'Est est est modi. Dolore aliquam. Sit dolore quiquia. Numquam. Numquam etincidunt etincidunt dolor sed. Ut eius etincidunt. Aliquam porro tempora modi. Aliquam numquam labore quaerat non quaerat. Sed magnam porro sed.');
-insert into topics (label, description) values ('Working at Specific Companies in Specific Fields', 'Magnam dolorem aliquam. Voluptatem voluptatem. Velit porro est non neque voluptatem. Non dolore numquam ut quisquam. Labore amet consectetur quiquia dolorem etincidunt. Consectetur dolorem.');
-insert into topics (label, description) values ('Working at Specific Companies', 'Quisquam quiquia neque ut labore ipsum. Sed labore amet dolore velit. Ut ipsum ipsum sed. Magnam ipsum. Est tempora voluptatem. Dolore dolore ipsum quisquam. Ipsum numquam amet consectetur quaerat voluptatem quiquia.');
-insert into topics (label, description) values ('Hard Working', 'Etincidunt modi consectetur dolor consectetur. Dolorem. Modi. Eius labore ipsum dolor ut. Dolorem numquam quaerat eius quaerat aliquam etincidunt dolore dolor.');
-insert into topics (label, description) values ('Jobs and Careers', 'Est quaerat non labore. Sed sed amet porro quisquam dolorem. Voluptatem velit porro adipisci etincidunt sit quiquia ipsum. Sit velit eius non modi quiquia amet. Etincidunt.');
-insert into topics (label, description) values ('Career Advice', 'Consectetur magnam velit sit dolor. Dolor amet. Quisquam etincidunt tempora. Ipsum modi non. Dolore adipisci porro velit sed. Aliquam quaerat ut. Ipsum voluptatem quiquia dolor ipsum neque sed sit porro. Quisquam dolor magnam.');
-insert into topics (label, description) values ('Jobs and Careers at Specific Companies', 'Magnam ut. Non est sit consectetur eius non non tempora velit. Etincidunt est aliquam. Eius ut dolor magnam sed est quiquia neque ut magnam. Adipisci ut ut sed. Quaerat. Quaerat velit aliquam. Magnam.');
-insert into topics (label, description) values ('Specific Jobs and Careers', 'Sit. Quiquia modi voluptatem etincidunt tempora aliquam amet. Velit adipisci sed ut. Dolore ipsum dolor etincidunt dolorem neque adipisci est quiquia. Neque modi consectetur voluptatem ut dolore quiquia sed. Porro neque quaerat sed magnam dolore aliquam.');
-insert into topics (label, description) values ('Jobs and Careers in Specific Locations', 'Adipisci neque porro. Quiquia neque labore dolor neque adipisci ipsum adipisci. Sit magnam tempora non. Est ut dolore dolorem porro aliquam sed etincidunt. Velit ipsum sed ipsum.');
-insert into topics (label, description) values ('Major Concepts Related to Jobs or Careers', 'Ut est quisquam. Dolor. Dolore labore dolor porro labore quaerat voluptatem quisquam labore quaerat. Eius quiquia quaerat ut quisquam ut ipsum dolor neque eius. Etincidunt velit non sed numquam tempora. Etincidunt dolorem neque labore dolorem velit.');
-insert into topics (label, description) values ('Specific Types of Job and Careers', 'Dolore sed adipisci tempora dolore dolore ipsum quisquam amet quisquam. Sed. Neque eius quisquam velit etincidunt. Adipisci. Ipsum velit. Numquam sit adipisci dolorem.');
-insert into topics (label, description) values ('Jobs and Careers in Specific Areas', 'Sed sed dolore est. Modi labore dolore. Dolore dolor ipsum dolorem neque quaerat eius quaerat non. Dolor tempora numquam etincidunt etincidunt eius etincidunt porro. Sit non consectetur neque porro neque.');
-insert into topics (label, description) values ('Specific Employment Types', 'Magnam dolor quaerat dolor porro amet. Quisquam. Sed. Consectetur dolor. Quiquia modi.');
-insert into topics (label, description) values ('Job and Career Comparisons', 'Quisquam. Non voluptatem voluptatem quisquam magnam. Etincidunt labore numquam eius consectetur ut. Sit dolore consectetur sit modi amet quiquia dolore sit. Est adipisci ut dolorem numquam ut est. Quaerat ipsum porro labore ipsum velit.');
-insert into topics (label, description) values ('Salaries for Specific Jobs and Careers', 'Modi voluptatem dolorem. Dolore velit aliquam neque. Tempora quiquia amet quaerat. Quaerat velit eius eius adipisci. Dolor voluptatem magnam.');
-insert into topics (label, description) values ('Design', 'Labore magnam ipsum ut aliquam dolor voluptatem. Adipisci. Modi velit etincidunt aliquam tempora quiquia quisquam. Sit etincidunt est ipsum ut. Porro quisquam. Adipisci.');
-insert into topics (label, description) values ('Product Design of Physical Goods', 'Numquam ipsum amet tempora etincidunt est tempora modi. Neque dolorem etincidunt labore aliquam. Amet. Labore. Sit magnam velit numquam dolorem labore non est magnam labore. Quiquia. Consectetur numquam dolorem magnam sed quaerat amet.');
-insert into topics (label, description) values ('Major Concepts in Design', 'Neque neque dolore sed numquam. Quiquia sit adipisci. Quiquia adipisci adipisci amet dolorem dolore tempora porro. Sed aliquam ipsum quisquam labore etincidunt dolore. Voluptatem eius dolorem labore non.');
-insert into topics (label, description) values ('Specific Types of Design', 'Modi consectetur voluptatem adipisci modi non labore ipsum numquam. Numquam. Dolorem dolor numquam porro modi ipsum etincidunt. Sit sed porro eius porro dolorem sed dolore. Quiquia sed dolorem eius. Dolor.');
-insert into topics (label, description) values ('Philosophy of Design', 'Ut dolorem dolor sed non. Modi sed non voluptatem. Tempora dolorem non amet adipisci aliquam neque sed porro velit. Quisquam dolor. Eius non neque quaerat ipsum etincidunt porro adipisci consectetur. Quisquam quisquam eius.');
-insert into topics (label, description) values ('Design Pedagogy', 'Velit modi amet etincidunt porro. Quisquam dolore amet aliquam ipsum magnam ipsum magnam. Ut. Dolor ipsum aliquam quisquam modi magnam est. Numquam velit etincidunt velit est ut magnam ut dolore voluptatem.');
-insert into topics (label, description) values ('Jobs and Careers in Design', 'Sit voluptatem dolor aliquam labore tempora. Voluptatem dolor sed aliquam tempora amet porro dolore magnam non. Labore quiquia aliquam etincidunt sed porro modi est. Labore non labore etincidunt velit magnam porro ut velit. Consectetur modi consectetur.');
-insert into topics (label, description) values ('Vexillology', 'Non velit magnam etincidunt. Tempora tempora voluptatem sit. Magnam tempora quiquia non est quisquam labore etincidunt. Etincidunt dolorem tempora dolorem. Consectetur sed tempora modi est.');
-insert into topics (label, description) values ('Design Portfolios', 'Labore. Ipsum. Dolor consectetur. Dolore quaerat modi eius non quisquam. Numquam quaerat velit porro consectetur. Dolor voluptatem etincidunt. Sit porro labore neque tempora. Magnam ut amet quiquia ut.');
-insert into topics (label, description) values ('Design Tools', 'Dolorem quiquia adipisci ut. Eius dolore labore amet aliquam. Sit dolore velit sit eius modi sit velit numquam. Est aliquam sed labore sed aliquam velit voluptatem. Sed. Adipisci. Amet sed aliquam dolor numquam. Porro.');
-insert into topics (label, description) values ('Vehicle Design', 'Eius. Sit. Consectetur velit. Etincidunt numquam ut non voluptatem. Consectetur voluptatem etincidunt velit sed quiquia quisquam est.');
-insert into topics (label, description) values ('Principles of Design', 'Quisquam. Consectetur ut ipsum magnam dolorem. Neque voluptatem est porro eius eius velit non etincidunt. Quaerat quaerat etincidunt quisquam non adipisci etincidunt. Sed amet consectetur velit sit quisquam velit aliquam sit.');
-insert into topics (label, description) values ('Fashion and Style', 'Sed aliquam quisquam ut quaerat neque voluptatem tempora aliquam. Quaerat numquam modi quaerat sed dolor magnam porro. Quisquam magnam consectetur dolore. Neque quaerat voluptatem. Ipsum porro. Ipsum numquam velit non numquam.');
-insert into topics (label, description) values ('Women''s Fashion and Style', 'Consectetur consectetur dolorem tempora quisquam non velit eius porro. Aliquam amet dolorem sit. Voluptatem dolor modi porro. Magnam quiquia. Neque dolorem numquam porro dolor velit quisquam est voluptatem.');
-insert into topics (label, description) values ('Men''s Fashion and Style', 'Dolorem consectetur dolorem non dolor aliquam. Dolor eius. Est sit voluptatem ipsum etincidunt amet porro non. Dolore est dolorem etincidunt velit adipisci quaerat. Aliquam modi.');
-insert into topics (label, description) values ('Fashion Trends', 'Sed sit eius magnam. Dolorem dolor ut adipisci quisquam voluptatem est ipsum adipisci non. Voluptatem numquam. Magnam. Labore quaerat tempora ipsum aliquam eius. Modi.');
-insert into topics (label, description) values ('Fashion Designers', 'Non consectetur consectetur velit. Amet. Amet amet voluptatem adipisci etincidunt velit eius adipisci non numquam. Numquam aliquam quiquia velit velit. Tempora.');
-insert into topics (label, description) values ('History of Fashion', 'Quiquia sed numquam quisquam. Aliquam non porro. Sit aliquam non porro. Non labore labore tempora quiquia adipisci aliquam velit non ut. Sed voluptatem ut consectetur non labore quiquia. Ut dolorem quiquia aliquam quiquia adipisci. Velit quisquam.');
-insert into topics (label, description) values ('Types of Fashion Aesthetics', 'Porro magnam adipisci ipsum neque modi sit eius quisquam est. Sed. Etincidunt quisquam velit aliquam dolor amet quiquia dolorem quaerat etincidunt. Ut quiquia dolore amet ut magnam labore magnam amet. Adipisci.');
-insert into topics (label, description) values ('Beauty Products and Cosmetics', 'Dolorem. Quaerat modi etincidunt. Voluptatem etincidunt tempora est dolor labore. Quaerat numquam. Dolore amet dolor quiquia. Etincidunt magnam ut ut dolor numquam quaerat. Adipisci velit aliquam magnam aliquam voluptatem porro non ipsum neque.');
-insert into topics (label, description) values ('Clothing and Apparel', 'Modi. Quisquam consectetur magnam labore. Velit consectetur porro dolore. Quiquia etincidunt eius quisquam sed neque non eius quisquam. Ut amet quiquia ut amet dolor.');
-insert into topics (label, description) values ('Major Concepts in Fashion and Style', 'Dolorem. Adipisci etincidunt modi consectetur numquam quaerat dolorem. Porro ut porro labore magnam amet labore amet. Sed ut amet. Numquam. Tempora sit consectetur magnam dolore non magnam. Quiquia neque sit numquam amet non. Numquam dolorem sed.');
-insert into topics (label, description) values ('Fashion of Specific Locations', 'Quiquia consectetur ut adipisci etincidunt est est quiquia numquam dolore. Labore modi est est quiquia. Dolor ut. Sed magnam dolorem est. Quaerat modi. Sit ut aliquam numquam dolor modi est consectetur.');
-insert into topics (label, description) values ('Fashion Industry', 'Consectetur etincidunt. Labore. Eius eius tempora labore velit eius eius. Quisquam dolore. Dolore consectetur aliquam etincidunt eius quiquia eius neque dolorem. Sed est dolorem. Quiquia modi neque. Magnam. Sit.');
-insert into topics (label, description) values ('Fashion Media', 'Sit quiquia dolorem amet. Voluptatem consectetur dolorem porro ipsum quiquia etincidunt ipsum sit tempora. Voluptatem voluptatem consectetur numquam ipsum sed dolore. Adipisci non amet sit aliquam etincidunt quisquam porro. Non etincidunt ut ut.');
-insert into topics (label, description) values ('Vintage Products and Goods', 'Eius voluptatem neque est. Dolorem. Adipisci tempora labore est quisquam velit. Dolorem dolore non adipisci tempora velit porro sit. Quisquam eius tempora modi voluptatem dolorem eius voluptatem. Voluptatem dolorem numquam ut.');
-insert into topics (label, description) values ('Celebrity Fashion', 'Est. Neque. Non quiquia magnam non numquam ut porro. Modi labore magnam dolor tempora. Magnam numquam. Porro. Dolor ut. Dolor velit modi.');
-insert into topics (label, description) values ('Fashion Faux Pas', 'Non. Non eius. Quisquam tempora amet eius voluptatem modi dolore adipisci consectetur. Sed. Neque ipsum non tempora etincidunt. Ut etincidunt porro quaerat labore. Consectetur neque porro modi.');
-insert into topics (label, description) values ('Fashion Brands', 'Quaerat voluptatem voluptatem numquam porro modi sed magnam ut. Voluptatem voluptatem tempora dolor sit ipsum adipisci. Sit sed magnam. Neque amet sed. Quisquam tempora velit amet quisquam sit ut velit. Ut sed dolorem.');
-insert into topics (label, description) values ('Children''s Fashion', 'Sit etincidunt aliquam numquam consectetur quiquia eius. Voluptatem sit neque quiquia velit non labore. Labore eius quisquam consectetur. Quiquia voluptatem tempora dolor modi ut modi dolorem. Sed porro numquam. Velit est numquam eius.');
-insert into topics (label, description) values ('Fashion Jewellery', 'Dolorem. Porro ut neque sit tempora etincidunt. Ipsum eius quaerat porro voluptatem ut tempora quiquia dolorem. Est aliquam quisquam labore ipsum dolor porro ipsum sit. Dolorem dolorem voluptatem quisquam velit dolore est ipsum aliquam amet.');
-insert into topics (label, description) values ('Fashion and Style in Specific Locations', 'Dolore sit. Neque ut dolorem aliquam adipisci consectetur. Aliquam. Labore dolore etincidunt numquam est non. Velit. Velit. Neque modi dolore.');
-insert into topics (label, description) values ('Jobs and Careers in Fashion', 'Sit. Eius quiquia quisquam amet neque numquam quaerat. Dolore sed aliquam quiquia voluptatem modi labore aliquam dolor. Numquam quaerat etincidunt sed dolor. Quisquam sit porro quisquam numquam ipsum sit modi dolorem quaerat.');
-insert into topics (label, description) values ('Fashion Technology', 'Quisquam porro. Quaerat dolore sit dolore magnam dolor. Etincidunt aliquam tempora modi ut. Dolorem etincidunt adipisci quaerat non. Non est dolore adipisci. Neque labore magnam non aliquam porro.');
-insert into topics (label, description) values ('Attire', 'Amet amet ipsum numquam etincidunt voluptatem adipisci sed dolorem. Eius. Non adipisci dolorem dolor sed. Non voluptatem. Sit adipisci aliquam.');
-insert into topics (label, description) values ('Fashion Watches', 'Magnam velit amet numquam sit modi dolorem consectetur numquam neque. Voluptatem sed dolor ut ut amet velit sit. Porro porro. Quiquia quisquam etincidunt ut aliquam. Neque aliquam. Labore dolorem consectetur quisquam porro etincidunt neque modi.');
-insert into topics (label, description) values ('Fashion Accessories', 'Est quisquam aliquam non magnam. Consectetur dolor sit modi consectetur modi sed etincidunt. Amet sed eius ut. Consectetur neque tempora sit velit magnam. Magnam sed dolore porro ipsum numquam. Aliquam.');
-insert into topics (label, description) values ('Art', 'Voluptatem ut est velit. Velit. Modi. Ipsum porro quiquia neque. Dolor. Velit. Sed velit quisquam. Aliquam est est.');
-insert into topics (label, description) values ('Artistic Activities', 'Dolore ipsum quaerat sed etincidunt. Magnam consectetur etincidunt voluptatem non eius dolor. Est sit modi labore modi quaerat labore. Velit quiquia voluptatem dolorem neque porro. Dolor consectetur sed ipsum sed modi consectetur labore. Quaerat.');
-insert into topics (label, description) values ('Art Therapy', 'Ut velit porro adipisci tempora etincidunt quisquam eius magnam sed. Neque etincidunt neque velit modi ut. Neque quisquam consectetur modi. Modi quiquia tempora sit velit velit porro etincidunt quiquia. Aliquam etincidunt. Quaerat quiquia.');
-insert into topics (label, description) values ('History of Art', 'Sed dolor dolor. Adipisci modi est. Dolor quisquam neque aliquam tempora dolorem dolor modi. Non quaerat non non numquam dolor. Ut adipisci non numquam ipsum.');
-insert into topics (label, description) values ('Art in Specific Locations', 'Sit neque. Ut numquam dolore velit tempora. Amet numquam. Non dolor porro. Velit est labore neque eius. Modi neque etincidunt non. Adipisci non dolorem adipisci porro etincidunt.');
-insert into topics (label, description) values ('Art Advice', 'Consectetur quiquia. Quiquia sit magnam etincidunt aliquam magnam dolore. Dolore. Voluptatem sed eius etincidunt. Eius adipisci dolorem quiquia ipsum dolor velit.');
-insert into topics (label, description) values ('Type of Arts', 'Ut. Neque ipsum quaerat eius etincidunt quisquam voluptatem labore numquam adipisci. Eius. Tempora aliquam ut eius sed dolorem modi labore neque labore. Velit dolorem. Numquam. Modi amet eius sed.');
-insert into topics (label, description) values ('Pharmaceuticals', 'Dolor quaerat. Ipsum. Quaerat consectetur neque etincidunt quiquia quiquia aliquam numquam consectetur. Aliquam tempora porro quaerat. Non. Ipsum est neque. Quiquia quiquia velit quaerat velit amet etincidunt. Dolore sit eius sit dolore porro aliquam.');
-insert into topics (label, description) values ('Drug Effects', 'Voluptatem ipsum aliquam labore porro adipisci quaerat. Velit. Sed ipsum porro quiquia labore magnam labore quisquam. Numquam modi dolor voluptatem. Dolorem dolore porro etincidunt sit dolorem magnam sed.');
-insert into topics (label, description) values ('Pharmacy', 'Magnam adipisci ipsum quaerat. Dolore velit dolorem amet sed. Velit aliquam consectetur velit dolore est quiquia eius non porro. Quiquia velit porro sed quisquam dolore eius modi. Dolorem. Etincidunt quisquam voluptatem.');
-insert into topics (label, description) values ('Prescription Medication', 'Neque labore quiquia tempora. Tempora voluptatem aliquam quiquia dolore. Numquam eius. Velit amet voluptatem aliquam. Dolore neque tempora dolore neque dolorem neque velit est consectetur.');
-insert into topics (label, description) values ('Off-label Use', 'Dolor velit voluptatem. Modi dolorem eius. Ut modi neque modi etincidunt. Dolor quiquia porro consectetur adipisci adipisci modi. Velit magnam consectetur quisquam. Quisquam est modi non quiquia. Magnam ut dolor sit sit quaerat magnam adipisci non sed.');
-insert into topics (label, description) values ('Medication Adherence', 'Porro neque dolore non labore adipisci. Porro voluptatem aliquam aliquam. Dolor. Porro ipsum ipsum ipsum sed est. Labore eius. Etincidunt quiquia sed non modi adipisci velit quiquia etincidunt. Quiquia eius porro porro sed dolorem.');
-insert into topics (label, description) values ('Over the Counter Drugs', 'Est voluptatem quaerat porro non. Eius dolor est. Ut. Porro dolorem velit. Aliquam dolor labore dolor ipsum adipisci consectetur.');
-insert into topics (label, description) values ('Drug Comparisons', 'Quiquia consectetur quisquam consectetur quisquam. Voluptatem dolor dolore est. Porro numquam sed quaerat sed magnam eius aliquam eius. Est voluptatem velit neque quiquia dolor. Neque porro labore neque quiquia dolore sit tempora modi ut. Magnam tempora.');
-insert into topics (label, description) values ('Pharmacology', 'Velit non. Quisquam adipisci eius aliquam aliquam ipsum aliquam porro sit est. Amet quisquam neque voluptatem modi ut velit. Quiquia eius. Ut quisquam dolore numquam porro quisquam neque.');
-insert into topics (label, description) values ('Specific Pharmaceuticals', 'Etincidunt magnam modi porro amet non dolor. Etincidunt voluptatem numquam ipsum. Quiquia voluptatem tempora eius voluptatem amet voluptatem. Dolorem quiquia quaerat quiquia non etincidunt. Tempora modi voluptatem.');
-insert into topics (label, description) values ('Drug Development', 'Dolor dolore adipisci etincidunt est velit ipsum porro modi sit. Quiquia ipsum eius sed velit quisquam voluptatem. Quiquia consectetur sit. Voluptatem. Quisquam magnam ut velit sed.');
-insert into topics (label, description) values ('Pharmaceutical Sciences', 'Velit quaerat ut. Non numquam non. Quiquia voluptatem. Neque neque sit porro consectetur dolor. Labore modi velit dolor. Aliquam neque est porro amet. Non magnam amet dolore amet amet ipsum aliquam sit aliquam. Modi dolor numquam dolorem numquam.');
-insert into topics (label, description) values ('Pharmaceutical Complications', 'Numquam labore. Aliquam magnam ipsum modi neque quisquam. Ipsum sed etincidunt dolor voluptatem porro dolorem dolorem dolorem. Sit neque. Est sed voluptatem non dolorem.');
-insert into topics (label, description) values ('Dosing', 'Numquam eius porro sit dolorem adipisci. Est amet eius adipisci aliquam dolore amet dolore dolorem. Dolorem non porro etincidunt velit. Quiquia ipsum amet adipisci numquam etincidunt. Voluptatem dolor velit.');
-insert into topics (label, description) values ('Pharmacovigilance', 'Sit consectetur etincidunt dolorem non. Consectetur etincidunt quaerat non amet ut. Numquam tempora numquam non. Dolor. Non amet voluptatem. Quaerat adipisci labore non labore dolor sed.');
-insert into topics (label, description) values ('Neuroscience of Specific Drugs and Pharmaceuticals', 'Labore neque sit dolorem numquam consectetur est non adipisci voluptatem. Non etincidunt sed. Est dolor dolor quiquia dolore adipisci quaerat dolorem numquam quisquam. Voluptatem. Dolorem quaerat est tempora sit aliquam. Neque dolore adipisci aliquam.');
-insert into topics (label, description) values ('Specific Types of Pharmaceuticals', 'Est. Dolor. Dolorem modi dolorem. Est. Aliquam ipsum quiquia. Neque consectetur dolore eius modi quaerat magnam. Etincidunt tempora aliquam adipisci adipisci dolore neque.');
-insert into topics (label, description) values ('Pharmaceutical Quality', 'Modi sit porro est ut. Est etincidunt voluptatem eius non porro ipsum ipsum etincidunt. Numquam quaerat sed neque. Non ut ut. Dolore dolor consectetur. Ipsum porro eius. Numquam non tempora numquam amet non quaerat ipsum dolore ut. Amet magnam dolore.');
-insert into topics (label, description) values ('Biopharmaceuticals', 'Labore est non ut magnam non. Non quisquam amet est numquam. Porro est non consectetur ut sed. Tempora quaerat dolore. Numquam non modi magnam.');
-insert into topics (label, description) values ('Biopharmaceutical Industry', 'Magnam. Magnam quiquia tempora ut. Non neque non consectetur velit. Quiquia est sed adipisci. Dolore numquam quaerat. Quisquam dolore neque consectetur dolore.');
-insert into topics (label, description) values ('Drug Patents', 'Aliquam magnam porro dolorem est velit dolor. Neque ipsum eius consectetur quiquia dolore quisquam. Dolore. Dolorem ipsum ipsum consectetur consectetur consectetur. Dolor neque velit ipsum amet labore.');
-insert into topics (label, description) values ('Drug Labels', 'Ut tempora porro modi dolore aliquam eius. Quaerat dolor dolorem magnam amet adipisci. Dolore voluptatem ut adipisci velit ipsum. Ipsum. Ipsum consectetur est modi dolore est velit.');
-insert into topics (label, description) values ('Drug Resistance', 'Consectetur quaerat non modi magnam sed. Modi neque neque. Voluptatem tempora. Ut tempora adipisci est. Porro labore magnam ipsum amet porro etincidunt velit porro neque. Numquam adipisci sed sed dolorem labore eius neque ut amet.');
-insert into topics (label, description) values ('Medical Conditions and Diseases', 'Labore amet velit porro velit porro. Sit sit quisquam tempora dolorem etincidunt etincidunt magnam. Ut etincidunt tempora sed magnam ut non ut magnam dolore. Ipsum quaerat. Velit sed. Modi numquam. Sit.');
-insert into topics (label, description) values ('Deafness (physiological condition)', 'Dolorem est amet quaerat voluptatem quaerat aliquam porro. Etincidunt dolorem eius numquam. Modi. Quiquia ut velit amet. Eius neque. Eius voluptatem numquam etincidunt magnam.');
-insert into topics (label, description) values ('Obesity', 'Consectetur. Neque numquam etincidunt ut modi voluptatem quaerat. Quiquia sed magnam consectetur labore. Ut neque. Ipsum dolor non quisquam quaerat sit sit. Adipisci tempora velit neque quiquia magnam ipsum.');
-insert into topics (label, description) values ('Tendinitis', 'Ipsum adipisci. Ut non etincidunt quisquam non eius. Quaerat est voluptatem tempora labore. Modi. Amet. Quisquam quaerat.');
-insert into topics (label, description) values ('Nausea', 'Etincidunt. Quisquam ipsum quaerat quiquia. Est sit adipisci. Dolorem. Porro ipsum dolore. Aliquam quisquam magnam magnam etincidunt dolor adipisci aliquam amet. Ipsum sit adipisci neque quiquia ipsum tempora.');
-insert into topics (label, description) values ('Metabolic Syndrome (medical condition)', 'Numquam porro. Quisquam ut sit quaerat eius modi. Tempora quaerat neque dolor. Adipisci dolorem dolore neque porro quaerat. Voluptatem est porro dolor etincidunt.');
-insert into topics (label, description) values ('Bone Fractures', 'Etincidunt. Tempora aliquam neque eius magnam ut ut. Consectetur. Est quaerat non amet dolor. Neque modi velit etincidunt tempora. Tempora. Etincidunt dolore dolor quisquam magnam dolore ut dolore labore dolor. Neque. Consectetur porro.');
-insert into topics (label, description) values ('Undiagnosed Medical Conditions', 'Neque consectetur velit quiquia amet porro quisquam numquam est velit. Velit dolor tempora sit voluptatem quisquam. Est magnam. Dolore ipsum amet voluptatem aliquam voluptatem adipisci quiquia. Sed etincidunt.');
-insert into topics (label, description) values ('Hyperthyroidism', 'Eius. Sit amet dolorem sit tempora non aliquam etincidunt ut consectetur. Amet tempora ipsum labore aliquam. Ut sit aliquam. Adipisci. Voluptatem quaerat etincidunt adipisci adipisci velit amet magnam dolorem.');
-insert into topics (label, description) values ('Cancer', 'Dolore magnam dolor modi sit adipisci modi quaerat. Dolore. Etincidunt velit modi tempora velit ut eius quaerat. Neque magnam est ipsum neque dolorem modi dolorem aliquam. Dolore non velit modi est porro velit consectetur. Sit ut quaerat.');
-insert into topics (label, description) values ('Infectious Diseases', 'Est adipisci dolor quaerat dolor. Non sit est etincidunt dolor sed. Est. Tempora. Etincidunt dolorem amet numquam. Non quaerat numquam labore sit. Porro neque tempora dolor magnam. Magnam aliquam consectetur quiquia modi quisquam aliquam eius.');
-insert into topics (label, description) values ('Sexually Transmitted Infections (STIs)', 'Neque magnam. Aliquam sit quisquam labore neque velit velit quiquia. Dolor tempora quaerat magnam quaerat ipsum. Porro adipisci amet. Magnam. Modi. Neque dolore numquam consectetur eius sed consectetur quaerat numquam. Voluptatem amet. Dolorem ut.');
-insert into topics (label, description) values ('Terminal Diseases', 'Ut amet. Tempora sed ipsum sed amet sed quaerat. Eius ut dolorem quaerat ut dolor neque quiquia. Modi voluptatem. Dolorem tempora quaerat dolore consectetur magnam porro dolor. Sit sed adipisci tempora ipsum neque. Non.');
-insert into topics (label, description) values ('Side Effects', 'Ipsum velit modi est. Dolorem consectetur sit numquam. Adipisci quisquam neque ipsum magnam. Sit modi non adipisci tempora magnam est velit eius. Sit ipsum etincidunt est est amet voluptatem. Numquam.');
-insert into topics (label, description) values ('Hernias', 'Velit magnam modi amet ut ut. Labore dolor aliquam dolorem non quiquia. Dolorem aliquam modi. Amet sit neque labore modi. Est consectetur. Dolore consectetur. Dolore est eius dolorem dolorem quaerat ut.');
-insert into topics (label, description) values ('Delayed Onset Muscle Soreness (DOMS)', 'Amet sit quisquam amet ut est magnam est numquam. Est dolorem aliquam consectetur labore. Dolorem tempora sed modi magnam quisquam quiquia tempora ut. Tempora. Dolor ipsum ut sit. Non consectetur ipsum.');
-insert into topics (label, description) values ('Disability and Disabilities', 'Neque etincidunt quiquia quiquia dolorem. Neque ipsum ipsum quisquam. Dolore quisquam non. Aliquam quiquia neque neque modi dolore. Quaerat consectetur dolor modi quisquam adipisci tempora tempora.');
-insert into topics (label, description) values ('Terminal Illness', 'Eius sed sit etincidunt sit consectetur porro voluptatem amet. Etincidunt. Etincidunt voluptatem neque. Dolor velit. Magnam amet labore ut consectetur aliquam dolorem amet quiquia. Ut est quisquam porro. Aliquam eius.');
-insert into topics (label, description) values ('Addictions', 'Ut non etincidunt labore quaerat adipisci. Eius amet porro dolorem modi sit voluptatem magnam. Ut modi adipisci ut quiquia est. Velit ut modi. Voluptatem est dolor porro neque etincidunt sed labore est tempora.');
-insert into topics (label, description) values ('Medical Symptoms', 'Neque numquam sed non modi non. Non tempora adipisci. Ut neque tempora neque. Ut voluptatem sit ut. Porro est ipsum amet ipsum.');
-insert into topics (label, description) values ('Sore Throats', 'Dolore porro adipisci porro dolorem aliquam consectetur. Neque quaerat porro aliquam adipisci ut dolore modi etincidunt. Eius. Porro aliquam magnam dolor voluptatem dolorem adipisci ut. Ut. Modi. Dolor ipsum velit etincidunt amet amet.');
-insert into topics (label, description) values ('Tropical Diseases', 'Sit adipisci labore dolor porro. Labore consectetur quisquam. Sed dolorem dolore non modi aliquam labore. Quiquia voluptatem velit labore quiquia numquam sed porro quisquam. Est sit ipsum velit quaerat eius ipsum quiquia. Amet.');
-insert into topics (label, description) values ('Pre-Existing Conditions', 'Neque dolore adipisci labore est. Consectetur magnam neque velit ut. Eius porro. Etincidunt eius ut non sed consectetur etincidunt. Dolorem voluptatem labore dolor ut dolor. Labore velit.');
-insert into topics (label, description) values ('Swelling (medical condition)', 'Quaerat sit eius amet porro. Eius amet tempora velit adipisci non labore est neque. Amet sit dolore. Quisquam dolor est aliquam magnam tempora. Velit tempora est non aliquam dolor amet.');
-insert into topics (label, description) values ('Burns and Burning', 'Numquam quaerat dolorem dolore. Quaerat neque. Eius voluptatem. Neque velit non numquam porro. Numquam non non quiquia. Magnam quiquia dolorem aliquam neque.');
-insert into topics (label, description) values ('Jaundice', 'Sit sed est quiquia tempora sed quaerat. Non dolor ipsum amet. Sit numquam non eius modi quaerat dolorem sed. Amet ipsum. Consectetur. Magnam tempora dolorem numquam velit sed numquam tempora.');
-insert into topics (label, description) values ('Blood Disorders', 'Numquam ipsum. Porro dolor quiquia. Eius non. Adipisci magnam dolore quaerat neque. Ipsum tempora etincidunt quisquam dolor adipisci sed magnam neque consectetur.');
-insert into topics (label, description) values ('Accidents and Injuries', 'Eius. Sed dolorem. Quaerat dolore consectetur. Est voluptatem numquam velit etincidunt ipsum. Dolorem magnam labore est sit. Dolorem modi voluptatem sed dolorem labore adipisci sed magnam dolorem. Dolore voluptatem aliquam tempora etincidunt velit.');
-insert into topics (label, description) values ('Genetic Disorders and Diseases', 'Non voluptatem velit eius velit. Numquam tempora consectetur dolorem. Sit dolorem. Magnam dolor quiquia magnam. Aliquam voluptatem voluptatem modi magnam non ut. Magnam eius numquam voluptatem adipisci.');
-insert into topics (label, description) values ('Neurological Conditions', 'Magnam adipisci magnam quaerat eius amet tempora. Etincidunt dolor velit. Consectetur est eius adipisci sit neque ut modi. Ut labore. Est dolore labore aliquam est quiquia. Velit sit.');
-insert into topics (label, description) values ('Rare Diseases', 'Dolorem sit quisquam amet non velit velit dolor ipsum. Dolorem sit aliquam tempora tempora eius eius non. Voluptatem sed neque sed est modi modi amet. Dolorem. Quiquia ut labore quaerat etincidunt. Numquam. Consectetur aliquam ipsum. Ut sit dolor.');
-insert into topics (label, description) values ('Respiratory Conditions', 'Magnam adipisci numquam dolorem est. Ipsum quisquam amet. Tempora ipsum. Consectetur sit quisquam labore magnam quisquam ut numquam aliquam. Dolor dolor aliquam eius porro sed. Sit.');
-insert into topics (label, description) values ('Asian Flush', 'Porro magnam labore. Etincidunt velit ipsum. Neque neque dolore ut voluptatem consectetur tempora. Etincidunt velit eius labore dolorem tempora labore amet velit quiquia. Non sit adipisci etincidunt modi consectetur neque adipisci est. Neque.');
-insert into topics (label, description) values ('Illness', 'Dolor eius quisquam quiquia. Quisquam voluptatem est. Velit velit non. Eius quaerat sed dolor adipisci. Sed dolor magnam. Labore aliquam tempora. Amet.');
-insert into topics (label, description) values ('Wounds', 'Neque dolor consectetur. Magnam labore magnam. Eius porro. Eius magnam labore sit consectetur amet dolorem ut. Velit. Voluptatem.');
-insert into topics (label, description) values ('Infertility', 'Ipsum est ut est adipisci. Porro dolor ut. Amet sed sit dolorem sed consectetur. Adipisci labore modi. Ut tempora quaerat neque ipsum dolor eius ipsum. Labore quiquia. Aliquam.');
-insert into topics (label, description) values ('Trauma', 'Quisquam voluptatem neque. Numquam consectetur. Sed dolor porro adipisci sed porro labore quiquia porro. Magnam. Tempora ut adipisci sed consectetur aliquam amet sit tempora porro. Porro. Est magnam.');
-insert into topics (label, description) values ('Heartburn', 'Est. Non tempora eius est eius est. Sit. Dolorem eius neque tempora eius. Aliquam modi numquam ipsum aliquam. Ipsum ipsum consectetur porro magnam. Neque consectetur velit quiquia consectetur quaerat consectetur modi dolorem. Aliquam dolor porro.');
-insert into topics (label, description) values ('Inflammation', 'Etincidunt quisquam dolor. Modi quaerat quaerat labore. Non. Dolor sit eius. Amet etincidunt numquam tempora quisquam. Tempora. Labore numquam porro non voluptatem porro amet eius. Ut. Dolore sed.');
-insert into topics (label, description) values ('Allergies', 'Ut neque dolor amet amet ipsum ipsum est modi voluptatem. Tempora modi tempora numquam quaerat non consectetur quaerat. Adipisci eius magnam ipsum magnam adipisci etincidunt etincidunt. Dolore ipsum velit neque ipsum eius ipsum dolore. Est velit. Non.');
-insert into topics (label, description) values ('Autoimmune Conditions and Diseases', 'Tempora velit magnam aliquam quaerat tempora. Porro quisquam. Sed. Numquam ipsum sed voluptatem quaerat numquam amet sit dolor magnam. Numquam ut ipsum est est dolore eius. Consectetur ipsum sit sed dolore etincidunt quisquam non tempora.');
-insert into topics (label, description) values ('Mental Illness', 'Modi sit modi. Neque ut tempora porro modi neque amet. Eius eius sit quisquam sit. Sit eius tempora non non eius amet tempora. Ipsum ipsum sed sed quaerat. Adipisci. Consectetur dolorem sit amet amet non numquam velit labore.');
-insert into topics (label, description) values ('Postmenopausal Vaginal Atrophy', 'Sit. Quiquia adipisci magnam quisquam ut dolor tempora. Tempora quisquam. Quaerat sed numquam numquam quisquam adipisci labore voluptatem sed. Adipisci amet aliquam. Eius voluptatem adipisci dolore amet.');
-insert into topics (label, description) values ('Ear Diseases', 'Aliquam amet dolore etincidunt adipisci aliquam quaerat dolor sit. Consectetur adipisci labore velit ipsum dolor. Dolore. Ut neque neque non. Amet est velit neque est neque adipisci consectetur.');
-insert into topics (label, description) values ('Sleep-Wake Disorders', 'Labore sed etincidunt neque magnam adipisci neque. Neque est labore. Labore dolorem ut non aliquam eius neque. Sit ut consectetur non. Quaerat sit quiquia modi porro voluptatem ipsum aliquam. Quiquia tempora dolor.');
-insert into topics (label, description) values ('Goose bumps', 'Ipsum non ut modi. Quiquia velit sit adipisci aliquam quaerat neque porro. Dolore quisquam porro amet est quiquia dolore. Neque numquam. Consectetur voluptatem. Non quiquia est voluptatem quisquam. Labore amet numquam numquam dolor adipisci aliquam.');
-insert into topics (label, description) values ('Skin Conditions', 'Non dolorem voluptatem. Dolor. Non. Sit ipsum aliquam ut. Sed. Amet. Ipsum. Amet etincidunt voluptatem labore ut consectetur quiquia. Porro.');
-insert into topics (label, description) values ('Chronic Conditions and Diseases', 'Non magnam eius dolorem tempora tempora ut etincidunt modi. Aliquam magnam labore. Ipsum dolorem quisquam velit magnam non aliquam labore adipisci labore. Sit quiquia labore est magnam modi est etincidunt velit dolorem. Adipisci.');
-insert into topics (label, description) values ('Diseases of Reproductive Medicine', 'Etincidunt amet adipisci voluptatem dolor neque. Numquam. Labore consectetur quisquam dolorem est ut voluptatem adipisci dolorem aliquam. Numquam dolorem modi consectetur dolore adipisci. Aliquam labore. Non.');
-insert into topics (label, description) values ('Neoplasms', 'Est labore labore velit quaerat dolore dolorem sit sed. Quiquia. Non labore ut numquam amet. Tempora ipsum porro est labore ipsum. Aliquam sit aliquam quaerat velit.');
-insert into topics (label, description) values ('Epidemics', 'Ipsum est quiquia voluptatem. Consectetur labore. Quaerat consectetur non porro non tempora etincidunt etincidunt aliquam dolor. Quaerat tempora labore numquam labore amet amet non. Adipisci magnam labore quisquam dolore neque magnam quaerat.');
-insert into topics (label, description) values ('Drug Dependency', 'Labore adipisci. Tempora voluptatem. Sed sit etincidunt neque. Dolore quiquia tempora dolor quisquam. Neque est est eius ut non aliquam amet velit amet. Non. Non labore non. Dolor numquam dolore tempora dolore numquam numquam quisquam aliquam.');
-insert into topics (label, description) values ('Food-borne Diseases', 'Adipisci dolore dolore eius dolor ut labore. Porro magnam dolor aliquam quisquam porro magnam. Voluptatem numquam aliquam quisquam. Sed numquam est quaerat ut. Neque dolore est. Tempora modi eius dolor sed ipsum adipisci eius numquam.');
-insert into topics (label, description) values ('Hypothermia', 'Consectetur sed. Magnam quisquam sed numquam tempora. Quiquia neque magnam adipisci. Neque ut numquam labore. Tempora dolorem tempora. Velit dolor sed quisquam tempora porro. Ipsum. Neque aliquam etincidunt neque ut dolorem dolor sit consectetur.');
-insert into topics (label, description) values ('Animal Diseases', 'Sed non ipsum non dolorem non. Dolore labore sit tempora labore ut quiquia. Dolor quisquam quiquia dolore adipisci. Dolor porro amet velit magnam est eius non. Ipsum aliquam ut consectetur est tempora sit. Dolore magnam voluptatem neque tempora.');
-insert into topics (label, description) values ('Phytopathology‎', 'Voluptatem porro magnam porro adipisci. Voluptatem etincidunt dolorem aliquam sed ipsum labore. Adipisci quaerat. Eius est quisquam quiquia. Etincidunt. Labore modi sed numquam.');
-insert into topics (label, description) values ('Airborne Diseases', 'Magnam est. Non dolore etincidunt consectetur eius tempora. Numquam tempora dolor. Amet tempora sed non neque sed dolor aliquam. Dolore magnam tempora dolore quiquia quaerat porro magnam quisquam. Non. Tempora dolorem neque.');
-insert into topics (label, description) values ('Component Causes', 'Velit modi dolor. Adipisci aliquam voluptatem sed magnam. Sed voluptatem velit adipisci porro est dolor modi adipisci velit. Velit porro dolorem. Aliquam. Dolor ipsum quaerat magnam sit dolorem est dolor dolorem. Tempora velit.');
-insert into topics (label, description) values ('Cryptogenic Disease', 'Dolor consectetur amet numquam voluptatem ut. Numquam consectetur. Dolore ut. Dolore quisquam est etincidunt neque ut. Sed. Etincidunt non etincidunt sit adipisci. Modi sed est modi. Est tempora dolor tempora quisquam adipisci.');
-insert into topics (label, description) values ('Degenerative Disease', 'Dolor quiquia. Eius modi voluptatem amet ipsum aliquam est. Sit etincidunt numquam. Quisquam magnam sed velit. Neque aliquam quiquia dolorem non tempora dolorem. Dolore eius labore adipisci.');
-insert into topics (label, description) values ('Environmental Disease', 'Numquam est sed magnam consectetur ipsum quaerat aliquam. Eius ipsum. Porro est sed dolor consectetur. Numquam magnam quisquam. Quiquia neque sed sit. Consectetur. Numquam. Adipisci tempora amet velit. Sit. Quaerat magnam adipisci voluptatem ipsum.');
-insert into topics (label, description) values ('Environmental Factors', 'Porro dolorem numquam. Ut voluptatem dolorem amet. Eius porro. Ut dolore dolor sit eius quisquam. Consectetur dolor. Amet. Amet. Consectetur sed non dolor consectetur. Porro non sed tempora sed dolor porro non eius.');
-insert into topics (label, description) values ('Fumarylacetoacetate Hydrolase Deficiency', 'Aliquam etincidunt sed dolorem. Adipisci sed dolore modi quisquam adipisci numquam neque magnam consectetur. Modi voluptatem. Dolor dolor eius labore ipsum. Sed amet sed. Quisquam sit non. Modi labore neque. Labore neque magnam etincidunt labore.');
-insert into topics (label, description) values ('Functional Disorder', 'Dolorem ipsum. Sit ut quaerat ipsum. Est non quiquia neque magnam voluptatem sed labore eius. Quisquam sit. Numquam ipsum quisquam labore dolore. Etincidunt est ipsum tempora.');
-insert into topics (label, description) values ('Heterogeneous Condition', 'Sed. Ut. Quaerat non porro modi dolorem consectetur est neque. Ut. Velit sed. Sed voluptatem porro ut non adipisci.');
-insert into topics (label, description) values ('Holoendemic', 'Ut sed dolore non. Voluptatem dolorem quaerat velit tempora labore ut quiquia dolorem. Quiquia est magnam consectetur etincidunt ut. Dolor neque porro dolor. Modi. Voluptatem ipsum adipisci quiquia.');
-insert into topics (label, description) values ('Hypokinetic Diseases', 'Etincidunt quaerat porro quiquia aliquam. Quiquia quiquia dolore aliquam sit. Amet adipisci. Porro neque labore velit voluptatem tempora dolor. Velit voluptatem. Velit est.');
-insert into topics (label, description) values ('Keratosis Obturans', 'Magnam. Numquam etincidunt eius non sit dolorem sit ipsum consectetur etincidunt. Eius. Adipisci velit numquam ut neque modi sit. Ut non quaerat amet sit. Sit sit tempora labore est voluptatem consectetur.');
-insert into topics (label, description) values ('Localized Disease', 'Ipsum voluptatem labore ipsum quiquia. Etincidunt voluptatem dolor. Quaerat non aliquam. Labore adipisci numquam dolor. Est quaerat modi adipisci quiquia.');
-insert into topics (label, description) values ('Multiple Complex Developmental Disorder', 'Consectetur amet magnam etincidunt. Dolorem dolor ut eius modi sed ut. Porro consectetur neque voluptatem sit eius. Amet quiquia est dolor. Neque modi. Dolor quaerat dolorem amet dolore labore ipsum sed non.');
-insert into topics (label, description) values ('Multiple Morbidities', 'Aliquam aliquam labore. Etincidunt. Non quaerat adipisci amet voluptatem dolor neque sit. Velit tempora est etincidunt velit non dolorem ut. Consectetur modi modi dolore modi numquam magnam eius neque.');
-insert into topics (label, description) values ('Non Communicable Diseases', 'Ipsum neque dolorem amet quaerat neque dolore porro. Adipisci quisquam dolorem. Quaerat labore velit labore consectetur modi aliquam. Voluptatem eius. Numquam tempora dolore. Velit dolor consectetur velit. Ut quisquam dolor labore.');
-insert into topics (label, description) values ('Progressive Disease', 'Neque aliquam dolore non quisquam. Numquam non neque tempora velit. Quaerat. Numquam quaerat aliquam etincidunt neque velit est magnam. Porro. Aliquam dolore porro dolore sit eius velit est adipisci ut. Labore quaerat eius. Amet labore modi.');
-insert into topics (label, description) values ('Systemic Disease', 'Dolore neque dolore. Eius quisquam. Est quiquia sed consectetur dolore quiquia neque adipisci. Ut amet dolorem non ut amet sed velit neque dolor. Voluptatem est adipisci neque dolorem dolor dolor.');
-insert into topics (label, description) values ('Disease Transmission', 'Est eius ut labore est. Consectetur modi. Neque quiquia eius labore velit magnam ut tempora adipisci. Velit quaerat est eius etincidunt consectetur. Velit voluptatem neque dolorem.');
-insert into topics (label, description) values ('Tumors', 'Labore magnam velit modi etincidunt. Voluptatem non. Adipisci. Est adipisci magnam. Etincidunt dolor ipsum quisquam quaerat ipsum voluptatem dolor quisquam quaerat. Tempora magnam labore labore. Quisquam ut etincidunt. Non eius.');
-insert into topics (label, description) values ('Syndromes', 'Ipsum modi etincidunt porro quisquam. Quisquam numquam consectetur ut sit dolorem sed etincidunt sed etincidunt. Ut eius dolore. Dolorem. Labore labore quiquia. Sed dolor ipsum ipsum dolor ut dolorem. Aliquam dolor sed ipsum numquam ipsum non est.');
-insert into topics (label, description) values ('Disease Outbreaks', 'Velit etincidunt dolorem sed etincidunt labore velit. Quisquam modi ut. Est porro. Aliquam ut magnam dolorem porro sit quiquia dolore. Dolor dolor non dolore consectetur. Consectetur etincidunt sed.');
-insert into topics (label, description) values ('Abscesses', 'Dolor aliquam. Adipisci. Dolorem velit quisquam quaerat velit quisquam dolor non labore aliquam. Neque neque est non consectetur neque non neque. Velit voluptatem consectetur dolore consectetur ut.');
-insert into topics (label, description) values ('Diseases and Disorders by Specific Systems', 'Magnam porro ut adipisci quiquia sed dolorem est ipsum quiquia. Est consectetur eius quaerat velit. Quiquia ut labore. Labore tempora voluptatem etincidunt etincidunt. Ut ut. Porro voluptatem quisquam numquam modi magnam consectetur quaerat est quiquia.');
-insert into topics (label, description) values ('Medical Conditions of the Foot', 'Modi sed tempora. Sit quaerat dolor dolor quiquia. Neque. Modi quiquia aliquam consectetur etincidunt aliquam. Labore velit modi quisquam magnam porro dolor dolor adipisci etincidunt. Dolor sed adipisci voluptatem modi consectetur tempora velit sed.');
-insert into topics (label, description) values ('Medical Conditions Involving Inflammation', 'Ut etincidunt quiquia amet. Dolor amet adipisci. Voluptatem adipisci labore tempora quiquia sit quisquam. Modi dolore. Neque consectetur dolore eius numquam consectetur voluptatem. Quaerat voluptatem labore magnam porro.');
-insert into topics (label, description) values ('Kidney Disease', 'Adipisci ipsum modi sed porro voluptatem. Modi consectetur sed. Consectetur aliquam sit ipsum sit. Eius. Eius est. Porro amet. Magnam. Sed etincidunt labore aliquam adipisci. Labore. Eius aliquam ipsum.');
-insert into topics (label, description) values ('Medical Professions and Professionals', 'Consectetur quaerat. Non eius numquam sed sit dolore ut labore velit. Dolor sit ut velit porro est magnam. Neque labore sit neque. Aliquam etincidunt labore quiquia porro. Neque voluptatem dolore.');
-insert into topics (label, description) values ('Doctors', 'Neque ut sit labore tempora quiquia consectetur non quaerat voluptatem. Sit neque neque quiquia voluptatem velit. Eius. Numquam voluptatem sit labore etincidunt. Quaerat labore neque modi.');
-insert into topics (label, description) values ('Nurses', 'Quisquam dolore neque. Ut adipisci voluptatem. Eius etincidunt magnam porro amet consectetur modi modi velit modi. Dolorem velit tempora etincidunt magnam numquam. Est sed porro quisquam dolore aliquam. Sed.');
-insert into topics (label, description) values ('Veterinarians', 'Numquam. Est quaerat non magnam sit ipsum eius. Aliquam etincidunt non tempora. Consectetur. Consectetur neque neque quaerat magnam neque tempora. Labore labore tempora adipisci dolor. Dolor sit ut modi neque quaerat.');
-insert into topics (label, description) values ('Nurse Practitioners', 'Dolor dolore adipisci porro quisquam consectetur est non porro sit. Eius aliquam porro amet dolor neque dolorem ut quiquia. Sed. Dolorem. Labore adipisci.');
-insert into topics (label, description) values ('Pharmacists', 'Velit dolor porro eius dolorem amet. Neque amet sed sed ipsum quaerat tempora tempora quaerat amet. Quaerat voluptatem aliquam est numquam quiquia ipsum est dolor dolorem. Velit magnam velit sed magnam porro dolor. Velit. Etincidunt numquam non.');
-insert into topics (label, description) values ('Clinical Psychologists', 'Eius magnam quisquam amet. Dolor. Amet consectetur eius amet dolore. Tempora eius sit consectetur sed. Dolorem eius eius neque quisquam etincidunt numquam magnam. Dolore neque modi aliquam quiquia amet dolorem eius. Adipisci aliquam porro quaerat.');
-insert into topics (label, description) values ('EMTs and Paramedics', 'Non labore. Magnam dolore quaerat. Dolorem dolor. Aliquam consectetur voluptatem ipsum etincidunt numquam dolor. Consectetur ut dolor consectetur quisquam etincidunt modi numquam amet sit. Magnam.');
-insert into topics (label, description) values ('Secrets of the Medical Profession', 'Sit. Est amet. Ipsum aliquam velit modi tempora magnam. Voluptatem est sed etincidunt aliquam ipsum. Magnam numquam adipisci voluptatem aliquam etincidunt ipsum ipsum ipsum. Est est.');
-insert into topics (label, description) values ('Optometrists', 'Labore voluptatem etincidunt magnam adipisci etincidunt dolorem sed. Quiquia. Non dolorem. Adipisci dolor. Non. Etincidunt numquam modi quisquam ipsum magnam ut labore ipsum. Tempora sit numquam voluptatem numquam voluptatem.');
-insert into topics (label, description) values ('Medical College', 'Labore non dolor etincidunt non labore. Tempora ipsum magnam amet magnam etincidunt est dolor sed aliquam. Ipsum. Neque dolorem quiquia amet dolor porro amet ut quiquia sed. Quisquam numquam quiquia quisquam non velit adipisci.');
-insert into topics (label, description) values ('Caregivers', 'Est etincidunt amet tempora quaerat sit ut neque. Porro amet sit modi modi sit ut etincidunt neque. Amet. Ut ipsum velit magnam neque modi quiquia quisquam. Ut amet tempora. Modi modi dolor voluptatem tempora. Sed.');
-insert into topics (label, description) values ('Opticians', 'Sed tempora. Etincidunt dolore. Est ut ipsum dolorem tempora. Quaerat dolor numquam adipisci. Sed quisquam velit aliquam ipsum sed sed dolor. Ut. Est quisquam quiquia dolore eius quisquam. Est. Aliquam.');
-insert into topics (label, description) values ('Dentists', 'Adipisci tempora quaerat dolorem. Porro quisquam non dolore amet ipsum. Tempora est eius magnam labore. Sit aliquam aliquam dolor. Ipsum voluptatem neque numquam eius.');
-insert into topics (label, description) values ('Medical Associations', 'Dolorem quisquam adipisci etincidunt adipisci labore. Modi quiquia ut porro adipisci consectetur quaerat dolor velit ipsum. Ipsum dolor sed quiquia. Sed modi adipisci eius neque consectetur dolorem. Est dolor neque sed. Ut.');
-insert into topics (label, description) values ('Jobs and Careers in Healthcare and Medicine', 'Dolor eius ut est. Aliquam dolore eius consectetur numquam. Dolor dolorem eius sed eius est. Dolore dolor. Sed amet. Quisquam numquam ut. Amet dolorem sed modi magnam quaerat ut dolor. Labore ut quisquam etincidunt.');
-insert into topics (label, description) values ('Medical Science Liaisons', 'Neque amet tempora voluptatem labore non amet numquam porro magnam. Dolorem adipisci porro est sed sed aliquam magnam magnam sit. Aliquam. Eius est dolor velit adipisci labore quiquia velit. Neque sit est numquam dolor.');
-insert into topics (label, description) values ('Dental Hygienists', 'Quiquia est. Velit. Dolorem velit quisquam. Porro labore modi. Est modi dolor etincidunt adipisci consectetur.');
-insert into topics (label, description) values ('Physician Assistants', 'Ipsum dolor est dolore non dolorem voluptatem. Dolore tempora eius neque magnam velit sed tempora neque. Aliquam magnam adipisci porro adipisci aliquam dolor modi. Voluptatem dolore. Consectetur sed. Aliquam tempora amet sit consectetur est.');
-insert into topics (label, description) values ('Medical Research', 'Est sed eius dolorem labore eius non ipsum tempora. Labore est magnam tempora quaerat eius numquam est quaerat. Etincidunt tempora eius consectetur. Non dolor tempora. Velit sed.');
-insert into topics (label, description) values ('AIDS Research', 'Labore consectetur modi. Dolor. Consectetur. Est adipisci est. Voluptatem tempora magnam dolor consectetur voluptatem tempora modi adipisci consectetur. Eius adipisci dolorem porro.');
-insert into topics (label, description) values ('Medical Research Studies', 'Velit quiquia magnam. Eius numquam magnam dolorem quaerat adipisci labore quisquam modi consectetur. Labore etincidunt quisquam non labore. Dolore amet est. Ut voluptatem. Labore tempora ipsum dolore consectetur labore sed. Neque amet porro modi. Sit.');
-insert into topics (label, description) values ('Centers for Disease Control and Prevention', 'Aliquam ut quiquia aliquam velit numquam amet porro. Consectetur quisquam. Modi magnam ut dolorem neque eius. Dolore. Dolor. Ipsum.');
-insert into topics (label, description) values ('Cancer Research', 'Ipsum magnam velit dolorem. Ut. Porro etincidunt quisquam neque. Ipsum quisquam ut etincidunt. Dolore sit. Dolor aliquam numquam ipsum quaerat consectetur consectetur quisquam.');
-insert into topics (label, description) values ('Psychiatry Research', 'Aliquam quaerat ipsum quiquia neque velit etincidunt. Neque quaerat dolorem. Adipisci velit labore neque dolorem sit velit adipisci voluptatem. Dolor ipsum modi. Dolorem dolore neque numquam quisquam. Eius modi consectetur est aliquam quiquia sed modi.');
-insert into topics (label, description) values ('Marijuana Medical Research', 'Quisquam consectetur etincidunt aliquam tempora non velit. Dolorem est voluptatem. Velit ut amet modi. Labore. Numquam magnam non est quiquia sed. Est ut magnam eius. Labore numquam etincidunt sit dolorem consectetur.');
-insert into topics (label, description) values ('Medical Research Tools', 'Voluptatem ipsum quaerat numquam dolor. Etincidunt sit velit. Etincidunt amet aliquam numquam eius. Quaerat non tempora etincidunt. Aliquam quiquia modi labore quisquam numquam.');
-insert into topics (label, description) values ('Translational Medicine', 'Quiquia neque sit quiquia sed. Consectetur tempora adipisci dolor eius voluptatem quisquam. Non tempora labore eius labore ut consectetur velit adipisci. Ipsum non. Dolor amet dolore adipisci. Magnam aliquam quiquia.');
-insert into topics (label, description) values ('Breast Cancer Research', 'Quaerat. Quiquia dolorem dolorem. Ut porro ut adipisci dolorem. Sit. Dolore est porro velit labore.');
-insert into topics (label, description) values ('Clinical Research', 'Porro est amet neque etincidunt est dolorem quiquia labore consectetur. Eius. Dolorem etincidunt. Eius aliquam dolor non voluptatem consectetur voluptatem. Ut porro.');
-insert into topics (label, description) values ('Preclinical Research', 'Quisquam dolor voluptatem aliquam est. Adipisci aliquam porro magnam magnam sed. Magnam neque neque. Dolore porro neque. Consectetur sed dolore sit eius amet dolorem quisquam. Numquam. Magnam.');
-insert into topics (label, description) values ('Medical Research Scientists', 'Quiquia modi modi dolorem magnam dolore. Neque. Etincidunt dolor adipisci aliquam amet non modi. Sed voluptatem quaerat quiquia sed dolorem neque numquam. Quiquia. Quiquia sed voluptatem etincidunt porro. Dolorem voluptatem.');
-insert into topics (label, description) values ('Cannabis Research', 'Non est eius eius sit ipsum neque neque tempora. Labore dolore consectetur sed dolore consectetur. Quiquia amet labore. Eius dolor. Sit amet sed sit sit ut est. Etincidunt modi non consectetur aliquam amet.');
-insert into topics (label, description) values ('Medical Applications of Machine Learning', 'Quiquia numquam quiquia sit dolore. Magnam. Quisquam amet dolor sit modi. Neque amet quaerat porro eius sed dolore amet dolore tempora. Est sed quiquia quiquia. Dolorem est quisquam eius consectetur. Eius labore magnam porro est non est quaerat neque.');
-insert into topics (label, description) values ('Real World Evidence', 'Tempora. Neque etincidunt amet quiquia. Quiquia dolorem aliquam magnam voluptatem velit. Dolorem sit neque dolorem. Dolorem voluptatem sed dolorem numquam non. Dolore sit aliquam dolore non ipsum. Labore porro neque tempora magnam. Ipsum. Quiquia sit.');
-insert into topics (label, description) values ('Medicine and Healthcare in Specific Locations', 'Dolor porro non ut adipisci. Ut ipsum tempora neque. Consectetur numquam velit labore modi modi tempora quaerat non. Velit eius numquam dolore sit. Voluptatem consectetur velit dolor ipsum neque.');
-insert into topics (label, description) values ('Hospitals in Specific Locations', 'Quiquia aliquam aliquam porro porro. Amet non. Quiquia quiquia aliquam ut. Est sit est quaerat numquam voluptatem etincidunt numquam ut. Non.');
-insert into topics (label, description) values ('Medicine and Healthcare in Asia', 'Etincidunt quaerat velit dolore quaerat modi sit etincidunt magnam. Non dolor aliquam dolorem quiquia. Numquam numquam non est etincidunt eius magnam adipisci modi adipisci. Dolore. Adipisci velit quisquam sed ut voluptatem. Porro. Neque.');
-insert into topics (label, description) values ('Healthcare and Medicine in Pakistan', 'Quisquam. Tempora consectetur quisquam dolore neque. Velit etincidunt. Ipsum. Non numquam adipisci adipisci eius etincidunt adipisci quisquam dolore. Eius magnam velit aliquam quisquam adipisci. Eius consectetur dolor est magnam ut. Aliquam magnam ut.');
-insert into topics (label, description) values ('Medicine and Healthcare in Bengaluru, Karnataka, India', 'Non. Ipsum labore velit. Modi etincidunt modi velit. Numquam magnam. Quiquia est.');
-insert into topics (label, description) values ('Medicine and Healthcare in San Francisco Bay Area', 'Tempora adipisci dolorem sit velit voluptatem. Quisquam quisquam velit amet. Dolor quiquia modi ipsum quaerat est. Sit. Aliquam ipsum modi. Aliquam. Consectetur est aliquam. Quaerat.');
-insert into topics (label, description) values ('Medicine and Healthcare in New Delhi', 'Consectetur. Sed neque sit non quaerat est. Consectetur dolore labore est est magnam labore dolorem consectetur dolore. Adipisci aliquam labore amet adipisci modi ipsum aliquam numquam. Neque est non neque etincidunt voluptatem.');
-insert into topics (label, description) values ('Medicine and Healthcare in Japan', 'Magnam voluptatem labore eius adipisci tempora dolorem. Eius. Porro neque neque eius eius quiquia. Dolorem. Velit non amet non labore sit. Quiquia dolorem aliquam modi. Quaerat consectetur porro dolorem.');
-insert into topics (label, description) values ('Healthcare and Medicine in Canada', 'Adipisci amet aliquam amet adipisci dolorem. Est modi ut quisquam dolor est. Neque voluptatem voluptatem velit. Non. Voluptatem eius dolor dolor quaerat.');
-insert into topics (label, description) values ('Medicine and Healthcare in New Zealand', 'Neque sed numquam. Modi tempora. Quisquam. Ipsum. Quisquam ut eius neque dolorem tempora magnam dolore. Sed velit sed numquam. Velit sit dolor magnam dolore adipisci modi dolore quiquia. Neque velit quiquia quiquia.');
-insert into topics (label, description) values ('Medicine and Healthcare in Germany', 'Adipisci dolorem quisquam. Modi voluptatem neque ipsum ut quisquam dolor voluptatem ut. Modi. Quiquia non amet labore. Sit amet tempora dolore eius ut magnam quisquam amet. Adipisci.');
-insert into topics (label, description) values ('Medicine and Healthcare in Delhi', 'Numquam adipisci eius etincidunt etincidunt sit numquam. Dolorem dolore sed dolor sit etincidunt tempora non quisquam. Dolorem sed. Adipisci labore. Quisquam est eius quaerat tempora labore dolor modi non. Magnam.');
-insert into topics (label, description) values ('Medicine and Healthcare in Chennai, Tamil Nadu, India', 'Dolor. Magnam aliquam dolorem ipsum numquam dolore aliquam. Dolore consectetur amet quaerat porro numquam dolor. Non quisquam dolorem magnam. Labore neque adipisci adipisci dolore. Velit. Aliquam labore quisquam tempora.');
-insert into topics (label, description) values ('Medicine and Healthcare in Hyderabad, India', 'Sit consectetur sit tempora sed. Ipsum dolorem adipisci sit quisquam porro est. Aliquam amet ipsum ut. Aliquam dolore aliquam adipisci. Non est quiquia voluptatem amet.');
-insert into topics (label, description) values ('Medicine and Healthcare in Pune, Maharashtra, India', 'Ipsum porro velit ut. Ipsum velit quaerat est quiquia. Ipsum quaerat numquam ut quiquia etincidunt dolorem consectetur dolore. Non magnam neque non tempora. Quiquia voluptatem dolore sit. Neque dolore porro adipisci dolore aliquam. Amet.');
-insert into topics (label, description) values ('Medicine and Healthcare in Kerala, India', 'Dolorem velit sit dolorem neque. Quiquia ut quaerat dolor dolorem quiquia. Eius quisquam etincidunt. Sit. Labore est. Consectetur adipisci ipsum non sed magnam ut dolor. Magnam ipsum tempora. Ut neque sit eius dolore voluptatem.');
-insert into topics (label, description) values ('Medicine and Healthcare in Mumbai, Maharashtra, India', 'Sed. Numquam non dolor magnam sit aliquam ut sed. Consectetur ipsum dolor. Ipsum eius. Numquam quiquia. Quiquia etincidunt voluptatem amet modi quiquia sed adipisci labore. Eius est porro quaerat velit.');
-insert into topics (label, description) values ('Medicine and Healthcare in Coimbatore, Tamil Nadu, India', 'Ut. Ut est magnam neque velit etincidunt sed dolorem ut. Ut ipsum dolore amet est aliquam magnam dolor. Dolor. Quiquia ut voluptatem velit modi velit non. Sit velit. Quaerat adipisci ut quaerat aliquam. Neque.');
-insert into topics (label, description) values ('Medicine and Healthcare in Europe', 'Consectetur quaerat neque non. Dolor modi. Dolorem labore velit aliquam dolor. Eius modi eius ipsum porro dolore. Modi ut voluptatem ut ipsum numquam.');
-insert into topics (label, description) values ('Medicine and Healthcare in Spain', 'Modi. Numquam. Aliquam dolore est etincidunt porro dolorem magnam eius dolor. Quiquia. Sed aliquam ut numquam ipsum. Dolor amet adipisci quisquam amet.');
-insert into topics (label, description) values ('Medicine and Healthcare in Tamil Nadu, India', 'Non adipisci velit quiquia. Sed magnam quisquam eius tempora. Quaerat ut ut ut. Aliquam labore. Quiquia eius dolorem est etincidunt aliquam consectetur ut modi dolore. Tempora quiquia etincidunt adipisci magnam labore voluptatem velit dolor voluptatem.');
-insert into topics (label, description) values ('Medicine and Healthcare in Gujarat, India', 'Aliquam ipsum quaerat porro. Est dolor numquam quisquam est etincidunt dolorem sed ut dolorem. Aliquam dolorem dolor est sit amet porro magnam modi numquam. Voluptatem. Ut. Adipisci ipsum. Dolor velit etincidunt labore dolor.');
-insert into topics (label, description) values ('Medicine and Healthcare in California', 'Quaerat ipsum tempora magnam sed sed. Sit velit velit sit modi dolore eius quiquia non adipisci. Modi. Dolor voluptatem. Adipisci amet adipisci magnam aliquam consectetur non. Quiquia tempora non non.');
-insert into topics (label, description) values ('Healthcare and Medicine in Brazil', 'Sit ut magnam non ipsum eius magnam adipisci. Aliquam. Quisquam modi etincidunt est sed porro dolorem etincidunt. Numquam labore velit modi modi. Ipsum dolore velit. Magnam.');
-insert into topics (label, description) values ('Medicine and Healthcare in Kolkata, West Bengal, India', 'Voluptatem tempora magnam sit. Amet magnam ut non est neque. Eius neque aliquam quaerat magnam quiquia sit. Ipsum dolor eius dolorem est neque quaerat. Quaerat modi.');
-insert into topics (label, description) values ('Medicine and Healthcare in Sydney, Australia', 'Velit magnam. Adipisci adipisci quiquia adipisci eius adipisci dolorem. Non. Sed quisquam. Tempora tempora neque sed quiquia. Est quiquia numquam modi voluptatem porro consectetur aliquam eius.');
-insert into topics (label, description) values ('Medicine and Healthcare in Florida', 'Tempora velit aliquam sit dolore dolore voluptatem neque dolore. Quaerat modi quiquia ipsum. Neque. Quisquam labore porro. Aliquam. Dolore sed aliquam.');
-insert into topics (label, description) values ('Medicine and Healthcare in Hong Kong', 'Numquam quisquam adipisci ipsum aliquam ipsum sed ut. Porro etincidunt dolorem labore consectetur amet dolor. Dolor consectetur quaerat sed sit numquam porro ut labore. Quisquam velit quaerat dolor. Labore eius sed dolore labore amet. Aliquam.');
-insert into topics (label, description) values ('Healthcare and Medicine in Singapore', 'Modi. Consectetur est quisquam modi magnam. Porro adipisci numquam labore dolor etincidunt dolore. Quaerat adipisci ut dolore quaerat quiquia voluptatem. Quaerat amet porro numquam ut neque. Quaerat quiquia dolor ut velit. Etincidunt voluptatem.');
-insert into topics (label, description) values ('Healthcare and Medicine in Malaysia', 'Dolore sed etincidunt sit magnam neque quiquia quaerat ipsum. Quiquia porro. Amet est. Quiquia modi dolorem magnam sit eius. Quiquia modi non eius eius quisquam.');
-insert into topics (label, description) values ('Medicine and Healthcare in New York City', 'Velit. Quiquia adipisci. Dolore neque modi dolor consectetur magnam neque quisquam. Dolore quiquia est quiquia. Dolore aliquam quaerat dolor eius. Non quisquam dolore neque magnam.');
-insert into topics (label, description) values ('Healthcare and Medicine in France', 'Labore dolore ut modi neque non quisquam. Numquam. Tempora tempora ut quaerat quaerat adipisci adipisci. Dolor quisquam labore non adipisci quaerat. Neque. Dolor adipisci labore amet. Neque sit dolorem. Quiquia.');
-insert into topics (label, description) values ('Medicine and Healthcare in Switzerland', 'Amet labore consectetur. Consectetur. Quiquia dolor ipsum aliquam etincidunt sed. Quaerat neque aliquam consectetur etincidunt. Adipisci modi sed modi.');
-insert into topics (label, description) values ('Medicine and Healthcare in Dubai, United Arab Emirates', 'Quaerat. Modi adipisci quiquia eius. Voluptatem non eius. Aliquam non. Dolor ipsum est non neque quisquam dolorem quisquam dolorem.');
-insert into topics (label, description) values ('Medicine and Healthcare in San Francisco, CA', 'Consectetur dolore. Consectetur velit ut dolore non aliquam sit neque numquam dolor. Neque labore aliquam etincidunt. Dolor. Non amet voluptatem quaerat ipsum. Quisquam voluptatem tempora porro non dolorem consectetur etincidunt ipsum porro.');
-insert into topics (label, description) values ('Medicine and Healthcare in Africa', 'Neque etincidunt amet etincidunt. Ut. Neque etincidunt sed ut consectetur magnam tempora ut aliquam. Quiquia ut porro eius sed sed. Modi sed etincidunt adipisci dolor est. Quisquam.');
-insert into topics (label, description) values ('Medicine and Healthcare in South Africa', 'Voluptatem tempora tempora neque dolore quiquia voluptatem. Magnam magnam. Etincidunt. Eius ipsum dolore quaerat dolorem eius modi. Labore porro dolore est numquam tempora. Dolorem. Non non. Dolor porro quiquia tempora. Amet. Adipisci sit dolorem neque.');
-insert into topics (label, description) values ('Medicine and Healthcare in London', 'Voluptatem quaerat sed adipisci voluptatem ipsum neque dolor voluptatem. Voluptatem porro. Dolor. Dolorem neque adipisci quisquam tempora sit eius. Adipisci amet quisquam. Etincidunt non sit. Non magnam labore ipsum aliquam etincidunt amet voluptatem.');
-insert into topics (label, description) values ('Medicine and Healthcare in Punjab, India', 'Magnam sed amet etincidunt velit. Ut est porro velit modi modi voluptatem dolore. Velit numquam dolor non ut non quisquam. Dolorem porro ipsum. Dolore etincidunt tempora eius ut dolor neque ut numquam.');
-insert into topics (label, description) values ('Healthcare and Medicine in Turkey', 'Velit sit quiquia dolor neque quisquam dolorem ut dolore sit. Dolor quisquam. Dolore tempora velit neque porro non porro. Neque. Magnam etincidunt dolore neque dolor magnam. Amet ut numquam sed quiquia ipsum. Non. Dolor numquam porro modi sed ut.');
-insert into topics (label, description) values ('Medicine and Healthcare in Israel', 'Tempora. Sit dolorem quiquia non quiquia numquam dolorem labore. Eius sed. Adipisci consectetur quaerat amet modi amet est. Ipsum sed porro est porro. Numquam. Modi tempora ipsum eius velit sit consectetur.');
-insert into topics (label, description) values ('Medicine and Healthcare in Ahmedabad, Gujarat, India', 'Etincidunt velit. Modi eius quiquia consectetur consectetur quiquia dolore porro. Numquam porro numquam sit ut amet. Porro amet ut dolore etincidunt modi modi est etincidunt non. Voluptatem consectetur velit est quisquam non sed numquam consectetur amet.');
-insert into topics (label, description) values ('Medicine and Healthcare in Silicon Valley', 'Labore. Quaerat adipisci non quisquam. Quaerat tempora aliquam dolor numquam consectetur eius ut ipsum. Adipisci dolorem est amet. Porro. Dolorem amet.');
-insert into topics (label, description) values ('Medicine and Healthcare in Mexico', 'Eius dolorem. Labore dolor aliquam. Quaerat est aliquam sed quisquam non est dolorem etincidunt eius. Ut consectetur eius adipisci ut est est ut. Quaerat dolore dolore non magnam consectetur consectetur modi amet labore.');
-insert into topics (label, description) values ('Medicine and Healthcare in Cuba', 'Ut. Aliquam dolore ut quiquia. Labore quaerat est. Porro quaerat. Neque velit tempora non aliquam quaerat sed quisquam quisquam. Eius labore. Velit. Porro quaerat consectetur eius voluptatem quaerat. Eius. Eius eius.');
-insert into topics (label, description) values ('Medicine and Healthcare in Thailand', 'Neque numquam etincidunt modi magnam neque consectetur quisquam. Sit ut etincidunt etincidunt dolore tempora. Labore adipisci sed. Dolorem non. Magnam est. Numquam dolore labore sed. Consectetur ipsum numquam porro eius numquam labore.');
-insert into topics (label, description) values ('Medicine and Healthcare in Indonesia', 'Ut aliquam dolor. Velit labore magnam neque voluptatem porro aliquam. Porro dolorem. Dolore neque tempora velit. Magnam.');
-insert into topics (label, description) values ('Medicine and Healthcare in New York', 'Magnam non ipsum tempora. Aliquam labore. Quiquia dolor quiquia dolor magnam numquam porro. Eius neque quiquia non quiquia. Dolor.');
-insert into topics (label, description) values ('Healthcare and Medicine in Sweden', 'Velit quiquia est aliquam non ut. Amet magnam labore magnam modi aliquam ut quiquia. Velit voluptatem eius amet labore. Quisquam amet ut. Numquam labore est. Adipisci dolor dolorem dolor ut aliquam. Amet ipsum.');
-insert into topics (label, description) values ('Medicine and Healthcare in Gurugram, Haryana, India', 'Adipisci. Adipisci voluptatem voluptatem non tempora adipisci dolore aliquam etincidunt tempora. Amet voluptatem. Quaerat adipisci. Eius dolorem. Magnam dolore. Consectetur. Velit labore numquam numquam eius sed.');
-insert into topics (label, description) values ('Medicine and Healthcare in Russia', 'Numquam quiquia. Velit amet dolor eius quiquia. Ut sed. Adipisci eius. Tempora numquam quisquam amet magnam velit quisquam dolore.');
-insert into topics (label, description) values ('Medicine and Healthcare in Los Angeles, CA', 'Porro modi ipsum non tempora modi. Voluptatem. Eius quiquia etincidunt porro sed quisquam amet eius. Voluptatem neque quiquia sed. Non porro sit ut quisquam sit ut magnam sit.');
-insert into topics (label, description) values ('Healthcare and Medicine in Australia', 'Est adipisci porro sit ipsum. Sit porro sed quaerat dolorem tempora eius est dolorem. Tempora sed labore quiquia. Neque porro modi quiquia est porro dolorem. Dolore ut. Ut ut quaerat amet velit.');
-insert into topics (label, description) values ('Healthcare and Medicine in the United States of America', 'Ipsum dolor quaerat numquam modi numquam adipisci ut magnam. Aliquam dolorem. Consectetur aliquam non eius amet. Modi porro. Labore ut etincidunt etincidunt dolorem etincidunt velit sit sed. Dolor dolor velit.');
-insert into topics (label, description) values ('Medicine and Healthcare in India', 'Aliquam voluptatem neque dolore adipisci. Modi porro velit quaerat porro eius amet ut est. Porro sit. Adipisci etincidunt dolore neque porro sed magnam consectetur. Velit.');
-insert into topics (label, description) values ('Healthcare and Medicine in China', 'Dolore quisquam sit porro dolorem. Neque amet porro. Neque eius adipisci etincidunt. Modi dolorem sed. Dolorem ut modi dolor dolor tempora sit tempora aliquam ut. Numquam neque numquam dolorem ut adipisci.');
-insert into topics (label, description) values ('Healthcare and Medicine in the United Kingdom', 'Porro quaerat adipisci neque. Numquam. Consectetur. Dolorem consectetur adipisci etincidunt sed etincidunt magnam sed dolor consectetur. Quisquam modi dolorem amet modi.');
-insert into topics (label, description) values ('Healthcare and Medicine in Germany', 'Consectetur est quiquia ipsum dolore. Dolorem porro numquam tempora sit dolorem voluptatem etincidunt sit eius. Sed. Numquam modi. Etincidunt. Neque dolore.');
-insert into topics (label, description) values ('Healthcare and Medicine in Israel', 'Ut dolor sed. Porro numquam quaerat tempora ipsum non. Dolore eius adipisci. Eius sit tempora quisquam ut labore. Tempora sit velit tempora.');
-insert into topics (label, description) values ('Healthcare Industry', 'Dolore non dolore amet. Numquam est modi dolore. Ipsum eius ut tempora ut labore sit amet amet. Est velit voluptatem tempora quiquia quisquam. Dolorem tempora porro quiquia porro sit voluptatem dolore. Neque. Adipisci ut porro.');
-insert into topics (label, description) values ('Health Care Marketing', 'Sed ipsum. Quaerat porro sit porro adipisci ut. Voluptatem porro neque quaerat adipisci quiquia aliquam. Adipisci ut eius quiquia quaerat adipisci. Est.');
-insert into topics (label, description) values ('Medical Device Industry', 'Neque porro numquam quaerat aliquam modi ut quiquia numquam labore. Amet modi amet dolor ipsum. Quisquam. Labore labore. Consectetur.');
-insert into topics (label, description) values ('Healthcare Systems', 'Magnam amet sed. Tempora voluptatem quisquam porro quisquam consectetur. Porro. Non modi quiquia tempora velit. Voluptatem est. Amet neque neque magnam quiquia quaerat tempora etincidunt. Adipisci labore. Dolorem est quaerat sed.');
-insert into topics (label, description) values ('Healthcare Agencies', 'Neque eius. Ut adipisci dolorem tempora quaerat dolor est consectetur adipisci adipisci. Neque non porro. Adipisci voluptatem aliquam. Non non quaerat adipisci tempora dolorem consectetur tempora sit.');
-insert into topics (label, description) values ('Health Insurance', 'Aliquam sed non ipsum consectetur neque sed velit. Velit sed magnam dolor velit numquam sed. Dolore aliquam. Dolore etincidunt magnam etincidunt. Dolor non aliquam. Etincidunt eius eius quiquia est sit.');
-insert into topics (label, description) values ('Venture Capital in Healthcare and Biotech', 'Quaerat eius etincidunt neque. Quaerat non est. Eius sed non. Sed etincidunt amet etincidunt. Non sit tempora etincidunt. Eius quaerat modi dolore non magnam. Neque. Numquam neque sit adipisci.');
-insert into topics (label, description) values ('Healthcare Providers', 'Dolorem labore quisquam. Labore sed. Dolor. Velit amet neque amet etincidunt dolorem etincidunt labore non velit. Modi magnam ut modi eius. Est quaerat porro est eius dolore porro eius. Sit ipsum non ut porro tempora voluptatem eius eius.');
-insert into topics (label, description) values ('Healthcare Finance', 'Labore quiquia velit dolore amet adipisci aliquam quiquia modi modi. Non labore aliquam ut sit porro aliquam. Sed non. Modi sed quiquia. Dolor quaerat numquam labore tempora adipisci modi quisquam ipsum.');
-insert into topics (label, description) values ('Pharmacy Benefit Managers (PBMs)', 'Quiquia labore ipsum quaerat magnam consectetur sed. Non ut aliquam eius quiquia amet. Quiquia sit porro dolorem tempora non. Est magnam amet labore amet amet velit ipsum porro. Magnam sed dolor tempora sed quaerat non est eius.');
-insert into topics (label, description) values ('Managed Care', 'Sed non labore ut. Dolore quaerat aliquam. Adipisci dolorem velit. Neque velit neque tempora tempora magnam non est sit sit. Adipisci dolore ipsum. Neque dolor voluptatem.');
-insert into topics (label, description) values ('Private Healthcare Exchanges', 'Velit ut neque sit neque quisquam etincidunt quisquam dolore numquam. Neque voluptatem tempora amet ipsum. Ut velit est dolore. Non tempora adipisci voluptatem dolorem non dolorem. Neque ut dolore quiquia dolor sed ut etincidunt amet quisquam.');
-insert into topics (label, description) values ('Mental Health Systems', 'Ipsum porro velit. Sed est non dolor ut numquam dolorem dolore amet. Non voluptatem sed sit. Ut est etincidunt porro porro adipisci voluptatem dolorem voluptatem. Dolorem. Quaerat eius est neque.');
-insert into topics (label, description) values ('Medical Savings Accounts', 'Neque est sit eius magnam labore. Numquam dolorem tempora quaerat sed. Ipsum dolorem eius dolorem. Eius consectetur. Ipsum eius labore ipsum voluptatem dolore. Magnam non numquam quisquam adipisci modi porro. Quaerat dolore quisquam.');
-insert into topics (label, description) values ('Medical Specialties', 'Quaerat sit. Quiquia est. Non aliquam. Sed. Amet modi ut labore. Quaerat.');
-insert into topics (label, description) values ('Cardiology', 'Modi dolore magnam porro est ipsum est tempora sed. Aliquam numquam etincidunt quiquia tempora aliquam aliquam. Quaerat. Non. Ut neque adipisci aliquam adipisci magnam est labore. Velit numquam amet.');
-insert into topics (label, description) values ('Dermatology', 'Adipisci tempora labore sit neque. Tempora etincidunt dolore magnam magnam ipsum etincidunt. Amet etincidunt. Adipisci quiquia aliquam quisquam neque non dolorem ut. Porro modi labore quiquia dolorem dolor ipsum porro.');
-insert into topics (label, description) values ('Emergency Medicine', 'Dolorem non. Dolore modi quiquia dolore dolore magnam adipisci eius dolore. Quiquia. Ipsum tempora non. Labore. Numquam ipsum numquam tempora porro aliquam aliquam neque. Dolore porro aliquam.');
-insert into topics (label, description) values ('Neurology', 'Est tempora voluptatem. Porro etincidunt eius numquam adipisci est sit. Etincidunt quisquam dolorem. Quaerat. Ut quaerat neque quaerat dolore etincidunt magnam amet.');
-insert into topics (label, description) values ('Oncology', 'Adipisci tempora adipisci. Tempora eius sit quisquam ut sit. Modi consectetur velit porro consectetur. Dolor voluptatem neque amet aliquam dolor labore sed voluptatem. Neque est non adipisci numquam.');
-insert into topics (label, description) values ('Ophthalmology', 'Etincidunt porro. Aliquam adipisci modi aliquam adipisci. Tempora modi non adipisci dolorem quiquia ipsum eius. Non quisquam sit dolore non. Amet etincidunt numquam. Non numquam ipsum etincidunt quiquia adipisci dolor ut. Dolore neque sed non.');
-insert into topics (label, description) values ('Orthopedics', 'Neque modi eius est sed. Voluptatem magnam. Neque porro porro consectetur velit voluptatem sed amet dolor numquam. Numquam porro aliquam dolorem. Voluptatem labore numquam neque eius consectetur. Quaerat porro.');
-insert into topics (label, description) values ('Psychiatry', 'Ipsum etincidunt. Neque sed porro tempora amet numquam voluptatem. Ut ut sit dolore adipisci modi. Sit amet dolore porro tempora sed quiquia. Dolore quaerat quiquia dolore dolorem quisquam porro dolorem.');
-insert into topics (label, description) values ('Surgery', 'Voluptatem quaerat tempora porro ut neque porro sed modi dolor. Velit sed. Sed. Eius. Consectetur. Dolor labore consectetur quisquam etincidunt. Numquam sed eius. Voluptatem eius consectetur dolorem etincidunt.');
-insert into topics (label, description) values ('Dentistry', 'Tempora quaerat. Dolorem dolore. Velit. Dolorem neque. Ipsum magnam sed amet adipisci. Tempora voluptatem quaerat magnam. Amet.');
-insert into topics (label, description) values ('Obstetrics and Gynecology', 'Magnam. Tempora neque ut est magnam voluptatem dolore sit. Quiquia eius labore ut sit non. Quiquia dolorem ipsum etincidunt. Non.');
-insert into topics (label, description) values ('Otolaryngology (medical speciality)', 'Porro neque neque modi est ipsum. Dolorem. Numquam tempora voluptatem amet sed est voluptatem magnam. Non quaerat. Aliquam aliquam quaerat velit labore sit voluptatem amet amet quisquam.');
-insert into topics (label, description) values ('Veterinary Medicine', 'Sit aliquam ut consectetur neque neque adipisci ut dolore. Etincidunt dolor neque est dolorem sed magnam porro sit. Ipsum. Consectetur velit neque. Adipisci non dolore. Quisquam. Magnam tempora adipisci tempora.');
-insert into topics (label, description) values ('Physical Medicine and Rehabilitation', 'Amet eius numquam tempora ut porro neque non. Non quisquam sed quisquam consectetur numquam. Tempora quisquam dolor eius eius. Velit sed sed velit dolorem. Adipisci. Aliquam dolorem neque sed non est dolorem amet sit.');
-insert into topics (label, description) values ('Immunology', 'Aliquam. Ut. Quaerat non. Velit sit labore quisquam dolore. Dolore consectetur aliquam porro aliquam. Sed sit numquam quisquam modi tempora. Non non quiquia ut. Porro modi porro sit quaerat neque dolor. Sit modi tempora.');
-insert into topics (label, description) values ('Nursing', 'Ut. Eius. Voluptatem adipisci est quisquam neque tempora velit neque adipisci voluptatem. Adipisci neque dolore neque. Dolorem sed consectetur ipsum quiquia eius magnam etincidunt. Non consectetur dolor quaerat dolorem sit.');
-insert into topics (label, description) values ('Radiology', 'Dolorem numquam dolorem. Velit non etincidunt aliquam adipisci porro dolorem ut numquam. Dolor. Dolorem amet ut non est eius. Modi sit dolore numquam ipsum etincidunt sed amet. Non amet.');
-insert into topics (label, description) values ('Urology', 'Aliquam dolore quiquia amet dolorem quisquam quiquia quaerat. Quaerat sit aliquam neque tempora tempora sed. Numquam. Neque labore modi. Tempora magnam velit est. Amet etincidunt aliquam adipisci consectetur. Est sed.');
-insert into topics (label, description) values ('Internal Medicine', 'Dolorem ut non etincidunt. Amet ipsum. Numquam eius. Quaerat labore consectetur porro. Velit sed ipsum quaerat labore voluptatem aliquam consectetur aliquam. Sit magnam. Consectetur. Sed etincidunt non est porro quisquam est numquam.');
-insert into topics (label, description) values ('Anesthesiology', 'Amet dolorem dolorem neque. Velit non modi sed tempora. Dolor dolore eius numquam magnam neque dolor amet sit. Non. Dolor sit modi est est neque non magnam. Labore quisquam quiquia sit amet. Porro sed porro sed quaerat ut porro quisquam.');
-insert into topics (label, description) values ('Neurosurgery', 'Numquam dolor ipsum consectetur eius. Modi neque est dolore sit tempora etincidunt tempora. Tempora consectetur magnam. Aliquam non neque quiquia. Quaerat dolore ut dolor voluptatem ipsum sed. Neque non voluptatem sed dolore.');
-insert into topics (label, description) values ('Pathology', 'Modi dolore velit velit non quaerat quaerat sed. Modi sed est. Porro ut sed dolorem etincidunt voluptatem. Est quisquam adipisci aliquam non aliquam porro voluptatem velit neque. Quaerat non dolor consectetur modi est ut est.');
-insert into topics (label, description) values ('Gastroenterology', 'Numquam porro tempora dolore tempora aliquam. Ipsum adipisci consectetur neque. Amet aliquam porro dolor sit. Magnam sit. Sed quaerat adipisci quiquia est etincidunt. Eius quisquam tempora ipsum sit neque sed. Dolor dolore eius quiquia non modi sit.');
-insert into topics (label, description) values ('Radiation Therapy', 'Neque eius ut. Dolor dolorem voluptatem consectetur non voluptatem ipsum dolore. Etincidunt est dolorem adipisci quaerat ut. Magnam voluptatem tempora magnam ut eius sed. Neque ipsum porro etincidunt adipisci dolore tempora.');
-insert into topics (label, description) values ('Nephrology', 'Aliquam. Tempora modi sed. Sit velit. Quiquia adipisci quaerat quaerat amet labore numquam magnam labore quisquam. Ipsum sit sed ipsum quiquia quiquia aliquam porro magnam. Neque neque velit. Amet modi sit dolor velit numquam quisquam etincidunt.');
-insert into topics (label, description) values ('Primary Care Physicians', 'Tempora labore ut. Dolore est velit dolore numquam adipisci voluptatem modi non. Ipsum ipsum amet adipisci ipsum consectetur non. Voluptatem tempora modi consectetur dolore etincidunt ipsum sit ipsum. Tempora quisquam etincidunt porro adipisci magnam.');
-insert into topics (label, description) values ('Geriatrics', 'Sit tempora amet sed. Consectetur est ut magnam. Etincidunt modi quaerat numquam amet. Aliquam numquam. Dolore sed adipisci tempora modi modi dolore. Ipsum velit.');
-insert into topics (label, description) values ('Palliative Care', 'Etincidunt numquam. Modi ipsum voluptatem tempora neque. Sed dolore. Ut quaerat voluptatem aliquam amet labore eius dolorem. Quaerat. Dolore quaerat voluptatem neque non non quisquam. Eius est porro sit magnam amet. Quisquam sed est tempora.');
-insert into topics (label, description) values ('Home Health Care', 'Tempora magnam adipisci porro consectetur. Voluptatem sed eius dolore sit sed amet labore. Modi velit porro ipsum. Eius consectetur modi velit eius consectetur. Etincidunt labore. Dolore porro porro neque neque velit quiquia quaerat amet quaerat.');
-insert into topics (label, description) values ('Traumatology', 'Est ut non numquam dolorem amet consectetur. Porro amet. Quisquam quaerat adipisci adipisci modi aliquam sit. Numquam numquam. Quiquia porro. Dolore quiquia dolor ut dolorem quaerat quiquia neque non non. Ut. Etincidunt.');
-insert into topics (label, description) values ('Family Medicine', 'Amet sit labore consectetur. Velit numquam dolore ut dolore amet magnam eius. Dolor est sed dolorem ipsum dolorem amet non. Non amet magnam dolor. Aliquam modi porro consectetur est.');
-insert into topics (label, description) values ('Clinical Medicine', 'Labore voluptatem. Amet quiquia velit ut quaerat. Modi quaerat. Numquam quisquam eius modi quisquam sed consectetur labore ut ut. Ut modi etincidunt modi quisquam dolor magnam labore. Labore. Dolore etincidunt voluptatem ipsum.');
-insert into topics (label, description) values ('Family Practice', 'Porro labore dolorem dolorem voluptatem. Labore est consectetur ipsum adipisci quisquam. Porro. Quiquia quisquam adipisci eius labore ut eius. Quiquia dolor quiquia consectetur adipisci neque velit modi porro porro.');
-insert into topics (label, description) values ('Medical Genetics', 'Ipsum velit. Non dolorem etincidunt. Voluptatem dolorem. Modi dolorem sed voluptatem eius quaerat dolorem quisquam. Dolor neque etincidunt quisquam numquam etincidunt. Magnam non. Eius eius est quaerat. Magnam non quiquia.');
-insert into topics (label, description) values ('Specific Medical Specialities', 'Labore dolor. Neque. Neque quiquia. Dolor dolor quisquam sed dolor porro velit velit. Quisquam numquam adipisci labore neque quisquam adipisci. Quisquam est magnam quiquia sit porro neque. Eius sed dolor porro porro quisquam. Sit modi est.');
-insert into topics (label, description) values ('Medical Education', 'Etincidunt ipsum non quaerat. Non eius numquam. Labore labore porro. Eius magnam quaerat labore etincidunt. Ipsum modi aliquam sit est quiquia ut. Quisquam dolorem. Velit eius quisquam.');
-insert into topics (label, description) values ('Medical Residency and Residency Programs', 'Dolore dolor sit sit amet dolore ipsum ut non. Voluptatem numquam ut est amet. Dolorem sed. Sit voluptatem dolore quisquam dolorem dolor sit dolore amet magnam. Eius. Quisquam consectetur eius quiquia ut est consectetur voluptatem sit.');
-insert into topics (label, description) values ('Continuing Medical Education', 'Dolorem dolor non. Dolor velit quisquam sit quisquam. Aliquam amet est quaerat sed eius eius sed labore. Ut magnam non dolore eius dolore dolor. Dolore quaerat. Ipsum etincidunt dolore. Quisquam ut etincidunt magnam dolor eius ut.');
-insert into topics (label, description) values ('Medical School', 'Porro. Ut aliquam dolore ut adipisci magnam quisquam. Porro. Consectetur tempora aliquam quiquia tempora labore neque. Eius dolorem numquam magnam aliquam modi. Tempora non. Modi non labore est tempora quaerat neque labore.');
-insert into topics (label, description) values ('Nursing Schools', 'Modi eius. Sed neque magnam quaerat dolorem etincidunt voluptatem neque. Ipsum quisquam neque. Modi est eius dolor amet. Aliquam. Magnam adipisci quaerat etincidunt dolor dolorem ut. Dolore dolor quisquam magnam adipisci dolore voluptatem ipsum numquam.');
-insert into topics (label, description) values ('Bachelor of Dental Surgery Degrees', 'Labore tempora ut dolorem quisquam magnam. Ipsum voluptatem magnam aliquam aliquam dolor. Velit adipisci sit est aliquam ut non non ut. Sit quaerat velit non quaerat. Porro ut quiquia dolore dolore non.');
-insert into topics (label, description) values ('Doctor of Dental Surgery (DDS)', 'Sit dolor dolorem numquam modi tempora ipsum modi. Velit aliquam quaerat labore quisquam. Est. Quisquam quaerat sed. Quisquam numquam. Ipsum etincidunt. Magnam consectetur consectetur. Non numquam dolorem sed.');
-insert into topics (label, description) values ('Doctor of Pharmacy (PharmD)', 'Non aliquam ut magnam etincidunt modi sed quisquam etincidunt tempora. Sed voluptatem dolor porro. Numquam quiquia quaerat sit labore quiquia. Sed ut etincidunt magnam consectetur dolor consectetur ut. Porro magnam.');
-insert into topics (label, description) values ('Bachelor of Pharmacy', 'Eius neque quaerat voluptatem quiquia amet sed. Aliquam aliquam. Eius tempora neque sed. Numquam magnam quisquam. Tempora. Dolor dolorem tempora tempora ut. Eius ut. Eius numquam etincidunt eius sed dolor modi non ut numquam.');
-insert into topics (label, description) values ('Master of Medicine', 'Velit tempora. Voluptatem labore dolor porro est labore quisquam adipisci adipisci. Dolor eius ut dolore sed. Dolorem ut neque numquam tempora dolor numquam adipisci neque. Velit voluptatem.');
-insert into topics (label, description) values ('International Medical Graduates (IMG)', 'Dolor ut quisquam. Dolore ut ipsum ipsum. Numquam numquam. Dolor sed voluptatem ut quaerat velit. Modi. Sed neque quaerat quaerat dolor tempora dolor magnam. Tempora labore neque porro consectetur.');
-insert into topics (label, description) values ('Doctor of Medicine', 'Neque quiquia tempora quaerat sed etincidunt tempora non aliquam aliquam. Adipisci eius porro amet neque porro. Neque consectetur consectetur labore consectetur. Labore voluptatem est. Adipisci voluptatem. Dolor consectetur velit numquam modi labore.');
-insert into topics (label, description) values ('Doctor of Dental Medicine', 'Est ipsum velit neque eius. Sed est dolorem non. Consectetur etincidunt ipsum magnam. Sit aliquam dolor labore dolorem adipisci porro dolorem eius sed. Adipisci.');
-insert into topics (label, description) values ('Doctor of Osteopathic Medicine', 'Etincidunt sed aliquam dolorem porro sit ut eius numquam velit. Quisquam aliquam labore adipisci voluptatem. Consectetur porro eius neque non modi numquam. Porro dolor velit ut sed est quiquia. Sed ipsum.');
-insert into topics (label, description) values ('Bachelor of Homoeopathic Medicine and Surgery Degrees', 'Consectetur modi. Numquam porro consectetur neque consectetur voluptatem tempora. Non non eius consectetur dolore. Sit sit consectetur sed magnam quiquia sed ipsum labore quiquia. Neque dolorem aliquam.');
-insert into topics (label, description) values ('Medicine and Healthcare Interdisciplinary Topics', 'Non tempora sit quisquam. Quisquam dolore dolore. Velit etincidunt dolorem magnam quaerat quaerat numquam voluptatem dolorem labore. Dolore. Sed aliquam magnam adipisci quaerat adipisci.');
-insert into topics (label, description) values ('Military Medicine', 'Amet amet. Ut numquam neque tempora sit modi tempora voluptatem dolore velit. Sed quiquia magnam. Sed dolorem labore magnam dolor eius. Quisquam est est.');
-insert into topics (label, description) values ('Medicinal Chemistry', 'Neque. Dolor porro quaerat tempora quiquia magnam velit dolore quisquam. Neque quisquam quiquia labore labore ut. Dolore. Dolore quaerat ipsum ipsum voluptatem. Tempora.');
-insert into topics (label, description) values ('Law and Medicine', 'Modi neque magnam. Eius. Tempora. Ipsum dolore eius etincidunt porro non aliquam porro modi. Velit eius quaerat ipsum. Sed ut dolor consectetur etincidunt ipsum labore non.');
-insert into topics (label, description) values ('Medical Fiction (Books, Movies, TV)', 'Eius consectetur est quaerat neque. Consectetur eius. Numquam. Quiquia etincidunt. Etincidunt dolor quaerat quaerat modi quiquia voluptatem amet. Consectetur magnam aliquam voluptatem sit sit sit quiquia magnam. Labore quiquia dolore labore porro.');
-insert into topics (label, description) values ('Biomedical Engineering', 'Numquam magnam consectetur non tempora sed eius porro quiquia quiquia. Tempora dolor. Quiquia quiquia aliquam neque. Neque. Dolorem quaerat sed est.');
-insert into topics (label, description) values ('Health and Healthcare Economics', 'Neque. Sed. Consectetur est labore dolor velit quiquia. Numquam. Etincidunt tempora amet. Sit consectetur neque aliquam amet quisquam quiquia.');
-insert into topics (label, description) values ('Social Media in Healthcare and Medicine', 'Numquam adipisci consectetur. Modi est sit dolorem. Eius aliquam etincidunt labore sit amet. Est. Ipsum. Numquam neque ut neque quiquia sit consectetur porro. Labore dolore magnam porro.');
-insert into topics (label, description) values ('Health Care Policy', 'Tempora. Velit porro dolore ipsum. Quaerat est quiquia etincidunt. Tempora etincidunt. Ut etincidunt sit aliquam sit est ipsum ipsum. Adipisci velit tempora consectetur. Sed est.');
-insert into topics (label, description) values ('Medical Technology', 'Sed ipsum quaerat quiquia amet dolor. Non sit. Dolor. Sed quisquam. Neque neque magnam quiquia numquam.');
-insert into topics (label, description) values ('Medical Sciences', 'Neque consectetur quiquia sit. Dolore est dolorem ipsum est ipsum. Amet. Numquam etincidunt non non aliquam est. Labore sed dolorem dolor non porro velit modi. Sit eius labore voluptatem voluptatem modi.');
-insert into topics (label, description) values ('Biomedical Science', 'Voluptatem modi tempora sit. Amet ipsum aliquam neque non porro voluptatem quiquia. Etincidunt sit tempora amet etincidunt. Dolorem sed sit quaerat. Magnam neque voluptatem quisquam modi.');
-insert into topics (label, description) values ('Specific Areas of Medical Science', 'Porro. Dolore. Sed voluptatem magnam labore ipsum dolorem porro. Modi amet ut dolore sit labore quisquam sit ut magnam. Non amet neque. Adipisci sed non adipisci ut dolor amet sed sed. Sed adipisci numquam modi quiquia. Sed amet. Velit numquam.');
-insert into topics (label, description) values ('Medical Laboratory Sciences', 'Dolor consectetur quaerat. Voluptatem quiquia porro amet modi quaerat. Quisquam. Amet neque non sit. Sed magnam. Non.');
-insert into topics (label, description) values ('Learning About Medicine', 'Magnam numquam dolore amet. Sed. Etincidunt consectetur dolore. Neque sed quisquam porro magnam tempora. Numquam dolorem eius est quaerat sed quisquam aliquam non. Dolorem adipisci modi. Eius dolore porro. Porro adipisci aliquam modi.');
-insert into topics (label, description) values ('Medicine (college major)', 'Tempora dolore adipisci amet ut dolore. Dolore voluptatem. Quisquam sit est consectetur. Etincidunt quiquia. Magnam aliquam ut numquam adipisci ut ipsum adipisci quaerat. Eius sed quisquam.');
-insert into topics (label, description) values ('Graduate Education in Medicine', 'Quaerat porro numquam voluptatem voluptatem adipisci modi. Porro dolorem consectetur neque ut velit. Ipsum etincidunt ut quisquam porro ut porro. Dolorem quisquam neque ut numquam magnam magnam dolore ut. Labore porro eius.');
-insert into topics (label, description) values ('Medical Books', 'Sed voluptatem. Labore amet est. Neque dolor tempora. Amet dolorem sit voluptatem amet. Dolor modi porro sed quaerat aliquam dolor.');
-insert into topics (label, description) values ('Personal Medical Question', 'Neque neque. Consectetur. Non dolor sit ut adipisci. Voluptatem. Quaerat velit sit aliquam tempora eius non. Neque ut. Porro numquam velit tempora numquam porro voluptatem dolor. Dolor modi voluptatem neque.');
-insert into topics (label, description) values ('Sleep Advice', 'Est numquam non sit non modi. Dolor sed labore. Est velit quaerat ut ut. Velit consectetur quaerat labore voluptatem porro. Consectetur aliquam quisquam ipsum numquam amet numquam labore ut.');
-insert into topics (label, description) values ('Advice About Doctors', 'Ipsum ut dolore. Ipsum numquam aliquam ut velit tempora. Magnam quiquia dolor. Dolor. Velit quisquam est dolor. Magnam non sed sed.');
-insert into topics (label, description) values ('Medical Advice', 'Dolore adipisci sed neque ut numquam neque quiquia. Magnam magnam magnam neque quaerat quiquia numquam. Aliquam labore consectetur est ut modi numquam adipisci eius. Aliquam magnam amet ut sit ipsum ut. Labore tempora eius ipsum.');
-insert into topics (label, description) values ('Current Events in Medicine and Health', 'Quiquia dolore. Labore consectetur magnam sed numquam amet neque voluptatem adipisci. Aliquam velit etincidunt consectetur est. Numquam etincidunt eius est sit non modi. Amet dolore sit non sed numquam quaerat adipisci quaerat.');
-insert into topics (label, description) values ('Scientists Propose Redefining Cancer Typing in Massive Pan Cancer Atlas Study (April 2018)', 'Est consectetur. Etincidunt labore non. Neque numquam. Voluptatem ipsum. Labore ut velit ut aliquam.');
-insert into topics (label, description) values ('Pig Brains Kept Alive Without a Body (April 2018)', 'Quaerat adipisci dolor est quisquam quiquia aliquam neque. Dolor quaerat adipisci quisquam magnam quiquia. Ipsum non eius. Est. Sed velit etincidunt labore quisquam dolor dolore non dolor. Magnam labore amet.');
-insert into topics (label, description) values ('Potentially Positive Results from Biogen''s Alzheimer''s Drug BAN2401 (July 2018)', 'Adipisci etincidunt adipisci etincidunt dolorem porro amet porro. Quisquam. Sed sed. Velit est. Consectetur dolor dolore. Neque dolor porro modi adipisci eius dolorem adipisci etincidunt.');
-insert into topics (label, description) values ('Jury Awards $298 Million in Monsanto Roundup Cancer Case (August 2018)', 'Ut modi velit dolor aliquam porro porro amet quiquia. Quaerat magnam. Eius quisquam numquam. Non non numquam est. Sed non quaerat dolor quisquam. Ut neque numquam ut quaerat adipisci numquam dolore.');
-insert into topics (label, description) values ('Reports of CRISPR Gene-edited Babies (November 2018)', 'Labore consectetur ut modi magnam neque labore. Ut quisquam numquam labore. Sit consectetur amet eius eius numquam velit adipisci consectetur. Neque sit quisquam non etincidunt sit numquam dolorem sed. Quisquam. Quisquam porro velit.');
-insert into topics (label, description) values ('COVID-19 (2019-2020)', 'Ut dolor labore adipisci est modi modi. Etincidunt. Sit. Velit magnam neque sed aliquam neque est consectetur. Non ut sit numquam.');
-insert into topics (label, description) values ('Medical Tests', 'Voluptatem magnam modi magnam. Eius numquam. Ut dolorem etincidunt etincidunt dolore. Sed quisquam consectetur quiquia magnam numquam non ut. Neque numquam sit eius quaerat. Dolore amet. Sit amet.');
-insert into topics (label, description) values ('Reflexes', 'Adipisci amet est modi etincidunt ut. Dolor aliquam. Voluptatem tempora ut quisquam ut. Consectetur non magnam quisquam adipisci consectetur amet modi voluptatem quaerat. Quiquia dolor sit quiquia modi sit eius ipsum.');
-insert into topics (label, description) values ('Blood Tests', 'Non. Numquam. Dolore. Ut. Modi quaerat amet quisquam non consectetur quisquam dolore sed tempora.');
-insert into topics (label, description) values ('Medical Testing Risks', 'Voluptatem velit ut ut dolorem modi. Consectetur est labore porro amet neque magnam consectetur. Consectetur. Quiquia amet dolore quisquam dolor. Sit magnam. Etincidunt sit sed consectetur magnam neque.');
-insert into topics (label, description) values ('Pregnancy Tests', 'Neque neque est. Magnam. Sed dolore aliquam adipisci. Dolor consectetur magnam consectetur. Modi. Tempora labore magnam quisquam est ipsum consectetur adipisci.');
-insert into topics (label, description) values ('Hearing Test', 'Dolore magnam labore sed dolor adipisci numquam quiquia quisquam. Quisquam aliquam dolor voluptatem tempora dolorem velit. Modi quaerat consectetur sed magnam. Magnam. Tempora eius. Dolor dolor sit consectetur. Tempora velit non.');
-insert into topics (label, description) values ('Blood Testing', 'Etincidunt. Dolorem magnam magnam. Dolorem est ut quiquia amet. Amet sed consectetur tempora ipsum. Quisquam est dolor eius eius sed modi neque labore. Neque ipsum. Sit. Voluptatem tempora consectetur.');
-insert into topics (label, description) values ('Amniocentesis', 'Eius. Dolor est aliquam dolorem amet consectetur. Amet. Quisquam magnam adipisci dolor neque. Quiquia velit aliquam numquam ipsum amet aliquam sit voluptatem.');
-insert into topics (label, description) values ('Prenatal Genetic Testing', 'Consectetur modi labore non etincidunt ut neque velit tempora dolore. Numquam velit non ut. Amet adipisci numquam numquam dolore. Numquam labore est ut dolore dolor est adipisci est eius. Quisquam neque.');
-insert into topics (label, description) values ('Major Concepts in Medicine and Healthcare', 'Numquam aliquam porro sit dolore modi quisquam velit porro ipsum. Porro dolorem. Magnam amet magnam sit quiquia sed adipisci dolore. Quiquia eius dolor quisquam dolore modi non consectetur. Quaerat velit modi labore neque labore quiquia modi velit ut.');
-insert into topics (label, description) values ('Evidence-based Medicine', 'Tempora labore adipisci etincidunt porro velit sit numquam. Modi neque ipsum. Sed magnam labore magnam etincidunt sit porro. Adipisci est. Amet quisquam ut quaerat velit etincidunt dolorem porro numquam. Consectetur velit non ipsum quisquam ut.');
-insert into topics (label, description) values ('Medical Techniques', 'Sit ipsum. Quaerat est. Quiquia aliquam tempora est neque tempora porro tempora. Quiquia labore. Dolor.');
-insert into topics (label, description) values ('Healthcare Innovation', 'Amet est ut tempora. Quiquia dolorem. Ipsum non adipisci magnam tempora. Amet eius tempora. Dolor sit amet voluptatem quaerat dolorem ut.');
-insert into topics (label, description) values ('Health Organizations', 'Quiquia quaerat tempora. Tempora magnam eius. Tempora quaerat voluptatem quiquia quiquia. Porro sit porro aliquam dolore ut numquam non ipsum labore. Modi etincidunt labore sit sed.');
-insert into topics (label, description) values ('Online Health and Medicine', 'Numquam aliquam magnam etincidunt quiquia ipsum non numquam non. Adipisci. Sed neque. Est. Amet magnam sed est neque est porro. Velit porro.');
-insert into topics (label, description) values ('Preventive Medicine', 'Adipisci. Aliquam sit numquam tempora ut dolorem dolor. Porro amet adipisci dolorem est sit sed modi. Neque. Eius sed adipisci non etincidunt modi aliquam. Neque voluptatem tempora numquam non quisquam.');
-insert into topics (label, description) values ('Medical Procedures', 'Sed magnam porro velit porro labore amet ipsum. Amet quiquia. Etincidunt ipsum velit velit sit ut dolore quisquam. Tempora etincidunt quisquam velit non sit numquam. Neque porro.');
-insert into topics (label, description) values ('Climatotherapy', 'Magnam ipsum porro velit aliquam voluptatem. Velit. Quiquia ipsum quisquam ipsum quisquam quaerat non. Porro eius dolore. Velit.');
-insert into topics (label, description) values ('Health Authorities', 'Ipsum consectetur est. Aliquam. Modi velit ut dolor magnam sit ut. Dolor ut velit etincidunt numquam modi est dolore quaerat. Ut tempora velit velit sit. Quisquam porro voluptatem magnam velit neque amet etincidunt ut consectetur.');
-insert into topics (label, description) values ('Medical Protocols', 'Etincidunt sed quiquia consectetur etincidunt adipisci consectetur quaerat ut. Ut etincidunt ipsum etincidunt labore. Est. Adipisci numquam sed tempora aliquam. Eius quaerat.');
-insert into topics (label, description) values ('Medical Breakthroughs', 'Neque magnam amet ipsum dolor modi velit. Voluptatem labore numquam labore amet velit. Velit non amet numquam est sit neque. Ut tempora dolorem eius adipisci velit adipisci. Labore.');
-insert into topics (label, description) values ('Physical Activity in Healthcare', 'Tempora consectetur neque quisquam labore. Porro modi dolor labore quaerat est tempora. Magnam. Magnam dolor amet ipsum labore neque. Amet.');
-insert into topics (label, description) values ('Medical Tourism', 'Dolorem modi sed. Quaerat quiquia quiquia. Est dolore magnam tempora quaerat velit voluptatem quisquam. Ipsum eius. Sit est. Quisquam eius. Sit. Sit amet neque dolore modi magnam.');
-insert into topics (label, description) values ('Doctor''s Offices', 'Labore voluptatem amet est sit modi voluptatem consectetur. Neque dolore quisquam sed porro porro ipsum. Quisquam sed. Adipisci. Modi.');
-insert into topics (label, description) values ('Medical Conferences', 'Eius tempora adipisci ipsum consectetur adipisci quisquam voluptatem. Eius magnam neque amet. Non. Tempora est dolorem dolor non neque quaerat sit dolorem. Dolorem amet sed magnam sed tempora.');
-insert into topics (label, description) values ('Medicinal Food', 'Aliquam. Quisquam. Quaerat quisquam dolorem dolore etincidunt amet consectetur ipsum. Dolorem magnam sit quaerat aliquam. Velit ipsum quiquia dolore velit etincidunt. Porro.');
-insert into topics (label, description) values ('Medical Aspects of Death', 'Labore. Ut quaerat quiquia ipsum eius numquam porro. Ipsum numquam. Ipsum adipisci est etincidunt sed etincidunt tempora modi. Velit porro dolor non etincidunt velit.');
-insert into topics (label, description) values ('Patient Care', 'Non est modi dolor magnam sit amet quaerat dolor. Quisquam tempora tempora eius. Sed est quisquam sit amet. Etincidunt ipsum ut porro tempora est non non. Est etincidunt dolor modi ut.');
-insert into topics (label, description) values ('Digital Healthcare', 'Quiquia quisquam ut. Quaerat modi quisquam. Dolorem numquam velit voluptatem magnam sit velit. Porro etincidunt modi ut quisquam. Ut non adipisci sit. Neque. Eius est tempora voluptatem. Quisquam dolorem magnam dolorem. Voluptatem tempora velit labore.');
-insert into topics (label, description) values ('History of Medicine', 'Amet aliquam velit amet consectetur eius neque numquam dolorem modi. Porro est. Dolore porro dolor velit labore modi ipsum adipisci labore. Velit est aliquam neque aliquam ut. Modi quiquia numquam consectetur sed eius aliquam quaerat quiquia.');
-insert into topics (label, description) values ('Obsolete Medical Theories', 'Voluptatem adipisci adipisci. Modi amet est quaerat adipisci ut eius. Magnam quiquia adipisci modi quisquam eius voluptatem. Sed. Labore etincidunt amet. Dolore quiquia. Consectetur numquam ipsum dolor neque porro etincidunt amet neque.');
-insert into topics (label, description) values ('Bubonic Plague', 'Amet aliquam. Etincidunt eius quiquia ut ipsum tempora consectetur numquam labore quiquia. Amet porro. Quaerat. Eius sed velit. Ipsum modi magnam velit modi ipsum est amet tempora.');
-insert into topics (label, description) values ('History of Modern Biomedicine Group', 'Est est modi numquam adipisci amet amet est velit. Aliquam numquam magnam numquam tempora porro eius. Voluptatem. Eius dolore est. Modi etincidunt sed. Neque aliquam velit consectetur labore sed dolorem consectetur neque. Sed numquam eius.');
-insert into topics (label, description) values ('History of Cancer', 'Voluptatem neque magnam quiquia eius. Sed porro quisquam tempora. Ipsum aliquam tempora quiquia sed quisquam. Dolore. Ipsum. Modi dolorem adipisci non est adipisci etincidunt.');
-insert into topics (label, description) values ('Florence Nightingale', 'Porro amet amet eius. Magnam porro adipisci quiquia numquam non ipsum quaerat. Consectetur dolorem velit dolore dolore ipsum. Aliquam modi labore modi velit quisquam. Quisquam quisquam non amet ut sed sit. Labore quaerat.');
-insert into topics (label, description) values ('History of Cannabis', 'Magnam modi sit. Dolorem modi porro voluptatem amet etincidunt. Voluptatem numquam non est quaerat porro. Tempora. Magnam sed etincidunt tempora. Consectetur ut.');
-insert into topics (label, description) values ('COVID-19', 'Non. Quiquia sit dolore etincidunt etincidunt velit velit dolorem voluptatem. Ut dolore neque ipsum magnam ipsum eius quisquam. Adipisci voluptatem eius neque aliquam quisquam. Quaerat quiquia est adipisci tempora tempora quiquia.');
-insert into topics (label, description) values ('COVID-19 Vaccine', 'Quaerat voluptatem magnam non amet velit dolorem non modi modi. Quisquam amet modi labore eius modi dolor. Magnam sed labore. Adipisci non dolorem. Etincidunt porro ut amet modi. Dolore modi magnam quisquam. Quiquia sit consectetur. Tempora dolor.');
-insert into topics (label, description) values ('COVID-19 Prevention', 'Aliquam voluptatem non. Sed tempora modi sed numquam neque dolorem tempora. Tempora magnam neque dolorem dolore dolorem. Numquam quisquam ipsum numquam. Amet sed etincidunt sed tempora ut adipisci magnam.');
-insert into topics (label, description) values ('COVID-19 Quarantines & Restrictions', 'Sed. Voluptatem quaerat ut dolorem. Dolorem sit amet quaerat velit sit. Eius sed neque. Sed dolor modi amet non voluptatem non non. Velit dolor.');
-insert into topics (label, description) values ('COVID-19 Celebrity and Personal Stories', 'Voluptatem quisquam consectetur quiquia quaerat modi dolore aliquam amet. Sit eius quisquam. Aliquam sit dolor quisquam dolorem ipsum. Labore magnam porro etincidunt sed. Quaerat est aliquam dolorem dolor.');
-insert into topics (label, description) values ('COVID-19 Protection', 'Eius dolor consectetur dolor etincidunt velit. Modi dolorem non dolore dolorem porro. Quisquam quisquam numquam numquam eius. Quaerat. Dolorem etincidunt. Etincidunt. Eius quaerat non. Numquam neque ut velit sit consectetur ut velit voluptatem.');
-insert into topics (label, description) values ('COVID-19 in Specific Locations', 'Modi labore. Quaerat numquam amet quaerat numquam magnam. Est ut. Amet sed dolore. Numquam dolore dolor consectetur.');
-insert into topics (label, description) values ('Economic Impact of COVID-19', 'Porro quaerat. Tempora neque ipsum quaerat amet consectetur amet dolorem ipsum est. Magnam voluptatem sed non sed dolor ipsum amet consectetur. Sit consectetur amet. Quisquam quisquam modi sit magnam dolorem quiquia. Ut sed numquam dolore est.');
-insert into topics (label, description) values ('COVID-19 Treatments', 'Voluptatem ipsum dolor magnam. Sit amet. Non quiquia velit. Adipisci ipsum etincidunt labore non. Non voluptatem. Modi. Aliquam amet non ipsum. Modi aliquam. Amet velit porro quisquam modi. Est consectetur quaerat modi non neque est adipisci ut amet.');
-insert into topics (label, description) values ('COVID-19 Testing and Test Kits', 'Neque dolorem modi dolorem dolor consectetur. Quiquia. Labore adipisci aliquam velit quisquam. Porro labore ut sed sit. Ipsum modi magnam eius neque.');
-insert into topics (label, description) values ('COVID-19 Pandemic', 'Neque etincidunt porro labore etincidunt dolorem ut tempora. Non labore porro numquam magnam ipsum quisquam eius. Porro quiquia amet non ipsum dolor labore dolor. Etincidunt tempora labore sed voluptatem quisquam neque labore. Neque velit numquam.');
-insert into topics (label, description) values ('COVID-19 Research', 'Labore etincidunt neque. Numquam est est sit tempora etincidunt dolore numquam. Quaerat quiquia etincidunt magnam ut velit tempora porro. Labore tempora sit dolore modi labore. Velit quaerat porro est quisquam quisquam est ut voluptatem. Est sit.');
-insert into topics (label, description) values ('Coronavirus Preparations', 'Etincidunt etincidunt quiquia. Ut voluptatem etincidunt. Ipsum numquam dolor sed adipisci ipsum magnam. Dolorem velit eius adipisci dolore magnam quisquam neque magnam. Voluptatem quaerat etincidunt sed.');
-insert into topics (label, description) values ('Flatten the Curve (re COVID pandemic)', 'Magnam consectetur amet labore quaerat non aliquam. Amet tempora. Sed quaerat velit. Numquam velit. Etincidunt porro modi adipisci voluptatem modi. Ut. Dolorem aliquam porro quisquam eius.');
-insert into topics (label, description) values ('Symptoms of COVID-19', 'Sit. Etincidunt velit sit ut quaerat neque ut quiquia labore. Non amet etincidunt non sit. Sed dolor quiquia ut dolorem voluptatem adipisci voluptatem. Ipsum quaerat voluptatem labore amet voluptatem consectetur modi.');
-insert into topics (label, description) values ('Covid-19 (April-2020)', 'Ipsum ipsum quiquia eius dolor porro quiquia ut dolor. Etincidunt numquam consectetur non ut. Dolor. Magnam quaerat non labore etincidunt modi adipisci. Dolor quisquam. Adipisci voluptatem neque neque.');
-insert into topics (label, description) values ('COVID-19 Healthcare Workers', 'Labore sit dolor dolore eius adipisci sit dolor. Sit. Numquam porro quaerat. Neque. Neque aliquam quisquam consectetur modi etincidunt labore quisquam velit consectetur. Numquam velit dolorem quisquam porro numquam.');
-insert into topics (label, description) values ('Covid-19 Health and Risk Factors', 'Consectetur sit adipisci neque numquam adipisci amet. Consectetur dolor voluptatem velit. Est ipsum ut adipisci est. Ut magnam adipisci dolore ut amet adipisci ipsum. Consectetur magnam ut dolore neque.');
-insert into topics (label, description) values ('Coping with and Overcoming Fear of Coronavirus', 'Voluptatem numquam quisquam porro. Velit non numquam consectetur quisquam. Porro eius ut. Est tempora labore neque amet magnam. Ut voluptatem tempora eius velit sit neque dolor ipsum neque. Sit quiquia dolore labore.');
-insert into topics (label, description) values ('End COVID-19', 'Ut dolorem. Ipsum non. Modi. Adipisci magnam quaerat tempora eius quisquam labore aliquam. Velit numquam sed quiquia porro dolor.');
-insert into topics (label, description) values ('COVID-19 Immunity', 'Eius dolor ipsum. Modi numquam sit est. Tempora quaerat tempora amet dolore amet consectetur ut modi. Est sed voluptatem sed velit sed est. Numquam. Ut dolor ut magnam.');
-insert into topics (label, description) values ('Post Covid-19 World', 'Quiquia ut aliquam magnam eius magnam tempora quiquia. Porro eius porro dolorem. Dolore quisquam quisquam eius dolorem numquam amet amet voluptatem. Modi porro dolore quiquia amet dolor eius est etincidunt adipisci. Porro labore magnam modi dolorem.');
-insert into topics (label, description) values ('Origin of COVID-19', 'Est. Magnam sit quiquia etincidunt numquam. Numquam magnam numquam sed consectetur neque ipsum modi porro velit. Ipsum ut. Magnam sed. Quaerat non dolor dolor. Non adipisci aliquam etincidunt dolor est ut sit neque.');
-insert into topics (label, description) values ('Coronavirus (COVID-19) Litigation', 'Adipisci. Quaerat tempora adipisci aliquam. Amet tempora magnam porro numquam dolorem sit dolor dolorem tempora. Sed neque adipisci sed etincidunt dolor non magnam porro. Modi etincidunt eius neque consectetur sit amet modi sit non. Tempora.');
-insert into topics (label, description) values ('COVID-19 Modeling and Prediction', 'Dolore quiquia est amet. Ut. Magnam etincidunt sed. Ut ipsum adipisci magnam quiquia voluptatem quiquia. Neque sit consectetur velit. Magnam quisquam etincidunt. Quisquam.');
-insert into topics (label, description) values ('COVID-19 Demographics and Statistics', 'Velit quiquia amet. Eius. Consectetur aliquam voluptatem quisquam. Quaerat. Dolorem tempora voluptatem adipisci quisquam ipsum adipisci.');
-insert into topics (label, description) values ('Covid-19 Survivors', 'Porro est dolorem labore quisquam amet sit non adipisci. Est velit neque ut aliquam neque. Est aliquam dolorem. Ipsum sed etincidunt neque magnam. Dolor labore. Ipsum adipisci velit. Neque modi sit neque modi dolor tempora ut labore.');
-insert into topics (label, description) values ('Covid-G614 Strain', 'Aliquam. Ut. Numquam quisquam est neque dolorem. Dolor dolore neque. Modi dolore dolorem. Labore adipisci adipisci. Consectetur non etincidunt quiquia consectetur consectetur quaerat consectetur dolorem. Quaerat eius numquam eius sit.');
-insert into topics (label, description) values ('Food', 'Quisquam etincidunt quisquam non adipisci labore velit. Porro sit quaerat. Tempora ipsum eius. Labore quiquia quiquia etincidunt est eius sed. Porro modi eius. Est est labore quiquia modi est dolore.');
-insert into topics (label, description) values ('Food Groups', 'Sed numquam est porro labore velit neque. Consectetur. Modi voluptatem porro quaerat modi aliquam velit eius voluptatem. Non labore aliquam dolore labore dolore labore magnam numquam dolor. Eius etincidunt magnam aliquam velit dolore dolor sit dolor.');
-insert into topics (label, description) values ('Food and Cuisines in Specific Locations', 'Aliquam sit neque. Tempora ipsum dolor est ipsum sed. Non. Non quaerat ipsum tempora etincidunt quiquia eius. Aliquam quisquam eius adipisci magnam. Quaerat ut quiquia adipisci numquam numquam magnam ipsum magnam non. Adipisci eius magnam est.');
-insert into topics (label, description) values ('History of Food', 'Eius tempora est est consectetur labore. Adipisci neque quiquia eius neque ut magnam. Quaerat porro labore neque ipsum numquam numquam. Consectetur labore voluptatem. Adipisci.');
-insert into topics (label, description) values ('Foodies', 'Magnam dolore ut ipsum consectetur magnam dolore sit ut magnam. Numquam dolor ipsum. Quiquia dolore quisquam magnam non dolor velit modi sit dolorem. Ipsum eius sit. Dolor velit. Magnam sed est numquam porro voluptatem numquam est dolor.');
-insert into topics (label, description) values ('Major Concepts in Food', 'Magnam ipsum modi amet. Quaerat dolor tempora etincidunt ipsum. Quiquia. Quaerat labore. Adipisci ipsum dolore quisquam.');
-insert into topics (label, description) values ('Food and Beverage Industry', 'Modi eius labore. Quaerat labore dolor ipsum adipisci amet sed quiquia voluptatem voluptatem. Numquam est eius. Quaerat est quisquam ipsum numquam etincidunt sed est voluptatem. Dolore quisquam quaerat ut numquam. Velit consectetur magnam consectetur.');
-insert into topics (label, description) values ('Fitness and Food', 'Dolorem dolore dolorem est quisquam dolore. Neque consectetur amet quisquam aliquam sit. Voluptatem numquam etincidunt ut labore tempora modi consectetur. Neque porro quisquam ipsum. Sed amet dolorem modi.');
-insert into topics (label, description) values ('Food Classifications', 'Velit ipsum modi sed sed. Magnam tempora voluptatem sit magnam sit ut non. Dolor adipisci amet quiquia est dolor. Quisquam tempora ut aliquam dolorem numquam sed. Ipsum etincidunt velit modi modi quiquia.');
-insert into topics (label, description) values ('Food Words', 'Sit dolore voluptatem sed sit. Tempora dolore amet eius amet etincidunt. Sed modi velit eius eius ipsum quaerat. Sed dolorem magnam quisquam sit tempora sit sed dolorem sed. Quisquam tempora. Adipisci tempora.');
-insert into topics (label, description) values ('Food and Agriculture', 'Eius labore quiquia magnam dolore. Dolor voluptatem amet velit sed porro dolor dolore modi. Tempora ut dolorem adipisci est etincidunt. Est est aliquam quiquia magnam dolor numquam dolorem magnam ipsum. Dolor ipsum ut velit. Dolorem magnam magnam.');
-insert into topics (label, description) values ('Specific Types of Food', 'Consectetur. Ipsum sed. Non non neque porro dolorem sit. Quisquam modi non magnam numquam. Dolor amet est est.');
-insert into topics (label, description) values ('Cuisine', 'Consectetur amet ut. Labore amet dolor. Velit neque etincidunt numquam ut dolorem quisquam adipisci ut. Porro eius quaerat dolore. Quiquia consectetur velit dolore etincidunt sed dolore.');
-insert into topics (label, description) values ('Mexican Food', 'Modi voluptatem labore eius amet sit velit est adipisci. Magnam etincidunt modi. Amet. Adipisci labore consectetur ipsum etincidunt ut. Neque dolor dolorem. Non. Sit consectetur porro amet ipsum dolorem est quisquam.');
-insert into topics (label, description) values ('Chinese Food', 'Voluptatem sit numquam dolor dolorem voluptatem. Est aliquam quaerat etincidunt magnam neque neque quiquia. Non quaerat adipisci dolore modi tempora adipisci sit dolor magnam. Labore eius etincidunt voluptatem aliquam non est. Ipsum.');
-insert into topics (label, description) values ('Cuban Food', 'Labore dolor. Quaerat neque. Velit. Tempora tempora ipsum magnam eius. Sit non. Dolorem velit aliquam ut quiquia quisquam quaerat consectetur quaerat magnam.');
-insert into topics (label, description) values ('Vietnamese Food and Cuisine', 'Quisquam non quisquam eius dolor quaerat porro est. Sit modi labore porro velit porro. Porro numquam modi modi labore quiquia. Modi labore. Ipsum.');
-insert into topics (label, description) values ('Food and Cuisine of Thailand', 'Dolor labore quaerat modi quiquia porro magnam dolor. Ipsum dolore. Non tempora tempora dolore. Magnam aliquam labore dolor dolorem. Neque porro quiquia voluptatem amet modi dolor porro dolor. Porro dolorem etincidunt magnam velit.');
-insert into topics (label, description) values ('Druze Food', 'Quiquia numquam numquam dolor quiquia tempora velit ipsum. Porro ut. Consectetur labore quaerat sed dolorem ut tempora. Neque. Eius labore est numquam quiquia non consectetur velit. Est amet.');
-insert into topics (label, description) values ('Halal Food', 'Non dolore dolore aliquam velit ipsum non porro adipisci amet. Tempora quaerat. Porro. Quisquam est numquam eius amet dolorem quiquia est. Dolore.');
-insert into topics (label, description) values ('Korean Food', 'Dolor non dolorem non neque. Etincidunt tempora. Quiquia ipsum amet dolore. Sit neque dolore ipsum. Ut ipsum dolor amet sit sed ut sed tempora.');
-insert into topics (label, description) values ('Arabic Food', 'Tempora porro dolore porro amet ipsum non tempora. Est dolorem adipisci est sit sit. Porro labore. Dolor dolore dolorem porro dolorem quisquam. Quisquam eius ipsum eius numquam sit ut quaerat.');
-insert into topics (label, description) values ('Turkish Food', 'Sed ipsum. Dolore amet sit tempora eius quiquia sit numquam. Velit non magnam adipisci etincidunt labore labore quisquam labore. Amet. Quiquia neque tempora. Sed amet modi aliquam non neque neque quaerat porro.');
-insert into topics (label, description) values ('Persian Food', 'Consectetur. Adipisci non porro consectetur labore quaerat etincidunt. Sit numquam labore velit quisquam eius consectetur adipisci non numquam. Magnam modi non quaerat numquam quiquia. Sit est velit porro velit voluptatem quiquia sit labore.');
-insert into topics (label, description) values ('Moroccan Cuisine', 'Magnam modi dolore quiquia dolore. Non. Etincidunt. Porro sit ut labore quiquia modi labore amet modi. Sed labore ut dolore dolor ut tempora dolorem. Numquam dolore neque quiquia.');
-insert into topics (label, description) values ('Food and Cuisine of Ethiopia', 'Aliquam aliquam sit eius sed ipsum sit consectetur. Ipsum quisquam sed neque. Eius neque etincidunt dolor est est quisquam adipisci non. Sed ut ut sit dolorem porro non est neque. Dolorem adipisci etincidunt labore tempora dolore.');
-insert into topics (label, description) values ('Oaxacan Food', 'Quaerat adipisci quisquam non sed non. Aliquam numquam sed numquam numquam. Porro amet. Magnam est etincidunt ut consectetur sed numquam sit. Sed sed voluptatem dolore est quaerat numquam. Quiquia adipisci sit numquam.');
-insert into topics (label, description) values ('Food and Cuisine of Greece', 'Aliquam dolore sed magnam quaerat velit est eius dolore. Voluptatem quaerat labore est dolore dolor magnam ut. Eius labore voluptatem neque adipisci. Dolore neque tempora ipsum dolor sed. Neque quaerat.');
-insert into topics (label, description) values ('Lebanese Food', 'Adipisci consectetur porro etincidunt neque sed voluptatem. Labore amet sed ut. Ut adipisci est modi voluptatem est quisquam consectetur quisquam dolorem. Numquam aliquam consectetur adipisci adipisci neque dolor. Aliquam.');
-insert into topics (label, description) values ('Food and Cuisine of Pakistan', 'Etincidunt eius amet consectetur. Ut magnam. Non neque dolorem adipisci modi dolore. Dolorem est amet dolore non quaerat. Dolorem etincidunt amet porro tempora eius ipsum amet dolor. Neque tempora velit ipsum sit ipsum quaerat.');
-insert into topics (label, description) values ('German Food and Cuisine', 'Non non sit porro est etincidunt. Tempora dolorem dolore porro numquam neque porro. Eius modi velit quiquia quaerat quaerat quisquam labore. Consectetur amet porro amet consectetur ut. Non aliquam tempora adipisci amet. Quaerat. Modi magnam est non.');
-insert into topics (label, description) values ('Singaporean Food', 'Porro dolor labore etincidunt tempora modi sed adipisci ipsum ut. Ut non quaerat porro ut. Etincidunt voluptatem labore porro. Ipsum ut. Non consectetur dolorem numquam. Dolorem aliquam amet numquam numquam dolore porro sit etincidunt aliquam.');
-insert into topics (label, description) values ('Food and Cuisine of the Netherlands', 'Velit ipsum sed dolor dolore tempora voluptatem. Modi consectetur quaerat neque. Aliquam dolorem dolore amet neque. Ut. Etincidunt quaerat aliquam quisquam. Sed numquam porro dolor quisquam sit labore sed voluptatem.');
-insert into topics (label, description) values ('Traditional Food', 'Ipsum quaerat eius neque dolor velit tempora consectetur. Modi dolore eius neque quisquam porro aliquam labore quiquia numquam. Voluptatem porro. Ipsum consectetur adipisci porro neque dolor. Est etincidunt sed. Numquam labore porro. Consectetur tempora.');
-insert into topics (label, description) values ('Dominican Food', 'Quiquia quisquam dolorem voluptatem voluptatem voluptatem magnam ut adipisci modi. Neque labore magnam aliquam magnam quaerat. Ipsum non quisquam est aliquam aliquam quiquia numquam labore quaerat. Sit. Voluptatem neque numquam amet.');
-insert into topics (label, description) values ('Southeast Asian Food', 'Consectetur eius numquam voluptatem. Est est consectetur. Etincidunt dolor modi numquam est non numquam labore. Amet est aliquam magnam voluptatem amet eius sit est. Amet adipisci eius. Sit. Dolore adipisci non tempora est ut dolorem.');
-insert into topics (label, description) values ('Spanish Food and Cuisine', 'Dolore tempora voluptatem dolore. Non quiquia sed numquam aliquam porro eius. Tempora. Amet. Magnam modi modi dolore. Amet ipsum adipisci labore est ut eius etincidunt quiquia.');
-insert into topics (label, description) values ('Peruvian Food', 'Ut labore dolorem. Sed consectetur neque quiquia. Amet dolorem neque consectetur amet ut consectetur quaerat. Numquam consectetur dolorem quisquam numquam quiquia quisquam quaerat ipsum quaerat. Porro etincidunt magnam est dolorem ut aliquam.');
-insert into topics (label, description) values ('Food and Cuisine of the Philippines', 'Dolore voluptatem consectetur dolor dolor aliquam modi dolorem. Adipisci numquam ut quisquam. Consectetur adipisci dolor. Amet. Numquam dolor tempora est tempora. Dolor quisquam magnam porro numquam sit non. Tempora dolor consectetur.');
-insert into topics (label, description) values ('Food and Cuisine of Malaysia', 'Quisquam eius modi ipsum dolorem amet magnam numquam. Adipisci dolor ipsum. Neque neque. Quisquam. Sed sit labore dolore aliquam labore quiquia tempora. Neque non dolor. Non tempora sit dolorem neque ipsum.');
-insert into topics (label, description) values ('Israeli Food', 'Ipsum dolore dolorem porro modi voluptatem. Non eius modi aliquam dolorem. Ipsum dolor dolor magnam quiquia. Magnam eius dolorem porro etincidunt ipsum magnam. Consectetur non amet tempora sit magnam velit magnam. Quaerat etincidunt etincidunt velit.');
-insert into topics (label, description) values ('Food and Cuisine of Russia', 'Sit labore est quisquam magnam non. Adipisci voluptatem ut modi neque ut dolorem velit. Aliquam magnam dolor dolore est amet quisquam consectetur dolore. Modi non. Porro. Consectetur modi. Velit aliquam dolor. Adipisci labore velit. Voluptatem.');
-insert into topics (label, description) values ('Mediterranean Food', 'Velit dolorem tempora neque quaerat. Ipsum adipisci labore. Sed ut adipisci. Quaerat porro dolorem. Sit non dolore. Ut modi dolore dolore ipsum. Numquam. Porro. Voluptatem numquam.');
-insert into topics (label, description) values ('Southern Cooking', 'Dolor velit ipsum sed ipsum velit adipisci voluptatem ipsum porro. Aliquam consectetur sed ut modi. Porro ut sit sed. Ipsum quisquam dolorem non eius aliquam velit adipisci. Dolorem dolore quaerat quaerat.');
-insert into topics (label, description) values ('Jamaican Food', 'Velit non porro. Sit adipisci. Numquam. Velit quiquia ipsum tempora. Modi. Ipsum sit magnam. Dolor etincidunt magnam est voluptatem quisquam numquam porro. Non amet labore quaerat velit amet. Quaerat.');
-insert into topics (label, description) values ('Middle Eastern Food', 'Velit adipisci. Amet numquam. Ut. Consectetur dolore eius. Porro ipsum quisquam. Non ut. Non amet velit eius sit dolorem.');
-insert into topics (label, description) values ('Brazilian Food', 'Amet est. Quaerat neque voluptatem neque. Amet quisquam ut voluptatem. Modi est etincidunt. Sit quiquia sit velit ipsum. Non magnam magnam non dolor quisquam sed dolorem numquam sit.');
-insert into topics (label, description) values ('Fried Foods', 'Quisquam neque dolore voluptatem non dolorem porro sit eius velit. Eius velit velit adipisci. Quaerat porro voluptatem voluptatem aliquam aliquam eius quaerat. Consectetur. Dolore tempora aliquam voluptatem. Labore numquam.');
-insert into topics (label, description) values ('Food and Cuisine of Australia', 'Consectetur adipisci ipsum voluptatem est dolor magnam quaerat. Neque ipsum adipisci ut ipsum non sit tempora numquam. Non numquam. Sed neque dolorem porro. Numquam. Velit.');
-insert into topics (label, description) values ('Food and Cuisine of Japan', 'Voluptatem tempora. Eius etincidunt magnam quaerat velit eius magnam dolor tempora. Modi ut porro consectetur amet neque neque dolorem ut neque. Adipisci quiquia ut sit velit voluptatem amet porro numquam. Non quisquam aliquam neque quaerat.');
-insert into topics (label, description) values ('Danish Food', 'Est dolorem modi sit non quiquia. Magnam tempora non tempora velit. Etincidunt eius quisquam sit quisquam sed eius. Sit non non quaerat dolore sed consectetur. Eius tempora. Porro sed voluptatem velit adipisci. Consectetur numquam non eius dolore sit ut.');
-insert into topics (label, description) values ('Asian Food', 'Aliquam labore est. Voluptatem aliquam. Eius quiquia neque eius non dolor adipisci. Dolorem tempora eius etincidunt modi porro voluptatem est consectetur labore. Dolor adipisci eius labore est ut quiquia etincidunt numquam.');
-insert into topics (label, description) values ('Scottish Food', 'Adipisci sit neque adipisci aliquam eius. Labore labore velit velit dolor tempora porro dolore non labore. Est labore adipisci numquam non velit. Aliquam dolore porro dolore. Non quiquia dolor.');
-insert into topics (label, description) values ('Spicy Food', 'Quisquam sit. Est dolor porro labore. Consectetur quisquam quaerat amet. Est quiquia tempora non eius labore porro. Dolorem velit voluptatem eius. Tempora dolore etincidunt. Numquam non sit magnam. Est adipisci tempora dolor magnam.');
-insert into topics (label, description) values ('Street Food', 'Ipsum adipisci etincidunt quiquia. Quisquam voluptatem quiquia aliquam voluptatem magnam sed. Ut magnam magnam. Voluptatem labore velit. Velit amet consectetur aliquam. Quisquam dolore magnam dolore.');
-insert into topics (label, description) values ('Exotic Food', 'Sit eius porro etincidunt dolore dolorem aliquam etincidunt sed. Etincidunt ut. Ipsum. Etincidunt velit ipsum velit labore numquam quiquia. Labore ipsum voluptatem magnam sed dolor dolorem amet eius eius.');
-insert into topics (label, description) values ('Wild Food', 'Ut aliquam quisquam sed adipisci voluptatem dolor etincidunt. Sit aliquam. Non labore. Dolore etincidunt sed etincidunt etincidunt eius sed sed. Dolor eius.');
-insert into topics (label, description) values ('Fast Food', 'Etincidunt dolor voluptatem tempora. Amet quaerat porro adipisci velit sed. Porro. Dolore velit. Ut non eius quisquam ipsum eius non tempora. Quaerat tempora numquam ut est. Dolor porro amet quaerat neque amet.');
-insert into topics (label, description) values ('Space Food', 'Aliquam numquam quaerat. Dolorem modi etincidunt labore. Dolore labore dolor numquam porro dolor neque modi. Amet. Sed numquam tempora consectetur.');
-insert into topics (label, description) values ('Food and Cuisine of the United States of America', 'Tempora quisquam. Adipisci aliquam neque non adipisci aliquam dolorem numquam quiquia tempora. Consectetur consectetur etincidunt quaerat adipisci quaerat dolore eius dolorem sed. Voluptatem dolor. Consectetur labore amet quaerat quisquam ut dolor.');
-insert into topics (label, description) values ('Bulgarian Food', 'Dolor quiquia est voluptatem quiquia porro. Dolore modi dolore sit dolore adipisci sed. Ipsum amet consectetur labore eius dolorem aliquam. Adipisci. Ut quisquam magnam labore amet est eius magnam porro. Dolore eius labore adipisci numquam.');
-insert into topics (label, description) values ('Restaurant Cuisines', 'Quisquam neque. Non. Dolor non ipsum sit sit neque. Tempora numquam ipsum magnam neque. Voluptatem dolore eius.');
-insert into topics (label, description) values ('Italian Food and Cuisine', 'Velit quiquia. Ipsum quaerat consectetur tempora. Consectetur labore magnam dolore ipsum dolor consectetur. Tempora tempora tempora modi voluptatem numquam. Sit amet. Modi modi magnam dolorem quaerat.');
-insert into topics (label, description) values ('Food and Cuisine of Canada', 'Numquam. Tempora. Quaerat dolore est quaerat sit ut eius quaerat aliquam. Non. Eius sed dolore sed dolore velit est ut magnam sed. Voluptatem quaerat neque non ut dolorem adipisci. Sed velit amet magnam numquam adipisci dolore. Voluptatem ipsum. Numquam.');
-insert into topics (label, description) values ('Cooking', 'Aliquam ut amet ut modi est quiquia. Dolore ut labore tempora quaerat sed etincidunt. Amet ipsum aliquam. Voluptatem sit voluptatem non. Ut ipsum dolore ipsum dolore. Modi sit amet voluptatem non. Adipisci numquam. Quaerat numquam. Tempora amet.');
-insert into topics (label, description) values ('Cooking Techniques', 'Neque quiquia amet tempora. Etincidunt. Amet. Neque. Velit quaerat etincidunt dolor sit labore. Aliquam quisquam voluptatem magnam. Quisquam non magnam ipsum. Dolorem etincidunt dolor ut velit adipisci. Tempora. Sit quaerat etincidunt.');
-insert into topics (label, description) values ('Molecular Gastronomy', 'Ipsum quaerat porro numquam dolor est porro sit aliquam. Sit dolorem porro numquam neque quaerat dolore numquam. Modi labore ipsum dolor sit ipsum est porro tempora. Labore numquam consectetur consectetur amet. Quaerat velit eius porro neque quiquia sit.');
-insert into topics (label, description) values ('Recipes', 'Magnam ut tempora neque. Sit est sit. Consectetur amet eius quaerat amet est. Numquam. Eius etincidunt ut sed magnam consectetur modi non.');
-insert into topics (label, description) values ('Healthy Cooking', 'Dolore velit numquam. Sed magnam modi neque labore consectetur. Modi quaerat. Magnam quiquia voluptatem dolor. Ut quiquia. Velit numquam eius. Voluptatem sed dolore sit tempora tempora velit velit.');
-insert into topics (label, description) values ('Culinary Arts', 'Amet sit numquam. Aliquam quaerat. Ut. Tempora ut est non voluptatem. Quaerat adipisci labore aliquam velit ipsum magnam adipisci modi.');
-insert into topics (label, description) values ('Cooking Equipment', 'Tempora eius. Adipisci. Adipisci modi non quaerat etincidunt. Dolorem sit neque non quisquam tempora. Velit labore numquam eius tempora ut dolor. Aliquam etincidunt tempora sit amet labore dolor ut consectetur voluptatem. Tempora velit non ipsum.');
-insert into topics (label, description) values ('Cooking Specific Foods', 'Ut. Modi sit tempora sed sit. Voluptatem dolor sit eius non quiquia quiquia sit dolore quaerat. Sed magnam labore est tempora dolore tempora. Magnam quisquam numquam. Amet non velit ut amet porro.');
-insert into topics (label, description) values ('Cooking Philosophies', 'Tempora neque etincidunt etincidunt modi amet. Quisquam ut eius magnam adipisci consectetur modi ipsum voluptatem. Eius est. Consectetur sed velit porro est magnam quaerat ipsum magnam. Non aliquam amet. Numquam. Labore dolorem non voluptatem. Neque.');
-insert into topics (label, description) values ('Ingredients', 'Magnam velit porro tempora consectetur magnam amet sed quisquam. Eius non amet sit consectetur sed. Eius. Amet adipisci voluptatem ipsum. Numquam. Adipisci. Voluptatem neque porro non eius quaerat. Adipisci quaerat ut tempora.');
-insert into topics (label, description) values ('Cooking of Specific Cuisines', 'Magnam est velit. Adipisci sit tempora non etincidunt. Eius quisquam neque ut numquam porro ipsum. Modi. Dolorem dolorem velit etincidunt. Numquam. Labore quaerat porro voluptatem amet.');
-insert into topics (label, description) values ('Thanksgiving Cooking', 'Eius sed. Quisquam quisquam velit dolorem quisquam numquam modi amet quiquia. Amet. Non est quisquam quisquam sit. Non velit. Sit dolore etincidunt ut dolor voluptatem. Dolorem adipisci dolore neque sed eius voluptatem velit. Velit voluptatem.');
-insert into topics (label, description) values ('Gourmet Cooking', 'Sed quaerat neque tempora est aliquam magnam. Adipisci ipsum consectetur eius. Magnam. Porro modi sed modi numquam adipisci ut dolor dolor est. Neque tempora est dolorem dolorem non quiquia porro modi quisquam.');
-insert into topics (label, description) values ('Cooking Automation', 'Sit numquam quaerat dolor neque quaerat quisquam velit. Voluptatem. Numquam est velit numquam sed sed. Sed sed labore. Adipisci aliquam ut neque amet amet voluptatem. Non dolore amet. Consectetur magnam modi tempora ut numquam ipsum labore tempora.');
-insert into topics (label, description) values ('Culinary Instructors', 'Numquam dolorem amet dolorem. Adipisci tempora adipisci eius dolore adipisci voluptatem tempora. Dolore dolor neque sit neque neque quisquam. Aliquam est porro porro dolorem dolore dolore amet. Numquam modi tempora dolor sit magnam sed quiquia.');
-insert into topics (label, description) values ('Vegetarian Cooking', 'Magnam adipisci est aliquam. Ut voluptatem voluptatem porro adipisci sit velit adipisci consectetur. Sed non tempora porro velit adipisci. Amet aliquam numquam aliquam dolor neque porro amet dolor. Dolore modi consectetur.');
-insert into topics (label, description) values ('Learning to Cook', 'Velit magnam. Modi eius aliquam eius est. Numquam quaerat quisquam modi est. Aliquam dolor non velit magnam labore dolore dolorem. Modi quaerat dolore velit est quiquia.');
-insert into topics (label, description) values ('Holistic Cooking', 'Adipisci adipisci dolorem dolorem numquam non dolorem. Amet. Etincidunt modi quaerat ut magnam neque. Numquam voluptatem. Dolorem dolore est quisquam sed. Magnam sit neque voluptatem ut.');
-insert into topics (label, description) values ('Backpacking Cooking', 'Amet voluptatem magnam numquam quisquam aliquam eius sit dolor tempora. Magnam ut eius quiquia dolore. Modi quisquam etincidunt. Quisquam. Ut.');
-insert into topics (label, description) values ('Home Cooking', 'Porro quiquia est dolorem. Labore ipsum dolorem etincidunt porro ut porro tempora labore. Quiquia modi est non. Porro porro. Quisquam velit aliquam porro labore sit.');
-insert into topics (label, description) values ('Stews', 'Labore. Non. Velit magnam quiquia. Voluptatem dolore quisquam etincidunt. Sed amet est quaerat. Ut quisquam sit modi ipsum labore sed tempora. Dolore amet sed velit.');
-insert into topics (label, description) values ('Hawaij (ground spice mixture)', 'Amet ipsum voluptatem modi velit magnam est voluptatem est sit. Sit porro ipsum dolorem est neque. Neque ut. Sed. Voluptatem voluptatem porro ut voluptatem sed porro.');
-insert into topics (label, description) values ('Microwave Cooking', 'Est adipisci neque dolore labore dolorem etincidunt numquam dolorem etincidunt. Est porro magnam. Consectetur dolor amet sit consectetur numquam eius quaerat modi non. Amet amet dolor dolore quiquia. Ipsum quaerat quisquam modi magnam labore magnam.');
-insert into topics (label, description) values ('Cooking Advice', 'Amet sed voluptatem voluptatem dolorem quaerat labore quisquam quiquia. Dolor labore est neque dolor neque amet consectetur dolorem. Velit quisquam est. Aliquam porro porro dolor. Porro.');
-insert into topics (label, description) values ('Jobs and Careers in Cooking', 'Amet voluptatem tempora est voluptatem ipsum velit est porro amet. Sit neque neque voluptatem est numquam velit est. Magnam sit numquam ut neque. Aliquam. Consectetur est neque non neque sit numquam. Sit.');
-insert into topics (label, description) values ('Restaurants', 'Dolorem est magnam. Dolorem amet. Dolore quiquia. Tempora modi etincidunt etincidunt magnam labore non sit aliquam. Consectetur. Labore ut. Velit consectetur modi neque. Modi. Aliquam porro dolore neque magnam.');
-insert into topics (label, description) values ('Restaurant Recommendations', 'Aliquam porro ipsum voluptatem quiquia numquam dolore modi. Eius etincidunt. Aliquam numquam amet amet quaerat aliquam modi magnam. Dolor voluptatem tempora eius eius amet sit. Amet dolor modi magnam quiquia. Ut labore porro amet est dolore velit sed.');
-insert into topics (label, description) values ('Restaurant Business', 'Aliquam quaerat quiquia amet. Dolor velit est est amet est. Adipisci amet non dolore neque labore magnam neque consectetur velit. Quiquia ipsum consectetur etincidunt sed. Tempora aliquam voluptatem numquam magnam voluptatem modi.');
-insert into topics (label, description) values ('Restaurant Classifications', 'Sed amet. Quaerat adipisci adipisci sed labore amet. Dolor quiquia labore. Velit consectetur consectetur magnam aliquam. Labore sed neque voluptatem modi tempora.');
-insert into topics (label, description) values ('Major Concepts Related to Restaurants', 'Quiquia ipsum neque etincidunt modi velit voluptatem etincidunt dolor. Labore numquam neque dolor aliquam sit aliquam eius ipsum. Quaerat consectetur quisquam. Eius magnam porro labore amet quiquia sed modi quaerat. Ipsum consectetur voluptatem dolore.');
-insert into topics (label, description) values ('Specific Types of Restaurants', 'Modi. Dolore quaerat eius. Ut labore aliquam est adipisci eius eius velit dolore. Quiquia velit aliquam neque amet quiquia. Non est adipisci. Sed quiquia dolore velit modi dolore tempora labore tempora amet.');
-insert into topics (label, description) values ('Restaurants in Specific Locations', 'Dolor. Magnam. Voluptatem labore non quiquia aliquam non. Velit. Quisquam neque velit.');
-insert into topics (label, description) values ('Restaurant Lists', 'Sit sit voluptatem magnam adipisci. Eius. Ipsum voluptatem amet ipsum. Modi magnam voluptatem adipisci labore ipsum voluptatem. Dolor ipsum dolor dolorem aliquam labore. Porro quiquia neque est non labore ipsum neque.');
-insert into topics (label, description) values ('Restaurant Weeks', 'Dolorem ipsum labore labore magnam numquam. Quisquam sed ut etincidunt quaerat porro non neque tempora. Ut. Dolorem. Aliquam consectetur quisquam consectetur magnam velit. Quiquia amet porro quaerat. Labore neque. Adipisci aliquam eius.');
-insert into topics (label, description) values ('Fast Food Restaurants', 'Modi neque velit dolor dolor est. Est aliquam eius sed velit quiquia tempora. Porro labore ut ut ipsum amet dolore. Sit eius. Neque dolor voluptatem ipsum dolore.');
-insert into topics (label, description) values ('Eating', 'Velit dolor modi eius magnam dolor voluptatem ut dolore. Porro numquam. Adipisci sit magnam ut. Labore est neque aliquam modi labore ipsum amet. Sit porro dolor.');
-insert into topics (label, description) values ('Meals', 'Sed neque eius ut voluptatem ipsum dolor. Dolor quiquia magnam est neque aliquam. Eius ipsum. Modi eius etincidunt dolore labore consectetur quisquam ipsum etincidunt. Sed. Amet amet velit eius amet velit. Porro consectetur numquam magnam modi.');
-insert into topics (label, description) values ('Competitive Eating', 'Porro voluptatem neque eius voluptatem porro tempora. Dolor quisquam eius porro. Non est neque neque. Est voluptatem sit labore tempora non labore etincidunt. Quaerat. Dolore eius tempora labore dolor est.');
-insert into topics (label, description) values ('Unhealthy Eating', 'Non ut labore aliquam etincidunt numquam. Neque est sit dolor. Eius non velit velit sit quisquam etincidunt amet. Non. Porro etincidunt neque velit est porro consectetur numquam aliquam velit. Voluptatem modi.');
-insert into topics (label, description) values ('Satiety and Satiating foods', 'Numquam. Modi quisquam voluptatem magnam. Velit eius sed voluptatem quisquam labore. Eius est. Est voluptatem non est non dolore est. Voluptatem adipisci non numquam ut.');
-insert into topics (label, description) values ('Gastronomy', 'Sed modi ipsum etincidunt sit tempora. Quisquam eius labore magnam sit. Quiquia labore velit consectetur. Porro quisquam. Sit dolor dolorem quisquam porro porro amet porro. Numquam dolorem dolor adipisci dolor.');
-insert into topics (label, description) values ('Healthy Eating', 'Est. Sit non amet. Ut velit voluptatem dolore dolorem labore neque. Eius voluptatem etincidunt. Consectetur quiquia amet amet modi est dolor.');
-insert into topics (label, description) values ('Dining', 'Non est ut dolor dolor quisquam. Adipisci etincidunt adipisci dolor modi etincidunt etincidunt numquam. Labore ipsum magnam ut amet amet sed dolore. Voluptatem quaerat quisquam velit modi. Ipsum quisquam.');
-insert into topics (label, description) values ('Infant Feeding', 'Eius. Sed. Labore quisquam consectetur modi quisquam non porro sit voluptatem labore. Amet magnam numquam magnam tempora dolorem. Amet magnam est sit numquam ipsum modi. Dolore neque sed tempora dolorem ut modi quiquia.');
-insert into topics (label, description) values ('Food Science', 'Neque quisquam. Neque. Porro modi non amet ipsum labore quiquia non porro ut. Non neque ut ut. Quiquia neque amet velit ut modi adipisci velit. Quiquia dolorem labore velit numquam. Non est adipisci.');
-insert into topics (label, description) values ('Maillard Reaction', 'Porro dolor. Quaerat adipisci. Consectetur numquam. Sed tempora amet velit adipisci. Labore sit. Etincidunt. Numquam eius dolor. Eius quaerat dolorem eius dolore.');
-insert into topics (label, description) values ('Food Preservation', 'Dolore ipsum velit quiquia eius etincidunt quisquam ut est velit. Modi. Ipsum neque dolore non aliquam. Consectetur sed aliquam aliquam modi ipsum adipisci. Adipisci adipisci quaerat magnam aliquam consectetur quiquia numquam dolore.');
-insert into topics (label, description) values ('Processed Food', 'Dolore quiquia quiquia ipsum neque consectetur non porro eius. Dolore. Adipisci dolore amet eius quiquia magnam magnam quisquam. Quisquam non amet. Non non sit labore non. Ipsum etincidunt numquam velit tempora etincidunt. Labore. Amet sit etincidunt.');
-insert into topics (label, description) values ('Food Additives', 'Ipsum numquam eius. Porro etincidunt dolorem quaerat adipisci. Adipisci sit amet voluptatem dolore consectetur ipsum adipisci. Labore. Dolor neque. Velit magnam.');
-insert into topics (label, description) values ('Food Safety', 'Labore ut est porro non quisquam. Dolor aliquam sed sit. Etincidunt magnam numquam est modi. Ipsum. Magnam.');
-insert into topics (label, description) values ('Pasteurization', 'Magnam non neque dolor dolorem. Dolor. Sed velit amet magnam voluptatem labore consectetur voluptatem adipisci est. Dolore voluptatem. Modi aliquam porro dolore etincidunt ut voluptatem labore. Ut. Non neque quisquam sed sed.');
-insert into topics (label, description) values ('Food Chemistry', 'Est. Etincidunt velit dolorem aliquam. Est. Quiquia. Sed modi adipisci etincidunt. Non adipisci quaerat ut amet.');
-insert into topics (label, description) values ('Winemaking', 'Tempora consectetur sed amet. Neque. Sed dolor etincidunt porro. Velit sed aliquam quaerat modi neque est ipsum amet aliquam. Non quaerat sit aliquam adipisci. Etincidunt. Magnam. Magnam consectetur porro dolor eius ut sit. Dolorem magnam aliquam dolor.');
-insert into topics (label, description) values ('Learning About Food Science', 'Non ut neque ut dolor porro etincidunt est velit. Est etincidunt etincidunt labore dolorem. Modi ipsum aliquam dolor quiquia porro aliquam quisquam dolore. Est. Tempora tempora dolore dolor labore dolor magnam quiquia dolor dolorem.');
-insert into topics (label, description) values ('Jobs and Careers in Food Science', 'Tempora voluptatem voluptatem. Velit dolorem consectetur amet aliquam amet non etincidunt etincidunt. Dolorem ipsum dolore. Modi velit est tempora quaerat dolor quiquia est. Tempora non ut eius modi quaerat magnam labore amet sed.');
-insert into topics (label, description) values ('Food Science and Technology', 'Ut sed est quaerat aliquam quiquia. Non velit adipisci. Non modi ipsum consectetur dolore tempora consectetur dolor quisquam sed. Quaerat sed tempora dolorem. Non.');
-insert into topics (label, description) values ('Food Science and Engineering', 'Velit est dolorem eius non sed. Aliquam ipsum sit adipisci quiquia magnam numquam. Magnam etincidunt labore dolorem dolor. Neque non. Labore porro quaerat etincidunt labore numquam porro aliquam est. Velit dolore dolor. Dolor numquam sed eius.');
-insert into topics (label, description) values ('Agriculture', 'Non. Dolore amet. Consectetur consectetur velit dolore quisquam non porro labore porro modi. Labore. Labore sit aliquam neque modi ut neque. Dolor. Modi tempora. Ipsum consectetur numquam non adipisci labore.');
-insert into topics (label, description) values ('Agronomy', 'Neque ipsum quiquia neque eius ipsum. Dolore neque dolor porro. Porro quiquia etincidunt dolore dolorem adipisci voluptatem. Modi. Quaerat. Labore magnam.');
-insert into topics (label, description) values ('Animal Husbandry', 'Porro dolore labore quisquam dolore. Amet eius sed aliquam neque tempora dolorem dolorem sed eius. Quiquia sed ut est neque amet quiquia dolore ipsum neque. Voluptatem velit labore. Aliquam neque eius magnam ut.');
-insert into topics (label, description) values ('Agricultural Economics', 'Quiquia aliquam sit sit quisquam velit. Quisquam. Sit adipisci adipisci quiquia aliquam. Amet amet. Labore.');
-insert into topics (label, description) values ('Agricultural Engineering', 'Eius. Dolor quaerat labore neque numquam. Numquam sed porro amet quiquia numquam. Eius quaerat numquam voluptatem. Amet quiquia dolorem quisquam eius quisquam labore dolor quisquam. Modi eius numquam.');
-insert into topics (label, description) values ('Agricultural Revolution', 'Dolor. Quaerat numquam voluptatem ut. Velit ipsum dolor. Quisquam eius. Numquam est adipisci labore non est quiquia. Quaerat eius dolorem neque.');
-insert into topics (label, description) values ('Agricultural Subsidies', 'Velit non numquam etincidunt. Dolore ipsum quisquam velit aliquam dolorem magnam adipisci sed. Quiquia tempora neque tempora neque neque ipsum dolore. Quaerat tempora quaerat est consectetur. Ut neque amet quaerat sit labore numquam amet dolore tempora.');
-insert into topics (label, description) values ('Genetically Modified Foods', 'Labore. Sit consectetur numquam sed consectetur eius quiquia aliquam modi quisquam. Quiquia. Dolore dolorem modi. Eius etincidunt amet numquam magnam.');
-insert into topics (label, description) values ('Types of Agriculture', 'Neque quaerat dolore quisquam sit. Magnam non aliquam sit. Quisquam porro sit dolorem quaerat etincidunt ipsum magnam. Eius amet quiquia modi quisquam ipsum. Sed sed etincidunt numquam dolor dolore numquam ut dolorem magnam. Ut ut.');
-insert into topics (label, description) values ('Learning About Agriculture', 'Quiquia dolore tempora etincidunt labore dolore dolorem voluptatem. Neque amet magnam velit quaerat dolorem dolor dolor. Amet velit tempora labore adipisci ipsum. Magnam sed quisquam dolorem. Non quiquia etincidunt velit quisquam.');
-insert into topics (label, description) values ('Jobs and Careers in Agriculture', 'Porro amet etincidunt. Eius consectetur sed amet porro. Etincidunt sit. Dolor non adipisci quisquam adipisci ut labore ipsum. Voluptatem sed consectetur numquam tempora non eius. Etincidunt voluptatem sit tempora etincidunt amet dolor.');
-insert into topics (label, description) values ('Herbicides', 'Quaerat quaerat sed adipisci adipisci velit. Aliquam voluptatem. Etincidunt etincidunt. Sit sed. Labore non porro tempora consectetur est aliquam sed. Quaerat eius magnam adipisci velit porro.');
-insert into topics (label, description) values ('Farming', 'Ut eius neque quisquam dolore. Dolorem modi quisquam tempora quaerat ipsum labore eius. Quaerat dolorem neque quaerat quiquia modi dolore. Consectetur velit. Quaerat eius est. Magnam adipisci.');
-insert into topics (label, description) values ('Ranching', 'Eius modi numquam amet modi dolorem. Sit quaerat aliquam est est aliquam magnam velit. Aliquam etincidunt. Voluptatem porro magnam voluptatem dolor quaerat est non labore. Neque magnam quaerat consectetur adipisci. Adipisci.');
-insert into topics (label, description) values ('Raising Poultry', 'Tempora sit numquam quisquam. Voluptatem sed neque non labore non etincidunt. Modi etincidunt magnam voluptatem velit labore labore. Voluptatem. Dolore.');
-insert into topics (label, description) values ('Seed Saving', 'Sed sed magnam velit ut sit quaerat. Est eius dolorem tempora voluptatem sit. Adipisci numquam. Quisquam consectetur ipsum neque est ut est. Dolore magnam sed aliquam eius dolorem. Sit. Quiquia ut sit tempora labore adipisci. Est porro.');
-insert into topics (label, description) values ('Agriculture Policy', 'Labore sed voluptatem consectetur quaerat consectetur. Sit neque etincidunt. Dolorem non ut porro quisquam numquam. Ut. Neque modi sed dolor.');
-insert into topics (label, description) values ('Agriculture in India', 'Quaerat consectetur. Labore. Eius. Eius quisquam sed est non est neque eius porro. Magnam velit dolore labore. Quisquam magnam modi ipsum voluptatem adipisci. Numquam voluptatem aliquam sit quiquia. Sit neque dolor.');
-insert into topics (label, description) values ('Rice Industry', 'Labore non. Est labore etincidunt eius labore adipisci dolorem quisquam quisquam. Est ut quaerat adipisci amet eius sit voluptatem consectetur. Ipsum sit neque. Consectetur quiquia non eius tempora dolorem eius. Labore tempora.');
-insert into topics (label, description) values ('Cannabis Industry', 'Dolor voluptatem amet quiquia quiquia quiquia labore sit est neque. Est ipsum consectetur voluptatem dolor labore. Porro neque numquam eius eius dolorem amet non sed modi. Tempora sit numquam ut eius. Magnam. Tempora ut dolore dolor dolore consectetur.');
-insert into topics (label, description) values ('Agriculture and the Internet', 'Dolore dolore est voluptatem modi ut. Sed porro non tempora dolore dolorem amet dolore. Labore aliquam magnam quiquia numquam non sit ipsum quisquam. Dolor consectetur numquam consectetur porro aliquam. Ipsum velit. Magnam.');
-insert into topics (label, description) values ('Future of Agriculture', 'Ut amet voluptatem non. Aliquam amet adipisci eius. Eius ut aliquam. Quiquia sed voluptatem aliquam numquam neque dolore dolor aliquam. Etincidunt dolore non magnam ut non eius ipsum.');
-insert into topics (label, description) values ('Weed Science', 'Non ipsum non voluptatem non aliquam. Amet sit ipsum. Dolor neque quaerat dolorem sed etincidunt. Neque sed. Neque dolorem non neque aliquam labore quiquia dolorem modi tempora. Dolorem magnam neque est. Numquam neque labore labore labore.');
-insert into topics (label, description) values ('Agriculture in Specific Locations', 'Velit. Labore neque ut labore dolorem quaerat etincidunt. Adipisci etincidunt aliquam dolor labore numquam. Sit dolor voluptatem adipisci est numquam quiquia quisquam. Sit ipsum ipsum numquam modi consectetur ipsum etincidunt magnam.');
-insert into topics (label, description) values ('Agricultural Production', 'Aliquam labore eius consectetur. Numquam dolor est labore amet adipisci. Dolor. Modi. Non eius quiquia quisquam adipisci ut dolor ut labore. Tempora.');
-insert into topics (label, description) values ('Precision Agriculture', 'Sed neque non eius non. Magnam est modi. Magnam non etincidunt sit est tempora tempora. Ut. Non sit aliquam neque dolor.');
-insert into topics (label, description) values ('Agricultural Equipments', 'Eius adipisci ut dolore modi velit adipisci consectetur. Velit quisquam dolorem voluptatem dolore non magnam modi. Dolorem. Non dolorem neque sed neque magnam numquam eius amet dolor. Quisquam. Dolor magnam ipsum.');
-insert into topics (label, description) values ('Ministry of Primary Industries (MPI NZ)', 'Amet non consectetur neque dolorem adipisci quaerat. Ut sit sed dolore. Numquam sed labore numquam ipsum neque est velit dolorem. Neque ipsum consectetur sit quiquia sed porro sed porro. Modi neque magnam.');
-insert into topics (label, description) values ('Fertilizers', 'Numquam. Porro non. Est est est ut amet non ut. Est dolor non. Magnam etincidunt amet labore. Modi quisquam est. Ut tempora adipisci.');
-insert into topics (label, description) values ('Baking', 'Non quisquam etincidunt etincidunt non. Neque non magnam modi ut. Ipsum adipisci magnam. Voluptatem voluptatem adipisci. Est neque neque sed consectetur quaerat porro consectetur.');
-insert into topics (label, description) values ('Baked Goods', 'Dolore sit quisquam amet dolorem. Velit ipsum voluptatem non porro neque. Eius tempora quisquam quaerat sed quaerat quiquia. Modi adipisci etincidunt ipsum eius. Velit non.');
-insert into topics (label, description) values ('Bakeries', 'Quiquia adipisci eius. Dolore ipsum velit dolorem porro eius ut est porro sit. Ut. Quisquam amet eius sed sed consectetur ut ut consectetur. Neque amet dolore. Consectetur velit porro est quaerat non non.');
-insert into topics (label, description) values ('Baking Techniques', 'Adipisci ut velit non quiquia. Dolor dolor numquam magnam etincidunt dolor tempora. Voluptatem non porro neque amet. Aliquam quaerat amet sed velit velit quisquam porro. Dolor adipisci. Sed voluptatem tempora.');
-insert into topics (label, description) values ('Baking Schools', 'Quiquia non aliquam. Labore adipisci aliquam porro dolor quiquia. Labore eius eius amet. Eius eius non tempora aliquam quiquia velit. Neque dolor ut ipsum ipsum porro quisquam. Labore labore eius modi adipisci velit neque modi.');
-insert into topics (label, description) values ('Specific Types of Baking', 'Consectetur quisquam aliquam voluptatem non. Labore aliquam aliquam amet. Labore amet sit consectetur aliquam dolore quiquia. Voluptatem dolorem. Eius ut voluptatem consectetur labore adipisci amet quaerat amet velit. Est porro ut.');
-insert into topics (label, description) values ('Learning to Bake', 'Porro aliquam quisquam tempora adipisci voluptatem. Porro consectetur velit sit voluptatem numquam. Porro est consectetur. Velit est tempora tempora dolorem ipsum labore dolor. Ut adipisci dolore porro ut porro velit.');
-insert into topics (label, description) values ('Microwave Baking', 'Neque modi aliquam. Velit quisquam sit sed sit voluptatem. Dolorem porro non aliquam eius sit aliquam sit ipsum non. Adipisci dolore neque porro tempora quaerat numquam ut. Ipsum quaerat sit quisquam quisquam aliquam.');
-insert into topics (label, description) values ('Education', 'Voluptatem dolorem. Numquam ut velit porro quisquam magnam ipsum modi. Dolore. Dolorem magnam sit dolore sed magnam eius. Non. Non porro non labore dolorem. Est est sed sed dolor quaerat numquam amet non quaerat.');
-insert into topics (label, description) values ('Educational Degrees and Certifications', 'Velit. Aliquam non quisquam. Quiquia ipsum est est dolor. Amet dolorem. Eius labore dolorem eius. Quiquia quiquia ut ipsum consectetur neque aliquam aliquam amet.');
-insert into topics (label, description) values ('Education Companies and Industry', 'Quaerat dolor dolore voluptatem etincidunt velit non consectetur numquam voluptatem. Eius est eius sit modi non. Ut ut. Sit neque quaerat etincidunt amet amet. Quiquia sed quiquia eius neque quiquia voluptatem quaerat ipsum non.');
-insert into topics (label, description) values ('Education in Specific Locations', 'Quisquam amet voluptatem adipisci dolor modi. Sit aliquam ut adipisci sed. Sit modi voluptatem numquam etincidunt. Quaerat tempora porro tempora sed tempora dolore. Quisquam labore. Velit sed dolorem ipsum quisquam. Neque etincidunt.');
-insert into topics (label, description) values ('Major Concepts in Education', 'Modi etincidunt quiquia amet numquam amet. Eius non quisquam. Non ipsum ut quisquam. Ut adipisci quiquia aliquam aliquam quiquia amet labore. Modi dolor amet porro neque. Quiquia adipisci est labore quiquia non est etincidunt sed.');
-insert into topics (label, description) values ('Education in Specific Subjects', 'Etincidunt adipisci neque ipsum labore non amet aliquam eius. Modi amet modi consectetur adipisci porro adipisci. Magnam. Dolore modi quisquam eius porro. Dolore labore quisquam modi aliquam voluptatem. Modi.');
-insert into topics (label, description) values ('Approaches to Learning and Education', 'Sit etincidunt quaerat etincidunt. Adipisci etincidunt. Dolore eius labore sit modi. Labore modi non dolor quaerat labore. Est ipsum velit ipsum aliquam aliquam amet dolor. Amet. Dolorem quaerat.');
-insert into topics (label, description) values ('Educational Resources', 'Sit quiquia sed dolore. Velit sit modi dolorem. Velit dolore est porro quiquia. Voluptatem dolor modi ut tempora. Sed ipsum ut. Quiquia eius numquam modi ipsum porro. Quisquam dolorem.');
-insert into topics (label, description) values ('Specific Types of Education', 'Magnam dolorem dolorem ipsum ut velit. Ut ipsum voluptatem quiquia non voluptatem sed ut. Voluptatem labore. Sit numquam aliquam neque voluptatem non. Quaerat sed. Dolorem aliquam aliquam sed non labore modi sit non.');
-insert into topics (label, description) values ('Learning About Education', 'Adipisci quaerat etincidunt tempora sed quisquam neque numquam. Quiquia magnam neque non velit. Ipsum est tempora neque numquam ut adipisci etincidunt sed quisquam. Dolorem quisquam dolore non adipisci. Dolor.');
-insert into topics (label, description) values ('Jobs and Careers in Education', 'Quiquia. Eius. Numquam sit ipsum numquam voluptatem quaerat adipisci. Dolor dolorem etincidunt ut. Quiquia aliquam numquam labore sed adipisci. Etincidunt labore etincidunt labore quaerat sed numquam aliquam amet est.');
-insert into topics (label, description) values ('Educational Leadership and Administration', 'Dolorem dolorem amet neque sit quiquia quiquia porro. Tempora ut ut. Eius neque non dolor eius quisquam ipsum. Dolorem labore. Velit sed adipisci adipisci quaerat tempora tempora velit. Non labore non etincidunt sed sed tempora labore eius labore.');
-insert into topics (label, description) values ('Educational Design', 'Sit dolore adipisci labore numquam velit non adipisci amet. Numquam dolorem eius dolore. Amet. Ipsum. Porro dolorem labore velit ut aliquam eius numquam consectetur.');
-insert into topics (label, description) values ('Future of Education', 'Ut adipisci eius quiquia numquam quiquia adipisci magnam dolorem sed. Etincidunt velit tempora dolorem modi voluptatem quiquia velit sit amet. Eius. Sit sed est velit velit quaerat tempora etincidunt magnam. Quisquam. Dolore dolorem est eius neque.');
-insert into topics (label, description) values ('Intellectual Competitions', 'Dolorem numquam non dolor tempora. Etincidunt dolore voluptatem modi adipisci dolore velit. Sit quisquam velit dolorem tempora. Labore. Sed est adipisci tempora velit non quiquia magnam. Dolor adipisci tempora. Quaerat. Sed.');
-insert into topics (label, description) values ('Interdisciplinary Topics in Education', 'Amet. Tempora quaerat neque sit. Non sed quaerat sit adipisci sit. Sed quaerat dolorem ut tempora consectetur quisquam. Aliquam dolor quaerat tempora.');
-insert into topics (label, description) values ('Tutoring', 'Est adipisci dolore. Amet. Magnam voluptatem tempora dolor. Tempora adipisci amet sed aliquam dolorem. Modi modi tempora est. Quaerat etincidunt eius.');
-insert into topics (label, description) values ('Education and Career Advice', 'Est. Aliquam sed neque numquam labore numquam adipisci est adipisci sit. Amet. Quisquam sit etincidunt neque ipsum quiquia modi magnam amet. Porro. Est non est velit est modi.');
-insert into topics (label, description) values ('Students and Teachers', 'Magnam numquam. Quiquia adipisci. Dolor. Ut est. Voluptatem dolorem. Magnam neque adipisci labore non est quisquam. Sed numquam voluptatem. Tempora velit velit non porro.');
-insert into topics (label, description) values ('Scholarships and Fellowships', 'Eius magnam dolor est neque. Etincidunt adipisci aliquam est eius aliquam. Dolor dolorem dolorem aliquam est. Magnam sed ut. Ut consectetur adipisci dolorem non quisquam. Numquam. Sed velit etincidunt tempora sit etincidunt est.');
-insert into topics (label, description) values ('Career Education Advice', 'Quiquia est neque. Dolore quaerat ipsum dolor ipsum. Non ut porro sit. Dolore sed velit est. Porro ipsum etincidunt etincidunt eius eius.');
-insert into topics (label, description) values ('Post Secondary Education', 'Ipsum porro. Sed velit magnam dolore ut voluptatem est adipisci. Labore dolore quiquia sit ipsum sit sed dolor non labore. Quaerat tempora magnam modi consectetur est adipisci. Labore sit eius adipisci sit adipisci non. Voluptatem ut tempora est neque.');
-insert into topics (label, description) values ('Arts Education', 'Non aliquam ipsum. Eius numquam sit dolorem neque. Ut modi voluptatem numquam tempora consectetur. Quisquam sit. Dolorem numquam neque velit. Adipisci eius adipisci. Amet sed dolore sit quiquia. Ut. Tempora numquam modi quaerat tempora.');
-insert into topics (label, description) values ('Education in 2019-2020 Series', 'Est aliquam velit dolorem. Sed. Labore aliquam quaerat labore velit adipisci sed ipsum dolor numquam. Magnam sed etincidunt. Velit dolor quiquia ipsum aliquam dolorem tempora est. Aliquam quaerat modi quaerat quisquam.');
-insert into topics (label, description) values ('Educational Degrees', 'Sed etincidunt amet magnam labore non sed amet numquam. Quaerat. Velit. Non etincidunt tempora aliquam modi aliquam consectetur. Ipsum porro dolor porro dolore modi quaerat sed. Porro ut non quisquam.');
-insert into topics (label, description) values ('Schools', 'Est. Dolorem. Velit consectetur numquam adipisci quiquia non labore dolore dolore. Velit aliquam dolor voluptatem. Quiquia consectetur voluptatem dolor tempora aliquam labore ut. Ut neque. Eius dolorem velit aliquam.');
-insert into topics (label, description) values ('Schools in Specific Locations', 'Modi voluptatem non ipsum numquam ipsum magnam. Consectetur. Dolore labore quiquia aliquam voluptatem modi dolore consectetur. Tempora velit velit dolorem eius ut. Modi neque velit tempora amet.');
-insert into topics (label, description) values ('Concepts Related to Schools', 'Quiquia dolorem labore amet dolore quaerat. Modi non tempora aliquam eius quiquia. Quaerat porro. Quiquia etincidunt adipisci est quaerat aliquam est. Sit dolor dolor etincidunt. Ipsum tempora non dolorem numquam sit dolore.');
-insert into topics (label, description) values ('Schools Focused on Specific Subjects', 'Tempora amet dolor modi etincidunt porro consectetur velit non tempora. Tempora amet non labore ut. Quiquia porro numquam amet dolorem etincidunt. Est est dolore modi porro ut. Eius velit aliquam etincidunt sit. Quisquam. Aliquam modi.');
-insert into topics (label, description) values ('Specific Types of Schools', 'Sit sed neque. Porro consectetur eius sed. Sed voluptatem neque dolor consectetur quisquam. Est ipsum non quisquam dolorem quiquia numquam dolorem. Consectetur.');
-insert into topics (label, description) values ('Specific Schools', 'Porro. Ipsum dolorem dolor porro adipisci adipisci numquam velit quisquam. Labore magnam ut sit. Dolorem adipisci. Eius modi neque quaerat. Magnam adipisci. Dolorem quisquam sed quiquia ipsum aliquam porro neque labore ipsum.');
-insert into topics (label, description) values ('The School Experience', 'Quiquia aliquam eius tempora quisquam adipisci est dolorem voluptatem. Aliquam voluptatem etincidunt est etincidunt est ut labore. Dolore neque eius tempora. Dolor quisquam. Tempora sit dolorem sit est.');
-insert into topics (label, description) values ('School Safety', 'Neque sit dolor ut velit. Est consectetur ut quiquia. Dolorem aliquam quisquam. Dolor magnam est modi eius adipisci magnam consectetur voluptatem. Quiquia. Quiquia etincidunt dolore non dolor ut porro.');
-insert into topics (label, description) values ('Learning', 'Modi sit non est ut neque numquam tempora porro. Aliquam sed. Non tempora. Adipisci dolore velit porro dolor. Numquam porro dolore voluptatem aliquam modi numquam tempora. Modi non neque. Modi voluptatem magnam quiquia dolor quisquam. Numquam sit labore.');
-insert into topics (label, description) values ('Learning Styles', 'Dolor modi eius dolorem ipsum eius ipsum magnam. Ut. Neque quisquam eius quaerat sit sed. Quaerat tempora voluptatem. Magnam.');
-insert into topics (label, description) values ('Research', 'Sed. Sit amet. Etincidunt numquam sed adipisci dolore dolorem. Est consectetur consectetur consectetur ipsum quaerat porro voluptatem tempora. Numquam quaerat est.');
-insert into topics (label, description) values ('Major Concepts Related to Learning', 'Est. Ipsum modi. Amet porro consectetur dolor dolore. Etincidunt porro ut porro dolore. Ut magnam ut numquam ipsum etincidunt adipisci ut non. Adipisci eius voluptatem velit.');
-insert into topics (label, description) values ('Venues for Learning', 'Voluptatem ut modi adipisci non magnam. Voluptatem ipsum. Adipisci ut etincidunt eius. Neque sed eius labore est sit magnam magnam etincidunt labore. Numquam ipsum dolor. Eius dolore consectetur dolore porro est sed porro dolorem sit.');
-insert into topics (label, description) values ('Mnemonics', 'Eius quisquam velit ut. Numquam eius est amet magnam. Dolorem magnam est amet. Voluptatem modi. Sed non dolor. Non amet ut voluptatem est porro sit quaerat adipisci.');
-insert into topics (label, description) values ('Studying', 'Numquam dolor velit aliquam neque ut. Labore. Etincidunt amet quaerat. Adipisci tempora. Eius est dolore neque dolorem. Velit porro amet voluptatem modi dolor dolor sit sed est. Quaerat non. Tempora aliquam. Labore modi tempora neque dolor amet.');
-insert into topics (label, description) values ('Learning Strategies', 'Sit. Numquam velit non modi ut eius. Voluptatem adipisci est modi neque sit consectetur etincidunt. Sit non quiquia numquam velit eius. Quisquam dolore non quaerat. Velit adipisci. Neque ut quisquam non porro sed magnam. Dolor ut magnam modi.');
-insert into topics (label, description) values ('Learning in Specific Locations', 'Sed ipsum ipsum dolorem amet. Porro etincidunt voluptatem dolor quiquia. Tempora adipisci aliquam velit. Sed quisquam porro dolore. Ipsum quiquia non consectetur tempora non est labore etincidunt adipisci.');
-insert into topics (label, description) values ('Learning Advice', 'Dolor tempora magnam porro eius. Eius modi ipsum quisquam amet sit eius eius sit eius. Sit modi. Velit etincidunt quiquia non quiquia. Amet est eius tempora dolorem aliquam dolorem velit.');
-insert into topics (label, description) values ('Learning Machine Learning', 'Magnam quaerat dolor quaerat quiquia est neque tempora velit. Modi dolore amet. Amet labore neque. Porro. Ipsum velit labore dolor modi ut sed ut velit eius. Dolorem dolore amet modi magnam dolor quisquam tempora dolore. Porro sed neque.');
-insert into topics (label, description) values ('Neuroscience of Learning', 'Velit numquam dolore voluptatem porro. Numquam quaerat. Modi labore dolor non quaerat tempora labore adipisci adipisci. Consectetur aliquam velit quisquam eius eius dolorem ipsum est. Tempora. Magnam velit dolor. Sed adipisci neque sit amet.');
-insert into topics (label, description) values ('Teaching', 'Ipsum labore voluptatem ut tempora ut amet consectetur. Etincidunt eius consectetur porro. Quaerat ut. Amet quisquam modi velit ipsum porro dolore dolorem. Quaerat adipisci adipisci dolore neque porro consectetur etincidunt aliquam dolorem.');
-insert into topics (label, description) values ('Teachers', 'Consectetur tempora eius. Numquam. Sit labore ut tempora numquam. Adipisci magnam est eius numquam ut neque consectetur magnam ut. Ipsum quiquia ipsum etincidunt adipisci. Quisquam tempora consectetur dolorem amet neque sed.');
-insert into topics (label, description) values ('Teaching Methods', 'Numquam dolorem dolor ipsum dolor sed. Voluptatem. Sit sit quisquam etincidunt ipsum velit quisquam dolorem ipsum adipisci. Aliquam modi. Etincidunt labore quiquia velit dolor dolorem consectetur ut magnam. Ipsum sed modi. Magnam.');
-insert into topics (label, description) values ('Instruction', 'Sed. Quisquam ipsum voluptatem dolore dolore dolore ipsum non. Porro dolore. Aliquam est porro. Labore sed quiquia dolore non modi dolorem est.');
-insert into topics (label, description) values ('Teaching Specific Subjects', 'Eius dolorem dolorem etincidunt ut quaerat velit non. Dolorem. Dolore sit aliquam. Eius. Neque quaerat voluptatem sed. Consectetur quisquam aliquam quaerat eius. Est labore amet aliquam ipsum velit modi labore numquam.');
-insert into topics (label, description) values ('Music Teaching', 'Voluptatem porro quiquia voluptatem neque magnam. Non modi neque quiquia est labore ipsum amet tempora. Aliquam dolore etincidunt dolorem adipisci voluptatem velit. Labore tempora numquam sed. Tempora.');
-insert into topics (label, description) values ('Jobs and Careers in Teaching', 'Amet velit dolorem quaerat porro est. Sed. Numquam eius etincidunt ut modi est. Quiquia. Labore non etincidunt magnam. Aliquam modi labore modi. Quaerat quaerat ipsum dolore neque consectetur tempora etincidunt eius dolor.');
-insert into topics (label, description) values ('Teaching Techniques', 'Quaerat. Dolor ipsum ipsum etincidunt. Dolore. Amet ut quaerat velit. Quisquam modi dolorem ut ipsum amet etincidunt ipsum. Dolore. Adipisci. Labore non consectetur dolor ut aliquam.');
-insert into topics (label, description) values ('Students', 'Labore. Dolore velit eius adipisci adipisci dolorem tempora porro dolore velit. Magnam quisquam ut sit quisquam magnam aliquam dolore sit. Sed aliquam numquam tempora. Aliquam sit neque sit dolorem voluptatem est.');
-insert into topics (label, description) values ('Specific Types of Students', 'Velit numquam voluptatem dolore dolorem ut. Porro ipsum quiquia consectetur tempora eius quiquia dolorem. Numquam consectetur non quisquam amet velit. Est amet dolorem. Eius. Quisquam amet voluptatem. Velit numquam.');
-insert into topics (label, description) values ('Educational Stages', 'Modi etincidunt dolor. Dolorem. Non velit. Adipisci quisquam sed adipisci porro quiquia non ut quaerat numquam. Dolore quisquam porro ipsum numquam. Consectetur amet tempora labore dolore ipsum. Etincidunt adipisci est numquam est dolorem dolore.');
-insert into topics (label, description) values ('Student Exchanges', 'Modi ipsum. Etincidunt quiquia tempora etincidunt eius non non numquam aliquam. Labore labore est quiquia numquam. Dolor modi magnam voluptatem. Tempora amet magnam. Aliquam. Quiquia quaerat porro. Quisquam quiquia ut sed quiquia modi numquam.');
-insert into topics (label, description) values ('Students in Specific Locations', 'Consectetur. Dolore modi velit neque. Neque ipsum. Quiquia numquam. Sit quiquia. Tempora sed adipisci est. Numquam voluptatem est.');
-insert into topics (label, description) values ('Jobs for Students', 'Aliquam. Velit amet ut magnam voluptatem adipisci quaerat. Dolorem voluptatem tempora est labore modi aliquam tempora porro. Ipsum quaerat porro. Porro amet. Neque eius dolore. Velit ut non etincidunt quiquia ipsum dolorem labore porro.');
-insert into topics (label, description) values ('Academia', 'Adipisci eius quisquam porro porro. Sed modi. Velit eius ut modi. Labore amet. Sit tempora quaerat porro magnam neque tempora non etincidunt voluptatem. Quiquia dolore voluptatem eius dolor voluptatem tempora. Sed neque. Quiquia non sed modi quiquia.');
-insert into topics (label, description) values ('Academic Administration', 'Etincidunt sit quaerat ipsum sit. Dolore consectetur quaerat porro. Dolorem numquam modi voluptatem dolor sed aliquam. Eius modi. Velit dolorem quaerat. Voluptatem.');
-insert into topics (label, description) values ('Academic Collaboration', 'Non non porro. Porro amet porro. Voluptatem neque dolore etincidunt dolore porro. Quiquia modi numquam dolor quiquia velit. Porro sed velit modi. Velit amet neque est voluptatem eius. Dolore.');
-insert into topics (label, description) values ('Academic Conferences', 'Velit quaerat sed tempora dolore. Non. Etincidunt dolor ipsum quisquam velit sed numquam quaerat modi. Labore dolor quisquam sit velit. Amet amet ipsum est dolor. Quiquia labore. Tempora. Non consectetur labore etincidunt adipisci.');
-insert into topics (label, description) values ('Academic Freedom', 'Magnam sed etincidunt ut velit ipsum ipsum. Voluptatem tempora eius quiquia magnam aliquam. Aliquam. Est etincidunt dolor neque dolorem etincidunt modi ut. Tempora modi dolor. Adipisci aliquam magnam aliquam non etincidunt ipsum magnam etincidunt.');
-insert into topics (label, description) values ('Academic Libraries', 'Amet neque quisquam ipsum quiquia aliquam. Neque sed non neque adipisci consectetur. Porro eius dolore dolore aliquam sed ut dolorem. Velit sed magnam etincidunt quiquia quisquam adipisci magnam est velit. Est neque.');
-insert into topics (label, description) values ('Academic Plagiarism and Cheating', 'Adipisci porro dolor amet. Etincidunt amet amet ut ut est porro. Velit. Ut. Sed numquam sit quaerat. Dolorem dolore est non tempora dolor numquam ut. Adipisci eius non etincidunt ut.');
-insert into topics (label, description) values ('Academic Research', 'Sit quisquam porro velit magnam numquam. Numquam sed. Aliquam velit velit. Amet tempora velit porro sit consectetur sed etincidunt sit. Labore amet quaerat labore numquam consectetur eius voluptatem.');
-insert into topics (label, description) values ('Academic Societies', 'Quiquia ipsum ut voluptatem. Amet quaerat aliquam tempora. Voluptatem sit consectetur voluptatem voluptatem eius porro consectetur. Amet amet magnam neque dolor adipisci ut. Eius voluptatem magnam ipsum numquam sed amet non ipsum dolor. Etincidunt neque.');
-insert into topics (label, description) values ('College and University Faculty', 'Dolor dolorem dolorem amet etincidunt eius modi non est sit. Dolore sit ipsum eius labore porro. Quisquam ut quiquia voluptatem adipisci est consectetur velit quaerat aliquam. Ipsum. Quaerat etincidunt est quisquam quiquia ipsum.');
-insert into topics (label, description) values ('Group Meetings', 'Neque modi sed amet. Ut sed neque aliquam dolore dolor magnam dolor numquam non. Magnam eius sit. Quiquia neque magnam aliquam labore. Dolor est ut voluptatem.');
-insert into topics (label, description) values ('Peer Review', 'Voluptatem quaerat eius aliquam amet adipisci aliquam. Adipisci quaerat aliquam porro. Sed. Ipsum quaerat est magnam dolore dolor aliquam quisquam amet sit. Neque.');
-insert into topics (label, description) values ('Postdoctoral Researchers', 'Est ut quisquam consectetur sed tempora. Aliquam non ut quisquam sed etincidunt. Ut amet voluptatem. Non quaerat amet. Neque dolor sit.');
-insert into topics (label, description) values ('Scholarly Communication', 'Sed non amet quaerat labore ipsum ipsum quiquia non. Tempora magnam consectetur consectetur. Ipsum sit. Sed quaerat non neque est. Adipisci labore dolor dolore consectetur consectetur dolore non quiquia. Aliquam quisquam quiquia modi eius.');
-insert into topics (label, description) values ('Academic and Teacher Tenure', 'Amet sit ipsum neque. Etincidunt voluptatem non magnam numquam quiquia. Ipsum velit ut numquam dolor adipisci. Non amet labore tempora quisquam amet. Labore aliquam ut ipsum magnam modi quisquam.');
-insert into topics (label, description) values ('Major Concepts in Academia', 'Quiquia amet tempora quaerat velit est voluptatem est tempora ut. Dolore dolore eius etincidunt ipsum. Neque. Sed quiquia sed consectetur adipisci voluptatem dolor voluptatem ut. Ut est magnam non etincidunt sed.');
-insert into topics (label, description) values ('Scholars', 'Quisquam numquam magnam tempora sit. Velit aliquam quisquam dolore ipsum. Velit adipisci ut. Neque consectetur. Modi numquam amet dolorem dolore dolor. Voluptatem eius est neque sit magnam sit dolor quiquia consectetur.');
-insert into topics (label, description) values ('Academic Networking', 'Neque dolor dolore dolorem. Magnam voluptatem consectetur dolore ut. Voluptatem eius consectetur sit labore modi porro velit modi sed. Aliquam est modi voluptatem. Dolorem dolorem. Quisquam sed quiquia.');
-insert into topics (label, description) values ('Academic Presentations', 'Eius sit ut magnam ut dolore quaerat quiquia ut velit. Sed dolor tempora sit labore dolore quiquia ipsum non ipsum. Etincidunt porro modi. Amet porro dolore eius dolor. Dolor ut. Magnam numquam adipisci tempora ut dolorem.');
-insert into topics (label, description) values ('Politics in Academia', 'Modi ut. Neque. Voluptatem consectetur quiquia etincidunt neque dolor dolor eius sed neque. Neque numquam. Labore modi. Labore. Magnam sit velit amet magnam dolore aliquam eius. Ut est magnam quaerat dolore.');
-insert into topics (label, description) values ('Student Orientation', 'Voluptatem modi eius voluptatem. Dolore modi quaerat ipsum ut est magnam porro quiquia. Etincidunt velit aliquam non dolore quaerat porro. Aliquam ipsum numquam labore labore est eius labore. Est.');
-insert into topics (label, description) values ('Intellectuals', 'Quiquia velit adipisci velit eius. Est eius numquam. Quisquam. Etincidunt consectetur sit numquam numquam modi dolor. Dolor velit neque magnam sit magnam est porro est quisquam. Adipisci. Eius quiquia dolorem.');
-insert into topics (label, description) values ('Jobs and Careers in Academia', 'Labore consectetur. Est neque sit adipisci voluptatem ipsum labore neque adipisci quisquam. Tempora numquam velit neque dolore sed eius. Numquam velit etincidunt est sit. Quiquia eius. Consectetur ipsum porro.');
-insert into topics (label, description) values ('Future of Academia', 'Quisquam. Sed dolor aliquam aliquam non non tempora. Aliquam tempora sit sit est. Est modi numquam quisquam. Voluptatem est quisquam consectetur ipsum voluptatem magnam amet quiquia. Dolorem magnam porro labore dolor etincidunt. Numquam quiquia dolorem.');
-insert into topics (label, description) values ('Academic Term', 'Voluptatem est amet sit consectetur velit magnam porro. Neque eius. Eius tempora. Labore ut quaerat adipisci porro. Non numquam tempora. Amet dolorem dolore aliquam velit non modi adipisci. Adipisci eius numquam numquam voluptatem adipisci ut.');
-insert into topics (label, description) values ('Entertainment', 'Dolor eius dolore sed modi. Sit numquam velit porro est. Labore non adipisci dolor ut non neque magnam labore. Consectetur dolorem ipsum ipsum quisquam aliquam. Ipsum tempora dolor adipisci magnam.');
-insert into topics (label, description) values ('Entertainment Industry', 'Velit adipisci est porro ipsum dolorem. Quiquia. Est dolorem. Numquam dolorem modi ipsum. Aliquam ut est. Numquam. Dolor porro tempora. Sit.');
-insert into topics (label, description) values ('Genres', 'Tempora etincidunt ipsum dolore non magnam velit quiquia quiquia. Velit velit quaerat velit dolore velit. Amet consectetur ipsum velit etincidunt labore voluptatem labore. Neque quaerat. Ipsum tempora. Est velit. Voluptatem eius quisquam quaerat sit.');
-insert into topics (label, description) values ('Movies', 'Tempora quiquia sed dolor eius sit ut. Dolorem amet voluptatem neque numquam ut sed consectetur neque. Quisquam voluptatem adipisci quisquam labore voluptatem magnam ut. Quisquam. Eius magnam. Sit dolor eius. Modi ut velit aliquam labore non eius.');
-insert into topics (label, description) values ('Music', 'Modi neque eius labore. Sed. Aliquam quiquia magnam quaerat non eius adipisci porro ut tempora. Dolor. Adipisci magnam. Amet neque numquam ut magnam dolor ut non. Quaerat ipsum amet. Modi quaerat.');
-insert into topics (label, description) values ('Video Games', 'Magnam numquam adipisci adipisci quaerat neque magnam modi. Eius amet amet velit quiquia amet magnam etincidunt consectetur est. Eius neque. Non quaerat. Ut quaerat porro quisquam eius dolor ut magnam quisquam labore.');
-insert into topics (label, description) values ('Concepts in Entertainment', 'Est quisquam velit tempora numquam modi amet est dolor. Numquam ipsum sed magnam quaerat voluptatem etincidunt. Est. Numquam. Eius dolor ut non.');
-insert into topics (label, description) values ('Entertainment in Specific Locations', 'Velit ut est porro. Quaerat eius magnam quaerat dolore neque quisquam etincidunt quiquia dolorem. Neque neque quaerat neque dolor. Aliquam non adipisci adipisci modi labore adipisci non. Est quaerat velit ut ipsum porro adipisci.');
-insert into topics (label, description) values ('Current Events in Entertainment', 'Est modi. Quaerat eius porro. Aliquam dolorem dolorem non. Dolore ipsum magnam amet quisquam sit eius modi consectetur adipisci. Modi ipsum etincidunt labore porro porro aliquam etincidunt quisquam ipsum.');
-insert into topics (label, description) values ('Home Entertainment', 'Sit aliquam adipisci eius. Ut. Aliquam dolor consectetur dolore quiquia etincidunt. Velit sit magnam est. Quisquam etincidunt consectetur numquam. Modi. Dolor est.');
-insert into topics (label, description) values ('Television', 'Sed aliquam est magnam quiquia modi ipsum. Aliquam. Sed quaerat tempora sed dolore porro tempora. Adipisci quisquam porro quisquam eius sit quisquam. Sed ipsum. Numquam sit magnam etincidunt dolor.');
-insert into topics (label, description) values ('Adult Entertainment', 'Neque voluptatem quiquia est quisquam dolor. Ipsum labore quiquia ipsum. Numquam. Velit velit sed labore. Voluptatem. Porro amet aliquam dolore non sed ipsum velit sit. Ut etincidunt. Modi porro dolore aliquam.');
-insert into topics (label, description) values ('Events', 'Quisquam. Amet sed non amet. Voluptatem ipsum etincidunt porro neque. Quisquam eius eius sit non non velit tempora aliquam. Adipisci dolorem.');
-insert into topics (label, description) values ('Entertainers', 'Quaerat labore velit modi amet quisquam. Neque sed. Tempora eius dolor quiquia neque. Quaerat modi consectetur ut velit porro adipisci. Dolore consectetur est. Eius tempora neque neque amet numquam dolor.');
-insert into topics (label, description) values ('History of Entertainment', 'Ut. Consectetur quiquia aliquam quaerat adipisci. Neque. Eius. Non labore labore etincidunt velit. Est. Velit adipisci etincidunt consectetur sed tempora. Quisquam modi. Amet aliquam sit modi est eius.');
-insert into topics (label, description) values ('Jobs and Careers in Entertainment', 'Ut. Velit porro non quisquam magnam ipsum voluptatem quaerat est dolor. Tempora labore adipisci tempora. Dolor dolor adipisci eius. Ipsum etincidunt porro amet sit voluptatem dolore ut quiquia.');
-insert into topics (label, description) values ('Attractions (entertainment)', 'Sed. Voluptatem porro non modi sed. Sit porro etincidunt. Non quiquia amet quiquia modi quisquam non. Dolorem quisquam voluptatem sit quaerat. Labore ipsum eius. Voluptatem dolore adipisci.');
-insert into topics (label, description) values ('News', 'Dolorem. Quiquia dolore etincidunt etincidunt est sed labore voluptatem. Quaerat etincidunt aliquam sed non dolore. Etincidunt dolor modi labore dolor etincidunt velit. Adipisci neque numquam sed quiquia.');
-insert into topics (label, description) values ('Journalism', 'Amet voluptatem dolorem voluptatem amet modi. Etincidunt sed dolor. Sed porro labore quisquam. Eius quaerat. Consectetur ut neque. Porro quiquia ipsum dolor sed aliquam aliquam. Labore neque. Dolorem porro dolor adipisci modi porro.');
-insert into topics (label, description) values ('Current Events', 'Voluptatem est numquam. Dolorem velit. Quiquia aliquam. Modi. Modi porro sed velit consectetur numquam ipsum.');
-insert into topics (label, description) values ('Trends', 'Ipsum dolor ut consectetur quisquam dolorem eius. Neque adipisci dolor etincidunt tempora quaerat porro. Consectetur dolorem labore quaerat amet etincidunt numquam. Sed consectetur. Quaerat labore. Aliquam quisquam tempora sit. Sed.');
-insert into topics (label, description) values ('News and Journalism Industry', 'Non magnam neque quaerat neque. Dolore sit eius ipsum eius adipisci etincidunt tempora. Ipsum sed adipisci dolor eius tempora ipsum quisquam neque modi. Eius magnam quaerat. Velit tempora tempora neque quiquia amet quisquam.');
-insert into topics (label, description) values ('News and Journalism in Specific Fields', 'Dolorem magnam dolorem etincidunt adipisci adipisci. Sit neque. Tempora. Sed neque. Non dolor quisquam velit neque. Eius numquam quaerat etincidunt labore ut. Sit quaerat quiquia. Dolor non porro dolore consectetur quiquia.');
-insert into topics (label, description) values ('News in Specific Locations', 'Neque aliquam amet ut ipsum tempora. Dolore dolorem etincidunt non eius modi. Numquam labore ipsum porro labore quaerat modi magnam aliquam. Tempora magnam ipsum aliquam ut. Labore tempora. Velit sit magnam labore labore quaerat quisquam neque.');
-insert into topics (label, description) values ('Breaking News', 'Numquam eius voluptatem. Magnam quiquia adipisci dolore consectetur est quisquam neque. Tempora dolor consectetur etincidunt voluptatem ipsum. Magnam velit tempora numquam aliquam modi neque consectetur dolor porro. Dolore sed quiquia numquam amet.');
-insert into topics (label, description) values ('Ways to Get News', 'Porro eius neque eius. Magnam quiquia consectetur sit labore sed aliquam adipisci quiquia. Dolor neque sit. Dolor quiquia aliquam amet quisquam velit sit sed adipisci etincidunt. Tempora. Consectetur modi quisquam.');
-insert into topics (label, description) values ('Major Concepts Related to News', 'Neque numquam eius magnam est velit magnam ipsum consectetur. Voluptatem est aliquam porro labore modi numquam ipsum. Quisquam labore tempora dolore quisquam. Eius porro. Quaerat quaerat numquam ipsum. Consectetur magnam eius ut sit.');
-insert into topics (label, description) values ('Newscasters', 'Neque dolor neque porro. Ipsum ipsum adipisci quisquam non numquam eius quaerat tempora est. Est amet quiquia neque dolorem dolorem neque. Consectetur. Est aliquam dolor velit dolorem porro neque sit quiquia. Quaerat quaerat. Modi neque.');
-insert into topics (label, description) values ('News Articles', 'Labore labore magnam neque ipsum sed dolor quaerat sit magnam. Etincidunt quaerat sit quaerat labore tempora numquam voluptatem voluptatem. Dolore ipsum dolorem quiquia quisquam est modi. Magnam dolorem aliquam. Voluptatem quaerat sit ut sed labore.');
-insert into topics (label, description) values ('Popular Culture', 'Dolore consectetur dolorem amet porro eius porro numquam. Numquam quisquam ipsum quiquia. Neque est eius quisquam sit dolor. Quisquam est adipisci modi non non non velit. Dolor dolorem eius. Porro non ut aliquam tempora quaerat. Sed.');
-insert into topics (label, description) values ('Celebrities', 'Adipisci sed consectetur porro sed. Aliquam eius magnam quisquam eius sit numquam voluptatem dolore. Adipisci labore est sit modi. Neque neque voluptatem. Sed labore modi numquam quaerat.');
-insert into topics (label, description) values ('Terms in Popular Culture', 'Dolor quaerat eius ipsum etincidunt tempora ut ut porro. Sit tempora porro voluptatem. Quisquam dolore est modi porro quiquia quisquam. Sit. Eius non est dolore consectetur quiquia. Ut non neque dolor.');
-insert into topics (label, description) values ('Specific Topics in Popular Culture', 'Labore. Quisquam eius ut voluptatem etincidunt porro amet dolore. Sit. Ipsum modi labore. Est porro ut adipisci dolore tempora sit neque. Dolore. Sed dolorem velit sit est. Velit est etincidunt quisquam. Porro ut consectetur tempora. Quisquam voluptatem.');
-insert into topics (label, description) values ('Psychology of Everyday Life', 'Porro. Quaerat etincidunt adipisci velit sit. Etincidunt sit consectetur porro. Quiquia dolor quiquia non adipisci non quisquam sed. Dolore ut quiquia magnam modi est. Aliquam neque consectetur dolore quisquam magnam. Est.');
-insert into topics (label, description) values ('Major Concepts of the Physical Universe', 'Sit modi adipisci. Amet etincidunt eius voluptatem. Labore eius non voluptatem. Sit aliquam quaerat est ut dolore. Labore adipisci consectetur dolor porro voluptatem eius. Ut sit dolorem aliquam porro.');
-insert into topics (label, description) values ('Molecules', 'Dolore. Quisquam modi sit est. Labore neque est dolor porro porro magnam. Quaerat non est. Velit dolor modi quisquam amet porro aliquam quiquia consectetur velit.');
-insert into topics (label, description) values ('Matter (physics)', 'Labore adipisci eius consectetur. Est ipsum quiquia modi. Magnam labore amet neque. Dolorem. Aliquam consectetur adipisci voluptatem modi.');
-insert into topics (label, description) values ('Specific Chemical Substances', 'Consectetur sed. Tempora eius magnam dolor neque porro labore amet. Quaerat porro amet ut velit porro dolorem quaerat velit dolorem. Consectetur numquam tempora ut voluptatem velit tempora porro. Labore etincidunt dolor.');
-insert into topics (label, description) values ('Metals', 'Amet eius modi porro sit voluptatem numquam adipisci. Magnam. Neque velit quiquia porro quaerat. Magnam sit modi adipisci numquam ipsum neque est voluptatem ipsum. Voluptatem ipsum eius.');
-insert into topics (label, description) values ('Materials', 'Non est adipisci quisquam ut aliquam. Modi porro neque velit. Neque dolorem velit. Ipsum consectetur tempora labore voluptatem etincidunt sit porro modi. Sit. Ipsum amet. Numquam tempora. Magnam eius.');
-insert into topics (label, description) values ('Chemical Substances', 'Porro modi modi eius quiquia. Dolore amet tempora numquam dolorem non eius magnam quisquam. Non quaerat labore eius velit. Velit adipisci consectetur ut labore dolore. Eius dolore consectetur tempora ipsum non quisquam quiquia. Dolor neque.');
-insert into topics (label, description) values ('Life (biological)', 'Non. Sed sed est dolor quisquam sit sit etincidunt amet ut. Dolore amet voluptatem modi dolor. Voluptatem dolor porro porro quiquia tempora non magnam etincidunt non. Modi sed ipsum dolore est amet dolorem quiquia.');
-insert into topics (label, description) values ('Semiconductors', 'Quaerat consectetur eius dolor est. Aliquam ipsum consectetur eius quisquam numquam magnam velit sit numquam. Consectetur. Dolorem quiquia sit quiquia ut. Est neque quisquam adipisci adipisci modi quiquia quaerat tempora neque.');
-insert into topics (label, description) values ('Sound', 'Amet. Dolorem. Sit voluptatem. Eius modi quisquam sed tempora. Numquam dolorem. Eius neque velit neque. Eius dolorem adipisci velit ipsum.');
-insert into topics (label, description) values ('Visible Light', 'Aliquam labore tempora quiquia quaerat labore modi ipsum numquam quiquia. Amet dolorem. Quiquia. Ut modi velit non aliquam sit sed. Eius quiquia adipisci dolor quiquia quaerat dolore aliquam est magnam.');
-insert into topics (label, description) values ('Energy (physics)', 'Neque velit etincidunt eius ipsum consectetur quaerat ut voluptatem. Sit sit dolor eius tempora velit numquam etincidunt. Dolorem adipisci quaerat numquam aliquam. Tempora adipisci sit est consectetur modi. Quiquia numquam.');
-insert into topics (label, description) values ('Elementary Particles', 'Dolorem tempora voluptatem numquam. Porro consectetur. Voluptatem adipisci quaerat non etincidunt etincidunt. Velit dolore. Ipsum. Quaerat ut quiquia dolorem. Tempora quiquia ut quisquam quisquam porro dolor.');
-insert into topics (label, description) values ('Electromagnetism', 'Ipsum sit. Consectetur labore tempora velit voluptatem sed. Dolore tempora voluptatem sit aliquam. Labore. Etincidunt velit dolorem aliquam tempora consectetur. Aliquam est numquam velit est porro. Dolore voluptatem est labore. Non sit modi eius.');
-insert into topics (label, description) values ('Cells (biology)', 'Dolor sit quaerat consectetur porro. Aliquam est dolor amet ut dolorem consectetur. Tempora ipsum quisquam aliquam. Quiquia. Dolorem consectetur tempora non.');
-insert into topics (label, description) values ('Outer Space', 'Eius aliquam aliquam dolore consectetur velit dolore quaerat. Dolor ipsum non sit quaerat modi voluptatem ipsum non labore. Modi aliquam. Ut. Quiquia labore dolore. Quaerat.');
-insert into topics (label, description) values ('Human Body', 'Sit dolor neque tempora amet quisquam non. Non etincidunt est velit adipisci amet. Labore tempora dolore sed. Consectetur sed sit ipsum ipsum eius ipsum labore. Tempora porro consectetur ut labore. Amet numquam adipisci.');
-insert into topics (label, description) values ('Geography of the Physical World', 'Magnam quiquia eius est adipisci quaerat. Numquam ipsum dolorem porro magnam est. Ut eius eius adipisci etincidunt. Non etincidunt etincidunt est magnam. Magnam neque quisquam eius. Amet sit quisquam quisquam sit.');
-insert into topics (label, description) values ('The Universe', 'Dolore tempora aliquam porro. Velit eius. Numquam voluptatem aliquam sed numquam amet dolor magnam sit. Est adipisci quisquam labore. Dolore non non. Quiquia consectetur consectetur magnam non labore sed sit ipsum.');
-insert into topics (label, description) values ('Climate and Climates', 'Sed. Dolore ut tempora neque dolore tempora quisquam est dolorem. Est ut dolor adipisci eius est non dolore. Etincidunt modi ipsum eius est sit modi velit ipsum quisquam. Dolor amet. Adipisci sit quiquia etincidunt quaerat eius. Eius.');
-insert into topics (label, description) values ('Waves', 'Dolor non quiquia non quaerat voluptatem neque modi etincidunt quiquia. Dolorem dolor aliquam. Labore aliquam non. Labore adipisci porro modi etincidunt dolorem. Voluptatem magnam eius. Adipisci dolore tempora tempora non. Adipisci. Dolorem magnam.');
-insert into topics (label, description) values ('Rocks and Stones', 'Porro non. Ipsum voluptatem quisquam etincidunt etincidunt est. Adipisci sed sed neque est. Etincidunt ut non quaerat dolorem sed. Velit.');
-insert into topics (label, description) values ('Glaciers', 'Quiquia non velit. Ut porro etincidunt labore est sed dolore ipsum modi. Dolore quaerat. Quisquam. Quaerat dolore consectetur amet adipisci eius non.');
-insert into topics (label, description) values ('Humans', 'Sed velit. Magnam eius sit quaerat magnam porro dolor aliquam. Tempora sed neque dolor adipisci velit non. Modi quaerat quisquam quiquia. Numquam quisquam magnam sed. Velit numquam numquam eius modi eius ut magnam quisquam neque. Sit dolore sit.');
-insert into topics (label, description) values ('Nuclei (physics)', 'Dolore velit quisquam tempora quiquia dolor porro magnam. Adipisci quaerat eius. Quisquam sit. Numquam etincidunt dolorem amet. Tempora quiquia numquam numquam modi labore modi dolor. Sed est quisquam sit. Non sed adipisci dolorem dolore eius tempora.');
-insert into topics (label, description) values ('Antimatter', 'Etincidunt tempora voluptatem neque voluptatem aliquam sed. Porro velit tempora dolorem non. Tempora. Porro modi aliquam. Neque. Magnam porro ut quaerat. Voluptatem.');
-insert into topics (label, description) values ('Fundamental Forces', 'Voluptatem adipisci aliquam sit. Sed ipsum dolor dolor est quisquam. Dolorem quaerat voluptatem quaerat neque porro voluptatem. Porro amet voluptatem ut neque quiquia quaerat ut etincidunt voluptatem. Est neque velit magnam labore neque.');
-insert into topics (label, description) values ('Forces of Nature', 'Aliquam aliquam quaerat. Numquam non est eius porro. Quisquam aliquam velit numquam. Ipsum velit dolorem dolor ut etincidunt velit dolorem quiquia. Voluptatem tempora amet non. Quisquam aliquam sit sed consectetur etincidunt. Non numquam voluptatem.');
-insert into topics (label, description) values ('Motion (physics)', 'Non tempora quisquam modi sed. Eius quaerat dolor ut est ut aliquam non. Modi quisquam ut sit porro dolorem quaerat eius. Modi voluptatem neque modi ipsum. Quiquia. Amet adipisci amet est eius. Quiquia. Quaerat dolor eius porro etincidunt.');
-insert into topics (label, description) values ('Time (physics)', 'Eius tempora neque eius. Consectetur. Eius sit labore neque eius magnam ipsum modi. Aliquam amet. Amet adipisci amet quisquam porro dolor. Sed quaerat.');
-insert into topics (label, description) values ('Astronomical Objects', 'Eius sed consectetur quaerat sit est ipsum quisquam labore. Eius quaerat consectetur sit sed. Amet amet ut velit. Sed dolore labore. Numquam eius voluptatem quisquam neque labore dolor neque labore. Quiquia sit sit quiquia amet dolore dolor.');
-insert into topics (label, description) values ('Meteorological Phenomena', 'Dolor aliquam porro porro. Quiquia velit adipisci quisquam non magnam adipisci labore tempora amet. Quiquia modi amet dolore dolorem numquam modi. Magnam adipisci. Tempora ipsum quisquam labore etincidunt quiquia velit etincidunt dolore non.');
-insert into topics (label, description) values ('Geological Phenomena', 'Modi quiquia magnam dolore. Ipsum ut ipsum ut non sit. Aliquam ipsum amet. Magnam. Dolor eius eius non porro magnam. Non aliquam.');
-insert into topics (label, description) values ('Cosmic Rays', 'Dolorem. Aliquam quiquia consectetur ipsum consectetur quisquam quisquam quiquia. Voluptatem consectetur. Adipisci numquam ipsum adipisci ipsum consectetur consectetur. Dolorem amet modi velit quaerat. Quaerat dolorem quisquam. Magnam adipisci.');
-insert into topics (label, description) values ('Particles', 'Est aliquam consectetur non amet quaerat. Dolore velit sed sed dolor ut sit adipisci. Quisquam. Aliquam modi. Tempora dolore est porro sit velit dolore tempora est neque.');
-insert into topics (label, description) values ('Constants of Nature', 'Quiquia etincidunt. Eius est porro quisquam dolorem dolorem ipsum aliquam. Dolorem est dolor labore tempora non dolorem velit modi. Sed est ipsum porro. Dolore adipisci tempora. Dolor non. Etincidunt neque voluptatem tempora. Sed porro labore sit est ut.');
-insert into topics (label, description) values ('Spacetime', 'Velit quiquia amet. Magnam velit. Sit dolorem. Sed aliquam ipsum eius. Porro quaerat velit dolor eius.');
-insert into topics (label, description) values ('Physical Quantities', 'Labore. Neque aliquam est est consectetur. Porro aliquam aliquam dolore. Velit. Velit dolore eius. Dolor velit voluptatem porro labore sit tempora modi. Numquam magnam est magnam tempora numquam. Ut consectetur aliquam quiquia aliquam. Voluptatem.');
-insert into topics (label, description) values ('Measurements', 'Neque quaerat dolorem modi. Quaerat quiquia eius amet. Dolor ipsum quiquia quaerat non labore etincidunt sed dolorem neque. Eius tempora. Dolore neque. Tempora quiquia dolor est neque.');
-insert into topics (label, description) values ('Length (physics)', 'Sed. Etincidunt. Adipisci eius dolor amet quisquam. Sed dolore est adipisci amet modi porro eius non. Ut neque ut dolore.');
-insert into topics (label, description) values ('Rigid Bodies', 'Porro tempora. Sit aliquam modi labore neque eius aliquam magnam sed etincidunt. Est modi amet. Porro velit sit. Dolor dolor dolore voluptatem dolore modi quisquam dolorem quaerat etincidunt.');
-insert into topics (label, description) values ('Locations', 'Dolor. Sit est labore ut ut dolore adipisci. Neque dolorem ipsum dolor eius magnam dolorem. Aliquam non ipsum sit. Quaerat numquam dolor numquam ut neque non numquam quisquam ipsum.');
-insert into topics (label, description) values ('The World', 'Modi quisquam. Ipsum magnam. Sit. Aliquam velit velit. Modi ut velit tempora tempora amet. Dolore ut dolorem dolore amet sed quisquam.');
-insert into topics (label, description) values ('Topics in Specific Locations', 'Aliquam etincidunt. Amet quisquam non ut tempora amet adipisci amet. Numquam est modi neque magnam ipsum est adipisci quisquam ipsum. Consectetur amet quaerat aliquam sed quiquia non. Consectetur labore quisquam dolor dolorem sed magnam numquam non.');
-insert into topics (label, description) values ('Major Concepts Related to Locations', 'Quaerat dolorem modi est. Aliquam modi. Tempora. Quisquam velit labore amet est porro quisquam. Magnam numquam consectetur sed eius non. Porro dolore.');
-insert into topics (label, description) values ('Specific Types of Places', 'Ipsum porro. Est ipsum labore dolore ut. Velit quiquia. Aliquam amet etincidunt non neque adipisci. Consectetur labore labore sit ut dolore non porro quiquia.');
-insert into topics (label, description) values ('People', 'Ut aliquam numquam voluptatem tempora ipsum. Aliquam labore non. Quiquia quiquia neque voluptatem. Consectetur aliquam quiquia. Ut modi modi non neque quisquam modi aliquam numquam quaerat.');
-insert into topics (label, description) values ('People of Specific Countries', 'Ut adipisci sed etincidunt. Quisquam ipsum sed amet. Velit ut quisquam. Ut numquam. Modi magnam eius non eius amet quiquia sed eius. Quisquam. Magnam. Quiquia amet aliquam ipsum non dolorem quaerat dolor tempora.');
-insert into topics (label, description) values ('Individual and Group Differences', 'Sit velit dolorem. Ut etincidunt voluptatem dolorem labore. Labore voluptatem dolor quiquia tempora dolorem aliquam labore. Sit quiquia numquam numquam neque. Non sed dolore quiquia tempora.');
-insert into topics (label, description) values ('Specific Types of People', 'Aliquam etincidunt dolorem voluptatem ipsum labore. Sed dolor tempora dolor aliquam velit sit sit. Quisquam. Adipisci numquam dolore amet. Labore. Porro labore tempora sit. Etincidunt porro ipsum dolorem sed.');
-insert into topics (label, description) values ('Indigenous People', 'Labore sed tempora amet porro amet voluptatem. Amet neque consectetur consectetur magnam amet amet etincidunt. Ipsum sit numquam modi modi. Consectetur quisquam magnam ipsum dolorem voluptatem quaerat neque porro. Sed velit dolor porro tempora.');
-insert into topics (label, description) values ('Race and Ethnicity', 'Neque consectetur voluptatem magnam voluptatem quaerat consectetur etincidunt dolorem. Consectetur adipisci sit sed. Neque dolorem etincidunt sit eius. Quisquam quisquam eius est consectetur. Neque. Non dolore est numquam eius neque ipsum est aliquam.');
-insert into topics (label, description) values ('The Human Race and Condition', 'Quisquam consectetur quiquia dolor ipsum. Neque dolore labore eius. Etincidunt quiquia ipsum tempora dolorem. Modi eius amet quiquia ipsum labore magnam dolorem ipsum quisquam. Amet consectetur non tempora non.');
-insert into topics (label, description) values ('Major Concepts Related to People', 'Quisquam labore. Modi dolorem est labore neque quisquam adipisci numquam. Aliquam est neque amet est magnam consectetur. Dolor ipsum aliquam magnam sed consectetur dolore etincidunt neque. Sit.');
-insert into topics (label, description) values ('Groups of People', 'Tempora dolor quiquia non. Sit velit aliquam eius dolorem voluptatem adipisci. Tempora quisquam ipsum consectetur sed porro neque tempora est. Non dolore aliquam neque aliquam quaerat adipisci consectetur ipsum aliquam. Ipsum ipsum dolor est sit dolore.');
-insert into topics (label, description) values ('Specific Attributes of People', 'Aliquam neque dolor est porro quiquia. Voluptatem adipisci quiquia non numquam eius velit. Porro amet neque ipsum quaerat etincidunt ipsum quisquam. Non tempora neque non sed tempora quaerat. Ut eius eius. Eius ipsum non neque.');
-insert into topics (label, description) values ('Traits and Attributes', 'Voluptatem dolore est quaerat labore labore. Tempora sed dolorem sed voluptatem non consectetur sit dolore. Modi sed. Sed amet porro. Quiquia sit quaerat. Amet voluptatem. Est magnam dolore modi est sit ipsum adipisci sit sed. Eius velit.');
-insert into topics (label, description) values ('Depictions of People', 'Velit sed. Modi sit adipisci sed ut. Etincidunt tempora sed numquam ut. Porro numquam sit tempora tempora. Dolore quaerat est velit. Neque etincidunt dolor quisquam ipsum non amet labore.');
-insert into topics (label, description) values ('Demographics', 'Voluptatem numquam est dolorem non. Neque. Numquam ut numquam porro dolor modi. Dolore quisquam quisquam. Ut. Ut est tempora aliquam sit etincidunt dolorem modi.');
-insert into topics (label, description) values ('People in Specific Locations', 'Velit numquam ut. Eius dolore tempora. Labore quisquam. Sit. Quiquia dolore dolorem. Quiquia velit neque voluptatem. Sed. Consectetur ut ut consectetur quisquam. Consectetur eius sed est ut sed magnam labore.');
-insert into topics (label, description) values ('Companies, Products, and Services', 'Etincidunt dolore. Ipsum non quaerat numquam ipsum quisquam modi magnam voluptatem. Porro. Tempora non porro voluptatem modi. Tempora porro porro labore.');
-insert into topics (label, description) values ('Product and Services Comparisons', 'Dolorem. Voluptatem amet non etincidunt ipsum non est ut neque. Adipisci numquam quiquia quisquam. Labore numquam. Labore. Sed. Quiquia modi adipisci ut numquam neque dolorem sed quisquam.');
-insert into topics (label, description) values ('Major Concepts Related to Products and Services', 'Quaerat voluptatem. Eius aliquam. Sit labore sed velit. Modi sed sit tempora adipisci. Sit modi porro tempora aliquam est consectetur quiquia dolor adipisci. Ut sit. Amet. Modi dolore sit.');
-insert into topics (label, description) values ('Services', 'Numquam. Aliquam numquam tempora dolorem. Tempora non sed est. Velit neque ut ut neque est voluptatem. Eius dolore consectetur quiquia quisquam adipisci adipisci neque magnam. Labore dolor est tempora quiquia. Numquam quiquia dolore porro. Eius.');
-insert into topics (label, description) values ('Products', 'Dolorem non quisquam non quaerat voluptatem. Sit sed tempora neque etincidunt eius dolore. Etincidunt ipsum non eius quaerat. Magnam aliquam sed amet ipsum sed. Dolor.');
-insert into topics (label, description) values ('Companies, Products, and Services in Specific Locations', 'Quaerat amet magnam quiquia dolor etincidunt. Voluptatem quisquam neque velit. Tempora modi est. Quisquam. Non numquam dolorem velit tempora. Dolorem dolorem dolorem ut aliquam adipisci. Porro consectetur etincidunt aliquam.');
-insert into topics (label, description) values ('Major Concepts in the Living World', 'Aliquam eius dolorem quisquam consectetur quisquam amet. Adipisci. Sed velit labore. Tempora ipsum ut voluptatem magnam neque. Etincidunt sed. Numquam quisquam. Non modi non quisquam.');
-insert into topics (label, description) values ('Animalia (biological classification)', 'Dolorem consectetur ipsum magnam. Quisquam etincidunt neque aliquam dolor dolore amet numquam aliquam ipsum. Eius consectetur amet modi est. Dolore velit labore ipsum est neque voluptatem. Aliquam ut voluptatem aliquam numquam. Quaerat.');
-insert into topics (label, description) values ('The Environment', 'Numquam ipsum est quiquia aliquam amet porro sed ipsum velit. Dolor. Non porro ut dolore eius dolorem. Eius ut ut dolor consectetur. Ipsum aliquam non ut dolore modi. Sit amet. Quiquia consectetur voluptatem quaerat.');
-insert into topics (label, description) values ('Human and Animal Senses', 'Eius numquam. Amet dolore sit amet quaerat ut consectetur. Amet non. Consectetur tempora consectetur quaerat eius quisquam quaerat consectetur labore. Consectetur. Sed ut sit.');
-insert into topics (label, description) values ('Species', 'Eius. Ut labore adipisci. Est tempora labore quisquam. Dolorem dolorem voluptatem modi. Amet porro consectetur quisquam. Aliquam eius labore velit non.');
-insert into topics (label, description) values ('Evolution (process)', 'Modi non. Ipsum modi magnam aliquam. Magnam. Porro dolor tempora sit. Quaerat ut ipsum ipsum.');
-insert into topics (label, description) values ('Major Concepts of the Abstract Universe', 'Quaerat etincidunt dolorem dolore neque numquam velit sit modi. Eius voluptatem amet neque magnam modi consectetur velit. Consectetur ut quaerat numquam amet. Sed tempora dolore. Quiquia magnam voluptatem quaerat. Quiquia quiquia.');
-insert into topics (label, description) values ('Certainty', 'Velit consectetur quisquam quiquia eius sed velit amet ut. Amet sed eius tempora dolor non neque amet labore amet. Magnam sed. Aliquam adipisci porro sed. Velit tempora est quaerat quisquam amet. Sed dolore dolore voluptatem numquam.');
-insert into topics (label, description) values ('Information', 'Magnam labore ut eius quaerat eius. Velit adipisci tempora. Magnam aliquam modi non magnam quaerat amet. Modi sit est adipisci sed numquam quisquam quiquia numquam. Porro magnam dolore sit sit porro.');
-insert into topics (label, description) values ('Choice and Choices', 'Labore neque. Voluptatem modi. Consectetur ipsum. Ut. Non velit sed adipisci tempora. Numquam. Sit porro sed eius sed magnam aliquam. Quisquam adipisci ipsum quisquam adipisci labore etincidunt. Etincidunt.');
-insert into topics (label, description) values ('Luxury', 'Sit neque consectetur labore quisquam quiquia non tempora. Sed sed sit velit dolor sed labore dolore voluptatem. Voluptatem ut sit dolorem quaerat adipisci. Consectetur dolore sit voluptatem. Non.');
-insert into topics (label, description) values ('Belief and Beliefs', 'Porro etincidunt ipsum adipisci neque magnam dolorem aliquam consectetur modi. Adipisci. Voluptatem quisquam consectetur. Eius porro ipsum quiquia quisquam dolor dolor. Velit labore magnam. Sit sit. Sed porro quisquam tempora.');
-insert into topics (label, description) values ('Beauty', 'Consectetur ut consectetur porro. Quaerat neque non etincidunt dolorem numquam adipisci. Neque etincidunt amet ut. Etincidunt est ipsum dolorem amet amet adipisci non. Ipsum tempora.');
-insert into topics (label, description) values ('Organization', 'Non consectetur aliquam ut eius etincidunt dolore. Labore. Est ipsum eius non non ipsum quisquam. Neque dolore. Non est.');
-insert into topics (label, description) values ('Truth', 'Quiquia quiquia est ipsum. Etincidunt. Labore neque sed adipisci sed. Est quiquia dolor sit. Porro aliquam magnam tempora. Neque dolorem etincidunt dolor numquam non neque. Consectetur porro magnam numquam amet dolorem est ut voluptatem numquam.');
-insert into topics (label, description) values ('Scarcity', 'Dolore dolore amet aliquam. Modi quiquia sed eius eius. Dolorem etincidunt aliquam quiquia labore. Dolor magnam numquam. Amet quisquam dolore. Voluptatem numquam. Quisquam adipisci sed labore.');
-insert into topics (label, description) values ('Consumption', 'Porro etincidunt ipsum sit eius adipisci non. Etincidunt dolore consectetur. Modi eius sit neque amet labore adipisci dolor eius. Etincidunt voluptatem quiquia labore amet. Non.');
-insert into topics (label, description) values ('Costs', 'Dolorem. Dolor ut dolorem non dolore consectetur. Modi. Ipsum quaerat dolor modi consectetur dolore tempora. Modi modi sit ipsum modi labore sed. Etincidunt. Porro neque ut tempora non magnam est tempora.');
-insert into topics (label, description) values ('Systems', 'Ipsum magnam neque ut. Non est adipisci ipsum quisquam amet. Modi dolor modi quiquia dolorem quisquam magnam sed. Aliquam aliquam ut quisquam sed numquam neque. Numquam ut quisquam tempora magnam neque quaerat voluptatem quaerat dolor.');
-insert into topics (label, description) values ('Abstraction', 'Velit sit quaerat. Sed ut dolorem dolorem quaerat. Neque tempora quiquia quiquia. Tempora modi sed labore. Ipsum numquam non amet porro aliquam consectetur aliquam eius.');
-insert into topics (label, description) values ('Invariance', 'Dolor sed sit quisquam quiquia voluptatem voluptatem. Modi amet. Etincidunt tempora velit dolorem dolore neque voluptatem consectetur modi non. Ut neque tempora consectetur consectetur voluptatem eius modi. Eius.');
-insert into topics (label, description) values ('Presences', 'Labore modi porro consectetur neque porro eius adipisci. Modi non eius neque porro dolore dolorem. Neque velit aliquam sed adipisci etincidunt quaerat porro neque. Ipsum adipisci. Ut porro dolorem adipisci porro labore dolore. Aliquam.');
-insert into topics (label, description) values ('Calculation', 'Numquam amet etincidunt quaerat tempora. Quiquia dolor modi sed non. Eius. Neque sit velit tempora magnam quaerat ut neque dolorem amet. Magnam modi. Modi. Quisquam quisquam ut amet sed sit eius ut sed.');
-insert into topics (label, description) values ('Change and Changing', 'Voluptatem numquam aliquam sit porro dolor. Tempora labore. Modi non etincidunt magnam eius ipsum modi eius. Non eius consectetur eius sit labore sed dolorem. Non numquam porro ut modi.');
-insert into topics (label, description) values ('Representations', 'Modi eius porro non. Quiquia. Magnam. Velit porro aliquam dolor ipsum. Sed dolor neque non adipisci. Amet non velit.');
-insert into topics (label, description) values ('Visualization', 'Aliquam sed sed labore tempora quiquia labore dolor numquam consectetur. Ipsum sed dolore. Sit. Tempora sit. Non. Tempora dolor dolorem consectetur adipisci sed quisquam sit. Est ut sit est magnam tempora. Quisquam amet.');
-insert into topics (label, description) values ('Simplicity', 'Porro non velit modi quiquia tempora amet consectetur aliquam ut. Eius. Porro amet sit labore dolorem adipisci. Quiquia. Quiquia est ut ipsum. Quaerat. Eius adipisci magnam velit ipsum adipisci ipsum. Dolorem velit est sit eius magnam. Dolor.');
-insert into topics (label, description) values ('Honors and Recognition', 'Sed tempora. Modi. Amet consectetur dolore tempora voluptatem sed modi. Ut dolor quiquia. Quisquam adipisci porro eius sed quaerat tempora.');
-insert into topics (label, description) values ('Honors Societies', 'Est neque eius voluptatem voluptatem. Adipisci consectetur labore tempora dolore eius. Est quiquia quiquia. Sed adipisci amet sit. Amet etincidunt magnam magnam eius porro neque magnam. Est neque est voluptatem.');
-insert into topics (label, description) values ('Phi Theta Kappa Honor Society', 'Neque dolor. Amet est dolore non neque est. Magnam quiquia ipsum numquam ipsum. Dolorem numquam numquam tempora modi velit quaerat neque etincidunt magnam. Tempora etincidunt amet adipisci voluptatem. Modi ipsum amet labore voluptatem dolor amet velit.');
-insert into topics (label, description) values ('Phi Beta Kappa Society', 'Sit consectetur quiquia. Etincidunt ut modi labore magnam consectetur sed modi ut. Neque quaerat tempora quaerat. Magnam porro numquam tempora quisquam ut. Tempora labore.');
-insert into topics (label, description) values ('Literary Awards', 'Consectetur non quisquam est non non porro dolorem magnam labore. Amet quaerat modi. Magnam adipisci. Etincidunt etincidunt neque. Amet sit aliquam amet magnam ipsum.');
-insert into topics (label, description) values ('Pulitzer Prize', 'Modi voluptatem modi. Amet consectetur sed neque aliquam ut quisquam. Quisquam ipsum aliquam est tempora dolorem. Tempora. Consectetur dolore eius voluptatem.');
-insert into topics (label, description) values ('George Polk Award (journalism)', 'Non. Non dolor tempora tempora ut. Porro magnam eius velit. Voluptatem. Eius non aliquam est etincidunt sit adipisci. Neque.');
-insert into topics (label, description) values ('Newbery Medal Winners', 'Neque. Dolor labore etincidunt. Consectetur voluptatem voluptatem quaerat. Velit. Ipsum adipisci sed numquam. Adipisci eius ut consectetur dolore ipsum tempora ipsum velit. Neque neque dolore etincidunt dolor sit dolor. Amet quaerat porro porro neque.');
-insert into topics (label, description) values ('National Book Awards', 'Voluptatem quisquam non voluptatem sit. Amet ut consectetur tempora. Quiquia. Neque aliquam sed quiquia quaerat. Neque. Quiquia quisquam adipisci aliquam. Velit. Magnam labore consectetur ut voluptatem. Ut.');
-insert into topics (label, description) values ('Man Booker Prize', 'Dolorem amet neque amet ut. Adipisci voluptatem velit non porro est. Amet aliquam sit modi. Eius dolor magnam etincidunt. Etincidunt numquam est velit consectetur dolorem est modi porro.');
-insert into topics (label, description) values ('Caldecott Medals', 'Quiquia numquam consectetur dolore quiquia amet dolor labore. Aliquam quaerat dolore sit numquam consectetur sed quisquam. Sit. Magnam dolor quaerat labore quiquia quaerat. Labore consectetur velit velit.');
-insert into topics (label, description) values ('Book Excellence Awards', 'Consectetur magnam quiquia. Velit adipisci numquam. Dolorem aliquam labore. Voluptatem porro magnam amet dolore etincidunt consectetur tempora. Etincidunt quisquam aliquam ut etincidunt etincidunt magnam sed numquam sit. Porro ipsum etincidunt eius.');
-insert into topics (label, description) values ('Newbery Medal', 'Non tempora aliquam adipisci quiquia. Ut etincidunt eius porro ipsum labore neque quaerat. Magnam neque dolor. Voluptatem sit non ut quaerat neque modi dolore non. Labore dolore est dolor.');
-insert into topics (label, description) values ('Specific Awards', 'Non. Etincidunt est numquam quaerat porro modi consectetur aliquam. Consectetur ipsum modi non tempora modi. Eius velit est quisquam velit neque dolorem velit. Numquam ipsum voluptatem voluptatem adipisci eius neque magnam magnam.');
-insert into topics (label, description) values ('Academy Awards', 'Consectetur eius numquam modi voluptatem labore est consectetur quaerat. Aliquam. Tempora neque porro neque tempora eius. Est dolorem. Quisquam velit ipsum quisquam etincidunt tempora adipisci dolor. Modi est sed quisquam labore sit sed.');
-insert into topics (label, description) values ('Rhodes Scholars', 'Sit porro. Consectetur. Sed sit eius labore velit labore dolore sed. Neque modi. Quaerat dolorem neque labore modi tempora sit.');
-insert into topics (label, description) values ('Fields Medal', 'Voluptatem dolore dolore eius numquam tempora amet. Dolorem quaerat eius quiquia. Numquam quaerat etincidunt dolor magnam. Quiquia est dolorem. Tempora eius numquam numquam.');
-insert into topics (label, description) values ('Nobel Prizes', 'Voluptatem ut dolore porro. Voluptatem quisquam consectetur etincidunt quisquam adipisci. Porro aliquam sed. Quisquam eius. Sed neque amet dolore tempora quisquam dolore consectetur eius. Voluptatem modi tempora.');
-insert into topics (label, description) values ('Grammy Awards', 'Velit modi amet amet adipisci adipisci sit. Quiquia dolore magnam est. Eius. Velit velit dolore. Numquam aliquam sed adipisci est magnam.');
-insert into topics (label, description) values ('Tang Prize', 'Amet sit sed sit. Est tempora adipisci ut etincidunt ipsum magnam est consectetur. Dolore. Sed etincidunt tempora dolorem quisquam ipsum voluptatem. Quaerat labore adipisci eius porro. Sed aliquam. Dolorem sed eius dolorem. Dolor neque adipisci non.');
-insert into topics (label, description) values ('World Food Prize', 'Velit etincidunt eius voluptatem dolorem velit est. Tempora labore sit. Quaerat numquam etincidunt sit aliquam ipsum dolore sed porro etincidunt. Non. Velit adipisci dolorem modi non sed velit sit porro non. Modi etincidunt sit etincidunt tempora porro.');
-insert into topics (label, description) values ('Breakthrough Prize', 'Sed non aliquam ipsum voluptatem quaerat. Numquam adipisci. Velit neque ut quiquia. Eius est. Etincidunt numquam labore dolorem. Dolore. Labore velit voluptatem eius sit est dolore numquam.');
-insert into topics (label, description) values ('Charles Stark Draper Prize', 'Sit modi dolorem quaerat sed numquam. Est labore quaerat quisquam sed amet ipsum sit amet. Sed. Ut sit dolor adipisci ut sit eius. Ut dolor. Adipisci modi modi sit adipisci consectetur. Dolor dolor eius. Aliquam amet est tempora consectetur.');
-insert into topics (label, description) values ('ACM Turing Award', 'Porro. Labore tempora adipisci ipsum tempora tempora etincidunt ipsum. Modi porro ipsum tempora adipisci. Ut. Tempora neque numquam labore. Non ipsum dolore etincidunt amet dolore est ut velit. Numquam neque voluptatem.');
-insert into topics (label, description) values ('ESPYs', 'Modi aliquam voluptatem etincidunt sit tempora. Magnam quaerat. Modi numquam labore tempora modi sit est amet eius sit. Neque ipsum magnam tempora. Amet ut magnam. Quaerat velit.');
-insert into topics (label, description) values ('BET Awards', 'Quiquia neque voluptatem porro aliquam adipisci quiquia magnam. Ipsum. Dolorem ipsum aliquam quiquia quisquam velit dolor est est. Consectetur. Adipisci dolor labore.');
-insert into topics (label, description) values ('Tony Awards', 'Quiquia consectetur voluptatem magnam modi velit labore labore magnam ut. Amet modi dolore sed velit porro. Neque quaerat. Amet quaerat consectetur labore labore. Dolorem. Ipsum labore. Sed numquam.');
-insert into topics (label, description) values ('Shorty Awards', 'Quisquam ut etincidunt numquam quiquia numquam sed numquam voluptatem. Est tempora sit dolore. Sit sed. Amet eius velit dolor sit. Ut velit magnam quisquam ipsum velit quisquam sit dolore. Amet. Etincidunt quaerat magnam quaerat.');
-insert into topics (label, description) values ('IIFA Awards', 'Sit consectetur. Aliquam est non ipsum sit dolor. Consectetur dolorem. Amet consectetur est aliquam. Amet sit velit numquam sed aliquam quaerat magnam voluptatem.');
-insert into topics (label, description) values ('The Darwin Awards', 'Labore quaerat quaerat ut velit quiquia. Labore dolorem adipisci consectetur quiquia quaerat. Tempora consectetur modi aliquam dolore neque sed. Magnam etincidunt porro. Adipisci ipsum quiquia quisquam dolor amet velit. Dolore sed numquam non dolore.');
-insert into topics (label, description) values ('Emmy Awards', 'Neque dolor ipsum sit magnam labore. Magnam dolor quiquia. Dolore aliquam est ut amet sed dolorem modi. Adipisci porro eius quisquam amet dolore ut sit quisquam. Consectetur modi numquam voluptatem aliquam.');
-insert into topics (label, description) values ('American Music Awards', 'Velit amet voluptatem. Consectetur est voluptatem ipsum quaerat tempora est. Labore consectetur quisquam. Modi consectetur amet aliquam eius consectetur velit modi quaerat numquam. Velit.');
-insert into topics (label, description) values ('Golden Globe Awards', 'Neque dolor. Ipsum numquam sit. Labore. Non etincidunt. Sit dolore etincidunt dolor porro aliquam dolore quiquia. Ut porro dolorem velit modi non eius amet.');
-insert into topics (label, description) values ('MTV Video Music Awards', 'Sed. Consectetur modi velit sed est velit aliquam ut voluptatem sit. Ut. Velit velit porro adipisci ipsum ut neque voluptatem eius. Sed sit ut adipisci ipsum modi.');
-insert into topics (label, description) values ('Billboard Music Awards', 'Quaerat magnam neque etincidunt modi non voluptatem. Modi quaerat. Ut amet consectetur quiquia porro velit aliquam. Etincidunt quisquam eius. Sit quiquia sed velit eius.');
-insert into topics (label, description) values ('People''s Choice Awards', 'Magnam. Dolorem non quisquam sit dolore dolore consectetur adipisci quisquam. Neque ipsum consectetur amet dolorem velit labore quaerat. Ut amet amet ut amet numquam labore numquam non. Modi etincidunt voluptatem est. Etincidunt. Neque amet.');
-insert into topics (label, description) values ('Time Magazine''s Person of the Year', 'Aliquam ut sed. Porro velit. Porro voluptatem numquam consectetur. Est neque labore. Tempora sed amet quiquia adipisci quaerat eius non. Sit eius numquam consectetur consectetur dolor velit est.');
-insert into topics (label, description) values ('Harvard Prizes and Honors', 'Aliquam ipsum. Dolorem quiquia quisquam sed aliquam magnam quisquam. Sed dolor magnam modi adipisci tempora. Modi. Voluptatem est tempora numquam quisquam. Aliquam est.');
-insert into topics (label, description) values ('QEPrize', 'Dolor est ut etincidunt non ipsum non non. Quiquia eius labore amet labore. Sed voluptatem non. Dolor eius eius quiquia amet. Eius velit est neque quisquam voluptatem sed magnam ipsum. Quisquam amet quaerat numquam modi voluptatem neque neque.');
-insert into topics (label, description) values ('Marvin Minsky Medal', 'Ipsum aliquam. Dolorem numquam eius est labore ipsum dolorem adipisci sed. Sed quiquia sit adipisci dolore est dolore. Non tempora numquam ut dolorem adipisci numquam voluptatem. Velit est dolore. Est est modi velit sed amet ipsum.');
-insert into topics (label, description) values ('Peace Awards', 'Aliquam dolorem voluptatem amet velit dolore quaerat. Dolorem consectetur eius eius. Quiquia neque dolor consectetur. Dolore porro dolore consectetur ipsum ut adipisci. Amet dolore est ut. Neque. Quaerat tempora sed magnam magnam.');
-insert into topics (label, description) values ('Right Livelihood Award', 'Porro. Modi sed dolore labore ut. Non dolor quiquia etincidunt quiquia tempora velit dolor consectetur quaerat. Amet quaerat. Voluptatem. Aliquam dolor neque dolore aliquam.');
-insert into topics (label, description) values ('Medals and Trophies', 'Labore sed dolorem dolor sit neque velit. Quisquam aliquam. Amet dolorem aliquam. Amet quisquam quiquia velit. Ut. Sed numquam est dolorem neque non adipisci. Quiquia magnam est labore voluptatem numquam. Sit. Labore sit dolorem dolore.');
-insert into topics (label, description) values ('Orders, Decorations, and Medals', 'Dolorem ipsum. Quaerat quaerat sit ut magnam quisquam sit eius voluptatem. Dolorem etincidunt ut dolor dolore quaerat ut neque. Quaerat velit ipsum amet ipsum amet sed dolor porro sit. Aliquam eius porro. Dolore dolor.');
-insert into topics (label, description) values ('Order of the British Empire', 'Tempora labore. Quisquam sit quiquia magnam sed labore. Ut. Aliquam numquam. Aliquam aliquam ipsum consectetur velit tempora.');
-insert into topics (label, description) values ('Olympic Medals', 'Tempora adipisci non quisquam eius dolorem. Porro eius. Sit etincidunt dolor ipsum ut. Magnam porro voluptatem labore consectetur numquam. Eius.');
-insert into topics (label, description) values ('Military Medals, Awards and Decorations', 'Aliquam sed etincidunt. Quaerat amet porro. Eius voluptatem modi non quisquam. Velit ut dolor labore est. Adipisci modi consectetur.');
-insert into topics (label, description) values ('Police Medals', 'Adipisci neque sit. Eius voluptatem etincidunt dolor porro quisquam tempora. Non adipisci numquam. Neque dolore quiquia labore aliquam porro. Tempora modi ut quaerat quisquam modi amet dolor modi. Sed consectetur. Sed amet. Est voluptatem est.');
-insert into topics (label, description) values ('Brit Awards (music)', 'Sed. Quisquam sit eius. Velit magnam dolorem ipsum labore tempora labore. Amet voluptatem sed sit velit ut ipsum velit sit. Non quiquia dolorem.');
-insert into topics (label, description) values ('Royal Society''s Hughes Medal', 'Adipisci dolor quiquia quisquam dolore. Sit sit est sed dolorem. Quisquam non est magnam magnam neque consectetur. Ipsum neque. Quisquam. Modi sed numquam. Non porro porro ut. Dolore voluptatem etincidunt est. Quiquia dolor.');
-insert into topics (label, description) values ('Honors of the United States of America', 'Neque dolorem labore tempora quiquia. Modi magnam ipsum modi dolorem sit. Dolorem quaerat velit quaerat labore. Ipsum dolorem sit tempora. Aliquam est labore dolor quaerat neque.');
-insert into topics (label, description) values ('Medal of Honor', 'Voluptatem dolorem modi consectetur porro sit labore porro tempora. Numquam ut sit. Ut tempora ipsum velit aliquam voluptatem. Non non adipisci ipsum est. Modi quisquam dolor magnam neque quaerat numquam.');
-insert into topics (label, description) values ('Presidential Medal of Freedom', 'Adipisci consectetur labore dolor dolore sit velit. Non dolore consectetur non. Non tempora dolor quiquia ipsum est. Quisquam magnam quisquam eius voluptatem est adipisci voluptatem. Aliquam. Velit dolore velit modi eius quiquia etincidunt modi dolore.');
-insert into topics (label, description) values ('Congressional Gold Medal', 'Neque adipisci voluptatem. Quiquia non. Modi ipsum non neque consectetur dolore quaerat dolorem eius. Sed eius ipsum consectetur numquam numquam tempora quaerat non quaerat. Adipisci porro ut sit dolore quiquia.');
-insert into topics (label, description) values ('Awards Acceptance Speeches', 'Non ut ipsum labore quisquam dolorem dolorem non adipisci. Quiquia neque ipsum est porro. Voluptatem labore dolore magnam quisquam. Etincidunt voluptatem numquam adipisci amet sed. Non. Consectetur sed dolore ipsum quaerat dolor sed dolore modi.');
-insert into topics (label, description) values ('Indian Honours and Decoratioins', 'Aliquam amet est porro amet tempora dolorem labore porro quaerat. Quisquam modi dolore non ipsum neque. Amet aliquam voluptatem adipisci adipisci etincidunt sed non adipisci. Dolorem quaerat quisquam. Neque labore.');
-insert into topics (label, description) values ('Orders, Decorations, and Medals of India', 'Est non est. Adipisci dolore numquam adipisci consectetur aliquam etincidunt quiquia ipsum. Sit. Tempora. Non porro quaerat sit dolore.');
-insert into topics (label, description) values ('National Film Award (India)', 'Aliquam eius dolorem dolorem numquam amet consectetur dolore porro magnam. Tempora sit. Adipisci voluptatem neque. Sed dolore est consectetur neque voluptatem sed. Aliquam labore sed quiquia ipsum quiquia non neque ipsum.');
-insert into topics (label, description) values ('Movie and TV Awards', 'Ut adipisci adipisci. Numquam voluptatem modi ut amet. Quaerat eius neque ut consectetur. Adipisci numquam amet sed. Ipsum quaerat adipisci.');
-insert into topics (label, description) values ('BAFTA', 'Etincidunt. Dolorem sed aliquam sit quiquia. Etincidunt quisquam velit. Etincidunt dolor sed. Ut velit tempora. Numquam est.');
-insert into topics (label, description) values ('Movie and TV Award Shows in 2011', 'Quaerat voluptatem numquam dolor. Ut modi labore est etincidunt. Consectetur dolor eius dolore numquam. Etincidunt magnam ipsum dolorem velit ipsum dolorem consectetur labore. Velit etincidunt ipsum sit voluptatem ipsum porro porro ut velit.');
-insert into topics (label, description) values ('Teen Choice Awards', 'Consectetur. Dolore labore eius magnam amet numquam non. Adipisci tempora sit quaerat ut modi labore magnam consectetur sed. Numquam aliquam amet sit numquam adipisci dolore sed velit labore. Quiquia sed ipsum sed. Amet est est aliquam dolore.');
-insert into topics (label, description) values ('National Film Awards', 'Consectetur sit modi non dolor dolorem. Modi labore. Consectetur quaerat aliquam eius aliquam neque amet modi tempora. Labore quisquam ipsum modi. Ut etincidunt velit est dolorem ut.');
-insert into topics (label, description) values ('Halls of Fame', 'Labore aliquam amet ut. Magnam adipisci eius. Ut adipisci adipisci. Non est tempora sit etincidunt ipsum ut dolore. Velit magnam porro ut dolore velit sit quaerat tempora. Adipisci porro ipsum.');
-insert into topics (label, description) values ('Hockey Hall of Fame', 'Dolor amet. Etincidunt sit labore adipisci numquam eius quiquia. Modi. Amet quisquam quisquam amet numquam velit aliquam dolore. Etincidunt voluptatem voluptatem dolore ut.');
-insert into topics (label, description) values ('Baseball Hall of Fame', 'Voluptatem. Voluptatem quiquia velit ipsum neque voluptatem. Ut. Dolor dolor amet sed quisquam tempora. Sit est voluptatem dolore. Eius dolor labore adipisci. Aliquam aliquam ut. Sit sed neque. Velit non quiquia. Etincidunt voluptatem.');
-insert into topics (label, description) values ('WWE Hall of Fame', 'Labore etincidunt quiquia. Labore neque adipisci quiquia magnam aliquam ut neque ipsum. Dolore ipsum voluptatem consectetur. Porro neque voluptatem est. Sit ut ut modi velit quisquam eius numquam. Voluptatem quiquia. Est aliquam quiquia.');
-insert into topics (label, description) values ('Rock and Roll Hall of Fame', 'Numquam ipsum modi aliquam quaerat voluptatem velit velit. Magnam. Adipisci dolor voluptatem sit modi dolor tempora. Aliquam magnam est dolorem labore non non. Ut amet non porro tempora numquam tempora voluptatem.');
-insert into topics (label, description) values ('College Football Hall of Fame', 'Velit etincidunt dolor dolor labore non ipsum magnam. Velit. Non quaerat numquam quiquia tempora consectetur adipisci. Dolor modi numquam modi. Etincidunt.');
-insert into topics (label, description) values ('Country Music Hall of Fame and Museum', 'Voluptatem quaerat consectetur labore tempora eius. Sed est. Velit numquam non neque. Neque labore. Magnam est dolorem labore sit est sed sit voluptatem. Dolorem.');
-insert into topics (label, description) values ('World Chess Hall of Fame', 'Ipsum. Non. Ut quisquam labore. Non sit ipsum etincidunt. Etincidunt quaerat modi ipsum dolorem etincidunt velit aliquam quaerat. Quiquia. Numquam labore.');
-insert into topics (label, description) values ('World Golf Hall of Fame', 'Est etincidunt. Tempora quaerat magnam neque. Eius. Sit tempora tempora modi non quisquam consectetur. Magnam quiquia quisquam sed dolorem amet consectetur modi etincidunt non. Dolorem consectetur dolor. Magnam adipisci amet sit sed neque ipsum labore.');
-insert into topics (label, description) values ('Skateboarding Hall of Fame', 'Amet. Aliquam velit porro porro porro aliquam quaerat numquam. Sed sit. Neque eius etincidunt dolorem quiquia quiquia etincidunt quisquam adipisci. Dolorem modi aliquam neque ut. Non quiquia modi velit.');
-insert into topics (label, description) values ('Reggae Hall of Fame', 'Adipisci labore eius aliquam numquam velit ipsum ut eius. Ipsum sed quiquia numquam magnam sed non magnam eius. Voluptatem velit amet labore ut quiquia quiquia quiquia neque. Magnam modi modi. Eius ut dolore.');
-insert into topics (label, description) values ('Canadian Songwriters Hall of Fame', 'Modi modi tempora labore sed modi adipisci. Consectetur ipsum sit est modi quaerat velit dolore sed. Tempora non dolore quiquia velit. Adipisci numquam quaerat numquam dolorem numquam adipisci. Velit voluptatem.');
-insert into topics (label, description) values ('Pro Football Hall of Fame', 'Modi quisquam voluptatem neque dolore aliquam aliquam dolorem magnam. Ipsum porro dolor sit. Dolore consectetur magnam quiquia quisquam. Non labore. Etincidunt neque modi adipisci est tempora quisquam dolor. Sed est amet modi ipsum tempora dolore.');
-insert into topics (label, description) values ('International Tennis Hall of Fame', 'Magnam etincidunt quiquia dolore velit quisquam etincidunt non sit consectetur. Consectetur amet tempora est dolor labore eius. Magnam modi amet sit. Dolorem modi. Dolorem aliquam porro. Dolorem amet dolore.');
-insert into topics (label, description) values ('National Sports Media Association & Hall of Fame', 'Voluptatem eius. Est quiquia quiquia tempora etincidunt modi voluptatem. Non amet velit non velit velit quisquam quisquam. Porro est porro amet quiquia quiquia quisquam. Ipsum non ipsum numquam ipsum.');
-insert into topics (label, description) values ('Famous Engineers', 'Est quaerat aliquam quaerat. Velit adipisci amet. Sit quaerat magnam tempora quaerat modi quisquam voluptatem numquam. Dolor non amet quiquia. Dolorem voluptatem sed. Amet etincidunt sed sed quiquia dolore non dolore.');
-insert into topics (label, description) values ('Songwriters Hall of Fame', 'Sed non neque eius dolorem numquam voluptatem. Numquam etincidunt sed ut amet modi sed. Sed adipisci etincidunt non. Quiquia velit labore. Velit numquam. Aliquam magnam porro consectetur amet.');
-insert into topics (label, description) values ('Naismith Memorial Basketball Hall of Fam', 'Amet. Magnam quiquia dolore ut dolore numquam modi. Sed. Sed adipisci aliquam sit non labore ipsum. Voluptatem quiquia dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Politics', 'Magnam velit dolore etincidunt quisquam aliquam labore quiquia porro neque. Aliquam amet labore est ut dolorem non magnam numquam adipisci modi tempora voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Politics in Specific Locations', 'Non magnam quisquam quaerat quisquam ut quisquam quisquam labore tempora ipsum amet. Porro magnam etincidunt amet. Modi voluptatem modi ut consectetur est adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Political Groups, Organizations, Consultants, and Lobbyists', 'Neque velit ipsum dolor amet modi neque quisquam ipsum adipisci ipsum sit porro etincidunt quisquam. Sed amet etincidunt porro consectetur adipisci amet aliquam labore dolor dolor sed dolore amet velit.');
+
+insert into topics
+	(label, description)
+values
+	('Political News, Entertainment, and Commentary', 'Dolore adipisci neque sed ipsum numquam quaerat velit tempora velit. Tempora magnam tempora dolorem eius porro modi ut porro ipsum modi quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Politics', 'Non labore quaerat aliquam neque quiquia neque eius tempora. Adipisci magnam quaerat sed modi dolore dolore tempora dolor ut amet amet ipsum. Numquam dolor sit ut velit quiquia. Non non quisquam aliquam numquam porro eius labore ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Politics Interdisciplinary Topics', 'Ipsum porro labore magnam neque est neque sed quaerat aliquam modi quiquia neque etincidunt. Quaerat quisquam consectetur amet dolorem est consectetur aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Political Science', 'Quisquam aliquam quiquia numquam labore quisquam labore tempora. Sit dolore ipsum modi modi dolore numquam quiquia modi. Consectetur numquam voluptatem ipsum adipisci labore aliquam velit tempora amet velit quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('History of Politics', 'Aliquam eius porro tempora etincidunt porro dolor adipisci voluptatem porro dolore dolore. Velit ipsum neque adipisci numquam sed etincidunt est. Modi dolore quisquam adipisci sit est quiquia etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Politics', 'Quaerat est dolor dolorem sed dolorem dolore. Quiquia modi ut labore ipsum magnam sed ipsum. Labore numquam labore modi est etincidunt dolore sit labore.');
+
+insert into topics
+	(label, description)
+values
+	('Politics and Foreign Policy', 'Quiquia numquam voluptatem numquam. Voluptatem etincidunt numquam magnam amet dolore neque etincidunt porro. Modi etincidunt tempora eius voluptatem quaerat eius voluptatem tempora dolore labore non ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Politics in Everyday Life', 'Neque numquam quaerat ipsum. Velit labore labore velit non.');
+
+insert into topics
+	(label, description)
+values
+	('Political Systems', 'Consectetur adipisci neque modi quaerat magnam. Etincidunt amet dolorem dolore tempora dolor porro neque consectetur quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Political Philosophy', 'Porro adipisci dolore adipisci sed. Quiquia quaerat dolor velit aliquam porro adipisci neque aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Social Media and Politics', 'Consectetur amet porro velit voluptatem quaerat consectetur numquam non etincidunt dolore. Neque quiquia dolore sit quaerat magnam velit velit magnam eius ut. Labore aliquam etincidunt aliquam ipsum consectetur quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Political Behavior', 'Quaerat modi neque labore voluptatem quisquam etincidunt sed modi consectetur ipsum. Sed labore sit voluptatem dolor ut neque ut est adipisci consectetur adipisci. Tempora consectetur quaerat non magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Political Culture', 'Consectetur dolore tempora numquam est ut quisquam voluptatem labore amet dolore tempora tempora non eius. Numquam dolore voluptatem neque ut labore dolor quaerat amet numquam magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Forms of Government', 'Numquam sit quaerat dolorem ipsum dolorem sit. Labore numquam labore magnam sed quisquam magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Governments of Specific Countries', 'Est sit numquam amet adipisci sed sed. Neque numquam voluptatem numquam dolor ut quiquia amet labore quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Government', 'Quiquia adipisci etincidunt sit tempora. Aliquam etincidunt sed porro quisquam velit quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Branches of Government', 'Ipsum ut neque ipsum non ipsum velit dolor magnam. Labore sed non adipisci amet magnam eius velit ipsum. Dolorem etincidunt velit voluptatem adipisci sit sit tempora adipisci etincidunt quisquam adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Governmental Programs', 'Velit modi eius sed aliquam labore. Dolor ipsum dolor magnam amet.');
+
+insert into topics
+	(label, description)
+values
+	('National Economies', 'Ut quaerat est ut adipisci sed amet etincidunt quisquam adipisci. Labore modi aliquam eius est quaerat est modi quiquia porro porro modi etincidunt magnam. Labore non est adipisci non magnam sed. Velit labore quisquam dolorem non aliquam aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Public Goods', 'Quisquam ipsum dolorem porro ipsum. Ipsum quiquia aliquam magnam voluptatem quaerat adipisci magnam sed porro non sit sed tempora aliquam sit.');
+
+insert into topics
+	(label, description)
+values
+	('Government Typefaces', 'Est adipisci dolore adipisci dolor dolorem etincidunt sit quaerat voluptatem. Tempora eius eius consectetur consectetur est.');
+
+insert into topics
+	(label, description)
+values
+	('Policies', 'Quaerat numquam quisquam tempora est numquam. Dolorem eius quiquia magnam amet tempora magnam non modi voluptatem quaerat non numquam velit ipsum numquam. Adipisci quiquia quaerat neque magnam amet labore quaerat dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Sports Governance', 'Labore magnam tempora quaerat amet modi dolor etincidunt non sit sit quaerat neque. Sit velit etincidunt quisquam voluptatem. Velit dolor consectetur neque porro modi magnam quisquam. Ut consectetur etincidunt sed. Sit amet consectetur porro sit.');
+
+insert into topics
+	(label, description)
+values
+	('Political Governance', 'Magnam ut dolor tempora dolor dolorem magnam neque quaerat porro ut velit dolorem neque aliquam quisquam. Labore est consectetur quiquia sit ut ut adipisci velit porro ipsum sed amet etincidunt quaerat. Tempora velit sit etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Government in Specific Locations', 'Quiquia velit tempora non modi dolorem ipsum dolore. Quaerat labore voluptatem neque voluptatem magnam labore sed porro sit velit numquam amet labore quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Careers In Government', 'Adipisci quaerat quaerat ut sit neque quiquia non. Porro aliquam voluptatem numquam quisquam eius quaerat quaerat. Neque velit est aliquam quisquam dolorem amet. Tempora sit sit porro velit.');
+
+insert into topics
+	(label, description)
+values
+	('Civilian Governments', 'Adipisci ipsum aliquam dolorem modi etincidunt ut velit. Ut eius neque dolorem aliquam velit. Magnam quisquam ut porro voluptatem dolore est quaerat quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Government Departments', 'Voluptatem est sed dolorem velit quiquia amet magnam etincidunt. Dolorem voluptatem velit quiquia. Modi ut numquam adipisci sit.');
+
+insert into topics
+	(label, description)
+values
+	('Government Plans', 'Porro consectetur dolorem sed dolore magnam quisquam modi sit. Velit tempora dolore ut dolor numquam sit voluptatem numquam quisquam tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Law', 'Numquam etincidunt quiquia quiquia velit neque est. Dolor quaerat voluptatem adipisci dolorem dolore quaerat aliquam aliquam quaerat labore.');
+
+insert into topics
+	(label, description)
+values
+	('Legal Issues and Law in Everyday Life', 'Magnam quaerat eius neque dolor magnam non dolorem ipsum etincidunt dolor dolorem. Sed magnam dolorem ut etincidunt quisquam modi dolor velit amet eius non magnam. Amet aliquam dolorem sed consectetur dolorem magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Law in Specific Countries', 'Sed tempora velit voluptatem dolor tempora. Magnam sit neque voluptatem. Non quiquia sed velit est non amet quiquia dolore ipsum. Adipisci est quisquam quaerat non quaerat etincidunt tempora quisquam voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Interdisciplinary Law', 'Velit porro dolorem consectetur sit dolore eius neque velit. Amet dolore labore neque quaerat ut voluptatem voluptatem sed dolorem porro tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Legal Studies', 'Numquam dolor sit voluptatem labore adipisci dolore aliquam consectetur labore voluptatem consectetur est sit labore. Eius tempora voluptatem quisquam modi porro.');
+
+insert into topics
+	(label, description)
+values
+	('Law in Specific Subjects or Fields', 'Velit amet ipsum labore numquam amet. Sed numquam quisquam eius dolorem dolorem quisquam adipisci ipsum ut neque. Adipisci ipsum adipisci quaerat. Tempora dolor modi aliquam est modi velit consectetur velit porro magnam dolore quaerat ipsum quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Police and Law Enforcement', 'Neque neque neque quisquam tempora tempora quaerat quisquam neque neque dolorem eius. Sed etincidunt porro quisquam. Sit ut consectetur numquam amet modi voluptatem quiquia sed velit.');
+
+insert into topics
+	(label, description)
+values
+	('Legal Claims', 'Porro sed velit non tempora quisquam quaerat sit. Aliquam non etincidunt ut etincidunt etincidunt sit quiquia amet. Labore quiquia quaerat neque modi eius consectetur non dolorem modi.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Law', 'Velit aliquam sed labore voluptatem tempora quisquam dolor porro tempora. Quiquia quaerat neque consectetur voluptatem. Eius adipisci neque neque aliquam etincidunt labore amet neque etincidunt sed amet tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Personal Legal Question', 'Eius dolorem modi magnam est dolore ipsum aliquam non dolore. Eius ipsum etincidunt adipisci. Est eius ut voluptatem labore consectetur dolor sit ut est porro quisquam dolor sed.');
+
+insert into topics
+	(label, description)
+values
+	('Legal History', 'Non tempora etincidunt sit modi neque est eius consectetur voluptatem amet. Non eius modi labore quaerat consectetur amet ut consectetur dolorem velit voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Legal Education', 'Ipsum dolor quisquam aliquam neque numquam. Eius tempora neque labore aliquam eius neque. Magnam modi porro numquam amet. Dolor quisquam magnam neque dolorem etincidunt amet velit dolor magnam modi modi quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Law Firms', 'Consectetur velit aliquam modi. Dolore modi labore consectetur ipsum dolorem eius dolore sit. Modi eius consectetur magnam sit quiquia adipisci ut non eius etincidunt quaerat quiquia sit.');
+
+insert into topics
+	(label, description)
+values
+	('Legal Professionals', 'Quisquam eius ut ut ipsum eius magnam velit sit dolore sit magnam magnam consectetur aliquam. Sit sed amet quisquam ipsum numquam tempora quisquam ipsum quaerat sed adipisci quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Legal Internships', 'Dolor quisquam etincidunt quaerat. Sed quisquam porro tempora quiquia tempora dolorem est. Quisquam est aliquam neque modi velit sit quaerat. Labore magnam sit dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Law in Specific Locations', 'Dolorem amet porro porro porro eius sed quaerat neque quisquam. Sit quaerat sed consectetur dolorem porro sed dolorem magnam quaerat sit porro eius quaerat etincidunt magnam. Ut modi amet non.');
+
+insert into topics
+	(label, description)
+values
+	('Ex Post Facto Laws', 'Quisquam magnam adipisci magnam est amet. Quaerat ipsum magnam sed eius. Quiquia numquam ut modi eius velit non neque quiquia eius non tempora quiquia est.');
+
+insert into topics
+	(label, description)
+values
+	('Crime', 'Ipsum eius neque dolorem ut voluptatem etincidunt labore est ipsum labore magnam ipsum consectetur. Ipsum dolorem velit sed non quaerat modi. Adipisci ipsum magnam consectetur etincidunt quiquia dolorem ut quiquia modi non consectetur porro.');
+
+insert into topics
+	(label, description)
+values
+	('Judiciaries', 'Modi magnam aliquam ipsum dolor labore eius ut adipisci sit ut non amet dolorem. Aliquam velit est numquam magnam eius sit. Porro quisquam sit consectetur etincidunt quiquia tempora est dolorem aliquam velit est quaerat quisquam adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Punishment', 'Labore quisquam dolor dolorem numquam sit modi amet etincidunt ipsum. Est voluptatem modi dolore etincidunt magnam modi etincidunt numquam porro ipsum labore dolor dolor dolore adipisci. Non porro voluptatem non.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Justice', 'Dolorem quisquam amet labore tempora quaerat. Velit est modi sit adipisci consectetur numquam ut numquam neque quisquam etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Injustice', 'Quaerat sit modi etincidunt tempora adipisci quisquam velit quiquia aliquam sed. Voluptatem dolorem quiquia amet numquam neque adipisci dolorem ipsum neque neque ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Transitional Justice', 'Neque ut quisquam dolor velit modi ut dolorem porro porro magnam neque consectetur etincidunt. Etincidunt consectetur est consectetur sed sit dolore adipisci eius est modi eius aliquam neque numquam est.');
+
+insert into topics
+	(label, description)
+values
+	('Justice in Specific Locations', 'Porro sed neque dolorem tempora consectetur ipsum. Ut est tempora quisquam adipisci aliquam dolorem neque velit ipsum quaerat. Neque non ut non neque adipisci modi non quisquam tempora neque quisquam quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Social Justice', 'Magnam eius est dolor eius magnam sed dolor quisquam sed. Quisquam voluptatem neque consectetur aliquam modi ut quiquia. Quisquam dolorem velit tempora porro. Ut est porro modi.');
+
+insert into topics
+	(label, description)
+values
+	('International Relations', 'Voluptatem etincidunt dolorem dolor dolor velit. Aliquam sit adipisci etincidunt sed labore quaerat quisquam consectetur etincidunt etincidunt est est sit.');
+
+insert into topics
+	(label, description)
+values
+	('International Organizations and Government', 'Sit est tempora dolore aliquam sit consectetur consectetur quisquam magnam velit magnam ipsum sit. Sit quaerat adipisci aliquam eius neque porro. Sed dolor dolor quiquia numquam amet est amet quisquam. Quaerat est labore ut modi ut quaerat dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in International Relations', 'Numquam eius labore magnam sit aliquam quaerat labore neque amet etincidunt adipisci non sed numquam. Magnam adipisci labore adipisci magnam sed velit.');
+
+insert into topics
+	(label, description)
+values
+	('Journals and Magazines in International Relations', 'Sit tempora ut magnam modi non labore aliquam neque adipisci dolor. Etincidunt dolorem etincidunt quiquia etincidunt eius labore modi sit adipisci aliquam. Velit ut ipsum quiquia labore adipisci. Quiquia quiquia dolorem labore quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Current Events in World Politics', 'Ipsum porro voluptatem non non dolore ut. Dolore non labore dolorem modi. Aliquam velit neque non voluptatem quaerat. Porro non neque tempora adipisci non dolorem ut dolore tempora aliquam tempora consectetur sit labore dolorem. Quisquam velit ut dolor.');
+
+insert into topics
+	(label, description)
+values
+	('International Conflicts', 'Sed magnam ipsum sit est numquam voluptatem quiquia amet etincidunt dolore numquam consectetur. Amet porro eius porro porro modi eius dolore sit dolorem quisquam labore adipisci. Quaerat magnam sed adipisci sit.');
+
+insert into topics
+	(label, description)
+values
+	('Learning About International Relations', 'Quaerat est labore dolore labore consectetur dolorem consectetur ut. Sed quaerat modi voluptatem ipsum est adipisci dolor labore dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in International Relations', 'Quiquia ut dolore porro quiquia tempora labore est ut amet amet sit dolore. Magnam voluptatem dolore adipisci ipsum quiquia modi ut dolorem velit.');
+
+insert into topics
+	(label, description)
+values
+	('International Terrorist Organizations', 'Etincidunt aliquam amet ut dolor sed aliquam sit. Quaerat dolorem quaerat ut etincidunt non est voluptatem est. Sit labore amet etincidunt velit dolorem voluptatem adipisci dolor. Ipsum aliquam sit labore ipsum sit. Labore tempora amet quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Bilateral Relations', 'Etincidunt voluptatem neque consectetur sit quiquia eius velit labore eius est. Magnam aliquam magnam ut etincidunt magnam.');
+
+insert into topics
+	(label, description)
+values
+	('International Relations in Specific Locations', 'Velit ut est eius tempora. Aliquam quaerat est amet. Eius dolore ut labore adipisci est porro voluptatem quisquam amet.');
+
+insert into topics
+	(label, description)
+values
+	('Historical International Relations', 'Etincidunt velit labore magnam neque eius quisquam non modi dolor etincidunt ipsum. Porro consectetur dolorem dolorem dolore aliquam consectetur numquam sed ut.');
+
+insert into topics
+	(label, description)
+values
+	('Suzerainty', 'Dolor eius amet ut magnam consectetur dolorem amet est porro quaerat quiquia dolorem quiquia dolore eius. Quaerat ipsum eius adipisci etincidunt adipisci eius quiquia. Dolorem aliquam quiquia neque ut dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('International Sanctions', 'Ut est non neque sed consectetur numquam est quaerat dolorem aliquam. Amet est etincidunt consectetur. Tempora consectetur numquam modi ipsum magnam dolor labore sit dolorem est. Amet quaerat eius tempora porro dolor eius etincidunt ut non sed dolor sed.');
+
+insert into topics
+	(label, description)
+values
+	('Brinksmanship', 'Quaerat ut ipsum consectetur labore dolorem etincidunt dolore aliquam dolor consectetur sed adipisci numquam neque. Voluptatem amet non numquam amet non dolorem dolor etincidunt ut dolorem adipisci quiquia etincidunt amet aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Public Policy', 'Ut eius numquam sit. Etincidunt quiquia est ipsum ipsum eius.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Public Policy', 'Tempora quisquam etincidunt quisquam tempora ut labore quaerat velit eius quiquia magnam etincidunt. Consectetur quiquia quaerat eius neque porro ut. Consectetur eius etincidunt amet porro porro velit est eius etincidunt sed voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Public Policy Education, Careers, Organizations and History', 'Est quaerat porro eius dolore etincidunt quaerat sit. Consectetur est porro quaerat quiquia sed labore quiquia numquam non ipsum voluptatem consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Public Choice Theory', 'Voluptatem etincidunt numquam quisquam ipsum adipisci tempora numquam consectetur etincidunt. Voluptatem neque tempora eius dolore ut etincidunt quisquam dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Learning About Public Policy', 'Dolorem labore sed dolore ipsum adipisci porro dolor quiquia. Tempora porro ipsum tempora eius voluptatem tempora modi numquam eius.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Public Policy', 'Voluptatem ut quaerat adipisci sit. Dolore eius consectetur neque dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Global Issues', 'Dolor dolorem quisquam quiquia quaerat ut dolore dolorem numquam sed aliquam non aliquam. Porro velit etincidunt ipsum sed tempora aliquam sed dolore dolore sed sit. Tempora modi magnam amet quaerat. Labore eius quisquam velit adipisci quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Military', 'Labore numquam aliquam neque quiquia dolore modi neque etincidunt dolor est. Neque voluptatem voluptatem dolore labore quisquam sit consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Warfare', 'Quiquia ipsum numquam quaerat. Dolore etincidunt dolorem voluptatem quiquia ipsum voluptatem dolore est quisquam quiquia numquam quaerat non.');
+
+insert into topics
+	(label, description)
+values
+	('Military Equipment', 'Quaerat labore modi dolorem quiquia amet sed modi ipsum adipisci dolor amet numquam modi labore magnam. Magnam quisquam ut velit aliquam amet quaerat aliquam voluptatem. Porro quisquam est quaerat quaerat ut ut. Velit voluptatem eius ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Military Interdisciplinary Topics', 'Sed labore velit est quaerat quisquam porro sit dolore amet. Dolorem adipisci ut sed aliquam neque quaerat tempora velit porro consectetur est sit quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Espionage and Spying', 'Magnam porro dolorem modi non porro dolor aliquam quisquam etincidunt adipisci modi voluptatem non dolor. Neque est modi modi consectetur tempora tempora. Quisquam sit non ipsum porro magnam non quiquia eius ut consectetur voluptatem modi aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Military Defense', 'Ipsum quaerat quiquia ut tempora quiquia. Quiquia adipisci dolorem etincidunt adipisci consectetur dolorem eius magnam dolorem eius neque adipisci etincidunt ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Military Education and Training', 'Dolorem tempora quaerat amet neque sed dolorem adipisci labore quaerat sed dolore quisquam. Neque voluptatem sit dolor etincidunt amet neque porro velit tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Modern Military', 'Magnam ipsum quaerat amet tempora etincidunt. Ut sed porro magnam ut aliquam magnam amet magnam est dolorem non magnam adipisci. Voluptatem sit modi sit consectetur modi quisquam etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Military Power', 'Dolore sed labore adipisci. Quaerat modi non non dolorem. Quiquia sit consectetur dolorem aliquam aliquam consectetur. Dolorem porro dolor dolorem magnam est non numquam est amet porro.');
+
+insert into topics
+	(label, description)
+values
+	('Military Personnel', 'Magnam neque amet eius velit magnam neque dolorem dolor. Quiquia velit amet non eius amet dolorem. Voluptatem dolorem quaerat modi velit.');
+
+insert into topics
+	(label, description)
+values
+	('Defense Spending', 'Consectetur dolor voluptatem consectetur dolor quiquia voluptatem dolorem consectetur eius. Ut dolor ipsum tempora dolorem labore quiquia dolorem magnam ut magnam sed velit tempora. Non magnam porro tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Military Assessment', 'Modi numquam tempora sit neque sit numquam ut quaerat quisquam neque quiquia neque. Est amet modi ipsum. Dolor dolorem modi numquam tempora eius dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Military Logistics', 'Tempora voluptatem velit voluptatem consectetur non numquam dolore numquam dolor etincidunt ipsum. Quaerat amet dolorem aliquam modi magnam labore dolore tempora quisquam tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Military Animals', 'Consectetur tempora non adipisci. Tempora dolore dolor velit etincidunt est velit modi dolorem aliquam dolor ipsum ut dolore velit. Magnam velit etincidunt velit.');
+
+insert into topics
+	(label, description)
+values
+	('Military News', 'Consectetur dolor consectetur magnam quaerat ipsum dolorem neque. Voluptatem dolorem velit sit dolorem magnam eius quaerat quisquam amet modi dolore dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Counter-Terrorism and Counter-Insurgency', 'Ut ut sit sed magnam quaerat sed dolorem sed consectetur. Dolorem ipsum ut quiquia numquam non. Velit aliquam sed magnam labore dolore. Amet dolor dolor labore neque consectetur eius modi quisquam. Sed voluptatem porro neque tempora aliquam sed sed dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Militias', 'Est porro quisquam tempora dolore. Dolorem porro amet sed eius velit sit. Modi dolorem dolorem sed amet velit etincidunt amet quiquia quiquia consectetur porro consectetur dolor quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Military Insignia and Symbols', 'Amet neque velit velit velit numquam labore. Modi quisquam tempora eius ipsum non ut non dolor etincidunt dolore modi.');
+
+insert into topics
+	(label, description)
+values
+	('Military in Specific Locations', 'Quisquam non labore sit. Est quisquam amet dolor tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Armed Forces', 'Ipsum porro quiquia voluptatem dolorem ipsum ut labore quaerat ipsum est quisquam adipisci. Est aliquam quaerat est adipisci numquam amet tempora neque neque voluptatem aliquam aliquam adipisci quiquia velit.');
+
+insert into topics
+	(label, description)
+values
+	('Military Preparedness', 'Quiquia ut ipsum dolor velit quisquam numquam labore modi neque eius ut modi voluptatem. Eius eius eius quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Military History and Wars', 'Quiquia est etincidunt tempora eius quisquam eius quisquam modi dolorem etincidunt tempora quiquia etincidunt. Dolorem eius amet voluptatem neque ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Law and Politics', 'Voluptatem eius adipisci voluptatem sed eius. Modi quaerat dolor dolorem amet. Adipisci neque aliquam non neque amet est non tempora dolore adipisci porro dolore dolore neque.');
+
+insert into topics
+	(label, description)
+values
+	('Piracy (general)', 'Voluptatem consectetur ut labore. Aliquam eius dolor non porro. Adipisci velit amet sit sed modi est adipisci non velit quiquia eius velit.');
+
+insert into topics
+	(label, description)
+values
+	('Intellectual Property Piracy', 'Modi sed voluptatem modi sed. Ipsum velit modi dolorem eius etincidunt quisquam numquam neque eius sit magnam labore. Est labore quisquam est aliquam dolorem dolore voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Maritime Piracy', 'Quaerat neque consectetur adipisci. Ut amet voluptatem modi quaerat eius neque sit non tempora etincidunt quisquam ipsum. Ipsum quaerat numquam numquam etincidunt numquam quisquam dolorem aliquam dolor velit dolorem porro adipisci quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Humanities', 'Neque ipsum amet etincidunt quiquia quaerat quaerat dolore dolore adipisci quisquam. Magnam amet consectetur quaerat ut porro.');
+
+insert into topics
+	(label, description)
+values
+	('History', 'Dolore quisquam quiquia quisquam dolor numquam. Labore dolore tempora quisquam modi. Consectetur dolor consectetur labore neque dolorem velit etincidunt labore quaerat sed voluptatem ut. Dolore dolor sed dolore labore tempora velit labore dolore modi.');
+
+insert into topics
+	(label, description)
+values
+	('World History', 'Dolore neque tempora etincidunt dolore magnam adipisci porro quaerat quiquia etincidunt dolorem modi aliquam sed consectetur. Voluptatem consectetur est etincidunt sed quisquam amet est sed. Non quisquam sed voluptatem modi non sed est.');
+
+insert into topics
+	(label, description)
+values
+	('History of Specific Countries', 'Amet quaerat modi voluptatem amet eius dolorem numquam consectetur labore sed est magnam eius ipsum voluptatem. Consectetur quaerat amet sit labore. Neque neque amet etincidunt consectetur amet quiquia quiquia dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('History of Specific Fields', 'Ut ut modi dolorem dolore consectetur velit labore labore aliquam dolore velit dolor. Amet quaerat modi dolor quiquia sit voluptatem. Dolore dolore amet quaerat magnam voluptatem amet eius adipisci numquam magnam porro porro.');
+
+insert into topics
+	(label, description)
+values
+	('History of Specific Time Periods', 'Quaerat velit dolor adipisci magnam dolore eius. Modi aliquam etincidunt eius sit quiquia voluptatem velit tempora numquam sed dolore sit ipsum adipisci porro.');
+
+insert into topics
+	(label, description)
+values
+	('Concepts in History', 'Dolor quisquam consectetur neque consectetur dolore quisquam eius porro porro neque adipisci. Consectetur dolorem velit neque adipisci. Adipisci numquam est quaerat dolore est labore modi modi modi dolorem ut.');
+
+insert into topics
+	(label, description)
+values
+	('History Education, Careers, Organizations, and Historians', 'Dolor porro sit amet tempora velit dolorem tempora eius sed. Magnam dolore aliquam non velit ipsum magnam sit tempora quiquia tempora non labore est.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in History', 'Amet voluptatem amet sit dolor. Labore amet quaerat voluptatem aliquam numquam labore magnam est quisquam tempora velit dolor. Modi magnam dolor porro dolor porro magnam dolore. Amet modi ipsum est ipsum consectetur quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Areas of History', 'Non tempora labore non velit labore amet ipsum modi ipsum eius quaerat consectetur consectetur. Dolorem voluptatem velit numquam sed non ut sit non quaerat quaerat ipsum quiquia ut porro ipsum. Etincidunt ipsum modi modi est tempora labore.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in History', 'Est adipisci porro voluptatem dolore quaerat dolor eius sit non quisquam etincidunt magnam. Sed eius porro quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Historical Fiction', 'Neque tempora dolorem velit porro. Velit ipsum neque quaerat dolor voluptatem velit tempora amet sit aliquam consectetur neque dolorem adipisci etincidunt. Dolor modi dolor dolore labore adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Chronology', 'Quisquam velit modi adipisci voluptatem modi. Voluptatem magnam sit quaerat magnam eius adipisci. Neque est velit ipsum labore quaerat non consectetur quisquam quaerat quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Liberal Arts', 'Quaerat adipisci dolor sit quisquam sit neque voluptatem porro adipisci eius quisquam labore dolorem. Neque aliquam dolorem numquam amet dolore tempora sed neque sit ipsum labore non sit.');
+
+insert into topics
+	(label, description)
+values
+	('Learning About Liberal Arts', 'Neque quaerat consectetur voluptatem sed magnam aliquam ipsum dolore quaerat. Eius velit quaerat eius dolor aliquam. Quisquam aliquam dolorem quiquia dolor aliquam eius amet. Quisquam aliquam ut sit non tempora porro magnam sed aliquam magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Liberal Arts', 'Dolore non quiquia quaerat adipisci. Porro non quisquam eius consectetur non numquam adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Liberal Arts Education', 'Quiquia non non amet adipisci amet voluptatem magnam. Velit etincidunt consectetur est magnam aliquam est quiquia ut eius numquam etincidunt. Non quaerat numquam voluptatem est porro est labore dolorem consectetur dolor dolore ut dolore sit amet.');
+
+insert into topics
+	(label, description)
+values
+	('Language', 'Consectetur aliquam tempora dolore ut sed non dolore est dolor magnam dolore. Sit dolor voluptatem consectetur. Eius modi neque quiquia dolorem dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Grammar', 'Sit modi est modi neque neque voluptatem. Quiquia amet ut voluptatem velit. Ipsum velit neque ut dolore dolorem porro sed porro adipisci. Dolor consectetur numquam dolorem quisquam velit numquam. Ut eius tempora aliquam eius aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Parts of Written Language', 'Dolor modi eius quiquia etincidunt consectetur ut labore quisquam quaerat. Quisquam ut velit neque dolorem consectetur porro. Eius modi tempora est dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Pronunciation', 'Quaerat dolore sed numquam dolor dolore non quiquia sit neque magnam dolore labore. Dolor porro magnam modi dolor dolore labore consectetur velit aliquam quiquia eius.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Language', 'Magnam labore eius quiquia dolor sit magnam aliquam ut magnam sed aliquam. Dolorem dolor porro modi porro magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Languages', 'Non porro est quaerat consectetur quiquia etincidunt eius tempora ipsum est sit numquam consectetur quaerat non. Modi ut etincidunt quiquia adipisci dolorem magnam modi ut dolor quaerat magnam non quaerat. Est labore modi neque voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Learning Languages', 'Quisquam modi consectetur sit quaerat magnam neque non numquam non consectetur numquam ipsum velit quisquam etincidunt. Eius non porro labore ipsum non tempora ipsum labore adipisci ipsum neque numquam tempora dolore eius.');
+
+insert into topics
+	(label, description)
+values
+	('Language Translation', 'Modi amet quaerat quaerat non sit dolorem ipsum. Dolorem quaerat numquam sed dolorem velit non aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Language Differences', 'Sed consectetur velit eius consectetur. Ut quisquam amet eius amet sed velit consectetur numquam quisquam consectetur. Magnam numquam sit est aliquam amet.');
+
+insert into topics
+	(label, description)
+values
+	('Language and Mysticism', 'Amet consectetur dolore tempora sed consectetur tempora etincidunt est voluptatem numquam labore etincidunt adipisci sit voluptatem. Ipsum ut sed labore sed tempora adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Language Identification', 'Dolor magnam dolore etincidunt quisquam quiquia numquam consectetur velit aliquam adipisci modi quiquia. Quisquam dolore etincidunt quaerat ut consectetur velit dolorem labore.');
+
+insert into topics
+	(label, description)
+values
+	('Childhood Language', 'Porro consectetur modi est amet quiquia modi etincidunt neque sed porro tempora. Magnam voluptatem velit amet ipsum quisquam amet eius velit.');
+
+insert into topics
+	(label, description)
+values
+	('Translation and Translations', 'Dolore ut porro neque dolore sed. Non sed quiquia dolore sit dolore est quaerat non labore dolorem quisquam dolorem est sed voluptatem. Sit numquam labore dolor aliquam voluptatem dolor modi.');
+
+insert into topics
+	(label, description)
+values
+	('Language in Specific Locations', 'Dolor porro neque aliquam labore sit sed est quisquam etincidunt quaerat. Non sed quaerat modi quisquam amet ut tempora labore tempora. Etincidunt sit numquam adipisci numquam amet magnam magnam ut velit dolorem numquam sit numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Language Proficiency', 'Quaerat est amet numquam quiquia velit modi velit est. Quaerat modi aliquam ipsum amet tempora labore velit eius dolorem sed neque quiquia eius. Voluptatem voluptatem quisquam amet eius modi velit.');
+
+insert into topics
+	(label, description)
+values
+	('Natural Language', 'Etincidunt velit quaerat velit velit ipsum est amet aliquam numquam velit dolor adipisci tempora sit. Neque velit dolore est sit dolore est quaerat etincidunt sit.');
+
+insert into topics
+	(label, description)
+values
+	('Language Development', 'Ipsum dolorem magnam etincidunt ut ipsum aliquam eius neque magnam labore eius quiquia dolor quaerat labore. Modi ut consectetur sit.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Languages', 'Sed etincidunt dolor modi neque sit modi quaerat consectetur dolore modi adipisci dolore. Eius porro non porro non velit modi porro consectetur neque amet.');
+
+insert into topics
+	(label, description)
+values
+	('Acronyms', 'Eius magnam tempora velit dolorem. Quiquia etincidunt porro labore neque sit quaerat. Modi quisquam porro ipsum velit etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('The Arts', 'Porro dolore aliquam numquam eius quisquam quiquia. Sit amet ipsum tempora magnam voluptatem etincidunt quiquia est velit modi velit neque numquam. Quisquam dolor modi neque. Quisquam non magnam tempora eius sit.');
+
+insert into topics
+	(label, description)
+values
+	('Crafts (art)', 'Quaerat labore labore aliquam. Labore eius etincidunt dolor ut neque modi magnam quiquia ut adipisci adipisci magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Artists and Creative Professions', 'Modi est neque ipsum sit magnam neque dolor tempora quiquia. Dolor quisquam quisquam porro quaerat magnam eius sed velit velit tempora est. Adipisci porro quiquia adipisci quaerat eius numquam magnam magnam eius non.');
+
+insert into topics
+	(label, description)
+values
+	('Performing Arts', 'Tempora porro numquam quisquam magnam dolorem aliquam porro numquam aliquam porro aliquam consectetur consectetur numquam quaerat. Numquam ut dolore sed quaerat ut consectetur dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Visual Arts', 'Porro adipisci dolorem magnam porro tempora labore voluptatem est numquam quaerat velit quaerat. Labore dolor amet ut neque sit dolorem est porro quisquam. Voluptatem quiquia ut sit neque porro porro modi ut quaerat aliquam consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Concepts in Art', 'Velit ipsum voluptatem etincidunt modi tempora etincidunt ipsum non dolore dolor quisquam consectetur non non. Adipisci adipisci non dolorem ipsum aliquam eius non sit dolor ut.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in the Arts', 'Magnam aliquam consectetur quaerat non consectetur velit adipisci sit. Ipsum ut aliquam eius amet ipsum quisquam sit eius. Eius ut neque quaerat quisquam magnam dolorem consectetur dolor. Ut numquam etincidunt dolore sed adipisci eius ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in the Arts', 'Numquam ut dolor numquam ipsum velit labore velit voluptatem amet voluptatem. Tempora quisquam sit quaerat modi consectetur ut quiquia tempora sit consectetur dolorem numquam aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Culture and the Arts', 'Aliquam velit adipisci velit numquam magnam etincidunt dolor sed ut dolorem. Aliquam quiquia ut voluptatem porro ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Art Business', 'Dolore numquam dolor aliquam numquam ut consectetur neque. Quisquam amet sed consectetur numquam ipsum quisquam porro dolor consectetur amet quaerat est. Est quaerat dolore modi ut adipisci quaerat amet. Quiquia velit aliquam voluptatem amet amet.');
+
+insert into topics
+	(label, description)
+values
+	('Anthropology', 'Porro eius sed ipsum quaerat eius ipsum. Tempora quiquia etincidunt quiquia quiquia amet amet dolorem tempora dolorem ipsum. Consectetur aliquam porro eius sed sit modi. Quisquam etincidunt labore non sed dolor sit.');
+
+insert into topics
+	(label, description)
+values
+	('Anthropology of Everyday Life', 'Dolore ut voluptatem quisquam ipsum dolor porro ut labore non modi sed ut non consectetur. Ipsum dolor dolore eius voluptatem ut ipsum quisquam voluptatem etincidunt etincidunt tempora sit.');
+
+insert into topics
+	(label, description)
+values
+	('History of Anthropology', 'Adipisci neque sit quiquia modi quiquia modi etincidunt etincidunt dolor porro ut quiquia aliquam dolorem. Consectetur neque etincidunt magnam dolore sit etincidunt quaerat consectetur modi est.');
+
+insert into topics
+	(label, description)
+values
+	('Learning About Anthropology', 'Tempora velit sit amet quaerat quisquam quisquam dolorem. Dolorem voluptatem porro velit neque ut. Magnam quiquia quiquia dolore aliquam quiquia numquam ut.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Anthropology', 'Velit dolorem numquam sed adipisci labore sit voluptatem amet porro dolorem velit. Numquam magnam aliquam numquam sed voluptatem quisquam tempora ipsum neque etincidunt modi. Quiquia non labore etincidunt magnam modi tempora ipsum ut est ut.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Anthropology', 'Quisquam voluptatem velit quaerat numquam ut non ut sed. Quaerat etincidunt numquam ipsum labore quaerat neque non aliquam sit quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Structuralism', 'Magnam amet aliquam voluptatem sit adipisci quisquam. Ut voluptatem sed velit eius amet velit.');
+
+insert into topics
+	(label, description)
+values
+	('Anthropology Literature', 'Adipisci est dolor sed etincidunt. Neque labore consectetur quiquia porro sit voluptatem porro labore tempora dolore numquam dolore dolore dolor labore.');
+
+insert into topics
+	(label, description)
+values
+	('Cultural History', 'Est eius quiquia aliquam ut dolorem magnam voluptatem. Non aliquam non numquam consectetur tempora porro velit tempora adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Musicology', 'Dolore velit adipisci eius voluptatem etincidunt consectetur neque. Dolor quiquia dolorem dolorem dolor voluptatem sed est. Etincidunt numquam adipisci dolorem est porro est quaerat numquam voluptatem modi. Modi labore tempora dolor consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Music Theory', 'Neque sit non quaerat adipisci quisquam est eius sit ipsum ut. Adipisci ipsum dolorem neque. Dolor quisquam velit dolorem non ut. Porro amet ut neque sit neque quisquam sed voluptatem aliquam tempora ipsum magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Music History', 'Aliquam numquam neque ut sed dolore. Ipsum velit aliquam neque ut neque quisquam dolor consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Ethnomusicology', 'Est ut sit quiquia dolor sit amet magnam. Modi dolore numquam tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Popular Music Studies', 'Amet porro eius quaerat amet neque consectetur sit non neque quaerat dolore ipsum etincidunt. Sed velit ut magnam sit sit sit magnam etincidunt. Velit quiquia voluptatem sit dolor neque.');
+
+insert into topics
+	(label, description)
+values
+	('Psychology of Music', 'Tempora etincidunt etincidunt numquam quisquam sed ut labore velit porro modi dolorem amet dolore quiquia quaerat. Sed neque tempora labore velit voluptatem. Tempora eius etincidunt aliquam adipisci ipsum non velit.');
+
+insert into topics
+	(label, description)
+values
+	('Musicology Research', 'Dolor voluptatem velit sit labore magnam aliquam neque velit modi ipsum. Magnam voluptatem non aliquam. Porro amet consectetur aliquam. Tempora velit ut neque amet quiquia ut magnam aliquam quiquia est sit velit non quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Religious Studies', 'Ut sit est est. Sed labore magnam neque. Ipsum magnam eius ipsum quaerat dolorem. Porro numquam dolore tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Anthropology of Religion', 'Dolor labore dolor dolorem amet dolorem aliquam neque. Voluptatem quisquam quaerat ipsum amet. Dolorem ipsum neque dolorem quaerat velit velit neque velit ipsum adipisci consectetur eius adipisci dolore tempora. Eius modi dolorem adipisci sit.');
+
+insert into topics
+	(label, description)
+values
+	('Learning About Religious Studies', 'Magnam est porro quiquia. Est est neque modi amet est dolor tempora neque dolore neque quiquia dolorem amet magnam. Ut consectetur est dolor dolor numquam tempora quisquam magnam amet dolorem eius est.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Religious Studies', 'Adipisci modi consectetur modi adipisci consectetur voluptatem porro porro amet. Consectetur ipsum adipisci velit voluptatem modi amet adipisci ut ut amet consectetur velit voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Religious Education', 'Numquam etincidunt etincidunt aliquam sit magnam quisquam porro. Ut dolorem amet aliquam quisquam eius est amet labore sit adipisci est sit ipsum numquam amet. Quaerat sit quisquam eius.');
+
+insert into topics
+	(label, description)
+values
+	('Criticism of Religion', 'Numquam sit adipisci quiquia numquam porro aliquam ut amet amet numquam. Porro eius non dolore porro quiquia non consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Sociology of Religion', 'Numquam velit amet consectetur ut. Aliquam ut neque tempora eius modi tempora voluptatem porro magnam tempora porro magnam non adipisci neque. Etincidunt voluptatem etincidunt non sit ipsum quiquia magnam porro ipsum est.');
+
+insert into topics
+	(label, description)
+values
+	('Religious Content on Quora', 'Amet eius dolor quisquam sed. Magnam quaerat velit est modi est.');
+
+insert into topics
+	(label, description)
+values
+	('Catholic Studies', 'Quisquam sed est labore. Tempora non eius numquam tempora amet quaerat dolore. Est dolor est velit ipsum sit velit quaerat quisquam numquam dolore magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Rhetoric', 'Etincidunt neque dolore modi ipsum etincidunt etincidunt quiquia quisquam dolor neque magnam modi labore labore. Consectetur porro porro etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Ad Hominem', 'Ipsum porro ipsum amet voluptatem sit velit voluptatem magnam eius dolor numquam dolor magnam voluptatem labore. Dolore quaerat velit ipsum porro labore est est tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Guilt by Association', 'Quisquam est quisquam aliquam labore non modi est dolorem est non dolorem velit eius. Ipsum velit quaerat quaerat magnam ut eius eius quiquia ipsum ut non est.');
+
+insert into topics
+	(label, description)
+values
+	('Appeal to Authority', 'Neque quiquia porro tempora neque tempora dolore quiquia velit eius eius neque voluptatem modi quiquia. Ipsum ipsum quisquam velit sed.');
+
+insert into topics
+	(label, description)
+values
+	('Strawman Argument', 'Amet dolore labore labore modi modi sit velit porro etincidunt ipsum quaerat. Ipsum aliquam sed ipsum non modi adipisci eius velit magnam quisquam quiquia sit.');
+
+insert into topics
+	(label, description)
+values
+	('Hyperbole', 'Dolorem tempora sit magnam. Porro neque aliquam adipisci eius.');
+
+insert into topics
+	(label, description)
+values
+	('False Dichotomy', 'Velit dolorem eius dolorem. Voluptatem ipsum magnam eius eius quisquam. Consectetur velit quiquia neque amet dolore. Velit modi ipsum modi tempora dolorem adipisci dolor velit adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Special Pleading', 'Consectetur dolor numquam etincidunt. Quaerat quaerat est quiquia labore numquam modi sit etincidunt sit amet labore voluptatem sit. Adipisci consectetur sit neque sed sed numquam sed quiquia ipsum aliquam modi quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Litotes', 'Numquam dolore tempora quaerat magnam tempora quaerat dolorem sit est velit numquam quiquia adipisci sed sit. Tempora dolorem magnam dolor quisquam dolorem neque amet quiquia quisquam non sit ut.');
+
+insert into topics
+	(label, description)
+values
+	('Reductio ad Absurdum', 'Non eius porro dolor quaerat eius quisquam. Consectetur labore adipisci ipsum velit non ipsum non quisquam consectetur tempora tempora est eius.');
+
+insert into topics
+	(label, description)
+values
+	('Derailing Tactics', 'Amet velit eius modi modi amet tempora. Amet est quiquia sed dolor dolorem ipsum non. Sit quiquia porro labore numquam quisquam numquam. Dolore tempora dolor ipsum magnam etincidunt aliquam. Non ipsum porro eius neque est.');
+
+insert into topics
+	(label, description)
+values
+	('Political Rhetoric', 'Ut sed quiquia velit amet dolorem porro velit. Quiquia ipsum tempora sit aliquam. Numquam aliquam consectetur sed. Etincidunt tempora quaerat quiquia est neque modi velit est dolorem dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Slippery Slope', 'Quisquam aliquam velit quisquam magnam labore magnam voluptatem. Magnam quisquam sed ut eius velit.');
+
+insert into topics
+	(label, description)
+values
+	('Debates', 'Velit modi porro quisquam tempora ut adipisci. Porro sed magnam eius quiquia magnam velit quaerat porro modi non.');
+
+insert into topics
+	(label, description)
+values
+	('Appeals to Emotion', 'Amet dolor ipsum neque dolorem voluptatem quaerat sed numquam quiquia quaerat magnam ipsum est amet magnam. Dolor eius velit etincidunt non voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Learning About Legal Studies', 'Neque labore non velit adipisci labore quaerat sed aliquam sed porro adipisci adipisci porro quaerat dolorem. Eius ipsum est voluptatem non amet. Consectetur ut neque neque sit.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Legal Studies', 'Voluptatem sit quisquam eius quaerat dolorem dolore porro dolore dolorem consectetur aliquam modi. Ut sed quisquam ut. Eius non etincidunt dolor etincidunt dolore voluptatem. Voluptatem modi numquam ut eius dolor dolorem aliquam quiquia magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Practice of Law', 'Dolorem amet eius voluptatem dolore sed adipisci neque quaerat labore porro neque eius ut dolorem quiquia. Tempora amet voluptatem ut ipsum quiquia. Aliquam quisquam ut est quaerat non non.');
+
+insert into topics
+	(label, description)
+values
+	('Cultural Studies', 'Quisquam ut quisquam porro quaerat ipsum labore aliquam etincidunt. Amet numquam consectetur dolorem numquam magnam dolor quisquam tempora dolorem adipisci. Quaerat tempora non dolorem labore.');
+
+insert into topics
+	(label, description)
+values
+	('Study of Open Culture', 'Non quaerat dolore non. Sed amet sit neque non. Quisquam aliquam dolorem sit dolorem voluptatem ipsum labore eius consectetur ut.');
+
+insert into topics
+	(label, description)
+values
+	('Cultural Turn', 'Porro tempora dolorem eius etincidunt est quiquia non voluptatem eius quisquam. Dolor magnam eius sit dolor est etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Reappropriation (cultural studies)', 'Non neque adipisci quisquam quaerat est. Eius labore numquam ut tempora labore tempora est quaerat velit porro magnam. Est est labore tempora amet sed labore dolor ut ipsum consectetur sed voluptatem labore adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Center for Contemporary Cultural Studies', 'Numquam dolorem labore amet ipsum voluptatem modi labore velit voluptatem dolorem. Etincidunt adipisci est voluptatem voluptatem dolorem porro quisquam etincidunt numquam modi amet non dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Material Culture Theory', 'Dolorem non amet dolore numquam labore consectetur dolore quiquia amet dolorem magnam quisquam tempora. Amet dolorem voluptatem quisquam eius non. Sit velit quiquia tempora est consectetur dolorem tempora. Ipsum amet modi neque.');
+
+insert into topics
+	(label, description)
+values
+	('Classics', 'Ipsum quaerat voluptatem numquam magnam modi neque magnam adipisci neque modi velit dolor magnam voluptatem ipsum. Etincidunt velit velit tempora ipsum modi sed.');
+
+insert into topics
+	(label, description)
+values
+	('Roman Literature', 'Magnam aliquam quaerat sit. Adipisci quiquia magnam neque adipisci consectetur porro velit quisquam modi sit quaerat ut dolorem. Adipisci ipsum etincidunt quisquam modi numquam voluptatem. Quiquia adipisci modi quisquam porro. Ut velit neque est.');
+
+insert into topics
+	(label, description)
+values
+	('Greek Mythology', 'Aliquam adipisci quiquia magnam tempora quisquam dolore eius voluptatem velit. Numquam eius dolore voluptatem. Sit est quaerat etincidunt. Tempora dolorem magnam dolore etincidunt dolore ut modi modi labore numquam velit sit quaerat sed quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Greek Literature', 'Eius non dolorem labore sed modi quisquam dolore sit labore dolorem. Tempora dolore numquam consectetur quiquia dolore non eius est quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Humanities Education', 'Dolor aliquam quiquia quisquam dolor. Dolorem dolor dolore quiquia dolorem labore voluptatem. Amet dolore quiquia ipsum sed modi ipsum porro voluptatem quisquam quaerat etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Philosophy Education', 'Quiquia tempora ipsum dolorem porro. Sit numquam ipsum aliquam velit numquam adipisci dolorem modi dolor etincidunt eius adipisci. Est aliquam ipsum ipsum amet adipisci velit quisquam dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Teaching History and History Education', 'Ipsum ipsum amet non ipsum dolore dolor non est dolor sit ut. Sit voluptatem consectetur ut dolore. Labore consectetur porro sed quaerat. Consectetur etincidunt consectetur voluptatem eius ut sit non adipisci ut amet dolor eius non.');
+
+insert into topics
+	(label, description)
+values
+	('Music Education', 'Eius adipisci porro porro neque velit porro velit velit consectetur etincidunt non. Dolorem dolore magnam dolor quisquam est est dolore numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Schools of Religious Studies', 'Quisquam non sed amet. Dolorem dolorem porro sed modi non tempora consectetur aliquam sed magnam velit tempora quiquia modi. Quaerat numquam dolorem magnam neque etincidunt etincidunt magnam modi. Labore magnam magnam ut adipisci magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Classical Education', 'Velit eius consectetur sit est voluptatem labore voluptatem non est ut. Aliquam ipsum labore aliquam ipsum dolore ipsum neque non est. Labore non porro tempora sed.');
+
+insert into topics
+	(label, description)
+values
+	('Art Education', 'Labore sed velit dolore sed numquam etincidunt. Aliquam etincidunt magnam modi voluptatem est modi non sed etincidunt porro numquam porro ipsum. Voluptatem quisquam magnam etincidunt consectetur labore quiquia est aliquam quaerat est modi.');
+
+insert into topics
+	(label, description)
+values
+	('Humanities Awards', 'Ut dolore velit dolorem voluptatem non adipisci ut quaerat. Magnam consectetur quaerat quaerat. Dolore quisquam etincidunt adipisci aliquam non dolore. Dolorem tempora quaerat dolore quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Awards for Contributions to Society and Culture', 'Velit dolor etincidunt velit modi. Labore porro voluptatem voluptatem labore neque labore amet.');
+
+insert into topics
+	(label, description)
+values
+	('Humanities Journals', 'Voluptatem quiquia quaerat dolor consectetur modi est sit labore quiquia consectetur eius dolorem sed est quiquia. Porro eius aliquam neque etincidunt sit consectetur dolor etincidunt labore labore sit dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Cultural Journalism', 'Modi amet amet adipisci. Magnam sed magnam eius porro etincidunt dolor non numquam numquam sed quisquam. Amet porro eius ut.');
+
+insert into topics
+	(label, description)
+values
+	('Philosophy', 'Quaerat aliquam labore sed amet consectetur porro quaerat dolorem sit quaerat ut. Tempora aliquam amet aliquam neque neque ipsum neque. Sed voluptatem dolor adipisci dolor. Labore velit tempora non eius magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Philosophical Traditions and Schools', 'Consectetur dolorem sit quiquia amet modi neque quaerat labore ipsum dolor. Tempora sed magnam dolorem ut dolorem numquam ut sed modi magnam numquam. Consectetur modi eius sit voluptatem velit non sed aliquam quisquam quiquia dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Philosophers', 'Consectetur etincidunt ipsum voluptatem quaerat quaerat neque eius velit dolorem velit amet quiquia numquam dolorem. Aliquam voluptatem adipisci quisquam quaerat eius dolor quisquam non voluptatem labore quaerat dolore non sit ut.');
+
+insert into topics
+	(label, description)
+values
+	('Major Questions in Philosophy', 'Eius dolor eius etincidunt amet adipisci eius magnam numquam dolore dolore sit eius. Quaerat quaerat labore quiquia quiquia neque velit ipsum quiquia quiquia adipisci voluptatem. Est ut quisquam sit quiquia ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Philosophy of Specific Subjects', 'Ipsum tempora numquam eius ut eius est dolore magnam modi labore quaerat. Adipisci consectetur ut numquam numquam dolore porro. Labore dolore numquam consectetur quaerat magnam labore consectetur adipisci etincidunt amet dolore ipsum adipisci dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Philosophy of Everyday Life', 'Ut dolorem amet aliquam dolor. Amet porro amet consectetur eius quaerat neque quaerat adipisci ut consectetur modi.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Philosophy', 'Voluptatem tempora dolorem eius tempora est numquam. Labore aliquam voluptatem neque. Dolor quiquia non tempora labore tempora neque numquam porro quiquia neque quaerat sit modi sit etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Philosophy Education, Careers, Organizations, and History', 'Labore tempora aliquam eius quaerat. Neque non amet eius ut tempora sit ut dolore est velit quisquam adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Learning About Philosophy', 'Amet sed tempora neque consectetur dolore voluptatem dolore consectetur dolor labore. Aliquam non sed labore dolorem adipisci adipisci consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Women in Philosophy', 'Adipisci amet porro magnam dolorem magnam etincidunt adipisci ipsum voluptatem porro tempora etincidunt etincidunt dolor quiquia. Consectetur sit magnam quisquam ipsum magnam est velit.');
+
+insert into topics
+	(label, description)
+values
+	('Philosophy in Specific Times', 'Neque ipsum est ut numquam etincidunt adipisci amet quisquam amet neque dolor velit neque quaerat sit. Dolore labore dolore etincidunt labore magnam consectetur etincidunt etincidunt magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Renaissance Philosophy', 'Tempora eius amet adipisci consectetur non sed velit dolor. Dolore neque non quisquam aliquam consectetur consectetur sed etincidunt voluptatem consectetur neque labore magnam etincidunt labore.');
+
+insert into topics
+	(label, description)
+values
+	('Religion', 'Etincidunt modi amet tempora magnam etincidunt aliquam dolor ut quaerat magnam eius. Ipsum dolore adipisci non neque numquam. Dolor ipsum labore magnam. Voluptatem numquam sit eius adipisci sit sed.');
+
+insert into topics
+	(label, description)
+values
+	('Denominations and Organized Religion', 'Adipisci est dolore dolor dolor quiquia velit labore porro tempora numquam non. Numquam ipsum tempora adipisci labore etincidunt magnam. Dolorem etincidunt porro labore est neque dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Religion Interdisciplinary Topics', 'Dolorem aliquam consectetur modi sit velit porro dolor ut quiquia adipisci etincidunt. Sit dolorem quisquam voluptatem ut amet numquam magnam. Ipsum dolorem aliquam est sit dolorem modi.');
+
+insert into topics
+	(label, description)
+values
+	('Religious Education, Careers, Organizations and History', 'Dolorem sit velit aliquam consectetur etincidunt velit magnam. Sit labore porro non. Labore aliquam voluptatem non ut sit est. Sed dolor porro amet modi numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Religion', 'Modi aliquam consectetur quiquia neque amet ipsum quisquam tempora quiquia aliquam non. Adipisci magnam modi magnam quiquia ut sed est quisquam numquam est non adipisci etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Comparative Religion', 'Porro aliquam dolorem quiquia sed velit porro eius eius quiquia voluptatem sit neque. Velit ut sit aliquam ipsum non non eius quaerat adipisci dolorem tempora. Dolorem est adipisci neque dolorem quisquam. Sit labore sed amet magnam quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Anti-Religion Beliefs', 'Adipisci numquam etincidunt consectetur quaerat etincidunt quisquam velit porro dolore etincidunt tempora voluptatem sed dolorem aliquam. Neque sed sed quaerat sed quisquam sit labore numquam quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Religion in Specific Locations', 'Consectetur non quaerat sit. Aliquam labore porro dolore ut. Numquam numquam porro eius est sit etincidunt quiquia. Velit non dolore etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Women in Specific Religions', 'Est ut porro velit quiquia aliquam quisquam velit tempora quaerat quiquia magnam voluptatem quiquia velit aliquam. Dolore porro magnam ut ipsum labore magnam velit dolor eius sed ipsum velit quaerat quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Religious Practices', 'Quaerat modi quiquia porro non aliquam sed eius ipsum non. Tempora ipsum non numquam consectetur amet eius non voluptatem eius dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Trends in Religion', 'Neque velit numquam ipsum neque est amet amet eius sit. Numquam neque ut consectetur. Modi velit sit magnam consectetur sit modi ut magnam sit velit tempora non labore.');
+
+insert into topics
+	(label, description)
+values
+	('Understanding Religious Concepts', 'Neque dolore quiquia quaerat porro est quaerat est ipsum amet adipisci etincidunt. Dolor eius tempora eius quisquam sed.');
+
+insert into topics
+	(label, description)
+values
+	('Religious Advice', 'Etincidunt numquam dolor labore numquam consectetur est modi. Non consectetur tempora neque labore. Adipisci ipsum numquam amet dolorem quiquia sed quiquia consectetur velit neque dolorem dolore. Quisquam dolor quaerat ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Superlatives in Religion', 'Labore voluptatem quiquia labore adipisci porro ipsum. Labore tempora quaerat quaerat tempora quisquam numquam labore non consectetur non adipisci numquam. Tempora tempora non modi velit eius ut porro ipsum eius ut quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Psychology of Religion', 'Labore tempora amet porro etincidunt dolorem. Tempora non quaerat ipsum labore neque eius quaerat quisquam amet adipisci adipisci ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Life, Relationships, and Self', 'Non magnam adipisci consectetur sit numquam quisquam consectetur ut amet numquam numquam. Voluptatem dolorem ipsum tempora quiquia ipsum dolore sed sit.');
+
+insert into topics
+	(label, description)
+values
+	('Life and Living', 'Neque dolor voluptatem quiquia tempora amet. Voluptatem numquam quaerat velit ipsum etincidunt sit etincidunt. Eius dolor dolorem amet.');
+
+insert into topics
+	(label, description)
+values
+	('Important Life Lessons', 'Sit neque non amet aliquam sit porro dolor modi dolor quiquia est. Amet tempora magnam dolorem magnam adipisci non ipsum modi adipisci quaerat quiquia etincidunt non.');
+
+insert into topics
+	(label, description)
+values
+	('Tips and Hacks for Everyday Life', 'Quiquia modi numquam sit dolore dolore labore. Est consectetur etincidunt sed ut consectetur ut etincidunt consectetur velit non. Neque non quisquam tempora quaerat etincidunt consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Life Advice', 'Quiquia voluptatem tempora sit neque etincidunt dolor aliquam aliquam tempora porro dolor aliquam. Sit neque labore dolor non velit sed dolor ut. Quisquam sed tempora labore ipsum sed. Modi sit ipsum etincidunt dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Work-Life Balance', 'Labore consectetur neque tempora consectetur etincidunt adipisci sed non velit. Aliquam modi labore labore est tempora consectetur voluptatem ut est.');
+
+insert into topics
+	(label, description)
+values
+	('Lifestyle', 'Sit adipisci amet est eius est. Dolore eius quaerat dolor non velit dolore adipisci dolor magnam modi dolorem modi tempora magnam. Ut adipisci dolorem non eius ut modi dolorem ut dolor ut sed magnam adipisci. Sit quisquam adipisci porro.');
+
+insert into topics
+	(label, description)
+values
+	('Experiences in Life', 'Quiquia numquam porro numquam magnam ipsum adipisci ut est adipisci eius numquam quisquam. Voluptatem amet dolorem tempora aliquam velit etincidunt sed neque aliquam porro dolorem ipsum labore.');
+
+insert into topics
+	(label, description)
+values
+	('Major Events in Life', 'Neque non consectetur sed eius modi voluptatem quiquia dolore ipsum amet labore est labore aliquam. Quiquia voluptatem sit dolorem velit sit quiquia quisquam magnam numquam sed.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts Related to Life', 'Quisquam adipisci est dolor sit porro numquam. Porro quiquia dolor eius amet velit dolor adipisci consectetur porro sit numquam eius amet. Quisquam adipisci quiquia non velit non sed sit.');
+
+insert into topics
+	(label, description)
+values
+	('Social Life', 'Dolore adipisci est sed etincidunt ut neque amet non voluptatem etincidunt sed. Labore numquam non quisquam sed.');
+
+insert into topics
+	(label, description)
+values
+	('Everyday Life', 'Ut porro eius amet porro aliquam non sit consectetur sit. Non est dolorem adipisci dolor porro labore ipsum velit ut magnam eius etincidunt adipisci ut eius. Aliquam neque modi magnam consectetur velit consectetur aliquam quisquam adipisci sit.');
+
+insert into topics
+	(label, description)
+values
+	('Rural Living', 'Modi labore quaerat sed consectetur dolor quaerat labore non. Magnam sit est eius eius voluptatem porro tempora quaerat modi. Eius velit numquam quaerat porro dolorem neque etincidunt velit quiquia quisquam. Magnam aliquam dolore porro.');
+
+insert into topics
+	(label, description)
+values
+	('Intellectual Stimulation', 'Labore neque aliquam dolor modi est ut voluptatem ut numquam numquam. Dolor quiquia adipisci tempora non adipisci est labore sed dolorem ipsum quiquia dolor voluptatem modi.');
+
+insert into topics
+	(label, description)
+values
+	('Livability', 'Dolorem tempora numquam modi non aliquam ut. Aliquam consectetur neque porro numquam dolorem. Dolor amet sed voluptatem amet dolorem dolorem sit quaerat dolore tempora aliquam ut ipsum. Dolor dolor sed ut eius quiquia eius neque eius.');
+
+insert into topics
+	(label, description)
+values
+	('Daily Life', 'Sit dolore quisquam dolorem magnam. Tempora modi etincidunt etincidunt quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Personal Life Issues', 'Quisquam amet dolor aliquam amet velit quiquia. Aliquam amet numquam dolor. Tempora dolorem amet labore labore est velit porro neque consectetur amet dolor aliquam ut velit.');
+
+insert into topics
+	(label, description)
+values
+	('Issues', 'Numquam est dolore adipisci neque tempora labore. Voluptatem dolorem voluptatem ut labore voluptatem aliquam non sed modi. Est velit non labore dolorem numquam ut porro neque est adipisci sit sed quisquam est.');
+
+insert into topics
+	(label, description)
+values
+	('Experience', 'Quisquam neque quisquam sit magnam quisquam dolor non. Voluptatem magnam modi aliquam voluptatem dolor quiquia eius quiquia tempora labore magnam voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Activities', 'Eius aliquam dolor quiquia dolorem est non dolore aliquam quiquia quiquia tempora. Dolorem numquam ut ut porro ut consectetur sit neque porro.');
+
+insert into topics
+	(label, description)
+values
+	('Truths of Life', 'Quaerat etincidunt quiquia sed non dolor consectetur dolorem amet voluptatem eius. Modi modi velit consectetur amet dolor velit quisquam porro consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Enjoying Life', 'Adipisci voluptatem labore numquam est consectetur non ipsum quisquam porro amet labore adipisci. Modi neque dolorem sed quiquia modi labore dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Life and Living in Specific Locations', 'Magnam numquam etincidunt etincidunt ut numquam ut quisquam adipisci dolorem ut aliquam dolor dolorem. Aliquam velit modi etincidunt. Velit dolore ipsum quaerat eius sit ipsum numquam dolore voluptatem tempora sed tempora quisquam numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Life Priorities', 'Eius labore modi etincidunt dolor quisquam sit dolorem. Quaerat ut consectetur non quiquia sit est magnam sed porro. Est eius voluptatem magnam est neque non modi.');
+
+insert into topics
+	(label, description)
+values
+	('Sobriety', 'Dolor non etincidunt velit etincidunt numquam labore dolorem quiquia porro. Aliquam quaerat quiquia sit sit dolor quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Living in Specific Locations', 'Ut ipsum quiquia neque sit. Voluptatem dolorem quiquia velit dolore quisquam voluptatem modi tempora sed amet quiquia. Amet dolore consectetur quiquia velit consectetur amet ut tempora porro non.');
+
+insert into topics
+	(label, description)
+values
+	('Going Back to School', 'Neque adipisci velit modi non non sed etincidunt voluptatem. Tempora neque dolore porro quiquia amet porro.');
+
+insert into topics
+	(label, description)
+values
+	('Self-Improvement', 'Neque quiquia velit ut non tempora. Eius sed velit dolorem dolor numquam labore etincidunt quaerat. Quisquam consectetur modi numquam quiquia non amet velit dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Self-Teaching', 'Quisquam magnam magnam modi magnam. Tempora eius ut porro aliquam velit est voluptatem dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Getting Smarter', 'Dolorem labore consectetur est. Sed consectetur ut sed adipisci voluptatem non aliquam porro adipisci est voluptatem voluptatem. Numquam neque numquam ut dolore quisquam numquam adipisci magnam non adipisci dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Quantified Self', 'Quisquam dolorem velit sit dolor non quaerat neque ipsum est neque neque velit. Sed numquam non dolorem sed voluptatem eius voluptatem voluptatem. Etincidunt neque aliquam dolore aliquam dolor neque ut quisquam aliquam modi eius quaerat quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Self Improvement Methods or Schools of Thought', 'Modi ut modi numquam eius modi labore voluptatem est ut dolore non dolorem eius. Voluptatem adipisci sed quaerat tempora quisquam sit.');
+
+insert into topics
+	(label, description)
+values
+	('Personal Goals', 'Sit eius magnam tempora quisquam voluptatem magnam dolore. Quaerat voluptatem dolore velit quisquam neque quiquia quaerat quisquam modi dolor magnam porro magnam aliquam sit.');
+
+insert into topics
+	(label, description)
+values
+	('Self-Control', 'Quaerat voluptatem neque labore voluptatem quisquam numquam dolor modi. Quisquam labore neque ipsum non quaerat ipsum non dolor etincidunt voluptatem magnam voluptatem quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Understanding Self-Improvement', 'Eius amet quisquam porro sit. Consectetur consectetur amet porro quisquam dolorem numquam eius etincidunt etincidunt voluptatem voluptatem amet.');
+
+insert into topics
+	(label, description)
+values
+	('Self-Help Books', 'Voluptatem velit magnam quaerat quisquam ut quaerat quisquam consectetur non quiquia etincidunt velit. Amet dolorem quaerat quiquia quiquia eius magnam quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Self-Improvement', 'Quiquia porro ipsum dolore ut neque quisquam tempora ipsum sit velit ut quiquia porro dolor etincidunt. Dolore dolorem numquam dolor magnam ut eius modi.');
+
+insert into topics
+	(label, description)
+values
+	('Self-Improvement Apps', 'Tempora aliquam quaerat etincidunt. Est labore quaerat quiquia magnam porro quaerat velit amet est dolorem sed voluptatem magnam numquam eius.');
+
+insert into topics
+	(label, description)
+values
+	('Self-Improvement Advice', 'Numquam ut amet voluptatem est. Eius numquam consectetur velit etincidunt etincidunt dolorem voluptatem adipisci non eius. Aliquam labore aliquam consectetur tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Psychology of Self-Improvement', 'Porro dolore porro eius sed numquam dolore voluptatem ipsum quisquam ipsum dolor. Modi adipisci amet magnam amet tempora. Dolorem ipsum voluptatem neque consectetur. Ut eius neque modi.');
+
+insert into topics
+	(label, description)
+values
+	('Master Key System', 'Dolore dolor velit modi eius non. Quaerat non labore dolorem numquam magnam numquam quiquia dolore dolore labore.');
+
+insert into topics
+	(label, description)
+values
+	('Improving Self-Confidence', 'Est est neque quaerat voluptatem ut sed eius modi est voluptatem velit. Labore aliquam modi eius ipsum modi dolor dolorem magnam velit. Neque neque ut numquam est tempora dolor neque magnam. Amet velit consectetur quaerat ut modi amet sed non.');
+
+insert into topics
+	(label, description)
+values
+	('Self Help Groups', 'Est porro aliquam quaerat sit consectetur est adipisci aliquam dolorem dolore dolor. Adipisci consectetur dolorem etincidunt neque dolore porro ut velit.');
+
+insert into topics
+	(label, description)
+values
+	('Self-Awareness', 'Eius velit est neque non sit. Ut velit dolor voluptatem amet tempora numquam dolore consectetur consectetur modi. Aliquam eius amet tempora velit.');
+
+insert into topics
+	(label, description)
+values
+	('Self-Image', 'Quaerat ipsum est quaerat eius. Consectetur consectetur eius porro sed porro.');
+
+insert into topics
+	(label, description)
+values
+	('Self-reflection', 'Adipisci consectetur quaerat porro porro tempora. Sit neque voluptatem quiquia non aliquam adipisci. Sed consectetur neque consectetur ut ut adipisci quiquia sit etincidunt modi labore.');
+
+insert into topics
+	(label, description)
+values
+	('Self-consciousness', 'Consectetur ipsum quiquia eius amet adipisci quiquia ipsum numquam est velit amet tempora etincidunt. Porro velit amet tempora modi dolore sit. Modi aliquam sed aliquam numquam ipsum quiquia eius.');
+
+insert into topics
+	(label, description)
+values
+	('Self-Delusion', 'Amet quiquia dolore sed consectetur quiquia dolor porro quaerat ipsum velit ut dolore sed sed. Dolor adipisci porro dolore sed etincidunt tempora voluptatem porro.');
+
+insert into topics
+	(label, description)
+values
+	('Self-Awareness Advice', 'Dolor quaerat dolor ipsum voluptatem ipsum magnam consectetur labore modi quiquia consectetur dolore sit etincidunt dolor. Ipsum labore porro ut quiquia modi etincidunt adipisci adipisci. Est porro porro ut sed labore neque quaerat dolorem labore.');
+
+insert into topics
+	(label, description)
+values
+	('Interpersonal Interaction', 'Amet quiquia quiquia porro velit dolor voluptatem. Dolor numquam dolore aliquam etincidunt quisquam non quisquam sed non. Porro est numquam neque non consectetur numquam numquam neque ut labore adipisci voluptatem eius non.');
+
+insert into topics
+	(label, description)
+values
+	('Social Advice', 'Amet quiquia voluptatem est labore velit sed voluptatem amet tempora aliquam amet quisquam quaerat. Est consectetur sit dolor modi quaerat sed quiquia porro porro dolore amet est velit. Aliquam quaerat ipsum labore amet quisquam neque amet quiquia sit.');
+
+insert into topics
+	(label, description)
+values
+	('Manners and Etiquette', 'Consectetur numquam velit voluptatem magnam magnam magnam tempora eius adipisci eius. Ut tempora numquam quaerat dolore non velit dolor amet. Est magnam quiquia velit dolore. Dolor voluptatem tempora sed non velit.');
+
+insert into topics
+	(label, description)
+values
+	('Fun', 'Neque modi tempora tempora sit sit labore. Velit porro quaerat neque numquam dolor tempora porro non modi. Dolorem sit numquam quaerat tempora ut est eius labore est amet.');
+
+insert into topics
+	(label, description)
+values
+	('Conversational Frameworks', 'Voluptatem ut quiquia non modi aliquam quaerat. Quaerat est est tempora labore ipsum quisquam neque eius dolorem dolore. Adipisci quaerat est quaerat voluptatem consectetur adipisci ipsum. Sed sit dolore adipisci est modi sed ipsum. Sed dolore amet modi.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Interpersonal Interaction', 'Quiquia quiquia quiquia quisquam modi. Labore quisquam tempora dolorem porro labore numquam quisquam non labore sit magnam modi sed.');
+
+insert into topics
+	(label, description)
+values
+	('Concepts in Interpersonal Interaction', 'Ut neque dolor quiquia sit dolore. Porro quiquia est consectetur tempora eius amet dolorem consectetur quaerat velit quiquia consectetur etincidunt tempora velit. Voluptatem porro voluptatem neque tempora aliquam aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Intimacy', 'Neque adipisci est magnam. Aliquam numquam neque numquam voluptatem. Neque tempora quisquam sit quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Conflict and Conflicts', 'Quiquia voluptatem eius porro. Velit ipsum magnam labore magnam dolorem sed etincidunt adipisci modi non.');
+
+insert into topics
+	(label, description)
+values
+	('Disagreement and Disagreements', 'Modi quaerat quisquam sit sed labore modi sit eius voluptatem neque dolor amet adipisci. Dolorem quiquia magnam modi. Aliquam quiquia tempora quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Caring', 'Adipisci velit velit amet dolorem dolorem dolorem voluptatem velit. Sit ipsum consectetur quaerat modi quiquia neque.');
+
+insert into topics
+	(label, description)
+values
+	('Objectification', 'Etincidunt sed tempora est non quaerat quisquam dolore quisquam labore dolore neque. Labore quaerat quisquam sed neque labore modi neque etincidunt tempora dolore sit tempora sed. Sit porro aliquam quisquam quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Reciprocity (interpersonal interactions)', 'Quiquia magnam aliquam neque labore modi labore magnam labore. Magnam ipsum magnam velit aliquam numquam eius sit non voluptatem ipsum tempora. Ipsum velit numquam neque non aliquam dolore labore labore magnam tempora porro adipisci aliquam dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Topics of Discussion', 'Magnam dolorem ipsum voluptatem non quisquam non. Adipisci dolore modi neque dolor etincidunt consectetur magnam ut ut adipisci quiquia. Adipisci sed ut non.');
+
+insert into topics
+	(label, description)
+values
+	('Competition', 'Ipsum voluptatem ipsum voluptatem dolorem ut velit quisquam porro etincidunt porro labore tempora etincidunt. Velit velit porro ut eius etincidunt est.');
+
+insert into topics
+	(label, description)
+values
+	('Interpersonal Interaction with Specific People', 'Numquam neque dolor dolore dolor est porro quaerat quiquia voluptatem modi sed. Porro quiquia dolorem numquam. Dolor magnam est tempora ipsum velit eius tempora. Est consectetur sit sed numquam sit modi. Consectetur magnam neque porro consectetur dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Interpersonal Interaction in Specific Locations', 'Dolore etincidunt modi amet adipisci neque modi eius dolorem tempora consectetur sit porro numquam adipisci voluptatem. Aliquam quaerat non ut porro quaerat est sit ipsum tempora. Est numquam labore consectetur sed voluptatem quaerat quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Shyness', 'Labore dolorem modi ut dolore porro quaerat labore. Dolore dolorem consectetur quaerat ipsum porro consectetur quisquam neque est quaerat quaerat consectetur dolorem ut voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Employees', 'Modi modi sed magnam sit voluptatem tempora velit. Velit numquam quisquam etincidunt numquam ut tempora consectetur amet. Dolorem sit adipisci aliquam velit voluptatem amet modi eius adipisci tempora voluptatem. Aliquam consectetur amet quisquam non sed.');
+
+insert into topics
+	(label, description)
+values
+	('Interpersonal Interaction Between Best Friends', 'Etincidunt ipsum neque aliquam amet porro. Quaerat porro ut sit ipsum sed dolor voluptatem aliquam voluptatem adipisci modi amet est etincidunt aliquam. Modi labore quaerat consectetur magnam neque adipisci porro adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Interpersonal Interaction Advice', 'Porro quiquia dolore labore ut adipisci. Consectetur non amet velit consectetur dolor dolorem dolorem sit velit dolorem etincidunt non non. Dolore eius quaerat eius dolorem neque. Quisquam quaerat adipisci dolorem quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Social Signals', 'Dolore est non tempora ipsum modi est adipisci est porro. Adipisci est quisquam quiquia velit ipsum tempora sed magnam. Aliquam ipsum amet dolore. Adipisci amet consectetur amet porro dolorem dolor sed tempora quaerat tempora sed.');
+
+insert into topics
+	(label, description)
+values
+	('Friendship', 'Ipsum ipsum quaerat neque etincidunt sed ipsum ipsum magnam. Adipisci porro quisquam non amet.');
+
+insert into topics
+	(label, description)
+values
+	('Making Friends', 'Non neque voluptatem ipsum velit. Velit dolor etincidunt ipsum ipsum velit tempora tempora quisquam ut. Amet voluptatem magnam dolor est voluptatem porro dolor. Labore aliquam velit dolor sit est.');
+
+insert into topics
+	(label, description)
+values
+	('Etiquette and Friends', 'Ipsum ipsum velit numquam amet quaerat sit quiquia eius consectetur porro est etincidunt sed ipsum amet. Est velit numquam ipsum ut dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Friendzone and Friendzoning', 'Labore numquam numquam dolore aliquam aliquam tempora. Ut eius sed amet dolorem dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Types of Friends', 'Numquam ut velit non. Labore sit tempora dolor quaerat quaerat quisquam dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Bros', 'Aliquam adipisci consectetur quisquam labore dolore ut ipsum ipsum porro quisquam ipsum etincidunt sed numquam. Quiquia modi amet voluptatem etincidunt quisquam adipisci ut sed. Etincidunt sed sed aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Romantic Friendship', 'Consectetur porro non etincidunt dolorem etincidunt dolore modi tempora labore sit consectetur etincidunt est. Eius numquam aliquam dolorem amet ut quaerat quiquia adipisci ipsum sit quiquia voluptatem aliquam neque.');
+
+insert into topics
+	(label, description)
+values
+	('Dating and Friendship', 'Quiquia quiquia adipisci non sit ipsum tempora consectetur etincidunt. Neque porro magnam labore. Etincidunt eius non dolor. Est dolorem dolorem non quaerat consectetur numquam tempora consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Friendship Advice', 'Modi magnam non numquam dolor consectetur dolore dolorem numquam sit eius etincidunt adipisci adipisci. Est eius modi non quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Love and Friendships', 'Porro quisquam neque quaerat consectetur est eius tempora. Ipsum dolorem dolorem dolor. Numquam adipisci numquam amet dolore est ut ut velit tempora sed eius.');
+
+insert into topics
+	(label, description)
+values
+	('Using Psychology in Friendships', 'Est ut consectetur sed est non porro quaerat sit magnam tempora quisquam. Amet tempora amet quisquam est sit dolore quiquia dolorem voluptatem dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Friendship Dynamics', 'Etincidunt ut quiquia voluptatem est quisquam quiquia dolor ut eius non consectetur quiquia aliquam. Magnam magnam voluptatem sed quaerat dolore tempora voluptatem tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Online Friendship', 'Labore sed labore velit numquam numquam aliquam numquam eius quisquam consectetur neque ut. Eius dolorem velit labore ut quaerat adipisci etincidunt. Dolorem sit quaerat ut quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Love and Friendship', 'Voluptatem amet est eius voluptatem quiquia ut non neque. Magnam etincidunt quiquia porro est ipsum eius dolorem numquam labore velit etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Friends Forever', 'Adipisci quaerat eius eius modi dolorem labore. Sit modi aliquam quisquam. Velit magnam quaerat ut velit non sed dolor ut sed ut ipsum sed non.');
+
+insert into topics
+	(label, description)
+values
+	('Being Friendless', 'Amet dolore ut voluptatem ut dolor. Sit consectetur adipisci magnam dolorem aliquam tempora sit ut sed consectetur sed quisquam numquam quiquia. Consectetur numquam magnam ipsum quiquia adipisci consectetur adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('BFFs', 'Sed amet sit eius. Adipisci ipsum sed modi amet sed aliquam. Est ipsum neque quisquam labore numquam porro non sed eius eius sed quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Long Lost Friends', 'Voluptatem quaerat adipisci numquam velit. Labore amet velit numquam quisquam modi tempora dolorem etincidunt velit magnam magnam est voluptatem voluptatem. Etincidunt ut modi quiquia tempora quaerat etincidunt etincidunt voluptatem porro.');
+
+insert into topics
+	(label, description)
+values
+	('Self-Confidence', 'Magnam consectetur porro quisquam porro voluptatem ut quaerat magnam numquam. Magnam sit ut tempora. Quaerat quaerat quaerat labore labore amet sed sit non ut aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Low Self-Confidence', 'Sit dolor velit etincidunt quiquia tempora. Dolorem magnam numquam dolorem sed quiquia magnam velit quiquia sit ut consectetur dolor dolor dolore porro. Consectetur neque quaerat dolor dolor modi dolor magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Self-Confidence Advice', 'Dolorem ut sed porro sed quiquia consectetur quaerat eius neque etincidunt modi quiquia adipisci non neque. Quiquia est sed sit voluptatem neque numquam adipisci dolorem tempora dolorem labore modi aliquam voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Family', 'Non ut voluptatem ipsum etincidunt quaerat ipsum amet voluptatem ut velit. Voluptatem ut quaerat numquam modi sed dolor consectetur non modi sed.');
+
+insert into topics
+	(label, description)
+values
+	('Parenting', 'Amet modi etincidunt voluptatem quiquia. Dolor quisquam dolorem neque. Aliquam non dolorem est consectetur aliquam consectetur adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Marriage', 'Neque consectetur est amet sed magnam ipsum eius adipisci. Porro eius sit adipisci velit.');
+
+insert into topics
+	(label, description)
+values
+	('Family Relationships and Dynamics', 'Porro ut modi sit sed dolor sit ipsum eius sed ipsum magnam eius. Tempora etincidunt dolorem consectetur. Ut sit voluptatem dolor dolorem est.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Relatives and Family Members', 'Est est ut ut dolore quisquam sit. Amet dolor dolore eius dolore. Magnam magnam dolor dolor non dolore ut amet amet. Tempora quiquia ut quiquia magnam etincidunt adipisci velit neque aliquam neque.');
+
+insert into topics
+	(label, description)
+values
+	('Genealogy', 'Voluptatem amet sit modi numquam quisquam eius sed numquam dolorem dolore eius magnam est velit adipisci. Labore eius est quaerat ut sed non magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Family Interdisciplinary Topics', 'Aliquam amet adipisci est adipisci modi etincidunt aliquam porro labore. Quisquam dolorem modi quaerat adipisci ut quiquia dolorem tempora ut porro non tempora eius consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Family Psychology', 'Neque porro consectetur ut ipsum sit quisquam tempora amet. Neque quisquam dolore aliquam tempora adipisci consectetur quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Family Circle', 'Est non etincidunt adipisci consectetur dolor labore quisquam modi velit adipisci magnam porro sit. Ut ipsum modi aliquam. Porro dolor quaerat numquam consectetur non. Adipisci labore velit ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Family in Specific Locations', 'Neque aliquam neque labore etincidunt quisquam etincidunt sit quaerat est quisquam magnam adipisci labore. Etincidunt non amet numquam quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Families', 'Porro quaerat dolore numquam neque voluptatem tempora quaerat aliquam consectetur tempora neque. Dolore quaerat dolore velit numquam dolore eius numquam dolor eius ipsum numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Families', 'Dolore ipsum amet porro modi dolore quaerat modi dolor velit voluptatem dolore porro quiquia. Dolor quiquia quisquam magnam ut ipsum neque. Sit numquam ut etincidunt amet voluptatem quaerat etincidunt non modi velit adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Family Abuse', 'Neque non velit eius tempora dolore. Eius numquam voluptatem aliquam ipsum velit voluptatem adipisci quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Familial Love', 'Ipsum eius modi eius dolor amet. Ipsum aliquam labore dolore. Modi ipsum quiquia dolore adipisci velit numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Family Stability', 'Ipsum modi eius amet dolor sit. Quiquia non adipisci eius labore neque magnam magnam modi dolore ut aliquam velit dolorem neque. Adipisci eius magnam sit ipsum quisquam est porro voluptatem quaerat voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Family History', 'Sed adipisci non quiquia neque amet dolor. Amet quaerat neque quiquia velit velit ipsum eius velit sit voluptatem dolore dolore magnam quisquam. Dolor sed dolorem ut labore porro.');
+
+insert into topics
+	(label, description)
+values
+	('Broken Hearts Caused by Family Members', 'Dolore est labore amet voluptatem voluptatem modi dolorem dolorem quisquam eius dolorem. Dolor porro aliquam dolorem dolore labore modi magnam aliquam etincidunt quiquia tempora quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Human Animal Relationships', 'Dolore etincidunt dolorem quisquam aliquam eius adipisci dolore quaerat non dolore sit voluptatem. Aliquam amet aliquam velit est quisquam ipsum non modi quisquam. Ipsum quaerat dolor porro voluptatem sed magnam consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Pet Ownership', 'Labore tempora ipsum dolorem quiquia voluptatem dolore quaerat voluptatem numquam quaerat ut. Non dolor ut etincidunt tempora. Quiquia magnam aliquam porro est non. Eius modi labore quaerat dolore dolor etincidunt sed porro dolor modi est modi quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Behavior', 'Ut ipsum non dolore modi non ut quisquam ut dolor amet eius etincidunt quaerat consectetur. Labore quiquia dolor numquam est sed. Amet dolore quiquia modi quisquam non quisquam modi quisquam non est sed est dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Human Behavior', 'Dolore sit ipsum etincidunt aliquam est velit dolorem. Velit quaerat dolore quiquia numquam dolorem magnam ut aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Animal Behavior', 'Neque quaerat quiquia labore sit tempora amet modi voluptatem velit ut etincidunt quiquia sit neque voluptatem. Neque magnam ut dolor numquam ut sit velit adipisci ipsum magnam quaerat velit consectetur non. Magnam dolore ipsum ut adipisci sit.');
+
+insert into topics
+	(label, description)
+values
+	('Study of Behavior', 'Ut dolor sed numquam ut quaerat numquam dolor etincidunt ut ut adipisci. Non velit dolorem porro ipsum eius neque dolore dolor eius ipsum quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Conditioning (general)', 'Magnam sit tempora magnam. Adipisci dolorem sed ut est sed. Velit neque non ut porro ipsum neque. Adipisci dolore neque adipisci non dolore aliquam sit. Est amet neque eius quisquam numquam non sit sit est eius voluptatem est.');
+
+insert into topics
+	(label, description)
+values
+	('Behavioral Psychology', 'Etincidunt dolorem adipisci amet. Sit dolor ut adipisci ut est. Labore quiquia quisquam dolor consectetur quisquam. Sed quaerat quisquam est quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Threat-Related Behavior', 'Voluptatem sit eius aliquam ipsum sed ut voluptatem. Magnam eius quaerat quaerat. Velit tempora dolor non dolor quiquia. Dolore quiquia dolore aliquam modi tempora tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Behavioral Assessments', 'Velit dolorem ut tempora neque quiquia ipsum consectetur est sed sed sit labore ut dolorem. Est non ut quaerat neque porro neque modi quaerat sit. Quaerat aliquam aliquam porro est porro tempora quiquia sed magnam sit eius neque est.');
+
+insert into topics
+	(label, description)
+values
+	('Ethical Behavior', 'Adipisci tempora neque non tempora quiquia. Adipisci ut est voluptatem labore. Velit tempora sed velit dolor etincidunt numquam labore non non.');
+
+insert into topics
+	(label, description)
+values
+	('Behavioral Economics', 'Modi tempora consectetur sit numquam ut sit ipsum voluptatem magnam etincidunt. Eius neque sed eius etincidunt quiquia velit quaerat sed aliquam. Dolore numquam etincidunt consectetur ut dolor tempora adipisci neque ut amet.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Behavior', 'Sed numquam consectetur porro modi modi magnam adipisci aliquam neque numquam quaerat quaerat aliquam. Amet quiquia consectetur quiquia dolor consectetur numquam dolore est etincidunt sit dolor ut ipsum aliquam quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Solitude', 'Adipisci voluptatem velit tempora etincidunt dolore non dolorem non aliquam. Non labore quisquam quaerat est quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Reactions', 'Numquam velit quisquam dolorem neque. Dolorem sed etincidunt porro quiquia voluptatem sit. Dolor porro amet etincidunt magnam magnam etincidunt sit ut dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Self-Destructive Behavior', 'Neque porro ut ipsum porro quiquia sed tempora adipisci consectetur aliquam. Ut aliquam velit amet non neque.');
+
+insert into topics
+	(label, description)
+values
+	('Relationships', 'Labore est consectetur sit. Sit labore neque adipisci. Sit porro ipsum aliquam sed non neque.');
+
+insert into topics
+	(label, description)
+values
+	('Relationship Advice', 'Quaerat aliquam porro sed consectetur quaerat consectetur ut. Velit labore consectetur numquam sit dolorem sit dolor quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Relationships', 'Ipsum consectetur aliquam neque sit modi aliquam etincidunt dolorem sit quisquam porro neque eius dolore amet. Etincidunt ipsum eius voluptatem dolore velit adipisci tempora quaerat. Etincidunt dolore velit voluptatem neque magnam amet dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Relationship Counseling', 'Dolor amet porro modi adipisci ipsum ipsum neque. Porro modi non voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Relationship Problems', 'Dolore numquam aliquam velit porro tempora. Porro porro porro quiquia dolore amet numquam quiquia ut. Magnam neque dolore labore. Adipisci voluptatem porro quaerat quaerat amet aliquam magnam numquam sed non dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Bachelors (relationships)', 'Ut magnam labore adipisci quaerat numquam dolorem numquam ipsum consectetur neque dolore modi. Quiquia etincidunt dolor adipisci eius ut quiquia neque.');
+
+insert into topics
+	(label, description)
+values
+	('Celebrity Relationships', 'Est quisquam velit ipsum modi ut quiquia. Dolor non sit magnam velit labore voluptatem quiquia ut adipisci dolor aliquam quisquam etincidunt quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Relationships in Specific Locations', 'Dolore tempora dolor labore sed tempora adipisci est adipisci consectetur aliquam sed dolor quisquam. Porro consectetur etincidunt est quisquam modi ipsum. Quiquia porro aliquam etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Relationship Dynamics', 'Labore aliquam ipsum etincidunt voluptatem consectetur eius dolorem quaerat quisquam. Sed non modi ut. Quisquam porro dolorem eius non dolorem sed modi quaerat adipisci labore sed non sed tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Social Discovery', 'Non aliquam velit non numquam etincidunt voluptatem. Modi non dolore numquam dolore dolor numquam ipsum labore eius tempora amet tempora. Sit ipsum sed ut etincidunt non quaerat modi amet tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Dating and Relationships', 'Numquam non sed etincidunt amet non sed ipsum aliquam numquam quiquia etincidunt. Dolore sed quiquia dolor velit labore.');
+
+insert into topics
+	(label, description)
+values
+	('Health', 'Quiquia magnam dolor dolorem dolore labore eius consectetur quiquia neque magnam. Velit etincidunt non quisquam quisquam est.');
+
+insert into topics
+	(label, description)
+values
+	('Mental Health', 'Modi aliquam est quisquam. Sit consectetur magnam porro adipisci sit dolorem eius modi ut. Sed quiquia dolorem quiquia consectetur modi neque quaerat consectetur sit labore sed.');
+
+insert into topics
+	(label, description)
+values
+	('Sleep', 'Consectetur est porro aliquam labore dolor ut est aliquam non consectetur. Ut labore dolorem ipsum sit tempora magnam. Velit non voluptatem est ipsum etincidunt ipsum neque est ipsum velit. Non dolore sed amet adipisci non.');
+
+insert into topics
+	(label, description)
+values
+	('Fitness', 'Non sit quisquam velit aliquam amet adipisci labore sed labore neque aliquam. Est etincidunt ipsum etincidunt modi eius eius eius amet sit sit. Adipisci dolor neque voluptatem magnam tempora amet aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Nutrition', 'Tempora sed aliquam numquam numquam magnam ipsum amet adipisci est. Dolor sit non adipisci dolore adipisci adipisci etincidunt dolorem neque quaerat sed labore etincidunt sed.');
+
+insert into topics
+	(label, description)
+values
+	('Health for Different Demographics', 'Dolore velit quisquam dolorem tempora quisquam ipsum dolorem numquam aliquam ipsum. Numquam ipsum est sit porro modi modi sit sit quisquam. Quisquam sed numquam consectetur est eius quiquia dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Health', 'Velit eius magnam dolorem adipisci dolorem modi ipsum velit dolore velit labore velit eius neque velit. Ipsum tempora adipisci quiquia quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Healthy Living', 'Non quiquia adipisci quaerat. Modi sed adipisci sed sit ut adipisci. Neque etincidunt numquam etincidunt aliquam. Dolore sit labore non neque numquam amet neque non sed porro magnam. Aliquam amet neque dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare', 'Est numquam dolorem magnam modi. Est dolorem magnam ut quaerat magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Wellbeing', 'Tempora dolorem porro est numquam consectetur magnam quiquia quiquia sed est ipsum numquam. Porro etincidunt dolore ipsum dolorem sit tempora adipisci ipsum modi amet. Amet tempora consectetur porro.');
+
+insert into topics
+	(label, description)
+values
+	('History of Health', 'Quisquam magnam velit consectetur amet dolorem. Velit tempora quaerat est porro porro labore sit dolor velit sed ut.');
+
+insert into topics
+	(label, description)
+values
+	('Health Causes and Effects', 'Neque voluptatem non velit dolorem modi. Est voluptatem ipsum voluptatem amet dolor porro quiquia sed labore quisquam etincidunt dolor sed velit adipisci. Etincidunt sed aliquam labore.');
+
+insert into topics
+	(label, description)
+values
+	('Yoga and Health', 'Dolor quaerat etincidunt dolor non quisquam amet voluptatem amet quaerat neque quaerat aliquam dolorem non. Sit consectetur magnam dolor. Quaerat quaerat sed dolorem porro modi voluptatem ipsum consectetur tempora magnam quisquam modi.');
+
+insert into topics
+	(label, description)
+values
+	('Health Interdisciplinary Topics', 'Modi tempora est quaerat quiquia porro consectetur ipsum quaerat dolor. Eius labore tempora quaerat dolorem tempora. Amet amet voluptatem ut tempora neque quaerat quiquia quiquia labore magnam dolorem velit.');
+
+insert into topics
+	(label, description)
+values
+	('Health Advice', 'Non neque modi eius tempora porro. Dolore quiquia numquam etincidunt magnam aliquam ut quiquia numquam quiquia amet modi ut porro labore neque.');
+
+insert into topics
+	(label, description)
+values
+	('Modern Fertility', 'Etincidunt numquam sed aliquam quisquam etincidunt. Labore velit ut amet labore dolorem modi voluptatem eius ipsum quaerat. Labore eius adipisci sed quiquia magnam non sed tempora magnam consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Science', 'Quisquam quisquam magnam dolore quaerat quiquia ut modi consectetur neque quiquia etincidunt quisquam magnam. Sed quaerat voluptatem sed ut ut quiquia non voluptatem neque adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Physical Sciences', 'Dolore modi modi tempora. Amet porro magnam dolore. Quisquam dolore magnam dolore sed eius ut non tempora modi sit. Velit ut dolore est etincidunt amet eius quiquia etincidunt quaerat labore ut quisquam sit magnam ut.');
+
+insert into topics
+	(label, description)
+values
+	('Life Sciences', 'Etincidunt dolore eius amet labore consectetur non eius numquam. Ut quaerat amet dolor ut. Quiquia ut aliquam tempora dolore dolore tempora. Dolorem amet ipsum quiquia aliquam neque eius tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Interdisciplinary Science', 'Dolore tempora quaerat tempora aliquam ipsum labore adipisci sed modi. Eius sit velit voluptatem ipsum quisquam non aliquam eius labore eius magnam porro. Sit ut voluptatem etincidunt sed labore est.');
+
+insert into topics
+	(label, description)
+values
+	('Scientific Research', 'Tempora numquam etincidunt etincidunt velit neque voluptatem dolorem magnam tempora eius neque ut. Eius quaerat eius consectetur dolore modi sit tempora dolore ut modi. Ut dolor quisquam consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Scientists', 'Amet etincidunt amet labore magnam amet dolor neque non quiquia modi aliquam neque etincidunt. Velit modi dolor magnam tempora. Dolore est quisquam modi non adipisci. Porro quiquia labore quisquam amet sed velit ipsum ut.');
+
+insert into topics
+	(label, description)
+values
+	('Philosophy of Science', 'Quaerat est magnam quiquia numquam dolorem magnam numquam quiquia ut amet amet etincidunt porro. Consectetur aliquam ipsum aliquam labore non ipsum ipsum quiquia adipisci ut amet labore quaerat tempora.');
+
+insert into topics
+	(label, description)
+values
+	('History of Science', 'Modi sed quisquam adipisci. Ipsum porro eius adipisci aliquam. Est ut neque ipsum amet non.');
+
+insert into topics
+	(label, description)
+values
+	('Science of Everyday Life', 'Quisquam ut quaerat etincidunt est. Eius ipsum dolorem quaerat velit sit neque. Est quisquam quaerat magnam quaerat amet est porro non adipisci quaerat. Amet non velit aliquam eius aliquam consectetur aliquam ut modi aliquam ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Scientific Laws and Principles', 'Voluptatem sed labore est porro ipsum quisquam velit tempora. Sit quaerat voluptatem labore sit est sed amet. Labore voluptatem sit amet. Numquam porro non eius modi dolor numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Current Events in Science', 'Est eius quisquam sed velit consectetur quisquam. Porro tempora non amet modi quisquam ipsum quisquam labore sit quiquia non sed sed. Aliquam sed aliquam quiquia neque. Labore sed ipsum sit amet neque numquam dolore dolorem aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Science Behind Science Fiction', 'Amet dolor porro etincidunt labore numquam etincidunt voluptatem. Dolor sit magnam quiquia dolor est. Amet tempora consectetur amet ut voluptatem modi quaerat ipsum. Eius numquam etincidunt ipsum labore velit adipisci labore velit non.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Science', 'Porro velit amet sit consectetur consectetur voluptatem amet modi voluptatem aliquam aliquam neque. Ut etincidunt voluptatem neque ipsum est ut. Adipisci dolorem aliquam ipsum consectetur modi dolor amet tempora ipsum labore neque.');
+
+insert into topics
+	(label, description)
+values
+	('Formal Sciences', 'Quiquia dolorem amet sed numquam magnam etincidunt voluptatem dolor amet dolor modi ut. Aliquam dolore quisquam voluptatem non modi numquam. Aliquam dolor magnam est adipisci dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Applied Sciences', 'Ut adipisci est tempora dolore tempora tempora adipisci. Neque amet est neque adipisci tempora consectetur porro. Amet non amet non quisquam aliquam ut eius tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Science Museums', 'Sit sed sit est velit aliquam est voluptatem etincidunt adipisci magnam. Dolorem quiquia dolore quisquam adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Scientific Terminology and Jargon', 'Labore consectetur aliquam quaerat modi labore. Aliquam sed sit consectetur adipisci neque etincidunt dolorem labore consectetur. Modi quisquam consectetur adipisci porro quaerat quisquam velit quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Science in Specific Locations', 'Etincidunt quisquam dolorem consectetur numquam etincidunt quiquia neque porro voluptatem. Labore velit sit est dolorem quiquia non ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Experimental Science', 'Modi quaerat eius adipisci porro modi numquam quiquia velit labore numquam amet aliquam sed amet. Velit dolorem tempora neque quiquia quiquia sed consectetur aliquam amet.');
+
+insert into topics
+	(label, description)
+values
+	('Facilities and Organizations of Science', 'Sed magnam quisquam dolore quaerat dolorem quiquia labore quiquia. Aliquam amet dolor adipisci quisquam numquam consectetur voluptatem est non. Velit magnam consectetur labore. Dolor voluptatem dolor dolore aliquam sed.');
+
+insert into topics
+	(label, description)
+values
+	('Scientific Discoveries', 'Est est modi modi quaerat aliquam neque dolore sed quaerat voluptatem etincidunt. Consectetur magnam sit voluptatem etincidunt numquam non labore. Eius voluptatem ut dolorem neque.');
+
+insert into topics
+	(label, description)
+values
+	('Mathematical Sciences', 'Ut porro eius numquam numquam neque adipisci etincidunt modi adipisci numquam quiquia quiquia. Dolor voluptatem numquam voluptatem etincidunt sit quisquam est magnam tempora. Aliquam voluptatem velit dolorem. Dolor quisquam etincidunt aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Science', 'Neque adipisci voluptatem voluptatem consectetur dolor aliquam dolor voluptatem dolor ut modi dolorem sed. Dolore eius neque tempora dolor porro sit numquam amet velit est sit. Dolorem velit porro amet numquam quiquia labore quiquia magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Science and Society', 'Modi sit sed quiquia quisquam amet numquam quisquam consectetur etincidunt quiquia quiquia aliquam sit. Dolor porro sit porro sed amet magnam ipsum etincidunt consectetur labore ut velit non adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Future of Science', 'Quaerat sed velit dolorem sit ut tempora aliquam est tempora. Tempora porro sit numquam est quaerat numquam dolore consectetur. Dolor velit porro eius non dolore dolorem dolorem. Consectetur eius amet dolore aliquam labore.');
+
+insert into topics
+	(label, description)
+values
+	('Scientific Evidence', 'Amet est numquam modi. Sed ut neque quiquia velit dolore amet dolor eius consectetur eius neque quiquia quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('General Science', 'Etincidunt dolore quaerat magnam voluptatem dolor dolore. Porro consectetur porro porro porro velit numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Technology', 'Est quaerat labore aliquam eius. Sed magnam dolorem amet est consectetur quaerat amet.');
+
+insert into topics
+	(label, description)
+values
+	('Technology Trends', 'Amet dolore amet ipsum. Sed consectetur dolorem sed dolor aliquam etincidunt quisquam non voluptatem. Aliquam est eius amet amet labore magnam magnam voluptatem eius non.');
+
+insert into topics
+	(label, description)
+values
+	('Technology Concepts, Terms and Definitions', 'Dolore adipisci numquam velit modi eius sed tempora voluptatem velit aliquam ipsum est quaerat. Dolore aliquam adipisci tempora adipisci. Voluptatem sed dolore quiquia amet sit. Voluptatem porro modi consectetur voluptatem modi velit.');
+
+insert into topics
+	(label, description)
+values
+	('Technology in Specific Locations', 'Sed dolore sed voluptatem quisquam aliquam aliquam est quiquia non numquam numquam. Eius eius non velit velit ipsum dolore eius neque voluptatem eius ut eius modi consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Current Events in Technology', 'Quiquia tempora consectetur non magnam magnam porro ut etincidunt magnam. Ipsum dolorem dolorem aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Technology', 'Ipsum numquam dolor quiquia sed amet ipsum. Numquam eius quisquam ut consectetur quaerat non aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Technology Products', 'Adipisci ipsum sed voluptatem sed dolorem sit dolore tempora. Est eius quiquia adipisci etincidunt eius quaerat modi consectetur sed neque non. Sed quiquia velit quisquam porro ipsum est non sit dolorem voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Technology Marketing', 'Amet aliquam amet quiquia velit velit modi etincidunt. Voluptatem adipisci velit tempora voluptatem etincidunt labore etincidunt dolorem porro neque dolor velit. Neque consectetur dolor consectetur sit consectetur etincidunt dolore ut porro voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Technology Startups', 'Aliquam dolore consectetur non sit quiquia ipsum. Est eius etincidunt adipisci eius ipsum ipsum aliquam voluptatem voluptatem tempora dolore. Etincidunt dolorem eius amet ut aliquam adipisci non velit labore quaerat quaerat voluptatem velit.');
+
+insert into topics
+	(label, description)
+values
+	('Tech News and Journalism', 'Etincidunt neque neque aliquam consectetur adipisci aliquam tempora numquam non quiquia non ipsum non quaerat velit. Dolor etincidunt ipsum etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Technology', 'Modi tempora sed magnam ipsum porro. Neque amet est labore. Adipisci sed dolorem non dolor eius labore. Voluptatem ipsum porro sed voluptatem tempora magnam. Magnam amet magnam tempora velit. Magnam quiquia quaerat consectetur quaerat tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Technology', 'Modi labore dolorem quiquia dolor quisquam. Dolorem numquam tempora amet est quiquia amet. Ut dolorem quiquia ipsum consectetur aliquam sed. Labore neque non aliquam sit velit velit consectetur numquam tempora voluptatem dolore ut.');
+
+insert into topics
+	(label, description)
+values
+	('Tech Events', 'Dolor numquam numquam voluptatem porro adipisci quaerat amet etincidunt velit dolorem. Magnam labore ipsum tempora. Ut voluptatem ut consectetur aliquam eius eius sit eius adipisci tempora magnam. Sit porro sed sed sed.');
+
+insert into topics
+	(label, description)
+values
+	('Women in Technology', 'Dolore aliquam magnam tempora non aliquam sed. Magnam tempora est quaerat. Non quaerat eius labore tempora labore velit dolore consectetur velit. Tempora numquam dolore amet eius sed amet est est neque modi quaerat eius voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Anti-Technology Movements and Opinions', 'Est est etincidunt ut sit. Modi aliquam ut non porro porro est adipisci velit quiquia. Numquam dolore est quaerat quaerat magnam etincidunt sed porro sed ipsum dolorem aliquam consectetur etincidunt. Porro porro modi sit magnam sed.');
+
+insert into topics
+	(label, description)
+values
+	('Science Parks', 'Quisquam est est aliquam velit ut sed dolorem aliquam neque amet. Sit labore eius eius tempora. Porro est velit labore dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Technology Entrepreneurship', 'Dolorem tempora dolore quisquam labore adipisci. Porro ipsum velit est dolore numquam ipsum. Consectetur tempora neque eius numquam dolore modi modi dolor ut adipisci magnam aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Technology Management', 'Velit numquam non aliquam quisquam etincidunt neque est numquam. Neque tempora labore sit eius dolor amet modi dolor velit ut. Ipsum etincidunt quisquam quiquia dolor quaerat numquam ut sit adipisci modi dolore non numquam.');
+
+insert into topics
+	(label, description)
+values
+	('2019 Tech & Investing Series', 'Ut sit adipisci quiquia amet neque numquam. Modi porro velit etincidunt tempora magnam amet labore quisquam quaerat adipisci dolore neque etincidunt numquam. Velit eius ut est etincidunt labore quisquam aliquam amet quiquia numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Technology Advice', 'Quiquia tempora voluptatem etincidunt sit neque non quaerat neque non. Magnam adipisci dolorem modi dolorem quiquia adipisci velit aliquam sed aliquam tempora quaerat eius etincidunt quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Engineering', 'Dolorem dolor amet amet. Neque ipsum labore adipisci eius ut dolorem ipsum dolore dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Branches of Engineering', 'Eius modi dolor sed quiquia adipisci quiquia magnam. Amet quaerat dolor magnam neque quiquia consectetur modi ut. Velit neque labore quisquam adipisci dolor neque dolorem tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Engineering', 'Labore modi non neque eius est. Sit sed tempora tempora ut quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Interdisciplinary Engineering', 'Dolorem modi amet ipsum modi ut consectetur consectetur dolorem quaerat. Sed dolore dolor ut adipisci tempora magnam amet magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Engineering Education', 'Voluptatem aliquam adipisci quaerat labore porro dolorem voluptatem numquam amet dolore sed quaerat dolor labore velit. Aliquam amet dolore etincidunt porro.');
+
+insert into topics
+	(label, description)
+values
+	('Research in Engineering', 'Voluptatem magnam eius etincidunt est consectetur neque quaerat quisquam eius quiquia quisquam quiquia magnam. Adipisci non consectetur tempora est eius aliquam non voluptatem magnam quaerat dolor.');
+
+insert into topics
+	(label, description)
+values
+	('History of Engineering', 'Sed dolorem ipsum aliquam porro consectetur velit est dolor dolor quaerat. Modi porro quisquam ipsum etincidunt numquam voluptatem. Consectetur porro adipisci ut eius neque labore dolor est.');
+
+insert into topics
+	(label, description)
+values
+	('Engineering in Specific Locations', 'Aliquam modi est velit porro velit porro tempora tempora ipsum numquam magnam aliquam. Quaerat modi tempora eius. Eius magnam aliquam quiquia modi. Sed eius etincidunt voluptatem ut voluptatem adipisci ipsum adipisci non dolorem quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Engineering', 'Quisquam consectetur dolorem eius modi ut numquam velit. Quaerat neque dolor est sit quisquam dolor adipisci sed eius numquam aliquam neque. Dolor adipisci eius labore aliquam. Voluptatem dolore dolorem non etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Learning About Engineering', 'Velit etincidunt est aliquam est modi dolorem consectetur non non est magnam amet. Magnam ipsum modi sit quisquam dolorem. Eius aliquam neque quiquia quisquam quisquam ipsum. Quisquam quaerat ut tempora porro dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('University Engineering Advice', 'Dolor velit quisquam est sit adipisci adipisci non adipisci. Adipisci adipisci sed adipisci voluptatem adipisci tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Studying Engineering', 'Consectetur non dolorem non consectetur adipisci sit velit velit ut dolor labore labore amet velit. Labore magnam dolore quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Engineering Comparisons', 'Ut velit consectetur non tempora porro tempora tempora etincidunt eius magnam ipsum. Labore numquam ipsum est numquam ipsum amet.');
+
+insert into topics
+	(label, description)
+values
+	('Engineering Advice', 'Labore ipsum consectetur est ut quisquam labore ipsum etincidunt dolorem aliquam neque dolor. Non porro eius dolor non. Ipsum numquam ipsum dolore quaerat porro non.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Engineering', 'Dolore quiquia ipsum velit sed etincidunt dolorem adipisci labore dolor sed quisquam. Dolor ut sit ut ipsum quaerat etincidunt sed modi porro adipisci amet consectetur sed.');
+
+insert into topics
+	(label, description)
+values
+	('Engineering Organizations', 'Modi amet modi sit ut etincidunt etincidunt ut ut sed. Etincidunt non modi eius.');
+
+insert into topics
+	(label, description)
+values
+	('Engineering Cost', 'Eius etincidunt non ipsum porro eius. Neque quisquam aliquam adipisci velit dolorem porro labore est labore tempora modi sit. Ut etincidunt amet modi sit quisquam numquam porro sit.');
+
+insert into topics
+	(label, description)
+values
+	('Social Sciences', 'Etincidunt ut amet etincidunt porro non consectetur sit sed quaerat etincidunt tempora tempora non porro. Dolorem amet aliquam sed dolore dolore etincidunt tempora voluptatem numquam quiquia neque ut quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Sociology', 'Sed non aliquam eius consectetur numquam quaerat tempora eius non labore ipsum. Modi amet porro dolor dolor tempora etincidunt numquam voluptatem porro magnam sed dolore. Dolor eius amet voluptatem consectetur ipsum ut magnam numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Economics', 'Quiquia dolor quaerat tempora modi sed quisquam non sed ut dolore labore amet non. Adipisci dolore eius dolore dolorem. Quiquia voluptatem sed dolorem sed sed modi etincidunt modi est numquam neque eius quisquam consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Linguistics', 'Eius etincidunt eius numquam aliquam est modi non voluptatem adipisci magnam non quaerat. Amet dolor dolor modi amet numquam. Neque velit aliquam est sed ut.');
+
+insert into topics
+	(label, description)
+values
+	('Gender Studies', 'Modi quiquia porro est adipisci adipisci etincidunt dolore. Porro ipsum porro tempora dolore non.');
+
+insert into topics
+	(label, description)
+values
+	('Geography', 'Non etincidunt quiquia quaerat porro consectetur dolore consectetur magnam quiquia sed. Consectetur sit adipisci eius etincidunt aliquam sed adipisci sed tempora porro neque sit ipsum eius modi.');
+
+insert into topics
+	(label, description)
+values
+	('Psychology', 'Quisquam neque etincidunt amet. Eius quaerat labore quaerat porro velit sit non dolorem dolor. Non labore non voluptatem magnam sed porro porro quaerat aliquam dolorem dolor consectetur dolorem dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Area Studies', 'Dolorem non modi non etincidunt dolorem dolore magnam dolor modi. Aliquam velit sit ut non quiquia eius voluptatem porro quaerat quisquam est ipsum. Quaerat velit numquam dolore labore dolor dolor sed quaerat porro. Sed dolor sed eius magnam sit ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Education (academic discipline)', 'Consectetur adipisci adipisci adipisci est amet aliquam dolorem amet modi ipsum consectetur quiquia adipisci. Modi sed dolorem consectetur. Voluptatem adipisci etincidunt magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Behavioral Sciences', 'Sit consectetur tempora voluptatem dolorem quaerat ipsum. Amet ut eius voluptatem porro.');
+
+insert into topics
+	(label, description)
+values
+	('Museum Studies', 'Dolore etincidunt neque non numquam ipsum numquam non est dolore non porro tempora aliquam magnam dolorem. Voluptatem sit voluptatem voluptatem. Magnam consectetur velit magnam quaerat etincidunt voluptatem velit consectetur velit neque ut labore neque.');
+
+insert into topics
+	(label, description)
+values
+	('Signed Languages', 'Labore velit sed amet. Porro quiquia ut non dolore modi ut. Dolor dolor eius dolore dolore consectetur. Ipsum amet quiquia amet aliquam sed velit amet magnam labore adipisci tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Social Sciences', 'Porro dolor amet eius ut modi non ut dolore eius dolore aliquam. Dolorem consectetur dolorem sit consectetur velit magnam. Amet amet labore aliquam eius non quiquia dolore numquam non ut sit. Consectetur etincidunt non velit eius.');
+
+insert into topics
+	(label, description)
+values
+	('Research in Social Sciences', 'Dolore neque amet non modi dolorem. Voluptatem neque quaerat dolore sit est neque non adipisci neque quiquia dolorem etincidunt. Velit quiquia amet ut quiquia dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Environmental Studies', 'Neque velit sit porro etincidunt consectetur eius non ut etincidunt modi neque dolor dolorem amet. Dolorem aliquam consectetur est quaerat quiquia porro dolorem dolorem velit quiquia quisquam amet non.');
+
+insert into topics
+	(label, description)
+values
+	('History of Social Sciences', 'Amet ut voluptatem magnam aliquam aliquam labore est quisquam porro quisquam consectetur. Quisquam dolorem dolor magnam adipisci est velit dolorem. Velit numquam ipsum amet amet neque modi etincidunt eius.');
+
+insert into topics
+	(label, description)
+values
+	('Social Ideologies', 'Neque dolorem velit quisquam eius velit. Aliquam magnam ipsum non numquam amet eius aliquam velit dolorem aliquam non. Neque quiquia sit labore quisquam dolor porro quaerat dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Social Sciences in Specific Locations', 'Velit ut etincidunt porro ut. Adipisci adipisci magnam tempora labore magnam ut non magnam. Dolore tempora voluptatem dolor adipisci non dolorem quaerat modi sed labore numquam. Amet labore dolor amet dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Social Science Education', 'Consectetur labore tempora porro aliquam modi voluptatem ipsum neque ut voluptatem dolorem adipisci eius amet aliquam. Non velit sit quiquia magnam dolore velit aliquam. Quaerat non non dolorem sit ipsum eius labore porro voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Education in STEM', 'Dolorem est non modi dolor amet consectetur magnam adipisci quiquia dolor quaerat non modi labore eius. Ipsum etincidunt labore numquam etincidunt labore labore adipisci ut.');
+
+insert into topics
+	(label, description)
+values
+	('Technology Education', 'Quaerat ipsum amet tempora dolorem sed dolore quaerat neque neque dolore consectetur porro. Sit eius etincidunt voluptatem est sed eius ipsum tempora quisquam sed dolorem velit consectetur porro adipisci. Eius sed dolor adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Biology Education', 'Quisquam dolorem dolorem tempora dolor voluptatem adipisci magnam. Dolor labore eius numquam magnam voluptatem eius tempora velit velit.');
+
+insert into topics
+	(label, description)
+values
+	('Mathematics Education', 'Non dolor amet ipsum. Sit non voluptatem sit magnam ut consectetur velit consectetur velit adipisci voluptatem numquam dolore voluptatem non.');
+
+insert into topics
+	(label, description)
+values
+	('Physics Education', 'Sed non ut consectetur dolore quaerat dolorem dolorem etincidunt quaerat. Eius etincidunt ipsum velit dolorem magnam sit sit non. Eius modi dolore magnam voluptatem sed porro tempora quisquam tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Chemistry Education', 'Eius non aliquam velit est velit dolorem labore ipsum numquam. Dolorem voluptatem dolore voluptatem sit dolorem amet quaerat est numquam ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Science Education', 'Non aliquam numquam ut dolorem tempora voluptatem est quiquia dolorem neque tempora. Voluptatem quisquam voluptatem sit ipsum quaerat ipsum eius aliquam quiquia dolore magnam magnam porro numquam. Neque etincidunt quiquia modi sed tempora ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Visiting and Travel', 'Dolor quiquia ipsum ipsum dolore neque magnam porro non labore voluptatem quaerat. Consectetur modi velit aliquam ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Tourism', 'Voluptatem aliquam modi voluptatem amet ipsum dolor labore. Voluptatem adipisci quisquam dolorem porro modi velit velit quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Accommodation', 'Est quaerat ipsum dolore eius numquam eius. Neque etincidunt quiquia quiquia tempora eius quisquam labore adipisci labore ipsum adipisci numquam modi. Eius est labore non quaerat. Ipsum tempora amet voluptatem ut.');
+
+insert into topics
+	(label, description)
+values
+	('Travel Hacks', 'Aliquam adipisci velit dolorem sed aliquam quiquia dolorem sit sed dolor. Velit modi non adipisci dolorem quiquia labore. Aliquam ut ut etincidunt sed aliquam neque sit magnam neque voluptatem adipisci adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Travel Photography', 'Dolor adipisci magnam magnam est eius adipisci. Amet ut eius ut sed numquam eius consectetur sit quaerat aliquam velit quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Rental Cars', 'Est ipsum quiquia amet modi velit ut ipsum tempora porro est neque voluptatem ut. Velit etincidunt aliquam quisquam dolor non adipisci. Quiquia amet quiquia dolore dolorem quisquam dolorem ut quaerat quisquam numquam quisquam ut magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Vacations', 'Magnam adipisci ut sit est sed non. Est neque dolore neque tempora quisquam sit magnam consectetur dolore etincidunt amet aliquam porro quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Travel', 'Amet etincidunt quaerat magnam eius non. Adipisci neque aliquam labore amet velit dolore modi dolorem dolore. Ipsum aliquam non quiquia quaerat porro magnam est consectetur sed sit quaerat est.');
+
+insert into topics
+	(label, description)
+values
+	('Travel Destinations', 'Porro numquam dolorem numquam velit modi aliquam. Dolorem dolore etincidunt tempora tempora sit.');
+
+insert into topics
+	(label, description)
+values
+	('Travel Planning', 'Dolor dolore est magnam ipsum etincidunt eius numquam ipsum. Adipisci dolor aliquam magnam quaerat quiquia consectetur ut velit. Sed modi sed numquam quaerat amet ut neque aliquam ut labore ut quiquia etincidunt dolorem porro.');
+
+insert into topics
+	(label, description)
+values
+	('Travel Writing', 'Ut labore sed sit modi. Ipsum voluptatem quiquia labore quaerat dolor. Etincidunt voluptatem quaerat aliquam eius consectetur dolore etincidunt est. Sit etincidunt magnam dolore voluptatem neque neque dolor porro quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Sightseeing', 'Amet quisquam tempora neque dolorem ut neque consectetur ut adipisci neque velit dolor. Dolore eius neque quisquam porro dolore dolor neque sit non dolorem aliquam consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Urban Exploration', 'Velit quisquam sit velit quaerat est magnam. Velit non labore sit magnam labore ut sit non dolore modi ipsum aliquam. Consectetur dolor voluptatem modi quaerat magnam non modi dolore aliquam aliquam adipisci ut aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Luggage', 'Quaerat quaerat dolor quaerat ut modi quisquam etincidunt. Aliquam neque modi modi dolor ipsum neque ipsum quaerat consectetur etincidunt aliquam velit dolorem dolore consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Safaris', 'Est neque modi sit sed tempora quisquam etincidunt eius amet amet amet. Ipsum ut etincidunt magnam eius ipsum. Non porro etincidunt sed aliquam numquam. Dolore eius neque porro dolor quisquam neque amet velit etincidunt dolorem dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Round the World Travel', 'Aliquam dolor quiquia quisquam. Dolor adipisci sit etincidunt magnam amet modi sit sed adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Luxury Travel', 'Eius quisquam dolor dolore dolore magnam dolorem numquam tempora dolore magnam voluptatem etincidunt ipsum dolorem. Etincidunt ut modi dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Travel Restrictions', 'Numquam dolor dolore ipsum modi est est sed amet dolor. Labore quisquam etincidunt aliquam numquam porro dolore ut quaerat neque amet dolore non numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Travel Stories', 'Amet dolor velit tempora ut dolor eius sed. Aliquam non consectetur dolore non quiquia consectetur sed sit. Non modi magnam modi.');
+
+insert into topics
+	(label, description)
+values
+	('Thanksgiving Travel', 'Modi adipisci quiquia non amet dolore consectetur magnam neque numquam neque quaerat. Modi amet consectetur ut amet tempora magnam ipsum magnam tempora dolor. Dolor etincidunt dolorem sit ipsum amet consectetur neque ut adipisci quisquam eius tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Travel Safety', 'Eius non etincidunt quisquam quisquam labore sed neque quisquam. Labore eius amet dolore ipsum non voluptatem modi. Est aliquam eius voluptatem sit ipsum eius. Voluptatem magnam quiquia ipsum ut neque sed velit velit dolorem est.');
+
+insert into topics
+	(label, description)
+values
+	('Visiting and Travel Advice', 'Adipisci voluptatem sed tempora quaerat velit non non dolore labore numquam dolor non eius. Quaerat ipsum quiquia sit quiquia amet.');
+
+insert into topics
+	(label, description)
+values
+	('Travelers', 'Labore amet etincidunt dolore magnam tempora numquam amet velit numquam labore sit eius dolore. Modi modi amet aliquam quaerat ipsum voluptatem neque consectetur quiquia. Eius tempora neque eius dolore tempora amet ipsum neque dolorem dolore amet.');
+
+insert into topics
+	(label, description)
+values
+	('Women''s Travel', 'Voluptatem sit velit dolor tempora quisquam non est consectetur. Magnam quiquia dolor sit quisquam. Amet dolor aliquam porro sed velit neque ipsum dolor quaerat sit velit non velit est dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('LGBTQ Travel', 'Numquam tempora quiquia modi. Labore velit ut dolorem tempora labore dolor sit quiquia adipisci non ut.');
+
+insert into topics
+	(label, description)
+values
+	('Accessible Travel', 'Ipsum ipsum est dolorem sit neque. Tempora tempora numquam quiquia quiquia velit. Modi tempora sed dolorem amet consectetur dolor modi est aliquam modi aliquam sed.');
+
+insert into topics
+	(label, description)
+values
+	('Travel Advisories', 'Tempora voluptatem magnam dolor dolore ipsum amet. Porro quaerat ut porro tempora amet quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Travel Health', 'Dolor dolor eius eius amet sed adipisci consectetur numquam quiquia amet sit modi sed. Dolore consectetur labore neque quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Fitness Travel', 'Voluptatem magnam non quisquam ut ut quisquam porro dolor ipsum voluptatem aliquam amet quiquia adipisci. Ipsum quiquia etincidunt quisquam dolorem dolor labore dolor dolor dolor tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Visiting and Travel in Specific Locations', 'Quisquam sit adipisci numquam aliquam neque modi porro ipsum. Labore aliquam quisquam sed velit quisquam. Porro eius adipisci sed labore dolorem labore.');
+
+insert into topics
+	(label, description)
+values
+	('Visiting Beaches', 'Ipsum sed labore tempora sed consectetur etincidunt velit dolore tempora. Voluptatem magnam numquam eius quiquia modi amet tempora voluptatem porro dolore labore adipisci sit porro labore. Modi neque sit ut porro. Non ut eius labore tempora voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Visiting and Travel on Trains', 'Porro est consectetur quaerat adipisci. Sed dolorem dolore dolor est modi sit. Sit ipsum quisquam labore. Numquam porro etincidunt amet. Amet adipisci porro dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Travel Activity Advice', 'Numquam ipsum etincidunt ut quaerat sit ut neque amet ipsum magnam sit non neque. Porro velit sed quisquam neque amet quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Travel Times', 'Dolore labore non quaerat sed quaerat tempora neque velit. Labore sed adipisci eius est numquam adipisci quiquia dolore adipisci. Modi dolor quiquia labore. Labore numquam numquam sed adipisci quiquia eius ut. Dolorem dolorem aliquam non voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Female Travel', 'Quisquam labore aliquam quiquia quaerat dolor. Dolor tempora ut magnam labore aliquam non amet ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Travelling Alone', 'Sit modi consectetur adipisci consectetur velit modi quaerat dolorem. Porro adipisci est amet velit amet tempora adipisci quaerat amet.');
+
+insert into topics
+	(label, description)
+values
+	('Visitors', 'Dolore tempora velit magnam voluptatem etincidunt non. Dolorem non sed etincidunt quisquam sed ipsum labore consectetur aliquam voluptatem velit.');
+
+insert into topics
+	(label, description)
+values
+	('eTA Canada (Electronic Travel Authorization )', 'Ipsum neque quaerat quaerat sit velit numquam consectetur magnam labore velit magnam ut porro consectetur. Labore labore eius dolorem amet quiquia tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Working Holiday Visas', 'Tempora voluptatem porro sed etincidunt sed porro sed etincidunt amet numquam. Quisquam sed eius adipisci sit adipisci ipsum amet sed quaerat amet dolorem eius modi est. Porro magnam ut porro. Magnam non numquam adipisci dolore dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Sports', 'Neque porro aliquam eius quisquam adipisci sit neque labore modi magnam ipsum ut velit consectetur. Est dolorem porro non porro.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Sports', 'Numquam aliquam aliquam sed adipisci sed adipisci dolor amet modi etincidunt ipsum neque quiquia quiquia non. Quiquia adipisci eius non neque magnam. Sit dolore neque sit tempora tempora etincidunt ipsum adipisci est amet sed.');
+
+insert into topics
+	(label, description)
+values
+	('Classifications of Sports', 'Porro modi modi tempora quisquam porro dolorem consectetur voluptatem aliquam adipisci voluptatem tempora. Dolore voluptatem numquam sed dolorem. Labore tempora modi adipisci. Labore quisquam dolore quiquia velit quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Sports', 'Porro numquam voluptatem etincidunt labore. Dolore adipisci sit ut quiquia sit quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Sports Business', 'Est tempora dolorem sed eius quiquia velit modi. Consectetur modi eius eius quaerat ipsum ut amet.');
+
+insert into topics
+	(label, description)
+values
+	('Sporting Events', 'Quiquia voluptatem non dolorem quisquam eius. Quisquam adipisci neque dolorem etincidunt sit neque velit non eius dolor dolor tempora sed. Numquam neque quisquam labore aliquam sed velit etincidunt etincidunt quaerat sit voluptatem magnam porro non.');
+
+insert into topics
+	(label, description)
+values
+	('Sports in Specific Locations', 'Amet non dolor eius velit neque dolorem velit eius adipisci consectetur modi aliquam adipisci velit. Velit etincidunt sed magnam dolore magnam quisquam dolor non consectetur porro neque labore.');
+
+insert into topics
+	(label, description)
+values
+	('Current Events in Sports', 'Consectetur porro tempora velit quaerat ipsum neque voluptatem amet consectetur sit ut amet ut. Numquam velit tempora velit quaerat ut quiquia velit. Eius est dolore voluptatem est sed consectetur ut non dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('History of Sports', 'Sit quisquam ipsum porro sed dolor etincidunt eius aliquam quisquam. Quaerat modi ipsum porro adipisci voluptatem adipisci magnam quisquam quisquam neque neque. Non dolore magnam sed consectetur modi ut non quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Sports', 'Est aliquam dolor ut ipsum est porro dolor quisquam aliquam eius est sed magnam sed non. Voluptatem velit dolorem adipisci est magnam ut eius.');
+
+insert into topics
+	(label, description)
+values
+	('Athletics', 'Modi velit etincidunt voluptatem magnam dolore quaerat etincidunt. Dolore adipisci velit amet etincidunt ut voluptatem dolore est labore consectetur magnam quisquam eius.');
+
+insert into topics
+	(label, description)
+values
+	('Sports Competitions', 'Eius consectetur dolor labore adipisci dolor. Etincidunt sed ut magnam dolore etincidunt adipisci neque sed.');
+
+insert into topics
+	(label, description)
+values
+	('Sports Cards', 'Amet non labore ut. Amet quiquia voluptatem sit non numquam non non tempora. Ut porro est ipsum numquam consectetur quiquia adipisci consectetur. Amet modi magnam numquam amet labore modi dolorem velit adipisci quisquam sed.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Sports and Recreation', 'Ut modi non eius ut dolor non aliquam amet est quiquia. Dolore dolor non porro ut ipsum ipsum voluptatem dolorem. Consectetur porro velit labore quiquia modi.');
+
+insert into topics
+	(label, description)
+values
+	('Disability Sports', 'Tempora voluptatem tempora non dolor amet quisquam. Neque labore tempora sit dolore neque est sit quiquia quiquia quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Watching Sports', 'Ut velit etincidunt porro quaerat dolore velit etincidunt tempora modi tempora. Aliquam est porro velit porro labore. Neque eius quisquam eius etincidunt labore. Aliquam numquam est ipsum dolorem dolore velit quiquia quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Gender Issues in Sports', 'Dolore sed non numquam eius quaerat quiquia. Tempora sed dolorem ipsum. Velit numquam dolor modi ut numquam. Sed neque amet eius modi neque amet modi amet numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Playing Sports', 'Est sit consectetur tempora. Magnam magnam sed porro aliquam adipisci labore eius voluptatem aliquam. Quaerat quiquia labore dolorem eius porro ut. Neque non ipsum dolorem adipisci eius ut.');
+
+insert into topics
+	(label, description)
+values
+	('Athelete', 'Dolor non magnam eius aliquam tempora ipsum quiquia dolore modi labore ipsum sit. Ut tempora tempora dolor quiquia dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Sport Organizations', 'Dolore modi magnam consectetur quaerat amet tempora etincidunt est. Porro quiquia porro ut amet numquam velit amet tempora magnam. Est adipisci numquam quiquia neque.');
+
+insert into topics
+	(label, description)
+values
+	('Sports Clubs', 'Voluptatem modi aliquam dolore magnam neque porro voluptatem quaerat quisquam dolore velit adipisci. Ut quaerat dolore numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Race and Ethnicity in Sports', 'Quisquam porro dolore etincidunt non quisquam amet sit dolorem dolore aliquam adipisci ipsum quaerat. Amet velit non dolore quiquia. Voluptatem non quiquia sed magnam amet tempora magnam quisquam numquam non velit aliquam dolorem tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Athletes', 'Est non porro ut ut voluptatem quiquia dolor. Ipsum sed voluptatem porro dolore dolorem eius sit tempora dolorem amet.');
+
+insert into topics
+	(label, description)
+values
+	('Nightlife', 'Labore consectetur dolorem non velit sed voluptatem. Quaerat porro modi numquam. Est tempora quisquam voluptatem quisquam dolore voluptatem sit. Amet est quiquia sit dolor ipsum porro modi labore tempora etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Bars', 'Ipsum porro adipisci quaerat consectetur porro eius dolorem est. Neque sit sed quiquia voluptatem magnam etincidunt dolorem amet consectetur adipisci labore tempora quaerat tempora. Est non adipisci dolor magnam etincidunt est tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Nightclubs', 'Etincidunt ut adipisci porro magnam dolore dolore voluptatem magnam modi amet porro consectetur etincidunt. Ut dolore adipisci eius tempora magnam amet velit amet dolore ut etincidunt sed adipisci porro magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Clubbing', 'Magnam eius velit magnam quaerat sit sit labore. Labore modi quaerat neque labore consectetur porro ut amet quisquam ipsum quaerat dolor. Neque voluptatem dolor labore porro amet aliquam voluptatem adipisci modi dolor dolore sed dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Dance (activity)', 'Dolorem quiquia etincidunt neque velit consectetur dolore eius aliquam numquam. Amet etincidunt voluptatem magnam ipsum dolorem quisquam. Est porro numquam aliquam aliquam numquam dolorem. Labore adipisci dolore amet quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Nightlife in Specific Locations', 'Tempora modi ut dolor numquam tempora quaerat tempora magnam quaerat. Est labore labore voluptatem voluptatem quisquam porro tempora sit. Consectetur dolore sit etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Nightlife Business', 'Ipsum aliquam voluptatem sed ipsum sit sed non quiquia magnam velit. Velit dolorem sed consectetur sit quisquam magnam aliquam quaerat tempora amet dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Raves', 'Aliquam sed modi quiquia ut consectetur. Etincidunt ut eius quiquia tempora dolor porro eius.');
+
+insert into topics
+	(label, description)
+values
+	('Shows and Performances', 'Voluptatem quaerat numquam quisquam eius modi dolor velit est dolorem quiquia dolor. Porro tempora dolore ut sit aliquam aliquam quaerat ipsum non magnam quisquam ut.');
+
+insert into topics
+	(label, description)
+values
+	('Social Dance', 'Velit adipisci adipisci voluptatem labore dolorem amet amet. Adipisci quaerat ut tempora quiquia dolor sit magnam velit quiquia est dolor dolore dolor. Velit velit porro eius consectetur ut ipsum labore. Quisquam sed magnam ipsum magnam non.');
+
+insert into topics
+	(label, description)
+values
+	('Dancing at Parties or in Clubs', 'Dolor quiquia est labore aliquam tempora porro. Quisquam velit tempora sit labore non labore velit adipisci magnam quiquia modi ipsum sit. Velit porro adipisci amet sit est dolorem dolorem porro est non sed dolorem labore quisquam non.');
+
+insert into topics
+	(label, description)
+values
+	('Dance (performing art)', 'Sit numquam voluptatem neque quisquam numquam modi sed ut quaerat ut aliquam. Etincidunt amet consectetur velit tempora ut velit labore. Porro est ut quisquam aliquam tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Dancers', 'Dolor quisquam modi porro ut aliquam quaerat velit velit tempora sit magnam quiquia. Etincidunt consectetur eius velit sed dolorem magnam dolorem adipisci modi velit. Ipsum ipsum amet porro quiquia aliquam ipsum quiquia ut. Voluptatem est quiquia velit.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts Related to Dance', 'Dolorem etincidunt magnam dolor dolor dolorem numquam sed adipisci. Aliquam magnam est dolorem etincidunt numquam adipisci ipsum consectetur numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Dance by Specific Location', 'Ipsum ut magnam neque dolor dolor. Est velit velit ut.');
+
+insert into topics
+	(label, description)
+values
+	('Dance Styles (Types of Dance)', 'Numquam velit labore eius non porro labore sed etincidunt. Aliquam modi etincidunt aliquam non. Modi neque sed adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Recreational and Leisure Activities', 'Sit quaerat tempora ipsum labore sed numquam neque dolor tempora. Sed dolore quaerat magnam quiquia amet. Magnam velit neque modi numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Hobbies', 'Dolore porro dolorem ipsum voluptatem quiquia ipsum aliquam quiquia quaerat etincidunt velit sed magnam amet quisquam. Ut magnam ut est amet adipisci velit ipsum etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Play', 'Ut tempora dolor ipsum est labore. Consectetur etincidunt ipsum adipisci sed.');
+
+insert into topics
+	(label, description)
+values
+	('Games', 'Neque amet ut dolore dolorem consectetur. Porro velit labore labore amet.');
+
+insert into topics
+	(label, description)
+values
+	('The Outdoors', 'Ipsum est est non dolorem magnam dolorem sed eius voluptatem. Numquam dolorem non consectetur aliquam dolor magnam magnam est aliquam. Porro velit aliquam dolor eius sit dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Adventures', 'Sit numquam dolore dolore sit dolorem magnam voluptatem aliquam labore dolor sed labore. Dolorem velit quisquam quisquam neque numquam neque aliquam dolorem ut dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Places to Go', 'Adipisci ipsum sit tempora est. Tempora aliquam dolore velit dolore labore quisquam quisquam non. Quaerat dolorem ut quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Events (leisure)', 'Voluptatem dolor dolore velit dolore non est sed eius magnam non quiquia velit porro. Quiquia neque quisquam aliquam adipisci modi ipsum non sed dolorem quisquam amet. Ipsum est labore non quiquia dolorem quiquia ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Dining Out', 'Dolor sit voluptatem ut dolore eius non sit aliquam sit. Labore quiquia quaerat adipisci porro numquam ut.');
+
+insert into topics
+	(label, description)
+values
+	('Hunting', 'Porro sit quisquam tempora quiquia tempora magnam tempora porro porro. Dolor quaerat porro modi dolor ut.');
+
+insert into topics
+	(label, description)
+values
+	('Object Manipulation', 'Velit labore quiquia dolor neque magnam non dolorem sed eius porro. Magnam amet numquam modi labore quiquia ut quaerat aliquam amet aliquam amet etincidunt labore tempora dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Having Fun', 'Ut etincidunt quaerat aliquam velit numquam porro est numquam modi eius porro magnam tempora magnam ipsum. Non quiquia ipsum quaerat magnam numquam voluptatem sit tempora consectetur ut eius adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Outdoor Recreation', 'Etincidunt quaerat dolorem porro labore tempora dolor sit aliquam tempora quiquia etincidunt. Est magnam ut tempora quisquam dolore non.');
+
+insert into topics
+	(label, description)
+values
+	('Exploration', 'Ipsum dolorem dolorem etincidunt. Tempora quaerat porro adipisci numquam velit dolore tempora etincidunt dolore modi adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Space Exploration', 'Adipisci eius neque dolorem sed ut voluptatem etincidunt sit neque labore etincidunt velit. Dolor dolorem neque voluptatem porro.');
+
+insert into topics
+	(label, description)
+values
+	('Explorers', 'Dolor voluptatem non voluptatem. Neque etincidunt velit quiquia amet porro ut dolor aliquam. Sed labore dolor quiquia amet dolore etincidunt quisquam etincidunt dolore quiquia sit etincidunt. Quiquia dolorem eius sit.');
+
+insert into topics
+	(label, description)
+values
+	('Discovery of the Americas', 'Neque numquam porro dolor aliquam numquam aliquam tempora aliquam consectetur. Sit porro quaerat adipisci modi non sit dolorem consectetur consectetur dolore.');
+
+insert into topics
+	(label, description)
+values
+	('European Exploration', 'Velit sed dolore adipisci dolor quisquam ut non modi porro eius. Adipisci magnam amet dolore non eius dolore neque eius sed amet aliquam. Eius dolor eius quisquam tempora amet dolorem neque dolorem quisquam velit etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Voyages', 'Neque eius quisquam velit consectetur ut etincidunt porro eius quaerat quaerat magnam ipsum etincidunt dolor porro. Sit sit modi est consectetur consectetur eius dolore adipisci quaerat dolorem. Porro ipsum aliquam modi. Sed dolore modi amet tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Ocean Explorations', 'Consectetur etincidunt eius dolore quiquia dolore tempora modi eius est dolor magnam dolore eius consectetur dolorem. Dolore sed ipsum etincidunt est amet amet dolor magnam consectetur dolor eius eius ipsum sit.');
+
+insert into topics
+	(label, description)
+values
+	('Oil & Gas Exploration', 'Quisquam quiquia voluptatem tempora. Sed modi tempora dolorem quaerat quaerat. Velit dolorem eius est eius amet magnam tempora quisquam amet quiquia modi. Ipsum quaerat consectetur modi est quiquia dolorem dolore magnam velit amet tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Polar Exploration', 'Ut sit ipsum eius voluptatem magnam dolorem magnam aliquam dolorem. Eius voluptatem porro amet neque voluptatem etincidunt velit consectetur voluptatem magnam quaerat quiquia tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Scientific Exploration', 'Etincidunt quiquia eius quaerat porro dolorem velit consectetur amet consectetur voluptatem porro adipisci eius. Non sed eius quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Desert Exploration', 'Magnam sed adipisci neque dolore est velit voluptatem tempora numquam non. Numquam tempora voluptatem dolor numquam labore modi dolorem amet amet quisquam sit dolor dolore. Dolore quiquia tempora amet.');
+
+insert into topics
+	(label, description)
+values
+	('Recreation', 'Etincidunt modi velit sed quaerat sed. Adipisci aliquam quiquia numquam magnam eius quaerat. Labore modi labore amet consectetur labore neque.');
+
+insert into topics
+	(label, description)
+values
+	('Favorite Things To Do', 'Tempora sit consectetur numquam adipisci dolorem labore velit dolorem est quisquam. Dolore etincidunt adipisci amet quisquam velit ipsum modi quaerat labore magnam amet dolorem dolorem magnam etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Things to Do in Specific Locations', 'Numquam magnam neque amet non sed voluptatem sit porro velit eius labore. Ipsum tempora est quaerat quaerat. Voluptatem quiquia etincidunt ipsum porro sed ipsum numquam. Aliquam adipisci sed quaerat. Aliquam velit amet voluptatem consectetur magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Activities', 'Dolorem ipsum modi tempora velit quaerat consectetur etincidunt dolor ut eius aliquam quaerat quaerat tempora. Dolor quisquam dolore dolorem eius etincidunt neque etincidunt quiquia labore.');
+
+insert into topics
+	(label, description)
+values
+	('Literature', 'Eius numquam numquam etincidunt numquam tempora dolor porro. Dolor ut labore adipisci. Quisquam neque ut quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('World Literatures', 'Consectetur aliquam quaerat non dolor aliquam labore ipsum quiquia non amet labore adipisci dolorem adipisci. Est voluptatem etincidunt eius magnam adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Literary Analysis and Criticism', 'Dolor aliquam eius modi non consectetur velit consectetur dolor ut. Sit aliquam quiquia eius porro amet neque modi.');
+
+insert into topics
+	(label, description)
+values
+	('Literary Genres', 'Velit est quiquia dolorem consectetur non adipisci est non modi adipisci. Numquam quiquia numquam amet dolor ut ut. Aliquam numquam amet modi magnam. Ut magnam modi amet est etincidunt numquam quiquia dolorem quaerat ut non.');
+
+insert into topics
+	(label, description)
+values
+	('Reading', 'Magnam neque quiquia amet velit porro etincidunt labore non est quiquia sed consectetur. Labore labore modi eius.');
+
+insert into topics
+	(label, description)
+values
+	('Literature by Specific Country', 'Ipsum velit non aliquam sit porro tempora neque neque aliquam sed non ut ut quaerat. Tempora dolore sed eius numquam quaerat aliquam magnam amet. Sit eius magnam labore est labore non.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Literature', 'Eius dolor velit dolor quiquia tempora tempora dolor. Adipisci numquam porro numquam voluptatem numquam. Porro dolore sed dolor etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Literature in Specific Locations', 'Amet eius adipisci dolore est voluptatem dolore quaerat dolor neque ut adipisci sit neque. Ut numquam amet dolorem amet dolorem sit sed velit tempora amet sed tempora tempora adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Written Works', 'Voluptatem sed amet quaerat ut modi dolore velit eius etincidunt modi neque. Sit numquam etincidunt sed est.');
+
+insert into topics
+	(label, description)
+values
+	('Words', 'Aliquam etincidunt ut ut dolor dolorem numquam. Sed dolor eius quisquam voluptatem amet consectetur quaerat. Labore porro labore dolor ut voluptatem quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Etymology', 'Ut modi amet dolore. Dolore non adipisci sit velit non tempora magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Diction and Word Usage', 'Velit quiquia magnam quaerat est dolore amet dolorem quaerat modi quisquam labore consectetur magnam. Numquam neque sit ut non voluptatem. Magnam velit ipsum sed.');
+
+insert into topics
+	(label, description)
+values
+	('Word Definitions, Terminology, and Jargon', 'Adipisci sit adipisci quisquam dolorem numquam numquam quaerat dolor dolor dolore quisquam labore. Ut dolor numquam consectetur sit voluptatem magnam adipisci. Quisquam neque labore amet ut. Non quiquia aliquam aliquam velit quaerat etincidunt adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Parts of Speech', 'Ipsum quiquia velit labore ut dolor non voluptatem adipisci velit tempora dolorem amet modi consectetur consectetur. Est consectetur ut eius sed velit voluptatem porro tempora sit dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Concepts Related to Words', 'Velit ut quisquam dolore labore neque sit etincidunt neque. Dolorem ut velit adipisci est tempora adipisci aliquam. Numquam ipsum dolor sit velit. Etincidunt numquam consectetur labore sed. Est adipisci quiquia aliquam non numquam sed.');
+
+insert into topics
+	(label, description)
+values
+	('Vocabulary of the English Language', 'Porro numquam eius quisquam aliquam amet modi. Adipisci dolor voluptatem amet quiquia labore velit. Porro dolorem modi numquam labore non voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Loanwords', 'Porro labore eius sit dolor neque est labore neque quaerat ipsum numquam ipsum ipsum aliquam magnam. Sed consectetur labore magnam sit magnam tempora neque magnam est eius magnam numquam aliquam non numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Word Lists', 'Neque dolorem dolor aliquam magnam dolore etincidunt labore dolore. Adipisci labore dolorem numquam etincidunt sit tempora adipisci non sed tempora quaerat eius sit sit sit.');
+
+insert into topics
+	(label, description)
+values
+	('Words and Phrases', 'Porro dolore magnam labore etincidunt labore sit aliquam labore eius labore est. Modi eius neque adipisci modi sed porro non sit etincidunt velit voluptatem neque tempora eius velit.');
+
+insert into topics
+	(label, description)
+values
+	('Lexicology', 'Porro ipsum eius dolore quaerat dolorem eius dolor porro est. Velit non sit modi quiquia neque voluptatem ipsum porro.');
+
+insert into topics
+	(label, description)
+values
+	('Foreign Words', 'Dolor adipisci magnam quisquam aliquam sed dolorem. Neque quaerat quaerat sit est tempora velit porro non ipsum. Quisquam voluptatem velit dolore ipsum consectetur ut dolorem velit quaerat magnam dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Metonymy', 'Dolorem dolorem amet ut magnam est sit ut aliquam quisquam porro. Labore dolor non labore consectetur amet sit neque ut. Eius modi etincidunt numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Glossaries', 'Ipsum labore sit quaerat tempora dolor. Porro ipsum labore amet. Quaerat etincidunt tempora consectetur magnam ipsum quiquia consectetur est modi labore. Non ut ut adipisci non velit tempora tempora amet consectetur velit.');
+
+insert into topics
+	(label, description)
+values
+	('Concepts in Grammar', 'Voluptatem sit est sed. Etincidunt ut labore tempora sit dolor magnam ut neque sit dolore. Sit est dolore dolor quaerat non porro tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Grammar of Specific Languages', 'Voluptatem dolorem dolor labore neque sed velit voluptatem. Neque ipsum sed eius. Tempora sit magnam est neque quisquam sit sit ipsum quiquia quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Grammar Mistakes', 'Etincidunt dolorem non porro eius sit aliquam non ipsum voluptatem est dolor numquam eius etincidunt eius. Non sed quaerat dolor sed dolor dolorem eius quaerat. Ut quiquia quisquam est voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Non-Verbal Communication and Body Language', 'Tempora modi amet porro non amet porro porro. Dolorem voluptatem voluptatem dolore non modi dolor ipsum magnam tempora. Dolor sed velit aliquam labore aliquam amet quiquia magnam magnam modi.');
+
+insert into topics
+	(label, description)
+values
+	('English (language)', 'Quisquam velit non numquam quiquia amet neque sed dolor eius consectetur quisquam. Magnam ipsum neque tempora numquam dolore porro dolor dolore porro labore est etincidunt etincidunt consectetur quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('English Grammar', 'Sed voluptatem neque sed non eius amet est neque ut labore. Dolore labore ipsum voluptatem dolore. Etincidunt dolorem amet velit quiquia quisquam non voluptatem eius consectetur voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('History of the English Language', 'Magnam numquam velit modi adipisci adipisci. Amet porro ut aliquam amet labore magnam consectetur tempora neque sed amet sed amet non porro. Est tempora quisquam aliquam modi neque tempora.');
+
+insert into topics
+	(label, description)
+values
+	('English as a Second Language (ESL)', 'Tempora consectetur adipisci porro amet etincidunt sit. Modi dolorem sed velit. Dolore neque sed ipsum etincidunt modi est labore modi.');
+
+insert into topics
+	(label, description)
+values
+	('World Englishes', 'Non quisquam dolor amet non. Amet dolore eius sed eius numquam consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('English Translation and Interpretation', 'Quiquia quaerat modi modi. Etincidunt quaerat modi adipisci aliquam aliquam ut eius sed sit labore. Ipsum consectetur aliquam est quiquia dolorem. Amet non ipsum etincidunt porro est dolore porro neque.');
+
+insert into topics
+	(label, description)
+values
+	('Accent Marks in English', 'Adipisci consectetur sit velit quaerat est eius magnam est ut quisquam modi quaerat. Voluptatem amet quiquia tempora modi voluptatem est eius consectetur. Sit eius labore sit aliquam aliquam voluptatem dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('English Language and Literature', 'Quisquam ut dolor numquam. Velit consectetur etincidunt voluptatem aliquam tempora sed ipsum consectetur eius porro labore est aliquam neque.');
+
+insert into topics
+	(label, description)
+values
+	('Learning About English', 'Dolore est dolor consectetur modi velit ut eius est ut dolore quiquia. Quisquam quiquia quaerat sit quaerat quiquia est voluptatem quiquia ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in English (academic discipline)', 'Consectetur eius sit modi velit tempora dolore numquam modi eius dolor modi eius tempora est ut. Non quisquam sit consectetur dolorem quiquia amet.');
+
+insert into topics
+	(label, description)
+values
+	('English Listening', 'Non dolore quisquam modi neque neque quiquia. Etincidunt quisquam dolorem quaerat non dolorem dolor velit dolor. Dolorem dolorem dolor dolore magnam ut tempora. Adipisci magnam porro labore voluptatem sit est ut aliquam dolorem sit neque ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Learning English', 'Velit consectetur ipsum neque amet ipsum etincidunt non eius magnam porro modi sit est etincidunt amet. Eius consectetur adipisci dolorem dolor dolorem magnam etincidunt non est labore.');
+
+insert into topics
+	(label, description)
+values
+	('English Writing', 'Quisquam modi sed adipisci sit. Aliquam est dolorem voluptatem numquam ut dolorem modi.');
+
+insert into topics
+	(label, description)
+values
+	('English Spelling', 'Non dolor sit magnam etincidunt voluptatem eius. Voluptatem dolor non adipisci quiquia sit quiquia dolor dolorem velit velit tempora. Dolore sit amet neque quiquia non amet etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('English Literature', 'Etincidunt magnam non quiquia neque eius. Velit modi magnam quaerat velit tempora etincidunt ipsum dolor.');
+
+insert into topics
+	(label, description)
+values
+	('English Dialects', 'Labore labore magnam non magnam. Est dolore quaerat aliquam quaerat magnam numquam magnam.');
+
+insert into topics
+	(label, description)
+values
+	('English Sentences', 'Consectetur magnam neque dolorem sit porro dolorem velit ut consectetur aliquam dolor est porro adipisci magnam. Ipsum dolore eius ut. Quisquam adipisci consectetur sit consectetur quaerat aliquam adipisci quisquam magnam.');
+
+insert into topics
+	(label, description)
+values
+	('English Etymology', 'Sit amet tempora magnam. Dolorem est aliquam porro non. Labore numquam dolor est tempora quaerat quiquia ipsum etincidunt eius porro ut labore porro. Velit eius sit neque.');
+
+insert into topics
+	(label, description)
+values
+	('English-Language Slang', 'Quiquia ipsum sit etincidunt adipisci non magnam eius tempora voluptatem magnam. Etincidunt porro numquam adipisci non.');
+
+insert into topics
+	(label, description)
+values
+	('English Language Accents', 'Numquam ipsum neque dolore labore. Amet dolore tempora velit neque non sed adipisci quiquia neque sed labore.');
+
+insert into topics
+	(label, description)
+values
+	('English for Beginners', 'Labore quisquam modi aliquam modi adipisci magnam aliquam numquam eius. Quaerat modi amet est etincidunt ut quiquia aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Quotations (punctuation)', 'Adipisci dolorem non dolor dolorem adipisci. Dolorem modi dolor labore adipisci quaerat velit eius amet quiquia quisquam labore neque dolor sed. Modi aliquam dolorem quisquam. Sed velit ut consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Television Quotations and Dialogue', 'Neque adipisci labore ut dolore. Quaerat eius dolor modi velit tempora numquam ut labore.');
+
+insert into topics
+	(label, description)
+values
+	('Literary Quotations', 'Sed dolorem non consectetur labore est modi sit porro. Porro dolor ipsum consectetur dolore magnam aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Movie Quotations and Dialogue', 'Sed etincidunt dolore quaerat eius. Quaerat aliquam modi magnam sit modi quaerat consectetur amet ut sit etincidunt magnam sed eius.');
+
+insert into topics
+	(label, description)
+values
+	('Infamous Quotations', 'Tempora dolorem adipisci quiquia. Dolor etincidunt magnam magnam dolor magnam tempora ipsum sed quiquia dolorem velit.');
+
+insert into topics
+	(label, description)
+values
+	('Quotation Attribution', 'Velit porro est ut ut non quiquia velit voluptatem dolore sit porro quiquia sed velit. Quiquia est labore adipisci amet quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Inspirational Quotes', 'Voluptatem sit ut voluptatem modi ut non tempora velit modi non eius. Non ut porro sed magnam voluptatem est.');
+
+insert into topics
+	(label, description)
+values
+	('Funny Quotes', 'Dolorem voluptatem ipsum modi. Labore velit adipisci labore adipisci non non. Voluptatem porro quaerat eius sed ipsum aliquam aliquam sed ut eius porro quaerat amet ut.');
+
+insert into topics
+	(label, description)
+values
+	('Best Quotes And Sayings', 'Est ipsum velit neque quisquam dolore magnam dolorem numquam amet labore numquam est amet. Quaerat voluptatem dolore porro sed aliquam quisquam dolorem ut tempora eius.');
+
+insert into topics
+	(label, description)
+values
+	('Love Quotes', 'Tempora labore aliquam adipisci quaerat velit magnam aliquam quisquam. Dolore quaerat magnam dolorem aliquam. Quiquia tempora ipsum porro adipisci dolor. Non numquam sed porro ut tempora quiquia ut adipisci neque dolorem amet ut labore etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Communication', 'Sit dolor sit voluptatem numquam ipsum quisquam est porro voluptatem sit eius non magnam voluptatem. Porro voluptatem dolorem dolor quaerat est est est modi quiquia amet labore.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Communication', 'Porro magnam quiquia dolor quaerat labore quaerat porro aliquam adipisci. Modi voluptatem labore numquam sit etincidunt dolore adipisci voluptatem labore porro tempora non.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Communication', 'Porro aliquam modi consectetur neque dolore ut labore quisquam tempora labore aliquam quiquia dolore consectetur eius. Dolore aliquam neque numquam ut etincidunt amet quaerat etincidunt est aliquam aliquam sit.');
+
+insert into topics
+	(label, description)
+values
+	('Communication Systems', 'Voluptatem est dolore ipsum aliquam sed adipisci quiquia eius sit aliquam neque. Magnam magnam est dolore quisquam porro. Tempora ut dolorem non quiquia ut amet dolorem est neque aliquam etincidunt aliquam neque.');
+
+insert into topics
+	(label, description)
+values
+	('Communication Technologies', 'Adipisci ut quisquam quaerat non. Quisquam adipisci modi voluptatem quiquia etincidunt etincidunt sit eius aliquam sit modi ut ut sed. Porro magnam dolorem consectetur tempora porro consectetur dolore sit. Sit neque porro sed porro velit.');
+
+insert into topics
+	(label, description)
+values
+	('Learning About Communications', 'Sed porro ut dolore. Quiquia ut numquam quisquam quaerat eius. Dolore labore quisquam non non. Velit sit quaerat numquam adipisci. Non quaerat neque labore consectetur est sit quiquia. Velit labore quiquia etincidunt quaerat porro sed.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Communications', 'Non amet dolorem non est dolor. Est aliquam quaerat sit dolore quaerat neque amet neque. Numquam non quaerat adipisci aliquam dolorem tempora est neque magnam etincidunt neque est magnam. Est eius numquam velit dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Communications Skills', 'Eius ut magnam labore quaerat amet dolorem neque porro. Aliquam consectetur est modi non est quisquam aliquam porro quiquia non ut eius est. Numquam dolore porro aliquam neque velit est neque est.');
+
+insert into topics
+	(label, description)
+values
+	('Communication Studies', 'Quisquam magnam dolorem quisquam dolorem dolorem amet eius aliquam voluptatem. Dolore est adipisci aliquam adipisci tempora sed etincidunt dolore dolor dolorem quisquam. Quiquia labore ut consectetur modi eius sit dolor.');
+
+insert into topics
+	(label, description)
+values
+	('History of Communication', 'Labore etincidunt quaerat quiquia modi sit quisquam eius dolor sed dolore adipisci tempora neque. Est velit labore porro non est eius etincidunt tempora ut est.');
+
+insert into topics
+	(label, description)
+values
+	('Digital Communication', 'Eius ipsum voluptatem dolorem est etincidunt adipisci quaerat quaerat non porro quaerat ipsum. Dolorem sit quisquam est tempora quiquia numquam neque.');
+
+insert into topics
+	(label, description)
+values
+	('Business', 'Velit adipisci sit aliquam aliquam voluptatem sed adipisci consectetur porro est dolore est dolorem. Magnam est tempora sit dolor est tempora aliquam modi ut magnam dolorem dolor modi adipisci. Sed consectetur quisquam sed.');
+
+insert into topics
+	(label, description)
+values
+	('Business in Specific Locations', 'Tempora ipsum tempora etincidunt. Voluptatem dolorem dolore quisquam consectetur adipisci tempora dolorem etincidunt dolor amet dolore quisquam sed ut quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Business Sectors', 'Est ipsum dolore quisquam eius amet dolorem quaerat amet. Dolor modi neque aliquam eius est numquam dolore neque eius adipisci neque dolore non non.');
+
+insert into topics
+	(label, description)
+values
+	('Major Divisions Within Companies', 'Modi ut numquam amet quiquia aliquam sit tempora quisquam tempora. Ut dolor dolore dolore ut tempora numquam ut ut non quiquia. Sit modi non quaerat dolore numquam labore dolorem amet modi sed neque quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Business', 'Adipisci quiquia eius adipisci voluptatem non tempora quiquia. Labore non voluptatem porro dolore sed tempora sit numquam tempora magnam consectetur quisquam neque neque.');
+
+insert into topics
+	(label, description)
+values
+	('Companies', 'Numquam dolor sit dolor porro magnam quisquam aliquam velit eius velit non velit. Dolore sit neque dolorem dolore amet velit dolorem sit. Labore quaerat numquam non tempora dolor. Ipsum velit velit voluptatem quiquia labore dolore sit amet non eius eius.');
+
+insert into topics
+	(label, description)
+values
+	('Business Classifications', 'Dolorem numquam aliquam dolor modi voluptatem quaerat ut. Quaerat dolor consectetur modi. Aliquam adipisci amet porro. Modi dolorem magnam labore aliquam ut. Porro porro est labore modi quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Current Events in Business', 'Consectetur modi voluptatem eius neque quaerat quisquam velit adipisci dolor. Aliquam sed magnam porro dolorem non consectetur velit labore adipisci dolor voluptatem amet dolorem neque tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Business Research', 'Amet dolore ut consectetur velit eius aliquam ipsum magnam sit neque aliquam eius eius quiquia magnam. Consectetur voluptatem quaerat sed velit.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts Related to Business', 'Adipisci aliquam sit tempora. Modi porro est sit quaerat amet.');
+
+insert into topics
+	(label, description)
+values
+	('Business Education', 'Adipisci est velit eius. Ut ipsum labore numquam sit. Ut sit magnam amet amet non numquam porro voluptatem dolore tempora neque adipisci numquam aliquam. Quaerat dolor eius quisquam neque tempora aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Business Advice', 'Sit sit dolore adipisci tempora ipsum dolore velit numquam ipsum non quaerat ut non neque. Est numquam tempora etincidunt magnam ut sed tempora non dolor numquam modi amet consectetur ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Starting a Business', 'Porro amet neque numquam dolor dolor velit aliquam neque tempora numquam magnam porro quisquam etincidunt dolore. Velit quaerat modi quaerat magnam est est neque dolore amet sed neque magnam consectetur neque. Neque dolor tempora sit aliquam aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Business', 'Neque neque adipisci voluptatem modi dolore sed. Consectetur eius est etincidunt ut. Labore porro adipisci dolorem dolore quaerat sit non velit sed ut.');
+
+insert into topics
+	(label, description)
+values
+	('Types of Businesses', 'Ut amet sit amet amet quisquam sit dolorem sit consectetur porro est non voluptatem quiquia. Quaerat amet quisquam aliquam ipsum sed velit ipsum neque magnam tempora velit.');
+
+insert into topics
+	(label, description)
+values
+	('Work', 'Modi quiquia numquam quisquam amet sit numquam. Neque adipisci dolor labore modi sed dolore dolorem etincidunt aliquam quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts Related to Work', 'Sit eius ut tempora non labore dolore numquam. Tempora sit ipsum magnam. Quiquia quiquia aliquam velit. Velit tempora voluptatem magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Retirement', 'Labore tempora modi quaerat quiquia. Dolore sit porro modi quiquia. Adipisci modi dolor numquam modi numquam dolore quiquia modi tempora numquam velit.');
+
+insert into topics
+	(label, description)
+values
+	('Work Ethic', 'Modi adipisci neque sed etincidunt. Eius sit consectetur ut tempora sed est labore aliquam quiquia. Modi ipsum aliquam labore etincidunt ipsum ut quiquia adipisci porro quisquam neque eius quaerat adipisci. Quaerat dolore dolor ut modi etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Employment', 'Quaerat eius eius numquam. Numquam adipisci quiquia adipisci dolorem. Labore dolor labore voluptatem sed quaerat quaerat ut dolore non. Ut etincidunt sit sed aliquam quisquam numquam dolor modi est velit.');
+
+insert into topics
+	(label, description)
+values
+	('Work in Specific Locations', 'Non quaerat amet quiquia non. Consectetur dolorem adipisci tempora ipsum magnam dolorem. Tempora quaerat magnam non dolorem non sed labore sit dolor etincidunt non consectetur. Quaerat porro ipsum magnam ipsum amet tempora labore aliquam ut velit est.');
+
+insert into topics
+	(label, description)
+values
+	('Work Advice', 'Dolorem numquam non dolore dolore quiquia aliquam. Dolorem quisquam adipisci dolorem numquam adipisci quiquia magnam. Dolore ut voluptatem dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Working at Specific Companies in Specific Fields', 'Modi velit amet numquam modi tempora sit quiquia consectetur dolore dolorem etincidunt velit. Non consectetur eius etincidunt eius.');
+
+insert into topics
+	(label, description)
+values
+	('Working at Specific Companies', 'Dolorem velit dolorem numquam tempora quaerat etincidunt. Quaerat quiquia quisquam non.');
+
+insert into topics
+	(label, description)
+values
+	('Hard Working', 'Ipsum eius ipsum dolor aliquam neque dolor porro tempora ipsum tempora quaerat eius quiquia. Quaerat non ipsum amet dolor aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers', 'Amet tempora ut quaerat voluptatem aliquam amet. Ipsum dolorem non dolor sed quisquam quiquia eius sed ut etincidunt dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Career Advice', 'Quaerat non non magnam dolorem. Est eius magnam quisquam sed dolor. Dolore etincidunt sit est dolorem modi velit ut sit adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers at Specific Companies', 'Dolore ipsum amet modi porro neque. Non sit numquam dolorem velit tempora sed quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Jobs and Careers', 'Dolor dolor etincidunt non quaerat aliquam porro aliquam porro adipisci. Ut adipisci quaerat porro. Magnam quiquia neque amet amet. Magnam sit voluptatem ipsum voluptatem eius porro etincidunt ipsum adipisci ipsum dolore sit etincidunt amet.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Specific Locations', 'Tempora ipsum porro adipisci adipisci labore modi ut porro sit quaerat sed dolor porro. Aliquam etincidunt tempora adipisci dolorem neque neque quaerat porro numquam quiquia voluptatem labore numquam magnam labore. Quaerat dolore dolore dolor numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts Related to Jobs or Careers', 'Neque quisquam quaerat quiquia voluptatem aliquam sed porro. Dolore est voluptatem sed quiquia dolore neque. Modi eius ut numquam modi modi numquam quisquam velit etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Job and Careers', 'Sit eius est quisquam aliquam quaerat dolorem. Quisquam quisquam dolor velit dolor tempora magnam numquam sed.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Specific Areas', 'Etincidunt dolore aliquam ut neque magnam non ut labore neque tempora ipsum est. Aliquam quaerat aliquam consectetur tempora amet.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Employment Types', 'Tempora porro quisquam velit eius adipisci labore. Quiquia labore quiquia eius porro tempora non etincidunt dolor etincidunt numquam quaerat modi dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Job and Career Comparisons', 'Quaerat neque dolore est est aliquam consectetur labore porro non. Ipsum quiquia etincidunt neque eius modi dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Salaries for Specific Jobs and Careers', 'Eius est non amet. Aliquam amet etincidunt quaerat dolor dolore dolor sed dolorem ut modi labore non porro.');
+
+insert into topics
+	(label, description)
+values
+	('Design', 'Modi numquam velit porro sed quiquia labore dolor velit quiquia dolorem velit neque neque tempora voluptatem. Porro ipsum voluptatem modi est eius labore modi sit ipsum magnam eius. Dolor quaerat dolore labore.');
+
+insert into topics
+	(label, description)
+values
+	('Product Design of Physical Goods', 'Est labore magnam aliquam. Ut magnam non neque porro voluptatem adipisci dolor sit. Quaerat eius magnam porro quiquia ut numquam quiquia quiquia. Voluptatem labore ut tempora amet dolorem porro quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Design', 'Modi quisquam modi quaerat neque neque dolorem ipsum sit velit. Non modi velit dolore ipsum tempora sed aliquam neque sed modi numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Design', 'Consectetur consectetur etincidunt numquam ut quaerat non voluptatem tempora dolore quaerat. Velit magnam velit sed etincidunt numquam quiquia quiquia velit quisquam sed neque quaerat labore.');
+
+insert into topics
+	(label, description)
+values
+	('Philosophy of Design', 'Dolorem numquam dolor labore. Consectetur tempora etincidunt quiquia ipsum magnam quisquam voluptatem neque porro magnam quaerat velit. Aliquam etincidunt dolorem modi sed. Etincidunt etincidunt non tempora labore ut quisquam quiquia amet ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Design Pedagogy', 'Dolore labore numquam porro sit aliquam quiquia consectetur est sit modi. Sed voluptatem aliquam labore amet adipisci aliquam non eius quaerat adipisci sed porro aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Design', 'Porro modi eius amet dolor quisquam sed dolore sed dolor est ipsum. Non quaerat labore neque.');
+
+insert into topics
+	(label, description)
+values
+	('Vexillology', 'Tempora labore consectetur velit tempora adipisci quiquia est est velit ipsum. Consectetur sit est dolorem velit amet quisquam quaerat ut quiquia amet. Dolor neque amet amet tempora est tempora amet porro amet ut sed eius.');
+
+insert into topics
+	(label, description)
+values
+	('Design Portfolios', 'Ut velit dolorem ut porro sed non ipsum labore non labore sed. Amet labore modi labore quisquam amet aliquam dolor quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Design Tools', 'Sed est ipsum dolore. Consectetur eius magnam dolor etincidunt labore eius est consectetur quaerat neque eius etincidunt voluptatem etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Vehicle Design', 'Dolorem sed quaerat tempora. Consectetur ipsum etincidunt adipisci. Numquam dolorem aliquam neque quaerat dolor adipisci amet magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Principles of Design', 'Non amet amet magnam consectetur est dolorem labore aliquam dolor labore quiquia ut eius quiquia. Quaerat est ut est quaerat voluptatem. Etincidunt etincidunt sed velit etincidunt eius neque porro consectetur dolore voluptatem aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Fashion and Style', 'Sed eius quiquia ipsum adipisci adipisci quiquia dolore neque aliquam consectetur. Non porro neque labore.');
+
+insert into topics
+	(label, description)
+values
+	('Women''s Fashion and Style', 'Ipsum dolorem sed quisquam dolorem. Eius dolore quiquia numquam ut numquam consectetur etincidunt labore tempora etincidunt quisquam quiquia est etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Men''s Fashion and Style', 'Tempora quiquia dolor quisquam magnam. Consectetur ipsum amet dolorem. Dolorem adipisci etincidunt etincidunt quiquia numquam. Dolorem adipisci porro tempora modi aliquam. Sed porro numquam sed velit. Quiquia tempora magnam porro sit neque.');
+
+insert into topics
+	(label, description)
+values
+	('Fashion Trends', 'Consectetur sed sit ipsum porro amet neque amet amet aliquam ut dolor. Consectetur sit neque velit est dolorem modi. Neque velit sit ipsum neque modi magnam aliquam velit labore dolor quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Fashion Designers', 'Aliquam voluptatem porro velit. Non aliquam modi adipisci aliquam labore. Est labore adipisci sit tempora neque labore adipisci voluptatem. Labore neque non quaerat quaerat ut numquam tempora dolor numquam.');
+
+insert into topics
+	(label, description)
+values
+	('History of Fashion', 'Tempora etincidunt quaerat modi dolore quiquia sit quiquia eius numquam porro ipsum non. Velit ipsum aliquam dolore voluptatem eius amet aliquam porro sit. Neque ut velit porro modi magnam non adipisci ut etincidunt non porro labore quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Types of Fashion Aesthetics', 'Aliquam quaerat ut tempora dolore consectetur ut aliquam. Sed est consectetur ipsum consectetur modi modi adipisci non ut etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Beauty Products and Cosmetics', 'Aliquam sit ut porro labore tempora quisquam dolore sed magnam aliquam dolor velit. Voluptatem tempora dolor dolorem etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Clothing and Apparel', 'Labore numquam dolore tempora labore ipsum quisquam numquam numquam modi dolorem. Sit magnam magnam magnam labore est consectetur tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Fashion and Style', 'Ut voluptatem modi tempora velit. Dolorem velit ut sit sed magnam neque dolore quaerat labore.');
+
+insert into topics
+	(label, description)
+values
+	('Fashion of Specific Locations', 'Velit consectetur sit consectetur adipisci dolor quaerat sed neque dolor labore tempora sed amet consectetur. Neque ut numquam dolor adipisci quiquia dolor est sit dolore non.');
+
+insert into topics
+	(label, description)
+values
+	('Fashion Industry', 'Dolorem quiquia sed dolore. Porro amet dolorem neque dolor non consectetur ipsum sed ipsum amet dolore dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Fashion Media', 'Labore porro velit ipsum tempora non adipisci. Voluptatem dolorem amet est porro voluptatem amet dolore etincidunt sit ipsum non voluptatem voluptatem aliquam adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Vintage Products and Goods', 'Modi velit quaerat quisquam quiquia sit tempora ipsum adipisci neque quisquam magnam velit numquam. Modi modi amet sit quaerat quiquia non eius numquam amet aliquam quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Celebrity Fashion', 'Ut numquam etincidunt labore etincidunt dolorem ipsum. Dolorem quisquam dolore labore quaerat dolore tempora aliquam tempora dolore. Quisquam magnam numquam numquam ut dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Fashion Faux Pas', 'Aliquam quaerat aliquam dolor eius. Dolorem eius ipsum consectetur etincidunt velit dolore dolor neque sed ut consectetur tempora tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Fashion Brands', 'Ipsum consectetur consectetur amet magnam. Modi dolore amet ut amet dolor quisquam adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Children''s Fashion', 'Est dolore quiquia amet etincidunt sed adipisci tempora porro porro eius. Ipsum dolor consectetur voluptatem quaerat quaerat eius dolorem dolor quisquam neque modi dolorem amet. Velit quaerat etincidunt magnam ipsum quiquia dolorem voluptatem dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Fashion Jewellery', 'Consectetur sit non eius consectetur adipisci est ut modi numquam consectetur labore quisquam etincidunt. Numquam ut magnam sed etincidunt magnam numquam tempora velit quaerat ut ut porro dolorem dolorem aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Fashion and Style in Specific Locations', 'Sed sed ipsum est non. Labore dolorem velit tempora modi quiquia eius dolor sit labore. Non sed aliquam amet labore voluptatem magnam ut labore quiquia velit numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Fashion', 'Dolor dolorem numquam numquam aliquam quiquia dolor numquam ut dolore sit. Eius velit tempora sit est dolorem magnam labore ipsum. Aliquam adipisci voluptatem velit. Quaerat porro quiquia magnam numquam dolor quisquam labore magnam ut adipisci ut.');
+
+insert into topics
+	(label, description)
+values
+	('Fashion Technology', 'Quaerat labore sit ipsum eius dolor voluptatem sed magnam. Dolor velit non consectetur. Aliquam dolore ipsum etincidunt magnam porro consectetur eius labore porro quiquia ut tempora modi etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Attire', 'Aliquam magnam eius adipisci porro adipisci non dolor velit adipisci dolorem consectetur eius adipisci. Labore modi neque quiquia est.');
+
+insert into topics
+	(label, description)
+values
+	('Fashion Watches', 'Numquam labore non aliquam dolor. Neque voluptatem aliquam sed.');
+
+insert into topics
+	(label, description)
+values
+	('Fashion Accessories', 'Quaerat modi non sit labore quiquia etincidunt dolor sit dolor amet neque quaerat aliquam ut sed. Eius etincidunt magnam non porro amet dolore non quisquam labore. Dolor dolor consectetur dolore sed etincidunt quiquia non etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Art', 'Amet etincidunt quaerat quaerat amet amet modi. Porro velit dolor ut tempora porro ipsum etincidunt velit quaerat eius amet dolor etincidunt quaerat tempora. Eius tempora etincidunt amet quisquam tempora sed. Ut labore porro tempora est.');
+
+insert into topics
+	(label, description)
+values
+	('Artistic Activities', 'Dolor sed quisquam velit quiquia velit adipisci ut sed est modi. Aliquam non quiquia porro.');
+
+insert into topics
+	(label, description)
+values
+	('Art Therapy', 'Ipsum tempora consectetur ipsum. Eius amet velit est ut tempora. Consectetur eius sit quiquia ut sed ipsum velit quiquia adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('History of Art', 'Sit eius aliquam adipisci porro adipisci quaerat adipisci quaerat amet quiquia. Labore labore ut velit tempora dolor sed neque velit amet sed etincidunt aliquam consectetur neque. Dolor dolor sit consectetur ipsum tempora dolor non.');
+
+insert into topics
+	(label, description)
+values
+	('Art in Specific Locations', 'Neque labore neque voluptatem quiquia ipsum est porro quaerat consectetur magnam consectetur adipisci tempora adipisci. Eius modi sit magnam magnam aliquam numquam. Sit amet voluptatem tempora est.');
+
+insert into topics
+	(label, description)
+values
+	('Art Advice', 'Non modi eius labore quisquam amet ut ut ipsum tempora quiquia etincidunt aliquam. Quisquam consectetur sit aliquam. Sit dolore ut quisquam dolorem velit neque ut aliquam eius dolor tempora est.');
+
+insert into topics
+	(label, description)
+values
+	('Type of Arts', 'Etincidunt sit porro etincidunt aliquam sit amet labore dolorem dolorem est etincidunt sit. Sit quisquam numquam voluptatem est. Amet magnam consectetur velit modi ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Pharmaceuticals', 'Labore tempora labore velit quaerat porro tempora ut quisquam etincidunt adipisci quiquia quisquam sit voluptatem quisquam. Dolorem voluptatem porro sed aliquam non voluptatem numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Drug Effects', 'Quisquam dolore voluptatem quiquia. Modi etincidunt quisquam dolor quisquam. Labore tempora adipisci voluptatem aliquam. Labore dolore amet dolorem amet numquam ut eius non.');
+
+insert into topics
+	(label, description)
+values
+	('Pharmacy', 'Eius sit labore quiquia etincidunt non ipsum quiquia ipsum velit consectetur. Eius ipsum dolore amet. Amet ut quiquia consectetur dolore magnam ipsum quaerat magnam sed amet dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Prescription Medication', 'Est quisquam magnam amet porro consectetur amet magnam tempora ipsum ipsum ipsum tempora eius dolor. Dolore dolore adipisci neque quisquam velit voluptatem modi dolor aliquam magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Off-label Use', 'Dolor consectetur sit neque sit sed neque. Non sed voluptatem voluptatem consectetur ipsum dolorem velit quaerat sit non. Voluptatem ipsum numquam tempora amet non adipisci amet amet ut amet eius aliquam amet. Quiquia dolorem amet quaerat labore.');
+
+insert into topics
+	(label, description)
+values
+	('Medication Adherence', 'Etincidunt aliquam etincidunt voluptatem dolorem velit labore adipisci adipisci quaerat non tempora modi quisquam. Est numquam etincidunt adipisci amet aliquam amet quiquia etincidunt velit ut non eius etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Over the Counter Drugs', 'Sed neque velit sit. Labore adipisci consectetur tempora non tempora etincidunt sit quisquam. Non dolorem voluptatem porro. Numquam sit porro dolore. Tempora dolorem modi quaerat ipsum dolore non ipsum quiquia. Magnam ipsum tempora labore voluptatem est.');
+
+insert into topics
+	(label, description)
+values
+	('Drug Comparisons', 'Est est porro quiquia tempora. Labore quisquam modi modi tempora sed adipisci non etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Pharmacology', 'Etincidunt consectetur quisquam tempora non ut sed sed. Consectetur non sit sit voluptatem dolore dolor porro sit non dolore quiquia eius magnam. Dolor labore tempora porro adipisci quisquam adipisci quiquia quisquam dolorem numquam neque dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Pharmaceuticals', 'Consectetur numquam neque modi est aliquam consectetur sit quaerat tempora. Quisquam labore quiquia amet ut est labore sed quiquia adipisci sed ut adipisci ipsum voluptatem numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Drug Development', 'Modi consectetur eius numquam labore adipisci etincidunt dolor dolor. Sed velit modi numquam quiquia aliquam quisquam est adipisci quiquia amet eius quiquia adipisci. Velit est modi magnam tempora modi velit modi voluptatem quaerat ut ipsum labore.');
+
+insert into topics
+	(label, description)
+values
+	('Pharmaceutical Sciences', 'Dolore etincidunt labore velit tempora tempora neque sed sit neque ipsum neque sed non sed. Non magnam quaerat labore. Eius dolor neque quiquia velit. Quaerat tempora aliquam est est tempora adipisci velit consectetur velit quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Pharmaceutical Complications', 'Dolorem numquam quisquam magnam porro magnam quisquam dolore sed etincidunt velit consectetur modi numquam. Est voluptatem aliquam velit dolor ipsum quaerat aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Dosing', 'Porro magnam dolore velit quiquia modi sed voluptatem quaerat dolore ipsum. Quaerat labore non magnam modi etincidunt. Amet quiquia ut consectetur modi magnam. Ipsum dolor consectetur dolor etincidunt dolorem dolorem voluptatem est dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Pharmacovigilance', 'Sit non adipisci etincidunt ut amet sit dolore dolore eius dolor. Numquam modi modi est consectetur sed ipsum dolor non tempora. Voluptatem numquam neque ut dolorem tempora quisquam magnam voluptatem ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Neuroscience of Specific Drugs and Pharmaceuticals', 'Dolorem quiquia voluptatem ipsum labore dolor voluptatem dolor quaerat aliquam sed sit magnam dolor quiquia. Dolorem adipisci numquam dolorem quiquia sit tempora est dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Pharmaceuticals', 'Dolore dolor dolorem non. Non sed dolorem quisquam ipsum est adipisci non ipsum voluptatem adipisci. Quisquam ipsum dolore numquam quaerat quiquia velit quisquam magnam aliquam adipisci. Tempora ut quiquia velit aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Pharmaceutical Quality', 'Non neque labore adipisci sed tempora consectetur tempora est sit. Tempora dolore est est. Est etincidunt eius quaerat etincidunt aliquam eius labore non neque est amet. Amet numquam neque est. Non voluptatem consectetur est sit.');
+
+insert into topics
+	(label, description)
+values
+	('Biopharmaceuticals', 'Consectetur porro dolore neque ipsum quaerat consectetur quaerat labore porro consectetur eius sit porro eius velit. Labore aliquam sit amet ipsum consectetur non labore voluptatem dolore porro modi sit labore.');
+
+insert into topics
+	(label, description)
+values
+	('Biopharmaceutical Industry', 'Amet modi etincidunt magnam neque non aliquam dolore sed adipisci. Magnam eius ut modi.');
+
+insert into topics
+	(label, description)
+values
+	('Drug Patents', 'Ipsum quiquia tempora dolore est velit sed non porro etincidunt quaerat etincidunt dolorem labore adipisci. Sit quaerat quiquia quaerat modi labore dolor velit quisquam ipsum sed est ut modi labore non.');
+
+insert into topics
+	(label, description)
+values
+	('Drug Labels', 'Ut voluptatem est numquam voluptatem ipsum ut ut eius tempora labore est. Voluptatem numquam adipisci neque sit dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Drug Resistance', 'Quisquam consectetur eius velit modi sit porro ipsum. Labore modi tempora sed numquam non ut eius dolorem quiquia sed dolor quisquam ipsum porro.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Conditions and Diseases', 'Ut est ut dolorem. Est modi neque etincidunt. Quaerat non neque ut dolore modi aliquam numquam est modi dolorem dolore quaerat porro aliquam dolorem. Numquam ut non dolorem dolor. Quisquam tempora sit ut dolor. Ut neque quaerat est magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Deafness (physiological condition)', 'Ut aliquam sed porro consectetur etincidunt dolorem voluptatem tempora sed consectetur porro ipsum. Labore quisquam tempora non modi est sit magnam quisquam labore est sed amet. Ut dolor sed modi.');
+
+insert into topics
+	(label, description)
+values
+	('Obesity', 'Ut quiquia dolore ut. Modi quaerat adipisci velit.');
+
+insert into topics
+	(label, description)
+values
+	('Tendinitis', 'Sed modi ipsum ut. Neque est est numquam. Voluptatem quaerat adipisci non velit sit tempora sit numquam tempora adipisci non tempora dolore eius est. Dolor adipisci dolorem neque quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Nausea', 'Velit adipisci dolore ipsum ipsum quaerat quaerat amet sed tempora non ipsum magnam. Aliquam voluptatem ipsum dolore sed dolor tempora quisquam dolore consectetur ut eius.');
+
+insert into topics
+	(label, description)
+values
+	('Metabolic Syndrome (medical condition)', 'Quaerat est ut neque sed. Dolor magnam quaerat sit ut dolore modi ut quiquia eius tempora. Sed neque dolore magnam etincidunt consectetur velit sed dolor non ut magnam voluptatem numquam consectetur est.');
+
+insert into topics
+	(label, description)
+values
+	('Bone Fractures', 'Dolorem dolorem eius labore amet est modi dolorem est dolorem numquam. Quiquia magnam ut non voluptatem numquam. Dolorem ut magnam aliquam. Sed adipisci eius dolor ut adipisci dolor etincidunt voluptatem quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Undiagnosed Medical Conditions', 'Consectetur ipsum adipisci est ut magnam porro neque. Ipsum sed neque labore ut. Consectetur porro consectetur velit dolor consectetur quiquia tempora adipisci porro adipisci. Quaerat adipisci dolorem neque.');
+
+insert into topics
+	(label, description)
+values
+	('Hyperthyroidism', 'Est adipisci voluptatem sed ut. Magnam voluptatem neque amet. Quiquia est modi eius. Etincidunt porro magnam non dolore est neque dolor quisquam quiquia est.');
+
+insert into topics
+	(label, description)
+values
+	('Cancer', 'Tempora non sed ut magnam dolore labore labore dolor. Eius dolore labore eius modi sed quiquia labore. Ut consectetur velit ipsum quiquia porro. Quisquam amet etincidunt magnam. Dolor velit dolor tempora dolorem quisquam quiquia ut.');
+
+insert into topics
+	(label, description)
+values
+	('Infectious Diseases', 'Modi magnam ipsum adipisci velit dolor. Porro numquam eius modi quaerat amet modi dolorem sed modi dolor neque adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Sexually Transmitted Infections (STIs)', 'Aliquam tempora quiquia sit porro etincidunt modi sit magnam aliquam est. Dolore numquam dolorem quiquia est non neque velit modi numquam labore porro. Quisquam aliquam quisquam aliquam amet numquam adipisci dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Terminal Diseases', 'Dolore sed modi magnam ipsum non tempora non etincidunt. Numquam etincidunt quiquia porro sit eius quiquia est eius.');
+
+insert into topics
+	(label, description)
+values
+	('Side Effects', 'Quaerat consectetur porro etincidunt sed quiquia est. Etincidunt amet non ut quiquia. Eius quaerat tempora quisquam amet ipsum modi aliquam quiquia dolorem ut consectetur voluptatem. Velit dolore ipsum consectetur magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Hernias', 'Quaerat aliquam eius est non numquam quiquia ipsum dolor est. Dolore est sit ut ipsum consectetur consectetur amet aliquam dolorem dolore quisquam sed quisquam eius quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Delayed Onset Muscle Soreness (DOMS)', 'Non modi adipisci non eius est adipisci tempora labore eius neque ut amet. Sed dolorem velit modi porro labore labore tempora dolore velit dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Disability and Disabilities', 'Non eius aliquam ut non labore sit dolorem dolorem quisquam consectetur. Tempora modi aliquam quaerat est sed dolore. Dolore velit quisquam amet velit etincidunt labore voluptatem sit eius dolor adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Terminal Illness', 'Ut porro quisquam porro. Est voluptatem dolorem etincidunt ut quiquia dolorem. Dolorem consectetur labore modi est.');
+
+insert into topics
+	(label, description)
+values
+	('Addictions', 'Quaerat est consectetur porro dolor adipisci dolor amet. Numquam etincidunt numquam aliquam tempora numquam ipsum modi.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Symptoms', 'Dolor sit quisquam amet eius non etincidunt eius dolore numquam eius ipsum quiquia quisquam. Amet modi sit quiquia dolor non dolor neque eius ipsum. Tempora ut porro porro sit voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Sore Throats', 'Quisquam velit consectetur voluptatem quiquia quisquam. Amet quisquam adipisci sit est. Magnam magnam porro est quaerat ut etincidunt amet. Modi eius non voluptatem dolorem voluptatem quiquia ut aliquam aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Tropical Diseases', 'Quaerat porro sed magnam dolor ipsum tempora neque quisquam ipsum tempora neque. Neque consectetur modi magnam ipsum porro eius eius. Eius ut velit modi consectetur tempora labore eius labore sit tempora voluptatem neque modi non.');
+
+insert into topics
+	(label, description)
+values
+	('Pre-Existing Conditions', 'Ipsum dolore dolore consectetur aliquam est sit. Eius dolor adipisci tempora quiquia porro amet.');
+
+insert into topics
+	(label, description)
+values
+	('Swelling (medical condition)', 'Aliquam ut dolorem dolore magnam amet labore modi est dolore est neque. Modi voluptatem eius quiquia porro.');
+
+insert into topics
+	(label, description)
+values
+	('Burns and Burning', 'Porro non dolorem aliquam quiquia velit etincidunt sit dolor sed sit porro quisquam dolore non aliquam. Est modi magnam dolorem magnam magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Jaundice', 'Etincidunt dolore consectetur sed numquam modi numquam amet dolore modi tempora dolorem consectetur numquam adipisci est. Sed quisquam dolorem tempora velit porro aliquam tempora. Ut est quiquia consectetur labore quisquam ut quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Blood Disorders', 'Porro amet quisquam velit. Dolor modi numquam dolorem. Neque voluptatem quaerat modi eius.');
+
+insert into topics
+	(label, description)
+values
+	('Accidents and Injuries', 'Quiquia magnam eius amet labore quisquam numquam. Ut quiquia porro velit.');
+
+insert into topics
+	(label, description)
+values
+	('Genetic Disorders and Diseases', 'Dolor modi eius numquam quiquia quiquia etincidunt numquam quaerat voluptatem etincidunt est ipsum modi. Dolor est modi adipisci quaerat labore dolor labore consectetur velit.');
+
+insert into topics
+	(label, description)
+values
+	('Neurological Conditions', 'Numquam etincidunt est ut velit quisquam dolore est etincidunt eius modi ut. Tempora aliquam etincidunt non ipsum porro modi porro dolor sit. Ut magnam dolor adipisci dolore aliquam ipsum quisquam magnam est labore etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Rare Diseases', 'Modi ut eius ut neque quisquam quisquam porro aliquam sit. Amet quaerat quiquia quaerat sed adipisci dolorem dolorem eius etincidunt eius aliquam magnam magnam quaerat. Ipsum etincidunt ipsum porro etincidunt non est quisquam modi dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Respiratory Conditions', 'Porro magnam tempora ut velit dolor quaerat eius aliquam velit labore quisquam quisquam dolor eius. Magnam voluptatem consectetur modi.');
+
+insert into topics
+	(label, description)
+values
+	('Asian Flush', 'Modi labore dolor amet eius dolore non consectetur. Quisquam ipsum adipisci ipsum ut etincidunt est neque neque consectetur numquam sit.');
+
+insert into topics
+	(label, description)
+values
+	('Illness', 'Amet dolor aliquam consectetur modi adipisci sit adipisci adipisci est consectetur neque tempora. Adipisci quaerat quiquia dolor eius dolorem magnam dolorem consectetur eius aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Wounds', 'Aliquam quisquam quiquia tempora etincidunt non modi. Est magnam porro neque quiquia sit sed tempora. Ipsum dolor modi sit numquam quisquam labore etincidunt quiquia adipisci quaerat ipsum ipsum est aliquam. Ipsum ipsum eius non neque velit neque.');
+
+insert into topics
+	(label, description)
+values
+	('Infertility', 'Quaerat velit non voluptatem porro velit est. Quisquam dolorem quisquam magnam modi sed adipisci adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Trauma', 'Sed amet non eius porro velit. Velit tempora quisquam labore.');
+
+insert into topics
+	(label, description)
+values
+	('Heartburn', 'Quaerat amet aliquam dolor aliquam dolorem porro aliquam dolor aliquam ut labore dolorem sed voluptatem dolore. Labore quiquia amet adipisci adipisci consectetur etincidunt quiquia velit quisquam. Consectetur neque amet non dolore aliquam sit dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Inflammation', 'Modi dolore ut numquam magnam quaerat. Dolore tempora numquam dolor aliquam quiquia quiquia dolor aliquam velit quiquia etincidunt neque. Ipsum neque sit etincidunt voluptatem aliquam quisquam non dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Allergies', 'Voluptatem quaerat ut quiquia ipsum eius quisquam labore consectetur non eius modi porro sed modi. Ut amet ut velit consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Autoimmune Conditions and Diseases', 'Numquam etincidunt est sit est dolore amet ut amet etincidunt dolor quiquia numquam. Eius adipisci aliquam eius consectetur aliquam velit quisquam quiquia adipisci ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Mental Illness', 'Velit quaerat adipisci velit. Non neque non quiquia dolor magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Postmenopausal Vaginal Atrophy', 'Dolore velit velit aliquam velit etincidunt. Eius modi quaerat ut amet magnam modi neque numquam amet labore modi quaerat. Amet dolor est voluptatem voluptatem dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Ear Diseases', 'Tempora sit quaerat velit. Voluptatem ipsum sed quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Sleep-Wake Disorders', 'Dolore modi modi etincidunt velit neque velit eius neque. Quisquam consectetur dolorem neque sit labore sit dolor modi quisquam dolorem non ut.');
+
+insert into topics
+	(label, description)
+values
+	('Goose bumps', 'Ipsum non dolore quaerat. Sed quaerat dolorem eius dolor modi quisquam quiquia est numquam dolore quaerat voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Skin Conditions', 'Voluptatem amet voluptatem etincidunt est. Quiquia porro porro consectetur dolor dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Chronic Conditions and Diseases', 'Ipsum magnam aliquam dolore quaerat numquam velit. Sit quisquam amet velit tempora modi. Quisquam quisquam dolorem quiquia sed quiquia eius. Adipisci sed sed etincidunt tempora porro aliquam magnam dolore amet sit quaerat etincidunt eius.');
+
+insert into topics
+	(label, description)
+values
+	('Diseases of Reproductive Medicine', 'Consectetur quisquam dolorem non dolor ut consectetur etincidunt neque. Quiquia porro modi modi voluptatem aliquam ipsum tempora est voluptatem quisquam aliquam neque. Sed aliquam ipsum voluptatem non modi sit voluptatem aliquam quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Neoplasms', 'Eius ipsum quiquia etincidunt. Ut porro ipsum consectetur. Numquam amet eius porro est adipisci eius dolore sit sed quiquia. Ut porro amet neque sit etincidunt ut adipisci. Magnam non quisquam aliquam neque consectetur ipsum neque quisquam ipsum sed.');
+
+insert into topics
+	(label, description)
+values
+	('Epidemics', 'Porro quaerat velit sed neque quaerat quiquia porro neque amet quisquam dolor quiquia sit. Modi etincidunt labore dolorem velit quisquam tempora porro dolor velit non est est. Labore quiquia quiquia porro amet ipsum ipsum dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Drug Dependency', 'Etincidunt neque neque est dolore tempora tempora quisquam quaerat magnam. Sed dolor non magnam quaerat neque neque sed magnam ut dolorem. Magnam velit dolorem porro quisquam sed tempora dolore magnam ut eius quiquia ut ipsum voluptatem quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Food-borne Diseases', 'Voluptatem non voluptatem modi. Ipsum dolore non porro dolore porro magnam magnam. Consectetur etincidunt adipisci velit neque voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Hypothermia', 'Etincidunt quaerat sit porro voluptatem quiquia tempora voluptatem. Eius amet quaerat voluptatem sed amet non porro consectetur. Velit quaerat voluptatem adipisci magnam quiquia modi velit magnam ut quaerat quaerat quisquam voluptatem modi amet.');
+
+insert into topics
+	(label, description)
+values
+	('Animal Diseases', 'Dolor dolorem numquam sit quiquia dolor magnam eius. Adipisci porro eius labore adipisci non sit magnam adipisci ut amet consectetur dolore. Modi etincidunt consectetur voluptatem neque etincidunt etincidunt ut dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Phytopathology‎', 'Dolore numquam quaerat est consectetur dolor dolorem dolorem magnam modi quaerat non non. Sed amet etincidunt tempora labore sit est dolore quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Airborne Diseases', 'Velit sed dolorem sit sit ut quiquia adipisci modi neque dolorem etincidunt magnam tempora neque porro. Tempora quiquia non aliquam sed etincidunt porro aliquam dolor voluptatem dolore etincidunt neque.');
+
+insert into topics
+	(label, description)
+values
+	('Component Causes', 'Dolor non est quaerat tempora eius dolor. Dolorem etincidunt dolore magnam neque modi est ipsum adipisci dolorem non amet quiquia. Modi consectetur porro neque aliquam quiquia labore tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Cryptogenic Disease', 'Neque magnam consectetur neque numquam magnam sit neque est. Voluptatem sit ipsum eius sed quiquia amet neque magnam non.');
+
+insert into topics
+	(label, description)
+values
+	('Degenerative Disease', 'Ut numquam ipsum adipisci etincidunt tempora dolorem tempora numquam tempora sed. Quisquam non amet porro voluptatem numquam neque dolorem consectetur etincidunt tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Environmental Disease', 'Velit ipsum neque magnam dolore ipsum numquam dolor. Labore velit dolor quaerat voluptatem adipisci porro numquam quiquia sit quisquam quisquam aliquam ut labore labore.');
+
+insert into topics
+	(label, description)
+values
+	('Environmental Factors', 'Velit modi neque consectetur quiquia amet etincidunt est quiquia ut eius amet labore. Tempora quisquam dolor modi modi ipsum est. Dolor numquam consectetur amet. Neque neque non tempora quiquia dolore quisquam. Amet dolore neque eius.');
+
+insert into topics
+	(label, description)
+values
+	('Fumarylacetoacetate Hydrolase Deficiency', 'Quaerat velit velit consectetur. Labore labore quisquam est numquam eius est ut magnam amet magnam. Porro tempora modi ut neque modi. Aliquam dolore adipisci amet dolore sed dolorem aliquam amet voluptatem magnam est adipisci consectetur est voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Functional Disorder', 'Voluptatem etincidunt numquam amet est magnam velit non modi modi tempora etincidunt. Neque amet quisquam labore.');
+
+insert into topics
+	(label, description)
+values
+	('Heterogeneous Condition', 'Magnam est magnam tempora neque ipsum dolorem labore neque est. Amet eius dolor dolorem magnam non non consectetur. Dolorem sed consectetur sit non quiquia numquam quiquia quisquam adipisci non modi.');
+
+insert into topics
+	(label, description)
+values
+	('Holoendemic', 'Dolor voluptatem dolore ipsum tempora dolorem ut tempora aliquam est quisquam quaerat est ut non. Consectetur quisquam dolor dolor velit est quiquia etincidunt non neque non modi ipsum etincidunt quisquam magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Hypokinetic Diseases', 'Etincidunt voluptatem ipsum eius eius adipisci neque. Quaerat amet ut dolorem amet ut. Consectetur amet voluptatem sit eius sit amet est voluptatem dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Keratosis Obturans', 'Quaerat ipsum etincidunt labore est velit velit etincidunt ut quaerat neque etincidunt ut. Dolor est dolor consectetur aliquam labore non ipsum etincidunt dolore est consectetur. Dolor quaerat voluptatem velit sit labore quaerat magnam neque quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Localized Disease', 'Numquam magnam aliquam neque dolore quaerat tempora eius non ut. Dolorem ipsum voluptatem sed sit modi est adipisci. Amet quiquia ipsum consectetur sit ut eius. Tempora modi ipsum dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Multiple Complex Developmental Disorder', 'Aliquam sit consectetur modi etincidunt est. Sed porro sit quiquia dolorem modi ipsum dolore etincidunt amet. Neque ipsum est consectetur voluptatem modi velit consectetur amet porro non quiquia porro porro.');
+
+insert into topics
+	(label, description)
+values
+	('Multiple Morbidities', 'Consectetur dolor neque amet quaerat porro adipisci labore quaerat ut adipisci voluptatem quisquam eius voluptatem. Sit neque quaerat dolorem quaerat amet.');
+
+insert into topics
+	(label, description)
+values
+	('Non Communicable Diseases', 'Consectetur quaerat aliquam est eius est neque quisquam sed magnam voluptatem labore non. Sed magnam ipsum sed adipisci dolore dolore quaerat magnam dolorem etincidunt consectetur neque dolor est.');
+
+insert into topics
+	(label, description)
+values
+	('Progressive Disease', 'Dolorem velit quaerat amet. Dolorem modi tempora velit voluptatem non aliquam numquam dolorem magnam quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Systemic Disease', 'Tempora consectetur amet ut ut consectetur adipisci consectetur dolorem non non non dolore quaerat. Sit magnam amet ut ut adipisci labore.');
+
+insert into topics
+	(label, description)
+values
+	('Disease Transmission', 'Est amet dolor velit sed. Non dolore velit velit velit est consectetur porro velit neque etincidunt amet. Consectetur est sed quaerat numquam dolorem velit est quiquia eius velit.');
+
+insert into topics
+	(label, description)
+values
+	('Tumors', 'Consectetur velit quiquia aliquam quiquia. Eius sit sed sit velit est. Est consectetur adipisci dolorem amet amet sit quiquia non labore velit tempora dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Syndromes', 'Quisquam aliquam etincidunt magnam velit sit ut sed sit dolor. Aliquam quisquam modi voluptatem ut neque quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Disease Outbreaks', 'Sed sit labore numquam numquam. Quisquam ut amet amet ut aliquam non est adipisci quaerat etincidunt quisquam. Ipsum ipsum etincidunt labore quiquia quaerat quiquia est tempora tempora dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Abscesses', 'Eius tempora labore porro consectetur dolorem sit numquam numquam dolor magnam dolor. Velit dolorem aliquam non sed.');
+
+insert into topics
+	(label, description)
+values
+	('Diseases and Disorders by Specific Systems', 'Sit quaerat dolore voluptatem etincidunt aliquam dolor ut numquam porro tempora dolorem quiquia etincidunt sit quisquam. Neque labore dolor numquam sed est dolore magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Conditions of the Foot', 'Neque velit quiquia aliquam numquam dolorem voluptatem quisquam non aliquam. Magnam dolor ut aliquam etincidunt dolor dolor eius consectetur neque etincidunt quisquam voluptatem porro. Dolor dolore dolor porro.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Conditions Involving Inflammation', 'Ipsum velit quaerat quiquia dolorem. Quisquam neque quiquia quisquam neque magnam eius etincidunt numquam porro est velit quaerat. Sed magnam adipisci etincidunt velit voluptatem. Consectetur labore tempora modi.');
+
+insert into topics
+	(label, description)
+values
+	('Kidney Disease', 'Non amet quisquam porro. Labore labore non dolor dolor amet consectetur ut ut quiquia est adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Professions and Professionals', 'Porro quiquia numquam velit velit quiquia dolorem amet quisquam. Amet eius amet dolore aliquam eius quisquam dolorem etincidunt sed numquam modi quiquia sed ipsum numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Doctors', 'Porro etincidunt ipsum amet quaerat magnam tempora dolor est. Ut amet tempora consectetur ut amet eius non est velit dolore eius.');
+
+insert into topics
+	(label, description)
+values
+	('Nurses', 'Labore ut sed sed porro dolore etincidunt velit non etincidunt velit quisquam dolor. Eius magnam modi labore velit ut quisquam ipsum etincidunt. Non eius voluptatem porro aliquam dolorem adipisci dolorem dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Veterinarians', 'Sed non labore sed quisquam. Ut ut dolorem sed amet adipisci dolore sit voluptatem. Modi dolorem etincidunt sit consectetur adipisci labore adipisci tempora quaerat ipsum amet eius aliquam neque.');
+
+insert into topics
+	(label, description)
+values
+	('Nurse Practitioners', 'Ut tempora dolor quaerat. Labore eius dolore labore eius ut aliquam sit dolore. Ut est neque aliquam aliquam sed non ut numquam dolore numquam adipisci consectetur tempora velit magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Pharmacists', 'Amet quaerat dolor modi. Dolore dolorem dolore labore. Numquam voluptatem amet sit dolore porro quisquam est porro ut magnam porro. Sit neque dolorem dolor aliquam dolore non labore eius neque velit.');
+
+insert into topics
+	(label, description)
+values
+	('Clinical Psychologists', 'Adipisci magnam labore est modi quisquam porro eius. Sed ipsum voluptatem sed velit tempora. Consectetur dolor neque eius ut quiquia porro eius quaerat quiquia labore. Velit quaerat amet dolor quaerat etincidunt aliquam dolorem aliquam sit.');
+
+insert into topics
+	(label, description)
+values
+	('EMTs and Paramedics', 'Ipsum consectetur est quaerat ipsum. Dolor voluptatem magnam dolorem sit aliquam labore sit.');
+
+insert into topics
+	(label, description)
+values
+	('Secrets of the Medical Profession', 'Consectetur voluptatem modi aliquam porro est numquam neque magnam sed non. Quaerat quiquia sit quiquia neque velit numquam ut numquam sit neque sed dolore dolor voluptatem aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Optometrists', 'Sit dolore modi labore. Voluptatem dolor sit dolor modi tempora sed consectetur quaerat etincidunt magnam dolore magnam dolorem ut.');
+
+insert into topics
+	(label, description)
+values
+	('Medical College', 'Adipisci modi neque velit amet dolor adipisci labore voluptatem aliquam neque. Sed tempora aliquam ipsum dolor non. Amet quisquam etincidunt adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Caregivers', 'Quaerat non aliquam velit velit est voluptatem neque porro labore dolore voluptatem est quiquia amet. Dolorem sit ipsum amet non dolor velit.');
+
+insert into topics
+	(label, description)
+values
+	('Opticians', 'Sed ipsum modi neque quisquam numquam aliquam porro. Modi quaerat ut magnam voluptatem porro tempora eius dolore dolore. Quaerat porro numquam etincidunt aliquam tempora non etincidunt est dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Dentists', 'Aliquam porro ipsum amet eius aliquam ipsum adipisci porro dolore sed. Adipisci sed est modi neque labore consectetur non ut sit labore consectetur ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Associations', 'Etincidunt neque etincidunt voluptatem dolor ipsum etincidunt labore dolor quaerat quisquam quisquam adipisci velit. Dolorem dolorem modi amet.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Healthcare and Medicine', 'Etincidunt non tempora adipisci tempora eius quaerat quiquia numquam quiquia. Adipisci velit consectetur voluptatem dolor adipisci quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Science Liaisons', 'Sed dolor quisquam non adipisci sed etincidunt tempora. Non quisquam quaerat quaerat magnam sit dolor adipisci eius neque dolore dolore sit.');
+
+insert into topics
+	(label, description)
+values
+	('Dental Hygienists', 'Sed non porro eius. Labore velit ut etincidunt est porro eius etincidunt quiquia ut ut numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Physician Assistants', 'Sit quiquia dolorem consectetur. Adipisci numquam est quaerat. Aliquam voluptatem dolorem neque. Neque ipsum quisquam amet non magnam. Est non modi tempora amet sit aliquam dolorem quisquam voluptatem voluptatem labore.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Research', 'Sit ut eius magnam quaerat porro eius adipisci quiquia est consectetur neque. Amet voluptatem ut neque quisquam quaerat adipisci modi neque eius.');
+
+insert into topics
+	(label, description)
+values
+	('AIDS Research', 'Consectetur modi velit tempora sit quisquam aliquam velit consectetur. Sit etincidunt neque non ipsum dolor quaerat modi velit velit etincidunt neque aliquam quisquam neque ipsum. Velit tempora est etincidunt magnam magnam sit quaerat dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Research Studies', 'Neque neque non sed sed adipisci dolorem velit numquam. Est voluptatem quiquia dolor tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Centers for Disease Control and Prevention', 'Etincidunt consectetur velit dolor neque dolor magnam numquam sit. Adipisci dolore modi tempora modi consectetur amet est quisquam sit.');
+
+insert into topics
+	(label, description)
+values
+	('Cancer Research', 'Ipsum magnam dolore sit dolorem tempora dolorem sit quisquam ipsum voluptatem. Consectetur consectetur non velit numquam ut labore quaerat numquam dolor velit dolorem dolor voluptatem dolor numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Psychiatry Research', 'Tempora porro adipisci magnam velit magnam labore ut eius porro adipisci consectetur etincidunt dolorem velit. Adipisci dolore adipisci voluptatem modi magnam dolorem quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Marijuana Medical Research', 'Dolor quisquam sit adipisci quiquia velit aliquam amet est amet ipsum. Voluptatem dolorem sed sed consectetur quiquia amet ut labore modi ipsum dolore ipsum dolorem est.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Research Tools', 'Etincidunt non adipisci non sed est dolorem quiquia eius etincidunt est porro ipsum ipsum ut ipsum. Labore ipsum est ipsum. Adipisci consectetur eius aliquam quaerat ipsum tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Translational Medicine', 'Consectetur neque labore est modi quaerat. Etincidunt magnam eius quiquia etincidunt velit adipisci amet voluptatem velit eius etincidunt non eius. Voluptatem porro sit etincidunt ipsum aliquam sit neque velit sit adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Breast Cancer Research', 'Magnam quisquam neque quisquam quiquia dolor consectetur labore sed numquam non aliquam tempora voluptatem voluptatem. Modi voluptatem numquam quaerat quaerat est modi tempora adipisci adipisci dolor sit dolor ut eius quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Clinical Research', 'Dolore voluptatem non dolore neque dolore magnam quiquia magnam adipisci ipsum labore tempora amet dolorem numquam. Aliquam aliquam voluptatem consectetur dolorem quisquam sed porro.');
+
+insert into topics
+	(label, description)
+values
+	('Preclinical Research', 'Dolor dolorem neque amet sed dolor dolorem modi dolorem sit ipsum ut ut. Ut consectetur quaerat velit ipsum quaerat non labore amet porro quaerat dolorem porro numquam neque dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Research Scientists', 'Sit quiquia non adipisci numquam voluptatem magnam amet adipisci sit sit modi aliquam. Consectetur non dolor dolore dolor ut etincidunt neque dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Cannabis Research', 'Consectetur modi adipisci magnam consectetur. Velit numquam consectetur quiquia velit neque ipsum dolore quaerat quaerat amet adipisci non sit. Amet magnam dolor est quaerat ipsum consectetur etincidunt sit numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Applications of Machine Learning', 'Sed quaerat eius dolore. Quaerat sed ut dolorem eius. Numquam quiquia dolor sit. Ipsum eius velit sed. Quaerat ut eius amet numquam sed dolorem etincidunt magnam quisquam est est consectetur tempora tempora modi.');
+
+insert into topics
+	(label, description)
+values
+	('Real World Evidence', 'Modi adipisci ipsum aliquam sit neque non amet. Voluptatem sed sed dolore magnam non adipisci est eius est labore. Porro est quaerat sit sit modi labore adipisci adipisci aliquam porro voluptatem neque.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Specific Locations', 'Dolore eius labore velit dolorem magnam amet quisquam non dolorem consectetur amet. Labore porro quaerat labore sit consectetur ipsum. Ut dolor eius voluptatem dolorem ipsum amet modi ut.');
+
+insert into topics
+	(label, description)
+values
+	('Hospitals in Specific Locations', 'Modi porro adipisci eius aliquam dolore sit sed quisquam magnam non. Etincidunt non ut dolore dolor etincidunt tempora dolore velit quisquam aliquam dolor quaerat quiquia aliquam magnam. Dolore amet sed consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Asia', 'Eius velit est sed ut quaerat sit tempora aliquam quiquia. Magnam non est ut porro velit adipisci porro. Eius amet aliquam quiquia ut porro amet ut.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare and Medicine in Pakistan', 'Consectetur numquam etincidunt ipsum magnam. Magnam numquam dolore ipsum dolor sit. Dolorem consectetur amet neque eius dolor dolore consectetur aliquam. Est quaerat consectetur neque. Numquam amet porro eius.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Bengaluru, Karnataka, India', 'Dolorem quiquia sit est sed. Etincidunt tempora non consectetur quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in San Francisco Bay Area', 'Magnam aliquam adipisci numquam etincidunt non tempora. Dolorem labore numquam non dolore etincidunt quiquia dolor labore numquam dolor quiquia quiquia magnam voluptatem dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in New Delhi', 'Ipsum quiquia labore etincidunt. Numquam labore neque neque eius porro. Neque tempora dolor quaerat non porro dolorem etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Japan', 'Neque neque numquam magnam. Sed quisquam sit etincidunt eius. Dolor porro eius est amet ut tempora quaerat dolorem. Quiquia adipisci quisquam consectetur ut non voluptatem quisquam ipsum neque dolorem velit voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare and Medicine in Canada', 'Sed magnam ut consectetur velit. Magnam sed tempora neque voluptatem adipisci. Dolor etincidunt dolore numquam numquam eius sit sit porro.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in New Zealand', 'Sit quiquia sit ipsum velit magnam amet eius velit consectetur sit labore ipsum eius. Numquam numquam est labore quaerat quiquia numquam neque est velit voluptatem. Dolore dolor quaerat dolorem labore amet sit. Eius tempora quiquia modi tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Germany', 'Aliquam velit voluptatem magnam etincidunt adipisci amet neque quiquia velit labore ipsum sit quaerat velit eius. Est non amet magnam quaerat sit consectetur modi neque est.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Delhi', 'Etincidunt tempora neque labore dolor neque porro numquam sit quiquia. Quiquia velit sed voluptatem magnam aliquam. Amet tempora dolore labore.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Chennai, Tamil Nadu, India', 'Amet quisquam etincidunt aliquam amet etincidunt quisquam velit. Quaerat aliquam ipsum quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Hyderabad, India', 'Ut dolorem consectetur non dolore neque modi numquam dolorem magnam. Modi non adipisci sed dolore dolore non quaerat numquam. Amet ut numquam ut. Ut sed ipsum magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Pune, Maharashtra, India', 'Numquam quaerat quisquam ut porro modi. Tempora porro neque numquam neque consectetur amet quisquam numquam adipisci neque. Magnam ut voluptatem labore tempora labore.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Kerala, India', 'Quiquia amet numquam velit consectetur quisquam quiquia sed porro labore adipisci. Eius quisquam neque dolor tempora quisquam modi magnam ut dolorem labore. Est adipisci eius sed quaerat neque dolorem dolor dolorem neque dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Mumbai, Maharashtra, India', 'Tempora ipsum porro dolorem eius adipisci sit adipisci eius modi aliquam voluptatem modi dolorem ut neque. Magnam eius sed magnam porro numquam voluptatem ipsum non voluptatem est labore labore amet.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Coimbatore, Tamil Nadu, India', 'Quaerat magnam consectetur numquam adipisci ipsum etincidunt voluptatem quiquia dolorem voluptatem. Velit tempora aliquam neque dolor amet velit sit quiquia dolorem adipisci quisquam dolorem etincidunt neque adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Europe', 'Voluptatem sed numquam est voluptatem quisquam ipsum modi eius dolore dolore. Dolorem quaerat dolorem sit neque voluptatem sit tempora ut quisquam sit ut dolorem porro voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Spain', 'Neque sit dolor etincidunt. Velit amet dolore porro sed. Eius dolore sed voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Tamil Nadu, India', 'Dolorem quaerat aliquam consectetur velit ut etincidunt numquam quaerat. Aliquam quaerat adipisci dolore eius modi non sit velit adipisci. Ut est quisquam adipisci sit.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Gujarat, India', 'Adipisci magnam non numquam. Tempora etincidunt sit dolor dolor sed velit aliquam porro sed eius tempora. Voluptatem est labore dolore quiquia non quaerat tempora dolorem velit.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in California', 'Consectetur dolore eius quiquia sit voluptatem adipisci porro amet. Tempora est ipsum adipisci sed etincidunt sed quiquia tempora modi etincidunt eius.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare and Medicine in Brazil', 'Ipsum non voluptatem numquam porro sed non quaerat quisquam modi porro amet. Voluptatem ipsum adipisci non quiquia adipisci numquam aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Kolkata, West Bengal, India', 'Eius adipisci eius tempora modi magnam tempora magnam magnam ut neque velit velit quaerat sit porro. Quaerat ut consectetur dolor numquam sit velit etincidunt velit labore sit dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Sydney, Australia', 'Quisquam quaerat quaerat dolore ut magnam ut etincidunt modi. Aliquam amet labore sed labore dolorem quisquam amet adipisci ipsum. Sed tempora non numquam ut.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Florida', 'Porro sed neque ut numquam eius labore. Ut magnam dolorem amet modi amet ut est dolore quaerat neque velit est numquam quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Hong Kong', 'Ut dolorem quiquia ut. Sed quiquia quiquia dolorem dolore magnam ut sed dolor sed adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare and Medicine in Singapore', 'Ut adipisci velit modi est non ut ipsum sed porro. Sit dolor quaerat sed numquam quisquam numquam dolorem quaerat est etincidunt. Sed tempora dolorem magnam. Porro voluptatem tempora ut modi consectetur. Etincidunt tempora neque ut.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare and Medicine in Malaysia', 'Dolorem est ipsum non quaerat quiquia modi est modi sit sed. Quiquia voluptatem non sed velit quaerat ipsum voluptatem consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in New York City', 'Ut porro voluptatem sed dolor aliquam dolorem velit modi dolorem voluptatem. Eius quaerat eius ipsum dolore est sed porro quiquia. Magnam quiquia aliquam dolor labore consectetur magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare and Medicine in France', 'Est numquam numquam consectetur aliquam modi adipisci modi tempora consectetur dolorem porro. Dolor tempora non etincidunt dolorem. Quisquam ipsum amet modi neque ipsum neque ipsum est quiquia labore velit amet dolore dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Switzerland', 'Voluptatem sit sed amet dolore velit. Etincidunt aliquam sed quaerat numquam velit dolor modi etincidunt. Numquam etincidunt velit est quaerat labore modi. Quiquia neque modi porro aliquam dolorem quisquam magnam non numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Dubai, United Arab Emirates', 'Quiquia sit velit est eius aliquam modi quaerat etincidunt. Ut modi velit etincidunt voluptatem non neque dolore velit est. Sit neque velit amet est sit numquam sed.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in San Francisco, CA', 'Ut neque adipisci voluptatem voluptatem non dolorem numquam voluptatem sit. Etincidunt amet amet non eius est quiquia modi quiquia magnam sed neque aliquam quaerat ut. Aliquam consectetur aliquam sed velit ut adipisci amet etincidunt aliquam modi neque.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Africa', 'Adipisci non sit consectetur consectetur dolore voluptatem labore porro. Aliquam quaerat quisquam est adipisci numquam dolore non magnam ut consectetur. Dolor quaerat neque dolor est velit. Voluptatem consectetur velit eius tempora. Sed ipsum ut amet.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in South Africa', 'Adipisci amet etincidunt quaerat amet voluptatem eius consectetur amet etincidunt porro ipsum. Dolor labore magnam tempora adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in London', 'Quiquia dolorem eius quiquia sit ut sit neque. Ut numquam tempora modi dolore tempora dolor est tempora sed amet est quaerat adipisci. Dolorem etincidunt sit velit quaerat consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Punjab, India', 'Aliquam neque porro eius neque sit dolorem porro ut numquam eius etincidunt. Magnam quisquam ut labore dolor ipsum dolor est.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare and Medicine in Turkey', 'Labore amet neque etincidunt quaerat velit etincidunt labore amet aliquam eius quaerat non amet dolor neque. Non amet tempora quiquia non modi numquam aliquam quisquam. Voluptatem etincidunt voluptatem est.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Israel', 'Magnam non ut consectetur eius dolor velit. Velit dolor modi consectetur etincidunt consectetur sed dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Ahmedabad, Gujarat, India', 'Ut dolore quiquia quiquia porro quisquam dolore labore ut consectetur dolor adipisci dolor ipsum magnam neque. Quisquam labore numquam porro. Voluptatem velit etincidunt sit ut porro sit magnam neque eius sit velit.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Silicon Valley', 'Amet quiquia dolore dolor. Tempora eius non sed dolorem aliquam neque numquam. Neque dolor porro dolor etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Mexico', 'Quisquam ipsum magnam velit. Sit numquam dolore consectetur magnam etincidunt modi est magnam ipsum velit est voluptatem voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Cuba', 'Numquam dolore tempora numquam sit. Sit aliquam labore sit quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Thailand', 'Amet etincidunt labore ipsum sed ipsum porro velit quaerat dolor velit quisquam dolorem. Ipsum quaerat sit magnam non labore dolor dolor dolor consectetur numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Indonesia', 'Modi ut quaerat quisquam aliquam sit neque sit aliquam labore. Ut tempora numquam sit sit etincidunt dolore etincidunt quiquia aliquam neque magnam amet modi.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in New York', 'Modi ipsum neque non amet porro est sit. Ut quiquia numquam est quisquam quaerat neque quisquam dolor est dolore consectetur non dolorem neque sit. Consectetur tempora neque tempora dolore voluptatem numquam. Porro adipisci tempora porro.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare and Medicine in Sweden', 'Etincidunt modi quiquia etincidunt dolor est voluptatem sed eius. Ut modi dolorem dolor voluptatem dolorem. Ipsum porro adipisci quaerat eius magnam. Magnam numquam etincidunt non tempora aliquam tempora voluptatem quiquia quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Gurugram, Haryana, India', 'Sed modi tempora porro adipisci quiquia. Neque sed amet dolorem. Tempora sed dolor porro dolorem numquam sit quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Russia', 'Numquam neque dolor porro. Etincidunt neque dolor numquam sit dolor labore ipsum ut numquam velit. Etincidunt tempora dolorem dolor quiquia eius neque consectetur velit quiquia dolorem. Magnam ut aliquam non neque sit amet quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in Los Angeles, CA', 'Tempora est quaerat amet est. Tempora ipsum porro consectetur eius. Modi dolor ipsum dolore tempora quaerat ipsum. Dolorem labore non dolore quisquam. Neque tempora neque quisquam est voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare and Medicine in Australia', 'Eius amet sit magnam numquam velit porro ut etincidunt aliquam. Quiquia tempora aliquam velit dolorem dolor magnam est tempora magnam. Magnam modi numquam sit adipisci quisquam adipisci sit labore numquam ut tempora tempora quisquam aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare and Medicine in the United States of America', 'Dolore neque dolore sed est. Velit consectetur dolorem quisquam tempora quiquia velit quiquia tempora amet ut velit dolor modi ut. Tempora porro labore voluptatem sed dolore ut labore adipisci non.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare in India', 'Labore voluptatem etincidunt dolor numquam. Labore sed quaerat modi est modi amet voluptatem numquam est quisquam voluptatem quisquam. Tempora tempora consectetur dolor dolore sed sed ipsum consectetur quisquam voluptatem dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare and Medicine in China', 'Quisquam non consectetur ipsum etincidunt dolore ipsum etincidunt ut amet dolor consectetur. Ut dolor velit quiquia tempora sit magnam sit quisquam porro.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare and Medicine in the United Kingdom', 'Quaerat dolore numquam dolor dolor aliquam. Porro labore tempora sed sed neque dolorem dolor modi magnam dolore adipisci labore sit.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare and Medicine in Germany', 'Magnam velit modi voluptatem quiquia dolor ipsum aliquam eius magnam est dolorem dolor adipisci amet. Consectetur tempora labore ipsum non sed aliquam amet dolore magnam sit velit.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare and Medicine in Israel', 'Tempora consectetur non neque numquam neque ipsum labore ut non quisquam porro non. Dolorem ut numquam aliquam est tempora sed consectetur adipisci neque. Dolore porro ipsum ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare Industry', 'Non dolorem consectetur velit dolore quiquia eius neque sit labore etincidunt ut. Sit porro quiquia sit modi est numquam porro sed eius ut ipsum quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Health Care Marketing', 'Ipsum ut aliquam est non sed numquam amet dolorem ipsum neque neque quiquia tempora. Tempora dolorem tempora ipsum consectetur dolor. Dolor est numquam consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Device Industry', 'Consectetur est ut tempora eius dolor amet porro non dolor etincidunt. Aliquam neque numquam dolor eius aliquam porro.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare Systems', 'Est numquam dolor quisquam sed dolorem adipisci neque dolore. Modi quaerat amet sit etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare Agencies', 'Eius tempora aliquam quisquam magnam dolorem porro modi non amet neque. Voluptatem porro tempora dolorem. Ut velit ipsum tempora dolore voluptatem numquam voluptatem non est magnam eius quaerat magnam ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Health Insurance', 'Dolor quaerat tempora tempora aliquam. Voluptatem neque consectetur dolor amet amet dolore aliquam numquam porro eius.');
+
+insert into topics
+	(label, description)
+values
+	('Venture Capital in Healthcare and Biotech', 'Labore sit magnam ipsum quiquia aliquam consectetur dolorem eius eius. Aliquam modi voluptatem neque adipisci eius aliquam sit adipisci ut.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare Providers', 'Sit numquam aliquam ut sit dolor tempora quisquam voluptatem ipsum ipsum quaerat adipisci dolor numquam adipisci. Amet aliquam neque quaerat non porro est adipisci dolorem quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare Finance', 'Numquam aliquam porro quisquam adipisci non modi quiquia sit etincidunt est. Ipsum quisquam aliquam est amet non eius numquam aliquam labore sit aliquam etincidunt dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Pharmacy Benefit Managers (PBMs)', 'Magnam quisquam quisquam quisquam. Ut voluptatem quaerat etincidunt ut sit quisquam sit voluptatem adipisci magnam consectetur. Aliquam tempora adipisci dolorem labore non quiquia ut etincidunt dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Managed Care', 'Labore est voluptatem dolorem velit numquam eius. Quaerat eius amet quaerat quiquia sit porro. Numquam consectetur dolore dolorem ut labore non neque adipisci tempora quisquam magnam adipisci porro modi.');
+
+insert into topics
+	(label, description)
+values
+	('Private Healthcare Exchanges', 'Sit dolor aliquam voluptatem est numquam etincidunt dolorem ipsum sed amet eius dolor. Dolore numquam non sed porro est voluptatem ipsum sit non magnam sit voluptatem non. Dolore dolore dolorem etincidunt quisquam amet.');
+
+insert into topics
+	(label, description)
+values
+	('Mental Health Systems', 'Ut aliquam numquam est. Eius voluptatem etincidunt est. Non neque porro neque ipsum magnam aliquam ipsum sed porro.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Savings Accounts', 'Sed neque modi non est tempora. Voluptatem amet numquam dolorem voluptatem sed est dolorem adipisci ipsum porro voluptatem tempora numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Specialties', 'Non eius aliquam ipsum modi aliquam est voluptatem. Est tempora porro consectetur ut labore quaerat neque etincidunt quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Cardiology', 'Amet sit ipsum dolore velit labore neque. Dolore adipisci dolor tempora numquam labore non adipisci magnam ut sit dolore quiquia magnam modi non.');
+
+insert into topics
+	(label, description)
+values
+	('Dermatology', 'Non ut porro labore voluptatem magnam. Quiquia amet ut voluptatem est dolorem aliquam aliquam voluptatem adipisci est sed etincidunt voluptatem sit ut.');
+
+insert into topics
+	(label, description)
+values
+	('Emergency Medicine', 'Quiquia ut est modi consectetur ut quiquia ipsum amet dolore dolor consectetur quiquia. Dolore velit neque amet.');
+
+insert into topics
+	(label, description)
+values
+	('Neurology', 'Porro eius ut quiquia dolorem dolorem numquam quaerat labore porro velit. Aliquam ipsum aliquam quiquia non tempora ut labore adipisci sed non dolorem non dolorem etincidunt magnam. Dolore dolorem amet modi.');
+
+insert into topics
+	(label, description)
+values
+	('Oncology', 'Neque dolorem eius quiquia. Neque etincidunt quiquia sed amet quaerat dolor numquam voluptatem magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Ophthalmology', 'Aliquam dolor numquam eius non sit sed modi. Amet sit velit numquam neque dolor tempora dolorem modi quiquia dolore quisquam dolore voluptatem labore numquam. Ut tempora non magnam amet sit ipsum dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Orthopedics', 'Quaerat velit sed quaerat dolore eius labore dolor amet quiquia sed labore porro adipisci tempora. Est porro consectetur aliquam amet voluptatem voluptatem. Dolor velit quaerat labore porro dolorem ut quiquia amet modi labore tempora non quisquam modi.');
+
+insert into topics
+	(label, description)
+values
+	('Psychiatry', 'Quisquam aliquam velit velit. Non quaerat dolor dolore. Tempora dolore sit dolorem est dolorem sit tempora tempora dolore sed. Ut neque amet tempora etincidunt dolorem aliquam. Quisquam eius ut amet ut porro aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Surgery', 'Quisquam amet quaerat quaerat magnam modi tempora quiquia quiquia ipsum. Quaerat amet neque voluptatem modi consectetur non. Quisquam labore etincidunt tempora velit numquam etincidunt amet etincidunt labore numquam magnam ut amet.');
+
+insert into topics
+	(label, description)
+values
+	('Dentistry', 'Consectetur sed sit sed consectetur. Est voluptatem quaerat velit. Dolore neque adipisci aliquam velit magnam amet consectetur neque dolorem quiquia ipsum amet ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Obstetrics and Gynecology', 'Tempora non quaerat numquam aliquam dolor. Velit etincidunt modi dolorem dolor porro adipisci consectetur dolor ipsum dolor tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Otolaryngology (medical speciality)', 'Aliquam tempora eius dolorem quisquam labore amet quisquam consectetur numquam tempora dolorem dolor. Dolore sit tempora dolor quisquam modi sit sed non adipisci est voluptatem sed.');
+
+insert into topics
+	(label, description)
+values
+	('Veterinary Medicine', 'Ipsum ut neque quiquia aliquam sed etincidunt etincidunt numquam magnam. Amet voluptatem dolorem consectetur neque ut sit. Tempora numquam quisquam tempora non neque consectetur magnam amet eius non quaerat non consectetur est.');
+
+insert into topics
+	(label, description)
+values
+	('Physical Medicine and Rehabilitation', 'Tempora dolor labore magnam quaerat dolore neque. Quisquam non modi consectetur porro dolorem etincidunt dolore modi sed.');
+
+insert into topics
+	(label, description)
+values
+	('Immunology', 'Sit magnam dolore amet. Magnam est ipsum etincidunt voluptatem amet dolorem eius numquam dolore sed modi modi ipsum. Non dolore etincidunt sed dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Nursing', 'Tempora non tempora non voluptatem non quiquia porro etincidunt dolorem ipsum quiquia tempora non. Est ipsum velit etincidunt consectetur sit sit adipisci dolor sit tempora dolorem neque numquam numquam. Consectetur est sed est ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Radiology', 'Ut quisquam sed aliquam etincidunt labore amet numquam. Consectetur voluptatem quisquam porro etincidunt quaerat. Eius tempora modi labore. Ut velit dolor voluptatem amet non porro sit tempora ut.');
+
+insert into topics
+	(label, description)
+values
+	('Urology', 'Modi quiquia est est sit est labore velit ipsum sed dolore dolore sed. Amet amet sed etincidunt non neque magnam modi porro dolore sit. Ipsum sit magnam ut quiquia sed quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Internal Medicine', 'Dolorem sed eius voluptatem est est dolorem amet ut voluptatem aliquam voluptatem ut labore velit aliquam. Tempora eius magnam dolorem numquam etincidunt sed.');
+
+insert into topics
+	(label, description)
+values
+	('Anesthesiology', 'Adipisci voluptatem dolor modi sed est numquam quisquam dolorem. Labore tempora non amet ut modi adipisci magnam. Est numquam sit amet est ut quisquam magnam magnam est ut non sed numquam dolore quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Neurosurgery', 'Quiquia labore sed ut ut voluptatem velit aliquam aliquam ut voluptatem consectetur dolorem. Voluptatem labore non porro velit velit dolore sed sit magnam velit sed tempora porro est labore.');
+
+insert into topics
+	(label, description)
+values
+	('Pathology', 'Sit tempora eius est dolorem labore tempora dolorem est magnam velit est quaerat velit. Eius non aliquam modi.');
+
+insert into topics
+	(label, description)
+values
+	('Gastroenterology', 'Ipsum tempora non dolor velit adipisci. Amet aliquam etincidunt etincidunt sit quiquia est labore velit etincidunt numquam dolore etincidunt sed non.');
+
+insert into topics
+	(label, description)
+values
+	('Radiation Therapy', 'Ut voluptatem sed eius quiquia eius ipsum non magnam ut dolore. Dolore magnam dolorem velit porro ut aliquam ipsum sed consectetur amet numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Nephrology', 'Porro velit tempora quaerat dolorem quisquam numquam numquam sit sed est sed. Aliquam amet quiquia etincidunt non ut consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Primary Care Physicians', 'Etincidunt dolor tempora tempora amet. Modi dolorem est velit dolorem dolore eius dolore numquam aliquam numquam quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Geriatrics', 'Quisquam ut dolorem aliquam. Amet porro velit ut sed etincidunt magnam sed quisquam dolor numquam eius quisquam quaerat quisquam. Etincidunt dolorem quiquia quaerat voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Palliative Care', 'Labore modi ut etincidunt porro. Magnam quaerat dolor quaerat quisquam. Velit aliquam modi quaerat eius modi est est etincidunt tempora tempora voluptatem labore.');
+
+insert into topics
+	(label, description)
+values
+	('Home Health Care', 'Adipisci quisquam ut porro dolor dolore quisquam porro magnam quiquia quiquia numquam. Ut modi quiquia porro sit quaerat consectetur quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Traumatology', 'Neque ut neque sed porro. Numquam aliquam sit tempora etincidunt quaerat quaerat aliquam quiquia eius porro.');
+
+insert into topics
+	(label, description)
+values
+	('Family Medicine', 'Aliquam non dolore aliquam ut magnam modi magnam est dolor porro sit sed eius. Sit adipisci non velit est ut aliquam dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Clinical Medicine', 'Quaerat labore labore sed tempora dolorem eius amet est. Sed labore consectetur quaerat amet. Labore amet labore numquam etincidunt adipisci quisquam numquam consectetur velit dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Family Practice', 'Amet numquam non tempora est quaerat non velit magnam aliquam adipisci. Quaerat amet adipisci porro.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Genetics', 'Tempora etincidunt quisquam neque dolorem numquam sit quaerat aliquam porro labore. Etincidunt magnam tempora numquam amet quisquam porro ipsum quiquia ut adipisci neque ut neque porro.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Medical Specialities', 'Etincidunt quiquia modi voluptatem quisquam. Ipsum tempora dolore tempora dolore. Magnam dolore voluptatem numquam quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Education', 'Neque adipisci est tempora dolore aliquam dolorem ut non eius quaerat etincidunt est etincidunt tempora. Porro labore quisquam dolorem dolorem modi voluptatem dolor adipisci tempora ut labore numquam amet labore ut.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Residency and Residency Programs', 'Consectetur non etincidunt dolor dolore numquam quisquam etincidunt dolore numquam est quiquia labore dolor non labore. Voluptatem sit quaerat amet est quiquia est consectetur est amet ipsum velit.');
+
+insert into topics
+	(label, description)
+values
+	('Continuing Medical Education', 'Quaerat quiquia non dolor consectetur. Ipsum aliquam eius quisquam ut tempora. Numquam dolor quiquia quaerat dolore porro neque velit dolor neque sit sit sed consectetur. Aliquam modi dolor quisquam quiquia magnam ut.');
+
+insert into topics
+	(label, description)
+values
+	('Medical School', 'Ut tempora voluptatem numquam tempora. Ut voluptatem sit est sed aliquam quisquam magnam velit aliquam consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Nursing Schools', 'Quisquam voluptatem numquam dolor sed velit ipsum voluptatem non. Quiquia quaerat adipisci consectetur eius magnam modi est. Dolor non eius modi ipsum ipsum labore ut quisquam dolorem dolorem est dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Bachelor of Dental Surgery Degrees', 'Velit quisquam est voluptatem quiquia est ut dolor eius dolore dolore. Consectetur dolorem sed porro est sit neque. Magnam neque etincidunt ut dolorem sed non ut magnam labore quaerat quaerat sed adipisci dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Doctor of Dental Surgery (DDS)', 'Modi quisquam voluptatem etincidunt tempora dolore eius modi non amet non. Ipsum velit etincidunt modi modi ipsum modi quiquia dolor amet voluptatem modi tempora. Quiquia magnam neque magnam velit sit ipsum non ut numquam quisquam ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Doctor of Pharmacy (PharmD)', 'Numquam voluptatem numquam magnam aliquam modi etincidunt. Dolore non voluptatem modi labore amet.');
+
+insert into topics
+	(label, description)
+values
+	('Bachelor of Pharmacy', 'Eius modi etincidunt eius sed neque sit. Est ut sit quaerat voluptatem consectetur magnam numquam quaerat etincidunt est tempora tempora non. Ut non voluptatem aliquam modi voluptatem dolore dolorem voluptatem dolore sit eius.');
+
+insert into topics
+	(label, description)
+values
+	('Master of Medicine', 'Tempora aliquam dolor ut porro ipsum quiquia sit aliquam amet numquam modi. Sit modi numquam aliquam voluptatem ipsum sed quisquam adipisci quaerat dolorem labore dolorem labore ut numquam. Labore voluptatem est numquam ut modi.');
+
+insert into topics
+	(label, description)
+values
+	('International Medical Graduates (IMG)', 'Numquam voluptatem ut modi dolorem velit adipisci quaerat labore etincidunt tempora est non velit ut velit. Est amet non dolor. Quaerat magnam magnam quisquam magnam sit quaerat velit eius.');
+
+insert into topics
+	(label, description)
+values
+	('Doctor of Medicine', 'Neque dolore modi quisquam dolor quiquia sed adipisci. Numquam dolore voluptatem amet est sed est tempora voluptatem. Numquam amet aliquam quiquia dolore porro tempora. Est quisquam non voluptatem amet adipisci numquam voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Doctor of Dental Medicine', 'Aliquam non quaerat dolor sit. Dolor numquam ut amet etincidunt dolore tempora consectetur eius tempora modi dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Doctor of Osteopathic Medicine', 'Numquam quiquia aliquam est porro ipsum porro modi non. Sed est est amet non quaerat quiquia adipisci sit numquam. Quisquam eius modi velit consectetur sit.');
+
+insert into topics
+	(label, description)
+values
+	('Bachelor of Homoeopathic Medicine and Surgery Degrees', 'Amet porro labore labore est dolor sed velit magnam. Aliquam est adipisci non voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine and Healthcare Interdisciplinary Topics', 'Est dolore amet quiquia magnam numquam. Quisquam tempora voluptatem aliquam labore numquam eius modi neque magnam quisquam etincidunt non. Dolor tempora tempora voluptatem modi labore quisquam quaerat velit dolorem quisquam amet porro ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Military Medicine', 'Non dolore labore modi ut est aliquam velit. Amet sit dolore labore sed ut modi ipsum dolor adipisci ipsum sed ut. Consectetur sit consectetur amet magnam aliquam ipsum ipsum magnam ipsum consectetur amet. Est porro non quisquam magnam non sit est.');
+
+insert into topics
+	(label, description)
+values
+	('Medicinal Chemistry', 'Adipisci amet sit dolore voluptatem velit. Magnam velit ut eius magnam neque adipisci porro numquam dolorem labore modi.');
+
+insert into topics
+	(label, description)
+values
+	('Law and Medicine', 'Velit ipsum labore consectetur. Voluptatem aliquam neque tempora dolorem adipisci porro consectetur quisquam ipsum. Sit dolor etincidunt sit. Dolor ut eius ipsum sit quisquam numquam dolore amet adipisci magnam. Quiquia dolorem voluptatem aliquam ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Fiction (Books, Movies, TV)', 'Quaerat numquam velit aliquam voluptatem etincidunt amet aliquam neque quaerat. Labore neque eius non quaerat dolorem ut dolor amet porro magnam magnam etincidunt consectetur sed.');
+
+insert into topics
+	(label, description)
+values
+	('Biomedical Engineering', 'Labore magnam consectetur modi. Est neque ut modi velit dolor quiquia est sed magnam est est.');
+
+insert into topics
+	(label, description)
+values
+	('Health and Healthcare Economics', 'Neque quaerat magnam dolorem magnam eius quaerat voluptatem consectetur quiquia numquam ut aliquam etincidunt velit amet. Labore est ut labore ut dolor numquam quisquam dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Social Media in Healthcare and Medicine', 'Dolor ut dolore modi. Ut dolorem labore dolorem consectetur labore tempora modi dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Health Care Policy', 'Etincidunt velit ut sed aliquam quaerat modi consectetur dolorem quisquam eius neque etincidunt neque est dolore. Neque magnam velit dolorem porro consectetur etincidunt labore quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Technology', 'Quisquam tempora porro dolor. Modi ut tempora velit quisquam quaerat porro porro.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Sciences', 'Porro dolorem eius magnam aliquam voluptatem porro etincidunt ipsum quisquam voluptatem voluptatem velit quiquia magnam dolorem. Adipisci labore dolor dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Biomedical Science', 'Sit aliquam eius velit neque modi. Amet tempora est est ipsum eius etincidunt quaerat consectetur dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Areas of Medical Science', 'Numquam sed ipsum quaerat etincidunt tempora aliquam etincidunt numquam quisquam modi ut tempora dolorem quiquia. Ipsum adipisci porro aliquam consectetur velit dolorem etincidunt adipisci velit amet ut.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Laboratory Sciences', 'Sit velit consectetur non ut quiquia voluptatem magnam sit porro magnam consectetur quisquam. Quisquam quisquam sed velit eius. Eius sed magnam sit. Ipsum quaerat consectetur non.');
+
+insert into topics
+	(label, description)
+values
+	('Learning About Medicine', 'Ut sed est modi dolor sit velit adipisci sit. Eius porro quiquia aliquam ipsum est quiquia ipsum quaerat consectetur est. Voluptatem numquam numquam quaerat. Etincidunt neque dolorem consectetur dolore dolorem labore modi sed labore.');
+
+insert into topics
+	(label, description)
+values
+	('Medicine (college major)', 'Quiquia porro sit etincidunt dolorem quaerat eius modi voluptatem magnam quisquam amet sit velit quisquam. Numquam eius non aliquam ipsum amet tempora quiquia voluptatem neque amet dolore tempora dolorem etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Graduate Education in Medicine', 'Etincidunt dolore eius eius. Sit voluptatem numquam quaerat numquam magnam modi etincidunt adipisci dolorem non. Numquam magnam dolorem non dolore modi dolore quiquia velit neque. Sit labore neque dolore consectetur sed labore tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Books', 'Ipsum magnam labore dolorem sed amet ipsum neque quisquam labore ut magnam adipisci eius. Quaerat aliquam dolor neque neque tempora amet quisquam dolor eius dolor consectetur quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Personal Medical Question', 'Numquam quisquam consectetur magnam quaerat dolore quiquia labore magnam etincidunt quiquia voluptatem aliquam. Ut dolor voluptatem magnam dolore aliquam dolor est porro quiquia magnam sit adipisci consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Sleep Advice', 'Quiquia sit sed dolorem ipsum numquam sed consectetur magnam eius tempora. Ipsum quisquam neque consectetur etincidunt quisquam neque consectetur dolore dolor numquam dolor quiquia aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Advice About Doctors', 'Sit numquam magnam sed aliquam est quisquam modi. Quaerat dolorem etincidunt etincidunt labore tempora eius consectetur consectetur tempora non amet quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Advice', 'Non labore porro eius dolore dolorem porro dolore eius adipisci est ut. Labore quiquia aliquam adipisci quisquam non ut dolorem porro dolore consectetur ut quiquia ipsum ut porro.');
+
+insert into topics
+	(label, description)
+values
+	('Current Events in Medicine and Health', 'Velit ipsum ipsum labore modi neque ut quiquia labore velit. Consectetur adipisci tempora est non ut est eius etincidunt modi tempora quiquia porro quaerat dolore. Neque sed etincidunt numquam eius non modi voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Scientists Propose Redefining Cancer Typing in Massive Pan Cancer Atlas Study (April 2018)', 'Ipsum sed porro non est modi quisquam modi ut neque consectetur neque neque non labore. Quiquia sit consectetur porro numquam adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Pig Brains Kept Alive Without a Body (April 2018)', 'Eius labore quaerat eius aliquam consectetur amet quisquam ipsum eius ut. Etincidunt est ut velit dolor labore. Velit amet est adipisci velit amet dolorem quiquia est etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Potentially Positive Results from Biogen''s Alzheimer''s Drug BAN2401 (July 2018)', 'Adipisci adipisci aliquam modi est. Eius ut labore etincidunt tempora quisquam amet quisquam porro. Quiquia labore labore est dolor. Labore voluptatem magnam numquam velit ut est consectetur labore quaerat consectetur aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Jury Awards $298 Million in Monsanto Roundup Cancer Case (August 2018)', 'Dolore velit labore etincidunt. Quiquia aliquam ut quisquam. Voluptatem sed adipisci aliquam est dolore dolorem adipisci porro dolor consectetur dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Reports of CRISPR Gene-edited Babies (November 2018)', 'Ipsum ipsum numquam dolor dolorem dolore adipisci voluptatem quaerat eius magnam tempora eius quisquam consectetur. Voluptatem velit tempora aliquam adipisci sit quiquia dolor tempora ipsum magnam amet. Aliquam consectetur dolore modi ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19 (2019-2020)', 'Aliquam quisquam dolor ut tempora aliquam magnam quaerat porro dolore ut aliquam. Porro sed dolorem quisquam labore quaerat numquam dolorem. Est numquam est aliquam tempora dolorem quaerat dolor porro velit quiquia ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Tests', 'Numquam ipsum non porro dolore numquam consectetur dolore labore eius magnam dolorem quaerat consectetur est. Sit dolor consectetur est est adipisci voluptatem labore quaerat aliquam porro labore tempora voluptatem sed sed.');
+
+insert into topics
+	(label, description)
+values
+	('Reflexes', 'Neque etincidunt magnam etincidunt velit eius labore tempora est amet eius consectetur velit sit etincidunt. Magnam consectetur ipsum dolore ut ut quaerat sit labore est numquam aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Blood Tests', 'Est etincidunt quisquam consectetur quiquia porro non. Labore neque non numquam voluptatem ipsum labore.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Testing Risks', 'Magnam adipisci velit est. Dolorem labore adipisci ut tempora ut voluptatem sed consectetur sit quisquam quaerat consectetur non porro.');
+
+insert into topics
+	(label, description)
+values
+	('Pregnancy Tests', 'Quiquia sit sit voluptatem consectetur velit quiquia quisquam porro. Dolorem etincidunt ipsum sed.');
+
+insert into topics
+	(label, description)
+values
+	('Hearing Test', 'Etincidunt labore modi numquam dolore quiquia. Porro sit aliquam amet voluptatem ipsum est.');
+
+insert into topics
+	(label, description)
+values
+	('Blood Testing', 'Quiquia consectetur velit voluptatem neque non dolore eius neque. Dolorem est sed magnam. Quaerat consectetur adipisci etincidunt dolorem tempora ut dolor tempora est. Ut aliquam aliquam dolor voluptatem numquam amet voluptatem labore.');
+
+insert into topics
+	(label, description)
+values
+	('Amniocentesis', 'Voluptatem quaerat aliquam magnam quiquia labore quiquia etincidunt. Dolorem dolore est est sit quiquia tempora dolor quisquam velit. Eius ut dolor quiquia labore tempora aliquam ut amet porro eius velit ut porro velit.');
+
+insert into topics
+	(label, description)
+values
+	('Prenatal Genetic Testing', 'Non labore ut modi modi consectetur. Ut tempora neque non labore quisquam modi sed amet dolor. Est magnam eius etincidunt sed numquam etincidunt ipsum dolore velit dolorem aliquam aliquam quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Medicine and Healthcare', 'Modi quiquia dolore voluptatem neque. Quaerat etincidunt est tempora eius velit labore.');
+
+insert into topics
+	(label, description)
+values
+	('Evidence-based Medicine', 'Neque dolore neque sit eius. Quiquia labore dolore eius quiquia sed.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Techniques', 'Neque est porro amet. Est sit ut dolore eius. Ipsum quiquia dolor ut quisquam etincidunt tempora sit non quiquia aliquam eius sit dolor quaerat tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Healthcare Innovation', 'Adipisci quiquia amet eius porro magnam velit labore etincidunt. Tempora dolor dolore sed tempora est est porro ipsum dolorem porro magnam porro. Tempora sed dolore adipisci porro voluptatem consectetur neque. Dolor est tempora porro eius quisquam est.');
+
+insert into topics
+	(label, description)
+values
+	('Health Organizations', 'Dolor etincidunt magnam dolore. Quiquia labore eius eius dolorem etincidunt. Labore adipisci tempora sed sed sit quisquam quisquam tempora porro aliquam labore.');
+
+insert into topics
+	(label, description)
+values
+	('Online Health and Medicine', 'Quaerat adipisci porro ipsum quiquia consectetur aliquam adipisci aliquam. Porro sed modi dolorem adipisci est amet adipisci ut quaerat adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Preventive Medicine', 'Consectetur dolor sed eius adipisci consectetur modi neque voluptatem numquam quisquam dolore. Velit quaerat adipisci velit dolorem tempora adipisci ut est magnam velit numquam tempora velit magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Procedures', 'Magnam porro quisquam dolorem. Labore est quaerat adipisci numquam dolorem etincidunt voluptatem tempora non numquam dolorem. Eius labore quisquam labore adipisci velit amet.');
+
+insert into topics
+	(label, description)
+values
+	('Climatotherapy', 'Quiquia dolore quiquia dolorem quiquia. Etincidunt etincidunt magnam non dolore quiquia dolore sit eius consectetur ipsum. Quiquia numquam adipisci modi eius sit ipsum est etincidunt magnam porro quiquia velit sit. Amet quaerat amet tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Health Authorities', 'Non voluptatem dolor dolor quiquia porro. Etincidunt quisquam voluptatem ut labore ut tempora etincidunt consectetur numquam amet.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Protocols', 'Numquam aliquam dolor adipisci aliquam labore dolorem tempora tempora. Labore eius sit sed dolore voluptatem consectetur ipsum ipsum tempora tempora. Voluptatem quiquia porro sed quaerat labore.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Breakthroughs', 'Quisquam amet numquam est magnam voluptatem eius sit etincidunt amet quisquam porro labore. Dolore dolore dolore neque quisquam ut tempora amet sit.');
+
+insert into topics
+	(label, description)
+values
+	('Physical Activity in Healthcare', 'Dolore est adipisci ut velit quiquia non labore quisquam quisquam magnam etincidunt non neque dolore. Labore tempora quisquam numquam quiquia neque amet dolor quiquia dolorem tempora. Voluptatem velit adipisci sed sed dolore etincidunt magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Tourism', 'Modi magnam dolorem est tempora sed non modi eius velit tempora tempora sed eius adipisci. Non est velit neque numquam sit. Sed quisquam aliquam porro adipisci ipsum ipsum ut est. Quisquam est eius modi neque est non.');
+
+insert into topics
+	(label, description)
+values
+	('Doctor''s Offices', 'Non quiquia labore dolore amet quisquam aliquam. Neque ipsum est adipisci ut magnam numquam aliquam neque sed aliquam tempora. Non dolor aliquam dolore tempora labore ut voluptatem consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Conferences', 'Velit ipsum quiquia aliquam quaerat dolorem neque aliquam dolore quaerat velit quaerat porro eius adipisci est. Aliquam neque adipisci labore numquam quaerat. Eius numquam non modi quiquia est etincidunt eius est adipisci voluptatem eius neque amet.');
+
+insert into topics
+	(label, description)
+values
+	('Medicinal Food', 'Quaerat sit magnam etincidunt sit porro dolor consectetur ut magnam quaerat. Eius amet adipisci aliquam dolorem. Adipisci eius ipsum quiquia magnam labore sed ut adipisci ut voluptatem dolorem aliquam voluptatem magnam sed.');
+
+insert into topics
+	(label, description)
+values
+	('Medical Aspects of Death', 'Amet modi quiquia modi voluptatem eius etincidunt voluptatem velit est magnam. Ut numquam amet sed dolore magnam porro quaerat sed dolorem dolor etincidunt neque modi.');
+
+insert into topics
+	(label, description)
+values
+	('Patient Care', 'Tempora ut amet aliquam amet sed voluptatem. Dolore non adipisci modi numquam amet tempora aliquam dolor etincidunt sit quisquam quisquam amet labore.');
+
+insert into topics
+	(label, description)
+values
+	('Digital Healthcare', 'Amet amet non dolorem etincidunt non dolore. Sit voluptatem etincidunt sit adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('History of Medicine', 'Dolore quiquia sit modi ut etincidunt quiquia numquam labore neque porro velit etincidunt non porro aliquam. Labore quisquam labore eius dolor porro quisquam dolore dolore sed quaerat est ut. Velit ipsum eius velit numquam aliquam ipsum sit.');
+
+insert into topics
+	(label, description)
+values
+	('Obsolete Medical Theories', 'Quisquam labore velit quisquam quaerat dolorem tempora quisquam. Porro neque neque non modi adipisci modi quisquam porro neque. Velit sed sit tempora ipsum eius consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Bubonic Plague', 'Voluptatem sed quaerat sed numquam amet ipsum ut quaerat sit consectetur. Quaerat velit quaerat quiquia dolorem neque. Porro dolore consectetur sit consectetur dolor ipsum quiquia neque porro. Voluptatem eius tempora tempora.');
+
+insert into topics
+	(label, description)
+values
+	('History of Modern Biomedicine Group', 'Dolorem amet etincidunt voluptatem amet porro ut modi porro. Voluptatem aliquam voluptatem tempora numquam neque dolore non est porro dolore aliquam quiquia est eius ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('History of Cancer', 'Eius velit voluptatem modi modi ipsum neque modi quisquam tempora ipsum porro est quiquia voluptatem. Porro non numquam magnam quaerat labore magnam quaerat sit.');
+
+insert into topics
+	(label, description)
+values
+	('Florence Nightingale', 'Etincidunt dolor magnam porro. Magnam magnam magnam consectetur neque adipisci quaerat dolorem. Ut amet labore ut consectetur labore adipisci dolore non sed consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('History of Cannabis', 'Dolor quiquia adipisci porro sed est magnam eius quisquam dolorem quiquia porro. Est amet amet dolore tempora voluptatem porro neque etincidunt aliquam dolorem non numquam numquam porro quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19', 'Magnam non non voluptatem amet ipsum voluptatem tempora consectetur dolore consectetur dolorem modi ut. Sit neque etincidunt tempora aliquam neque porro dolor adipisci porro sit dolore non neque tempora.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19 Vaccine', 'Amet non quisquam etincidunt aliquam consectetur porro voluptatem magnam non. Consectetur magnam sit eius sit etincidunt adipisci tempora quaerat numquam quisquam ut velit adipisci magnam dolor. Eius non sed est dolorem voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19 Prevention', 'Tempora dolorem voluptatem dolor dolor est etincidunt labore ut. Neque porro modi consectetur aliquam. Dolorem adipisci porro dolorem quiquia dolor. Amet dolor eius voluptatem modi labore eius neque dolor modi ipsum quaerat ut.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19 Quarantines & Restrictions', 'Porro dolore quaerat quaerat non. Quiquia magnam ipsum numquam. Adipisci quiquia modi velit dolorem porro.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19 Celebrity and Personal Stories', 'Magnam modi porro amet amet non porro. Magnam quisquam consectetur modi consectetur amet est sit ipsum dolore sed numquam. Numquam consectetur labore neque etincidunt amet dolorem ipsum sed etincidunt consectetur. Sed ipsum sit ipsum non porro etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19 Protection', 'Est quaerat magnam modi quiquia est aliquam quiquia magnam non eius etincidunt labore est sed. Est non amet numquam. Neque neque labore porro.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19 in Specific Locations', 'Est dolor voluptatem velit non modi numquam labore labore porro amet quaerat. Amet tempora quiquia etincidunt. Velit eius adipisci dolorem quaerat modi dolor non non adipisci quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Economic Impact of COVID-19', 'Porro aliquam dolorem ut aliquam quaerat ipsum. Dolor est quiquia dolor aliquam labore amet modi magnam porro etincidunt sit. Labore sed etincidunt porro.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19 Treatments', 'Magnam quiquia aliquam porro dolor dolorem ipsum ipsum eius. Quiquia dolor adipisci porro sed voluptatem amet voluptatem quisquam porro dolore amet quaerat aliquam labore voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19 Testing and Test Kits', 'Aliquam dolorem sit ut tempora amet etincidunt dolorem dolore velit. Eius quaerat tempora non dolorem etincidunt tempora ut adipisci adipisci quiquia etincidunt quiquia aliquam modi quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19 Pandemic', 'Magnam adipisci ut sit velit dolore sed numquam est dolore quaerat modi. Porro eius consectetur aliquam velit quaerat magnam quaerat magnam tempora porro etincidunt ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19 Research', 'Quisquam amet adipisci sed velit dolore quaerat quisquam tempora. Tempora amet ipsum modi est eius dolore. Velit ipsum dolorem numquam quaerat ipsum etincidunt sed dolor dolore est sed. Adipisci aliquam est magnam quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Coronavirus Preparations', 'Dolorem quaerat eius ut numquam consectetur modi dolore est dolorem tempora est neque ipsum ut. Est dolor quaerat eius magnam porro ipsum sed quaerat porro ut adipisci quisquam. Est dolore quisquam non neque.');
+
+insert into topics
+	(label, description)
+values
+	('Flatten the Curve (re COVID pandemic)', 'Est porro adipisci quiquia eius velit ipsum adipisci quiquia consectetur porro sit sed velit. Dolor tempora modi dolorem numquam ut quaerat adipisci eius quisquam labore sed numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Symptoms of COVID-19', 'Etincidunt ut dolor quisquam tempora quaerat sit velit adipisci labore tempora velit dolore ut dolor. Amet sit quaerat voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Covid-19 (April-2020)', 'Sed non adipisci eius porro voluptatem quaerat non dolore. Tempora voluptatem ut voluptatem voluptatem sed tempora sed dolore numquam. Neque consectetur magnam numquam magnam porro tempora etincidunt velit ipsum neque dolorem labore quaerat ut voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19 Healthcare Workers', 'Eius amet quaerat magnam labore numquam amet modi. Quiquia ut velit velit. Dolorem dolor dolorem quiquia eius etincidunt ipsum. Tempora velit dolor non voluptatem dolore quiquia amet amet etincidunt dolore consectetur neque labore non est.');
+
+insert into topics
+	(label, description)
+values
+	('Covid-19 Health and Risk Factors', 'Neque quisquam est sit ipsum neque sit eius non dolor numquam dolor eius. Magnam sit labore tempora numquam labore non. Quisquam magnam consectetur labore sed magnam labore eius quiquia tempora numquam magnam dolorem adipisci dolor numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Coping with and Overcoming Fear of Coronavirus', 'Aliquam magnam eius eius sit modi numquam eius non non. Neque quiquia neque quiquia sed sit neque ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('End COVID-19', 'Numquam quaerat quisquam neque modi tempora ut quaerat amet consectetur non sed. Quaerat labore dolore dolore ut porro tempora est quiquia modi quisquam consectetur dolor quaerat sit.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19 Immunity', 'Amet consectetur aliquam sit velit dolorem quaerat adipisci magnam. Numquam porro etincidunt sit non velit.');
+
+insert into topics
+	(label, description)
+values
+	('Post Covid-19 World', 'Porro quiquia quaerat quisquam consectetur sed quaerat modi quiquia numquam neque velit est labore magnam. Dolore neque non modi est est dolorem numquam aliquam ipsum non quaerat modi quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Origin of COVID-19', 'Neque dolor dolorem dolorem dolorem ut modi eius magnam magnam. Ipsum neque quisquam aliquam tempora sed numquam quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Coronavirus (COVID-19) Litigation', 'Etincidunt voluptatem quisquam ipsum aliquam tempora etincidunt non consectetur velit velit dolorem modi etincidunt labore. Quisquam magnam etincidunt adipisci velit porro.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19 Modeling and Prediction', 'Consectetur magnam dolor neque porro magnam velit est eius tempora porro sed quisquam modi. Quiquia velit est quaerat eius consectetur modi adipisci voluptatem numquam ut dolore numquam. Neque ipsum non est magnam.');
+
+insert into topics
+	(label, description)
+values
+	('COVID-19 Demographics and Statistics', 'Sed ipsum labore modi. Quiquia consectetur porro dolore velit ut. Non amet modi quisquam velit aliquam etincidunt dolore ut. Amet adipisci porro neque consectetur labore quiquia. Aliquam adipisci velit tempora modi neque ipsum dolor non ut sed.');
+
+insert into topics
+	(label, description)
+values
+	('Covid-19 Survivors', 'Quaerat velit quiquia ut amet consectetur neque voluptatem labore adipisci eius amet porro velit numquam porro. Consectetur est sit ipsum dolorem numquam adipisci eius eius quiquia ipsum voluptatem etincidunt labore dolorem consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Covid-G614 Strain', 'Dolore quiquia quiquia sit dolor quaerat. Non consectetur modi amet etincidunt labore velit etincidunt etincidunt ut est sit dolor dolor adipisci sit. Sed est magnam aliquam. Adipisci eius ipsum porro non non eius porro sed etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Food', 'Quisquam est dolorem est labore amet est voluptatem ut quisquam aliquam sit porro dolore adipisci. Quisquam dolor aliquam magnam quisquam amet ut. Quiquia dolor porro velit dolore est consectetur porro labore tempora. Non sit dolore ipsum sit modi est ut.');
+
+insert into topics
+	(label, description)
+values
+	('Food Groups', 'Dolorem sed ut labore ut velit est adipisci consectetur porro etincidunt dolore porro non. Porro quisquam modi porro neque porro eius adipisci velit labore amet voluptatem adipisci sit.');
+
+insert into topics
+	(label, description)
+values
+	('Food and Cuisines in Specific Locations', 'Dolor non ipsum sed sed magnam neque velit dolor numquam sed dolor neque. Dolor tempora dolore porro dolore aliquam tempora ipsum numquam consectetur eius voluptatem dolor.');
+
+insert into topics
+	(label, description)
+values
+	('History of Food', 'Dolore neque neque quisquam. Dolore amet tempora amet modi. Quiquia quisquam adipisci dolore tempora dolor aliquam voluptatem. Ut dolorem velit numquam quisquam non amet aliquam. Ipsum etincidunt quisquam voluptatem voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Foodies', 'Est adipisci amet neque labore quaerat. Ipsum porro neque dolorem tempora labore ipsum porro. Est quaerat sit est quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Food', 'Labore quiquia porro sit ut voluptatem ut aliquam neque neque quiquia sed. Neque quiquia neque magnam dolorem. Consectetur dolorem est modi amet quaerat numquam quaerat numquam magnam labore non aliquam eius magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Food and Beverage Industry', 'Non quisquam modi eius quisquam est dolorem. Porro eius sit etincidunt sed quiquia consectetur neque aliquam labore aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Fitness and Food', 'Amet aliquam sed ut quisquam dolore neque velit. Dolor modi consectetur velit.');
+
+insert into topics
+	(label, description)
+values
+	('Food Classifications', 'Voluptatem est porro amet. Sit voluptatem amet dolor neque numquam quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Food Words', 'Voluptatem tempora ipsum ipsum non magnam magnam numquam porro dolore amet porro ut est modi. Porro ipsum amet est est tempora consectetur sed sed neque numquam eius adipisci aliquam sit.');
+
+insert into topics
+	(label, description)
+values
+	('Food and Agriculture', 'Neque dolore consectetur aliquam non dolor non dolore modi quiquia voluptatem sit. Amet aliquam dolore neque quiquia labore est voluptatem velit quaerat adipisci quaerat aliquam ipsum dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Food', 'Est dolor sit dolorem est est dolore eius ut dolore dolore est sit sed dolore. Quaerat adipisci quaerat consectetur modi tempora dolorem magnam ut. Tempora labore non consectetur ipsum quiquia modi dolore neque est.');
+
+insert into topics
+	(label, description)
+values
+	('Cuisine', 'Numquam magnam sed dolorem sed dolor numquam quaerat sit tempora quiquia voluptatem. Adipisci dolore amet eius adipisci etincidunt tempora non est voluptatem quaerat modi dolor numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Mexican Food', 'Est sit non sed sed labore. Sed adipisci sit voluptatem dolorem. Quiquia tempora eius quiquia quaerat numquam dolore ipsum quisquam non voluptatem. Ut quisquam amet dolor numquam numquam quiquia tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Chinese Food', 'Non porro ipsum non porro labore est consectetur velit non quaerat non non voluptatem sit. Dolor aliquam velit numquam eius eius quisquam. Labore eius consectetur etincidunt non quiquia tempora numquam quiquia dolorem quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Cuban Food', 'Numquam amet non ut. Eius quisquam quiquia labore sit consectetur magnam eius sed labore neque amet numquam porro est dolor. Dolore neque eius porro. Non ut adipisci porro.');
+
+insert into topics
+	(label, description)
+values
+	('Vietnamese Food and Cuisine', 'Tempora quisquam magnam ut. Non dolorem sit dolor ipsum ut sit voluptatem aliquam eius ipsum ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Food and Cuisine of Thailand', 'Est quaerat numquam ipsum neque tempora est tempora magnam quisquam quiquia sed adipisci quiquia. Etincidunt non porro velit quiquia ipsum neque dolor. Dolorem velit labore non sed ut dolorem modi neque magnam dolor quiquia aliquam dolorem tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Druze Food', 'Voluptatem dolorem ipsum amet dolore modi modi ipsum. Labore sit non quaerat voluptatem aliquam quaerat etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Halal Food', 'Ut quiquia porro est. Eius neque amet etincidunt magnam velit sed non quisquam consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Korean Food', 'Neque quisquam adipisci eius quisquam magnam eius quisquam non. Adipisci eius dolore neque numquam ut magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Arabic Food', 'Magnam aliquam non quaerat dolorem tempora etincidunt voluptatem velit ipsum etincidunt numquam ipsum dolorem quisquam quaerat. Etincidunt quaerat aliquam sed voluptatem ipsum ut dolor consectetur dolor numquam quiquia porro.');
+
+insert into topics
+	(label, description)
+values
+	('Turkish Food', 'Velit dolorem eius dolorem quiquia ipsum sit tempora. Est non dolor adipisci dolore velit sit etincidunt ut labore eius.');
+
+insert into topics
+	(label, description)
+values
+	('Persian Food', 'Numquam adipisci sed est porro adipisci sit non ut. Modi aliquam etincidunt modi adipisci consectetur quiquia. Tempora eius etincidunt amet amet consectetur amet consectetur velit etincidunt sed dolore ut tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Moroccan Cuisine', 'Numquam consectetur numquam numquam non quiquia quisquam adipisci velit. Voluptatem ut neque amet neque quiquia est neque quiquia quisquam modi dolor. Aliquam velit dolore non labore velit neque amet consectetur ut.');
+
+insert into topics
+	(label, description)
+values
+	('Food and Cuisine of Ethiopia', 'Sit neque porro numquam eius ut ipsum voluptatem dolore dolore labore porro sit aliquam adipisci quiquia. Porro neque numquam velit labore. Ipsum velit velit velit numquam neque. Numquam tempora ipsum dolore porro.');
+
+insert into topics
+	(label, description)
+values
+	('Oaxacan Food', 'Neque sed neque sed. Amet quiquia quisquam sed quiquia velit ut amet quiquia velit modi. Tempora sed aliquam modi numquam numquam ipsum modi dolore ut velit dolorem non numquam sed adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Food and Cuisine of Greece', 'Dolor sit dolore labore aliquam velit sit neque sed dolore etincidunt. Consectetur sed quaerat modi amet ipsum adipisci sit dolorem voluptatem consectetur numquam voluptatem etincidunt modi amet. Amet numquam consectetur velit velit.');
+
+insert into topics
+	(label, description)
+values
+	('Lebanese Food', 'Adipisci consectetur voluptatem sed sed dolorem velit numquam quaerat consectetur quiquia modi sit adipisci amet. Labore dolore dolore tempora adipisci aliquam labore quaerat dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Food and Cuisine of Pakistan', 'Numquam dolor etincidunt eius sit dolore eius porro sit aliquam velit neque tempora. Consectetur dolore eius velit sit modi quaerat amet sed dolore numquam dolorem labore tempora quisquam non.');
+
+insert into topics
+	(label, description)
+values
+	('German Food and Cuisine', 'Porro porro quiquia sed quiquia quaerat neque labore amet. Porro labore dolore porro ipsum etincidunt adipisci tempora quiquia dolorem etincidunt sit est dolore eius.');
+
+insert into topics
+	(label, description)
+values
+	('Singaporean Food', 'Ut velit est est dolor ut porro. Ut amet sed quaerat sit sit tempora labore aliquam labore sed labore porro labore. Neque ut porro quaerat eius.');
+
+insert into topics
+	(label, description)
+values
+	('Food and Cuisine of the Netherlands', 'Ipsum magnam labore aliquam quaerat sed quaerat voluptatem etincidunt labore est ut sit. Labore est ut porro velit tempora etincidunt quisquam est etincidunt porro numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Traditional Food', 'Numquam aliquam adipisci quisquam modi velit porro sit quaerat quisquam numquam dolorem consectetur est. Amet sit modi porro etincidunt labore eius amet aliquam ipsum dolorem modi etincidunt adipisci consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Dominican Food', 'Eius ut adipisci quiquia. Aliquam dolore eius consectetur consectetur tempora dolor dolorem amet modi dolor magnam sed. Sed dolore neque aliquam numquam ut aliquam eius dolorem modi voluptatem neque.');
+
+insert into topics
+	(label, description)
+values
+	('Southeast Asian Food', 'Porro quiquia amet velit non ipsum dolor neque consectetur adipisci. Modi eius neque modi dolore modi magnam numquam consectetur quaerat amet porro porro quaerat aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Spanish Food and Cuisine', 'Velit quaerat quisquam amet. Amet quisquam dolore ut velit quiquia porro quisquam aliquam eius numquam porro.');
+
+insert into topics
+	(label, description)
+values
+	('Peruvian Food', 'Quiquia velit ut amet quiquia. Etincidunt eius sed porro adipisci dolore. Voluptatem etincidunt ut modi sed non etincidunt sit dolor velit velit neque. Quisquam quaerat non modi quisquam neque eius neque neque sed modi est modi.');
+
+insert into topics
+	(label, description)
+values
+	('Food and Cuisine of the Philippines', 'Non amet est est neque modi modi non est. Amet sit quiquia etincidunt voluptatem quisquam porro quiquia etincidunt porro neque est dolore quisquam. Amet quiquia est numquam tempora tempora dolore. Quisquam voluptatem sit sed magnam quiquia sed eius.');
+
+insert into topics
+	(label, description)
+values
+	('Food and Cuisine of Malaysia', 'Ipsum sit sed dolore est adipisci velit ut sed ut. Modi etincidunt amet quiquia ut numquam dolor magnam dolorem ipsum. Adipisci eius adipisci porro ut ut etincidunt eius.');
+
+insert into topics
+	(label, description)
+values
+	('Israeli Food', 'Modi quisquam neque consectetur eius labore eius. Numquam voluptatem consectetur eius amet est adipisci dolore labore numquam neque.');
+
+insert into topics
+	(label, description)
+values
+	('Food and Cuisine of Russia', 'Non voluptatem est consectetur adipisci neque quaerat amet. Voluptatem sit velit labore labore velit numquam quiquia consectetur neque tempora quiquia est porro quisquam. Dolore consectetur dolore voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Mediterranean Food', 'Non est numquam ipsum. Voluptatem porro quiquia neque adipisci numquam numquam sit consectetur velit neque dolorem tempora quisquam etincidunt voluptatem. Numquam modi labore modi quiquia porro. Etincidunt quaerat magnam voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Southern Cooking', 'Quisquam adipisci consectetur sed ipsum dolore amet sed. Aliquam voluptatem est voluptatem velit dolorem neque dolore quaerat numquam sed labore quaerat voluptatem. Adipisci velit voluptatem tempora magnam eius numquam voluptatem quiquia eius porro est.');
+
+insert into topics
+	(label, description)
+values
+	('Jamaican Food', 'Numquam quaerat etincidunt adipisci eius eius ipsum dolorem adipisci. Quisquam adipisci modi aliquam voluptatem sit ut numquam amet aliquam porro.');
+
+insert into topics
+	(label, description)
+values
+	('Middle Eastern Food', 'Adipisci neque aliquam amet velit quisquam magnam numquam sit dolorem dolor. Magnam modi quisquam neque non ut magnam aliquam non ut sit non sit.');
+
+insert into topics
+	(label, description)
+values
+	('Brazilian Food', 'Consectetur amet est non numquam labore amet labore quiquia. Velit labore adipisci etincidunt sit tempora labore consectetur non sit sed velit non quaerat tempora dolorem. Amet neque dolor tempora magnam consectetur quaerat sit dolore modi.');
+
+insert into topics
+	(label, description)
+values
+	('Fried Foods', 'Sit est eius numquam voluptatem neque consectetur labore ipsum quisquam aliquam. Neque aliquam amet magnam quiquia modi tempora velit dolore velit modi magnam sed tempora quiquia quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Food and Cuisine of Australia', 'Sed consectetur ipsum numquam quisquam labore. Amet dolorem dolorem est voluptatem dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Food and Cuisine of Japan', 'Consectetur tempora neque velit dolor adipisci est ipsum porro. Sed numquam numquam labore etincidunt. Aliquam aliquam numquam dolorem amet est magnam magnam quisquam tempora eius. Magnam porro dolorem modi eius quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Danish Food', 'Modi sit velit sit dolore eius quisquam non quaerat. Modi quiquia quiquia est aliquam labore quiquia ut non dolore adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Asian Food', 'Non aliquam dolore porro amet neque velit dolorem porro ipsum sed tempora. Labore ipsum sed dolor est.');
+
+insert into topics
+	(label, description)
+values
+	('Scottish Food', 'Quisquam dolor quisquam magnam modi. Modi modi eius dolor quaerat eius numquam ut dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Spicy Food', 'Voluptatem sed dolore sed modi aliquam amet voluptatem amet non aliquam. Non amet quisquam quisquam eius labore quiquia sed tempora aliquam adipisci numquam aliquam quisquam. Dolore adipisci consectetur voluptatem dolorem eius sit.');
+
+insert into topics
+	(label, description)
+values
+	('Street Food', 'Ipsum quisquam non velit sed quaerat dolorem eius dolorem sed dolore voluptatem. Modi neque porro sed sed sit eius modi est velit quaerat dolore magnam non consectetur quisquam. Velit quiquia tempora labore est quiquia numquam modi porro non.');
+
+insert into topics
+	(label, description)
+values
+	('Exotic Food', 'Ut eius magnam porro etincidunt sed magnam numquam est velit numquam modi quisquam. Dolorem quaerat magnam modi labore dolorem ipsum labore voluptatem dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Wild Food', 'Est quiquia non adipisci consectetur sit dolore numquam consectetur aliquam. Eius velit quaerat ut dolore dolor magnam porro voluptatem sit ut neque.');
+
+insert into topics
+	(label, description)
+values
+	('Fast Food', 'Adipisci adipisci sed sit. Neque quaerat consectetur porro porro etincidunt consectetur ipsum ut. Amet dolor eius quaerat eius dolore numquam quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Space Food', 'Velit quaerat neque tempora amet aliquam dolorem sed magnam amet eius quaerat. Modi labore tempora modi eius est ut. Sit etincidunt quaerat ut etincidunt ipsum aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Food and Cuisine of the United States of America', 'Tempora porro ipsum magnam non aliquam numquam quisquam quaerat magnam ut magnam. Tempora voluptatem modi labore dolorem quiquia sed. Ut dolor quaerat ut quiquia voluptatem quaerat quiquia magnam est. Ipsum aliquam sed magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Bulgarian Food', 'Ut non est quiquia quaerat. Amet non modi eius voluptatem ut non. Aliquam porro quisquam quiquia ut sed.');
+
+insert into topics
+	(label, description)
+values
+	('Restaurant Cuisines', 'Consectetur numquam amet adipisci numquam sit quiquia ut non quisquam neque. Labore voluptatem magnam etincidunt aliquam est sit sit magnam aliquam sed est.');
+
+insert into topics
+	(label, description)
+values
+	('Italian Food and Cuisine', 'Adipisci est consectetur tempora consectetur velit labore quaerat. Ipsum quaerat dolore etincidunt sed neque est modi dolore dolor dolorem modi.');
+
+insert into topics
+	(label, description)
+values
+	('Food and Cuisine of Canada', 'Quiquia dolorem numquam ipsum magnam voluptatem sed quaerat neque dolore est dolor quiquia. Dolor adipisci numquam adipisci est dolorem quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Cooking', 'Dolorem etincidunt eius modi numquam sit etincidunt labore eius eius. Amet est sed numquam labore. Amet adipisci non voluptatem ut. Eius consectetur quisquam dolor dolor labore quisquam. Ipsum sed quisquam porro sit magnam aliquam numquam dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Cooking Techniques', 'Eius sed numquam labore amet amet voluptatem dolor ut. Quisquam ut aliquam labore tempora velit dolorem neque sed.');
+
+insert into topics
+	(label, description)
+values
+	('Molecular Gastronomy', 'Magnam ut aliquam quaerat quisquam quiquia dolore tempora eius non numquam ut est porro consectetur modi. Dolorem porro aliquam quisquam adipisci ut modi porro est.');
+
+insert into topics
+	(label, description)
+values
+	('Recipes', 'Dolore velit sed velit ipsum labore. Quaerat sit est quaerat numquam consectetur porro aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Healthy Cooking', 'Non sed numquam dolorem tempora numquam quaerat labore est. Voluptatem ut velit modi non. Neque numquam quaerat ipsum dolorem amet magnam consectetur ut velit dolore ut velit neque.');
+
+insert into topics
+	(label, description)
+values
+	('Culinary Arts', 'Non neque consectetur aliquam modi magnam. Velit neque modi dolorem labore velit magnam est dolore aliquam dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Cooking Equipment', 'Modi adipisci modi dolor quisquam voluptatem est est non non velit ipsum ipsum velit tempora. Ut est modi quiquia porro velit tempora porro consectetur. Tempora adipisci sed voluptatem ipsum consectetur magnam tempora sed velit modi dolorem eius porro.');
+
+insert into topics
+	(label, description)
+values
+	('Cooking Specific Foods', 'Etincidunt consectetur non labore est numquam dolor. Sit amet modi numquam quiquia labore sed tempora ipsum amet consectetur magnam porro modi. Quaerat etincidunt voluptatem magnam quaerat dolor porro quiquia tempora voluptatem ut.');
+
+insert into topics
+	(label, description)
+values
+	('Cooking Philosophies', 'Neque adipisci voluptatem neque. Voluptatem sit adipisci non velit consectetur. Etincidunt tempora modi eius modi dolore modi porro quiquia dolorem quiquia sed.');
+
+insert into topics
+	(label, description)
+values
+	('Ingredients', 'Est dolorem dolore adipisci aliquam tempora. Consectetur quaerat etincidunt dolor aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Cooking of Specific Cuisines', 'Quaerat sed consectetur ipsum consectetur eius sit modi neque voluptatem dolore sed. Neque dolor ut ipsum ipsum magnam. Amet neque dolor voluptatem ut dolore amet etincidunt consectetur velit sit quaerat quiquia dolore magnam magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Thanksgiving Cooking', 'Velit modi quiquia ipsum labore modi ut. Numquam numquam dolorem adipisci quiquia labore labore.');
+
+insert into topics
+	(label, description)
+values
+	('Gourmet Cooking', 'Amet porro quisquam velit numquam porro dolor sed dolorem non sed sed. Dolorem porro amet sit neque adipisci consectetur modi consectetur adipisci quiquia dolor neque. Labore tempora quiquia consectetur ipsum quiquia velit.');
+
+insert into topics
+	(label, description)
+values
+	('Cooking Automation', 'Labore consectetur dolor quaerat adipisci porro quisquam neque adipisci voluptatem aliquam dolor voluptatem ut. Est ipsum voluptatem ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Culinary Instructors', 'Tempora amet modi sit. Quaerat ut amet dolorem quisquam. Neque est est ipsum modi quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Vegetarian Cooking', 'Est voluptatem est quaerat eius sed. Sed amet est amet dolorem porro non amet. Labore etincidunt quaerat non. Adipisci velit tempora consectetur velit velit etincidunt quisquam. Quiquia est tempora aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Learning to Cook', 'Labore porro tempora numquam magnam sit quiquia sed. Numquam numquam ut quisquam magnam dolor porro ipsum labore ut velit sed.');
+
+insert into topics
+	(label, description)
+values
+	('Holistic Cooking', 'Numquam eius ut ipsum sed neque amet amet modi neque numquam. Dolorem aliquam quaerat adipisci voluptatem non amet labore ut non adipisci sit tempora. Quaerat est amet quaerat dolorem ipsum consectetur neque.');
+
+insert into topics
+	(label, description)
+values
+	('Backpacking Cooking', 'Sit voluptatem est quisquam ut ipsum magnam numquam dolore porro dolore amet. Non quaerat ut porro non neque. Labore quisquam amet quiquia dolorem dolor etincidunt magnam aliquam labore ipsum neque est voluptatem etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Home Cooking', 'Numquam numquam est est. Ut ipsum consectetur adipisci porro amet voluptatem neque aliquam ut etincidunt neque etincidunt ut dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Stews', 'Quaerat ipsum voluptatem velit est dolorem labore velit sit sit ut quisquam. Aliquam amet neque labore est sed ipsum tempora magnam velit aliquam aliquam etincidunt etincidunt tempora dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Hawaij (ground spice mixture)', 'Dolor porro sit consectetur quiquia quaerat dolorem dolore. Adipisci est numquam adipisci sed ipsum aliquam eius tempora velit est.');
+
+insert into topics
+	(label, description)
+values
+	('Microwave Cooking', 'Voluptatem ipsum magnam dolor quisquam labore sit consectetur tempora numquam labore. Est neque quiquia neque quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Cooking Advice', 'Numquam velit adipisci numquam est velit est magnam consectetur dolor est eius. Ut quaerat porro sit consectetur aliquam sit eius aliquam labore tempora magnam etincidunt tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Cooking', 'Porro magnam porro adipisci labore ipsum modi. Modi numquam dolore dolor ipsum quiquia ut ut labore non amet quiquia quiquia sit. Eius modi voluptatem eius aliquam amet neque aliquam quiquia neque sit consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Restaurants', 'Sed labore eius ipsum amet. Dolore quiquia modi numquam dolor velit sit amet quaerat amet. Tempora quaerat porro quaerat etincidunt porro magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Restaurant Recommendations', 'Numquam labore consectetur quaerat neque labore voluptatem velit sit dolore ipsum magnam quiquia. Eius porro ut quaerat ipsum quiquia aliquam adipisci dolore dolore quaerat ut quaerat dolorem quisquam dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Restaurant Business', 'Consectetur porro dolore numquam dolor dolore porro sed amet sit adipisci porro non. Neque tempora eius est neque magnam. Amet dolorem non ipsum quisquam tempora. Adipisci eius etincidunt modi tempora quiquia tempora modi. Velit tempora amet ut quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Restaurant Classifications', 'Consectetur non sed modi quisquam sed. Ipsum quaerat quisquam est sed dolor etincidunt magnam dolorem amet.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts Related to Restaurants', 'Amet sit ipsum quiquia tempora quiquia dolorem est ipsum ipsum labore dolore. Etincidunt dolorem voluptatem voluptatem. Aliquam modi dolore neque etincidunt dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Restaurants', 'Quaerat sed magnam porro ipsum numquam etincidunt neque est voluptatem quaerat dolore dolor labore. Aliquam quisquam dolore consectetur ut adipisci consectetur velit non sed sit.');
+
+insert into topics
+	(label, description)
+values
+	('Restaurants in Specific Locations', 'Sit sed neque consectetur porro modi aliquam ut ipsum dolorem etincidunt amet porro ipsum neque amet. Sed etincidunt quaerat dolore aliquam consectetur consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Restaurant Lists', 'Neque dolore velit aliquam aliquam modi quisquam eius dolor voluptatem. Est adipisci eius labore neque amet etincidunt sit quaerat quaerat velit tempora magnam labore. Eius sed non modi tempora sit tempora labore. Quiquia eius velit ut.');
+
+insert into topics
+	(label, description)
+values
+	('Restaurant Weeks', 'Aliquam numquam modi ipsum magnam amet. Sit labore magnam voluptatem porro labore neque velit.');
+
+insert into topics
+	(label, description)
+values
+	('Fast Food Restaurants', 'Numquam labore neque quisquam voluptatem. Amet sit eius neque velit voluptatem aliquam aliquam dolorem magnam amet non labore dolorem. Velit adipisci porro tempora numquam ut ut sit labore dolore dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Eating', 'Est aliquam dolorem ipsum quaerat dolor dolore. Etincidunt velit amet quaerat eius. Aliquam numquam dolorem labore magnam modi quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Meals', 'Dolorem ipsum aliquam magnam neque est non consectetur non sed est tempora ipsum velit ut dolor. Ipsum etincidunt porro tempora voluptatem sit adipisci etincidunt est porro modi sed magnam porro quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Competitive Eating', 'Ut numquam dolor eius quaerat tempora numquam quisquam dolore etincidunt labore quisquam consectetur numquam ut. Est magnam labore tempora quisquam numquam. Amet quiquia magnam quisquam ipsum numquam etincidunt sit quiquia etincidunt sed ipsum etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Unhealthy Eating', 'Labore etincidunt dolore eius etincidunt modi. Est quiquia non aliquam tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Satiety and Satiating foods', 'Eius porro velit ipsum voluptatem voluptatem eius adipisci modi non amet labore dolore. Aliquam ipsum tempora est aliquam dolor numquam quiquia ipsum ut.');
+
+insert into topics
+	(label, description)
+values
+	('Gastronomy', 'Sed sed sit ipsum. Neque dolorem ipsum numquam quisquam labore tempora dolorem quisquam consectetur velit ut dolorem modi labore.');
+
+insert into topics
+	(label, description)
+values
+	('Healthy Eating', 'Dolor aliquam dolorem dolorem sed sit velit porro amet tempora. Velit numquam tempora eius modi.');
+
+insert into topics
+	(label, description)
+values
+	('Dining', 'Quiquia tempora eius porro dolor eius ipsum dolore dolorem magnam. Magnam dolor quiquia non tempora dolorem ipsum. Etincidunt aliquam magnam sit.');
+
+insert into topics
+	(label, description)
+values
+	('Infant Feeding', 'Modi non eius sit. Quaerat consectetur modi est amet aliquam amet ipsum consectetur sit. Magnam dolorem ut est est magnam ut dolore dolorem aliquam voluptatem magnam tempora numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Food Science', 'Est consectetur quiquia est dolore adipisci voluptatem. Porro quaerat dolore modi dolore sed dolorem quiquia tempora quisquam tempora quisquam modi quaerat non. Eius sed numquam tempora numquam porro amet numquam amet.');
+
+insert into topics
+	(label, description)
+values
+	('Maillard Reaction', 'Aliquam velit dolore neque porro. Aliquam sit porro ipsum consectetur non non dolor non eius sit labore quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Food Preservation', 'Est porro tempora sed sit tempora ipsum quaerat ipsum. Etincidunt etincidunt numquam labore modi magnam voluptatem dolore quiquia etincidunt dolor numquam sit voluptatem amet labore.');
+
+insert into topics
+	(label, description)
+values
+	('Processed Food', 'Aliquam adipisci numquam dolor labore sit sed tempora quaerat voluptatem amet neque. Quisquam quaerat modi ipsum quaerat velit consectetur porro eius.');
+
+insert into topics
+	(label, description)
+values
+	('Food Additives', 'Labore dolor neque velit quiquia est ut quiquia porro amet dolorem porro labore dolor. Consectetur dolor magnam neque.');
+
+insert into topics
+	(label, description)
+values
+	('Food Safety', 'Non sed etincidunt ut. Magnam dolorem neque ut porro neque dolorem. Sit est ut quisquam adipisci neque ipsum numquam eius. Sit etincidunt amet magnam sit quisquam. Tempora tempora labore non aliquam ut etincidunt quiquia neque.');
+
+insert into topics
+	(label, description)
+values
+	('Pasteurization', 'Eius aliquam magnam dolore sed. Dolore ut voluptatem amet voluptatem amet sit ut dolor quaerat sit.');
+
+insert into topics
+	(label, description)
+values
+	('Food Chemistry', 'Voluptatem dolorem porro ut ipsum numquam amet. Voluptatem amet porro est eius. Consectetur numquam dolor quisquam sed magnam quiquia porro dolorem ipsum adipisci est magnam adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Winemaking', 'Dolorem numquam ipsum velit tempora. Magnam porro etincidunt dolore magnam ut non aliquam amet sit etincidunt magnam porro quaerat consectetur. Non etincidunt voluptatem quiquia. Modi numquam voluptatem ut.');
+
+insert into topics
+	(label, description)
+values
+	('Learning About Food Science', 'Ipsum magnam tempora consectetur sit ut ut consectetur dolor amet ut. Velit dolor aliquam dolor dolorem aliquam dolorem. Eius quiquia dolor non est dolorem etincidunt ut quiquia velit dolore quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Food Science', 'Voluptatem amet numquam dolorem labore. Numquam quiquia sit sit porro. Etincidunt dolor magnam velit. Amet sed ipsum consectetur neque non. Consectetur modi neque ipsum velit quiquia sit ipsum dolore ut.');
+
+insert into topics
+	(label, description)
+values
+	('Food Science and Technology', 'Amet amet neque labore velit. Tempora amet neque dolorem neque quaerat ut numquam adipisci dolore dolorem est quisquam modi porro.');
+
+insert into topics
+	(label, description)
+values
+	('Food Science and Engineering', 'Sed dolore voluptatem ipsum magnam adipisci etincidunt adipisci dolor quiquia. Neque sed dolor quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Agriculture', 'Sed amet velit magnam magnam non quaerat. Aliquam dolorem ut ipsum. Labore voluptatem quiquia eius modi non sit ipsum non magnam quiquia dolor voluptatem modi. Dolor magnam non eius ipsum porro quiquia labore ipsum magnam adipisci labore eius.');
+
+insert into topics
+	(label, description)
+values
+	('Agronomy', 'Numquam neque modi tempora etincidunt quisquam tempora labore quisquam etincidunt sed quaerat dolor. Dolorem amet labore dolor ipsum modi numquam eius numquam neque. Non sed porro est ut neque modi quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Animal Husbandry', 'Adipisci quisquam non eius sed dolorem velit numquam dolore neque magnam dolore quaerat consectetur voluptatem quisquam. Non consectetur est eius dolorem consectetur porro numquam ipsum sed magnam sed. Labore modi non est sit velit quisquam dolor dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Agricultural Economics', 'Voluptatem consectetur magnam quaerat numquam sit. Quisquam ipsum tempora etincidunt. Modi ut aliquam porro quiquia. Aliquam quaerat magnam quisquam dolore amet sit adipisci etincidunt. Numquam tempora dolor quisquam eius quiquia quiquia neque modi.');
+
+insert into topics
+	(label, description)
+values
+	('Agricultural Engineering', 'Voluptatem eius amet dolore tempora etincidunt sed. Consectetur adipisci voluptatem ipsum consectetur non amet labore labore neque porro amet. Dolor modi aliquam ipsum porro voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Agricultural Revolution', 'Neque adipisci dolor velit labore ipsum adipisci consectetur aliquam eius non aliquam sed dolore ut. Est modi dolor quaerat ut numquam magnam consectetur dolore ipsum sit quaerat eius.');
+
+insert into topics
+	(label, description)
+values
+	('Agricultural Subsidies', 'Neque ut dolorem adipisci adipisci etincidunt dolorem magnam quisquam quaerat sed tempora magnam modi. Ipsum quiquia aliquam quiquia numquam est. Modi est dolorem adipisci sed. Dolorem voluptatem dolorem modi sed dolore amet.');
+
+insert into topics
+	(label, description)
+values
+	('Genetically Modified Foods', 'Quaerat amet neque amet aliquam non adipisci. Quaerat adipisci est sed sed voluptatem ipsum amet tempora sed non. Est voluptatem labore eius non sed. Quaerat quisquam dolore consectetur ipsum dolor non.');
+
+insert into topics
+	(label, description)
+values
+	('Types of Agriculture', 'Sed dolore etincidunt modi labore porro ut est voluptatem voluptatem. Dolore eius consectetur ut porro.');
+
+insert into topics
+	(label, description)
+values
+	('Learning About Agriculture', 'Dolore adipisci sed voluptatem est amet sit quisquam. Sed est magnam eius dolorem magnam. Non ut est modi voluptatem consectetur est. Ipsum ipsum quaerat sit.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Agriculture', 'Dolore tempora porro etincidunt modi etincidunt est magnam ipsum. Sed amet porro labore dolor amet tempora amet ut. Quiquia quaerat sit neque velit dolore consectetur quisquam amet.');
+
+insert into topics
+	(label, description)
+values
+	('Herbicides', 'Labore aliquam quisquam sit dolor aliquam numquam adipisci est numquam dolor etincidunt. Quiquia labore quisquam consectetur dolor quaerat consectetur eius consectetur. Modi labore dolor quisquam ut aliquam. Tempora amet etincidunt quaerat velit amet.');
+
+insert into topics
+	(label, description)
+values
+	('Farming', 'Amet consectetur ipsum aliquam neque labore amet dolore ut adipisci numquam modi etincidunt tempora. Amet quaerat tempora modi sit ut quiquia tempora etincidunt numquam tempora aliquam adipisci dolor non neque.');
+
+insert into topics
+	(label, description)
+values
+	('Ranching', 'Porro est etincidunt non adipisci sed. Neque non quisquam est modi amet velit sed adipisci sed modi.');
+
+insert into topics
+	(label, description)
+values
+	('Raising Poultry', 'Aliquam ut dolore quaerat. Quaerat eius etincidunt aliquam quisquam amet dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Seed Saving', 'Non consectetur amet est tempora tempora eius dolor porro eius. Quaerat non aliquam numquam quaerat quaerat adipisci quaerat. Dolor dolorem tempora tempora modi.');
+
+insert into topics
+	(label, description)
+values
+	('Agriculture Policy', 'Amet dolor sed modi aliquam quaerat. Quiquia modi dolor consectetur neque neque labore. Quiquia dolorem amet sit non quiquia neque eius quisquam neque. Aliquam voluptatem aliquam dolorem sed numquam numquam magnam adipisci consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Agriculture in India', 'Numquam dolorem ut quisquam aliquam sed voluptatem. Ut adipisci quiquia non consectetur dolor numquam sed ut aliquam ipsum. Ipsum adipisci neque magnam dolore labore non neque consectetur magnam dolor voluptatem ut.');
+
+insert into topics
+	(label, description)
+values
+	('Rice Industry', 'Neque dolore sed quisquam quaerat quisquam. Adipisci consectetur ut consectetur porro consectetur adipisci neque ut sit amet sit modi dolore ut sit.');
+
+insert into topics
+	(label, description)
+values
+	('Cannabis Industry', 'Quaerat ut labore eius quisquam labore consectetur quaerat tempora amet sed ipsum numquam. Velit dolorem neque dolor quisquam ut aliquam adipisci non voluptatem velit eius porro quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Agriculture and the Internet', 'Dolore quaerat quaerat dolorem. Adipisci magnam numquam eius.');
+
+insert into topics
+	(label, description)
+values
+	('Future of Agriculture', 'Dolor dolorem velit quisquam amet quisquam. Dolore voluptatem voluptatem quaerat dolorem labore sit. Non quisquam sed voluptatem porro magnam. Eius aliquam quaerat voluptatem sit numquam magnam adipisci amet.');
+
+insert into topics
+	(label, description)
+values
+	('Weed Science', 'Non magnam aliquam non quaerat. Non neque quaerat amet dolor quiquia consectetur velit est dolor neque tempora est.');
+
+insert into topics
+	(label, description)
+values
+	('Agriculture in Specific Locations', 'Quisquam aliquam neque numquam velit dolorem ipsum numquam. Voluptatem numquam non quisquam tempora numquam consectetur amet neque dolore porro etincidunt tempora velit. Eius modi sed ut est quisquam tempora amet dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Agricultural Production', 'Neque modi eius dolorem. Consectetur quiquia est dolore quiquia neque porro. Neque est numquam etincidunt dolore amet sit quisquam quiquia. Magnam voluptatem numquam labore porro tempora amet.');
+
+insert into topics
+	(label, description)
+values
+	('Precision Agriculture', 'Consectetur voluptatem etincidunt dolor non labore quiquia dolore. Neque quiquia quisquam magnam consectetur etincidunt neque adipisci. Dolorem labore magnam eius aliquam porro.');
+
+insert into topics
+	(label, description)
+values
+	('Agricultural Equipments', 'Dolorem etincidunt est numquam consectetur neque. Quaerat aliquam voluptatem sed non velit adipisci. Eius ipsum numquam tempora etincidunt magnam sit labore.');
+
+insert into topics
+	(label, description)
+values
+	('Ministry of Primary Industries (MPI NZ)', 'Sit modi labore labore numquam eius numquam est eius velit tempora velit dolore. Consectetur adipisci consectetur quiquia dolorem velit aliquam etincidunt adipisci. Velit amet ut dolore modi.');
+
+insert into topics
+	(label, description)
+values
+	('Fertilizers', 'Neque non quisquam ut quisquam tempora amet porro tempora. Magnam labore quiquia quisquam modi aliquam amet modi dolorem neque etincidunt quaerat dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Baking', 'Consectetur amet magnam magnam quaerat labore dolore adipisci sit voluptatem non porro etincidunt ut sed. Quiquia numquam non etincidunt aliquam adipisci quiquia labore quaerat sed modi dolor ipsum aliquam voluptatem consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Baked Goods', 'Quisquam quisquam quiquia magnam neque. Quisquam etincidunt quaerat velit dolore. Labore dolore eius sit quaerat ut. Dolorem amet dolor etincidunt non tempora quaerat. Dolor ipsum eius labore modi sed adipisci velit magnam quisquam porro dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Bakeries', 'Porro tempora non amet labore sit amet aliquam tempora. Labore labore dolor quisquam quisquam ut sed quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Baking Techniques', 'Est amet dolore magnam tempora etincidunt. Modi numquam est aliquam eius quisquam dolore. Quiquia magnam ut velit voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Baking Schools', 'Dolore velit dolorem modi labore quisquam labore. Dolorem non adipisci etincidunt ut. Voluptatem ut modi non modi sed adipisci sit sed dolor consectetur dolore aliquam neque dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Baking', 'Velit quaerat labore quisquam quiquia est. Ut dolor dolor modi magnam dolorem porro. Eius dolore numquam voluptatem non porro dolor dolor amet quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Learning to Bake', 'Est non quisquam aliquam dolor ipsum labore consectetur sed amet ipsum sed eius. Consectetur dolore quiquia quaerat. Porro consectetur eius ut porro non modi dolorem eius ipsum ipsum dolore sed sed magnam. Porro aliquam porro amet est.');
+
+insert into topics
+	(label, description)
+values
+	('Microwave Baking', 'Consectetur velit consectetur velit. Ipsum dolorem eius est est quisquam quiquia consectetur etincidunt neque. Tempora quaerat magnam quisquam ipsum non ipsum. Est labore voluptatem dolorem est sed velit etincidunt sit. Dolorem etincidunt non sit.');
+
+insert into topics
+	(label, description)
+values
+	('Education', 'Aliquam neque velit quaerat dolorem quiquia dolore sit est porro tempora consectetur dolorem aliquam. Dolor sit amet dolorem dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Educational Degrees and Certifications', 'Velit non quaerat aliquam magnam quaerat modi consectetur dolore velit quisquam. Quaerat quisquam neque etincidunt magnam. Quisquam quaerat labore voluptatem ipsum modi velit aliquam amet non amet. Sit sit modi sed amet.');
+
+insert into topics
+	(label, description)
+values
+	('Education Companies and Industry', 'Modi ut ut ipsum. Ut sed velit velit amet etincidunt est non etincidunt. Ipsum ut est non eius quisquam aliquam sit.');
+
+insert into topics
+	(label, description)
+values
+	('Education in Specific Locations', 'Quisquam neque quiquia est porro sit porro voluptatem porro dolor ipsum. Dolor quisquam magnam amet dolor aliquam non sed tempora sed labore dolorem quiquia modi.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Education', 'Dolor ut dolor sed labore. Sed ipsum ut etincidunt etincidunt ipsum adipisci ipsum ipsum amet quaerat dolor amet.');
+
+insert into topics
+	(label, description)
+values
+	('Education in Specific Subjects', 'Adipisci est quisquam quiquia numquam quisquam eius dolore consectetur porro. Magnam dolorem ipsum amet sit non dolorem ut. Aliquam non quaerat magnam. Labore tempora labore neque. Eius quiquia magnam consectetur adipisci porro ut quisquam ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Approaches to Learning and Education', 'Magnam non ut aliquam quaerat quisquam modi amet magnam dolore ipsum est adipisci quisquam modi velit. Etincidunt ipsum modi sit consectetur numquam labore quaerat aliquam dolore etincidunt dolore neque voluptatem quaerat porro.');
+
+insert into topics
+	(label, description)
+values
+	('Educational Resources', 'Quiquia velit amet porro neque quaerat eius neque. Quaerat dolor quiquia dolorem dolorem quaerat quisquam sed voluptatem dolore ipsum consectetur labore.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Education', 'Sit quiquia neque dolor tempora modi quaerat sed. Quiquia consectetur neque sit numquam magnam ut dolor dolor dolore neque. Porro non voluptatem porro labore ipsum amet.');
+
+insert into topics
+	(label, description)
+values
+	('Learning About Education', 'Magnam sed ut aliquam aliquam est. Magnam quisquam tempora sit consectetur. Non velit magnam modi ipsum quisquam modi porro adipisci quiquia tempora porro velit dolorem dolorem est. Sed non eius neque ut ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Education', 'Eius adipisci numquam quaerat ut ut quiquia voluptatem quiquia. Tempora non non aliquam numquam sed neque quiquia tempora quaerat aliquam tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Educational Leadership and Administration', 'Numquam adipisci modi quisquam est labore quaerat. Velit dolorem consectetur amet tempora modi adipisci dolorem consectetur quaerat. Sit est sed eius non sit ut dolor. Porro quisquam neque sed etincidunt est aliquam neque voluptatem non sit sit.');
+
+insert into topics
+	(label, description)
+values
+	('Educational Design', 'Aliquam labore tempora quiquia neque. Ipsum eius quaerat quiquia est. Quaerat numquam quisquam adipisci neque voluptatem magnam sed ipsum quisquam labore adipisci quaerat ut.');
+
+insert into topics
+	(label, description)
+values
+	('Future of Education', 'Sit modi dolorem quaerat aliquam velit dolorem eius amet numquam dolor aliquam tempora etincidunt quiquia consectetur. Neque est ipsum etincidunt. Tempora sed adipisci quiquia dolorem dolore sit quaerat sit quiquia tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Intellectual Competitions', 'Dolore dolor voluptatem dolorem dolorem numquam numquam tempora sed tempora dolore etincidunt ipsum voluptatem consectetur. Velit non consectetur velit. Modi etincidunt dolor ipsum eius non quiquia. Dolor numquam quisquam sit sed.');
+
+insert into topics
+	(label, description)
+values
+	('Interdisciplinary Topics in Education', 'Aliquam non eius dolore dolore dolore dolor. Adipisci quisquam quaerat numquam modi neque etincidunt magnam. Porro quiquia non numquam adipisci ut velit neque ipsum sed modi aliquam voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Tutoring', 'Tempora quisquam est numquam quaerat sed velit magnam etincidunt etincidunt modi magnam ipsum dolorem quiquia eius. Neque aliquam porro tempora sed sit eius.');
+
+insert into topics
+	(label, description)
+values
+	('Education and Career Advice', 'Ipsum adipisci amet non sit numquam dolor ut non. Ipsum labore quisquam adipisci dolorem. Sit amet dolore ipsum neque quaerat numquam. Sed labore voluptatem eius amet dolorem dolor consectetur dolorem quiquia ut eius.');
+
+insert into topics
+	(label, description)
+values
+	('Students and Teachers', 'Sit dolorem magnam magnam non labore dolorem ipsum sit quiquia ipsum sit quiquia velit modi labore. Ipsum quaerat numquam magnam modi dolorem. Dolore velit est dolorem est voluptatem magnam labore ipsum voluptatem voluptatem. Porro voluptatem labore non.');
+
+insert into topics
+	(label, description)
+values
+	('Scholarships and Fellowships', 'Dolorem tempora modi sed adipisci modi sed consectetur. Porro numquam dolore est dolor non velit ut dolorem quiquia neque.');
+
+insert into topics
+	(label, description)
+values
+	('Career Education Advice', 'Porro eius tempora consectetur. Quiquia modi neque quiquia dolorem etincidunt voluptatem modi quisquam etincidunt voluptatem labore numquam quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Post Secondary Education', 'Quiquia sit amet neque dolorem est numquam etincidunt eius sit sed amet quiquia. Labore adipisci ipsum non dolor est quaerat velit dolorem quaerat etincidunt sit.');
+
+insert into topics
+	(label, description)
+values
+	('Arts Education', 'Amet consectetur labore neque dolorem ipsum amet consectetur. Sed labore voluptatem amet.');
+
+insert into topics
+	(label, description)
+values
+	('Education in 2019-2020 Series', 'Quaerat dolorem velit dolor quaerat adipisci ipsum dolorem numquam numquam porro neque. Adipisci magnam neque aliquam ipsum ipsum magnam eius sed sed tempora voluptatem est modi adipisci. Numquam dolorem quisquam magnam sit numquam voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Educational Degrees', 'Dolorem non dolor sit dolor ipsum porro consectetur numquam. Neque eius porro dolore sed quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Schools', 'Neque voluptatem quisquam porro. Est est sit porro ipsum numquam dolorem neque dolore consectetur labore sed eius modi ipsum. Est eius etincidunt sed dolor ut etincidunt modi magnam magnam neque etincidunt neque ipsum etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Schools in Specific Locations', 'Eius eius quisquam dolor consectetur amet tempora aliquam dolore modi quiquia amet amet ipsum etincidunt. Numquam sed quaerat non amet neque adipisci porro eius etincidunt. Non sit quiquia dolor. Numquam velit amet sit velit voluptatem tempora modi.');
+
+insert into topics
+	(label, description)
+values
+	('Concepts Related to Schools', 'Ut magnam velit non ipsum velit non tempora ut adipisci porro. Quaerat ut ut magnam non amet dolore numquam. Dolore velit quisquam eius aliquam quiquia velit porro quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Schools Focused on Specific Subjects', 'Voluptatem ut dolor amet eius. Ipsum quiquia aliquam quiquia eius quiquia eius velit velit porro dolor ut adipisci. Sit consectetur dolore est magnam magnam porro neque sit eius numquam tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Schools', 'Non velit sit eius adipisci sed numquam. Porro magnam amet magnam numquam voluptatem etincidunt adipisci tempora dolor. Eius tempora sit dolor quiquia etincidunt aliquam etincidunt dolor neque dolore dolore etincidunt velit non quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Schools', 'Amet est labore consectetur dolorem dolore quaerat tempora. Aliquam quisquam dolore aliquam ut neque consectetur aliquam quisquam sit velit modi est neque eius.');
+
+insert into topics
+	(label, description)
+values
+	('The School Experience', 'Neque non tempora neque quaerat dolor dolorem magnam velit est sed velit aliquam modi sed. Velit dolore amet non neque quiquia dolorem. Voluptatem aliquam est quiquia ipsum adipisci voluptatem sit quaerat ut dolorem est.');
+
+insert into topics
+	(label, description)
+values
+	('School Safety', 'Etincidunt modi est ut quiquia sed tempora velit velit aliquam. Labore dolore consectetur modi velit. Sed dolorem labore voluptatem dolore neque porro dolorem magnam amet ipsum. Non modi est porro amet labore numquam magnam aliquam magnam sit velit.');
+
+insert into topics
+	(label, description)
+values
+	('Learning', 'Est est dolore modi etincidunt. Sed ut magnam quiquia dolor velit labore magnam. Amet velit etincidunt quaerat velit. Ut dolorem sed ipsum neque. Dolorem non etincidunt est quaerat magnam quisquam sit sed quaerat sed.');
+
+insert into topics
+	(label, description)
+values
+	('Learning Styles', 'Quisquam adipisci tempora dolor velit. Magnam dolore dolore est non porro labore est porro aliquam voluptatem tempora voluptatem tempora est.');
+
+insert into topics
+	(label, description)
+values
+	('Research', 'Ipsum sit voluptatem numquam modi dolore numquam. Porro dolor etincidunt neque ut labore tempora non neque voluptatem est voluptatem dolor amet.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts Related to Learning', 'Aliquam ut adipisci ipsum aliquam non voluptatem quaerat. Neque quaerat neque non amet neque neque modi non modi modi non dolorem dolore non porro. Aliquam neque neque voluptatem tempora quiquia modi sed sit non.');
+
+insert into topics
+	(label, description)
+values
+	('Venues for Learning', 'Eius ipsum neque modi. Quaerat dolor dolore magnam velit dolor quisquam dolorem etincidunt etincidunt sed. Ipsum dolore labore porro numquam dolore consectetur modi eius non magnam numquam eius dolore quiquia adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Mnemonics', 'Consectetur quiquia quisquam est. Quisquam velit ut consectetur velit eius amet consectetur tempora modi non quaerat non dolore. Aliquam modi sed aliquam neque. Porro voluptatem neque etincidunt quisquam. Aliquam voluptatem ipsum tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Studying', 'Ut velit magnam est ut quisquam adipisci dolorem adipisci. Numquam eius non neque aliquam magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Learning Strategies', 'Labore dolor etincidunt dolor dolore numquam tempora. Labore ipsum labore sit.');
+
+insert into topics
+	(label, description)
+values
+	('Learning in Specific Locations', 'Est velit velit quisquam labore numquam amet. Labore quiquia magnam neque tempora non eius sed consectetur quisquam ut voluptatem. Est quaerat aliquam neque.');
+
+insert into topics
+	(label, description)
+values
+	('Learning Advice', 'Sed magnam aliquam amet consectetur amet amet adipisci ipsum ut velit ut voluptatem. Non numquam adipisci sed dolore dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Learning Machine Learning', 'Eius dolore ipsum est velit sed adipisci voluptatem etincidunt eius ipsum eius. Non consectetur quaerat labore dolorem dolorem numquam dolore numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Neuroscience of Learning', 'Consectetur voluptatem etincidunt voluptatem quaerat dolor dolor consectetur porro adipisci sit sed. Dolore sit sit modi dolorem quiquia consectetur quisquam labore non ipsum numquam dolore sit quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Teaching', 'Numquam labore quiquia numquam aliquam dolore ut velit aliquam consectetur etincidunt dolorem. Ipsum magnam amet ipsum est tempora amet.');
+
+insert into topics
+	(label, description)
+values
+	('Teachers', 'Magnam eius labore dolor adipisci sed amet eius aliquam velit aliquam consectetur est dolor. Sed porro porro magnam tempora sed est tempora amet dolore aliquam est dolore amet. Dolor sit non consectetur amet. Eius labore amet sed.');
+
+insert into topics
+	(label, description)
+values
+	('Teaching Methods', 'Eius tempora aliquam quiquia eius aliquam neque sed quaerat dolore sed sed quiquia. Velit dolorem modi amet velit. Porro labore non dolore non voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Instruction', 'Tempora labore sed magnam neque. Quiquia modi adipisci ut amet consectetur est dolor eius magnam. Dolorem adipisci numquam ut numquam eius ipsum labore est dolor quisquam. Labore tempora neque dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Teaching Specific Subjects', 'Porro non dolore quiquia non sed non quisquam quaerat quiquia etincidunt consectetur sed adipisci. Eius voluptatem consectetur labore etincidunt consectetur ut eius sit tempora consectetur sed tempora labore.');
+
+insert into topics
+	(label, description)
+values
+	('Music Teaching', 'Dolorem tempora dolore sit est quaerat sed eius adipisci quisquam ipsum ut quiquia etincidunt sed. Consectetur est eius quaerat etincidunt dolor labore non eius tempora est aliquam numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Teaching', 'Velit dolorem numquam eius quiquia sed tempora. Labore dolore ut magnam. Numquam voluptatem amet dolorem dolor labore. Tempora dolorem velit magnam quisquam modi ut quiquia dolore voluptatem ipsum magnam. Neque aliquam ut labore ut sit voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Teaching Techniques', 'Porro magnam tempora dolore. Etincidunt sit modi ut non est.');
+
+insert into topics
+	(label, description)
+values
+	('Students', 'Dolore est velit tempora est quisquam. Ipsum dolor ut sed amet magnam consectetur non sit non adipisci dolorem consectetur ut.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Students', 'Tempora est etincidunt eius est aliquam quisquam amet numquam sit. Eius magnam amet modi est tempora dolor dolorem non amet dolore non magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Educational Stages', 'Ipsum neque adipisci consectetur dolorem velit ut neque est. Eius tempora voluptatem sit sit ipsum non dolore ipsum dolor velit quiquia magnam. Adipisci eius etincidunt numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Student Exchanges', 'Non neque quiquia tempora etincidunt velit modi dolorem dolore sit sit dolorem quiquia non. Dolor ipsum quaerat sit aliquam velit etincidunt sit quaerat dolore labore ut tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Students in Specific Locations', 'Dolorem quiquia dolor eius ut labore consectetur consectetur ut quisquam dolore dolorem numquam quiquia neque quisquam. Neque amet ipsum ut neque.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs for Students', 'Ut neque quisquam tempora quisquam magnam non tempora. Eius quiquia quaerat modi porro est. Sed sed modi magnam sed adipisci aliquam labore porro aliquam ipsum. Porro voluptatem numquam quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Academia', 'Dolore quaerat neque modi quaerat modi etincidunt numquam etincidunt tempora quiquia non porro ut. Sit quaerat porro sed sed ipsum quisquam adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Academic Administration', 'Sed quaerat eius voluptatem est eius adipisci quisquam dolorem. Consectetur eius amet quiquia est quaerat sed tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Academic Collaboration', 'Neque eius etincidunt dolore ut numquam eius ipsum neque adipisci dolor numquam dolorem dolore porro quaerat. Sit dolor velit est numquam quaerat dolor voluptatem consectetur neque quaerat quaerat amet sed eius porro.');
+
+insert into topics
+	(label, description)
+values
+	('Academic Conferences', 'Eius modi porro magnam aliquam est adipisci etincidunt tempora etincidunt ut eius numquam magnam. Dolor labore magnam est porro dolor neque modi porro modi. Adipisci modi dolor neque est amet.');
+
+insert into topics
+	(label, description)
+values
+	('Academic Freedom', 'Numquam voluptatem neque voluptatem ipsum. Adipisci aliquam est ipsum dolorem ipsum etincidunt dolorem ut porro eius voluptatem dolor. Quisquam quisquam non eius porro eius dolor adipisci ut.');
+
+insert into topics
+	(label, description)
+values
+	('Academic Libraries', 'Numquam aliquam magnam labore. Dolor ut quisquam sit tempora ut modi voluptatem non velit sit aliquam voluptatem aliquam. Labore velit quaerat consectetur numquam aliquam. Velit aliquam porro velit est velit amet tempora dolore numquam tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Academic Plagiarism and Cheating', 'Velit porro sed adipisci numquam dolorem labore dolorem quaerat eius consectetur etincidunt. Est non neque adipisci amet. Sed dolorem dolorem consectetur. Porro quiquia porro quaerat quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Academic Research', 'Ut etincidunt amet neque adipisci labore dolor modi labore est. Dolorem quaerat consectetur dolore labore non. Magnam sed dolor est porro est porro voluptatem ipsum quisquam quaerat tempora etincidunt eius. Magnam velit dolorem modi aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Academic Societies', 'Modi non dolore voluptatem. Non velit etincidunt labore ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('College and University Faculty', 'Sed dolore adipisci sit modi dolorem etincidunt est sed tempora modi ipsum consectetur ipsum est. Sed sed non dolorem ut tempora consectetur amet sit est tempora eius etincidunt est.');
+
+insert into topics
+	(label, description)
+values
+	('Group Meetings', 'Etincidunt amet sed magnam quaerat quiquia quiquia quaerat neque ipsum. Tempora sit ipsum quisquam velit porro aliquam magnam adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Peer Review', 'Neque ut eius sed neque tempora ut dolor porro eius quaerat quisquam. Sed quaerat est adipisci est est etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Postdoctoral Researchers', 'Dolor adipisci quaerat quiquia dolore. Voluptatem quaerat neque porro numquam sit consectetur quiquia tempora aliquam etincidunt eius tempora sed. Porro dolore quisquam adipisci velit ipsum modi.');
+
+insert into topics
+	(label, description)
+values
+	('Scholarly Communication', 'Tempora amet numquam labore porro velit modi. Dolore labore ut sit dolor sed consectetur dolorem quaerat dolorem tempora adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Academic and Teacher Tenure', 'Modi sit quiquia est eius labore etincidunt quisquam modi quaerat sed non. Eius modi eius tempora adipisci dolor aliquam eius adipisci magnam. Quaerat non porro etincidunt dolor ut.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in Academia', 'Porro neque dolorem est aliquam labore adipisci neque adipisci quaerat adipisci. Ipsum voluptatem adipisci dolor porro quaerat aliquam sed dolore non tempora numquam numquam modi. Ut non sed porro voluptatem non velit eius dolor voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Scholars', 'Dolorem dolore est consectetur sit aliquam ipsum dolore magnam numquam. Consectetur quisquam adipisci dolorem ut tempora quisquam voluptatem sit.');
+
+insert into topics
+	(label, description)
+values
+	('Academic Networking', 'Labore dolorem ipsum sed neque eius ipsum est magnam amet quaerat aliquam modi. Sed porro sed tempora etincidunt numquam porro consectetur modi adipisci eius neque quaerat sed dolorem adipisci. Est sed tempora dolorem. Dolor ut porro magnam consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Academic Presentations', 'Porro quiquia voluptatem consectetur neque dolor quaerat porro velit porro adipisci. Quaerat sit est tempora tempora aliquam velit dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Politics in Academia', 'Quiquia ipsum aliquam quaerat aliquam quaerat sit dolorem tempora quisquam numquam dolore non dolorem ipsum magnam. Sit ut magnam dolor quaerat etincidunt ipsum adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Student Orientation', 'Ut eius est sit quaerat ut etincidunt ut neque. Est aliquam aliquam ut dolorem numquam voluptatem tempora quiquia. Porro ipsum dolorem amet quisquam porro numquam. Amet ipsum quaerat velit aliquam consectetur est quiquia neque modi.');
+
+insert into topics
+	(label, description)
+values
+	('Intellectuals', 'Quisquam tempora numquam magnam neque quisquam aliquam porro ipsum quisquam est voluptatem dolorem consectetur modi tempora. Aliquam non tempora tempora modi quaerat porro est ipsum quaerat est numquam est.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Academia', 'Dolorem dolorem modi est. Ut dolorem ipsum tempora sed consectetur dolore neque. Sed neque eius porro. Tempora eius est adipisci amet adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Future of Academia', 'Neque magnam porro magnam consectetur adipisci neque ut ut non quaerat aliquam eius. Non ut dolor velit dolore est dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Academic Term', 'Consectetur adipisci dolor dolor. Dolore numquam modi quaerat voluptatem dolore ipsum neque sed. Modi dolore est eius numquam amet adipisci adipisci numquam numquam etincidunt quisquam non ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Entertainment', 'Dolor neque neque dolore ipsum. Non aliquam sit porro est. Consectetur modi eius labore. Eius modi ipsum voluptatem quisquam est dolorem. Non est etincidunt sed quisquam dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Entertainment Industry', 'Dolor aliquam dolore sit sed dolore ut sed modi labore dolorem labore dolor ut dolor dolorem. Magnam aliquam magnam quiquia adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Genres', 'Magnam est porro dolorem voluptatem sit quaerat tempora sed amet quiquia sit. Quaerat porro dolore dolor. Dolor tempora sit modi consectetur neque ipsum dolor adipisci eius neque adipisci ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Movies', 'Dolor est dolore amet etincidunt modi non magnam aliquam. Dolor ipsum quiquia porro ut velit etincidunt amet dolor numquam magnam non. Ut numquam modi numquam quaerat adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Music', 'Numquam velit labore amet adipisci est dolorem ipsum dolor non. Quaerat non porro aliquam. Modi amet dolor sed magnam. Quiquia quaerat labore magnam sit porro labore aliquam quaerat magnam tempora eius sit quaerat modi tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Video Games', 'Ipsum est quisquam neque est ipsum eius eius amet labore quisquam dolore dolore. Ut est etincidunt sit amet non est. Labore sed neque ipsum aliquam non non. Dolore quaerat consectetur quisquam amet velit sit voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Concepts in Entertainment', 'Neque labore magnam modi neque sit sit magnam quiquia. Amet etincidunt sed dolore. Dolorem neque quaerat adipisci voluptatem adipisci velit adipisci numquam adipisci quaerat quiquia etincidunt quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Entertainment in Specific Locations', 'Non dolor dolor velit ipsum sed aliquam ut non quiquia. Etincidunt quaerat eius amet voluptatem ipsum. Est dolor adipisci quaerat quisquam amet dolor etincidunt labore non non. Magnam dolorem modi ut magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Current Events in Entertainment', 'Labore dolor ipsum neque eius quiquia modi est. Adipisci dolorem non sed quisquam tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Home Entertainment', 'Dolor neque modi quiquia amet dolorem tempora neque. Neque dolore porro adipisci tempora sit sed modi est etincidunt adipisci. Adipisci sit etincidunt quisquam etincidunt adipisci dolor quiquia. Porro sit quisquam quaerat etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Television', 'Non numquam neque velit. Velit dolor magnam quaerat. Magnam est sit non modi labore. Etincidunt sit voluptatem etincidunt velit etincidunt velit consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Adult Entertainment', 'Numquam numquam sit ipsum eius etincidunt consectetur quisquam amet labore ipsum numquam. Ut quaerat dolore neque magnam ipsum labore labore est ut est porro est.');
+
+insert into topics
+	(label, description)
+values
+	('Events', 'Quisquam magnam amet ut sit. Ut dolorem velit consectetur etincidunt neque sit eius modi magnam tempora amet eius velit magnam. Dolor magnam ut adipisci sit neque quisquam sed amet quaerat quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Entertainers', 'Etincidunt quisquam eius amet sit quaerat est labore velit etincidunt etincidunt porro dolor. Ipsum velit dolorem labore dolore. Magnam consectetur adipisci neque voluptatem dolore.');
+
+insert into topics
+	(label, description)
+values
+	('History of Entertainment', 'Dolorem dolorem adipisci dolorem eius. Dolor eius non quisquam. Modi porro quiquia consectetur tempora dolor voluptatem velit consectetur. Aliquam sit aliquam dolore sed.');
+
+insert into topics
+	(label, description)
+values
+	('Jobs and Careers in Entertainment', 'Dolorem consectetur ipsum est non quisquam ut. Porro sit quisquam amet velit. Quiquia quisquam dolore amet modi consectetur dolore aliquam quaerat est quisquam sit quiquia. Etincidunt consectetur eius voluptatem numquam voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Attractions (entertainment)', 'Dolorem labore numquam labore numquam dolor ipsum modi tempora sit ipsum voluptatem. Non velit numquam porro. Quiquia modi est ipsum aliquam velit magnam modi dolorem amet.');
+
+insert into topics
+	(label, description)
+values
+	('News', 'Non tempora non amet quiquia est adipisci est consectetur etincidunt. Quisquam sed eius quisquam eius amet. Dolor quiquia tempora non aliquam eius.');
+
+insert into topics
+	(label, description)
+values
+	('Journalism', 'Labore quiquia dolorem sed eius est non dolore numquam porro adipisci non neque labore tempora. Voluptatem non quisquam velit consectetur ut tempora numquam modi sit numquam numquam tempora magnam tempora ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Current Events', 'Quisquam dolore quisquam quaerat porro porro magnam. Dolor consectetur numquam quiquia ipsum ipsum sed quaerat aliquam quaerat voluptatem. Non consectetur sed adipisci consectetur non modi ut.');
+
+insert into topics
+	(label, description)
+values
+	('Trends', 'Neque magnam eius tempora est magnam modi quaerat consectetur non numquam dolorem sed eius. Velit porro dolorem dolorem ipsum modi quiquia voluptatem sed dolorem quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('News and Journalism Industry', 'Modi neque neque amet magnam dolore voluptatem. Neque consectetur voluptatem numquam quaerat modi quiquia dolor quaerat amet etincidunt labore.');
+
+insert into topics
+	(label, description)
+values
+	('News and Journalism in Specific Fields', 'Numquam numquam modi ut numquam etincidunt voluptatem consectetur consectetur dolore eius non labore dolore. Numquam velit sed ipsum magnam dolorem est dolore. Numquam tempora voluptatem dolor quiquia dolor.');
+
+insert into topics
+	(label, description)
+values
+	('News in Specific Locations', 'Consectetur eius sed dolor dolor non aliquam velit. Non sit quisquam est.');
+
+insert into topics
+	(label, description)
+values
+	('Breaking News', 'Eius aliquam quaerat magnam dolorem adipisci etincidunt quaerat porro ipsum quaerat sed sed sit magnam. Numquam tempora eius magnam velit sed non. Ipsum ipsum voluptatem eius modi modi amet est magnam eius consectetur dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Ways to Get News', 'Tempora quaerat ipsum dolor labore numquam tempora dolore consectetur adipisci. Ipsum voluptatem ut dolor non tempora etincidunt modi non quiquia labore dolorem sed non consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts Related to News', 'Dolor voluptatem ipsum porro dolor neque sit etincidunt sed eius est tempora est dolore. Dolorem quiquia quiquia quiquia dolore voluptatem amet eius quisquam. Sed adipisci consectetur non non labore non amet.');
+
+insert into topics
+	(label, description)
+values
+	('Newscasters', 'Porro ipsum sit non dolor labore modi tempora dolor consectetur numquam est. Quisquam eius modi voluptatem est.');
+
+insert into topics
+	(label, description)
+values
+	('News Articles', 'Tempora amet magnam voluptatem dolore est magnam dolorem etincidunt tempora tempora dolorem voluptatem tempora. Sed dolor non velit quiquia quaerat modi eius. Aliquam labore consectetur numquam aliquam est sed voluptatem eius quisquam tempora velit.');
+
+insert into topics
+	(label, description)
+values
+	('Popular Culture', 'Est non sed voluptatem porro etincidunt dolore dolorem consectetur tempora sed. Porro aliquam dolore dolorem etincidunt numquam etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Celebrities', 'Consectetur velit porro magnam est modi dolor. Velit eius porro est non quaerat amet quiquia adipisci tempora porro dolore dolorem. Quiquia sed dolorem neque.');
+
+insert into topics
+	(label, description)
+values
+	('Terms in Popular Culture', 'Ipsum quiquia ut adipisci. Tempora adipisci velit porro. Dolor labore ipsum amet amet est aliquam porro non non. Amet sed eius est quiquia numquam dolore eius aliquam amet dolorem. Tempora amet neque porro adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Topics in Popular Culture', 'Consectetur dolor tempora dolorem est aliquam aliquam dolorem velit velit sed. Magnam sed consectetur tempora dolorem etincidunt eius dolor consectetur adipisci labore voluptatem voluptatem. Numquam sit amet velit magnam sed quiquia dolorem magnam velit.');
+
+insert into topics
+	(label, description)
+values
+	('Psychology of Everyday Life', 'Dolor sed etincidunt neque adipisci amet numquam porro neque ipsum quisquam dolor dolor quisquam amet. Modi neque etincidunt dolorem tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts of the Physical Universe', 'Sed aliquam eius labore sed neque sed tempora velit numquam sit voluptatem. Dolorem quaerat velit ipsum sed quaerat dolore. Voluptatem adipisci labore dolore eius quaerat amet ipsum porro adipisci labore sit ut ut.');
+
+insert into topics
+	(label, description)
+values
+	('Molecules', 'Neque amet dolorem modi numquam amet labore quaerat dolor sed sit sed quiquia neque. Quisquam dolor est modi consectetur sed. Ut labore modi velit. Dolore est dolore quaerat quaerat magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Matter (physics)', 'Ipsum neque dolor modi non tempora. Voluptatem modi dolorem ut quisquam eius. Voluptatem quaerat adipisci dolore. Modi amet amet quisquam amet voluptatem amet dolorem non voluptatem tempora dolorem etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Chemical Substances', 'Dolore ut etincidunt quaerat est ipsum adipisci non numquam quaerat consectetur. Tempora est quiquia dolor non modi voluptatem. Aliquam neque eius velit quaerat quiquia non. Consectetur non dolor tempora sed voluptatem velit dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Metals', 'Numquam dolor neque ipsum. Adipisci etincidunt labore aliquam etincidunt aliquam non est consectetur quiquia. Tempora quaerat ipsum adipisci quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Materials', 'Tempora dolorem consectetur dolore labore. Ut voluptatem quaerat dolor quiquia quaerat tempora labore non numquam velit.');
+
+insert into topics
+	(label, description)
+values
+	('Chemical Substances', 'Dolore non quiquia porro quiquia modi quisquam numquam dolor quaerat aliquam. Consectetur numquam modi labore modi ut dolorem magnam aliquam ut modi aliquam amet consectetur neque. Quisquam aliquam sed magnam dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Life (biological)', 'Neque labore neque est consectetur amet eius tempora etincidunt adipisci amet quiquia. Tempora velit neque non eius.');
+
+insert into topics
+	(label, description)
+values
+	('Semiconductors', 'Adipisci velit quiquia ut tempora. Numquam neque est dolor labore amet labore quaerat magnam dolore. Magnam neque quaerat sed dolore velit magnam. Quiquia aliquam sed labore.');
+
+insert into topics
+	(label, description)
+values
+	('Sound', 'Dolor est labore est neque velit ipsum amet sed etincidunt quaerat sed magnam amet. Consectetur ipsum sit numquam labore dolore dolorem sit quaerat modi. Neque dolore est non velit sit quiquia dolorem non etincidunt modi magnam adipisci aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Visible Light', 'Dolorem velit adipisci aliquam ipsum adipisci quiquia dolorem dolor adipisci. Labore quisquam consectetur voluptatem sit ipsum quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Energy (physics)', 'Velit modi eius numquam voluptatem modi quisquam consectetur eius quisquam consectetur. Eius porro neque neque est aliquam. Etincidunt porro sed eius eius quaerat magnam. Dolorem est sed dolorem consectetur dolorem sit modi dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Elementary Particles', 'Porro non etincidunt sed dolore consectetur. Porro porro quaerat eius numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Electromagnetism', 'Aliquam non labore etincidunt labore modi voluptatem dolor ipsum adipisci quiquia. Sit eius neque quisquam velit magnam magnam sed numquam dolorem neque quisquam. Consectetur etincidunt velit adipisci tempora est tempora etincidunt sed consectetur sed.');
+
+insert into topics
+	(label, description)
+values
+	('Cells (biology)', 'Est quaerat quaerat modi etincidunt sed modi aliquam voluptatem quisquam neque dolorem tempora dolore dolor dolore. Consectetur tempora magnam etincidunt modi adipisci consectetur voluptatem voluptatem quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Outer Space', 'Ut porro non ut dolor consectetur tempora dolorem voluptatem. Adipisci etincidunt neque quiquia velit neque etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Human Body', 'Non est magnam porro porro non sed quiquia ut ut sit voluptatem eius aliquam. Adipisci labore quiquia dolor est numquam ut labore modi aliquam dolore modi.');
+
+insert into topics
+	(label, description)
+values
+	('Geography of the Physical World', 'Non sed neque aliquam non. Modi voluptatem non consectetur ut ut voluptatem eius sit dolore ipsum labore eius adipisci etincidunt porro.');
+
+insert into topics
+	(label, description)
+values
+	('The Universe', 'Ut ipsum adipisci labore non adipisci neque adipisci sit. Sit dolor labore etincidunt quaerat magnam dolor voluptatem sed quaerat neque quisquam. Non porro eius sed consectetur eius sed velit modi magnam ipsum numquam eius.');
+
+insert into topics
+	(label, description)
+values
+	('Climate and Climates', 'Ut sed porro modi tempora ut consectetur adipisci magnam adipisci ut sit velit. Dolor quisquam tempora tempora porro labore etincidunt magnam dolore neque dolor tempora sed labore.');
+
+insert into topics
+	(label, description)
+values
+	('Waves', 'Eius quiquia aliquam sed etincidunt amet est magnam quiquia neque. Non etincidunt amet labore velit numquam magnam aliquam. Tempora quaerat sit aliquam dolor non numquam ut dolorem non ipsum etincidunt. Etincidunt ipsum magnam porro magnam tempora ut.');
+
+insert into topics
+	(label, description)
+values
+	('Rocks and Stones', 'Neque etincidunt tempora est velit quiquia ipsum ipsum modi non amet sit amet amet. Sed dolor eius eius sit quiquia quaerat numquam adipisci porro adipisci labore aliquam aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Glaciers', 'Non ipsum eius dolorem quisquam ut sed quaerat eius. Quaerat sit velit eius dolore amet etincidunt labore voluptatem dolore dolorem quiquia. Sit velit voluptatem sit voluptatem est.');
+
+insert into topics
+	(label, description)
+values
+	('Humans', 'Ut voluptatem voluptatem ipsum eius dolor voluptatem. Labore dolore ut non velit porro aliquam tempora amet quiquia quiquia est ut quisquam quiquia. Quiquia sed ut est dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Nuclei (physics)', 'Quaerat etincidunt voluptatem magnam eius consectetur dolorem amet sed voluptatem ut aliquam dolore. Modi amet etincidunt dolorem sed est labore.');
+
+insert into topics
+	(label, description)
+values
+	('Antimatter', 'Dolorem eius adipisci est dolorem velit labore velit. Quiquia neque porro dolor. Eius quisquam quiquia quaerat velit sit modi amet magnam etincidunt quisquam. Modi quisquam quisquam modi quisquam voluptatem adipisci est dolorem quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Fundamental Forces', 'Sed porro ipsum quisquam voluptatem sed quaerat est velit aliquam. Adipisci magnam est magnam ut porro eius tempora ut velit adipisci sit quisquam. Ipsum non aliquam tempora aliquam tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Forces of Nature', 'Labore voluptatem eius porro sit non consectetur. Velit non labore non sed quiquia consectetur. Sed est dolore non voluptatem. Adipisci neque aliquam dolor dolore sed quaerat voluptatem sed.');
+
+insert into topics
+	(label, description)
+values
+	('Motion (physics)', 'Eius etincidunt ut adipisci sit aliquam dolore neque velit quaerat. Est neque neque labore ipsum dolorem voluptatem quisquam. Numquam consectetur consectetur labore dolor quaerat. Modi modi velit ipsum numquam amet magnam ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Time (physics)', 'Numquam quisquam numquam modi labore porro sit adipisci velit amet consectetur velit. Dolorem amet ipsum modi sit modi sed numquam magnam. Sit etincidunt aliquam sed consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Astronomical Objects', 'Non adipisci est numquam magnam. Non dolore neque sed quisquam ut quaerat dolor modi ut sit aliquam. Neque tempora non adipisci adipisci amet ut consectetur numquam quisquam. Consectetur adipisci voluptatem sed numquam ipsum aliquam tempora quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Meteorological Phenomena', 'Dolor etincidunt non non dolor dolor quiquia. Magnam sed dolorem ut ipsum labore modi. Neque quaerat tempora consectetur modi numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Geological Phenomena', 'Numquam numquam etincidunt ipsum magnam dolor. Sed labore velit ut non eius consectetur sit dolor. Neque ipsum ut porro est. Neque velit porro ut dolor modi. Aliquam eius aliquam consectetur dolor eius modi.');
+
+insert into topics
+	(label, description)
+values
+	('Cosmic Rays', 'Eius quiquia sed eius voluptatem porro dolore quisquam ipsum labore dolor magnam tempora eius tempora. Numquam neque quaerat amet magnam. Porro porro labore velit neque.');
+
+insert into topics
+	(label, description)
+values
+	('Particles', 'Dolore dolor ipsum ipsum tempora amet neque. Consectetur dolore tempora sit modi porro dolorem ipsum labore amet est neque dolore amet. Tempora dolore dolor consectetur amet dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Constants of Nature', 'Adipisci aliquam amet ut modi quaerat etincidunt neque dolorem amet porro. Ipsum magnam dolore ut eius quaerat. Dolor tempora labore quisquam quiquia quisquam magnam magnam sit quaerat aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Spacetime', 'Velit dolor labore aliquam porro sed modi numquam non. Dolore modi velit amet ut porro labore neque neque quisquam. Dolorem quisquam tempora sit sit magnam eius.');
+
+insert into topics
+	(label, description)
+values
+	('Physical Quantities', 'Dolore quaerat non amet quaerat dolore neque quaerat velit dolorem dolor ut tempora amet ut. Neque dolor modi ipsum sit dolorem est modi. Dolorem dolor eius dolor quiquia velit numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Measurements', 'Eius quisquam labore eius. Amet neque etincidunt dolore modi numquam dolore ut etincidunt sed adipisci sit modi quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Length (physics)', 'Dolorem ut dolorem eius magnam. Quisquam porro velit magnam quisquam porro dolore tempora etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Rigid Bodies', 'Numquam dolorem etincidunt quiquia labore dolore sit neque neque porro dolore magnam. Modi ipsum etincidunt porro sit consectetur. Aliquam est voluptatem dolorem modi sit tempora dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Locations', 'Consectetur aliquam eius amet. Tempora dolor modi sit velit labore. Ipsum est velit modi velit voluptatem ipsum quaerat porro numquam. Adipisci dolorem quiquia sed adipisci porro neque neque.');
+
+insert into topics
+	(label, description)
+values
+	('The World', 'Dolore aliquam numquam non sed est ipsum sed ipsum adipisci. Neque ipsum etincidunt porro numquam velit modi numquam ipsum sit dolore velit. Modi amet modi dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Topics in Specific Locations', 'Etincidunt quiquia ipsum non ut. Amet modi dolore quiquia velit amet magnam porro voluptatem est velit. Modi amet dolore velit numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts Related to Locations', 'Labore quisquam adipisci est labore est ut. Tempora ut numquam voluptatem ut aliquam non adipisci quaerat dolorem dolor velit labore. Voluptatem modi tempora labore. Sed dolorem sed adipisci eius sed adipisci eius quisquam voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of Places', 'Est ipsum eius sit. Non dolor labore numquam sit dolore est.');
+
+insert into topics
+	(label, description)
+values
+	('People', 'Sed quiquia sed quisquam magnam quaerat numquam quiquia labore amet adipisci amet porro aliquam tempora. Dolorem quisquam etincidunt dolore ut eius modi porro eius ipsum etincidunt quaerat porro voluptatem consectetur. Labore quaerat modi quaerat quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('People of Specific Countries', 'Est numquam tempora dolore dolor magnam eius modi. Numquam velit porro quaerat adipisci est quiquia quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Individual and Group Differences', 'Dolore quisquam ipsum tempora labore. Est quisquam tempora quaerat dolor dolore non est ut ipsum. Consectetur adipisci quiquia voluptatem modi quiquia dolor porro est porro tempora voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Types of People', 'Dolore non modi quiquia porro sed est eius. Voluptatem sed adipisci quiquia eius porro est est adipisci magnam eius. Ut labore tempora voluptatem adipisci. Consectetur amet neque amet.');
+
+insert into topics
+	(label, description)
+values
+	('Indigenous People', 'Porro dolor adipisci voluptatem non ipsum quiquia sed eius ut numquam consectetur ipsum. Porro adipisci non modi eius porro consectetur dolorem eius sed.');
+
+insert into topics
+	(label, description)
+values
+	('Race and Ethnicity', 'Aliquam ut dolore porro quiquia consectetur numquam dolorem amet labore amet dolore numquam. Aliquam dolor labore adipisci est eius neque.');
+
+insert into topics
+	(label, description)
+values
+	('The Human Race and Condition', 'Non ipsum magnam dolore dolorem quiquia ipsum adipisci aliquam quaerat quisquam non ipsum labore. Modi eius dolore sed aliquam modi neque aliquam magnam etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts Related to People', 'Adipisci dolore est consectetur tempora consectetur dolorem numquam ipsum. Velit eius modi neque voluptatem magnam numquam adipisci tempora amet eius. Labore dolorem sed amet velit amet quaerat neque quiquia amet dolorem dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Groups of People', 'Quaerat sit magnam adipisci eius est sed labore etincidunt tempora porro dolor dolore tempora quaerat. Voluptatem dolorem voluptatem modi tempora consectetur non porro consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Attributes of People', 'Modi eius dolorem amet neque dolorem magnam quiquia etincidunt. Ipsum amet sit amet. Amet eius voluptatem aliquam porro ut labore labore magnam dolore est.');
+
+insert into topics
+	(label, description)
+values
+	('Traits and Attributes', 'Numquam dolorem sed porro. Magnam est quisquam neque eius sed consectetur non labore ut neque dolore quiquia voluptatem quaerat consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Depictions of People', 'Eius porro neque ipsum modi velit voluptatem ut velit porro voluptatem. Amet dolor consectetur labore tempora quiquia quisquam est tempora ipsum est. Numquam quaerat modi dolor. Dolor quisquam eius ipsum quaerat sed eius quiquia etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Demographics', 'Modi quisquam etincidunt dolore est dolorem. Dolorem eius est etincidunt porro quaerat modi sed ipsum ut aliquam. Voluptatem quaerat quisquam magnam numquam velit porro voluptatem dolor porro amet dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('People in Specific Locations', 'Numquam dolorem aliquam magnam quaerat velit amet etincidunt amet quiquia est consectetur. Modi neque porro quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Companies, Products, and Services', 'Ut dolorem dolore aliquam quiquia tempora etincidunt. Numquam quiquia eius modi voluptatem est numquam aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Product and Services Comparisons', 'Consectetur dolorem neque consectetur numquam magnam adipisci dolorem labore etincidunt neque. Adipisci sit eius consectetur est ipsum quiquia porro labore labore.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts Related to Products and Services', 'Numquam magnam quaerat ipsum voluptatem etincidunt quaerat tempora. Aliquam aliquam numquam tempora tempora amet velit eius sed voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('Services', 'Ut tempora sit est numquam. Aliquam quiquia quiquia etincidunt dolorem quisquam. Porro dolor neque modi adipisci adipisci tempora labore.');
+
+insert into topics
+	(label, description)
+values
+	('Products', 'Dolore amet quisquam dolor dolore non labore quiquia ipsum voluptatem dolore numquam. Quaerat dolore magnam quaerat eius voluptatem quiquia voluptatem. Neque quiquia porro ut sed ut dolorem ut quisquam dolor quiquia consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Companies, Products, and Services in Specific Locations', 'Dolore dolor labore amet sed dolorem non quisquam ut quiquia numquam est quiquia. Quisquam quaerat dolor ipsum etincidunt voluptatem modi dolorem. Sed dolor tempora sed sed eius consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts in the Living World', 'Est etincidunt modi neque neque. Sit sit est eius modi velit dolorem sit modi magnam. Labore numquam quisquam quiquia sed. Est ut porro quiquia ut sed velit numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Animalia (biological classification)', 'Non aliquam non sit amet voluptatem magnam non velit. Quaerat ut eius ipsum numquam. Dolorem magnam tempora est sed dolorem est voluptatem dolorem ut etincidunt tempora.');
+
+insert into topics
+	(label, description)
+values
+	('The Environment', 'Tempora dolorem magnam ipsum ipsum consectetur dolorem sed non etincidunt. Dolorem modi velit sit amet dolor non quiquia consectetur porro neque. Modi etincidunt amet voluptatem sit ut dolorem dolorem adipisci velit consectetur quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Human and Animal Senses', 'Dolore quaerat etincidunt neque quisquam consectetur numquam etincidunt magnam labore neque. Aliquam magnam non neque ipsum ipsum etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Species', 'Sed consectetur sit voluptatem. Porro amet porro modi sit quaerat. Etincidunt voluptatem aliquam aliquam numquam quisquam numquam. Sed dolor sed neque ipsum quiquia etincidunt magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Evolution (process)', 'Ut sit magnam non non amet etincidunt non quisquam neque sed quisquam modi non ipsum. Quiquia ut amet quisquam non aliquam dolore quiquia tempora eius dolorem non.');
+
+insert into topics
+	(label, description)
+values
+	('Major Concepts of the Abstract Universe', 'Dolore dolor neque ipsum tempora amet. Dolor magnam etincidunt porro labore dolore tempora amet. Ipsum dolorem tempora etincidunt ut amet quisquam consectetur consectetur. Neque magnam dolore labore est quaerat numquam voluptatem est quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Certainty', 'Adipisci neque ut ut adipisci amet consectetur voluptatem aliquam velit non modi numquam aliquam aliquam tempora. Est neque modi aliquam sit.');
+
+insert into topics
+	(label, description)
+values
+	('Information', 'Ipsum quaerat porro sed adipisci est dolor quaerat etincidunt etincidunt neque voluptatem voluptatem quiquia quiquia. Adipisci eius dolorem dolor ipsum amet modi etincidunt adipisci ut quiquia consectetur labore velit.');
+
+insert into topics
+	(label, description)
+values
+	('Choice and Choices', 'Tempora quiquia dolore eius adipisci quaerat ipsum amet est tempora ipsum quiquia voluptatem neque. Consectetur est velit labore voluptatem consectetur sed tempora non tempora aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Luxury', 'Tempora sed modi amet ut magnam dolore adipisci quiquia est quiquia numquam est adipisci aliquam adipisci. Velit sit amet modi neque quisquam porro ut quaerat quisquam quiquia etincidunt neque adipisci porro.');
+
+insert into topics
+	(label, description)
+values
+	('Belief and Beliefs', 'Magnam amet dolorem dolor eius consectetur. Consectetur eius sed eius dolore neque adipisci aliquam amet velit sed quisquam neque labore. Porro sit eius dolore adipisci adipisci consectetur porro dolore ipsum dolore dolore tempora quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Beauty', 'Tempora dolorem labore dolore sed porro dolor voluptatem eius dolorem. Amet adipisci velit est sed sit quiquia non sed. Modi labore tempora adipisci quiquia porro dolorem ipsum eius. Dolorem quaerat est dolorem consectetur porro magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Organization', 'Voluptatem aliquam ipsum dolor velit eius porro sit. Dolor magnam ut dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Truth', 'Sit velit non amet velit etincidunt eius quisquam consectetur tempora. Consectetur velit voluptatem numquam sit modi eius modi ut.');
+
+insert into topics
+	(label, description)
+values
+	('Scarcity', 'Tempora tempora voluptatem adipisci dolore etincidunt dolorem sit. Quisquam quiquia amet sed neque amet tempora amet numquam numquam. Dolorem dolorem sed dolor voluptatem etincidunt tempora.');
+
+insert into topics
+	(label, description)
+values
+	('Consumption', 'Ut eius ut etincidunt neque dolorem velit quaerat ipsum dolorem voluptatem neque sed numquam eius velit. Ut velit neque sed dolore velit dolore velit sed dolor etincidunt velit consectetur sed adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Costs', 'Tempora neque quisquam modi consectetur voluptatem aliquam voluptatem etincidunt magnam. Dolor dolorem est sit sit labore tempora ut quisquam quaerat ipsum voluptatem est modi magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Systems', 'Eius sit ipsum quisquam dolore dolor. Est quiquia porro quaerat modi ipsum sed voluptatem numquam magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Abstraction', 'Consectetur porro dolore ut dolor quaerat voluptatem quaerat velit aliquam quisquam non. Tempora eius non labore ut quiquia consectetur quiquia. Dolorem ut voluptatem non ipsum ut labore modi amet velit quaerat neque non.');
+
+insert into topics
+	(label, description)
+values
+	('Invariance', 'Aliquam modi ut eius. Sed sed amet ut adipisci eius tempora dolor sed quaerat eius quaerat adipisci labore sed modi.');
+
+insert into topics
+	(label, description)
+values
+	('Presences', 'Est quiquia sit etincidunt. Amet dolorem aliquam sed modi est neque labore quisquam est. Dolor magnam labore non numquam etincidunt amet dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Calculation', 'Voluptatem labore eius dolor magnam est etincidunt dolor velit labore consectetur consectetur tempora. Sed dolorem ut ipsum consectetur numquam labore dolore quisquam labore dolorem voluptatem est neque velit. Labore quiquia amet aliquam non velit.');
+
+insert into topics
+	(label, description)
+values
+	('Change and Changing', 'Velit voluptatem est magnam. Est non magnam amet adipisci quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Representations', 'Ipsum ut est ipsum est velit ut dolorem adipisci quiquia. Sed sit dolore tempora quiquia dolor. Adipisci quisquam quiquia ut quisquam quaerat non neque eius eius dolor quiquia. Amet labore sit sed etincidunt etincidunt amet quaerat labore quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Visualization', 'Sed dolor ut ut modi ut porro numquam eius sed ut sed amet numquam magnam quisquam. Porro sed amet dolore voluptatem voluptatem labore aliquam. Etincidunt sed neque sit ut porro. Porro est sit labore.');
+
+insert into topics
+	(label, description)
+values
+	('Simplicity', 'Sed labore neque quisquam quisquam voluptatem etincidunt labore porro dolore dolore porro. Porro consectetur ipsum etincidunt sed neque modi quiquia quisquam quisquam numquam non quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Honors and Recognition', 'Labore quaerat velit ut ipsum sit. Dolorem porro modi tempora aliquam etincidunt amet dolorem adipisci etincidunt magnam est sed magnam porro etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('Honors Societies', 'Dolore sit ipsum consectetur consectetur eius quisquam dolore ut quiquia sit ut. Est dolore est dolor labore quisquam adipisci sed neque quaerat sed sed ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Phi Theta Kappa Honor Society', 'Adipisci aliquam quiquia dolore modi aliquam sed quisquam neque dolore dolorem dolor neque amet. Tempora aliquam dolore amet modi ut aliquam aliquam dolore magnam dolorem dolore. Velit sed non ipsum aliquam sit.');
+
+insert into topics
+	(label, description)
+values
+	('Phi Beta Kappa Society', 'Numquam dolore eius quaerat porro quiquia amet dolorem. Eius etincidunt dolorem sit magnam magnam consectetur voluptatem. Non sit numquam sit ut labore sed. Magnam sed quisquam quaerat amet neque tempora velit voluptatem etincidunt amet sed ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Literary Awards', 'Dolorem velit amet magnam sit dolor non quisquam etincidunt porro sit. Modi magnam modi quiquia modi sed amet numquam amet consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Pulitzer Prize', 'Tempora sed quiquia aliquam quisquam. Neque labore tempora non magnam. Magnam est labore voluptatem quisquam numquam sed sit ipsum labore consectetur. Etincidunt quiquia amet ut neque adipisci etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('George Polk Award (journalism)', 'Quaerat sit neque numquam consectetur porro dolorem quaerat etincidunt ut ut est non. Eius tempora sit quiquia quisquam est amet neque dolorem ut modi est.');
+
+insert into topics
+	(label, description)
+values
+	('Newbery Medal Winners', 'Neque labore ipsum velit neque neque. Tempora eius magnam dolor sit voluptatem amet dolor sit sit. Voluptatem numquam tempora neque dolore consectetur. Voluptatem velit amet est quaerat dolorem non sed neque modi numquam dolore modi ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('National Book Awards', 'Dolor numquam neque non quisquam. Labore sed amet dolorem neque neque numquam consectetur velit sed tempora labore ut labore sit. Velit dolorem est amet est quisquam etincidunt amet aliquam neque sit ipsum modi neque.');
+
+insert into topics
+	(label, description)
+values
+	('Man Booker Prize', 'Ut adipisci ipsum sit labore velit eius. Consectetur eius adipisci numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Caldecott Medals', 'Ut numquam labore magnam sit est. Consectetur labore magnam magnam est dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Book Excellence Awards', 'Quaerat ut ipsum tempora est numquam. Sit quiquia quaerat ipsum velit tempora non consectetur porro consectetur sit. Dolore consectetur dolore quisquam non quiquia neque aliquam non quiquia labore magnam sit non quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Newbery Medal', 'Modi quaerat neque velit dolorem dolor sed etincidunt eius numquam non dolorem. Consectetur sed sed labore numquam porro dolorem aliquam ut modi.');
+
+insert into topics
+	(label, description)
+values
+	('Specific Awards', 'Sit amet numquam eius aliquam aliquam quiquia quaerat dolor quiquia est. Sed consectetur tempora modi adipisci. Dolorem ipsum quaerat sed voluptatem magnam dolor quisquam porro adipisci neque ut magnam eius neque.');
+
+insert into topics
+	(label, description)
+values
+	('Academy Awards', 'Neque adipisci est amet adipisci dolorem ut labore amet quisquam ipsum etincidunt quiquia porro sed porro. Est non dolor dolorem voluptatem dolor non.');
+
+insert into topics
+	(label, description)
+values
+	('Rhodes Scholars', 'Velit quaerat dolor adipisci consectetur ut non voluptatem magnam magnam. Ipsum amet non magnam amet consectetur dolore dolorem sed amet sed est dolorem modi non. Sed dolorem eius dolor porro tempora adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Fields Medal', 'Quiquia labore velit adipisci etincidunt est. Numquam numquam aliquam numquam consectetur sit sed numquam porro quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Nobel Prizes', 'Est ut velit tempora. Neque quisquam labore neque dolorem etincidunt. Adipisci dolore numquam voluptatem magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Grammy Awards', 'Sit labore quiquia est est sed modi voluptatem voluptatem amet. Etincidunt non est labore velit quisquam est voluptatem. Modi quaerat quiquia quisquam amet labore eius. Voluptatem eius ut non neque.');
+
+insert into topics
+	(label, description)
+values
+	('Tang Prize', 'Consectetur quaerat etincidunt velit. Aliquam dolorem adipisci dolorem tempora velit ipsum eius. Numquam etincidunt magnam labore magnam numquam. Quiquia ipsum aliquam modi neque amet dolorem tempora magnam adipisci quaerat dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('World Food Prize', 'Adipisci modi ut aliquam porro magnam modi ut sit dolorem. Est numquam quisquam numquam magnam est amet. Quiquia ut ipsum consectetur quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Breakthrough Prize', 'Ut etincidunt ut voluptatem etincidunt. Voluptatem modi dolor labore etincidunt est etincidunt labore numquam tempora eius. Quiquia ut adipisci dolorem modi magnam labore dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Charles Stark Draper Prize', 'Dolorem quiquia porro magnam eius eius neque porro est neque dolorem voluptatem eius neque dolorem. Adipisci ut dolor adipisci quaerat amet adipisci est porro est est consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('ACM Turing Award', 'Sit dolore aliquam etincidunt dolorem sed voluptatem porro. Sed consectetur ipsum dolor non porro numquam dolor. Dolore non magnam etincidunt quisquam consectetur eius amet tempora etincidunt dolore. Ut adipisci est non amet.');
+
+insert into topics
+	(label, description)
+values
+	('ESPYs', 'Ut voluptatem porro voluptatem magnam tempora numquam ut voluptatem. Sit sed tempora etincidunt porro ipsum dolorem dolore ut sit aliquam dolore labore ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('BET Awards', 'Non tempora ut sit numquam consectetur voluptatem etincidunt quisquam quiquia voluptatem. Modi porro est magnam ut consectetur quisquam sit etincidunt ipsum aliquam non sit consectetur sed quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Tony Awards', 'Modi sit quisquam est aliquam non dolore etincidunt modi consectetur. Modi ipsum eius neque quiquia sit consectetur. Ut numquam velit sit quaerat labore porro est. Modi dolor modi eius.');
+
+insert into topics
+	(label, description)
+values
+	('Shorty Awards', 'Magnam ut amet eius etincidunt dolor modi dolor quisquam aliquam labore amet sed. Neque tempora adipisci dolore ipsum est sit. Quiquia voluptatem aliquam neque labore etincidunt magnam voluptatem.');
+
+insert into topics
+	(label, description)
+values
+	('IIFA Awards', 'Tempora labore sed porro aliquam consectetur amet est. Ut sit velit magnam dolore. Sed dolor etincidunt sit labore non porro etincidunt velit quiquia non est amet. Magnam sit aliquam magnam amet sed.');
+
+insert into topics
+	(label, description)
+values
+	('The Darwin Awards', 'Consectetur non consectetur tempora labore dolorem magnam dolorem adipisci amet sed. Etincidunt adipisci labore non dolorem quaerat est labore. Non aliquam non magnam quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Emmy Awards', 'Aliquam neque sit neque neque numquam consectetur sit. Consectetur modi labore tempora numquam sed etincidunt quaerat voluptatem magnam eius. Aliquam non sit quaerat amet sit neque dolor dolorem. Porro est numquam neque.');
+
+insert into topics
+	(label, description)
+values
+	('American Music Awards', 'Amet porro adipisci non dolor porro amet velit sit est sit est labore modi. Sed dolore quaerat non numquam voluptatem. Numquam ipsum consectetur adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Golden Globe Awards', 'Dolor consectetur sit dolor labore. Labore non ut ut dolor eius etincidunt dolorem dolore labore sed quiquia. Etincidunt est neque numquam magnam porro numquam neque etincidunt aliquam ipsum magnam ut modi numquam.');
+
+insert into topics
+	(label, description)
+values
+	('MTV Video Music Awards', 'Aliquam dolorem sed modi dolore. Ut numquam neque ipsum non quaerat voluptatem. Quisquam non numquam quiquia quisquam velit non dolor quiquia adipisci adipisci ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Billboard Music Awards', 'Amet non magnam quisquam modi eius quiquia sed neque amet etincidunt porro porro porro porro. Est velit sit ut.');
+
+insert into topics
+	(label, description)
+values
+	('People''s Choice Awards', 'Magnam sed labore quisquam. Ut labore quisquam consectetur non velit ut eius velit dolore non velit non.');
+
+insert into topics
+	(label, description)
+values
+	('Time Magazine''s Person of the Year', 'Quaerat ipsum aliquam ut magnam quiquia eius modi. Magnam adipisci neque voluptatem neque etincidunt magnam quaerat eius dolorem dolorem neque.');
+
+insert into topics
+	(label, description)
+values
+	('Harvard Prizes and Honors', 'Est sit magnam non consectetur magnam dolore. Magnam quaerat voluptatem ipsum porro dolore. Velit dolor sed velit ipsum neque sed ut tempora velit porro sit eius ut. Dolor dolor quaerat ipsum neque ipsum numquam non modi voluptatem dolore ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('QEPrize', 'Adipisci quaerat quiquia amet amet non quiquia eius adipisci etincidunt adipisci. Magnam dolorem modi quiquia quisquam aliquam dolor neque non tempora ut quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Marvin Minsky Medal', 'Labore porro ipsum eius porro magnam quiquia quisquam consectetur neque dolore dolore modi. Eius voluptatem ut sed consectetur ipsum ipsum dolorem neque voluptatem aliquam. Dolor adipisci magnam aliquam quisquam eius.');
+
+insert into topics
+	(label, description)
+values
+	('Peace Awards', 'Est non adipisci magnam adipisci. Tempora etincidunt ipsum neque non numquam dolore.');
+
+insert into topics
+	(label, description)
+values
+	('Right Livelihood Award', 'Tempora neque quisquam aliquam dolorem numquam velit. Dolorem consectetur etincidunt dolorem voluptatem dolorem non velit porro numquam aliquam amet quisquam tempora dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Medals and Trophies', 'Velit quiquia modi sit consectetur consectetur dolor ut est numquam ut est dolor amet ut est. Quaerat dolore labore modi adipisci consectetur porro. Dolor dolorem dolorem quaerat est consectetur. Dolorem dolorem tempora quaerat etincidunt quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Orders, Decorations, and Medals', 'Dolor modi sed labore non dolore. Modi velit dolor ipsum eius quisquam quisquam magnam. Quisquam porro ipsum neque sed etincidunt voluptatem ut dolore labore eius numquam est modi neque.');
+
+insert into topics
+	(label, description)
+values
+	('Order of the British Empire', 'Sed quaerat etincidunt dolor labore quisquam voluptatem non amet sit. Ut tempora sed porro neque labore non modi non dolor neque est. Adipisci dolorem sed ut quiquia.');
+
+insert into topics
+	(label, description)
+values
+	('Olympic Medals', 'Eius quisquam sed neque. Dolorem quaerat quiquia labore numquam dolore. Dolorem neque ut ut sit dolorem magnam dolore dolor quaerat dolorem numquam sit ut. Dolor amet consectetur magnam adipisci dolor.');
+
+insert into topics
+	(label, description)
+values
+	('Military Medals, Awards and Decorations', 'Consectetur numquam labore modi quaerat numquam amet ut dolor etincidunt labore quisquam aliquam quaerat. Non dolorem magnam amet sit dolor ipsum velit est est. Sed aliquam dolorem numquam ipsum numquam numquam.');
+
+insert into topics
+	(label, description)
+values
+	('Police Medals', 'Consectetur dolore eius ut. Quisquam quiquia magnam modi. Magnam est quaerat voluptatem dolor adipisci non. Porro numquam labore sed quisquam. Dolor dolorem sed modi quiquia dolor. Quiquia numquam magnam modi consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Brit Awards (music)', 'Etincidunt consectetur magnam dolore quisquam numquam magnam etincidunt neque voluptatem aliquam quaerat non. Modi neque tempora porro.');
+
+insert into topics
+	(label, description)
+values
+	('Royal Society''s Hughes Medal', 'Ipsum tempora labore adipisci est quiquia magnam est quaerat aliquam etincidunt quisquam neque dolor numquam. Porro sit adipisci modi neque quisquam dolorem.');
+
+insert into topics
+	(label, description)
+values
+	('Honors of the United States of America', 'Neque quiquia consectetur voluptatem etincidunt quiquia amet dolore est porro voluptatem. Tempora ipsum dolore eius.');
+
+insert into topics
+	(label, description)
+values
+	('Medal of Honor', 'Quiquia etincidunt eius est modi voluptatem adipisci adipisci neque quisquam. Consectetur consectetur est velit velit dolor est modi porro adipisci consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Presidential Medal of Freedom', 'Numquam tempora magnam est quisquam voluptatem dolorem. Eius modi numquam ut non quaerat amet labore quaerat quaerat sed dolorem tempora porro.');
+
+insert into topics
+	(label, description)
+values
+	('Congressional Gold Medal', 'Magnam dolor dolorem dolor dolorem eius adipisci porro magnam magnam adipisci etincidunt modi velit tempora dolor. Voluptatem neque non sed ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Awards Acceptance Speeches', 'Dolore consectetur est ipsum quiquia adipisci modi non numquam quiquia quisquam adipisci sit modi amet. Velit quisquam etincidunt dolorem. Consectetur numquam voluptatem sit modi adipisci quiquia non neque modi ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Indian Honours and Decoratioins', 'Labore porro non modi tempora dolorem consectetur consectetur consectetur non ipsum dolore. Eius non tempora porro ipsum aliquam sed est porro. Porro velit porro quisquam velit dolorem magnam aliquam ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Orders, Decorations, and Medals of India', 'Quaerat dolore non modi sed. Dolorem dolor dolore labore non. Non voluptatem labore sit eius dolor quaerat. Non modi labore sit etincidunt. Modi porro sit non adipisci labore.');
+
+insert into topics
+	(label, description)
+values
+	('National Film Award (India)', 'Sit ut etincidunt velit. Est magnam etincidunt etincidunt sit dolore sit ipsum non velit non ipsum non velit eius porro. Est quaerat velit porro. Labore porro sit est quaerat.');
+
+insert into topics
+	(label, description)
+values
+	('Movie and TV Awards', 'Dolorem labore sed dolore amet. Sit etincidunt aliquam modi dolore sed dolorem dolor ipsum quiquia neque sed adipisci. Ipsum consectetur ipsum etincidunt neque porro dolorem consectetur tempora labore consectetur. Tempora etincidunt labore magnam.');
+
+insert into topics
+	(label, description)
+values
+	('BAFTA', 'Dolore sed dolore ipsum aliquam consectetur. Quaerat dolore ut aliquam sit magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Movie and TV Award Shows in 2011', 'Dolorem neque dolor est quiquia modi dolorem porro quaerat dolorem quiquia. Ipsum velit quisquam eius quisquam dolore adipisci etincidunt porro eius tempora ipsum eius ut neque. Ut labore quisquam non etincidunt tempora adipisci numquam magnam magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Teen Choice Awards', 'Adipisci magnam ut velit tempora quiquia labore. Modi non quisquam dolor porro sed. Dolor eius dolore non ipsum voluptatem magnam adipisci modi magnam.');
+
+insert into topics
+	(label, description)
+values
+	('National Film Awards', 'Sed magnam dolor dolor quaerat. Dolore etincidunt modi adipisci non voluptatem ipsum sed neque sit dolorem. Ipsum magnam neque quisquam dolorem amet eius porro quisquam modi est adipisci aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Halls of Fame', 'Eius velit est magnam magnam quiquia labore. Tempora ut porro consectetur ipsum labore adipisci tempora sed tempora quisquam magnam sed non. Voluptatem neque numquam quaerat non dolore quaerat ipsum amet quiquia. Amet etincidunt etincidunt ipsum.');
+
+insert into topics
+	(label, description)
+values
+	('Hockey Hall of Fame', 'Modi amet tempora neque sed modi. Porro eius ut ipsum eius amet ut quisquam modi dolor adipisci labore porro est.');
+
+insert into topics
+	(label, description)
+values
+	('Baseball Hall of Fame', 'Ut voluptatem magnam labore aliquam sit ut tempora dolorem labore quisquam. Modi neque porro tempora non sed consectetur non non. Dolore etincidunt labore ipsum neque. Amet amet non porro dolore velit. Non sit dolor tempora.');
+
+insert into topics
+	(label, description)
+values
+	('WWE Hall of Fame', 'Etincidunt dolor velit quaerat consectetur sit non tempora etincidunt consectetur sit eius est numquam etincidunt sit. Dolore tempora consectetur sit porro porro consectetur voluptatem porro ut aliquam aliquam sit consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Rock and Roll Hall of Fame', 'Neque adipisci amet porro amet est adipisci dolore adipisci non non dolor. Porro ut amet dolor amet porro dolor dolorem voluptatem dolor est magnam. Non adipisci consectetur quisquam labore eius voluptatem dolorem dolorem dolore velit.');
+
+insert into topics
+	(label, description)
+values
+	('College Football Hall of Fame', 'Etincidunt amet modi eius non. Dolore quisquam velit etincidunt ipsum dolore eius aliquam etincidunt ut numquam adipisci labore aliquam amet adipisci.');
+
+insert into topics
+	(label, description)
+values
+	('Country Music Hall of Fame and Museum', 'Sed quisquam aliquam quisquam est porro porro dolorem ipsum ipsum. Neque est sed etincidunt sed dolorem quiquia numquam sit labore.');
+
+insert into topics
+	(label, description)
+values
+	('World Chess Hall of Fame', 'Numquam labore ipsum etincidunt eius ipsum consectetur dolor aliquam dolore aliquam aliquam adipisci sed. Magnam quaerat consectetur dolorem quisquam sit numquam etincidunt velit. Labore labore non dolore magnam quiquia sit quaerat adipisci etincidunt.');
+
+insert into topics
+	(label, description)
+values
+	('World Golf Hall of Fame', 'Quaerat numquam numquam quaerat dolorem consectetur neque modi sit eius. Modi porro consectetur neque sed non. Neque dolor modi modi adipisci. Quiquia eius labore adipisci dolore ut dolor dolorem consectetur.');
+
+insert into topics
+	(label, description)
+values
+	('Skateboarding Hall of Fame', 'Adipisci modi quiquia amet adipisci ut aliquam. Non ipsum sed dolore ipsum quiquia non eius magnam ipsum etincidunt. Porro aliquam quisquam ut dolorem labore neque quisquam magnam.');
+
+insert into topics
+	(label, description)
+values
+	('Reggae Hall of Fame', 'Non quiquia voluptatem non. Etincidunt dolore porro sed. Dolor quaerat consectetur aliquam quaerat etincidunt modi est. Quiquia sit consectetur neque modi etincidunt modi.');
+
+insert into topics
+	(label, description)
+values
+	('Canadian Songwriters Hall of Fame', 'Eius ut modi modi dolore neque. Amet est sit sed non sit dolore etincidunt quiquia quaerat consectetur sit amet quisquam.');
+
+insert into topics
+	(label, description)
+values
+	('Pro Football Hall of Fame', 'Porro neque non dolore est quiquia eius labore est dolorem magnam amet est quaerat etincidunt est. Amet etincidunt neque dolor. Est porro eius neque etincidunt. Dolore voluptatem porro modi.');
+
+insert into topics
+	(label, description)
+values
+	('International Tennis Hall of Fame', 'Ut amet quaerat ipsum non quisquam. Sed quaerat tempora voluptatem non tempora ut velit non eius ut quaerat. Ipsum sit magnam amet magnam. Tempora labore velit porro dolor adipisci porro est adipisci magnam.');
+
+insert into topics
+	(label, description)
+values
+	('National Sports Media Association & Hall of Fame', 'Aliquam adipisci amet aliquam non non dolorem tempora consectetur labore neque quisquam numquam ipsum ut. Numquam modi etincidunt quiquia sit quiquia eius quiquia labore aliquam.');
+
+insert into topics
+	(label, description)
+values
+	('Famous Engineers', 'Labore etincidunt sed voluptatem neque dolor modi amet. Amet labore dolor consectetur aliquam velit labore.');
+
+insert into topics
+	(label, description)
+values
+	('Songwriters Hall of Fame', 'Quisquam ipsum dolore quisquam voluptatem neque modi ipsum sit quiquia magnam. Porro neque aliquam tempora sit numquam quiquia dolore dolorem quiquia ut.');
+
+insert into topics
+	(label, description)
+values
+	('Naismith Memorial Basketball Hall of Fam', 'Non amet voluptatem etincidunt porro magnam ut voluptatem numquam ipsum. Non amet non ut velit quisquam quaerat modi aliquam velit etincidunt amet quisquam sed sed.');

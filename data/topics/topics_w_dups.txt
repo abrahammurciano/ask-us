@@ -412,6 +412,7 @@ Scientific Terminology and Jargon
 Science in Specific Locations
 Experimental Science
 Facilities and Organizations of Science
+Behavioral Psychology
 Scientific Discoveries
 Mathematical Sciences
 Jobs and Careers in Science
@@ -511,6 +512,7 @@ Accessible Travel
 Travel Advisories
 Travel Health
 Fitness Travel
+Studying Engineering
 Visiting and Travel in Specific Locations
 Visiting Beaches
 Visiting and Travel on Trains
@@ -579,6 +581,7 @@ Explorers
 Discovery of the Americas
 European Exploration
 Voyages
+Playing Sports
 Ocean Explorations
 Oil & Gas Exploration
 Polar Exploration
@@ -617,6 +620,7 @@ Grammar Mistakes
 Non-Verbal Communication and Body Language
 English (language)
 English Grammar
+Ocean Explorations
 History of the English Language
 English as a Second Language (ESL)
 World Englishes
@@ -711,6 +715,7 @@ Men's Fashion and Style
 Fashion Trends
 Fashion Designers
 History of Fashion
+Communication
 Types of Fashion Aesthetics
 Beauty Products and Cosmetics
 Clothing and Apparel
