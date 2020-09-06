@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Proposal}{}% 1
+\BOOKMARK [1][-]{section.2}{Entity Relationship Diagram}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Entities}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Relations}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Diagram}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Logical Schema}{}% 6
+\BOOKMARK [1][-]{section.4}{Normalization}{}% 7
+\BOOKMARK [2][-]{subsection.4.1}{Functional Dependencies}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.2}{Third Normal Form}{section.4}% 9
+\BOOKMARK [1][-]{section.5}{Physical Schema}{}% 10
+\BOOKMARK [2][-]{subsection.5.1}{Users Table}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.2}{Posts Table}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.3}{Questions Table}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.4}{Answers Table}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.5}{Comments Table}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.6}{Topics Table}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.7}{Votes Table}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.8}{Follows Table}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.9}{Relates To Table}{section.5}% 19

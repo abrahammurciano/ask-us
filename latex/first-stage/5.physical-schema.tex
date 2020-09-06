@@ -38,8 +38,26 @@ This table is similar to the two previous tables. The only new column is the \ve
 
 \VerbatimInput[label=\fbox{\color{Black}create\_comments.sql}]{../../sql/create-table/comments.sql}
 
-\section{Topics Table}
+\subsection{Topics Table}
 
 The \verb`topics` table contains an \verb`id` column like most of the previous tables, as well as a label and a description. The label must be unique and is limited to twenty characters.
 
 \VerbatimInput[label=\fbox{\color{Black}create\_topics.sql}]{../../sql/create-table/topics.sql}
+
+\subsection{Votes Table}
+
+This table consists of two columns which together form the primary key, and each of which are a foreign key in their own right. Each row signifies that a particular user voted on a particular post.
+
+\VerbatimInput[label=\fbox{\color{Black}create\_votes.sql}]{../../sql/create-table/votes.sql}
+
+\subsection{Follows Table}
+
+With this SQL statement we can create the \verb`follows` table. It has a very similar structure to the \verb`votes` table. Here, each row represents that a certain user follows some topic.
+
+\VerbatimInput[label=\fbox{\color{Black}create\_follows.sql}]{../../sql/create-table/follows.sql}
+
+\subsection{Relates To Table}
+
+This SQL command creates the \verb`relates_to` table. Once again, it has an almost identical structure to the previous two tables. Each of these rows records that a specific question relates to some topic.
+
+\VerbatimInput[label=\fbox{\color{Black}create\_relates\_to.sql}]{../../sql/create-table/relates_to.sql}
