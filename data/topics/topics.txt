@@ -12,7 +12,6 @@ Politics in Everyday Life
 Political Systems
 Political Philosophy
 Social Media and Politics
-Using Quora in Government and Politics
 Political Behavior
 Political Culture
 Forms of Government
@@ -29,7 +28,6 @@ Political Governance
 Government in Specific Locations
 Careers In Government
 Civilian Governments
-Using Quora in Government and Politics
 Government Departments
 Government Plans
 Major Concepts in Law
@@ -50,7 +48,6 @@ Legal Internships
 Law in Specific Locations
 Ex Post Facto Laws
 Crime
-Police and Law Enforcement
 Judiciaries
 Punishment
 Specific Types of Justice
@@ -126,7 +123,6 @@ Liberal Arts Education
 Language
 Grammar
 Specific Parts of Written Language
-Non-Verbal Communication and Body Language
 Pronunciation
 Major Concepts in Language
 Specific Languages
@@ -193,7 +189,6 @@ Political Rhetoric
 Slippery Slope
 Debates
 Appeals to Emotion
-Legal Studies
 Learning About Legal Studies
 Jobs and Careers in Legal Studies
 Practice of Law
@@ -201,7 +196,6 @@ Cultural Studies
 Study of Open Culture
 Cultural Turn
 Reappropriation (cultural studies)
-Cultural History
 Center for Contemporary Cultural Studies
 Material Culture Theory
 Classics
@@ -236,8 +230,6 @@ Denominations and Organized Religion
 Religion Interdisciplinary Topics
 Religious Education, Careers, Organizations and History
 Major Concepts in Religion
-Religious Studies
-8 more ...
 Comparative Religion
 Anti-Religion Beliefs
 Religion in Specific Locations
@@ -302,7 +294,6 @@ Social Advice
 Manners and Etiquette
 Fun
 Conversational Frameworks
-Non-Verbal Communication and Body Language
 Specific Types of Interpersonal Interaction
 Concepts in Interpersonal Interaction
 Intimacy
@@ -340,7 +331,6 @@ BFFs
 Long Lost Friends
 Self-Confidence
 Low Self-Confidence
-Improving Self-Confidence
 Self-Confidence Advice
 Family
 Parenting
@@ -386,7 +376,6 @@ Relationships in Specific Locations
 Relationship Dynamics
 Social Discovery
 Dating and Relationships
-Family Relationships and Dynamics
 Health
 Mental Health
 Sleep
@@ -468,16 +457,11 @@ Jobs and Careers in Engineering
 Engineering Organizations
 Engineering Cost
 Social Sciences
-Anthropology
-8 more ...
 Sociology
 Economics
 Linguistics
 Gender Studies
 Geography
-History
-11 more ...
-Political Science
 Psychology
 Area Studies
 Education (academic discipline)
@@ -485,7 +469,7 @@ Behavioral Sciences
 Museum Studies
 Signed Languages
 Major Concepts in Social Sciences
-Research in Social Sciencies
+Research in Social Sciences
 Environmental Studies
 History of Social Sciences
 Social Ideologies
@@ -497,7 +481,6 @@ Biology Education
 Mathematics Education
 Physics Education
 Chemistry Education
-Engineering Education
 Science Education
 Visiting and Travel
 Tourism
@@ -570,7 +553,6 @@ Nightlife in Specific Locations
 Nightlife Business
 Raves
 Shows and Performances
-Dance (activity)
 Social Dance
 Dancing at Parties or in Clubs
 Dance (performing art)
@@ -580,8 +562,6 @@ Dance by Specific Location
 Dance Styles (Types of Dance)
 Recreational and Leisure Activities
 Hobbies
-Nightlife
-8 more ...
 Play
 Games
 The Outdoors
@@ -603,12 +583,8 @@ Ocean Explorations
 Oil & Gas Exploration
 Polar Exploration
 Scientific Exploration
-Urban Exploration
 Desert Exploration
 Recreation
-Recreational and Leisure Activities
-13 more ...
-Activities
 Favorite Things To Do
 Things to Do in Specific Locations
 Specific Types of Activities
@@ -635,35 +611,13 @@ Lexicology
 Foreign Words
 Metonymy
 Glossaries
-Grammar
-Specific Parts of Written Language
 Concepts in Grammar
 Grammar of Specific Languages
 Grammar Mistakes
-Language
-Grammar
-Specific Parts of Written Language
 Non-Verbal Communication and Body Language
-Pronunciation
-Major Concepts in Language
-Specific Languages
-Learning Languages
-Language Translation
-Language Differences
-Language and Mysticism
-Language Identification
-Childhood Language
-Translation and Translations
-Language in Specific Locations
-Language Proficiency
-Natural Language
-Language Development
-Jobs and Careers in Languages
-Acronyms
 English (language)
 English Grammar
 History of the English Language
-Vocabulary of the English Language
 English as a Second Language (ESL)
 World Englishes
 English Translation and Interpretation
@@ -739,16 +693,6 @@ Jobs and Careers in Specific Areas
 Specific Employment Types
 Job and Career Comparisons
 Salaries for Specific Jobs and Careers
-The Arts
-Crafts (art)
-Artists and Creative Professions
-Performing Arts
-Visual Arts
-Concepts in Art
-Major Concepts in the Arts
-Jobs and Careers in the Arts
-Jobs and Careers in Culture and the Arts
-Art Business
 Design
 Product Design of Physical Goods
 Major Concepts in Design
@@ -793,7 +737,6 @@ History of Art
 Art in Specific Locations
 Art Advice
 Type of Arts
-Medicine and Healthcare
 Pharmaceuticals
 Drug Effects
 Pharmacy
@@ -924,7 +867,6 @@ AIDS Research
 Medical Research Studies
 Centers for Disease Control and Prevention
 Cancer Research
-Drug Development
 Psychiatry Research
 Marijuana Medical Research
 Medical Research Tools
@@ -1009,7 +951,6 @@ Managed Care
 Private Healthcare Exchanges
 Mental Health Systems
 Medical Savings Accounts
-Biopharmaceutical Industry
 Medical Specialties
 Cardiology
 Dermatology
@@ -1023,9 +964,7 @@ Surgery
 Dentistry
 Obstetrics and Gynecology
 Otolaryngology (medical speciality)
-Pharmacology
 Veterinary Medicine
-Pharmacy
 Physical Medicine and Rehabilitation
 Immunology
 Nursing
@@ -1062,7 +1001,6 @@ International Medical Graduates (IMG)
 Doctor of Medicine
 Doctor of Dental Medicine
 Doctor of Osteopathic Medicine
-Veterinary Medicine
 Bachelor of Homoeopathic Medicine and Surgery Degrees
 Medicine and Healthcare Interdisciplinary Topics
 Military Medicine
@@ -1107,8 +1045,6 @@ Evidence-based Medicine
 Medical Techniques
 Healthcare Innovation
 Health Organizations
-Managed Care
-Social Media in Healthcare and Medicine
 Online Health and Medicine
 Preventive Medicine
 Medical Procedures
@@ -1117,8 +1053,6 @@ Health Authorities
 Medical Protocols
 Medical Breakthroughs
 Physical Activity in Healthcare
-Medical Tests
-8 more ...
 Medical Tourism
 Doctor's Offices
 Medical Conferences
@@ -1225,7 +1159,6 @@ Bulgarian Food
 Restaurant Cuisines
 Italian Food and Cuisine
 Food and Cuisine of Canada
-Food and Cuisines in Specific Locations
 Cooking
 Cooking Techniques
 Molecular Gastronomy
@@ -1254,7 +1187,6 @@ Jobs and Careers in Cooking
 Restaurants
 Restaurant Recommendations
 Restaurant Business
-Restaurant Cuisines
 Restaurant Classifications
 Major Concepts Related to Restaurants
 Specific Types of Restaurants
@@ -1271,15 +1203,12 @@ Gastronomy
 Healthy Eating
 Dining
 Infant Feeding
-Foodies
 Food Science
 Maillard Reaction
-Molecular Gastronomy
 Food Preservation
 Processed Food
 Food Additives
 Food Safety
-Gastronomy
 Pasteurization
 Food Chemistry
 Winemaking
@@ -1307,7 +1236,6 @@ Agriculture Policy
 Agriculture in India
 Rice Industry
 Cannabis Industry
-Food and Agriculture
 Agriculture and the Internet
 Future of Agriculture
 Weed Science
@@ -1363,7 +1291,6 @@ Learning Styles
 Research
 Major Concepts Related to Learning
 Venues for Learning
-Approaches to Learning and Education
 Mnemonics
 Studying
 Learning Strategies
@@ -1383,7 +1310,6 @@ Students
 Specific Types of Students
 Educational Stages
 Student Exchanges
-Students and Teachers
 Students in Specific Locations
 Jobs for Students
 Academia
@@ -1418,7 +1344,6 @@ Movies
 Music
 Video Games
 Concepts in Entertainment
-Performing Arts
 Entertainment in Specific Locations
 Current Events in Entertainment
 Home Entertainment
@@ -1511,7 +1436,6 @@ Product and Services Comparisons
 Major Concepts Related to Products and Services
 Services
 Products
-Companies
 Companies, Products, and Services in Specific Locations
 Major Concepts in the Living World
 Animalia (biological classification)
@@ -1564,7 +1488,6 @@ World Food Prize
 Breakthrough Prize
 Charles Stark Draper Prize
 ACM Turing Award
-Awards for Contributions to Society and Culture
 ESPYs
 BET Awards
 Tony Awards
@@ -1584,23 +1507,11 @@ Marvin Minsky Medal
 Peace Awards
 Right Livelihood Award
 Medals and Trophies
-Nobel Prizes
-Academy Awards
-Tang Prize
-World Food Prize
-Charles Stark Draper Prize
-ACM Turing Award
 Orders, Decorations, and Medals
 Order of the British Empire
 Olympic Medals
 Military Medals, Awards and Decorations
-Fields Medal
 Police Medals
-Golden Globe Awards
-Emmy Awards
-Grammy Awards
-Tony Awards
-The Darwin Awards
 Brit Awards (music)
 Royal Society's Hughes Medal
 Honors of the United States of America
@@ -1612,11 +1523,8 @@ Indian Honours and Decoratioins
 Orders, Decorations, and Medals of India
 National Film Award (India)
 Movie and TV Awards
-Academy Awards
 BAFTA
-Golden Globe Awards
 Movie and TV Award Shows in 2011
-Emmy Awards
 Teen Choice Awards
 National Film Awards
 Halls of Fame

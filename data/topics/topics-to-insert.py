@@ -1,6 +1,6 @@
 from lorem.text import TextLorem
 
-sql = open("insert_topics.sql", "a")
+sql = open("../../sql/insert/insert_topics.sql", "w")
 
 lorem = TextLorem(srange=(1,10))
 
