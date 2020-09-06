@@ -1,0 +1,9 @@
+\section{Populating Tables With Data}
+
+Now that we have successfully created all the necessary data, it is time to fill them with data. We will use a variety of different methods to import data to our tables.
+
+\subsection{Populating Topics}
+
+We were able to find a large list with 1,547 topics which Quora uses to organise their questions. We obtained it in the form of a plain text file with one line for each topic name. Since it contains duplicates, we can must first remove these. Then we generate some randomised description using the python module called \verb`lorem`. This python code shows exactly how the insert statements were generated. The generated SQL code can be found at \verb`/sql/insert/topics.sql`
+
+\VerbatimInput[label=\fbox{\color{Black}/data/topics/topics\_to\_insert.py}]{../../data/topics/topics_to_insert.py}

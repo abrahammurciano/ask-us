@@ -10,14 +10,17 @@ with open("topics.txt", "w") as topics:
 
 # make an insert statement for each topic
 with open("topics.txt", "r") as topics:
-	sql = open("../../sql/insert/insert_topics.sql", "w")
-	lorem = TextLorem(srange=(4,16), prange=(2,16)) # 4-16 words/sentence, 2-16 sentences/paragraph
+	sql = open("../../sql/insert/topics.sql", "w")
+	# 4-16 words/sentence, 2-16 sentences/paragraph
+	lorem = TextLorem(srange=(4,16), prange=(2,16))
 	for topic in topics:
 		while True:
 			description = lorem.paragraph()
-			if len(description) <= 255: # make sure the description fits in the database
+			# ensure the description fits in db
+			if len(description) <= 255:
 				break
-		label = topic[:-1].replace("'", "''") # remove trailing \n and escape single quotes
+		# remove trailing \n and escape single quotes
+		label = topic[:-1].replace("'", "''")
 		sql.write(
 """
 insert into topics
