@@ -1,5 +1,5 @@
 BEGIN
-    FOR v_LoopCounter IN 1..203226 LOOP
+    FOR v_LoopCounter IN 1..203231 LOOP
         INSERT INTO POSTS VALUES(DEFAULT);
         COMMIT;
     END LOOP;
