@@ -1,0 +1,9 @@
+delete from relates_to;
+delete from follows;
+delete from votes;
+delete from comments;
+delete from answers;
+delete from questions;
+delete from posts;
+delete from users;
+delete from topics;
