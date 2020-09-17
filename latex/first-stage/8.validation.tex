@@ -1,0 +1,3 @@
+\section{Validating the Data}
+
+but in order to avoid randomly generating circular ancestry with comments, we assigned all comments to a single question. Then we exported the data as a CSV which we then modified so that each comment referenced a post with an ID smaller that the ID of that comment. We then truncated the table to remove the random data, and used the text importer to import the processed CSV in the same way which we imported the questions. This CSV file can be found at \verb`/data/comments/comments.csv`

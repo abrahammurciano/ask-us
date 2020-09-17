@@ -47,7 +47,14 @@ We used the data generator tool in PL/SQL developer, as shown in figure \ref{ans
 
 \subsection{Populating Comments}
 
-We used the data generator tool to generate 1,000 random comments, but in order to avoid randomly generating circular ancestry with comments, we assigned all comments to a single question. Then we exported the data as a CSV which we then modified so that each comment referenced a post with an ID smaller that the ID of that comment. We then truncated the table to remove the random data, and used the text importer to import the processed CSV in the same way which we imported the questions. This CSV file can be found at \verb`/data/comments/comments.csv`
+We used the data generator tool to generate 1,000 random comments. The settings used to generate these can be seen in figure \ref{comments-generator}.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\linewidth]{images/comments_generator.jpeg}
+	\caption{The configurations in the data generator tool for the comments table}
+	\label{comments-generator}
+\end{figure}
 
 \subsection{Populating Topics}
 
