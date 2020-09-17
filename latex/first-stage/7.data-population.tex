@@ -21,11 +21,11 @@ Since this table only contains one column, and that column's value was always ge
 
 \subsection{Populating Questions}
 
-We were able to obtain a CSV file containing all of the questions which were asked on \LaTeX\ Stack Exchange between January 2010 and September 2020. Since we were restricted on space, we manipulated the CSV file using spreadsheet software to keep only the 1000 shortest questions. After appending an ID from those which we inserted into the \verb`posts` table to each row, and removing all columns which we do not need, we ran the text importer tool in PL/SQL Developer to add all of the data in the CSV file into the \verb`questions` table.
+We were able to obtain a CSV file containing all of the questions which were asked on \LaTeX\ Stack Exchange between January 2010 and September 2020. Since we were restricted on space, we manipulated the CSV file using spreadsheet software to keep only the 1,000 shortest questions. After appending an ID from those which we inserted into the \verb`posts` table to each row, and removing all columns which we do not need, we ran the text importer tool in PL/SQL Developer to add all of the data in the CSV file into the \verb`questions` table.
 
 Figure \ref{questions-text-import} shows the configurations for the text importer which was used to import the questions from our CSV file.
 
-\begin{figure}[hbp]
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\linewidth]{images/questions_text_import_1.jpeg}
 	\vspace{2em}
@@ -36,7 +36,18 @@ Figure \ref{questions-text-import} shows the configurations for the text importe
 
 \subsection{Populating Answers}
 
+We used the data generator tool in PL/SQL developer, as shown in figure \ref{answers-generator}, to populate this table with 1,000 random records.
 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\linewidth]{images/answers_generator.jpeg}
+	\caption{The configurations in the data generator tool for the answers table}
+	\label{answers-generator}
+\end{figure}
+
+\subsection{Populating Comments}
+
+We used the data generator tool to generate 1,000 random comments, but in order to avoid randomly generating circular ancestry with comments, we assigned all comments to a single question. Then we exported the data as a CSV which we then modified so that each comment referenced a post with an ID smaller that the ID of that comment. We then truncated the table to remove the random data, and used the text importer to import the processed CSV in the same way which we imported the questions. This CSV file can be found at \verb`/data/comments/comments.csv`
 
 \subsection{Populating Topics}
 
@@ -44,13 +55,21 @@ We were able to find a large list with 1,547 topics which Quora uses to organise
 
 \VerbatimInput[label=\fbox{\color{Black}/data/topics/topics\_to\_insert.py}]{../../data/topics/topics_to_insert.py}
 
+\subsection{Populating Votes}
+
+We used the data generator to populate this table. The settings we used to generate the random data is practically identical to those seen in figure \ref{follows-generator}.
+
 \subsection{Populating Follows}
 
-This table was populated using the data generator tool in PL/SQL Developer. We asked the system to generate a number from the users' ID column for the foreign key to that row, and similarly for the other foreign key. Figure \ref{follows-generator} shows the settings we used to generate 1000 rows.
+This table was populated using the data generator tool in PL/SQL Developer. We asked the system to generate a number from the users' ID column for the foreign key to that row, and similarly for the other foreign key. Figure \ref{follows-generator} shows the settings we used to generate 1,000 rows.
 
-\begin{figure}[hbp]
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\linewidth]{images/follows_generator.jpeg}
 	\caption{Settings used for generating the follows table data}
 	\label{follows-generator}
 \end{figure}
+
+\subsection{Populating Relates To}
+
+This table also had its data generated in the same way as the \verb`follows` and \verb`relates_to` tables.
