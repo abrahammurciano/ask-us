@@ -1,0 +1,24 @@
+\subsection{Queries}
+
+Now that we have built and populated our database, it is time that we use it to retrieve useful information for various users. Therefore we need to create some queries that will perform this task.
+
+\subsubsection{Query Descriptions}
+
+What follows is a description of some queries that will need to be retrieved from the database.
+
+\begin{enumerate}
+	\item
+	Perhaps the most frequent query that will be used is a search query. In essence, the query would be \emph{obtain all questions whose title or body contain the provided words}.
+
+	\item
+	Another query which will be often requested is one that retrieves questions to display on a user's home page. We can describe it as follows. \emph{Retrieve the most popular questions which relate to a topic which a certain user follows}.
+
+	\item
+	An alternative query to the previous one with a similar purpose can be to obtain new questions which have not yet been answered instead of popular ones. We can describe this one as follows. \emph{Retrieve the newest unanswered questions which relate to a topic which a certain user follows}.
+
+	\item
+	This query is one that will have to be performed every time a question is loaded. \emph{Find all answers which answer the question with a particular ID}.
+
+	\item
+	Similar to the previous one, whenever any post is loaded, we would need to query for all the comments on that post. \emph{Select all comments whose parent post has a certain ID}.
+\end{enumerate}
