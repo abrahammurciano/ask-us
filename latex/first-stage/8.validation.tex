@@ -1,6 +1,6 @@
-\section{Validating the Data}
+\subsection{Validating the Data}
 
-\subsection{Negative Points for Certain Questions}
+\subsubsection{Negative Points for Certain Questions}
 
 Since the data we used for populating the questions table was obtained from Stack Exchange, some of the questions had a negative number for the points field. However, unlike Stack Overflow, we do not allow negative points, since we only provide users with the ability to up-vote posts, not to down-vote them.
 
@@ -10,7 +10,7 @@ We therefore ran the following SQL statement to negate all the negative values.
 	UPDATE questions SET points = -points WHERE points < 0;
 \end{verbatim}
 
-\subsection{Circular References in Comment Hierarchy}
+\subsubsection{Circular References in Comment Hierarchy}
 
 Since we randomly generated the comments, and each comment has a field \verb`post_id`, we ended up with some circular references where a comment was its own parent, or a comment's descendant was also an ancestor of that same comment.
 

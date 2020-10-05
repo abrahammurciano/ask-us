@@ -1,5 +1,5 @@
-\section{Normalization}
-\subsection{Functional Dependencies}
+\subsection{Normalization}
+\subsubsection{Functional Dependencies}
 These are the functional dependencies for the \textsc{User} table.
 \begin{gather*}
 	\text{ID} \to \text{(Name, Email, Password, Points)} \\
@@ -16,7 +16,7 @@ These are the functional dependencies for the \textsc{Answer} table.
 The tables for \textsc{Post}, \textsc{Follows}, \textsc{Relates to} and \textsc{Vote} have no non trivial functional dependencies.
 
 
-\subsection{Third Normal Form}
+\subsubsection{Third Normal Form}
 All the tables above are in 3NF because all the functional dependencies of the form \(X \to Y\) satisfiy the condition ``\(X\) is a superkey''.
 
 The tables for \textsc{Post}, \textsc{Follows}, \textsc{Relates to} and \textsc{Vote} to are also in 3NF since they have no non-trivial functional dependencies.
