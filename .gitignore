@@ -6,4 +6,5 @@ __latexindent_temp.tex
 *.synctex.gz
 *.toc
 *.out
+*.pdf
 !**/images/*.pdf
