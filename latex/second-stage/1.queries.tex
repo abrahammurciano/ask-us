@@ -31,26 +31,27 @@ What follows is a description of some queries that will need to be retrieved fro
 	\item
 	Ask Us is interested in suggesting trending topics for users to explore. So we would need to write a query that retrieves the following data. \emph{Select the five topics which have had the most posts and votes within the past few days}.
 
-	\subsubsection{Writing the Queries in SQL}
-
-	Next we must convert these queries into SQL code. Wherever user input would have been appropriate, we used a literal instead. The first query searches for a certain search phrase which is provided by the user. Here it is in SQL.
-
-	\VerbatimInput[label=\fbox{\color{Black}/sql/queries/search.sql}]{../sql/queries/search.sql}
-
-	The next queries retrieve information to display on a user's home page, sorted to show the most popular or the newest answers. They are displayed below in SQL.
-
-	\VerbatimInput[label=\fbox{\color{Black}/sql/queries/home\_page\_popularity.sql}]{../sql/queries/home_page_popularity.sql}
-	\VerbatimInput[label=\fbox{\color{Black}/sql/queries/home\_page\_new.sql}]{../sql/queries/home_page_new.sql}
-
-	Next we have the query that retrieves all the answers to a question.
-
-	\VerbatimInput[label=\fbox{\color{Black}/sql/queries/answers.sql}]{../sql/queries/answers.sql}
-
-	After that, we created the query that obtains the direct child comments of a particular post.
-
-	\VerbatimInput[label=\fbox{\color{Black}/sql/queries/comments.sql}]{../sql/queries/comments.sql}
-
-
-
-
 \end{enumerate}
+
+\subsubsection{Writing the Queries in SQL}
+
+Next we must convert these queries into SQL code. Wherever user input would have been appropriate, we used a literal instead. The first query searches for a certain search phrase which is provided by the user. Here it is in SQL.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/queries/search.sql}]{../sql/queries/search.sql}
+
+The next queries retrieve information to display on a user's home page, sorted to show the most popular or the newest answers. They are displayed below in SQL.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/queries/home\_page\_popularity.sql}]{../sql/queries/home_page_popularity.sql}
+\VerbatimInput[label=\fbox{\color{Black}/sql/queries/home\_page\_new.sql}]{../sql/queries/home_page_new.sql}
+
+Next we have the query that retrieves all the answers to a question.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/queries/answers.sql}]{../sql/queries/answers.sql}
+
+After that, we created the query that obtains the direct child comments of a particular post.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/queries/comments.sql}]{../sql/queries/comments.sql}
+
+The next query we have is the one that finds all answers for a particular user's questions.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/queries/inbox.sql}]{../sql/queries/inbox.sql}
