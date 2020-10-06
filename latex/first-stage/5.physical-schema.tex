@@ -22,7 +22,7 @@ Below is the SQL statement which creates our table that contains the IDs of all 
 
 This is the SQL command that generates the questions table. The field \verb`body` is of the CLOB data type, which is short for `character large object'. The \verb`varchar` data type has much smaller length restrictions which would not suffice to allow for long questions.
 
-In this table, we have introduced for the first time the \verb`timestamp` field in SQL. Its data type is \verb`date`, which gives us a date and time representation, accurate up to one second, which is enough for us to record the creation dates of questions (as well as answers and comments). By default, it is assigned the current date and time at the time of insertion of each row.
+In this table, we have introduced for the first time the \verb`timestamp` field in SQL. Its data type is \verb`date`, which gives us a date and time representation, accurate up to one second, which is enough for us to record the creation dates of questions (as well as answers and comments). By default, it is assigned the current date and time at the time of insertion of each row. The \verb`author_id` is the ID of the user who wrote this question.
 
 \VerbatimInput[label=\fbox{\color{Black}/sql/create-table/questions.sql}]{../sql/create-table/questions.sql}
 

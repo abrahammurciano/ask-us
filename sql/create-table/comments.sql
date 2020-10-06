@@ -3,5 +3,6 @@ create table comments(
 	parent_post_id number(8) references posts(id) not null,
 	body clob not null,
 	points number(10) default 0 not null,
-	timestamp date default sysdate not null
+	timestamp date default sysdate not null,
+	author_id number(8) references users(id) not null
 );

@@ -7,12 +7,12 @@ These are the functional dependencies for the \textsc{User} table.
 \end{gather*}
 These are the functional dependencies for the \textsc{Topic} table.
 \[\text{ID} \to \text{(Name, Description)}\]
-These are the functional dependencies for the \textsc{Comment} table.
-\[\text{Post ID} \to \text{(Parent Post ID, Body, Points, TimeStamp)}\]
 These are the functional dependencies for the \textsc{Question} table.
-\[\text{Post ID} \to \text{(Title, Body, Points, TimeStamp)}\]
+\[\text{Post ID} \to \text{(Title, Body, Points, TimeStamp, Author ID)}\]
 These are the functional dependencies for the \textsc{Answer} table.
-\[\text{Post ID} \to \text{(Accepted, Question ID, Body, Points, TimeStamp)}\]
+\[\text{Post ID} \to \text{(Accepted, Question ID, Body, Points, TimeStamp, Author ID)}\]
+These are the functional dependencies for the \textsc{Comment} table.
+\[\text{Post ID} \to \text{(Parent Post ID, Body, Points, TimeStamp, Author ID)}\]
 The tables for \textsc{Post}, \textsc{Follows}, \textsc{Relates to} and \textsc{Vote} have no non trivial functional dependencies.
 
 
