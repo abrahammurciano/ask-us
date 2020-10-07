@@ -1,0 +1,81 @@
+"POST_ID","TITLE","BODY","POINTS","TIMESTAMP","AUTHOR_ID"
+"573","How to create a crossword puzzle in LaTeX?","<p>As the title already states I'd like to know how to create a crossword puzzle in LaTeX. Any ideas?</p>
+","50","16/02/2012 15:38:00","176"
+"634","Add word to TexMaker dictionary?","<p>How can I add a word to the dictionary of TexMaker? I cannot see any options for this in the software.</p>
+","45","27/11/2012 10:50:00","205"
+"208","Suppressing hyphenation across pages","<p>Is there a way of preventing the last word of a page from being hyphenated?</p>
+","34","09/01/2011 11:33:00","450"
+"148","Commenting out a few words within a paragraph?","<p>Is there anyway by which I can comment out a word within a sentence?</p>
+","26","05/11/2015 05:40:00","552"
+"220","Is there a package to secure rendered pdf with a password?","<p>Is there a package and command that can secure rendered pdf with a password?</p>
+","21","27/07/2011 09:33:00","118"
+"733","Is there an automatic process to create index creation?","<p>Certainly, there must be some way to somewhat create a list of words suggested to be included in an index.</p>
+","21","03/08/2010 00:44:00","855"
+"253","How do I prevent TeX from hyphenating acronyms?","<p>Upper-case words look awkward when hyphenated. How do I suppress this behavior?</p>
+","16","18/03/2012 01:02:00","448"
+"586","Spaces width between the words","<p>What is the width of the spaces between the words (by default) that LaTeX uses for text formatting?</p>
+","14","30/05/2011 07:53:00","271"
+"946","Aligning text in LyX: left/center/right","<p>How can I center/right/left align text in LyX? In Microsoft Word, I can just click the
+3 buttons on the toolbar.</p>
+","9","06/01/2012 00:48:00","354"
+"823","Resetting a dictionary in TexStudio/MikTeX","<p>I accidentally ""always ignore""d a wrong wrong word. How do I undo it and make the old dictionary clean again?</p>
+","6","25/01/2014 12:15:00","352"
+"181","Hyphenation anywhere","<p>Is there a (simple) way to allow hypheation a-n-y-w-h-e-r-e in any word?</p>
+","5","26/10/2015 21:52:00","31"
+"971","Shortcut to repeat the last action in LyX","<p>How to create a shortcut or hot key to repeat the last action done in LyX to be as in MS Word <code>F4</code> key?</p>
+","5","13/01/2013 23:54:00","898"
+"332","How to use biblatex with msword","<p>Is there some tool to use biblatex with msword? Has someone used it with Bibtex4Word?</p>
+","4","13/11/2013 00:25:00","262"
+"582","How to put cross mark on a word?","<p>I am wondering if there exists any command in LaTeX with which one can put a cross mark on a word?</p>
+","4","16/02/2018 20:18:00","876"
+"569","Short vowel symbol, as in ""k?±zlar?±n""?","<p>How do I typeset the short <code>i</code> vowel, as in this Turkish word, <code>k?±zlar?±n</code>?</p>
+","4","09/03/2011 08:48:00","536"
+"643","Copying figure from Word to LaTeX","<p>I have a figure drawn in Word. I would like to include this in my LaTeX document without redrawing it.</p>
+","3","08/08/2015 17:40:00","561"
+"973","Word count in LyX which does not include Figure captions","<p>Is they a way of obtaining a word count in LyX that does not include text inside captions (Figures, tables etc.)? </p>
+","3","25/04/2013 14:17:00","54"
+"96","In Lyx find a word and replace with ERT","<p>In Lyx how do I find and replace words with latex code (ERT)?</p>
+","2","16/03/2011 16:56:00","153"
+"956","How to include the word ""page"" in \pageref{} command output","<p>How can i get automatically the output ""page X"" and not only ""X"", when using the <code>\pageref{}</code> command?</p>
+","2","14/01/2017 12:05:00","972"
+"650","Does Texstudio offer word complete feature?","<p>I am using Texstudio with LaTex. To save typing time, does TexStudio offer auto word complete feature.</p>
+","2","27/11/2016 13:18:00","946"
+"454","Can the result of `\eqref{eq:einsten}` be something other than the default number?","<p>When I use \eqref, it produce, say, (2.5).
+It is possible to produce like ""my owner words""?</p>
+","1","03/04/2013 19:03:00","380"
+"834","Can I put a word count right into my LaTeX book?","<p>I want to say inside my book how many words it has. Are you aware of any packages that can help me with this?</p>
+","1","10/08/2016 20:37:00","290"
+"626","Underline entire line in algorithm2e","<p>is there a way to underline entire line of code in algorithm2e? Including keywords like for each etc.</p>
+","1","03/05/2015 18:41:00","878"
+"552","How can I cite a chapter in the same article or book","<p>In other word, if I want to reference ""Section II.A"" in the article. What should I do, thank you.</p>
+","1","16/06/2013 13:05:00","638"
+"176","Word count for each collaborator in ShareLateX","<p>Is it possible to do word counting for each collaborator in ShareLateX?</p>
+","0","18/06/2018 13:26:00","148"
+"190","Counting text within tabular environments","<p>Does anyone know how I can count the words within tabular environments? </p>
+","0","08/03/2018 09:06:00","781"
+"423","How to make the \textsc words bold?","<p>I want the title to be in the font small capital but want them to be bold at the same time</p>
+","0","19/11/2015 13:04:00","166"
+"646","Does most of the formatting remain intact when a standard thesis PDF is converted to Word?","<p>Overall formatting of the PDF document which was built from LaTeX and then later converted to MS Word.</p>
+","0","21/11/2014 03:27:00","90"
+"579","Is there a way to make a word bold every time?","<p>Is there a way to make a certain word bold every time in comes in the document? </p>
+
+<p>Thanks.</p>
+","0","19/11/2016 16:27:00","651"
+"958","How to write this text?","<pre><code>v
+a
+l
+i
+d
+a
+t
+i
+o
+n
+</code></pre>
+
+<p>I need to write the word as vertically. I use overleaf.</p>
+","0","12/08/2019 13:08:00","861"
+"830","Compilation LaTeX to Word","<p>Is there any way to compilte a <code>*.tex</code> file to word instead of pdf?</p>
+
+<p>Thank you very much.</p>
+","0","21/03/2017 12:06:00","640"

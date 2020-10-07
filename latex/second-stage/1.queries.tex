@@ -29,29 +29,39 @@ What follows is a description of some queries that will need to be retrieved fro
 	Ask Us is interested in sending out a weekly newsletter containing the most popular questions with one of their answers each from the previous week. A query which would obtain these questions would look like this. \emph{Obtain a certain number of questions, as well as each of their highest voted answers, which were posted between two weeks ago and one week ago, and received the most votes within a week of their posting}.
 
 	\item
-	Ask Us is interested in suggesting trending topics for users to explore. So we would need to write a query that retrieves the following data. \emph{Select the five topics which have had the most posts and votes within the past few days}.
+	Ask Us would like to display on a user's profile page all the questions, answers, and comments which they posted. \emph{Retrieve all questions, answers, and comments whose author is a specific user, sorted by newest first}.
 
 \end{enumerate}
 
 \subsubsection{Writing the Queries in SQL}
 
-Next we must convert these queries into SQL code. Wherever user input would have been appropriate, we used a literal instead. The first query searches for a certain search phrase which is provided by the user. Here it is in SQL.
+Next we must convert these queries into SQL code. Wherever user input would have been appropriate, we used a literal instead. The results obtained are logged in CSV files in the directory \verb`/sql/queries/results/`.
+
+The first query searches for a certain search phrase which is provided by the user. Here it is in SQL. This query took 0.071 seconds to execute.
 
 \VerbatimInput[label=\fbox{\color{Black}/sql/queries/search.sql}]{../sql/queries/search.sql}
 
-The next queries retrieve information to display on a user's home page, sorted to show the most popular or the newest answers. They are displayed below in SQL.
+The next queries retrieve information to display on a user's home page, sorted to show the most popular or the newest answers. They are displayed below in SQL. They took 0.015 seconds and 0.012 seconds to execute, respectively.
 
 \VerbatimInput[label=\fbox{\color{Black}/sql/queries/home\_page\_popularity.sql}]{../sql/queries/home_page_popularity.sql}
 \VerbatimInput[label=\fbox{\color{Black}/sql/queries/home\_page\_new.sql}]{../sql/queries/home_page_new.sql}
 
-Next we have the query that retrieves all the answers to a question.
+Next we have the query that retrieves all the answers to a question. This one took 0.015 seconds to retrieve the results.
 
 \VerbatimInput[label=\fbox{\color{Black}/sql/queries/answers.sql}]{../sql/queries/answers.sql}
 
-After that, we created the query that obtains the direct child comments of a particular post.
+After that, we created the query that obtains the direct child comments of a particular post. This query took 0.01 seconds.
 
 \VerbatimInput[label=\fbox{\color{Black}/sql/queries/comments.sql}]{../sql/queries/comments.sql}
 
 The next query we have is the one that finds all answers for a particular user's questions.
 
 \VerbatimInput[label=\fbox{\color{Black}/sql/queries/inbox.sql}]{../sql/queries/inbox.sql}
+
+The query which retrieves content for the newsletter is written in SQL here.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/queries/newsletter.sql}]{../sql/queries/newsletter.sql}
+
+The last query we have is one that retrieves the content to display on a user's profile page.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/queries/profile.sql}]{../sql/queries/profile.sql}
