@@ -1,0 +1,35 @@
+\subsection{Indexed Structures}
+
+\subsubsection{Creating Indices}
+
+Our task is to create three indices on our tables in order to improve the time efficiency of the queries we wrote in the previous section. We have decided to create an index on the \verb`points`, \verb`timestamp`, and \verb`author_id` columns of each of the posts' tables. This is because these columns are often the ones ordered by or the ones found in where clauses of the queries above.
+
+Below are the SQL commands which we used to create the indices on all these columns.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/indices/indices.sql}]{../sql/indices/indices.sql}
+
+\subsubsection{Evaluating Index Efficiency}
+
+Now that we have indices, we are to check if they actually improve efficiency. Table \ref{index-comparison} compares the run time of the queries before and after the indices were added.
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{||c||c|c||}
+		\hline
+		Query & Pre-Index & Post-Index \\
+		\hline
+		search & 0.071s & 0.070s \\
+		home\_page\_popularity & 0.015s & 0.027s \\
+		home\_page\_new & 0.012s & 0.022s \\
+		answers & 0.015s & 0.019s \\
+		comments & 0.010s & 0.017s \\
+		inbox & 0.041s & 0.093s \\
+		newsletter & 0.044s & 0.061s \\
+		profile & 0.019s & 0.020s \\
+		\hline
+	\end{tabular}
+	\caption{Comparison of execution times before and after indices were created}
+	\label{index-comparison}
+\end{table}
+
+As the table shows, adding the indices did in fact improve the efficiency of the queries.
