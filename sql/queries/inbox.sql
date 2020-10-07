@@ -42,7 +42,7 @@ select * from (
 		select
 			to_char(substr(p.body, 1, 20)) subject,
 			to_char(substr(c.body, 1, 100)) preview,
-			c.tumestamp
+			c.timestamp
 		from
 			comments c
 			inner join comments p
