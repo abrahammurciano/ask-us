@@ -54,14 +54,14 @@ After that, we created the query that obtains the direct child comments of a par
 
 \VerbatimInput[label=\fbox{\color{Black}/sql/queries/comments.sql}]{../sql/queries/comments.sql}
 
-The next query we have is the one that finds all answers for a particular user's questions.
+The next query we have is the one that finds all answers for a particular user's questions. This one took 0.041 seconds.
 
 \VerbatimInput[label=\fbox{\color{Black}/sql/queries/inbox.sql}]{../sql/queries/inbox.sql}
 
-The query which retrieves content for the newsletter is written in SQL here.
+The query which retrieves content for the newsletter is written in SQL here. This query took 0.44 seconds to run. Since at the time which we ran the query there was no data with a timestamp within the past seven days, we ran the query to retrieve data from the past year only for this test.
 
 \VerbatimInput[label=\fbox{\color{Black}/sql/queries/newsletter.sql}]{../sql/queries/newsletter.sql}
 
-The last query we have is one that retrieves the content to display on a user's profile page.
+The last query we have is one that retrieves the content to display on a user's profile page. This query took 0.019 seconds.
 
 \VerbatimInput[label=\fbox{\color{Black}/sql/queries/profile.sql}]{../sql/queries/profile.sql}

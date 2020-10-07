@@ -1,0 +1,45 @@
+"TITLE","QUESTION","ANSWER","POINTS"
+"what is \kern good for","<p>What is <code>\kern</code> instruction good for and how is it defined?
+I cannot find it in Knuth's book TeXbook.</p>
+","facilis. qui minim. ","191"
+"How to print double backslash?","<p>Is there an easy way to print ""\\"" in a Latex document? I tried using <code>\\\</code> and it threw an error.</p>
+","ut et. do maiores dolores consequatur est quis ea optio nulla laboris facere sed vero provident velit occaecati hic consectetur debitis sint. ","532"
+"What length does font size refer to?","<p>What exactly is the size of a font?  Is there a certain length that must always be 10pt in a 10pt font?</p>
+","ducimus pariatur quos est hic atque quidem eu assumenda debitis sunt sed et nostrud et repudiandae velit sed. aut itaque est omnis deserunt sit deserunt harum vero provident tempor rerum autem possimus minim accusamus omnis non in excepturi commodo a. ","587"
+"Splitting Table Of Contents into two halves","<p>I want my table of contents to be displayed in two halves side by side on the same page, what am I supposed to do?</p>
+","at id repellat atque assumenda sint deserunt enim ea possimus rerum cum est eu eligendi quos laborum voluptatibus quibusdam sunt. quis nostrud eveniet facilis omnis ut laboris eos et dolore et est tempor ut laborum repellat do duis qui aliquip anim. ","957"
+"Scientific Workplace how to do $\mathbb{P}, \mathcal{F}$","<p>how to do <code>$\mathbb{P}, \mathcal{F}$</code> in this program?</p>
+","non. quis incididunt cillum aliqua iusto cum ut dolorum dolor laborum do reiciendis esse perferendis ut itaque sapiente in nisi sunt repudiandae deleniti harum adipisicing et. 
+nam. ","901"
+"Export beamer presentation to mp4","<p>Is there any way to convert latex generated presentations to mp4 video? The time for slides need not be same. </p>
+","amet veniam consequatur excepteur sunt placeat dolor earum et id delectus. mollit praesentium proident iusto proident optio laborum cum fugiat. ","40"
+"How to number slides in the beamer theme Berkeley?","<p>How to enumerate each slide using the theme Berkeley without the final part of the index having a blank piece?</p>
+","recusandae aut eiusmod sed deserunt eligendi dolores corrupti rerum commodo fugiat maiores voluptates atque non maxime corrupti dolor nulla veniam laborum voluptatibus voluptate laborum distinctio. 
+enim soluta commodo culpa sint similique in sint. deserunt molestiae et perferendis molestias laborum exercitation itaque sunt iusto excepteur in vero doloribus dolores dolorum veniam lorem distinctio ut saepe. ","105"
+"Difference between {} or = to give values in commands","<p>Difference between <code>{}</code> or <code>=</code> to give values in latex commands.</p>
+","nam id voluptates officiis earum et eveniet vero aut impedit aliqua dolor est distinctio elit qui occaecati id dolore dignissimos libero nobis et sint ut. 
+proident quas omnis tenetur in soluta do. occaecat laborum duis aut incididunt maxime non minim laboris voluptates reiciendis id maxime consectetur mollit expedita qui tempore sit sint repudiandae dolore id tempore expedita. 
+ea in et quo et rerum. ","544"
+"New line in math mode with two dollars","<p>Is there a way to got a new line in math mode with two dollars  $$ ... $$ ? </p>
+
+<p>Thanks in advance. </p>
+","est reiciendis non culpa dolores anim cumque rerum minus et alias sunt in rerum in. voluptates in id possimus adipisicing libero aliqua quo non excepteur deserunt exercitation amet maxime cupidatat amet accusamus consequat excepteur quo deserunt adipisicing iusto. ","178"
+"Is there a way to highlight overfull hboxes?","<p>I want to visually find the overfull hboxes in my document. Is there a way to highlight them in the document?</p>
+","ducimus. ","907"
+"How do I cross-reference a previous page in a footnote?","<p>I don't find the command to make a cross-reference.</p>
+","fuga vero voluptates facilis tempor quas soluta lorem dignissimos rerum corrupti rerum doloribus necessitatibus itaque qui elit nobis corrupti ad amet est. do mollitia sunt odio expedita duis molestias occaecati rerum exercitation deleniti at asperiores voluptatum est cupidatat commodo earum cillum qui enim dolor occaecat officia ut. 
+aut. ","845"
+"what is the difference between exsol and xsim package?","<p>what is the difference between exsol and xsim  package? And which is the closest one to exam document class?</p>
+","blanditiis repellat est omnis non aliquip non harum voluptas doloribus iusto at omnis esse cumque provident fuga itaque dolor doloribus similique eveniet molestiae anim id. 
+nulla sed dolores ut tempore. exercitation aut qui qui dolor accusamus culpa corrupti. ","731"
+"How to get mathbb{1} to work in beamer? (or similar alternative)","<p>Idk why beamer thinks changing \mathbb{1} to what it does is a good idea, but how do I get it back?</p>
+","sit dolore laborum et cum dolor aut irure qui et sapiente est elit harum duis voluptatum sunt excepteur rerum perferendis eveniet dolor aut dolor libero. 
+non vero quo accusamus omnis dolor sunt. quibusdam in vero occaecati aliqua dolorum nam reprehenderit temporibus facilis doloribus doloribus corrupti officia eos alias sunt anim cum earum excepteur earum omnis sed in. 
+sunt sint. ","310"
+"How to exchange order of numbers in multiple citations ([3-1] instead of [1-3])?","<p>I use natbib with xepersian. I want to change the order of compressed references numbers from [1-3] to [3-1].</p>
+","magna libero et officia et impedit cupiditate incididunt et aute ipsum hic occaecat sapiente excepteur est veniam expedita omnis non nostrud nostrud exercitation et est. 
+eos quidem hic adipisicing delectus libero irure incididunt. non officia dolor tenetur nulla assumenda est adipisicing iusto laboris omnis aliquip veniam non reprehenderit accusamus ducimus et deleniti ut consequatur fuga aliquip eiusmod culpa. 
+voluptate mollit cupidatat ipsum proident et esse et et. ","940"
+"I need a latex template for Springer annals of biomedical engineering","<p>Can any body provide the latex template for a journal Annals of biomedical engineering? I couldn't find it online.</p>
+","similique est ullamco est quis sint minim quod praesentium nostrud earum repellat officiis ut harum ipsum culpa fuga nisi et nisi earum molestias tenetur nobis. 
+est autem commodo et placeat labore quo ipsum rerum ut cumque ad. sed rerum aliquip dolor tenetur do quas molestias ut dolore a voluptates. ","80"
