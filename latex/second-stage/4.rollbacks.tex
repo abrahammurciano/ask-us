@@ -5,3 +5,7 @@ We are to write an SQL script which selects a subset of the data from one of our
 We have written a script, which is shown below, which selects all the users who have a username starting with the letter A. Thirty records were found which satisfy this condition. Then the script changes their email address to end in `@aol.com'.
 
 \VerbatimInput[label=\fbox{\color{Black}/sql/rollback/rollback.sql}]{../sql/rollback/rollback.sql}
+
+The results of the first select statement before the update (statement 1) can be found in \verb`/data/rollback/pre-update.csv` and the results of the last select statement after the rollback (statement 5) can be found in \verb`/data/rollback/` \verb`post-rollback.csv`. As expected, they are identical. The reason for this is that when we run the update statement, it is in some temporary state until the changes are committed. Since they are then rolled back, they are never committed, so by the end of the script the data has not changed at all.
+
+Next, we are to run the same script, but instead of the rollback command, we are to commit the changes. This time, the

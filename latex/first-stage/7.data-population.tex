@@ -4,7 +4,7 @@ Now that we have successfully created all the necessary data, it is time to fill
 
 \subsubsection{Populating Users}
 
-We retrieved a large excel file containing over one hundred thousand users' data from the internet, but since we had no remaining space in the database we had to shrink that file to only one thousand records. Using the PL/SQL Developer tool called ODBC importer we imported the data which we needed into the users table. Not all of the columns provided were necessary to us, so figure \ref{users-odbc} shows which columns we used. The excel file which we used can be found in \verb`/data/users/user_list.xlsx`.
+We retrieved a large excel file containing over one hundred thousand users' data from the internet, but since we had no remaining space in the database we had to shrink that file to only one thousand records. Using the PL/SQL Developer tool called ODBC importer we imported the data which we needed into the users table. Not all of the columns provided were necessary to us, so figure \ref{users-odbc} shows which columns we used. The excel file which we used can be found in \verb`/data/tables/user_list.xlsx`.
 
 \begin{figure}[hbtp]
 	\centering
@@ -60,7 +60,7 @@ We used the data generator tool to generate 1,000 random comments. The settings 
 
 We were able to find a large list with 1,547 topics which Quora uses to organise their questions. We obtained it in the form of a plain text file with one line for each topic name. Since it contains duplicates, we can must first remove these. Then we generate some randomised description using the python module called \verb`lorem`. This python code shows exactly how the insert statements were generated. The generated SQL code can be found at \verb`/sql/insert/topics.sql`
 
-\VerbatimInput[label=\fbox{\color{Black}/data/topics/topics\_to\_insert.py}]{../data/topics/topics_to_insert.py}
+\VerbatimInput[label=\fbox{\color{Black}/data/tables/topics/topics\_to\_insert.py}]{../data/tables/topics/topics_to_insert.py}
 
 \subsubsection{Populating Votes}
 
