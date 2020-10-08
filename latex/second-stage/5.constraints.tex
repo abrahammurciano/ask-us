@@ -1,0 +1,17 @@
+\subsection{Constraints}
+
+\subsubsection{Adding Constraints}
+
+We are tasked with creating and applying any constraints we deem appropriate to our database. We have already applied all appropriate unique constraints when creating the table, now we will go over all our tables and add check constraints where necessary.
+
+For the users table, we must check that the email address provided is well formed. Meaning that it contains some text, followed by an @ symbol, followed by a domain. We also must ensure that the points are always positive. Here is the alter table command for the users table.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/constraints/users.sql}]{../sql/constraints/users.sql}
+
+When looking at the questions, answers, and comments table, the only field which needed to be checked was once again the points field. Below are the alter table commands for all three.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/constraints/questions.sql}]{../sql/constraints/questions.sql}
+\VerbatimInput[label=\fbox{\color{Black}/sql/constraints/answers.sql}]{../sql/constraints/answers.sql}
+\VerbatimInput[label=\fbox{\color{Black}/sql/constraints/comments.sql}]{../sql/constraints/comments.sql}
+
+\subsubsection{Testing the Constraints}

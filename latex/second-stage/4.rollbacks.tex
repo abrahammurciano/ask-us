@@ -8,4 +8,12 @@ We have written a script, which is shown below, which selects all the users who 
 
 The results of the first select statement before the update (statement 1) can be found in \verb`/data/rollback/pre-update.csv` and the results of the last select statement after the rollback (statement 5) can be found in \verb`/data/rollback/` \verb`post-rollback.csv`. As expected, they are identical. The reason for this is that when we run the update statement, it is in some temporary state until the changes are committed. Since they are then rolled back, they are never committed, so by the end of the script the data has not changed at all.
 
-Next, we are to run the same script, but instead of the rollback command, we are to commit the changes. This time, the statement five did show the email addresses all ending in `@aol.com'. These results can be seen in the file \verb`/data/rollback/post-commit.csv`. (The results of statement one were identical to the results of statement one from the rollback script.) % to do: explain why
+Next, we are to run the same script, but instead of the rollback command, we are to commit the changes. This time, the statement five did show the email addresses all ending in `@aol.com'. These results can be seen in the file \verb`/data/rollback/post-commit.csv`. (The results of statement one were identical to the results of statement one from the rollback script.) The reason that this time we do in fact see the updated records with the last query is because we committed the changes, so they have been permanently applied to the table.
+
+Now we are told to grant access to the user \verb`oracle00` and run the rollback script and the commit script as that user.
+
+\begin{verbatim}
+	grant select on users to oracle00;
+\end{verbatim}
+
+When we ran both scripts, statement two failed in both scripts since that user does not have permission to update records. We were shown an error message saying ``insufficient privileges''.
