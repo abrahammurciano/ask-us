@@ -10,7 +10,7 @@ Below are the SQL commands which we used to create the indices on all these colu
 
 \subsubsection{Evaluating Index Efficiency}
 
-Now that we have indices, we are to check if they actually improve efficiency. Table \ref{index-comparison} compares the run time of the queries before and after the indices were added.
+Now that we have indices, we are to check if they actually improve efficiency. Table \ref{index-comparison} compares the average run time of five executions of each of the queries before and after the indices were added.
 
 \begin{table}[htbp]
 	\centering
@@ -18,18 +18,18 @@ Now that we have indices, we are to check if they actually improve efficiency. T
 		\hline
 		Query & Pre-Index & Post-Index \\
 		\hline
-		search & 0.071s & 0.070s \\
-		home\_page\_popularity & 0.015s & 0.027s \\
-		home\_page\_new & 0.012s & 0.022s \\
-		answers & 0.015s & 0.019s \\
-		comments & 0.010s & 0.017s \\
-		inbox & 0.041s & 0.093s \\
-		newsletter & 0.044s & 0.061s \\
-		profile & 0.019s & 0.020s \\
+		search & 0.0702s & 0.0616s \\
+		home\_page\_popularity & 0.0240s & 0.0198s \\
+		home\_page\_new & 0.0136s & 0.0130s \\
+		answers & 0.0234s & 0.0235s \\
+		comments & 0.0232s & 0.0214s \\
+		inbox & 0.0864s & 0.0810s \\
+		newsletter & 0.0648s & 0.0642s \\
+		profile & 0.0220s & 0.0214s \\
 		\hline
 	\end{tabular}
 	\caption{Comparison of execution times before and after indices were created}
 	\label{index-comparison}
 \end{table}
 
-As the table shows, adding the indices did in fact improve the efficiency of the queries.
+As the table shows, adding the indices did in fact improve the efficiency of the queries, although the difference is not always significant.

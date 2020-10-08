@@ -1,0 +1,21 @@
+\subsection{Updating the Data}
+
+We now have to write some SQL commands that will manipulate the data we have stored.
+
+\subsubsection{Updating Two Records}
+
+We have written an SQL query that will update the email addresses of users `watchfuleye' and `werlwend'. This command is shown below.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/update/emails.sql}]{../sql/update/emails.sql}
+
+\subsubsection{Deleting Two Records}
+
+Here is an SQL command that will delete two records from the follows table. This represents the fact that some user does not want to follow some topic any more.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/update/unfollow.sql}]{../sql/update/unfollow.sql}
+
+\subsubsection{Updating Multiple Records With a Condition}
+
+When we populated the users table, we manually calculated the base 64 encoded SHA256 hash of the string `password' and stored that as all the users' passwords. Now, we will use an SQL command to update the passwords of half of the users (those with an odd ID number) to the first part of their email (before the `@' symbol). Here we present said SQL command.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/update/passwords.sql}]{../sql/update/passwords.sql}
