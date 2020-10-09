@@ -15,3 +15,45 @@ When looking at the questions, answers, and comments table, the only field which
 \VerbatimInput[label=\fbox{\color{Black}/sql/constraints/comments.sql}]{../sql/constraints/comments.sql}
 
 \subsubsection{Testing the Constraints}
+
+To test that all our constraints are working correctly, we ran the following commands which would, if successful, violate some of our constraints. First we tried to add a user with an invalid email address.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/constraints/tests/users.email.sql}]{../sql/constraints/tests/users.email.sql}
+
+This command was unsuccessful and gave the following error message. The reason for this is because the email address provided does not have a valid domain, since there is no dot (.) character.
+
+\begin{verbatim}
+	ORA-02290: check constraint (AMURCIAN.CHECK_USERS_EMAIL) violated
+\end{verbatim}
+
+Subsequently, we ran an update query to ensure that the points field was not able to become negative.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/constraints/tests/questions.points.sql}]{../sql/constraints/tests/questions.points.sql}
+
+Similarly, we obtained an error message as follows, since we do not allow negative values in the points field.
+
+\begin{verbatim}
+	ORA-02290: check constraint (AMURCIAN.CHECK_QUESTIONS_POINTS)
+	violated
+\end{verbatim}
+
+We also checked that unique constraints could not be violated by attempting to update a user's username to an already existing one.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/constraints/tests/users.username.sql}]{../sql/constraints/tests/users.username.sql}
+
+This time, we received a slightly different error message. The reason for the error was because there was already an existing user with the username `werlwend'.
+
+\begin{verbatim}
+	ORA-00001: unique constraint (AMURCIAN.SYS_C00574442) violated
+\end{verbatim}
+
+Finally, we tested a foreign key constraint by deleting a post from the post table, which had both a child comment and its question record referencing it.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/constraints/tests/posts.id.sql}]{../sql/constraints/tests/posts.id.sql}
+
+Once again, as expected, we got an error message, because if the record would have been deleted, there would be a question whose post id would not be in the post table, and there would be a comment whose parent post would not exist.
+
+\begin{verbatim}
+	ORA-02292: integrity constraint (AMURCIAN.SYS_C00574679) violated
+	 - child record found
+\end{verbatim}
