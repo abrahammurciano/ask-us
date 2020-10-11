@@ -1,0 +1,23 @@
+\subsection{Views}
+
+We are tasked with creating a script that creates two views, with two \verb`select`, \verb`insert`, \verb`update`, and \verb`delete` statements for each of the views.
+
+\subsubsection{Users view without passwords}
+
+The first view that we made is called \verb`users_passwordless` and it is essentially the users table, but without the hashed passwords column. Its purpose is to maintain this sensitive information away from some of the less trusted employees at Ask Us who have no need to access it.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/views/users\_passwordless/users\_passwordless.sql}]{../sql/views/users_passwordless/users_passwordless.sql}
+
+Below are two \verb`select` statements which retrieve data from the view.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/views/users\_passwordless/select.sql}]{../sql/views/users_passwordless/select.sql}
+
+\subsubsection{Combination of all different post types}
+
+The second view is intended to combine all the posts, with their content into one `table' \verb`all_posts`.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/views/all\_posts/all\_posts.sql}]{../sql/views/all_posts/all_posts.sql}
+
+We have written the following two \verb`select` statements to test this view.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/views/all\_posts/select.sql}]{../sql/views/all_posts/select.sql}
