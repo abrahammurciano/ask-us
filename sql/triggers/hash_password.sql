@@ -8,11 +8,11 @@ begin
 			UTL_RAW.CAST_TO_VARCHAR2(
 				UTL_ENCODE.BASE64_ENCODE(
 					STANDARD_HASH(
-						:new.password
+						:new.password,
 						'SHA256'
 					)
 				)
 			), 1, 43
-		)
+		);
 	end if;
 end;
