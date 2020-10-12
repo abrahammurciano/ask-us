@@ -12,6 +12,23 @@ Below are two \verb`select` statements which retrieve data from the view.
 
 \VerbatimInput[label=\fbox{\color{Black}/sql/views/users\_passwordless/select.sql}]{../sql/views/users_passwordless/select.sql}
 
+Then we ran these two insert statements on the view. As expected, they did not succeed, and yielded the error message below.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/views/users\_passwordless/insert.sql}]{../sql/views/users_passwordless/insert.sql}
+
+\begin{verbatim}
+	ORA-01400: cannot insert NULL into ("AMURCIAN","USERS",
+	"PASSWORD")
+\end{verbatim}
+
+Next, we tried to update the username of one user and the email of another with the following commands. These completed successfully.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/views/users\_passwordless/update.sql}]{../sql/views/users_passwordless/update.sql}
+
+Finally we tried to remove two users from the view. We first had to find some users who were not referenced by a foreign key. Here are the commands we used to delete them.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/views/users\_passwordless/delete.sql}]{../sql/views/users_passwordless/delete.sql}
+
 \subsubsection{Combination of all different post types}
 
 The second view is intended to combine all the posts, with their content into one `table' \verb`all_posts`.
@@ -21,3 +38,19 @@ The second view is intended to combine all the posts, with their content into on
 We have written the following two \verb`select` statements to test this view.
 
 \VerbatimInput[label=\fbox{\color{Black}/sql/views/all\_posts/select.sql}]{../sql/views/all_posts/select.sql}
+
+We also ran a couple of insert statements on this view, expecting it to fail. Indeed we saw this error message.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/views/all\_posts/insert.sql}]{../sql/views/all_posts/insert.sql}
+
+\begin{verbatim}
+	ORA-01732: data manipulation operation not legal on this view
+\end{verbatim}
+
+Next we ran two update commands, as shown below, but of course, we received the same error.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/views/all\_posts/update.sql}]{../sql/views/all_posts/update.sql}
+
+Finally, we tried to delete some rows from the view, but once again, we received the same error as above.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/views/all\_posts/delete.sql}]{../sql/views/all_posts/delete.sql}

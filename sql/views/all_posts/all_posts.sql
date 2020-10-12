@@ -1,9 +1,9 @@
-create or replace view all_posts
-	(id, body, points, timestamp, type)
+create view all_posts
+	(id, body, points, timestamp, author_id, type)
 as (
-	select post_id, to_char(body), points, timestamp, 'Q' from questions
+	select post_id, to_char(body), points, timestamp, author_id, 'Q' from questions
 	union
-	select post_id, to_char(body), points, timestamp, 'A' from answers
+	select post_id, to_char(body), points, timestamp, author_id, 'A' from answers
 	union
-	select post_id, to_char(body), points, timestamp, 'C' from comments
+	select post_id, to_char(body), points, timestamp, author_id, 'C' from comments
 );
