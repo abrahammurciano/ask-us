@@ -4,4 +4,16 @@ This stage is about using PL/SQL to extend the SQL we have used so far. We have 
 
 First of all, our script uses a cursor loop to display all the topics that each user follows.
 
+\VerbatimInput[label=\fbox{\color{Black}/sql/plsql/loop.sql}]{../sql/plsql/loop.sql}
+
+This script gives us an output like this. (Only the first ten lines are shown here.)
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/plsql/loop\_output.txt}]{../sql/plsql/loop_output.txt}
+
 Then our script uses before insert and update triggers to store the given password as the base 64 encoded SHA256 hash, rather than as the given plain text.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/plsql/triggers/hash\_password.sql}]{../sql/plsql/triggers/hash_password.sql}
+
+Following this, we tested the trigger with an insert and an update statement (shown below), and they both resulted in storing the correct hashed password.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/plsql/triggers/test\_hash\_password.sql}]{../sql/plsql/triggers/test_hash_password.sql}
