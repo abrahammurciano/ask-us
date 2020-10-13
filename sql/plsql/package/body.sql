@@ -21,10 +21,13 @@ create package body user_management as
 	) return boolean is
 		valid number;
 	begin
-		select count(*) into valid
-		from users u
-		where (u.username = id)
-		and (hash_password(password) = u.password);
+		select (
+			case when exists (
+				select * from users u
+				where (u.username = id)
+				and (hash_password(password) = u.password)
+			) then 1 else 0 end
+		) into valid from dual;
 
 		if valid = 1 then
 			return true;

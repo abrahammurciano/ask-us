@@ -5,12 +5,12 @@ create package user_management as
 
 	function check_password(
 		id in users.id%type,
-		password in varchar(255)
+		password in varchar
 	) return boolean;
 
 	procedure change_password(
 		id users.id%type,
-		old_pass varchar(255),
-		new_pass varchar(255)
+		old_pass varchar,
+		new_pass varchar
 	);
 end user_management;
