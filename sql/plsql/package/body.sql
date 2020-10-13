@@ -17,7 +17,7 @@ create package body user_management as
 
 	function check_password(
 		id in users.id%type,
-		password in users.password%type
+		password in varchar(255)
 	)
 	return boolean is valid boolean
 	begin
@@ -30,16 +30,16 @@ create package body user_management as
 
 	procedure change_password(
 		id users.id%type,
-		old_pass users.password%type,
-		new_pass users.password%type
+		old_pass varchar(255),
+		new_pass varchar(255)
 	) is
+	declare
+		hashed_pass users.password%type := hash_password(new_pass)
 	begin
 		if check_password(id, old_pass) = false then
 			dbms_output.put_line('Error: Invalid password.');
 			return;
 		end if;
-
-		hashed_pass users.password%type := hash_password(new_pass)
 
 		cursor c_users is
 			select username, password from users
