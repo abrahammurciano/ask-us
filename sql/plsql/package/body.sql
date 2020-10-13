@@ -63,4 +63,4 @@ create package body user_management as
 		update users u set password = hashed_pass
 		where u.id = id;
 	end;
-;
+end user_management;
