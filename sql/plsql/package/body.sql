@@ -28,12 +28,12 @@ create package body user_management as
 	end;
 
 	procedure change_password(
-		user_id users.id%type,
+		id users.id%type,
 		old_pass varchar(255),
 		new_pass varchar(255)
 	) is
 	begin
-		if check_password(user_id, old_pass) = false then
+		if check_password(id, old_pass) = false then
 			dbms_output.put_line('Error: Invalid password.');
 			return;
 		end if;
@@ -54,7 +54,7 @@ create package body user_management as
 			end loop;
 		end;
 
-		update users set password = hashed_pass
-		where id = user_id;
+		update users u set password = hashed_pass
+		where u.id = id;
 	end;
 ;
