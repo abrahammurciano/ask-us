@@ -21,7 +21,10 @@ create package body user_management as
 	)
 	return boolean is valid boolean
 	begin
-
+		select count(*) into valid
+		from users u
+		where (u.username = id) and (hash_password(password) = u.password);
+		return valid;
 	end;
 
 	procedure change_password(
