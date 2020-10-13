@@ -14,7 +14,7 @@ def enter_username():
 
 #fill in
 def valid_username(username):
-    # check if valid username in the database
+    # query database
     return True
 
 def enter_password():
@@ -29,7 +29,7 @@ def enter_password():
 
 #fill in
 def correct_password(username, password):
-    # check if correct password
+    # query database
     return True
 
 #fill in
