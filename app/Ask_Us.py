@@ -17,7 +17,7 @@ def enter_username():
 
 def valid_username(username):
     cursor = connection.cursor()
-    cursor.execute("SELECT username FROM users WHERE username = ?", (username))
+    cursor.execute("select username from users where username = ?", (username,))
     user_ = cursor.fetchone()
     if user_:
         return True
@@ -45,7 +45,7 @@ def correct_password(username, password):
 
 def get_user_data(username):
     cursor = connection.cursor()
-    cursor.execute("select id, username from users where username = ?", (username))
+    cursor.execute("select id, username from users where username = ?", (username,))
     user = cursor.fetchone()
 
 def present_questions(questions):
@@ -75,7 +75,7 @@ def display_question(question):
         from comments
         where parent_post_id = ?
         order by points desc
-    """, (question[0]))
+    """, (question[0],))
     print("COMMENTS:")
     pprint(cursor.fetchall())
     cursor2 = connection.cursor()
@@ -84,7 +84,7 @@ def display_question(question):
         from answers
         where question_id = ?
         order by points desc
-    """, (question[0]))
+    """, (question[0],))
     print("ANSWERS:")
     pprint(cursor2.fetchall())
 
@@ -103,7 +103,7 @@ def get_questions_keyword():
         from questions
         where lower(questions.title) like lower(?) or lower(questions.body) like lower(?) 
         order by points desc
-        """, (word, word))
+        """, (word['search'], word['search']))
     questions = cursor.fetchall()
     present_questions(questions)
 
@@ -123,7 +123,7 @@ def get_questions_topic():
                 )
             order by points desc
         ) where rownum <= 10;
-        """, (user[0]))
+        """, (user[0],))
     questions = cursor.fetchall()
     present_questions(questions)
 
@@ -146,7 +146,7 @@ def get_unanswered_questions():
             )
 	        order by timestamp desc
             ) where rownum <= 10;
-            """, (user[0]))
+            """, (user[0],))
     questions = cursor.fetchall()
     present_questions(questions)
 
@@ -232,7 +232,7 @@ def get_your_posts():
 
 def existing_topic(topic):
     cursor = connection.cursor()
-    cursor.execute("select id from topics where label = ?", (topic))
+    cursor.execute("select id from topics where label = ?", (topic,))
     topic_ = cursor.fetchone()
     if topic_:
         return True
@@ -269,7 +269,7 @@ def ask_question():
     insert into questions(post_id, title, body, author_id)
     values(?,?,?,?)
     """, (cursor.lastrowid, answers['title'], answers['body'], user[0]))
-    cursor.execute("select id from topics where label = ?", (answers['topic']))
+    cursor.execute("select id from topics where label = ?", (answers['topic'],))
     cursor.execute("insert into relates_to(question_id, topic_id) values(?,?)", (cursor.lastrowid, cursor.fetchone()))
 
 
@@ -285,7 +285,7 @@ def main_menu():
                 '3- Retrieve the newest unanswered questions which relate to a topic you follow',
                 '4- Obtain all answers to questions as well as all comments to posts which were posted by you, sorted from newest to oldest',
                 '5- Retrieve all questions, answers, and comments you authored, sorted by newest first',
-                '6- Ask a question'
+                '6- Ask a question',
                 '0- Sign out'
             ]
         }
