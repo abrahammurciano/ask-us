@@ -43,7 +43,9 @@ def correct_password(username, password):
     else:
         return False
 
+
 def get_user_data(username):
+    global user
     cursor = connection.cursor()
     cursor.execute("select id, username from users where username = ?", (username,))
     user = cursor.fetchone()
@@ -101,7 +103,7 @@ def get_questions_keyword():
     cursor.execute("""
         select *
         from questions
-        where lower(questions.title) like lower(?) or lower(questions.body) like lower(?) 
+        where lower(questions.title) like lower('%'||?||'%') or lower(questions.body) like lower('%'||?||'%') 
         order by points desc
         """, (word['search'], word['search']))
     questions = cursor.fetchall()
@@ -111,20 +113,22 @@ def get_questions_keyword():
 def get_questions_topic():
     cursor = connection.cursor()
     cursor.execute("""
-        select * from (
-            select *
-            from questions q
-            where exists (
-                    select topic_id from follows
-                    where user_id = ?
-                    intersect
-                    select topic_id from relates_to
-                    where question_id = q.post_id
-                )
-            order by points desc
-        ) where rownum <= 10;
+        select *
+        from questions q
+        where exists (
+                select topic_id from follows
+                where user_id = ?
+                intersect
+                select topic_id from relates_to
+                where question_id = q.post_id
+            )
+        order by points desc
+        limit 10
         """, (user[0],))
     questions = cursor.fetchall()
+    if not questions:
+        print("you do not follow any topics")
+        return
     present_questions(questions)
 
 #fill in
@@ -143,11 +147,15 @@ def get_unanswered_questions():
                 ) and not exists (
                     select post_id from answers
                     where question_id = q.post_id
+                )
             )
 	        order by timestamp desc
-            ) where rownum <= 10;
+	        limit 10
             """, (user[0],))
     questions = cursor.fetchall()
+    if not questions:
+        print("you do not follow any topics")
+        return
     present_questions(questions)
 
 #fill in
@@ -155,10 +163,9 @@ def get_answers_to_you():
     cursor = connection.cursor()
     cursor.execute("""
         select * from (
-            (
                 select
                     q.title subject,
-                    to_char(substr(a.body, 1, 100)) preview,
+                    substr(a.body, 1, 100) preview,
                     a.timestamp
                 from
                     answers a
@@ -166,12 +173,10 @@ def get_answers_to_you():
                     on a.question_id = q.post_id
                 where
                     q.author_id = ?
-            )
             union
-            (
                 select
                     q.title,
-                    to_char(substr(c.body, 1, 100)) preview,
+                    substr(c.body, 1, 100) preview,
                     c.timestamp
                 from
                     comments c
@@ -179,12 +184,10 @@ def get_answers_to_you():
                     on c.parent_post_id = q.post_id
                 where
                     q.author_id = ?
-            )
             union
-            (
                 select
-                    to_char(substr(a.body, 1, 20)) subject,
-                    to_char(substr(c.body, 1, 100)) preview,
+                    substr(a.body, 1, 20) subject,
+                    substr(c.body, 1, 100) preview,
                     c.timestamp
                 from
                     comments c
@@ -192,12 +195,10 @@ def get_answers_to_you():
                     on c.parent_post_id=a.post_id
                 where
                     a.author_id = ?
-            )
             union
-            (
                 select
-                    to_char(substr(p.body, 1, 20)) subject,
-                    to_char(substr(c.body, 1, 100)) preview,
+                    substr(p.body, 1, 20) subject,
+                    substr(c.body, 1, 100) preview,
                     c.timestamp
                 from
                     comments c
@@ -205,8 +206,7 @@ def get_answers_to_you():
                     on c.parent_post_id=p.post_id
                 where
                     p.author_id = ?
-            )
-        ) order by timestamp desc;
+        ) order by timestamp desc
         """, (user[0], user[0], user[0], user[0]))
     pprint(cursor.fetchall())
 
@@ -219,11 +219,11 @@ def get_your_posts():
 	        from questions
 	        where author_id = ?
 	        union
-	        select to_char(substr(body, 1, 4000)), points, timestamp
+	        select substr(body, 1, 4000), points, timestamp
 	        from answers
 	        where author_id = ?
 	        union
-	        select to_char(substr(body, 1, 4000)), points, timestamp
+	        select substr(body, 1, 4000), points, timestamp
 	        from comments
 	        where author_id = ?
         ) order by timestamp desc;
@@ -234,10 +234,7 @@ def existing_topic(topic):
     cursor = connection.cursor()
     cursor.execute("select id from topics where label = ?", (topic,))
     topic_ = cursor.fetchone()
-    if topic_:
-        return True
-    else:
-        return False
+    return topic_
 
 #fill in
 def ask_question():
@@ -260,17 +257,19 @@ def ask_question():
         }
     ]
     answers = prompt(questions)
-    if not existing_topic(answers['topic']):
+    topic_id = existing_topic(answers['topic'])
+    if not topic_id:
         print("cannot use topic that doesnt exist")
         return
     cursor = connection.cursor()
     cursor.execute("insert into posts default values")
+    cursor.execute("select id from posts where rowid = ?", (cursor.lastrowid,))
+    post_id = cursor.fetchone()[0]
     cursor.execute("""
     insert into questions(post_id, title, body, author_id)
     values(?,?,?,?)
-    """, (cursor.lastrowid, answers['title'], answers['body'], user[0]))
-    cursor.execute("select id from topics where label = ?", (answers['topic'],))
-    cursor.execute("insert into relates_to(question_id, topic_id) values(?,?)", (cursor.lastrowid, cursor.fetchone()))
+    """, (post_id, answers['title'], answers['body'], user[0]))
+    cursor.execute("insert into relates_to(question_id, topic_id) values(?,?)", (post_id, topic_id[0]))
 
 
 def main_menu():
