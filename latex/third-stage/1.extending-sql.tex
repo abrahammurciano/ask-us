@@ -17,3 +17,11 @@ Then our script uses before insert and update triggers to store the given passwo
 Following this, we tested the trigger with an insert and an update statement (shown below), and they both resulted in storing the correct hashed password.
 
 \VerbatimInput[label=\fbox{\color{Black}/sql/plsql/triggers/test\_hash\_password.sql}]{../sql/plsql/triggers/test_hash_password.sql}
+
+For our `after' trigger, we found that whenever someone votes on a post, as well as inserting a record into the votes table, we also need to increment the points of the post that was voted on, as well as the points of the author of the post. We therefore created a trigger on the votes table that would do this automatically.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/plsql/triggers/points\_distributer.sql}]{../sql/plsql/triggers/points_distributer.sql}
+
+We then tested it with the insert statement shown below, and indeed, the post and the user both received an additional point.
+
+\VerbatimInput[label=\fbox{\color{Black}/sql/plsql/triggers/test\_points\_distributer.sql}]{../sql/plsql/triggers/test_points_distributer.sql}
