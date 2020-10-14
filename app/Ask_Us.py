@@ -2,6 +2,9 @@
 from PyInquirer import prompt
 import sqlite3
 from pprint import pprint
+from hashlib import sha256
+import base64
+
 connection = sqlite3.connect('app/ask_us.db')
 user = None
 
@@ -34,6 +37,9 @@ def enter_password():
     ]
     return prompt(password_prompt)['password']
 
+def hash_password(password: str) -> str:
+	return base64.b64encode(sha256(password.encode()).digest()).decode('ascii')[:43]
+
 def correct_password(username, password):
     cursor = connection.cursor()
     cursor.execute("SELECT * FROM users WHERE username = ? and password = ?", (username, password))
@@ -42,7 +48,6 @@ def correct_password(username, password):
         return True
     else:
         return False
-
 
 def get_user_data(username):
     global user
