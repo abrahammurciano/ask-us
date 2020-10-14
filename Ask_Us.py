@@ -1,6 +1,8 @@
 # encoding=utf-8
 from PyInquirer import prompt
 import sqlite3
+from pprint import pprint
+connection = sqlite3.connect('AskUs.db')
 
 def enter_username():
     username_prompt = [
@@ -12,10 +14,14 @@ def enter_username():
     ]
     return prompt(username_prompt)['username']
 
-#fill in
 def valid_username(username):
-    # query database
-    return True
+    cursor = connection.cursor()
+    cursor.execute(f"SELECT username FROM users WHERE username = {username}")
+    user = cursor.fetchone()
+    if user:
+        return True
+    else:
+        return False
 
 def enter_password():
     password_prompt = [
@@ -27,10 +33,14 @@ def enter_password():
     ]
     return prompt(password_prompt)['password']
 
-#fill in
 def correct_password(username, password):
-    # query database
-    return True
+    cursor = connection.cursor()
+    cursor.execute(f"SELECT * FROM users WHERE username = {username} and password = {password}")
+    user = cursor.fetchone()
+    if user:
+        return True
+    else:
+        return False
 
 #fill in
 def filter_input(input):
@@ -53,7 +63,11 @@ def get_questions_keyword():
         }
     ]
     word = prompt(search)
-    # query database...
+    cursor = connection.cursor()
+    cursor.execute(f"SELECT * FROM questions WHERE lower(questions.title) like lower({word}) or lower(questions.body) like lower({word}) order by points desc;")
+    questions = cursor.fetchall()
+    # what do we wanna do
+    pprint(questions)
 
 #fill in
 def get_questions_topic(username):
@@ -156,7 +170,6 @@ def main_menu(username):
 
     main_menu(username)
 
-
 if __name__ == "__main__":
     username = enter_username()
     while not valid_username(username):
@@ -169,3 +182,5 @@ if __name__ == "__main__":
         password = enter_password()
 
     main_menu(username)
+
+    connection.close()
