@@ -2,7 +2,10 @@
 from PyInquirer import prompt
 import sqlite3
 from pprint import pprint
-connection = sqlite3.connect('ask_us.db')
+from hashlib import sha256
+import base64
+
+connection = sqlite3.connect('app/ask_us.db')
 user = None
 
 def enter_username():
@@ -34,9 +37,12 @@ def enter_password():
     ]
     return prompt(password_prompt)['password']
 
+def hash_password(password: str) -> str:
+	return base64.b64encode(sha256(password.encode()).digest()).decode('ascii')[:43]
+
 def correct_password(username, password):
     cursor = connection.cursor()
-    cursor.execute("SELECT * FROM users WHERE username = ? and password = ?", (username, password))
+    cursor.execute("SELECT * FROM users WHERE username = ? and password = ?", (username, hash_password(password)))
     user_ = cursor.fetchone()
     if user_:
         return True
@@ -101,7 +107,7 @@ def get_questions_keyword():
     cursor.execute("""
         select *
         from questions
-        where lower(questions.title) like lower(?) or lower(questions.body) like lower(?) 
+        where lower(questions.title) like lower(?) or lower(questions.body) like lower(?)
         order by points desc
         """, (word['search'], word['search']))
     questions = cursor.fetchall()
