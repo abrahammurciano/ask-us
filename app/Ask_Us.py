@@ -2,7 +2,7 @@
 from PyInquirer import prompt
 import sqlite3
 from pprint import pprint
-connection = sqlite3.connect('ask_us.db')
+connection = sqlite3.connect('app/ask_us.db')
 user = None
 
 def enter_username():
