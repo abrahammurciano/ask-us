@@ -42,7 +42,7 @@ def hash_password(password: str) -> str:
 
 def correct_password(username, password):
     cursor = connection.cursor()
-    cursor.execute("SELECT * FROM users WHERE username = ? and password = ?", (username, password))
+    cursor.execute("SELECT * FROM users WHERE username = ? and password = ?", (username, hash_password(password)))
     user_ = cursor.fetchone()
     if user_:
         return True
