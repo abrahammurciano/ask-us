@@ -19,17 +19,12 @@ create package body user_management as
 		id in users.id%type,
 		password in varchar
 	) return boolean is
-		valid number;
+		hashed_pass users.password%type;
 	begin
-		select (
-			case when exists (
-				select * from users u
-				where (u.username = id)
-				and (hash_password(password) = u.password)
-			) then 1 else 0 end
-		) into valid from dual;
+		select password into hashed_pass
+		from users u where u.id = id;
 
-		if valid = 1 then
+		if password = hashed_pass then
 			return true;
 		else
 			return false;
