@@ -4,7 +4,7 @@ create package user_management as
 	) return users.password%type;
 
 	function check_password(
-		id in users.id%type,
+		uid in users.id%type,
 		password in varchar
 	) return boolean;
 

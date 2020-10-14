@@ -16,15 +16,15 @@ create package body user_management as
 	end;
 
 	function check_password(
-		id in users.id%type,
+		uid in users.id%type,
 		password in varchar
 	) return boolean is
 		hashed_pass users.password%type;
 	begin
 		select password into hashed_pass
-		from users u where u.id = id;
+		from users where id = uid;
 
-		if password = hashed_pass then
+		if hash_password(password) = hashed_pass then
 			return true;
 		else
 			return false;
