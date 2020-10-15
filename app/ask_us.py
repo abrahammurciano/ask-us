@@ -105,45 +105,73 @@ def get_user_data(username):
 	cursor.execute("select id, username from users where username = ?", (username,))
 	return cursor.fetchone()
 
+# Takes a list of tuples (each tuple is a question) and asks user to choose one
 def present_questions(questions):
-	titles = []
-	for question in questions:
-		titles.append(question[1])
 	qs = [
 		{
 			'type': 'list',
 			'name': 'question',
 			'message': 'Questions found, select one to continue:',
-			'choices': titles
+			'choices': map(lambda q: str(q[0]) + " - " + q[1], questions),
+			'filter': lambda choice: choice.split(" - ")[0]
 		}
 	]
-	question = prompt(qs)
-	for i, q in enumerate(questions):
-		if q[1] in question:
-			break
-	display_question(questions[i])
+	display_question(prompt(qs)['question'])
 
-def display_question(question):
-	print("QUESTION:")
-	pprint(question)
+def html_strip(html: str) -> str:
+	return re.sub('<[^<]+?>', '', html)
+
+# Takes a quesion id and prints it, with its answers, and all comments
+def display_question(q_id: int):
 	cursor = connection.cursor()
 	cursor.execute("""
-		select body, points, timestamp
-		from comments
-		where parent_post_id = ?
-		order by points desc
-	""", (question[0],))
-	print("COMMENTS:")
-	pprint(cursor.fetchall())
-	cursor2 = connection.cursor()
+		select q.title, q.body, q.points, u.username
+		from questions q inner join users u on q.author_id = u.id
+		where q.post_id = ?
+	""", (q_id,))
+	question = cursor.fetchone()
+	print("QUESTION")
+	print("Title:", question[0])
+	print("Author:", question[3])
+	print("Points:", question[2])
+	print(html_strip(question[1]))
+	print('--------------------')
+	display_comments(q_id)
+	print('--------------------')
+	display_answers(q_id)
+
+# displays comments (recursively) for a given post
+def display_comments(post_id: int, indent: int = 1):
+	cursor = connection.cursor()
 	cursor.execute("""
-		select body, points, accepted, timestamp
-		from answers
-		where question_id = ?
-		order by points desc
-	""", (question[0],))
-	print("ANSWERS:")
-	pprint(cursor2.fetchall())
+		select c.post_id, c.body, c.points, u.username, c.timestamp
+		from comments c inner join users u on c.author_id = u.id
+		where parent_post_id = ?
+		order by c.points desc
+	""", (post_id,))
+	indent_str = "    " * indent
+	for comment in cursor.fetchall():
+		print(indent_str + comment[1])
+		print(indent_str + "~ " + comment[3] + ", " + str(comment[2]) + " points, " + comment[4])
+		display_comments(comment[0], indent + 1)
+
+# display all answers to a given question
+def display_answers(q_id: int):
+	print("\nANSWERS")
+	cursor = connection.cursor()
+	cursor.execute("""
+		select a.post_id, a.body, a.points, a.accepted, a.timestamp, u.username
+		from answers a inner join users u on a.author_id = u.id
+		where question_id = 1
+		order by a.points desc;
+	""")
+	for answer in cursor.fetchall():
+		print(answer[1])
+		print("~ " + answer[5] + (", Accepted, " if answer[3] != 0 else ", ") + str(answer[2]) + " points, " + answer[4])
+		print('--------------------')
+		display_comments(answer[0])
+		print('--------------------')
+
 
 def get_questions_keyword():
 	search = [
@@ -334,31 +362,32 @@ def main_menu():
 			'name': 'command',
 			'message': 'What would you like to see?',
 			'choices': [
-				'1- Obtain all questions whose title or body contain keywords',
-				'2- Retrieve the most popular questions which relate to a topic you follow',
-				'3- Retrieve the newest unanswered questions which relate to a topic you follow',
-				'4- Obtain all answers to questions as well as all comments to posts which were posted by you, sorted from newest to oldest',
-				'5- Retrieve all questions, answers, and comments you authored, sorted by newest first',
-				'6- Ask a question',
-				'0- Sign out'
-			]
+				'1 - Obtain all questions whose title or body contain keywords',
+				'2 - Retrieve the most popular questions which relate to a topic you follow',
+				'3 - Retrieve the newest unanswered questions which relate to a topic you follow',
+				'4 - Obtain all answers to questions as well as all comments to posts which were posted by you, sorted from newest to oldest',
+				'5 - Retrieve all questions, answers, and comments you authored, sorted by newest first',
+				'6 - Ask a question',
+				'0 - Sign out'
+			],
+			'filter': lambda choice: int(choice[0])
 		}
 	]
 	command = prompt(menu)
 
-	if command['command'][0] == '1':
+	if command['command'] == 1:
 		get_questions_keyword()
-	elif command['command'][0] == '2':
+	elif command['command'] == 2:
 		get_questions_topic()
-	elif command['command'][0] == '3':
+	elif command['command'] == 3:
 		get_unanswered_questions()
-	elif command['command'][0] == '4':
+	elif command['command'] == 4:
 		get_answers_to_you()
-	elif command['command'][0] == '5':
+	elif command['command'] == 5:
 		get_your_posts()
-	elif command['command'][0] == '6':
+	elif command['command'] == 6:
 		ask_question()
-	else: # command['command'][0] == '0' exit...
+	else: # command['command'] == 0 exit...
 		return
 
 	main_menu()
