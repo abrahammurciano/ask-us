@@ -1,6 +1,12 @@
 \subsection{Writing a Full PL/SQL Program}
 
-In this section we are tasked with creating a PL/SQL package. We have chosen to create a package which will contain some procedures to manage some user data. Here are the package specification and the body.
+In this section we are tasked with creating a PL/SQL package. We have chosen to create a package which will contain some procedures to manage some user data. Below are the package specification and the body.
+
+In our package we have a function \verb`hash_password` which returns a base 64 encoded SHA256 hash of the input string, capable of converting any user's password into the form stored in the database, both for comparison and storage purposes.
+
+Additionally we have a \verb`check_password` function, which uses the aforementioned function to check if an input password matches the hash stored in the database for a particular user.
+
+Finally, we have a \verb`change_password` procedure, which takes a user ID, their old password, and a new password. First it checks that the old password is correct using the previous function, then it uses a cursor to loop through all users who use the same password, and print a warning for each of these users saying that said user uses the same password (which is a catastrophic idea regarding security, but for the purposes of demonstrating a cursor loop, it splendidly suffices).
 
 \VerbatimInput[label=\fbox{\color{Black}/sql/plsql/package/specification.sql}]{../sql/plsql/package/specification.sql}
 \VerbatimInput[label=\fbox{\color{Black}/sql/plsql/package/body.sql}]{../sql/plsql/package/body.sql}

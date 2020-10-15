@@ -4,15 +4,47 @@
 \usepackage{config_fancyverbatim}
 \usepackage{config_hyperlinks}
 \usepackage[final]{pdfpages}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{etoolbox}
 
 \setlength{\parskip}{\medskipamount}
 
 \title{Mini Project in Database Systems}
-\author{Elad Harizy and Abraham Murciano}
+\author{Abraham Murciano, Elad Harizy, and Ezra Dweck}
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+\pagestyle{fancy}
+\rhead{\thetitle}
 
 \begin{document}
 
 \maketitle
+
+\setcounter{tocdepth}{2} %set depth of printed table of contets.
+
+\makeatletter
+
+
+\patchcmd{\l@section}
+  {\hfil}
+  {\leaders\hbox{\normalfont$\m@th\mkern \@dotsep mu\hbox{.}\mkern \@dotsep     mu$}\hfill}
+  {}{}
+
+\renewcommand\tableofcontents{%
+    \begin{multicols}{2}[\section*{\contentsname
+        \@mkboth{%
+           \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}]%
+    \@starttoc{toc}%
+    \end{multicols}%
+    }
+
+\makeatother %print dots in sections in toc.
 
 \tableofcontents
 
@@ -43,5 +75,9 @@
 
 \input{third-stage/1.extending-sql.tex}
 \input{third-stage/2.plsql.tex}
+
+\section{Fourth Stage}
+
+\input{fourth-stage/fourth-stage.tex}
 
 \end{document}

@@ -38,7 +38,7 @@ create package body user_management as
 	) is
 		hashed_pass users.password%type := hash_password(new_pass);
 		cursor c_users is
-			select username, password from users
+			select username from users
 			where password = hashed_pass;
 	begin
 		if check_password(id, old_pass) = false then
