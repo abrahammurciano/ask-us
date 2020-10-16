@@ -6,9 +6,11 @@ from hashlib import sha256
 import base64
 from typing import Tuple
 import re
+from tabulate import tabulate
 
 connection = sqlite3.connect('app/ask_us.db')
 user = None
+
 
 # prompts for username and password and returns a tuple (id: int, username: str)
 def login() -> Tuple[int, str]:
@@ -29,25 +31,27 @@ def login() -> Tuple[int, str]:
 
 		password = enter_password()
 		if not correct_password(username, password):
-			print("incorrect password")
+			print('incorrect password')
 			continue
 
 		break
 	return get_user_data(username)
+
 
 def signup(username: str) -> Tuple[int, str]:
 	while True:
 		password = enter_password()
 		if (password == enter_password('Repeat password')):
 			break
-		print("Passwords do not match")
+		print('Passwords do not match')
 	hashed_pass = hash_password(password)
 	email = enter_email()
 	cursor = connection.cursor()
-	cursor.execute("insert into users (username, email, password) values (?, ?, ?)", (username, email, hashed_pass))
+	cursor.execute('insert into users (username, email, password) values (?, ?, ?)', (username, email, hashed_pass))
 	connection.commit()
 	user_id = get_user_id(username)
 	return (user_id, username) if user_id is not None else None
+
 
 def enter_username(message = 'Enter username'):
 	username_prompt = [
@@ -59,12 +63,14 @@ def enter_username(message = 'Enter username'):
 	]
 	return prompt(username_prompt)['username']
 
+
 # Returns id of username provided, or None if user does not exist
 def get_user_id(username: str) -> int:
 	cursor = connection.cursor()
-	cursor.execute("select id from users where username = ?", (username,))
+	cursor.execute('select id from users where username = ?', (username,))
 	user_id = cursor.fetchone()
 	return user_id[0] if user_id else None
+
 
 def enter_password(message = 'Enter password'):
 	password_prompt = [
@@ -72,10 +78,11 @@ def enter_password(message = 'Enter password'):
 			'type': 'password',
 			'name': 'password',
 			'message': message,
-			'validate': lambda password: len(password) >= 8 or "Password must be at least 8 characters"
+			'validate': lambda password: len(password) >= 8 or 'Password must be at least 8 characters'
 		}
 	]
 	return prompt(password_prompt)['password']
+
 
 def enter_email(message = 'Enter email'):
 	email_prompt = [
@@ -83,27 +90,31 @@ def enter_email(message = 'Enter email'):
 			'type': 'input',
 			'name': 'email',
 			'message': message,
-			'validate': lambda email: True if re.fullmatch(r"[^@]+@[^@]+\.[^@]+", email) else "Invalid email"
+			'validate': lambda email: True if re.fullmatch(r'[^@]+@[^@]+\.[^@]+', email) else 'Invalid email'
 		}
 	]
 	return prompt(email_prompt)['email']
 
+
 def hash_password(password: str) -> str:
 	return base64.b64encode(sha256(password.encode()).digest()).decode('ascii')[:43]
 
+
 def correct_password(username, password):
 	cursor = connection.cursor()
-	cursor.execute("SELECT * FROM users WHERE username = ? and password = ?", (username, hash_password(password)))
+	cursor.execute('SELECT * FROM users WHERE username = ? and password = ?', (username, hash_password(password)))
 	user_ = cursor.fetchone()
 	if user_:
 		return True
 	else:
 		return False
 
+
 def get_user_data(username):
 	cursor = connection.cursor()
-	cursor.execute("select id, username from users where username = ?", (username,))
+	cursor.execute('select id, username from users where username = ?', (username,))
 	return cursor.fetchone()
+
 
 # Takes a list of tuples (each tuple is a question) and asks user to choose one
 def present_questions(questions):
@@ -112,36 +123,44 @@ def present_questions(questions):
 			'type': 'list',
 			'name': 'question',
 			'message': 'Questions found, select one to continue:',
-			'choices': map(lambda q: str(q[0]) + " - " + q[1], questions),
-			'filter': lambda choice: choice.split(" - ")[0]
+			'choices': map(lambda q: str(q[0]) + ' - ' + q[1], questions),
+			'filter': lambda choice: choice.split(' - ')[0]
 		}
 	]
 	display_question(prompt(qs)['question'])
 
+
 def html_strip(html: str) -> str:
 	return re.sub('<[^<]+?>', '', html)
+
 
 # Takes a quesion id and prints it, with its answers, and all comments
 def display_question(q_id: int):
 	cursor = connection.cursor()
 	cursor.execute("""
-		select q.title, q.body, q.points, u.username
+		select q.title, q.body, q.points, u.username, q.timestamp
 		from questions q inner join users u on q.author_id = u.id
 		where q.post_id = ?
 	""", (q_id,))
 	question = cursor.fetchone()
-	print("QUESTION")
-	print("Title:", question[0])
-	print("Author:", question[3])
-	print("Points:", question[2])
-	print(html_strip(question[1]))
+	print('QUESTION')
+	print_question(q_id, question[0], question[1], question[2], question[3], question[4])
 	print('--------------------')
 	display_comments(q_id)
-	print('--------------------')
+	print('====================')
 	display_answers(q_id)
+	question_menu(q_id)
+
+
+# prints a single question
+def print_question(id: int, title: str, body: str, points: int, username: str, timestamp: str):
+	print(tabulate([[title]], tablefmt='grid'))
+	print(html_strip(body))
+	print('~ ID ' + str(id), username, str(points) + ' pts', timestamp, sep=' | ')
+
 
 # displays comments (recursively) for a given post
-def display_comments(post_id: int, indent: int = 1):
+def display_comments(post_id: int, indent: int = 1, indent_block: str = ' ' * 4):
 	cursor = connection.cursor()
 	cursor.execute("""
 		select c.post_id, c.body, c.points, u.username, c.timestamp
@@ -149,28 +168,41 @@ def display_comments(post_id: int, indent: int = 1):
 		where parent_post_id = ?
 		order by c.points desc
 	""", (post_id,))
-	indent_str = "    " * indent
-	for comment in cursor.fetchall():
-		print(indent_str + comment[1])
-		print(indent_str + "~ " + comment[3] + ", " + str(comment[2]) + " points, " + comment[4])
-		display_comments(comment[0], indent + 1)
+	comments = cursor.fetchall()
+	if not comments:
+		print('Wow, such empty!')
+	else:
+		for comment in comments:
+			print_comment(comment[0], comment[1], comment[2], comment[3], comment[4], indent_block * indent)
+			display_comments(comment[0], indent + 1)
+
+
+# prints a single comment
+def print_comment(id: int, body: str, points: int, username: str, timestamp: str, indent_str: str):
+	print(indent_str + body)
+	print(indent_str + '~ ID ' + str(id), username, str(points) + ' pts', timestamp, sep=' | ')
+
 
 # display all answers to a given question
 def display_answers(q_id: int):
-	print("\nANSWERS")
+	print('\nANSWERS')
 	cursor = connection.cursor()
 	cursor.execute("""
-		select a.post_id, a.body, a.points, a.accepted, a.timestamp, u.username
+		select a.post_id, a.body, a.points, u.username, a.timestamp, a.accepted
 		from answers a inner join users u on a.author_id = u.id
 		where question_id = 1
 		order by a.points desc;
 	""")
 	for answer in cursor.fetchall():
-		print(answer[1])
-		print("~ " + answer[5] + (", Accepted, " if answer[3] != 0 else ", ") + str(answer[2]) + " points, " + answer[4])
+		print_answer(answer[0], answer[1], answer[2], answer[3], answer[4], answer[5] != 0)
 		print('--------------------')
 		display_comments(answer[0])
-		print('--------------------')
+		print('====================')
+
+
+def print_answer(id: int, body: str, points: int, username: str, timestamp: str, accepted: bool):
+	print(body)
+	print('~ ID ' + str(id), username, ('Accepted, ' if accepted else '') + str(points) + ' pts', timestamp)
 
 
 def get_questions_keyword():
@@ -210,9 +242,10 @@ def get_questions_topic():
 		""", (user[0],))
 	questions = cursor.fetchall()
 	if not questions:
-		print("you do not follow any topics")
+		print('you do not follow any topics')
 		return
 	present_questions(questions)
+
 
 #fill in
 def get_unanswered_questions():
@@ -237,9 +270,10 @@ def get_unanswered_questions():
 			""", (user[0],))
 	questions = cursor.fetchall()
 	if not questions:
-		print("you do not follow any topics")
+		print('you do not follow any topics')
 		return
 	present_questions(questions)
+
 
 #fill in
 def get_answers_to_you():
@@ -313,11 +347,13 @@ def get_your_posts():
 		""", (user[0], user[0], user[0]))
 	pprint(cursor.fetchall())
 
+
 def existing_topic(topic):
 	cursor = connection.cursor()
-	cursor.execute("select id from topics where label = ?", (topic,))
+	cursor.execute('select id from topics where label = ?', (topic,))
 	topic_ = cursor.fetchone()
 	return topic_
+
 
 #fill in
 def ask_question():
@@ -342,17 +378,56 @@ def ask_question():
 	answers = prompt(questions)
 	topic_id = existing_topic(answers['topic'])
 	if not topic_id:
-		print("cannot use topic that doesnt exist")
+		print('cannot use topic that doesnt exist')
 		return
 	cursor = connection.cursor()
-	cursor.execute("insert into posts default values")
-	cursor.execute("select id from posts where rowid = ?", (cursor.lastrowid,))
+	cursor.execute('insert into posts default values')
+	cursor.execute('select id from posts where rowid = ?', (cursor.lastrowid,))
 	post_id = cursor.fetchone()[0]
 	cursor.execute("""
 	insert into questions(post_id, title, body, author_id)
 	values(?,?,?,?)
 	""", (post_id, answers['title'], answers['body'], user[0]))
-	cursor.execute("insert into relates_to(question_id, topic_id) values(?,?)", (post_id, topic_id[0]))
+	cursor.execute('insert into relates_to(question_id, topic_id) values(?,?)', (post_id, topic_id[0]))
+
+
+def question_menu(q_id):
+	menu = [
+		{
+			'type': 'list',
+			'name': 'command',
+			'message': 'What would you like to do?',
+			'choices': [
+				'1 - Vote for the question, an answer, or a comment',
+				'2 - Answer the question',
+				'3 - Write a comment on the question, an answer, or a comment',
+				'0 - Main menu'
+			],
+			'filter': lambda choice: int(choice.split(' - ')[0])
+		}
+	]
+	command = prompt(menu)
+
+	if command['command'] == 1:
+		cast_vote_menu()
+	elif command['command'] == 2:
+		add_answer_menu(q_id)
+	elif command['command'] == 3:
+		add_comment_menu()
+	else:
+		return
+
+
+def cast_vote_menu():
+	pass
+
+
+def add_answer_menu(q_id: int):
+	pass
+
+
+def add_comment_menu():
+	pass
 
 
 def main_menu():
@@ -370,7 +445,7 @@ def main_menu():
 				'6 - Ask a question',
 				'0 - Sign out'
 			],
-			'filter': lambda choice: int(choice[0])
+			'filter': lambda choice: int(choice.split(' - ')[0])
 		}
 	]
 	command = prompt(menu)
@@ -392,7 +467,8 @@ def main_menu():
 
 	main_menu()
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
 	user = login()
 
 	main_menu()
