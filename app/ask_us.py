@@ -7,9 +7,10 @@ import base64
 from typing import Tuple
 import re
 from tabulate import tabulate
+import os
 
 connection = sqlite3.connect('app/ask_us.db')
-user = None
+user = None		# tuple (id: int, username: str)
 
 
 # prompts for username and password and returns a tuple (id: int, username: str)
@@ -124,7 +125,7 @@ def present_questions(questions):
 			'name': 'question',
 			'message': 'Questions found, select one to continue:',
 			'choices': map(lambda q: str(q[0]) + ' - ' + q[1], questions),
-			'filter': lambda choice: choice.split(' - ')[0]
+			'filter': lambda choice: int(choice.split(' - ')[0])
 		}
 	]
 	display_question(prompt(qs)['question'])
@@ -143,6 +144,8 @@ def display_question(q_id: int):
 		where q.post_id = ?
 	""", (q_id,))
 	question = cursor.fetchone()
+
+	clear()
 	print('QUESTION')
 	print_question(q_id, question[0], question[1], question[2], question[3], question[4])
 	print('--------------------')
@@ -152,6 +155,10 @@ def display_question(q_id: int):
 	question_menu(q_id)
 
 
+def clear():
+    os.system('cls' if os.name=='nt' else 'clear')
+
+
 # prints a single question
 def print_question(id: int, title: str, body: str, points: int, username: str, timestamp: str):
 	print(tabulate([[title]], tablefmt='grid'))
@@ -159,8 +166,8 @@ def print_question(id: int, title: str, body: str, points: int, username: str, t
 	print('~ ID ' + str(id), username, str(points) + ' pts', timestamp, sep=' | ')
 
 
-# displays comments (recursively) for a given post
-def display_comments(post_id: int, indent: int = 1, indent_block: str = ' ' * 4):
+# displays comments (recursively) for a given post, returning the number of comments
+def display_comments(post_id: int, indent: int = 1, indent_block: str = ' ' * 4, n_comments = 0) -> int:
 	cursor = connection.cursor()
 	cursor.execute("""
 		select c.post_id, c.body, c.points, u.username, c.timestamp
@@ -170,11 +177,14 @@ def display_comments(post_id: int, indent: int = 1, indent_block: str = ' ' * 4)
 	""", (post_id,))
 	comments = cursor.fetchall()
 	if not comments:
-		print('Wow, such empty!')
-	else:
-		for comment in comments:
-			print_comment(comment[0], comment[1], comment[2], comment[3], comment[4], indent_block * indent)
-			display_comments(comment[0], indent + 1)
+		if n_comments == 0:
+			print('Wow, such empty!')
+		return n_comments
+	for comment in comments:
+		n_comments += 1
+		print_comment(comment[0], comment[1], comment[2], comment[3], comment[4], indent_block * indent)
+		n_comments = display_comments(comment[0], indent + 1, n_comments = n_comments)
+	return n_comments
 
 
 # prints a single comment
@@ -185,15 +195,15 @@ def print_comment(id: int, body: str, points: int, username: str, timestamp: str
 
 # display all answers to a given question
 def display_answers(q_id: int):
-	print('\nANSWERS')
 	cursor = connection.cursor()
 	cursor.execute("""
 		select a.post_id, a.body, a.points, u.username, a.timestamp, a.accepted
 		from answers a inner join users u on a.author_id = u.id
-		where question_id = 1
+		where question_id = ?
 		order by a.points desc;
-	""")
+	""", (q_id,))
 	for answer in cursor.fetchall():
+		print('\nANSWER')
 		print_answer(answer[0], answer[1], answer[2], answer[3], answer[4], answer[5] != 0)
 		print('--------------------')
 		display_comments(answer[0])
@@ -202,7 +212,7 @@ def display_answers(q_id: int):
 
 def print_answer(id: int, body: str, points: int, username: str, timestamp: str, accepted: bool):
 	print(body)
-	print('~ ID ' + str(id), username, ('Accepted, ' if accepted else '') + str(points) + ' pts', timestamp)
+	print('~ ID ' + str(id), username, ('Accepted, ' if accepted else '') + str(points) + ' pts', timestamp, sep = ' | ')
 
 
 def get_questions_keyword():
@@ -378,17 +388,25 @@ def ask_question():
 	answers = prompt(questions)
 	topic_id = existing_topic(answers['topic'])
 	if not topic_id:
-		print('cannot use topic that doesnt exist')
+		print('cannot use topic that doesn\'t exist')
 		return
+	post_id = create_post()
 	cursor = connection.cursor()
-	cursor.execute('insert into posts default values')
-	cursor.execute('select id from posts where rowid = ?', (cursor.lastrowid,))
-	post_id = cursor.fetchone()[0]
 	cursor.execute("""
 	insert into questions(post_id, title, body, author_id)
 	values(?,?,?,?)
 	""", (post_id, answers['title'], answers['body'], user[0]))
 	cursor.execute('insert into relates_to(question_id, topic_id) values(?,?)', (post_id, topic_id[0]))
+	connection.commit()
+
+
+# inserts row into posts table, and returns the ID inserted
+def create_post() -> int:
+	cursor = connection.cursor()
+	cursor.execute('insert into posts default values')
+	connection.commit()
+	cursor.execute('select id from posts where rowid = ?', (cursor.lastrowid,))
+	return cursor.fetchone()[0]
 
 
 def question_menu(q_id):
@@ -409,25 +427,75 @@ def question_menu(q_id):
 	command = prompt(menu)
 
 	if command['command'] == 1:
-		cast_vote_menu()
+		cast_vote()
 	elif command['command'] == 2:
-		add_answer_menu(q_id)
+		add_answer(q_id)
 	elif command['command'] == 3:
-		add_comment_menu()
-	else:
+		add_comment()
+	elif command['command'] == 0:
 		return
+	display_question(q_id)
+
+def cast_vote():
+	menu = [
+		{
+			'type': 'input',
+			'name': 'post_id',
+			'message': 'Enter the ID of the post you want to vote for',
+			'validate': lambda id: id.isdigit() or 'ID must be a number',
+			'filter': lambda id: int(id)
+		}
+	]
+	id = prompt(menu)['post_id']
+	cursor = connection.cursor()
+	try:
+		cursor.execute('insert into votes (user_id, post_id) values (?, ?)', (user[0], id))
+	except sqlite3.IntegrityError as e:
+		print("Error: You have already voted on this post")
+	else:
+		cursor.execute("""
+			update users set points = points + 1
+			where id = (select author_id from all_posts where id = ?)
+		""", (id,))
+		cursor.execute('update questions set points = points + 1 where post_id = ?', (id,))
+		cursor.execute('update answers set points = points + 1 where post_id = ?', (id,))
+		cursor.execute('update comments set points = points + 1 where post_id = ?', (id,))
+		connection.commit()
 
 
-def cast_vote_menu():
-	pass
+def add_answer(q_id: int):
+	menu = [
+		{
+			'type': 'input',
+			'name': 'answer',
+			'message': 'Type your answer'
+		}
+	]
+	answer = prompt(menu)['answer']
+	cursor = connection.cursor()
+	cursor.execute('insert into answers (post_id, question_id, body, author_id) values (?, ?, ?, ?)', (create_post(), q_id, answer, user[0]))
+	connection.commit()
 
 
-def add_answer_menu(q_id: int):
-	pass
-
-
-def add_comment_menu():
-	pass
+def add_comment():
+	menu = [
+		{
+			'type': 'input',
+			'name': 'parent_post_id',
+			'message': 'Enter the ID of the post you want to comment under',
+			'validate': lambda id: id.isdigit() or 'ID must be a number',
+			'filter': lambda id: int(id)
+		},
+		{
+			'type': 'input',
+			'name': 'body',
+			'message': 'Type your comment'
+		}
+	]
+	answers = prompt(menu)
+	cursor = connection.cursor()
+	cursor.execute('insert into comments (post_id, parent_post_id, body, author_id) values (?, ?, ?, ?)', (create_post(), answers['parent_post_id'], answers['body'], user[0]))
+	connection.commit()
 
 
 def main_menu():
