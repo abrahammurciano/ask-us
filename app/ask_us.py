@@ -497,6 +497,46 @@ def add_comment():
 	cursor.execute('insert into comments (post_id, parent_post_id, body, author_id) values (?, ?, ?, ?)', (create_post(), answers['parent_post_id'], answers['body'], user[0]))
 	connection.commit()
 
+def search_topics(topic):
+	cursor = connection.cursor()
+	cursor.execute("""
+			select id, label
+			from topics
+			where lower(label) like lower('%'||?||'%') or lower(description) like lower('%'||?||'%')
+			""", (topic, topic))
+	topics = cursor.fetchall()
+	topic_ids, topic_labels, choices = [], [], []
+	for topic in topics:
+		#topic_ids.append(topic[0])
+		#topic_labels.append(topic[1])
+		choices.append({'name':topic[1]})
+	topics_checkbox = [
+		{
+			'type': 'checkbox',
+			'name': 'topics',
+			'message': 'Choose topics:',
+			'choices': choices
+		}
+	]
+	answer = prompt(topics_checkbox)
+	print('yes')
+	for topic in topics:
+		topic
+
+
+def browse_topics():
+	topic_search = [
+		{
+			'type': 'input',
+			'name': 'topic',
+			'message': 'What would you like to search for?'
+		}
+	]
+	answer = prompt(topic_search)['topic']
+	topics = search_topics(answer)
+
+
+
 
 def main_menu():
 	menu = [
@@ -511,6 +551,7 @@ def main_menu():
 				'4 - Obtain all answers to questions as well as all comments to posts which were posted by you, sorted from newest to oldest',
 				'5 - Retrieve all questions, answers, and comments you authored, sorted by newest first',
 				'6 - Ask a question',
+				'7 - Browse topics',
 				'0 - Sign out'
 			],
 			'filter': lambda choice: int(choice.split(' - ')[0])
@@ -530,6 +571,8 @@ def main_menu():
 		get_your_posts()
 	elif command['command'] == 6:
 		ask_question()
+	elif command['command'] == 7:
+		browse_topics()
 	else: # command['command'] == 0 exit...
 		return
 
