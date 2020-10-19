@@ -367,13 +367,8 @@ def existing_topic(topic):
 
 #fill in
 def ask_question():
-	# see if we can do checkbox of topics
+	topic_ids = search_topics()
 	questions = [
-		{
-			'type': 'input',
-			'name': 'topic',
-			'message': 'What topic does your question relate to?'
-		},
 		{
 			'type': 'input',
 			'name': 'title',
@@ -386,9 +381,8 @@ def ask_question():
 		}
 	]
 	answers = prompt(questions)
-	topic_id = existing_topic(answers['topic'])
-	if not topic_id:
-		print('cannot use topic that doesn\'t exist')
+	if not topic_ids:
+		print('Question must be related to at least one topic')
 		return
 	post_id = create_post()
 	cursor = connection.cursor()
@@ -396,7 +390,10 @@ def ask_question():
 	insert into questions(post_id, title, body, author_id)
 	values(?,?,?,?)
 	""", (post_id, answers['title'], answers['body'], user[0]))
-	cursor.execute('insert into relates_to(question_id, topic_id) values(?,?)', (post_id, topic_id[0]))
+	relates_to_insert = []
+	for id in topic_ids:
+		relates_to_insert.append((post_id,id))
+	cursor.executemany('insert into relates_to(question_id, topic_id) values(?,?)', relates_to_insert)
 	connection.commit()
 
 
@@ -497,7 +494,17 @@ def add_comment():
 	cursor.execute('insert into comments (post_id, parent_post_id, body, author_id) values (?, ?, ?, ?)', (create_post(), answers['parent_post_id'], answers['body'], user[0]))
 	connection.commit()
 
-def search_topics(topic):
+def search_topics(topic_ids = []):
+	# get user input for what topics he would like
+	topic_search = [
+		{
+			'type': 'input',
+			'name': 'topic',
+			'message': 'What would you like to search for?'
+		}
+	]
+	topic = prompt(topic_search)['topic']
+	# query database for topics related to his search
 	cursor = connection.cursor()
 	cursor.execute("""
 			select id, label
@@ -505,10 +512,9 @@ def search_topics(topic):
 			where lower(label) like lower('%'||?||'%') or lower(description) like lower('%'||?||'%')
 			""", (topic, topic))
 	topics = cursor.fetchall()
-	topic_ids, topic_labels, choices = [], [], []
+	# create list of choices for checkbox
+	choices = []
 	for topic in topics:
-		#topic_ids.append(topic[0])
-		#topic_labels.append(topic[1])
 		choices.append({'name':topic[1]})
 	topics_checkbox = [
 		{
@@ -518,25 +524,28 @@ def search_topics(topic):
 			'choices': choices
 		}
 	]
-	answer = prompt(topics_checkbox)
-	print('yes')
+	answers = prompt(topics_checkbox)['topics']
 	for topic in topics:
-		topic
-
-
-def browse_topics():
-	topic_search = [
+		if topic[1] in answers:
+			topic_ids.append(topic[0])
+	continue_search = [
 		{
-			'type': 'input',
-			'name': 'topic',
-			'message': 'What would you like to search for?'
+			'type': 'confirm',
+			'message': 'Continue to search?',
+			'name': 'search',
+			'default': False,
 		}
 	]
-	answer = prompt(topic_search)['topic']
-	topics = search_topics(answer)
+	if prompt(continue_search)['search']:
+		search_topics(topic_ids)
+	return topic_ids
 
-
-
+def follow_topics():
+	topics = search_topics()
+	cursor = connection.cursor()
+	for topic in topics:
+		cursor.execute('insert into follows (user_id, topic_id) values (?, ?)', (user[0], topic))
+	connection.commit()
 
 def main_menu():
 	menu = [
@@ -572,7 +581,7 @@ def main_menu():
 	elif command['command'] == 6:
 		ask_question()
 	elif command['command'] == 7:
-		browse_topics()
+		follow_topics()
 	else: # command['command'] == 0 exit...
 		return
 
