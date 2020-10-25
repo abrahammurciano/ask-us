@@ -512,22 +512,25 @@ def search_topics(topic_ids = []):
 			where lower(label) like lower('%'||?||'%') or lower(description) like lower('%'||?||'%')
 			""", (topic, topic))
 	topics = cursor.fetchall()
-	# create list of choices for checkbox
-	choices = []
-	for topic in topics:
-		choices.append({'name':topic[1]})
-	topics_checkbox = [
-		{
-			'type': 'checkbox',
-			'name': 'topics',
-			'message': 'Choose topics:',
-			'choices': choices
-		}
-	]
-	answers = prompt(topics_checkbox)['topics']
-	for topic in topics:
-		if topic[1] in answers:
-			topic_ids.append(topic[0])
+	if topics:
+		# create list of choices for checkbox
+		choices = []
+		for topic in topics:
+			choices.append({'name':topic[1]})
+		topics_checkbox = [
+			{
+				'type': 'checkbox',
+				'name': 'topics',
+				'message': 'Choose topics:',
+				'choices': choices
+			}
+		]
+		answers = prompt(topics_checkbox)['topics']
+		for topic in topics:
+			if topic[1] in answers:
+				topic_ids.append(topic[0])
+	else:
+		print('No topics found.')
 	continue_search = [
 		{
 			'type': 'confirm',
@@ -560,7 +563,7 @@ def main_menu():
 				'4 - Obtain all answers to questions as well as all comments to posts which were posted by you, sorted from newest to oldest',
 				'5 - Retrieve all questions, answers, and comments you authored, sorted by newest first',
 				'6 - Ask a question',
-				'7 - Browse topics',
+				'7 - Follow topics',
 				'0 - Sign out'
 			],
 			'filter': lambda choice: int(choice.split(' - ')[0])
