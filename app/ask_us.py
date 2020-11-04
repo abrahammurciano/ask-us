@@ -335,7 +335,14 @@ def get_answers_to_you():
 					p.author_id = ?
 		) order by timestamp desc
 		""", (user[0], user[0], user[0], user[0]))
-	pprint(cursor.fetchall())
+	for post in cursor.fetchall():
+		print(post[0])
+		print('--------------------')
+		print(post[1])
+		print(post[2])
+		print('====================')
+		print()
+
 
 
 def get_your_posts():
@@ -359,7 +366,14 @@ def get_your_posts():
 	for post in cursor.fetchall():
 		flag = True
 		print('--------------------')
-		print(post)
+		if post[0] == 'Q':
+			print('Question: ')
+		elif post[0] == 'C':
+			print('Comment: ')
+		else: #'A'
+			print('Answer: ')
+		print(post[1], post[2])
+		print(post[3])
 		print('--------------------')
 	if not flag:
 		print('you have no posts')
