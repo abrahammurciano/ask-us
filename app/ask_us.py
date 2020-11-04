@@ -342,20 +342,27 @@ def get_your_posts():
 	cursor = connection.cursor()
 	cursor.execute("""
 		select * from (
-			select title, points, timestamp
+			select 'Q', title, points, timestamp
 			from questions
 			where author_id = ?
 			union
-			select substr(body, 1, 4000), points, timestamp
+			select 'A', substr(body, 1, 4000), points, timestamp
 			from answers
 			where author_id = ?
 			union
-			select substr(body, 1, 4000), points, timestamp
+			select 'C', substr(body, 1, 4000), points, timestamp
 			from comments
 			where author_id = ?
 		) order by timestamp desc;
 		""", (user[0], user[0], user[0]))
-	pprint(cursor.fetchall())
+	flag = False
+	for post in cursor.fetchall():
+		flag = True
+		print('--------------------')
+		print(post)
+		print('--------------------')
+	if not flag:
+		print('you have no posts')
 
 
 def existing_topic(topic):
@@ -367,6 +374,7 @@ def existing_topic(topic):
 
 #fill in
 def ask_question():
+	print('SEARCH FOR TOPICS:')
 	topic_ids = search_topics()
 	questions = [
 		{
